@@ -1,0 +1,8 @@
+{
+    "require": {
+        "google/apiclient": "2.12.1",
+        "ddeboer/imap": "^1.14",
+        "league/oauth2-google": "^4.0",
+        "javanile/php-imap2": "^0.1.10"
+    }
+}

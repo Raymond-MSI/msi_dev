@@ -1,0 +1,13 @@
+<?php
+// Local
+// $hostname = "localhost";
+// $database = "sa_microservices";
+// $username = "root";
+// $password = "";
+
+// Live
+$hostname = "10.20.50.163";
+$database = "sa";
+$username = "moodleuser";
+$password = "P@ssw0rd";
+?>

@@ -1,0 +1,755 @@
+<?php
+if((isset($property)) && ($property == 1)) {
+    $version = '1.0';
+    $author = 'Syamsul Arham';
+} else {
+?>
+    <?php 
+    $modulename = "Service Budget";
+    $userpermission = useraccess($modulename); 
+    if(USERPERMISSION=="7b7bc2512ee1fedcd76bdc68926d4f7b" || USERPERMISSION=="dbf36ff3e3827639223983ee8ac47b42" || USERPERMISSION=="726ea0dd998698e8a87f8e344d373533" || USERPERMISSION=="5898299487c5b9cdbe7d61809fd20213" || USERPERMISSION=="335a66c239a137964a33e8c60b24e3d9" || USERPERMISSION=="0162bce636a63c3ae499224203e06ed0" || USERPERMISSION=="858ba4765e53c712ef672a9570474b1d" ) {
+    ?>
+    <input type="hidden" id="user_name" value="<?php echo $_SESSION['Microservices_UserName']; ?>">
+        <script>
+            $(document).ready(function() {
+                var tableUnApproved = $('#view_project_list').DataTable( {
+                    dom: 'Blfrtip',
+                    select: {
+                        style: 'single'
+                    },
+                    buttons: [
+                        // {
+                        //     extend: 'colvis',
+                        //     text: "<i class='fa fa-columns'></i>",
+                        //     collectionLayout: 'fixed four-column',
+                        //     enabled: false
+                        // },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Add SB'><i class='fa fa-plus'></i></span>",
+                            action: function () {
+                                window.location.href = "index.php?mod=project_list";
+                                // window.location.href = "index.php?mod=service_budget&act=lookup_project";
+                            },
+                            enabled: true
+                        },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Edit SB'><i class='fa fa-pen'></i></span>",
+                            action: function () {
+                                var rownumber = tableUnApproved.rows({selected: true}).indexes();
+                                var project_code = tableUnApproved.cell( rownumber,1 ).data();
+                                var so_number = tableUnApproved.cell( rownumber,5 ).data();
+                                if(project_code==null) {
+                                    alert ("Please select the data.");
+                                } else {
+                                    window.location.href = "index.php?mod=service_budget&act=edit&project_code="+project_code+"&so_number="+so_number+"&submit=Draft";
+                                }
+                            },
+                            enabled: true
+                        },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='View SB'><i class='fa fa-eye'></i></span>",
+                            action: function () {
+                                var rownumber = tableUnApproved.rows({selected: true}).indexes();
+                                var project_code = tableUnApproved.cell( rownumber,1 ).data();
+                                var so_number = tableUnApproved.cell( rownumber,5 ).data();
+                                if(project_code==null) {
+                                    alert ("Please select the data.");
+                                } else {
+                                    window.location.href = "index.php?mod=service_budget&act=view&project_code="+project_code+"&so_number="+so_number+"&submit=Draft";
+                                }
+                            },
+                            enabled: false
+                        },
+                        // {
+                        //     text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Delete SB'><i class='fa fa-trash-alt'></i></span>",
+                        //     action: function () {
+                        //         var rownumber = tableApproved.rows({selected: true}).indexes();
+                        //         var project_code = tableApproved.cell( rownumber,1 ).data();
+                        //         var so_number = tableUnApproved.cell( rownumber,5 ).data();
+                        //         if(project_code==null) {
+                        //             alert ("Please select the data.");
+                        //         } else {
+                        //             window.location.href = "index.php?mod=service_budget&act=view&project_code="+project_code+"&so_number="+so_number+"&submit=Draft";
+                        //         }
+                        //     },
+                        //     enabled: false
+                        // },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Download SB'><i class='fa fa-download'></i></span>",
+                            action: function () {
+                                var rownumber = tableUnApproved.rows({selected: true}).indexes();
+                                var project_code = tableUnApproved.cell( rownumber,1 ).data();
+                                var so_number = tableUnApproved.cell( rownumber,5 ).data();
+                                var user_name = document.getElementById("user_name").value;
+                                if(project_code==null) {
+                                    alert ("Please select the data.");
+                                } else {
+                                    // window.location.href = "index.php?mod=service_budget&act=export&project_code="+project_code+"&so_number="+so_number+"&submit=Draft";
+                                    window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf.php?project_code="+project_code+"&so_number="+so_number+"&user="+user_name;
+                                }
+                            },
+                            enabled: false
+                        },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='All Data'><i class='fa fa-database'></i></span>",
+                            action: function () {
+                                window.location.href = "index.php?mod=service_budget&act=all";
+                            },
+                            enabled: false
+                        },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='User Guide'><i class='fa fa-info'></i></span>",
+                            action: function () {
+                                window.open ("https://msizone.mastersystem.co.id/msiguide/category/service-budget/", "_blank");
+                            }
+                        }
+                    ],
+                    "columnDefs": [
+                        {
+                            // "targets": [ 0,3,6,8,11,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 ],
+                            "targets": [0,9,11,12],
+                            "visible": false
+                        },
+                        {
+                            "targets": [6,7],
+                            "className": 'dt-body-right',
+                            render: function(data, type) {
+                                var number = $.fn.dataTable.render.number( '.', ',', 2, '').display(data);
+            
+                                if (type === 'display') {
+                                    let color = 'black';
+                                    if (data > 200000000) {
+                                        color = 'green';
+                                    }
+                                    // else if (data >= 200000000) {
+                                    //     color = 'green';
+                                    // }
+            
+                                    return '<span style="color:' + color + '">' + number + '</span>';
+                                }
+                                return number;
+                            }
+                        },
+                        // {
+                        //     "targets": [10],
+                        //     render: function(data, type, row) {
+                        //         var number = $.fn.dataTable.render.text().display(data);
+            
+                        //         if (type === 'display') {
+                        //             let color = 'black';
+                        //             if (data == 'rejected') {
+                        //                 color = 'red';
+                        //             }
+                        //             // else if (data >= 200000000) {
+                        //             //     color = 'green';
+                        //             // }
+            
+                        //             return '<span style="color:' + color + '">' + number + '</span>';
+                        //         }
+                        //         return number;
+                        //     }
+                        // }
+                    ],
+                    "order": [
+                        [ 0, "desc"]
+                    ]
+                } );
+
+                var tableSubmit = $('#view_project_list1').DataTable( {
+                    dom: 'Blfrtip',
+                    select: {
+                        style: 'single'
+                    },
+                    buttons: [
+                        // {
+                        //     extend: 'colvis',
+                        //     text: "<i class='fa fa-columns'></i>",
+                        //     collectionLayout: 'fixed four-column',
+                        //     enabled: false
+                        // },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Add SB'><i class='fa fa-plus'></i></span>",
+                            action: function () {
+                                window.location.href = "index.php?mod=project_list";
+                            },
+                            enabled: false
+                        },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Edit SB'><i class='fa fa-pen'></i></span>",
+                            action: function () {
+                                var rownumber = tableSubmit.rows({selected: true}).indexes();
+                                var project_code = tableSubmit.cell( rownumber,1 ).data();
+                                var so_number = tableSubmit.cell( rownumber,5 ).data();
+                                if(project_code==null) {
+                                    alert ("Please select the data.");
+                                } else {
+                                    window.location.href = "index.php?mod=service_budget&act=edit&project_code="+project_code+"&so_number="+so_number+"&submit=Submit";
+                                }
+                            },
+                            enabled: false
+                        },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='View SB'><i class='fa fa-eye'></i></span>",
+                            action: function () {
+                                var rownumber = tableSubmit.rows({selected: true}).indexes();
+                                var project_code = tableSubmit.cell( rownumber,1 ).data();
+                                var so_number = tableSubmit.cell( rownumber,5 ).data();
+                                if(project_code==null) {
+                                    alert ("Please select the data.");
+                                } else {
+                                    window.location.href = "index.php?mod=service_budget&act=view&project_code="+project_code+"&so_number="+so_number+"&submit=Submit";
+                                }
+                            },
+                            enabled: true
+                        },
+                        // {
+                        //     text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Delete SB'><i class='fa fa-trash-alt'></i></span>",
+                        //     action: function () {
+                        //         var rownumber = tableSubmit.rows({selected: true}).indexes();
+                        //         var project_code = tableSubmit.cell( rownumber,1 ).data();
+                        //         var so_number = tableSubmit.cell( rownumber,5 ).data();
+                        //         if(project_code==null) {
+                        //             alert ("Please select the data.");
+                        //         } else {
+                        //             window.location.href = "index.php?mod=service_budget&act=view&project_code="+project_code+"&so_number="+so_number+"&submit=Submit";
+                        //         }
+                        //     },
+                        //     enabled: false
+                        // },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Download SB'><i class='fa fa-download'></i></span>",
+                            action: function () {
+                                var rownumber = tableSubmit.rows({selected: true}).indexes();
+                                var project_code = tableSubmit.cell( rownumber,1 ).data();
+                                var so_number = tableSubmit.cell( rownumber,5 ).data();
+                                var user_name = document.getElementById("user_name").value;
+                                if(project_code==null) {
+                                    alert ("Please select the data.");
+                                } else {
+                                    // window.location.href = "index.php?mod=service_budget&act=export&project_code="+project_code+"&so_number="+so_number+"&submit=Draft";
+                                    window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf.php?project_code="+project_code+"&so_number="+so_number+"&user="+user_name;
+                                }
+                            },
+                            enabled: false
+                        },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='All Data'><i class='fa fa-database'></i></span>",
+                            action: function () {
+                                window.location.href = "index.php?mod=service_budget&act=all";
+                            },
+                            enabled: false
+                        },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='User Guide'><i class='fa fa-info'></i></span>",
+                            action: function () {
+                                window.open ("https://msizone.mastersystem.co.id/msiguide/category/service-budget/", "_blank");
+                            }
+                        }
+                    ],
+                    "columnDefs": [
+                        {
+                            // "targets": [ 0,3,6,8,11,12,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,30 ],
+                            "targets": [0,9,10,11,12],
+                            "visible": false
+                        },
+                        {
+                            "targets": [6,7],
+                            "className": 'dt-body-right',
+                            render: function(data, type) {
+                                var number = $.fn.dataTable.render.number( '.', ',', 2, '').display(data);
+            
+                                if (type === 'display') {
+                                    let color = 'black';
+                                    if (data > 200000000) {
+                                        color = 'green';
+                                    }
+                                    // else if (data >= 200000000) {
+                                    //     color = 'green';
+                                    // }
+            
+                                    return '<span style="color:' + color + '">' + number + '</span>';
+                                }
+                                return number;
+                            }
+                        }
+                    ],
+                    "order": [
+                        [ 0 , "DES"]
+                    ]
+                } );
+
+                // var tableTempApproved = $('#trx_project_list2').DataTable( {
+                var tableTempApproved = $('#view_project_list2').DataTable( {
+                    dom: 'Blfrtip',
+                    select: {
+                        style: 'single'
+                    },
+                    buttons: [
+                        // {
+                        //     extend: 'colvis',
+                        //     text: "<i class='fa fa-columns'></i>",
+                        //     collectionLayout: 'fixed four-column',
+                        //     enabled: false
+                        // },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Add SB'><i class='fa fa-plus'></i></span>",
+                            action: function () {
+                                window.location.href = "index.php?mod=project_list";
+                            },
+                            enabled: false
+                        },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Edit SB'><i class='fa fa-pen'></i></span>",
+                            action: function () {
+                                var rownumber = tableTempApproved.rows({selected: true}).indexes();
+                                var project_code = tableTempApproved.cell( rownumber,1 ).data();
+                                var so_number = tableTempApproved.cell( rownumber,5 ).data();
+                                if(project_code==null) {
+                                    alert ("Please select the data.");
+                                } else {
+                                    window.location.href = "index.php?mod=service_budget&act=edit&project_code="+project_code+"&so_number="+so_number+"&submit=Approved0";
+                                }
+                            },
+                            enabled: false
+                        },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='View SB'><i class='fa fa-eye'></i></span>",
+                            action: function () {
+                                var rownumber = tableTempApproved.rows({selected: true}).indexes();
+                                var project_code = tableTempApproved.cell( rownumber,1 ).data();
+                                var so_number = tableTempApproved.cell( rownumber,5 ).data();
+                                if(project_code==null) {
+                                    alert ("Please select the data.");
+                                } else {
+                                    window.location.href = "index.php?mod=service_budget&act=view&project_code="+project_code+"&so_number="+so_number+"&submit=Approved0";
+                                }
+                            },
+                            enabled: true
+                        },
+                        // {
+                        //     text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Delete SB'><i class='fa fa-trash-alt'></i></span>",
+                        //     action: function () {
+                        //         var rownumber = tableTempApproved.rows({selected: true}).indexes();
+                        //         var project_code = tableTempApproved.cell( rownumber,1 ).data();
+                        //         var so_number = tableTempApproved.cell( rownumber,5 ).data();
+                        //         if(project_code==null) {
+                        //             alert ("Please select the data.");
+                        //         } else {
+                        //             window.location.href = "index.php?mod=service_budget&act=view&project_code="+project_code+"&so_number="+so_number+"&submit=Approved0";
+                        //         }
+                        //     },
+                        //     enabled: false
+                        // },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Download SB'><i class='fa fa-download'></i></span>",
+                            action: function () {
+                                var rownumber = tableTempApproved.rows({selected: true}).indexes();
+                                var project_code = tableTempApproved.cell( rownumber,1 ).data();
+                                var so_number = tableTempApproved.cell( rownumber,5 ).data();
+                                var user_name = document.getElementById("user_name").value;
+                                if(project_code==null) {
+                                    alert ("Please select the data.");
+                                } else {
+                                    // window.location.href = "index.php?mod=service_budget&act=export&project_code="+project_code+"&so_number="+so_number+"&submit=Draft";
+                                    window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf.php?project_code="+project_code+"&so_number="+so_number+"&user="+user_name;
+                                }
+                            },
+                            enabled: true
+                        },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='All Data'><i class='fa fa-database'></i></span>",
+                            action: function () {
+                                window.location.href = "index.php?mod=service_budget&act=all";
+                            },
+                            enabled: false
+                        },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='User Guide'><i class='fa fa-info'></i></span>",
+                            action: function () {
+                                window.open ("https://msizone.mastersystem.co.id/msiguide/category/service-budget/", "_blank");
+                            }
+                        }
+                    ],
+                    "columnDefs": [
+                        {
+                            // "targets": [ 0,3,6,8,11,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 ],
+                            "targets": [0,9,10,11,12],
+                            "visible": false
+                        },
+                        {
+                            "targets": [6,7],
+                            "className": 'dt-body-right',
+                            render: function(data, type) {
+                                var number = $.fn.dataTable.render.number( '.', ',', 2, '').display(data);
+            
+                                if (type === 'display') {
+                                    let color = 'black';
+                                    if (data > 200000000) {
+                                        color = 'green';
+                                    }
+                                    // else if (data >= 200000000) {
+                                    //     color = 'green';
+                                    // }
+            
+                                    return '<span style="color:' + color + '">' + number + '</span>';
+                                }
+                                return number;
+                            }
+                        }
+                    ],
+                    "order": [
+                        [ 0 , "DES"]
+                    ]
+                } );
+
+                // var tableApproved = $('#trx_project_list3').DataTable( {
+                var tableApproved = $('#view_project_list3').DataTable( {
+                    dom: 'Blfrtip',
+                    select: {
+                        style: 'single'
+                    },
+                    buttons: [
+                        // {
+                        //     extend: 'colvis',
+                        //     text: "<i class='fa fa-columns'></i>",
+                        //     collectionLayout: 'fixed four-column',
+                        //     enabled: false
+                        // },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Add SB'><i class='fa fa-plus'></i></span>",
+                            action: function () {
+                                window.location.href = "index.php?mod=project_list";
+                            },
+                            enabled: false
+                        },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Edit SB'><i class='fa fa-pen'></i></span>",
+                            action: function () {
+                                var rownumber = tableApproved.rows({selected: true}).indexes();
+                                var project_code = tableApproved.cell( rownumber,1 ).data();
+                                var so_number = tableApproved.cell( rownumber,5 ).data(); alert(project_code);
+                                if(project_code==null) {
+                                    alert ("Please select the data.");
+                                } else {
+                                    window.location.href = "index.php?mod=service_budget&act=edit&project_code="+project_code+"&so_number="+so_number+"&submit=Approved";
+                                }
+                            },
+                            enabled: false
+                        },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='View SB'><i class='fa fa-eye'></i></span>",
+                            action: function () {
+                                var rownumber = tableApproved.rows({selected: true}).indexes();
+                                var project_code = tableApproved.cell( rownumber,1 ).data();
+                                var so_number = tableApproved.cell( rownumber,5 ).data();
+                                if(project_code==null) {
+                                    alert ("Please select the data.");
+                                } else {
+                                    window.location.href = "index.php?mod=service_budget&act=view&project_code="+project_code+"&so_number="+so_number+"&submit=Approved";
+                                }
+                            },
+                            enabled: true
+                        },
+                        // {
+                        //     text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Delete SB'><i class='fa fa-trash-alt'></i></span>",
+                        //     action: function () {
+                        //         var rownumber = tableApproved.rows({selected: true}).indexes();
+                        //         var project_code = tableApproved.cell( rownumber,1 ).data();
+                        //         var so_number = tableApproved.cell( rownumber,5 ).data();
+                        //         if(project_code==null) {
+                        //             alert ("Please select the data.");
+                        //         } else {
+                        //             window.location.href = "index.php?mod=service_budget&act=view&project_code="+project_code+"&so_number="+so_number+"&submit=Approved";
+                        //         }
+                        //     },
+                        //     enabled: false
+                        // },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Download SB'><i class='fa fa-download'></i></span>",
+                            action: function () {
+                                var rownumber = tableApproved.rows({selected: true}).indexes();
+                                var project_code = tableApproved.cell( rownumber,1 ).data();
+                                var so_number = tableApproved.cell( rownumber,5 ).data();
+                                var user_name = document.getElementById("user_name").value;
+                                if(project_code==null) {
+                                    alert ("Please select the data.");
+                                } else {
+                                    // window.location.href = "index.php?mod=service_budget&act=export&project_code="+project_code+"&so_number="+so_number+"&submit=Draft";
+                                    window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf.php?project_code="+project_code+"&so_number="+so_number+"&user="+user_name;
+                                }
+                            },
+                            enabled: true
+                        },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='User Guide'><i class='fa fa-info'></i></span>",
+                            action: function () {
+                                window.open ("https://msizone.mastersystem.co.id/msiguide/category/service-budget/", "_blank");
+                            }
+                        }
+                    ],
+                    "columnDefs": [
+                        {
+                            // "targets": [ 0,3,6,8,11,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 ],
+                            "targets": [0,11,10],
+                            "visible": false
+                        },
+                        {
+                            "targets": [6,7],
+                            "className": 'dt-body-right',
+                            render: function(data, type) {
+                                var number = $.fn.dataTable.render.number( '.', ',', 2, '').display(data);
+            
+                                if (type === 'display') {
+                                    let color = 'black';
+                                    if (data > 200000000) {
+                                        color = 'green';
+                                    }
+                                    // else if (data >= 200000000) {
+                                    //     color = 'green';
+                                    // }
+            
+                                    return '<span style="color:' + color + '">' + number + '</span>';
+                                }
+                                return number;
+                            }
+                        }
+                    ],
+                    "order": [
+                        [ 0, "desc"]
+                    ]
+                } );
+            } );
+        </script>
+
+        <?php 
+        // Function
+        function view_data($tblname) {
+            global $DTSB;
+            // $tblname = "trx_project_list";
+            $tblname = "view_project_list";
+            $primarykey = "project_id";
+            $order = "project_id DESC";
+            ?>
+
+            <?php 
+            if(isset($_GET['err']) && $_GET['err']=="datanotselected") { 
+                global $ALERT;
+                $ALERT->datanotselected(); 
+            } 
+            ?>
+            <div class="col-lg-12">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Select Project</h6>
+                        <?php spinner(); ?>
+                    </div>
+                    <div class="card-body">
+
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active text-body" id="home-tab" data-bs-toggle="tab" data-bs-target="#SBList" type="button" role="tab" aria-controls="SBList" aria-selected="true">SB Draft</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link text-body" id="submit-tab" data-bs-toggle="tab" data-bs-target="#SBSubmit" type="button" role="tab" aria-controls="SBSubmit" aria-selected="false">SB Submit</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link text-body" id="temporary-tab" data-bs-toggle="tab" data-bs-target="#SBTemp" type="button" role="tab" aria-controls="SBTemp" aria-selected="false">SB Temporary <i class="fas fa-question-circle" data-bs-toggle="popover" data-bs-trigger="focus" title="Service Budget sudah diapproved tapi nomor SO masih kosong."></i></button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link text-body" id="approval-tab" data-bs-toggle="tab" data-bs-target="#SBApproved" type="button" role="tab" aria-controls="SBApproved" aria-selected="false">SB Approved</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <!-- TAB Project Information -->
+                            <?php
+                            $mdlname = "HCM";
+                            $DBHCM = get_conn($mdlname);
+                            $tblname = "view_employees";
+                            $condition = "leader_email='" . $_SESSION['Microservices_UserEmail'] . "'";
+                            $leaders = $DBHCM->get_data($tblname, $condition);
+                            $dleader = $leaders[0];
+                            $qleader = $leaders[1];
+                            $tleader = $leaders[2];
+                            $members = "create_by='" . $_SESSION['Microservices_UserEmail'] . "' OR sales_name LIKE '%" . $_SESSION['Microservices_UserName'] . "%'" ;
+                            if($tleader>0) {
+                                do {
+                                    $members .= " OR create_by='" . $dleader['employee_email'] . "' OR sales_name LIKE '%" . $dleader['employee_name'] . "%'";
+                                } while($dleader=$qleader->fetch_assoc());
+                            }
+                            
+                            $tblnamevalue = "mst_setup";
+                            $conditionvalue = "setup_name='Value SB Sederhana'";
+                            $sbs = $DTSB->get_data($tblnamevalue,$conditionvalue);
+                            $dsbs = $sbs[0];
+                            $dsbsexp = explode(";",$dsbs['setup_value']);
+                            $dsbidrexp = explode("=", $dsbsexp[0]);
+                            $dsbid = $dsbidrexp[1];
+                            $dsbusdexp = explode("=", $dsbsexp[1]);
+                            $dsbusd = $dsbusdexp[1];
+
+                            // $members .= "  AND amount_idr<=" . $dsbid . " AND amount_usd<=" . $dsbusd;
+                            // $condition = "(organization_name='Business Solution' OR organization_name='Solution Architect') AND job_title='General Manager` AND amount_idr>" . $dsbid . " AND amount_usd>" . $dsbusd;
+                            // $tblname = "trx_project_list";
+                            $tblname = "view_project_list";
+                            ?>
+                            <div class="tab-pane fade show active" id="SBList" role="tabpanel" aria-labelledby="SBList-tab">
+                                <div class="card shadow mb-4">
+                                    <?php
+                                    if($_SESSION['Microservices_UserLevel']=="Administrator") {
+                                        $condition = "status='draft' OR status='rejected' OR status='reopen'";
+                                    } else {
+                                        $condition = "(status='draft' OR status='rejected' OR status='reopen') AND (" . $members . ")";
+                                    }
+                                    if($_SESSION['Microservices_UserLogin']=="lucky.andiani" || $_SESSION['Microservices_UserLogin']=="eka.kurniawati" || $_SESSION['Microservices_UserLogin']=="natasya.isyanaputri" || $_SESSION['Microservices_UserLogin']=="ary.mulyati" || $_SESSION['Microservices_UserLogin']=="henny.anggra") {
+                                        $condition = "status='draft' OR status='rejected' OR status='reopen'";
+                                    }
+                                    view_table($DTSB, $tblname, $primarykey, $condition, $order); 
+                                    ?>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="SBSubmit" role="tabpanel" aria-labelledby="SBSubmit-tab">
+                                <div class="card shadow mb-4">
+                                    <?php
+                                    if($_SESSION['Microservices_UserLevel']=="Administrator") {
+                                        $condition = "status='submited'";
+                                    } else {
+                                        $condition = "status='submited' AND (" . $members . ")";
+                                    }
+                                    if($_SESSION['Microservices_UserLogin']=="lucky.andiani" || $_SESSION['Microservices_UserLogin']=="eka.kurniawati" || $_SESSION['Microservices_UserLogin']=="natasya.isyanaputri" || $_SESSION['Microservices_UserLogin']=="ary.mulyati" || $_SESSION['Microservices_UserLogin']=="henny.anggra") {
+                                        $condition = "status='submited'";
+                                    }
+                                    view_table($DTSB, $tblname, $primarykey, $condition, $order,"","","1");
+                                    ?>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="SBTemp" role="tabpanel" aria-labelledby="SBTemp-tab">
+                                <div class="card shadow mb-4">
+                                    <?php
+                                    if($_SESSION['Microservices_UserLevel']=="Administrator") {
+                                        $condition = "status='approved' AND (ISNULL(po_number) OR ISNULL(so_number))";
+                                    } else {
+                                        $condition = "status='approved' AND (ISNULL(po_number) OR ISNULL(so_number)) AND (" . $members . ")";
+                                    }
+                                    if($_SESSION['Microservices_UserLogin']=="lucky.andiani" || $_SESSION['Microservices_UserLogin']=="eka.kurniawati" || $_SESSION['Microservices_UserLogin']=="natasya.isyanaputri" || $_SESSION['Microservices_UserLogin']=="ary.mulyati" || $_SESSION['Microservices_UserLogin']=="henny.anggra") {
+                                        $condition = "status='approved' AND (ISNULL(po_number) OR ISNULL(so_number))";
+                                    }
+                                    view_table($DTSB, $tblname, $primarykey, $condition, $order,"","","3");
+                                    ?>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="SBApproved" role="tabpanel" aria-labelledby="SBApproved-tab">
+                                <div class="card shadow mb-4">
+                                    <?php
+                                    if($_SESSION['Microservices_UserLevel']=="Administrator") {
+                                        $condition = "status='approved' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number)";
+                                    } else {
+                                        $condition = "status='approved' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND (" . $members . ")";
+                                    }
+                                    if($_SESSION['Microservices_UserLogin']=="lucky.andiani" || $_SESSION['Microservices_UserLogin']=="eka.kurniawati" || $_SESSION['Microservices_UserLogin']=="natasya.isyanaputri" || $_SESSION['Microservices_UserLogin']=="ary.mulyati" || $_SESSION['Microservices_UserLogin']=="henny.anggra") {
+                                        $condition = "status='approved' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number)";
+                                    }
+                                    view_table($DTSB, $tblname, $primarykey, $condition, $order,"","","2");
+                                    ?>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <form action="index.php" name="searchKP" method="get">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Project Code</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <input type="text" name="mod" value="service_budget" hidden>
+                                            <input type="text" name="act" value="add" hidden>
+                                            <input type="text" class="form-control form-control-sm" name="project_code" placeholder="Type Project Code number...">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <input type="submit" class="btn btn-primary" name="submit">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <?php
+        }
+
+        function form_data($tblname, $permission="") { 
+            include("components/modules/service_budget/form_service_budget.php"); 
+        } 
+
+        function form_redit($tblname) {
+            include("components/modules/service_budget/form_sb_redit.php"); 
+        }
+        // End Function
+
+
+        // $hostname = 'localhost';
+        // $database = 'sa_ps_service_budgets';
+        // $username = 'root';
+        // $password = '';
+        // include("components/modules/service_budget/connection.php");
+        $tblname = 'cfg_web';
+        $condition = 'config_key="MODULE_SERVICE_BUDGET"';
+        $setupDB = $DB->get_data($tblname, $condition);
+        $dsetupDB = $setupDB[0];
+        if($setupDB[2]>0) {
+            $params = get_params($dsetupDB['params']);
+            $hostname = $params['database']['hostname'];
+            $username = $params['database']['username'];
+            $userpassword = $params['database']['userpassword'];
+            $database = $params['database']['database_name'];
+
+            $DTSB = new Databases($hostname, $username, $userpassword, $database);
+            // $tblname = 'trx_project_list';
+            $tblname = 'view_project_list';
+
+            include("components/modules/service_budget/func_service_budget.php");
+
+            // Body
+            if(!isset($_GET['act'])) {
+                view_data($tblname);
+            } elseif($_GET['act'] == 'add') {
+                form_data($tblname);
+            } elseif($_GET['act'] == 'new') {
+                new_projects($tblname);
+            } elseif($_GET['act'] == 'edit') {
+                $permission = '';
+                form_data($tblname, $permission);
+            } elseif($_GET['act'] == 'redit') {
+                $permission = '';
+                form_redit($tblname);
+            } elseif($_GET['act'] == 'del') {
+                echo 'Delete Data';
+            } elseif($_GET['act'] == 'save') {
+                form_data($tblname);
+            } elseif($_GET['act'] == 'view') {
+                $permission = "readonly";
+                form_data($tblname, $permission);
+            } elseif($_GET['act'] == 'export') {
+                include('components/modules/service_budget/rpt_excel.php');
+            } elseif($_GET['act']=='lookup_project') {
+                include('components/modules/service_budget/form_lookup_project.php');
+            }
+            // End Body
+
+        } else {
+            echo "Aplikasi belum disetup";            
+        }
+
+    // Body
+    } else { 
+        $ALERT->notpermission();
+    } 
+    // End Body
+
+} 
+?>

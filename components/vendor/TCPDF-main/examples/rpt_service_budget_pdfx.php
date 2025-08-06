@@ -1,0 +1,1770 @@
+<?php
+//============================================================+
+// File name   : example_048.php
+// Begin       : 2009-03-20
+// Last Update : 2013-05-14
+//
+// Description : Example 048 for TCPDF class
+//               HTML tables and table headers
+//
+// Author: Nicola Asuni
+//
+// (c) Copyright:
+//               Nicola Asuni
+//               Tecnick.com LTD
+//               www.tecnick.com
+//               info@tecnick.com
+//============================================================+
+
+/**
+ * Creates an example PDF TEST document using TCPDF
+ * @package com.tecnick.tcpdf
+ * @abstract TCPDF - Example: HTML tables and table headers
+ * @author Nicola Asuni
+ * @since 2009-03-20
+ */
+//
+
+// Regional Setting
+date_default_timezone_set( "Asia/Jakarta" );
+
+// Include the main TCPDF library (search for installation path).
+require_once('tcpdf_include.php');
+
+// Extend the TCPDF class to create custom Header and Footer
+class MYPDF extends TCPDF {
+	//Page header
+	public function Header() {
+		// get the current page break margin
+		$bMargin = $this->getBreakMargin();
+		// get current auto-page-break mode
+		$auto_page_break = $this->AutoPageBreak;
+		// disable auto-page-break
+		$this->SetAutoPageBreak(false, 0);
+		// set bacground image
+		$img_file = K_PATH_IMAGES.'sb.jpg';
+		$this->Image($img_file, 0, 0, 210, 297, '', '', '', false, 300, '', false, false, 0);
+		// restore auto-page-break status
+		$this->SetAutoPageBreak($auto_page_break, $bMargin);
+		// set the starting point for the page content
+		$this->setPageMark();
+	}
+}
+
+// create new PDF document
+// $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
+$pdf = new MYPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
+
+// set document information
+$pdf->SetCreator(PDF_CREATOR);
+$pdf->SetAuthor('Nicola Asuni');
+$pdf->SetTitle('FORM SERVICE BUDGET ALLOCATION');
+$pdf->SetSubject('TCPDF Tutorial');
+$pdf->SetKeywords('TCPDF, PDF, example, test, guide');
+
+// set default header data
+$pdf->SetHeaderData(PDF_HEADER_LOGO, PDF_HEADER_LOGO_WIDTH, PDF_HEADER_TITLE, PDF_HEADER_STRING);
+
+// set header and footer fonts
+$pdf->setHeaderFont(Array(PDF_FONT_NAME_MAIN, '', PDF_FONT_SIZE_MAIN));
+$pdf->setFooterFont(Array(PDF_FONT_NAME_DATA, '', PDF_FONT_SIZE_DATA));
+
+// set default monospaced font
+$pdf->SetDefaultMonospacedFont(PDF_FONT_MONOSPACED);
+
+// set margins
+$pdf->SetMargins(PDF_MARGIN_LEFT, PDF_MARGIN_TOP, PDF_MARGIN_RIGHT);
+$pdf->SetHeaderMargin(PDF_MARGIN_HEADER);
+$pdf->SetFooterMargin(PDF_MARGIN_FOOTER);
+
+// set auto page breaks
+$pdf->SetAutoPageBreak(TRUE, PDF_MARGIN_BOTTOM);
+
+// set image scale factor
+$pdf->setImageScale(PDF_IMAGE_SCALE_RATIO);
+
+// set some language-dependent strings (optional)
+if (@file_exists(dirname(__FILE__).'/lang/eng.php')) {
+	require_once(dirname(__FILE__).'/lang/eng.php');
+	$pdf->setLanguageArray($l);
+}
+
+// ---------------------------------------------------------
+
+// add a page
+$pdf->AddPage();
+
+// // set font
+// $pdf->SetFont('helvetica', '', 8);
+
+// // Document Number
+// $pdf->Write(0, 'Form-PS-04 Rev.07', '', 0, 'R', true, 0, false, false, 0);
+
+// // set font
+// $pdf->SetFont('helvetica', 'B', 14);
+
+// // Text SERVICE BUDGET FORM
+// $pdf->Write(0, 'FORM SERVICE BUDGET ALLOCATION', '', 0, 'C', true, 0, false, false, 0);
+
+// set font
+$pdf->SetFont('helvetica', '', 8);
+
+// // -- set new background ---
+
+// // get the current page break margin
+// $bMargin = $pdf->getBreakMargin();
+// // get current auto-page-break mode
+// $auto_page_break = $pdf->getAutoPageBreak();
+// // disable auto-page-break
+// $pdf->SetAutoPageBreak(false, 0);
+// // set bacground image
+// $img_file = K_PATH_IMAGES.'image_demo.jpg';
+// $pdf->Image($img_file, 0, 0, 210, 297, '', '', '', false, 300, '', false, false, 0);
+// // restore auto-page-break status
+// $pdf->SetAutoPageBreak($auto_page_break, $bMargin);
+// // set the starting point for the page content
+// $pdf->setPageMark();
+
+// -----------------------------------------------------------------------------
+
+include( "../../../../applications/connections/connections.php" );
+
+$database="sa_ps_service_budgets";
+$DBSB = new mysqli($hostname, $username, $password, $database);
+$database="sa_md_hcm";
+$DBHCM = new mysqli($hostname, $username, $password, $database);
+
+$mysql = "SELECT * FROM `sa_trx_project_list` WHERE `project_code`='" . $_GET['project_code'] . "' AND `so_number`='" . $_GET['so_number'] . "' ORDER BY project_id DESC";
+$qproject = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+$dproject = mysqli_fetch_assoc( $qproject );
+
+
+$tbl = '
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+    <!-------------------------->
+    <!-- Document Information -->
+    <!-------------------------->
+    <tr>
+        <td colspan="3">&nbsp;</td>
+    </tr>
+    <tr>
+        <td width="47%">
+
+            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                    <td colspan="2" style="border-bottom:1px solid #aaa; background-color:#8B0000; color:white;"><b>Document Information</b></td>
+                </tr>
+                <tr>
+                    <td>FSB Number</td>
+                    <td>';
+
+                        $mysql = 'SELECT * FROM sa_trx_sb_number WHERE so_number="' . $_GET['so_number'] . '"';
+                        $qsbnumber = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+                        $dsbnumber = mysqli_fetch_assoc( $qsbnumber );
+                        $tsbnumber = mysqli_num_rows($qsbnumber);
+
+                        if($tsbnumber>0) {
+                            $tbl.= $dsbnumber['sb_number'];
+                        } else {
+                            $tbl.= 'Draft';
+                        }
+
+                $tbl.='
+                    </td>
+                </tr>
+                <tr>
+                    <td>Created by</td>
+                    <td>';
+                    
+                    $tblname = 'view_employees';
+                    $condition = "employee_email='" . $dproject['create_by'] . "'";
+                    $mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition;
+                    $qemployee = mysqli_query( $DBHCM, $mysql ) or die($DBHCM->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBHCM->error . "<br/>");
+                    $demployee = mysqli_fetch_assoc( $qemployee );
+                    $tmployeee = mysqli_num_rows($qemployee);
+
+                    $tbl.= $demployee['employee_name'];
+                    
+                $tbl.=    
+                    '</td>
+                </tr>
+                <tr>
+                    <td>Approved by</td>
+                    <td>';
+                    
+                    $tblname = 'trx_approval';
+                    $condition = "project_id=" . $dproject['project_id'];
+                    $order = "approve_id DESC";
+                    $mysql = 'SELECT approve_by FROM sa_' . $tblname . ' WHERE ' . $condition . ' ORDER BY ' . $order;
+                    $qapprove = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+                    $dapprove = mysqli_fetch_assoc( $qapprove );
+
+                    $tblname = 'view_employees';
+                    $condition = "employee_email='" . $dapprove['approve_by'] . "'";
+                    $mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition;
+                    $qemployee = mysqli_query( $DBHCM, $mysql ) or die($DBHCM->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBHCM->error . "<br/>");
+                    $demployee = mysqli_fetch_assoc( $qemployee );
+                    $tmployeee = mysqli_num_rows($qemployee);
+
+                    $tbl.= $demployee['employee_name'];
+                    
+                $tbl.=    
+                    '</td>
+                </tr>
+                <tr>
+                    <td>Approved Status</td>
+                    <td>';
+
+                        if($dproject['status']=='draft') {
+                            $tbl.= "Draft";
+                        } elseif($dproject['status']=='submited') {
+                            $tbl.= "Submit"; 
+                        } elseif($dproject['status']=='approved' && $dproject['po_number']!=NULL && $dproject['so_number']!=NULL) {
+                            $tbl.= "Approved";
+                        } else {
+                            $tbl.= "Temporary (PO atau SO belum ada)";
+                        } 
+
+                $tbl.='
+                    </td>
+                </tr>
+                <tr>
+                    <td>Printed by</td>
+                    <td>' . $_GET['user'] . '</td>
+                </tr>
+                <tr>
+                    <td>Printed Date</td>
+                    <td>' . date("d M Y H:i:s") . '</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+
+        </td>
+        <td width="6%"></td>
+        <td width="47%">
+
+            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                <!------------------------->
+                <!-- Project Information -->
+                <!------------------------->
+                <tr>
+                    <td colspan="2" style="border-bottom:1px solid #aaa; background-color:#8B0000; color:white;"><b>Project Information</b></td>
+                </tr>
+                <tr>
+                    <td>No.KP</td>
+                    <td>' . $dproject['project_code'] . '</td>
+                </tr>
+                <tr>
+                    <td>No.SO</td>
+                    <td>' . $dproject['so_number'] . '</td>
+                </tr>
+                <tr>
+                    <td>No PO/WO/SP/Kontrak (*)</td>
+                    <td>' . $dproject['po_number'] . '</td>
+                </tr>
+                <tr>
+                    <td>Nama Project</td>
+                    <td>' . $dproject['project_name'] . '</td>
+                </tr>
+                <tr>
+                    <td>Nama Customer</td>
+                    <td>' . $dproject['customer_name'] . '</td>
+                </tr>
+                <tr>
+                    <td>Status Project</td>
+                    <td>';
+                    
+                        if($dproject['newproject']==1) {
+                            $tbl.= 'New';
+                        } else {
+                            $tbl.= 'Renewal';
+                        }
+                        
+                $tbl.='
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sales Name</td>
+                    <td>' . $dproject['sales_name'] . '</td>
+                </tr>
+                <tr>
+                    <td>Type of Service Budget</td>
+                    <td>';
+                    
+                        if($dproject['sbtype']==1) {
+                            $tbl.= "Normal";
+                        } else {
+                            $tbl.= "Sederhana";
+                        }
+
+                        $tblname="trx_project_implementations";
+                        $condition = "project_id=" . $dproject['project_id'];
+                        $mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition;
+                        $qbackup = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+                        $dbackup = mysqli_fetch_assoc( $qbackup );
+                        $tbackup = mysqli_num_rows($qbackup);
+                        // if($tbackup>0) {
+                        //     if(strpos($dbackup['tos_id'], '16')>=0) {
+                        //         $tbl.= ', Tanpa Backup Unit';
+                        //     }
+                        // }
+
+$tbl.=
+                    '</td>
+                </tr>
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+</table>
+';
+
+$pdf->writeHTML($tbl, true, false, false, false, '');
+
+$tbl='
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+    <tr>
+        <td width="47%">
+
+            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                <!---------------------->
+                <!-- Project Solution -->
+                <!---------------------->';
+                
+                $tblname = "trx_project_solutions";
+                $condition = "`project_id`='" . $dproject['project_id'] . "'";
+                $mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition;
+                $qsolution = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+                $dsolution = mysqli_fetch_assoc( $qsolution );
+                $tsolution = mysqli_num_rows($qsolution);
+                
+                $tbl.='
+                <tr>
+                <td colspan="3" style="border-bottom:1px solid #aaa; background-color:#8B0000; color:white;"><b>Project Solution</b></td>
+                </tr>
+                <tr>
+                    <td width="50%" style="text-align:center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Solution Name</td>
+                    <td width="25%" style="text-align:center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Product (%)</td>
+                    <td width="25%" style="text-align:center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Service (%)</td>
+                </tr>';
+                
+                if($tsolution>0) {
+                    $tsolutionproduct = 0;
+                    $tsolutionservice = 0;
+                    $color="#E0FFFF";
+                    do {
+                
+                $tbl.='
+                        <tr>
+                            <td>';
+                
+                                if($dsolution['solution_name']=='DCCI') {
+                                    $tbl.= 'Data Center & Cloud Infra.';
+                                } elseif($dsolution['solution_name']=='EC') {
+                                    $tbl.= "Enterprise Collaboration";
+                                } elseif($dsolution['solution_name']=='BDA') {
+                                    $tbl.= "Big Data & Analytics";
+                                } elseif($dsolution['solution_name']=='DBM') {
+                                    $tbl.= "Digital Business Management";
+                                } elseif($dsolution['solution_name']=='ASA') {
+                                    $tbl.= "Adaptive Security Architecture";
+                                } elseif($dsolution['solution_name']=='SP') {
+                                    $tbl.= "Service Provider";
+                                }
+                
+                $tbl.='
+                            </td>
+                            <td style="text-align:center; background-color:' . $color . '">' . $dsolution['product'] . '</td>
+                            <td style="text-align:center; background-color:' . $color . '">' . $dsolution['services'] . '</td>
+                        </tr>';
+                
+                        if($color=="#E0FFFF") {
+                            $color="#AFEEEE";
+                        } else {
+                            $color="#E0FFFF";
+                        }
+                        $dsp = $dsolution['product']; 
+                        if(empty($dsolution['product'])) {
+                            $dsp = 0;
+                        }
+                        $dss = $dsolution['services'];
+                        if(empty($dsolution['services'])) {
+                            $dss = 0;
+                        }
+                        $tsolutionproduct += $dsp;
+                        $tsolutionservice += $dss;
+                    } while($dsolution=$qsolution->fetch_assoc());
+                
+                $tbl.='
+                    <tr>
+                        <td style="text-align:right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>TOTAL</b></td>
+                        <td style="text-align:center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>' . $tsolutionproduct . '</b></td>
+                        <td style="text-align:center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>' . $tsolutionservice . '</b></td>
+                    </tr>';
+                
+                }
+                $tbl.='
+            </table>
+
+        </td>
+        <td width="6%"></td>
+        <td width="47%">
+
+
+            <!----------------->
+            <!-- Agree Price -->
+            <!----------------->
+            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                    <td colspan="2" style="border-bottom:1px solid #aaa; background-color:#8B0000; color:white;"><b>Agree Price</b></td>
+                </tr>
+                <tr>
+                    <td width="50%">Band Project</td>
+                    <td>' . $dproject['band'] . '</td>
+                </tr>
+                <tr>
+                    <td>Implementation</td>
+                    <td>';
+                
+                        $tblname = "trx_project_implementations";
+                        $condition = "`project_id`='" . $dproject['project_id'] . "' AND service_type=1";
+                        $mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition;
+                        $qimplementation = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+                        $dimplementation = mysqli_fetch_assoc( $qimplementation );
+                        $timplementation = mysqli_num_rows($qimplementation);
+                
+                        if($timplementation>0) {
+                            $tbl.= number_format($dimplementation['agreed_price'],2,",",".");
+                        } else {
+                            $tbl.='0';
+                        }
+                
+                $tbl.='
+                    </td>
+                </tr>
+                <tr>
+                    <td>Maintenance</td>
+                    <td>';
+                
+                        $tblname = "trx_project_implementations";
+                        $condition = "`project_id`='" . $dproject['project_id'] . "' AND service_type=2";
+                        $mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition;
+                        $qimplementation = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+                        $dimplementation = mysqli_fetch_assoc( $qimplementation );
+                        $timplementation = mysqli_num_rows($qimplementation);
+                        if($timplementation>0) {
+                            $tbl.= number_format($dimplementation['agreed_price'],2,",",".");
+                        } else {
+                            $tbl.='0';
+                        }
+
+                $tbl.='
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+            </table>
+
+            <!----------------->
+            <!-- Multi Years -->
+            <!----------------->
+            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                    <td colspan="2" style="border-bottom:1px solid #aaa; background-color:#8B0000; color:white;"><b>Multi Years - Project Implementasi dan Managed Service (Durasi lebih dari 1 tahun)</b></td>
+                </tr>
+                <tr>
+                    <td width="50%">Durasi:</td>
+                    <td>' . $dproject['duration'] . ' years</td>
+                </tr>
+                <tr>
+                    <td>Jenis Kontrak</td>
+                    <td>' . $dproject['contract_type'] . '</td>
+                </tr>
+                <tr>
+                    <td>Work Order</td>
+                    <td>';
+                
+                        $woName = ''; 
+                        $wotypes = explode(";",$dproject['wo_type']);
+                        for($i=0; $i<count($wotypes)-1;$i++) {
+                            $tblname = "mst_type_of_service";
+                            $condition = "tos_id=" . $wotypes[$i];
+                            $mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition;
+                            $qwo = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+                            $dwo = mysqli_fetch_assoc( $qwo );
+                            $two = mysqli_num_rows($qwo);
+                
+                            $woName .= $dwo['tos_name'] . "; ";
+                        }
+                        $tbl.= $woName;
+                
+                $tbl.='
+                    </td>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+</table>
+';
+
+$pdf->writeHTML($tbl, true, false, false, false, '');
+
+$tbl='
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+
+
+    <!-------------------->
+    <!-- Implementation -->
+    <!-------------------->';
+
+    $tblname = "trx_project_implementations";
+    $condition = "`project_id`='" . $dproject['project_id'] . "' AND service_type=1";
+    $mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition;
+    $qimplementation = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+    $dimplementation = mysqli_fetch_assoc( $qimplementation );
+    $timplementation = mysqli_num_rows($qimplementation);
+
+    $tbl.='
+    <tr>
+        <td width="2%">&nbsp;</td>
+        <td width="2%">&nbsp;</td>
+        <td width="20%">&nbsp;</td>
+        <td width="12%">&nbsp;</td>
+        <td width="12%">&nbsp;</td>
+        <td width="12%">&nbsp;</td>
+        <td width="12%">&nbsp;</td>
+        <td width="12%">&nbsp;</td>
+        <td width="16%">&nbsp;</td>
+    </tr>
+    <tr>
+        <td colspan="9" style="border-bottom:1px solid #aaa; background-color:#8B0000; color:white;"><b>Implementation';
+        
+        $pass=false;
+        $tosexp=explode(';', $dproject['bundling']);
+        for($i=0;$i<count($tosexp);$i++) {
+            if($tosexp[$i]=='1') {
+                $pass=true;
+            }
+        }
+        if($pass==false) {
+            $tbl.= ' (NOT INCLUDE)';
+        }
+
+$tbl.=
+        '</b></td>
+    </tr>';
+
+    if($pass) {
+
+    $tbl.='
+    <tr>
+        <td colspan="3">Service Type</td>
+        <td colspan="6">';
+
+            if($timplementation>0) {
+                $tosName = "";
+                $tosid = explode(";",$dimplementation['tos_id']);
+                $tblname = "mst_type_of_service";
+                for($i=0;$i<count($tosid)-1;$i++) {
+                    $condition = "tos_id=" . $tosid[$i];
+                    $mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition;
+                    $qtos_id = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+                    $dtos_id = mysqli_fetch_assoc( $qtos_id );
+                    $ttos_id = mysqli_num_rows($qtos_id);
+                    $tosName .= $dtos_id['tos_name'] . "; ";
+                }
+                $tbl.= $tosName; 
+            }
+
+    $tbl.='
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">Project Category</td>
+        <td colspan="6">';
+
+            if($timplementation>0) {
+                if($dimplementation['tos_category_id']==1) {
+                    $tbl.= "High";
+                } elseif($dimplementation['tos_category_id']==2) {
+                    $tbl.= "Medium";
+                } else {
+                    $tbl.= "Standard";
+                }
+            }
+
+    $tbl.='
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">Estimation Duration Project</td>
+        <td colspan="6">';
+
+            if($timplementation>0) {
+                $tbl.= $dimplementation['project_estimation']; 
+                if($dimplementation['project_estimation_id']==1) {
+                    $tbl.= " Days";
+                } elseif($dimplementation['project_estimation_id']==2) {
+                    $tbl.= " Months";
+                } else {
+                    $tbl.= " Years";
+                }
+            }
+
+    $tbl.='
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="9"></td>
+    </tr>
+    <tr>
+        <td colspan="3">1. Mandays Calculation</td>
+        <td colspan="6"></td>
+    </tr>
+    <tr>
+        <td colspan="3" rowspan="2" style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa;">Mandays Name</td>
+        <td style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Brand 1</td>
+        <td style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Brand 2</td>
+        <td style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Brand 3</td>
+        <td style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Brand 4</td>
+        <td style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Brand 5</td>
+        <td rowspan="2" style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa;">Total Budget</td>
+    </tr>';
+
+    $array = array();
+    $value=700;
+    for($i=1; $i<8; $i++) {
+        $arrayitem = array();
+        $arrayitems=array();
+        for($j=1;$j<=5;$j++) {
+            $tblname = "trx_project_mandays";
+            $condition = "project_id=" . $dproject['project_id'] . " AND service_type=1 AND resource_level=" . $i . $j;
+            $mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition;
+            $qdata = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+            $ddata = mysqli_fetch_assoc( $qdata );
+            $tdata = mysqli_num_rows($qdata);
+    
+            if($tdata>0) {
+                $arrayitem = array('brand'=>$ddata['brand'], 'mantotal'=>$ddata['mantotal'], 'mandays'=>$ddata['mandays'], 'value'=>$ddata['value']);
+            } else {
+                $tblname='mst_resource_catalogs';
+                $condition = "resource_catalog_id=" . $i;
+                $mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition;
+                $qdata = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+                $ddata = mysqli_fetch_assoc( $qdata );
+                $arrayitem = array('brand'=>NULL, 'mantotal'=>NULL, 'mandays'=>NULL, 'value'=>$ddata['mandays']);
+            }
+            array_push($arrayitems, $arrayitem);
+        }
+        array_push($array, $arrayitems);
+    }
+
+    $mysql = "SELECT `resource_level`,`project_id`,`brand`, COUNT(`brand`) AS `tbrand`, (`resource_level`-(`resource_level` DIV 10)*10) AS `res` FROM `sa_trx_project_mandays` WHERE `project_id`=" . $dproject['project_id'] . " AND service_type=1 GROUP BY `project_id`,`brand` ORDER BY `res` ASC";
+
+    $qbrandlist = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+    $dbrandlist = mysqli_fetch_assoc( $qbrandlist );
+    $tbrandlist = mysqli_num_rows($qbrandlist);
+
+    $j=0;
+    $brands = array();
+    if($tbrandlist>0) {
+        do {
+            if(($dbrandlist['resource_level'] % 10) != ($j+1)) {
+                array_push($brands, NULL);
+                $j++;
+            }
+            array_push($brands, $dbrandlist['brand']);
+            $j++;
+        } while($dbrandlist=$qbrandlist->fetch_assoc());
+        if($j<5) {
+            for($k=$j; $k<5; $k++) {
+                array_push($brands,NULL);
+            }
+        }
+    } else {
+        for($k=0; $k<5; $k++) {
+            array_push($brands,NULL);
+        }
+    }
+
+    $tblname = "mst_resource_catalogs";
+    $mysql = 'SELECT * FROM sa_' . $tblname;
+    $qresource = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+    $dresource = mysqli_fetch_assoc( $qresource );
+    $tresource = mysqli_num_rows($qresource);
+
+    $resources = array($dresource['resource_qualification']=>$dresource['mandays']);
+    while($dresource=$qresource->fetch_assoc()) {
+    $res1 = array($dresource['resource_qualification']=>$dresource['mandays']);
+    $resources = array_merge($resources, $res1);
+    } 
+    $reslevel = array("PD", "PM", "PC", "PA", "EE", "EP", "EA");
+
+    $tbl.='
+    <tr>';
+
+        $warna1="#F8F8FF";
+        $warna2="#DCDCDC";
+        for($i=0;$i<count($brands);$i++) {
+
+        $tbl.='
+            <td style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">' . $brands[$i] . '</td>';
+
+        }
+
+        $tbl.='
+    </tr>
+    ';
+
+    $sb_usd[0] = 0;
+    $sb_usd[1] = 0;
+    $sb_usd[2] = 0;
+    $sb_usd[3] = 0;
+    $sb_usd[4] = 0;
+    for($i=0; $i<7; $i++) { 
+        switch ($i) {
+            case 0:
+                $rlevel = "Project Director";
+                break;
+            case 1:
+                $rlevel = "Project Manager";
+                break;
+            case 2:
+                $rlevel = "Project Coordinator";
+                break;
+            case 3:
+                $rlevel = "Project Admin";
+                break;
+            case 4:
+                $rlevel = "Engineer Expert";
+                break;
+            case 5:
+                $rlevel = "Engineer Professional";
+                break;
+            case 6:
+                $rlevel = "Engineer Associate";
+
+        } 
+
+        $tbl.='
+        <tr>
+            <td></td>
+            <td colspan="8">';
+
+                $tbl.= $rlevel . ' (Rate USD.'; 
+                if($array[$i][4]['value']>0) { 
+                    $tbl.= $array[$i][4]['value'] . ')'; 
+                    $rate_usd = $array[$i][4]['value'];
+                } else { 
+                    $tbl.= $resources[$rlevel] . ')';
+                    $rate_usd = $resources[$rlevel];
+                } 
+
+        $tbl.='
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Man Power</td>
+            <td style="text-align: center; background-color:#E0FFFF">' . $array[$i][0]['mantotal'] . '</td>
+            <td style="text-align: center; background-color:#E0FFFF">' . $array[$i][1]['mantotal'] . '</td>
+            <td style="text-align: center; background-color:#E0FFFF">' . $array[$i][2]['mantotal'] . '</td>
+            <td style="text-align: center; background-color:#E0FFFF">' . $array[$i][3]['mantotal'] . '</td>
+            <td style="text-align: center; background-color:#E0FFFF">' . $array[$i][4]['mantotal'] . '</td>
+            <td style="text-align: center; background-color:#E0FFFF">';
+                if($array[$i][0]['mantotal']>0) {
+                    $array0 = $array[$i][0]['mantotal'];
+                } else {
+                    $array0 = 0;
+                }
+                if($array[$i][1]['mantotal']>0) {
+                    $array1 = $array[$i][1]['mantotal'];
+                } else {
+                    $array1 = 0;
+                }
+                if($array[$i][2]['mantotal']>0) {
+                    $array2 = $array[$i][2]['mantotal'];
+                } else {
+                    $array2 = 0;
+                }
+                if($array[$i][3]['mantotal']>0) {
+                    $array3 = $array[$i][3]['mantotal'];
+                } else {
+                    $array3 = 0;
+                }
+                if($array[$i][4]['mantotal']>0) {
+                    $array4 = $array[$i][4]['mantotal'];
+                } else {
+                    $array4 = 0;
+                }
+                $totarray = $array0+$array1+$array2+$array3+$array4;
+                if($totarray==0) {
+                    $totarray = NULL;
+                }
+                            
+$tbl.= $totarray . '
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Mandays</td>
+            <td style="text-align: center; background-color:#AFEEEE">' . $array[$i][0]['mandays'] . '</td>
+            <td style="text-align: center; background-color:#AFEEEE">' . $array[$i][1]['mandays'] . '</td>
+            <td style="text-align: center; background-color:#AFEEEE">' . $array[$i][2]['mandays'] . '</td>
+            <td style="text-align: center; background-color:#AFEEEE">' . $array[$i][3]['mandays'] . '</td>
+            <td style="text-align: center; background-color:#AFEEEE">' . $array[$i][4]['mandays'] . '</td>
+            <td style="text-align: center; background-color:#AFEEEE">';
+            if($array[$i][0]['mandays']>0) {
+                $array0 = $array[$i][0]['mandays'];
+            } else {
+                $array0 = 0;
+            }
+            if($array[$i][1]['mandays']>0) {
+                $array1 = $array[$i][1]['mandays'];
+            } else {
+                $array1 = 0;
+            }
+            if($array[$i][2]['mandays']>0) {
+                $array2 = $array[$i][2]['mandays'];
+            } else {
+                $array2 = 0;
+            }
+            if($array[$i][3]['mandays']>0) {
+                $array3 = $array[$i][3]['mandays'];
+            } else {
+                $array3 = 0;
+            }
+            if($array[$i][4]['mandays']>0) {
+                $array4 = $array[$i][4]['mandays'];
+            } else {
+                $array4 = 0;
+            }
+            $totarray = $array0+$array1+$array2+$array3+$array4;
+            if($totarray==0) {
+                $totarray = NULL;
+            }
+                        
+$tbl.= $totarray . '
+
+            </td>
+        </tr>';
+
+        $sb_usd[0] += $array[$i][0]['mantotal']*$array[$i][0]['mandays']*$rate_usd;
+        $sb_usd[1] += $array[$i][1]['mantotal']*$array[$i][1]['mandays']*$rate_usd;
+        $sb_usd[2] += $array[$i][2]['mantotal']*$array[$i][2]['mandays']*$rate_usd;
+        $sb_usd[3] += $array[$i][3]['mantotal']*$array[$i][3]['mandays']*$rate_usd;
+        $sb_usd[4] += $array[$i][4]['mantotal']*$array[$i][4]['mandays']*$rate_usd;
+    } 
+
+    $tblname = "trx_project_implementations";
+    $condition = "project_id=" . $dproject['project_id'] . " AND service_type=1";
+    $mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition ;
+    $qimplement = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+    $dimplement = mysqli_fetch_assoc( $qimplement );
+    $timplement = mysqli_num_rows($qimplement);
+
+    $tblname = "trx_addon";
+    $condition = "project_id=" . $dproject['project_id'] . ' AND `service_type`=1';
+    $mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition;
+    $qaddon = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+    $daddon = mysqli_fetch_assoc( $qaddon );
+    $taddon = mysqli_num_rows($qaddon);
+    $i=0;
+    $totaladdon=0;
+    if($taddon>0) {
+    do {
+        $totaladdon += $daddon['addon_price'];
+    } while($daddon=$qaddon->fetch_assoc());
+    }
+    if($timplement>0) {
+    $tmandays = $dimplement['implementation_price']-$dimplement['bpd_price']-$totaladdon;
+    }
+    $sb_usd_total = $sb_usd[0]+$sb_usd[1]+$sb_usd[2]+$sb_usd[3]+$sb_usd[4];
+    if($sb_usd_total==0) {
+    $sb_usd_total=1;
+    }
+
+    $tbl.='
+    <tr>
+        <td colspan="3" style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>Subtotal Mandays/Product (IDR)</b></td>
+        <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>';
+
+        if($timplementation>0) { 
+            $tbl.= number_format($sb_usd[0]/$sb_usd_total*$tmandays,2,",","."); 
+        }
+
+        $tbl.='
+        </b></td>
+        <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>';
+
+        if($timplementation>0) { 
+            $tbl.= number_format($sb_usd[1]/$sb_usd_total*$tmandays,2,",",".");
+        }
+
+        $tbl.='
+        </b></td>
+        <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>';
+
+        if($timplementation>0) { 
+            $tbl.= number_format($sb_usd[2]/$sb_usd_total*$tmandays,2,",",".");
+        }
+
+        $tbl.='
+        </b></td>
+        <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>';
+
+        if($timplementation>0) { 
+            $tbl.= number_format($sb_usd[3]/$sb_usd_total*$tmandays,2,",",".");
+        }
+
+        $tbl.='
+        </b></td>
+        <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>';
+
+        if($timplementation>0) { 
+            $tbl.= number_format($sb_usd[4]/$sb_usd_total*$tmandays,2,",","."); 
+        }
+
+        $tbl.='
+        </b></td>
+        <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>';
+
+        if($timplementation>0) { 
+            $tbl.= number_format($tmandays,2,",",".");
+        }
+
+        $tbl.='
+        </b></td>
+    </tr>
+    <tr>
+        <td colspan="9"></td>
+    </tr>
+    <tr>
+        <td colspan="9" style="border-bottom:0.2em solid #aaa">2. Business Trip</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="2">Jumlah Lokasi</td>
+        <td>';
+
+        if($timplementation>0) { 
+            $tbl.= $dimplement['bpd_total_location'];
+        }
+
+        $tbl.='
+        </td>
+        <td colspan="5"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="2">Keterangan Lokasi</td>
+        <td colspan="5">';
+
+        if($timplementation>0) { 
+            $tbl.= $dimplement['bpd_description'];
+        } 
+
+        $tbl.='
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="2">Business Trip</td>
+        <td colspan="5"></td>
+        <td style="text-align:right">';
+
+        if($timplementation>0) { 
+            $tbl.= number_format($dimplement['bpd_price'],2,",",".");
+        }
+
+$tbl.='        
+        </td>
+    </tr>
+    <tr>
+        <td colspan="8" style="text-align: right; border-top: 0.2em solid #aaa;"><b>SubTotal Business Trip (IDR)</b></td>
+        <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>';
+
+        if($timplementation>0) { 
+            $tbl.= number_format($dimplement['bpd_price'],2,",",".");
+        }
+
+        $tbl.='
+        </b></td>
+    </tr>
+    <tr>
+        <td colspan="9"></td>
+    </tr>
+
+    <tr>
+        <td colspan="9" style="border-bottom:0.2em solid #aaa">3. Outsourcing Plan</td>
+    </tr>';
+
+    $tblname = "trx_addon";
+    $condition = "project_id=" . $dproject['project_id'] . ' AND `service_type`=1';
+    $mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition;
+    $qaddon = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+    $daddon = mysqli_fetch_assoc( $qaddon );
+    $taddon = mysqli_num_rows($qaddon);
+    $i=0;
+    $totaladdon=0;
+    if($taddon>0) {
+        do {
+
+            $tbl.='
+                <tr>
+                    <td></td>
+                    <td colspan="7">';
+                    
+                        if($taddon>0) { 
+                            $tbl.= $daddon['addon_title'];
+                        } 
+                    
+                    $tbl.='
+                    </td>
+                    <td style="text-align: right">';
+                    
+                        if($taddon>0) { 
+                            $tbl.= number_format($daddon['addon_price'],2,",","."); 
+                        }
+                        
+                    $tbl.='
+                    </td>
+                </tr>';
+
+                $totaladdon += $daddon['addon_price'];
+                $i++;
+        } while($daddon=$qaddon->fetch_assoc());
+    }
+
+    $tbl.='
+    <tr>
+        <td colspan="8" style="text-align: right; border-top: 0.2em solid #aaa;"><b>Subtotal Outsourcing/Product (IDR)</b></td>
+        <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>' . number_format($totaladdon,2,",",".") . '</b></td>
+    </tr>
+    <tr>
+        <td colspan="8" style="text-align: right"><b>Harga Implementasi (sesuai PO/SPK)</b></td>
+        <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>';
+
+            if($timplementation>0) { 
+                $tbl.= number_format($dimplement['implementation_price'],2,",",".");
+            }
+            $tbl.='
+            </b></td>
+    </tr>
+    <tr>
+        <td colspan="8" style="text-align: right"><b>Agreed Price</b></td>
+        <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>';
+
+            if($timplementation>0) { 
+                $tbl.= number_format($dimplement['agreed_price'],2,",","."); 
+            } 
+            
+            $tbl.='
+        </b></td>
+    </tr>
+
+    <tr>
+        <td colspan="9">&nbsp;</td>
+    </tr>';
+
+        }
+$tbl.='
+</table>';
+
+$pdf->writeHTML($tbl, true, false, false, false, '');
+
+// add a page
+// $pdf->AddPage();
+
+$tbl='
+<!------------------------->
+<!-- Project Maintenance -->
+<!------------------------->
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+<tr>
+    <td style="width:2%"></td>
+    <td style="width:2%"></td>
+    <td style="width:20%"></td>
+    <td style="width:12%"></td>
+    <td style="width:12%"></td>
+    <td style="width:12%"></td>
+    <td style="width:12%"></td>
+    <td style="width:12%"></td>
+    <td style="width:16%; text-align:right"></td>
+</tr>
+
+<tr>
+    <td colspan="9" style="border-bottom:1px solid #aaa; background-color:#8B0000; color:white;"><b>Maintenance Local Support';
+        
+        $pass=false;
+        $tosexp=explode(';', $dproject['bundling']);
+        for($i=0;$i<count($tosexp);$i++) {
+            if($tosexp[$i]=='2') {
+                $pass=true;
+            }
+        }
+        if($pass==false) {
+            $tbl.= ' (NOT INCLUDE)';
+        }
+
+$tbl.=
+    '</b></td>
+</tr>';
+
+if($pass) {
+
+$database = "sa_ps_service_budgets";
+$tblname = "trx_project_implementations";
+$condition = "`project_id`=" . $dproject['project_id'] . " AND service_type=2";
+$mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition;
+$qmaintenance = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+$dmaintenance = mysqli_fetch_assoc( $qmaintenance );
+$tmaintenance = mysqli_num_rows($qmaintenance);
+
+
+$tbl.='
+<tr>
+    <td colspan="3">Service Type</td>
+    <td colspan="6">';
+
+        if($tmaintenance>0) {
+            $dtosexp = explode(';',$dmaintenance['tos_id']);
+            for($i=0; $i<count($dtosexp)-1; $i++) {
+                $tblname = "mst_type_of_service";
+                $condition = "tos_id=" . $dtosexp[$i];
+                $mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition;
+                $qtos = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+                $dtos = mysqli_fetch_assoc( $qtos );
+                $ttos = mysqli_num_rows($qtos);
+                // $tbl.= $dtos['tos_name'] . ', ';
+                if($dtos['tos_name']=='Software Only') {
+                    $tbl.= $dtos['tos_name'] . ' (TANPA BACKUP UNIT)';
+                } else {
+                    $tbl.= $dtos['tos_name'] . ', ';
+                }
+            }
+        }
+
+$tbl.='        
+    </td>
+</tr>
+<tr>
+    <td colspan="3">Estimation Duration Maintenance</td>
+    <td colspan="6">';
+
+        if($tmaintenance>0) {
+            $tbl.= $dmaintenance['project_estimation'] . '&nbsp;'; 
+            if($dmaintenance['project_estimation_id']==1) {
+                $tbl.= 'days';
+            } elseif($dmaintenance['project_estimation_id']==2) {
+                $tbl.= 'months';
+            } elseif($dmaintenance['project_estimation_id']==3) {
+                $tbl.= 'years';
+            }
+        }
+
+$tbl.='
+    </td>
+</tr>
+<tr>
+<td colspan="9"></td>
+</tr>
+<tr>
+    <td colspan="9" style="border-bottom:0.2em solid #aaa">1. Business Trip</td>
+</tr>
+<tr>
+    <td></td>
+    <td colspan="2">Jumlah Lokasi</td>
+    <td>';
+    
+        if($tmaintenance>0) { 
+            $tbl.= $dmaintenance['bpd_total_location']; 
+        } 
+        
+$tbl.='    
+    </td>
+    <td colspan="5"></td>
+</tr>
+<tr>
+    <td></td>
+    <td colspan="2">Keterangan Lokasi</td>
+    <td colspan="5">';
+    
+        if($dmaintenance>0) { 
+            $tbl.= $dmaintenance['bpd_description']; 
+        } 
+    
+$tbl.='
+    </td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td colspan="2">Business Trip</td>
+    <td colspan="5"></td>
+    <td style="text-align:right">';
+
+    if($dmaintenance>0) { 
+        $tbl.= number_format($dmaintenance['bpd_price'],2,",",".");
+    }
+
+    $tbl.='        
+    </td>
+</tr>
+<tr>
+    <td colspan="8" style="text-align: right; border-top: 0.2em solid #aaa;"><b>SubTotal Business Trip (IDR)</b></td>
+    <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>';
+    
+        if($dmaintenance>0) { 
+            $tbl.= number_format($dmaintenance['bpd_price'],2,",","."); 
+        } 
+    
+$tbl.='
+    </b></td>
+</tr>
+<tr>
+<td colspan="9"></td>
+</tr>
+<tr>
+    <td colspan="9" style="border-bottom:0.2em solid #aaa">2. Outsourcing Plan</td>
+</tr>';
+
+$tblname = "trx_addon";
+$condition = "project_id=" . $dproject['project_id'] . ' AND `service_type`=2';
+$mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition;
+$qaddon = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+$daddon = mysqli_fetch_assoc( $qaddon );
+$taddon = mysqli_num_rows($qaddon);
+$i=0;
+$totalout=0;
+do {
+
+$tbl.='
+    <tr>
+        <td></td>
+        <td colspan="7">';
+        
+            if($taddon>0) { 
+                $tbl.= $daddon['addon_title']; 
+            }
+        
+$tbl.='
+        </td>
+        <td style="text-align: right">';
+        
+            if($taddon>0) { 
+                $tbl.= number_format($daddon['addon_price'],2,",","."); 
+            } 
+         
+$tbl.='
+        </td>
+    </tr>';
+
+    if($taddon>0) { $totalout += $daddon['addon_price']; }
+    $i++;
+} while($daddon=$qaddon->fetch_assoc());
+
+$tbl.='
+<tr>
+    <td colspan="8" style="text-align: right; border-top: 0.2em solid #aaa;"><b>Subtotal Outsourcing/Product (IDR)</b></td>
+    <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>' . number_format($totalout,2,",",".") . '</b></td>
+</tr>
+<tr>
+<td colspan="9"></td>
+</tr>
+<tr>
+    <td colspan="9" style="border-bottom:0.2em solid #aaa">3. Backup Unit</td>
+</tr>
+<tr>
+    <td colspan="3" rowspan="2" style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Backup Type</td>
+    <td style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Brand 1</td>
+    <td style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Brand 2</td>
+    <td style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Brand 3</td>
+    <td style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Brand 4</td>
+    <td style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Brand 5</td>
+    <td rowspan="2" style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Total Budget</td>
+</tr>';
+
+    $tblname = "trx_project_mandays";
+    $array = array(); $i=1;
+    for($i=1; $i<8; $i++) {
+        $condition = "project_id=" . $dproject['project_id'] . " AND service_type=2 AND (resource_level DIV 10)=" . $i;
+        $order = "resource_level ASC";
+        $mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition . ' ORDER BY ' . $order;
+        $qdata = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+        $ddata = mysqli_fetch_assoc( $qdata );
+        $tdata = mysqli_num_rows($qdata);
+
+        $arrayitems = array();
+        $value = NULL;
+        $j=0; 
+        if($tdata>0) {
+        do { 
+            if($ddata['resource_level'] != (($i)*10 +$j+1)) {
+                $arrayitem = array('brand'=>NULL, 'mantotal'=>NULL, 'mandays'=>NULL, 'value'=>$value);
+                array_push($arrayitems, $arrayitem);
+                $j++;
+            }
+            $arrayitem = array('brand'=>$ddata['brand'], 'mantotal'=>$ddata['mantotal'], 'mandays'=>$ddata['mandays'], 'value'=>$ddata['value']);
+            array_push($arrayitems, $arrayitem);
+            $j++;
+            $value = $ddata['value'];
+        } while($ddata=$qdata->fetch_assoc());
+        }
+        if($j<5) {
+            for($k=$j; $k<5; $k++) {
+                $arrayitem = array('brand'=>NULL, 'mantotal'=>NULL, 'mandays'=>NULL, 'value'=>$value);
+                array_push($arrayitems, $arrayitem);
+            }
+        }
+        array_push($array, $arrayitems);
+    }
+
+    $mysql = "SELECT `resource_level`,`project_id`,`brand`, COUNT(`brand`) AS `tbrand`, (`resource_level`-(`resource_level` DIV 10)*10) AS `res` FROM `sa_trx_project_mandays` WHERE `project_id`=" . $dproject['project_id'] . " AND service_type=2 GROUP BY `project_id`,`brand` ORDER BY `res` ASC";
+        $qbrandlist = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+        $dbrandlist = mysqli_fetch_assoc( $qbrandlist );
+        $tbrandlist = mysqli_num_rows($qbrandlist);
+
+    $j=0;
+    $brands = array();
+    if($tbrandlist>0) {
+        do {
+            if(($dbrandlist['resource_level'] % 10) != ($j+1)) {
+                array_push($brands, NULL);
+                $j++;
+            }
+            array_push($brands, $dbrandlist['brand']);
+            $j++;
+        } while($dbrandlist=$qbrandlist->fetch_assoc());
+        if($j<5) {
+            for($k=$j; $k<5; $k++) {
+                array_push($brands,NULL);
+            }
+        }
+    } else {
+        for($k=0; $k<5; $k++) {
+            array_push($brands,NULL);
+        }
+    }
+
+$tblname = "mst_resource_catalogs";
+$mysql = 'SELECT * FROM sa_' . $tblname;
+$qresource = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+$dresource = mysqli_fetch_assoc( $qresource );
+$tresource = mysqli_num_rows($qresource);
+$resources = array($dresource['resource_qualification']=>$dresource['mandays']);
+while($dresource=$qresource->fetch_assoc()) {
+    $res1 = array($dresource['resource_qualification']=>$dresource['mandays']);
+    $resources = array_merge($resources, $res1);
+} 
+$reslevel = array("PD", "PM", "PC", "PA", "EE", "EP", "EA");
+
+$tbl.='
+<tr>';
+
+for($i=0;$i<count($brands);$i++) {
+
+$tbl.='
+    <td style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">' . $brands[$i] . '</td>';
+
+}
+
+$tbl.='
+</tr>';
+
+$color="#E0FFFF";
+for($i=0; $i<2; $i++) { 
+    switch ($i) {
+        case 0:
+            $rlevel = "Existing Backup Unit";
+            break;
+        case 1:
+            $rlevel = "Investment Backup Unit";
+    } 
+
+$tbl.='
+    <tr>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td colspan="2">' . $rlevel . '</td>
+        <td style="text-align: right; background-color:' . $color . '">' . number_format($array[$i][0]['mandays'],2,",",".") . '</td>
+        <td style="text-align: right; background-color:' . $color . '">' . number_format($array[$i][1]['mandays'],2,",",".") . '</td>
+        <td style="text-align: right; background-color:' . $color . '">' . number_format($array[$i][2]['mandays'],2,",",".") . '</td>
+        <td style="text-align: right; background-color:' . $color . '">' . number_format($array[$i][3]['mandays'],2,",",".") . '</td>
+        <td style="text-align: right; background-color:' . $color . '">' . number_format($array[$i][4]['mandays'],2,",",".") . '</td>
+        <td style="text-align: right; background-color:' . $color . '">' . number_format($array[$i][0]['mandays']+$array[$i][1]['mandays']+$array[$i][2]['mandays']+$array[$i][3]['mandays']+$array[$i][4]['mandays'],2,",",".") . '</td>
+    </tr>';
+    if($color=="#E0FFFF") {
+        $color="#AFEEEE";
+    } else {
+        $color="#E0FFFF";
+    }
+}
+
+$tbl.='
+<tr>
+    <td colspan="3" style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>Subtotal Mandays/Product (IDR)</b></td>
+    <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>' . number_format($array[0][0]['mandays']+$array[1][0]['mandays'],2,",",".") . '</b></td>
+    <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>' . number_format($array[0][1]['mandays']+$array[1][1]['mandays'],2,",",".") . '</b></td>
+    <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>' . number_format($array[0][2]['mandays']+$array[1][2]['mandays'],2,",",".") . '</b></td>
+    <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>' . number_format($array[0][3]['mandays']+$array[1][3]['mandays'],2,",",".") . '</b></td>
+    <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>' . number_format($array[0][4]['mandays']+$array[1][4]['mandays'],2,",",".") . '</b></td>
+    <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>';
+
+        $totalbackup = $array[0][0]['mandays']+$array[1][0]['mandays']+$array[0][1]['mandays']+$array[1][1]['mandays']+$array[0][2]['mandays']+$array[1][2]['mandays']+$array[0][3]['mandays']+$array[1][3]['mandays']+$array[0][4]['mandays']+$array[1][4]['mandays']; 
+        $tbl.= number_format($totalbackup,2,",",".");
+        
+$tbl.='
+        </b>
+    </td>
+</tr>
+<tr>
+<td colspan="9"></td>
+</tr>
+<tr>
+    <td colspan="9" style="border-bottom:0.2em solid #aaa">4. Maintenance Package</td>
+</tr>';
+
+if($tmaintenance>0) {
+    $tblname = "trx_addon";
+    $condition = "project_id=" . $dproject['project_id'] . ' AND `service_type`=3';
+    $mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition;
+    $qaddon = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+    $daddon = mysqli_fetch_assoc( $qaddon );
+    $taddon = mysqli_num_rows($qaddon);
+    $i=0;
+    $totaladdon=0;
+    if($taddon>0) {
+        do {
+            $tbl.='
+            <tr>
+                <td></td>
+                <td colspan="7">' . $daddon['addon_title'] . '</td>
+                <td style="text-align: right">' . number_format($daddon['addon_price'],2,",",".") . '</td>
+            </tr>';
+
+            $totaladdon +=  $daddon['addon_price'];
+            $i++;
+        } while($daddon=$qaddon->fetch_assoc());
+    }
+}
+$tbl.='
+<tr>
+    <td colspan="8" style="text-align: right; border-top: 0.2em solid #aaa;"><b>Total Addon</b></td>
+    <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>';
+    
+        if($tmaintenance>0) { 
+            $tbl.= number_format($totaladdon,2,",","."); 
+        }
+        
+$tbl.='
+        </b></td>
+</tr>
+<tr>
+    <td></td>
+    <td colspan="7" style="text-align: right"><b>Other Non-Addon</b></td>
+    <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">';
+    
+        if($tmaintenance>0) { 
+            $tbl.= number_format($dmaintenance['implementation_price']-$dmaintenance['bpd_price']-$totalout-$totalbackup-$totaladdon,2,",",".");
+        } 
+    
+$tbl.='
+    </td>
+</tr>
+<tr>
+    <td></td>
+    <td colspan="7" style="text-align: right"><b>Total Pakage</b></td>
+    <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>';
+    
+        if($tmaintenance>0) { 
+            $tbl.= number_format($dmaintenance['implementation_price']-$dmaintenance['bpd_price']-$totalout-$totalbackup,2,",","."); 
+        }
+
+$tbl.='
+        </b></td>
+</tr>
+<tr>
+    <td colspan="9"></td>
+</tr>
+<tr>
+    <td colspan="8" style="text-align: right"><b>Harga Maintenance (sesuai PO/SPK)</b></td>
+    <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>';
+    
+        if($tmaintenance>0) { 
+            $tbl.= number_format($dmaintenance['implementation_price'],2,",","."); 
+        }
+        
+$tbl.='    
+    </b></td>
+</tr>
+<tr>
+    <td colspan="8" style="text-align: right"><b>Agreed Price</b></td>
+    <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>';
+
+        if($tmaintenance>0) {
+            $tbl.= number_format($dmaintenance['agreed_price'],2,",","."); 
+        } 
+        
+$tbl.='    
+    </b></td>
+</tr>
+
+<tr>
+    <td colspan="9">&nbsp;</td>
+</tr>';
+
+    }
+
+$tbl.='
+</table>
+';
+
+$pdf->writeHTML($tbl, true, false, false, false, '');
+
+$tbl='
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+<!------------------------------->
+<!-- Project Extended Warranty -->
+<!------------------------------->
+<tr>
+    <td style="width:2%"></td>
+    <td style="width:2%"></td>
+    <td style="width:20%"></td>
+    <td style="width:12%"></td>
+    <td style="width:12%"></td>
+    <td style="width:12%"></td>
+    <td style="width:12%"></td>
+    <td style="width:12%"></td>
+    <td style="width:16%; text-align:right"></td>
+</tr>
+<tr>
+    <td colspan="9" style="border-bottom:1px solid #aaa; background-color:#8B0000; color:white;"><b>Extended Warranty';
+    
+    $pass=false;
+    $tosexp=explode(';', $dproject['bundling']);
+    for($i=0;$i<count($tosexp);$i++) {
+        if($tosexp[$i]=='3') {
+            $pass=true;
+        }
+    }
+    if($pass==false) {
+        $tbl.= ' (NOT INCLUDE)';
+    }
+
+$tbl.=
+    '</b></td>
+</tr>';
+
+if($pass) {
+
+$tblname = "trx_project_implementations";
+$condition = "`project_id`=" . $dproject['project_id'] . " AND service_type=3";
+$mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition;
+$qwarranty = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+$dwarranty = mysqli_fetch_assoc( $qwarranty );
+$twarranty = mysqli_num_rows($qwarranty);
+
+$tbl.='
+<tr>
+    <td colspan="3">Service Catalog</td>
+    <td colspan="6">';
+
+        if($twarranty>0) {
+            $tblname = "mst_type_of_service";
+            $condition = "service_type=3 AND tos_id=" . $dwarranty['tos_id'];
+            $mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition;
+            $qtos = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+            $dtos = mysqli_fetch_assoc( $qtos );
+            $ttos = mysqli_num_rows($qtos);
+            if($ttos>0) {
+                $tbl.= $dtos['tos_name'];
+            }
+        }
+
+$tbl.='
+        </td>
+</tr>
+<tr>
+    <td colspan="3">Estimation Duration Warranty</td>
+    <td colspan="6">';
+
+        if($twarranty>0) {
+            $tbl.= $dwarranty['project_estimation'];
+            if($dwarranty['project_estimation_id']==1) {
+                $tbl.= ' days';
+            } elseif($dwarranty['project_estimation_id']==2) {
+                $tbl.= ' months';
+            } elseif($dwarranty['project_estimation_id']==3) {
+                $tbl.= ' years';
+            } 
+        }
+
+$tbl.='
+    </td>
+</tr>';
+
+    $tblname = "trx_project_mandays";
+    $array = array(); $i=1;
+    for($i=1; $i<8; $i++) {
+        $condition = "project_id=" . $dproject['project_id'] . " AND service_type=3 AND (resource_level DIV 10)=" . $i;
+        $order = "resource_level ASC";
+        $mysql = 'SELECT * FROM sa_' . $tblname . ' WHERE ' . $condition . ' ORDER BY ' . $order;
+        $qdata = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+        $ddata = mysqli_fetch_assoc( $qdata );
+        $tdata = mysqli_num_rows($qdata);
+        $arrayitems = array();
+        $value = NULL;
+        $j=0; 
+        if($tdata>0) {
+        do { 
+            if($ddata['resource_level'] != (($i)*10 +$j+1)) {
+                $arrayitem = array('brand'=>NULL, 'mantotal'=>NULL, 'mandays'=>NULL, 'value'=>$value);
+                array_push($arrayitems, $arrayitem);
+                $j++;
+            }
+            $arrayitem = array('brand'=>$ddata['brand'], 'mantotal'=>$ddata['mantotal'], 'mandays'=>$ddata['mandays'], 'value'=>$ddata['value']);
+            array_push($arrayitems, $arrayitem);
+            $j++;
+            $value = $ddata['value'];
+        } while($ddata=$qdata->fetch_assoc());
+        }
+        if($j<5) {
+            for($k=$j; $k<5; $k++) {
+                $arrayitem = array('brand'=>NULL, 'mantotal'=>NULL, 'mandays'=>NULL, 'value'=>$value);
+                array_push($arrayitems, $arrayitem);
+            }
+        }
+        array_push($array, $arrayitems);
+    }
+
+    $mysql = "SELECT `resource_level`,`project_id`,`brand`, COUNT(`brand`) AS `tbrand`, (`resource_level`-(`resource_level` DIV 10)*10) AS `res` FROM `sa_trx_project_mandays` WHERE `project_id`=" . $dproject['project_id'] . " AND service_type=3 GROUP BY `project_id`,`brand` ORDER BY `res` ASC";
+        $qbrandlist = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+        $dbrandlist = mysqli_fetch_assoc( $qbrandlist );
+        $tbrandlist = mysqli_num_rows($qbrandlist);
+    $j=0;
+    $brands = array();
+    if($tbrandlist>0) {
+        do {
+            if(($dbrandlist['resource_level'] % 10) != ($j+1)) {
+                array_push($brands, NULL);
+                $j++;
+            }
+            array_push($brands, $dbrandlist['brand']);
+            $j++;
+        } while($dbrandlist=$qbrandlist->fetch_assoc());
+        if($j<5) {
+            for($k=$j; $k<5; $k++) {
+                array_push($brands,NULL);
+            }
+        }
+    } else {
+        for($k=0; $k<5; $k++) {
+            array_push($brands,NULL);
+        }
+    }
+
+$tblname = "mst_resource_catalogs";
+$mysql = 'SELECT * FROM sa_' . $tblname;
+$qresource = mysqli_query( $DBSB, $mysql ) or die($DBSB->errno . "-" . "[open_db][mysqli_query][" . $mysql . "] - " . $DBSB->error . "<br/>");
+$dresource = mysqli_fetch_assoc( $qresource );
+$resources = array($dresource['resource_qualification']=>$dresource['mandays']);
+while($dresource=$qresource->fetch_assoc()) {
+    $res1 = array($dresource['resource_qualification']=>$dresource['mandays']);
+    $resources = array_merge($resources, $res1);
+} 
+$reslevel = array("PD", "PM", "PC", "PA", "EE", "EP", "EA");
+
+$tbl.='
+<tr>
+    <td></td>
+</tr>
+<tr>
+    <td colspan="3" rowspan="2" style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Category</td>
+    <td style="text-align:center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Brand 1</td>
+    <td style="text-align:center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Brand 2</td>
+    <td style="text-align:center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Brand 3</td>
+    <td style="text-align:center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Brand 4</td>
+    <td style="text-align:center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Brand 5</td>
+    <td rowspan="2" style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Total Budget</td>
+</tr>
+<tr>';
+//    <td colspan="3" style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa">Category</td>';
+
+    for($i=0;$i<count($brands);$i++) {
+
+$tbl.='
+        <td style="text-align: center; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa;">' . $brands[$i] . '</td>';
+
+    }
+
+$tbl.='
+    </tr>';
+
+    $color="#E0FFFF";
+for($i=0; $i<2; $i++) { 
+    switch ($i) {
+        case 0:
+            $rlevel = "Price List Extended Warranty (Cisco)";
+            break;
+        case 1:
+            $rlevel = "Discounted Extended Warranty (NON Cisco)";
+    } 
+
+$tbl.='
+    <tr>
+        <td colspan="3">' . $rlevel . '</td>
+        <td style="text-align: right; background-color:' . $color . '">' . number_format($array[$i][0]['mandays'],2,",",".") . '</td>
+        <td style="text-align: right; background-color:' . $color . '">' . number_format($array[$i][1]['mandays'],2,",",".") . '</td>
+        <td style="text-align: right; background-color:' . $color . '">' . number_format($array[$i][2]['mandays'],2,",",".") . '</td>
+        <td style="text-align: right; background-color:' . $color . '">' . number_format($array[$i][3]['mandays'],2,",",".") . '</td>
+        <td style="text-align: right; background-color:' . $color . '">' . number_format($array[$i][4]['mandays'],2,",",".") . '</td>
+        <td style="text-align: right; background-color:' . $color . '">' . number_format($array[$i][0]['mandays']+$array[$i][1]['mandays']+$array[$i][2]['mandays']+$array[$i][3]['mandays']+$array[$i][4]['mandays'],2,",",".") . '</td>
+    </tr>';
+    if($color=="#E0FFFF") {
+        $color="#AFEEEE";
+    } else {
+        $color="#E0FFFF";
+    }
+
+}
+
+$tbl.='
+<tr>
+    <td colspan="8" style="text-align: right; border-top: 0.2em solid #aaa;"><b>Total</b></td>
+    <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>' . number_format($array[0][0]['mandays']+$array[1][0]['mandays']+$array[0][1]['mandays']+$array[1][1]['mandays']+$array[0][2]['mandays']+$array[1][2]['mandays']+$array[0][3]['mandays']+$array[1][3]['mandays']+$array[0][4]['mandays']+$array[1][4]['mandays'],2,",",".") . '</b></td>
+</tr>
+<tr>
+    <td colspan="8" style="text-align: right;"><b>PO Customer (IDR)</b></td>
+    <td style="text-align: right; background-color:#eaeaea; border-top: 0.2em solid #aaa; border-bottom: 0.2em solid #aaa"><b>' . number_format($array[2][1]['mandays'],2,",",".") . '</b></td>
+</tr>';
+
+}
+
+$tbl.='
+
+</table>
+';
+
+$pdf->writeHTML($tbl, true, false, false, false, '');
+
+// -----------------------------------------------------------------------------
+
+$so_number = str_replace("/","",$dproject['so_number']);
+//Close and output PDF document
+$filename = 'SBF-' . $dproject['project_code'] . '-' . $so_number . '-' . Date('YmdGis');
+$pdf->Output($filename, 'I');
+
+//============================================================+
+// END OF FILE
+//============================================================+

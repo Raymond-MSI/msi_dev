@@ -1,0 +1,83 @@
+<?php
+if (isset($_POST['add'])) {
+    $insert = sprintf(
+        "(`divisi`,`posisi`,`jumlah_dibutuhkan`,`tanggal_dibutuhkan`,`deskripsi`,`nama_project`,`nama_customer`,`project_code`,`status_rekrutmen`,`status_karyawan`,`mpp`,`jenis_kelamin`,`usia`,`pendidikan_minimal`,`jurusan`,`pengalaman_minimal`,`kompetensi_teknis`,`kompetensi_non_teknis`,`kandidat`,`internal`,`catatan`,`diisi_oleh_hcm`,`range_salary`,`request_by`,`gm`,`status_gm`,`gm_hcm`,`status_gm_hcm`,`gm_bod`,`status_gm_bod`,`status_request`) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)",
+
+        GetSQLValueString($_POST['divisi'], "text"),
+        GetSQLValueString($_POST['posisi'], "text"),
+        GetSQLValueString($_POST['jumlah_dibutuhkan'], "int"),
+        GetSQLValueString($_POST['tanggal_dibutuhkan'], "date"),
+        GetSQLValueString($_POST['deskripsi'], "text"),
+        GetSQLValueString($_POST['nama_project'], "text"),
+        GetSQLValueString($_POST['nama_customer'], "text"),
+        GetSQLValueString($_POST['project_code'], "text"),
+        GetSQLValueString($_POST['status_rekrutmen'], "text"),
+        GetSQLValueString($_POST['status_karyawan'], "text"),
+        GetSQLValueString($_POST['mpp'], "text"),
+        GetSQLValueString($_POST['jenis_kelamin'], "text"),
+        GetSQLValueString($_POST['usia'], "text"),
+        GetSQLValueString($_POST['pendidikan_minimal'], "text"),
+        GetSQLValueString($_POST['jurusan'], "text"),
+        GetSQLValueString($_POST['pengalaman_minimal'], "text"),
+        GetSQLValueString($_POST['kompetensi_teknis'], "text"),
+        GetSQLValueString($_POST['kompetensi_non_teknis'], "text"),
+        GetSQLValueString($_POST['kandidat'], "text"),
+        GetSQLValueString($_POST['internal'], "text"),
+        GetSQLValueString($_POST['catatan'], "text"),
+        GetSQLValueString($_POST['diisi_oleh_hcm'], "text"),
+        GetSQLValueString($_POST['range_salary'], "int"),
+        GetSQLValueString($_SESSION['Microservices_UserEmail'], "text"),
+        GetSQLValueString($_POST['gm'], "text"),
+        GetSQLValueString($_POST['status_gm'], "text"),
+        GetSQLValueString($_POST['gm_hcm'], "text"),
+        GetSQLValueString($_POST['status_gm_hcm'], "text"),
+        GetSQLValueString($_POST['gm_bod'], "text"),
+        GetSQLValueString($_POST['status_gm_bod'], "text"),
+        GetSQLValueString("Pending Approval", "text"),
+    );
+    $res = $DBHCM->insert_data($tblname, $insert);
+    $ALERT->savedata();
+} elseif (isset($_POST['save'])) {
+    $condition = "id=" . $_POST['id'];
+    $update = sprintf(
+        "`id`=%s,`divisi`=%s,`posisi`=%s,`jumlah_dibutuhkan`=%s,`tanggal_dibutuhkan`=%s,`deskripsi`=%s,`nama_project`=%s,`nama_customer`=%s,`project_code`=%s,`status_rekrutmen`=%s,`status_karyawan`=%s,`mpp`=%s,`jenis_kelamin`=%s,`usia`=%s,`pendidikan_minimal`=%s,`jurusan`=%s,`pengalaman_minimal`=%s,`kompetensi_teknis`=%s,`kompetensi_non_teknis`=%s,`kandidat`=%s,`internal`=%s,`catatan`=%s,`diisi_oleh_hcm`=%s,`range_salary`=%s,`request_by`=%s,`gm`=%s,`status_gm`=%s,`catatan_gm`=%s,`gm_hcm`=%s,`status_gm_hcm`=%s,`catatan_gm_hcm`=%s,`gm_bod`=%s,`status_gm_bod`=%s,`catatan_gm_bod`=%s,`status_request`=%s,`flag`=%s",
+        GetSQLValueString($_POST['id'], "int"),
+        GetSQLValueString($_POST['divisi'], "text"),
+        GetSQLValueString($_POST['posisi'], "text"),
+        GetSQLValueString($_POST['jumlah_dibutuhkan'], "int"),
+        GetSQLValueString($_POST['tanggal_dibutuhkan'], "date"),
+        GetSQLValueString($_POST['deskripsi'], "text"),
+        GetSQLValueString($_POST['nama_project'], "text"),
+        GetSQLValueString($_POST['nama_customer'], "text"),
+        GetSQLValueString($_POST['project_code'], "text"),
+        GetSQLValueString($_POST['status_rekrutmen'], "text"),
+        GetSQLValueString($_POST['status_karyawan'], "text"),
+        GetSQLValueString($_POST['mpp'], "text"),
+        GetSQLValueString($_POST['jenis_kelamin'], "text"),
+        GetSQLValueString($_POST['usia'], "text"),
+        GetSQLValueString($_POST['pendidikan_minimal'], "text"),
+        GetSQLValueString($_POST['jurusan'], "text"),
+        GetSQLValueString($_POST['pengalaman_minimal'], "text"),
+        GetSQLValueString($_POST['kompetensi_teknis'], "text"),
+        GetSQLValueString($_POST['kompetensi_non_teknis'], "text"),
+        GetSQLValueString($_POST['kandidat'], "text"),
+        GetSQLValueString($_POST['internal'], "text"),
+        GetSQLValueString($_POST['catatan'], "text"),
+        GetSQLValueString($_POST['diisi_oleh_hcm'], "text"),
+        GetSQLValueString($_POST['range_salary'], "int"),
+        GetSQLValueString($_POST['request_by'], "text"),
+        GetSQLValueString($_POST['gm'], "text"),
+        GetSQLValueString($_POST['status_gm'], "text"),
+        GetSQLValueString($_POST['catatan_gm'], "text"),
+        GetSQLValueString($_POST['gm_hcm'], "text"),
+        GetSQLValueString($_POST['status_gm_hcm'], "text"),
+        GetSQLValueString($_POST['catatan_gm_hcm'], "text"),
+        GetSQLValueString($_POST['gm_bod'], "text"),
+        GetSQLValueString($_POST['status_gm_bod'], "text"),
+        GetSQLValueString($_POST['catatan_gm_bod'], "text"),
+        GetSQLValueString($_POST['status_request'], "text"),
+        GetSQLValueString($_POST['flag'], "int")
+    );
+    $res = $DBHCM->update_data($tblname, $update, $condition);
+    $ALERT->savedata();
+}

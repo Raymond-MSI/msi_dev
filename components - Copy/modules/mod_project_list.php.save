@@ -1,0 +1,226 @@
+<?php
+if((isset($property)) && ($property == 1)) {
+    $version = '1.0';
+    $author = 'Syamsul Arham';
+} else {
+?>
+
+<?php 
+    $tblname = 'cfg_web';
+    $condition = 'config_key="MODULE_NAVISION"';
+    $setupDB = $DB->get_data($tblname, $condition);
+    $dsetupDB = $setupDB[0];
+    if($setupDB[2]>0) {
+        $params = get_params($dsetupDB['params']);
+        $hostname = $params['database']['hostname'];
+        $username = $params['database']['username'];
+        $userpassword = $params['database']['userpassword'];
+        $database = $params['database']['database_name'];
+
+        $DPNAV = new Databases($hostname, $username, $userpassword, $database);
+        // $tblname = "mst_projects";
+        $tblname = "mst_orders";
+        // $tblname = "view_order";
+        ?>
+        <script> 
+            $(document).ready(function() {
+                var table = $('#<?php echo $tblname; ?>').DataTable( {
+                    dom: 'Blfrtip',
+                    "order": [
+                        [ 0 , "DES"]
+                    ],
+                    select: {
+                        style: 'single'
+                    },
+                    buttons: [
+                        {
+                            extend: 'colvis',
+                            text: "<i class='fa fa-columns'></i>",
+                            collectionLayout: 'fixed four-column',
+                            enabled: false
+                        },
+                        {
+                            text: "<i class='fa fa-plus'></i>",
+                            action: function () {
+                                var rownumber = table.rows({selected: true}).indexes();
+                                var project_code = table.cell( rownumber,1 ).data();
+                                var so_number = table.cell( rownumber,2 ).data();
+                                window.location.href = "index.php?mod=service_budget&act=add&project_code="+project_code+"&so_number="+so_number+"&submit=Submit";
+                            }
+                        }
+                    ],
+                    "columnDefs": [
+                        {
+                            // project_id
+                            "targets": [0,3,4,5,8,13,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32],
+                            "visible": false
+                        },
+                        {
+                            "targets": [10],
+                            className: 'dt-body-right',
+                            render: function(data, type) {
+                                var number = $.fn.dataTable.render.number( '.', ',', 2, '').display(data);
+            
+                                if (type === 'display') {
+                                    let color = 'black';
+                                    if (data > 200000000) {
+                                        color = 'green';
+                                    }
+                                    return '<span style="color:' + color + '">' + number + '</span>';
+                                }
+                                return number;
+                            }
+                        },
+                        {
+                            "targets": [11],
+                            className: 'dt-body-right',
+                            render: function(data, type) {
+                                var number = $.fn.dataTable.render.number( '.', ',', 2, '').display(data);
+            
+                                if (type === 'display') {
+                                    let color = 'black';
+                                    if (data > 14000) {
+                                        color = 'green';
+                                    }
+           
+                                    return '<span style="color:' + color + '">' + number + '</span>';
+                                }
+                                return number;
+                            }
+                        },
+                        {
+                            "targets": [12
+],
+                            className: 'dt-body-right',
+                            render: function(data, type) {
+                                var number = $.fn.dataTable.render.number( '.', ',', 2, '').display(data);
+            
+                                // if (type === 'display') {
+                                //     let color = 'black';
+                                //     if (data > 14000) {
+                                //         color = 'green';
+                                //     }
+           
+                                //     return '<span style="color:' + color + '">' + number + '</span>';
+                                // }
+                                return number;
+                            }
+                        }
+                    ]
+                });
+            } );
+        </script>
+
+
+        <div class="col-lg-12">
+
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Select Project</h6>
+                    <?php spinner(); ?>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-2 border-end">
+                            <div class="row mb-3">
+                                <div class="col-lg-12 border-bottom">
+                                    <b>Filter</b> <i class="fas fa-question-circle" data-bs-toggle="popover" data-bs-trigger="focus" title="Hasil filter data dibatasi maksimum 1.000 data yang terbaru. Maksimalkan kata kunci untuk mendapatkan data yang maksimal."></i>
+                                </div>
+                            </div>
+                            <form name="form" method="get" action="index.php">
+                                <div class="row mb-3">
+                                    <div class="col-lg-12">Project Code:</div>
+                                </div>
+                                <div class="rwo mb-3">
+                                    <input type="text" class="form-control form-control-sm" name="project_code" id="project_code" value="<?php if(isset($_GET['project_code'])) { echo $_GET['project_code']; } ?>" placeholder="Project Code">
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-lg-12">SO Number:</div>
+                                </div>
+                                <div class="rwo mb-3">
+                                    <input type="text" class="form-control form-control-sm" name="so_number" id="so_number" value="<?php if(isset($_GET['so_number'])) { echo $_GET['so_number']; } ?>" placeholder="SO Number">
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-lg-12">Customer Name:</div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-lg-12">
+                                        <input type="text" class="form-control form-control-sm" name="customer_name" id="customer_name" value="<?php if(isset($_GET['customer_name'])) { echo $_GET['customer_name']; } ?>" placeholder="Customer Name">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-lg-12">Status Project:</div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-lg-12">
+                                        <select class="form-select" name="status" aria-label="Default select example">
+                                            <option value="Status">Select Status</option>
+                                            <option value="Open" <?php if(isset($_GET['status']) && $_GET['status']=='Open') { echo 'selected'; } ?>>Open</option>
+                                            <option value="Released" <?php if(isset($_GET['status']) && $_GET['status']=='Released') { echo 'selected'; } ?>>Released</option>
+                                            <option value="Pending Approval" <?php if(isset($_GET['status']) && $_GET['status']=='Pending Approval') { echo 'selected'; } ?>>Pending Approval</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-lg-12">
+                                        <input type="hidden" name="mod" value="project_list">
+                                        <input type="submit" class="btn btn-primary" name="btn_search" id="btn_search" value="Search">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-10">
+                            <div class="row mb-3">
+                                <?php 
+                                $tblname = "mst_orders";
+                                // $tblname = "view_order";
+                                $primarykey = "order_id";
+
+                                $leader = get_leader($_SESSION['Microservices_UserEmail'],1);
+                                $dleader = $leader[0];
+                                $condition = '(ISNULL(status_sb) OR status_sb="0")';
+                                $sambung = ' AND ';
+                                if($_SESSION['Microservices_UserLevel']=="Administrator" || $_SESSION['Microservices_UserLogin']=='lucky.andiani' || $_SESSION['Microservices_UserLogin']=='safira.nur') {
+                                    $sambung = " AND ";
+                                } elseif($dleader['organization_name']!='Solution Architect and Telco') {
+                                    $condition .= $sambung . "sales_name LIKE '%" . $_SESSION['Microservices_UserName'] . "%' AND (amount_idr<=200000000 OR amount_usd<=13973)";
+                                    $sambung = " AND ";
+                                } else {
+                                    $condition .= $sambung . " (amount_idr>200000000 OR amount_usd>13973)";
+                                }
+                                $totalRows=100;
+                                if(isset($_GET['project_code']) && $_GET['project_code']!='') {
+                                    $condition .= $sambung . "project_code LIKE '%" . $_GET['project_code'] . "%'";
+                                    $sambung=" AND ";
+                                }
+                                if(isset($_GET['so_number']) && $_GET['so_number']!='') {
+                                    $condition .= $sambung . "so_number LIKE '%" . $_GET['so_number'] . "%'";
+                                    $sambung=" AND ";
+                                }
+                                if(isset($_GET['status']) && $_GET['status']!="Status") {
+                                    $condition .= $sambung . "status='" . $_GET['status'] . "'";
+                                    $totalRows=0;
+                                    $sambung=" AND ";
+                                }
+                                if(isset($_GET['customer_name']) && $_GET['customer_name']!='') {
+                                    $condition .= $sambung . " customer_name LIKE '%" . $_GET['customer_name'] . "%'";
+                                    $totalRows=0;
+                                }
+                                $order = "order_id DESC"; echo $condition;
+
+                                view_table($DPNAV, $tblname, $primarykey, $condition, $order, $firstRow = 0, $totalRows)
+                                ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <?php 
+    } else {
+        echo "Aplikasi belum disetup";            
+    }
+
+} 
+?>

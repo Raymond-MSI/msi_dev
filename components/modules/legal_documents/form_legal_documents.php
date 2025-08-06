@@ -1,0 +1,285 @@
+<?php
+if($_GET['act']=='edit') {
+    global $DBLD;
+    if($_GET['doc_id']=="undefined") {
+        ?>
+        <script>window.location.href='index.php?mod=legal_documents&err=datanotselected';</script>
+        <?php
+    }
+    $tblname = "documents";
+    $condition = "doc_id=" . $_GET['doc_id'];
+    $data = $DBLD->get_data($tblname, $condition);
+    $ddata = $data[0];
+    $qdata = $data[1];
+    $tdata = $data[2];
+}
+?>
+<form method="post" action="index.php?mod=<?php echo $_GET['mod']; ?>">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="row mb-3">
+                <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Doc Id</label>
+                <div class="col-sm-9">
+                <input type="text" class="form-control form-control-sm" id="doc_id" name="doc_id" value="<?php if($_GET['act']=='edit') { echo $ddata['doc_id']; } ?>" readonly>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Doc Number</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control form-control-sm" id="doc_number" name="doc_number" value="<?php if($_GET['act']=='edit') { echo $ddata['doc_number']; } ?>" <?php if($_GET['act']=='edit') { echo 'readonly'; } ?>>
+                    <script>
+                        var val1 = document.getElementById('doc_number').value;
+                        document.cookie = 'ProjectCode = ' + val1;
+                    </script>
+                    <?php 
+                    if($_GET['act']=='edit') { 
+                        $val1 = textclean($ddata['doc_number']); 
+                    } else {
+                        $val1 = textclean($_COOKIE['ProjectCode']); 
+                    }
+                    ?>
+                    <input type='hidden' id='doc_number_clean' value='<?php echo $val1; ?>'>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Doc Title</label>
+                <div class="col-sm-9">
+                <input type="text" class="form-control form-control-sm" id="doc_title" name="doc_title" value="<?php if($_GET['act']=='edit') { echo $ddata['doc_title']; } ?>">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Provider</label>
+                <div class="col-sm-9">
+                <select class="form-select form-select-sm" id="provider_id" name="provider_id">
+                    <?php
+                    global $DBLD;
+                    $tblname="provider";
+                    $condition="disabled=0";
+                    $order="provider_name ASC";
+                    $select = $DBLD->get_data($tblname, $condition, $order);
+                    $dselect = $select[0];
+                    $qselect = $select[1];
+                    $tselect = $select[2];
+                    do {
+                    ?>
+                        <option value="<?php echo $dselect['provider_id']; ?>" <?php if($_GET['act']=='edit') { if($dselect['provider_id']==$ddata['provider_id']) { echo 'selected'; }} ?>>
+                            <?php echo $dselect["provider_name"]; ?>
+                        </option>
+                    <?php } while($dselect=$qselect->fetch_assoc()); ?>
+                </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Category Id</label>
+                <div class="col-sm-9">
+                <select class="form-select form-select-sm" id="category_id" name="category_id">
+                    <?php
+                    $tblname="category";
+                    $condition="";
+                    $order="cat_name ASC";
+                    $select = $DBLD->get_data($tblname, $condition, $order);
+                    $dselect = $select[0];
+                    $qselect = $select[1];
+                    $tselect = $select[2];
+                    do {
+                    ?>
+                        <option value="<?php echo $dselect['cat_id']; ?>"  <?php if($_GET['act']=='edit') { if($dselect['cat_id']==$ddata['category_id']) { echo 'selected'; }} ?>>
+                            <?php echo $dselect["cat_name"]; ?>
+                        </option>
+                    <?php } while($dselect=$qselect->fetch_assoc()); ?>
+                </select>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="row mb-3">
+                <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Date Released</label>
+                <div class="col-sm-9">
+                <input type="text" class="form-control form-control-sm" id="datepicker" name="date_released" value="<?php if($_GET['act']=='edit') { echo $ddata['date_released']; } else { echo date("Y-m-d"); } ?>">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Date Expired</label>
+                <div class="col-sm-9">
+                <input type="text" class="form-control form-control-sm" id="datepicker1" name="date_expired" value="<?php if($_GET['act']=='edit') { echo $ddata['date_expired']; } else { echo date("Y-m-d"); } ?>">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Note</label>
+                <div class="col-sm-9">
+                <textarea class="form-control form-control-sm" id="note" name="note" rows="3" value=""><?php if($_GET['act']=='edit') { echo $ddata['note']; } ?></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+           <?php
+            global $DBLD;
+            $tblname = 'category';
+            $cats = $DBLD->get_data($tblname);
+            $dcats = $cats[0];
+            $qcats = $cats[1];
+            $appname = 'MEDIA_LEGAL_DOCUMENT';
+            $sFolderTarget= get_media_folder($appname);
+            do {
+                $sMediaFolder = $sFolderTarget.'/'. $dcats['cat_name'];
+                $RES = create_folder($sMediaFolder);
+            } while($dcats=$qcats->fetch_assoc());
+            ?>
+            <script>
+            var FolderTarget = "<?php echo $sFolderTarget; ?>";
+            document.cookie = "FolderTargetx = " + FolderTarget;
+            </script>
+            <div class="row mb-3">
+                <table class="table table-sm table-hover">
+                    <thead>
+                        <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nama File</th>
+                        <th scope="col">Size</th>
+                        <th scope="col">Modified</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php
+                        if($_GET['act']=='edit') {
+                        global $DBLD;
+                        $tblname = 'category';
+                        $cats = $DBLD->get_data($tblname);
+                        $dcats = $cats[0];
+                        $qcats = $cats[1];
+
+                        $sFolderTarget .='/';
+                        $i=0;
+                        do {
+                            $d = dir($sFolderTarget.'/' . $dcats['cat_name']);
+                            while (false !== ($entry = $d->read())) {
+                                if($entry!='.' && $entry!='..' && $entry!='index.php') {
+                                    $fstat = stat($sFolderTarget . $dcats['cat_name'].'/'.$entry);
+
+                                    $len=strlen($val1);
+                                    if(substr($entry,0,$len)==$val1) {
+                                        ?>
+                                        <tr>
+                                            <th scope="row"><?php echo $i+1; ?></th>
+                                            <!-- <td><a href="<?php echo $sFolderTarget. $dcats['cat_name'] . '/'.$entry; ?>" target="_blank" class="text-body"><?php echo $entry; ?></a></td> -->
+                                            <td><a href="media/view_media.php?link=<?php echo '../' . $sFolderTarget. $dcats['cat_name'] . '/'.$entry; ?>" target="_blank" class="text-body"><?php echo $entry; ?></a></td>
+                                            <td class="text-center">
+                                                <?php
+                                                if($fstat['size']<1024) {
+                                                    echo number_format($fstat['size'],2).' B'; 
+                                                } elseif($fstat['size']<(1024*1024)) {
+                                                    echo number_format($fstat['size']/1024,2) . ' KB';
+                                                } elseif($fstat['size']<(1024*1024*1024)) {
+                                                    echo number_format($fstat['size']/(1024*1024),2) . ' MB';
+                                                } elseif($fstat['size']<(1024*1024*1024*1024)) {
+                                                    echo number_format($fstat['size']/(1024*1024*1024),2) . ' GB';
+                                                }
+                                                ?>
+                                            </td>
+                                            <td><?php echo date('d-M-Y G:i:s',$fstat['mtime']); ?></td>
+                                        </tr>
+                                        <?php
+                                        $i++;
+                                    }
+                                }
+                            }
+                        } while($dcats=$qcats->fetch_assoc());
+                        if($i==0) {
+                            ?>
+                            <tr><td colspan="4">No Files available.</td></tr>
+                            <?php
+                        }
+                    }
+                        ?>
+                    </tbody>
+                </table>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-9">
+                    <button type="button" class="btn btn-primary" name="btn_upload1" id="btn_upload1" data-bs-toggle="modal" data-bs-target="#fileupload1">Upload File</button>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-12">
+                    <div id="fileList"></div>
+                </div>
+           </div>
+        </div>
+    </div>
+    <?php if(isset($_GET['act']) && $_GET['act']=='edit') { ?>
+        <input type="submit" class="btn btn-primary" name="save" value="Save">
+    <?php } elseif(isset($_GET['act']) && $_GET['act']=='add') { ?>
+        <input type="submit" class="btn btn-primary" name="add" value="Save">
+    <?php } ?>
+    <input type="submit" class="btn btn-secondary" name="cancel" value="Cancel">
+</form>
+    
+<div class="modal fade" id="fileupload1" tabindex="-1" aria-labelledby="saveLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="saveLabel"><b>Upload File</b></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="col mb-3">
+                    <div id="fileList"></div>
+                </div>
+                <link href="components/modules/upload/upload.css" rel="stylesheet" type="text/css" />
+                <form id="upload_form" enctype="multipart/form-data" method="post" action="components/modules/upload/upload.php">
+                    <div class="row mb-3">
+                        <div class="col-sm-9"><input type="file" name="image_file" id="image_file" onchange="fileSelected();" /></div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-3"><input type="button" value="Upload Asosiasi" onclick="startUploading1('Asosiasi')" /></div>
+                        <div class="col-sm-3"><input type="button" value="Upload ISO" onclick="startUploading1('ISO')" /></div>
+                        <div class="col-sm-3"><input type="button" value="Upload Prinsipal" onclick="startUploading1('Prinsipal')" /></div>
+                        <div class="col-sm-3"><input type="button" value="Upload Customer" onclick="startUploading1('Customer')" /></div>
+                    </div>
+                    <div class="row mb-3" id="fileinfo">
+                        <div id="filename"></div>
+                        <div id="filesize"></div>
+                        <div id="filetype"></div>
+                        <div id="filedim"></div>
+                    </div>
+                    <div class="row mb-3">
+                        <div id="error">You should select valid image files only!</div>
+                        <div id="error2">An error occurred while uploading the file</div>
+                        <div id="abort">The upload has been canceled by the user or the browser dropped the connection</div>
+                        <div id="warnsize">Your file is very big. We can't accept it. Please select more small file</div>
+                    </div>
+                    <div class="row mb-3">
+                        <div id="progress_info">
+                            <div id="progress"></div>
+                            <div id="progress_percent">&nbsp;</div>
+                            <div class="clear_both"></div>
+                            <div>
+                                <div id="speed">&nbsp;</div>
+                                <div id="remaining">&nbsp;</div>
+                                <div id="b_transfered">&nbsp;</div>
+                                <div class="clear_both"></div>
+                            </div>
+                            <div id="upload_response"></div>
+                        </div>
+                    </div>
+                </form>
+                <img id="preview" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function startUploading1(subFolder) {
+        var FolderTarget = getCookie("FolderTargetx");
+        document.cookie = "FolderTarget = " + FolderTarget + "/" + subFolder;
+        document.cookie = "ProjectCode = " + document.getElementById('doc_number_clean').value;
+        startUploading();
+    }
+    </script>
+

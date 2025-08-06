@@ -1,0 +1,24 @@
+﻿[2022-02-07 17:02:18] MySQL ERROR
+==============================================================
+INSERT INTO wp_wsm_browsers (name) VALUES ("Firefox")
+WSREP has not yet prepared node for application use
+
+
+[2022-02-07 17:02:19] MySQL ERROR
+==============================================================
+INSERT INTO wp_wsm_oSystems (name) VALUES ("Windows")
+WSREP has not yet prepared node for application use
+
+
+[2022-02-07 17:02:19] MySQL ERROR
+==============================================================
+INSERT INTO wp_wsm_oSystems (name) VALUES ("Windows 10")
+WSREP has not yet prepared node for application use
+
+
+[2022-02-07 17:02:19] MySQL ERROR
+==============================================================
+INSERT INTO wp_wsm_resolutions (name) VALUES ("1920x1080")
+WSREP has not yet prepared node for application use
+
+
