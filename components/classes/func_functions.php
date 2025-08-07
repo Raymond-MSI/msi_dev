@@ -324,7 +324,7 @@ if ((isset($property)) && ($property == 1)) {
 		return $condition;
 	}
 	
-	function send_email($from, $to = '', $cc = 'webmaster@syaarar.com', $subject, $message)
+	function send_email($from, $to = '', $cc = 'webmaster@syaarar.com', $subject = "", $message = "")
 	{
 		$headers = 'From: ' . $from . "\r\n" .
 		'Reply-To: ' . $from . "\r\n" .
@@ -450,4 +450,112 @@ if ((isset($property)) && ($property == 1)) {
 	{
 		return preg_replace('/<[^>]*>/', '', $text);
 	}
-} ?>
+
+	function number_of_working_days($from, $to) {
+		$workingDays = [1, 2, 3, 4, 5]; # date format = N (1 = Monday, ...)
+		$holidayDays = ['*-12-25', '*-01-01', '2013-12-23']; # variable and fixed holidays
+	
+		$from = new DateTime($from);
+		$to = new DateTime($to);
+		$to->modify('+1 day');
+		$interval = new DateInterval('P1D');
+		$periods = new DatePeriod($from, $interval, $to);
+	
+		$days = 0;
+		foreach ($periods as $period) {
+			if (!in_array($period->format('N'), $workingDays)) continue;
+			if (in_array($period->format('Y-m-d'), $holidayDays)) continue;
+			if (in_array($period->format('*-m-d'), $holidayDays)) continue;
+			$days++;
+		}
+		return $days;
+	}
+	
+	function calculateEndDate($startDate, $workingDays, $holidays = []) {
+		$date = new DateTime($startDate);
+		$addedDays = 0;
+
+		while ($addedDays < $workingDays) {
+			$date->modify('+1 day');
+			$dayOfWeek = $date->format('N'); // 1 (Monday) to 7 (Sunday)
+			$formattedDate = $date->format('Y-m-d');
+
+			if ($dayOfWeek < 6 && !in_array($formattedDate, $holidays)) {
+				$addedDays++;
+			}
+		}
+
+		return $date->format('Y-m-d');
+	}
+
+	
+} 
+
+class API_WRIKE
+{
+    public  $authorization;
+
+    function __construct() {
+        $this->authorization = "Authorization: Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjQ2Njg2MDUsXCJpXCI6OTIzOTA4MSxcImNcIjo0NjcxMzc3LFwidVwiOjE2NDc3MzM1LFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzMxNDg0MDI4fQ.Ggy6YbLvLiIr_Yrfnyfy73yY8g1ts8bRRkrhpqvVV04";
+    }
+
+    function getApiWrike($url = '')
+    {
+        $curl = curl_init();
+        curl_setopt($curl, CURLOPT_URL, $url);
+        curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type: application/json', $this->authorization));
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+        $result = curl_exec($curl);
+        curl_close($curl);
+
+        if (!$result) {
+            throw new Exception('Get api wrike gagal');
+        }
+
+        $result = json_decode($result, true);
+        $data = isset($result['data']) ? $result['data'] : [];
+        return $data;
+    }
+
+    function getApiWrikeForPage($url = '')
+    {
+        $curl = curl_init();
+        curl_setopt($curl, CURLOPT_URL, $url);
+        curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type: application/json', $this->authorization));
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+        $result = curl_exec($curl);
+        curl_close($curl);
+
+        if (!$result) {
+            throw new Exception('Get api wrike gagal');
+        }
+
+        $result = json_decode($result, true);
+        $result['responseSize'] = isset($result['responseSize']) ? ceil($result['responseSize'] / 1000) : 0;
+        return $result;
+    }
+
+    function putApiWrikeAccessTask($idTask = '', $idWrike = '')
+    {
+        $data = array("addResponsibles" => "['$idWrike']");
+        $put_data = json_encode($data);
+        
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, "https://www.wrike.com/api/v4/tasks/$idTask");
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $put_data);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json', $this->authorization));
+        $response = curl_exec($ch);
+        curl_close($ch);
+
+        if (!$response) {
+            throw new Exception('Put api wrike gagal');
+        }
+
+        $response = json_decode($response, true);
+        return $response;
+    }
+}
+
+?>
