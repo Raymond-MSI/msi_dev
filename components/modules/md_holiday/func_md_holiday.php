@@ -25,20 +25,7 @@ function is_duplicate_date($DBHCM, $table, $date, $id = null)
 
 // === ADD ===
 if (isset($_POST['add']) && !empty($_POST['holiday_date']) && !empty($_POST['Descriptions'])) {
-    // if (is_duplicate_date($DBHCM, $tblname, $_POST['holiday_date'])) {
-    //     echo '<div class="alert alert-warning">A holiday already exists on this date (same day and month).</div>';
-    // } else {
-    //     $insert = sprintf(
-    //         "(`id`,`holiday_date`,`Descriptions`,`created_by`,`modified_by`) VALUES (%s,%s,%s,%s,%s)",
-    //         GetSQLValueString($_POST['id'], "int"),
-    //         GetSQLValueString($_POST['holiday_date'], "text"),
-    //         GetSQLValueString($_POST['Descriptions'], "text"),
-    //         GetSQLValueString($loggedInUserName, "text"),
-    //         GetSQLValueString($loggedInUserName, "text")
-    //     );
-    //     $res = $DBHCM->insert_data($tblname, $insert);
-    //     $ALERT->savedata(); // Show success alert
-    // }
+
 
     $dates = $_POST['holiday_date'];
     $descs = $_POST['Descriptions'];
@@ -54,7 +41,10 @@ if (isset($_POST['add']) && !empty($_POST['holiday_date']) && !empty($_POST['Des
             continue;
         }
         if (is_duplicate_date($DBHCM, $tblname, $date)) {
-            $duplicates[] = $date;
+            $duplicates[] = [
+                'date' => $date,
+                'description' => $desc
+            ];
         } else {
             $insert = sprintf(
                 "(`holiday_date`, `Descriptions`, `created_by`, `modified_by`) VALUES (%s, %s, %s, %s)",
@@ -67,14 +57,18 @@ if (isset($_POST['add']) && !empty($_POST['holiday_date']) && !empty($_POST['Des
             $DBHCM->insert_data($tblname, $insert);
             $inserted++;
         }
-        if ($inserted > 0) {
-            $ALERT->savedata(); // Show success alert
+    }
+    if ($inserted > 0) {
+        $ALERT->savedata(); // Show success alert
+    }
+    if (!empty($duplicates)) {
+        echo '<div class="alert alert-warning">This date is already exist: <br><ul>';
+        foreach ($duplicates as $dup) {
+            $safeDate = htmlspecialchars($dup['date']);
+            $safeDesc = htmlspecialchars($dup['description']);
+            echo "<li><strong>{$safeDate}</strong>: {$safeDesc}</li>";
         }
-
-        if (!empty($duplicates)) {
-            echo '<div class="alert alert-warning">This date is already exist: <br>' .
-                implode('<br>', array_map('htmlspecialchars', $duplicates)) . '</div>';
-        }
+        echo '</ul></div>';
     }
 
     // === EDIT ===
