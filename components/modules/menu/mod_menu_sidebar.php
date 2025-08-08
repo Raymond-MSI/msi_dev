@@ -169,7 +169,6 @@
     <!-- End Administrator -->
 
     <!-- Developer -->
-    <?php if ($_SESSION['Microservices_UserLevel'] == 'Administrator' || $_SESSION['Microservices_UserLevel'] == 'Super Admin') { ?>
 
         <!-- Divider -->
         <hr class="sidebar-divider">
@@ -221,7 +220,7 @@
     <?php
             } while ($dmenusidebar = $qmenusidebar->fetch_assoc());
         }
-    }
+   
     ?>
     <!-- End Developer -->
 
