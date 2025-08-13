@@ -578,7 +578,14 @@ if ((isset($property)) && ($property == 1)) {
                                         window.location.href = "index.php?mod=change_request&act=review&try=close&&gi_id=" + gi_id + "&submit=Submit&type=" + type + "&cr_no=" + cr_no + "&project_code=" + project_code + "&classification=" + classification + "&status_approval=" + status_approval;
                                     }
                                 }
-                            }
+                            },
+                            {
+                                text: "<i class='fa fa-book' data-bs-toggle='popover' data-bs-trigger='focus' title='Report '></i>",
+                                action: function() {
+                                    window.location.href = "index.php?mod=report_change_request";
+                                },
+                                // enabled: false
+                            },
                             //components/vendor/TCPDF-main/examples/rpt_change_request_pdf.php
                         ],
                         "columnDefs": [{
