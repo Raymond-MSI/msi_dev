@@ -32,6 +32,17 @@ if ((isset($property)) && ($property == 1)) {
                             do {
                                 // $header .="<th>" . strtoupper($ddatatable_header['Field']) . "</th>";
                                 $headerx = str_replace("_", " ", strtoupper($ddatatable_header['Field']));
+                                if ($headerx == 'CHANGE REQUEST APPROVAL TYPE') {
+                                    $headerx = "Approval Expert Support";
+                                } else if ($headerx == 'CHANGE REQUEST APPROVAL TYPE2') {
+                                    $headerx = "Approval GM Expert Support";
+                                } else if ($headerx == 'CR STATUS APPROVAL SALES') {
+                                    $headerx = "Approval Sales";
+                                } else if ($headerx == 'CR STATUS APPROVAL PMO') {
+                                    $headerx = "Approval PMO";
+                                } else if ($headerx == 'CR STATUS APPROVAL PRESALES') {
+                                    $headerx = "Approval Presales";
+                                }
                                 $header .= "<th class='text-center align-middle'>" . $headerx . "</th>";
                             } while ($ddatatable_header = $qdatatable_header->fetch_assoc());
                             echo $header;
@@ -129,14 +140,14 @@ if ((isset($property)) && ($property == 1)) {
                                         selected: true
                                     }).indexes();
                                     var gi_id = table.cell(rownumber, 0).data();
-                                    var type = table.cell(rownumber, 12).data();
+                                    var type = table.cell(rownumber, 13).data();
                                     var cr_no = table.cell(rownumber, 4).data();
-                                    var project_code = table.cell(rownumber, 13).data();
-                                    var costimpact = table.cell(rownumber, 20).data();
-                                    var status_approval = table.cell(rownumber, 19).data();
-                                    var so_number = table.cell(rownumber, 15).data();
+                                    var project_code = table.cell(rownumber, 14).data();
+                                    var costimpact = table.cell(rownumber, 22).data();
+                                    var status_approval = table.cell(rownumber, 21).data();
+                                    var so_number = table.cell(rownumber, 16).data();
                                     var classification = table.cell(rownumber, 6).data();
-                                    var requested_by_email = table.cell(rownumber, 17).data();
+                                    var requested_by_email = table.cell(rownumber, 18).data();
                                     if (gi_id == null) {
                                         alert("Please select the data");
                                     } else {
@@ -199,13 +210,13 @@ if ((isset($property)) && ($property == 1)) {
                                         selected: true
                                     }).indexes();
                                     var gi_id = table.cell(rownumber, 0).data();
-                                    var type = table.cell(rownumber, 12).data();
+                                    var type = table.cell(rownumber, 13).data();
                                     var cr_no = table.cell(rownumber, 4).data();
-                                    var project_code = table.cell(rownumber, 13).data();
-                                    var costimpact = table.cell(rownumber, 20).data();
-                                    var status_approval = table.cell(rownumber, 19).data();
-                                    var so_number = table.cell(rownumber, 15).data();
-                                    var requested_by_email = table.cell(rownumber, 17).data();
+                                    var project_code = table.cell(rownumber, 14).data();
+                                    var costimpact = table.cell(rownumber, 22).data();
+                                    var status_approval = table.cell(rownumber, 21).data();
+                                    var so_number = table.cell(rownumber, 16).data();
+                                    var requested_by_email = table.cell(rownumber, 18).data();
                                     if (gi_id == null) {
                                         alert("Please select the data");
                                     } else if (gi_id != null && type == "Implementation" || type == "Maintenance" || type == "IT") {
@@ -226,8 +237,8 @@ if ((isset($property)) && ($property == 1)) {
                                     var type = table.cell(rownumber, 12).data();
                                     var cr_no = table.cell(rownumber, 4).data();
                                     var project_code = table.cell(rownumber, 13).data();
-                                    var costimpact = table.cell(rownumber, 20).data();
-                                    var status_approval = table.cell(rownumber, 19).data();
+                                    var costimpact = table.cell(rownumber, 21).data();
+                                    var status_approval = table.cell(rownumber, 20).data();
                                     var so_number = table.cell(rownumber, 15).data();
                                     var requested_by_email = table.cell(rownumber, 17).data();
                                     var classification = table.cell(rownumber, 6).data();
@@ -255,8 +266,8 @@ if ((isset($property)) && ($property == 1)) {
                                     var type = table.cell(rownumber, 12).data();
                                     var cr_no = table.cell(rownumber, 4).data();
                                     var project_code = table.cell(rownumber, 13).data();
-                                    var costimpact = table.cell(rownumber, 20).data();
-                                    var status_approval = table.cell(rownumber, 19).data();
+                                    var costimpact = table.cell(rownumber, 21).data();
+                                    var status_approval = table.cell(rownumber, 20).data();
                                     var so_number = table.cell(rownumber, 15).data();
                                     var requested_by_email = table.cell(rownumber, 17).data();
                                     var classification = table.cell(rownumber, 6).data();
@@ -280,7 +291,7 @@ if ((isset($property)) && ($property == 1)) {
                             "render": DataTable.render.datetime('DD MM YYYY'),
                         }],
                         "columnDefs": [{
-                            "targets": [0, 5, 7, 8, 9, 10, 16, 18, 20, 23, 24, 25, 26, 27, 28, 29],
+                            "targets": [0, 5, 7, 8, 9, 10, 16, 18, 23, 24, 25, 26, 27, 28, 29],
                             "visible": false,
                         }],
                         "order": [
@@ -436,18 +447,18 @@ if ((isset($property)) && ($property == 1)) {
                                         selected: true
                                     }).indexes();
                                     var gi_id = table.cell(rownumber, 0).data();
-                                    var type = table.cell(rownumber, 12).data();
+                                    var type = table.cell(rownumber, 13).data();
                                     var cr_no = table.cell(rownumber, 4).data();
-                                    var project_code = table.cell(rownumber, 13).data();
-                                    var costimpact = table.cell(rownumber, 20).data();
-                                    var status_approval = table.cell(rownumber, 19).data();
-                                    var so_number = table.cell(rownumber, 15).data();
+                                    var project_code = table.cell(rownumber, 14).data();
+                                    var costimpact = table.cell(rownumber, 22).data();
+                                    var status_approval = table.cell(rownumber, 21).data();
+                                    var so_number = table.cell(rownumber, 16).data();
                                     var classification = table.cell(rownumber, 6).data();
-                                    var requested_by_email = table.cell(rownumber, 17).data();
+                                    var requested_by_email = table.cell(rownumber, 18).data();
                                     if (gi_id == null) {
                                         alert("Please select the data");
                                     } else {
-                                        if (requested_by_email == "<?php echo $user_mail ?>") {
+                                        if (requested_by_email != "<?php echo $user_mail ?>") {
                                             alert("Anda tidak bisa edit CR ini");
                                         } else {
                                             if (type == "Implementation" || type == "Maintenance" || type == "IT") {
@@ -467,10 +478,10 @@ if ((isset($property)) && ($property == 1)) {
                                     }).indexes();
                                     var gi_id = table.cell(rownumber, 0).data();
                                     var cr_no = table.cell(rownumber, 4).data();
-                                    var type = table.cell(rownumber, 12).data();
+                                    var type = table.cell(rownumber, 13).data();
                                     var seq = table.cell(rownumber, 4).data();
-                                    var project_code = table.cell(rownumber, 13).data();
-                                    var so_number = table.cell(rownumber, 15).data();
+                                    var project_code = table.cell(rownumber, 14).data();
+                                    var so_number = table.cell(rownumber, 16).data();
                                     if (gi_id == null) {
                                         alert("Please select the data");
                                     } else {
@@ -478,27 +489,6 @@ if ((isset($property)) && ($property == 1)) {
                                     }
                                 }
                             },
-                            // {
-                            //     text: "<i class='fas fa-file-pdf' data-bs-toggle='popover' data-bs-trigger='focus' title='PDF Internal'></i>",
-                            //     action: function() {
-                            //         var rownumber = table.rows({
-                            //             selected: true
-                            //         }).indexes();
-                            //         var gi_id = table.cell(rownumber, 0).data();
-                            //         var cr_no = table.cell(rownumber, 4).data();
-                            //         var type = table.cell(rownumber, 12).data();
-                            //         var seq = table.cell(rownumber, 4).data();
-                            //         var project_code = table.cell(rownumber, 13).data();
-                            //         var so_number = table.cell(rownumber, 15).data();
-                            //         if (gi_id == null) {
-                            //             alert("Please select the data");
-                            //         } else if (type == 'IT' || type == 'Sales/Presales') {
-                            //             alert("Mohon klik logo PDF satunya");
-                            //         } else {
-                            //             window.location.href = "components/vendor/TCPDF-main/examples/rpt_change_request_pdf_internal.php?mod=change_request&type=" + type + "&project_code=" + project_code + "&so_number=" + so_number + "&cr_no=" + cr_no + "&so_number=" + so_number;
-                            //         }
-                            //     }
-                            // },
                             {
                                 text: "<i class='fa-solid fa-trash'></i>",
                                 action: function() {
@@ -506,13 +496,13 @@ if ((isset($property)) && ($property == 1)) {
                                         selected: true
                                     }).indexes();
                                     var gi_id = table.cell(rownumber, 0).data();
-                                    var type = table.cell(rownumber, 12).data();
+                                    var type = table.cell(rownumber, 13).data();
                                     var cr_no = table.cell(rownumber, 4).data();
-                                    var project_code = table.cell(rownumber, 13).data();
-                                    var costimpact = table.cell(rownumber, 20).data();
-                                    var status_approval = table.cell(rownumber, 19).data();
-                                    var so_number = table.cell(rownumber, 15).data();
-                                    var requested_by_email = table.cell(rownumber, 17).data();
+                                    var project_code = table.cell(rownumber, 14).data();
+                                    var costimpact = table.cell(rownumber, 22).data();
+                                    var status_approval = table.cell(rownumber, 21).data();
+                                    var so_number = table.cell(rownumber, 16).data();
+                                    var requested_by_email = table.cell(rownumber, 18).data();
                                     if (gi_id == null) {
                                         alert("Please select the data");
                                     } else if (gi_id != null && type == "Implementation" || type == "Maintenance" || type == "IT") {
@@ -530,13 +520,13 @@ if ((isset($property)) && ($property == 1)) {
                                         selected: true
                                     }).indexes();
                                     var gi_id = table.cell(rownumber, 0).data();
-                                    var type = table.cell(rownumber, 12).data();
+                                    var type = table.cell(rownumber, 13).data();
                                     var cr_no = table.cell(rownumber, 4).data();
-                                    var project_code = table.cell(rownumber, 13).data();
-                                    var costimpact = table.cell(rownumber, 20).data();
-                                    var status_approval = table.cell(rownumber, 19).data();
-                                    var so_number = table.cell(rownumber, 15).data();
-                                    var requested_by_email = table.cell(rownumber, 17).data();
+                                    var project_code = table.cell(rownumber, 14).data();
+                                    var costimpact = table.cell(rownumber, 22).data();
+                                    var status_approval = table.cell(rownumber, 21).data();
+                                    var so_number = table.cell(rownumber, 16).data();
+                                    var requested_by_email = table.cell(rownumber, 18).data();
                                     var classification = table.cell(rownumber, 6).data();
                                     if (requested_by_email == "<?php echo $_SESSION['Microservices_UserEmail'] ?>") {
                                         alert("Can't Approve/Reject this CR");
@@ -562,8 +552,8 @@ if ((isset($property)) && ($property == 1)) {
                                     var type = table.cell(rownumber, 12).data();
                                     var cr_no = table.cell(rownumber, 4).data();
                                     var project_code = table.cell(rownumber, 13).data();
-                                    var costimpact = table.cell(rownumber, 20).data();
-                                    var status_approval = table.cell(rownumber, 19).data();
+                                    var costimpact = table.cell(rownumber, 21).data();
+                                    var status_approval = table.cell(rownumber, 20).data();
                                     var so_number = table.cell(rownumber, 15).data();
                                     var requested_by_email = table.cell(rownumber, 17).data();
                                     var classification = table.cell(rownumber, 6).data();
@@ -578,14 +568,32 @@ if ((isset($property)) && ($property == 1)) {
                                         window.location.href = "index.php?mod=change_request&act=review&try=close&&gi_id=" + gi_id + "&submit=Submit&type=" + type + "&cr_no=" + cr_no + "&project_code=" + project_code + "&classification=" + classification + "&status_approval=" + status_approval;
                                     }
                                 }
+                            }, {
+                                text: "<i class='fas fa-file-pdf' data-bs-toggle='popover' data-bs-trigger='focus' title='PDF Eksternal'></i>",
+                                action: function() {
+                                    var rownumber = table.rows({
+                                        selected: true
+                                    }).indexes();
+                                    var gi_id = table.cell(rownumber, 0).data();
+                                    var cr_no = table.cell(rownumber, 4).data();
+                                    var type = table.cell(rownumber, 12).data();
+                                    var seq = table.cell(rownumber, 4).data();
+                                    var project_code = table.cell(rownumber, 13).data();
+                                    var so_number = table.cell(rownumber, 15).data();
+                                    if (gi_id == null) {
+                                        alert("Please select the data");
+                                    } else {
+                                        window.location.href = "components/vendor/TCPDF-main/examples/rpt_change_request_pdf.php?mod=change_request&type=" + type + "&project_code=" + project_code + "&so_number=" + so_number + "&cr_no=" + cr_no + "&so_number=" + so_number;
+                                    }
+                                }
+
                             },
                             {
                                 text: "<i class='fa fa-book' data-bs-toggle='popover' data-bs-trigger='focus' title='Report '></i>",
                                 action: function() {
                                     window.location.href = "index.php?mod=report_change_request";
-                                },
-                                // enabled: false
-                            },
+                                }
+                            }
                             //components/vendor/TCPDF-main/examples/rpt_change_request_pdf.php
                         ],
                         "columnDefs": [{
@@ -594,7 +602,7 @@ if ((isset($property)) && ($property == 1)) {
                             "render": DataTable.render.datetime('DD MM YYYY'),
                         }],
                         "columnDefs": [{
-                            "targets": [0, 5, 7, 8, 9, 10, 16, 18, 20, 23, 24, 25, 26, 27, 28, 29],
+                            "targets": [0, 5, 7, 8, 9, 10, 16, 18, 25, 26, 27, 28, 29, 32],
                             "visible": false,
                         }],
                         "order": [
@@ -819,10 +827,10 @@ if ((isset($property)) && ($property == 1)) {
                         $condition = "requested_by_email='$user_mail' ORDER BY gi_id DESC";
                         view_data($tblname, $condition);
                     } elseif (USERPERMISSION == "726ea0dd998698e8a87f8e344d373533" && !isset($_GET['act']) && $_GET['cr_status'] == "pending_review" || $_SESSION['Microservices_UserEmail'] == "hendri@mastersystem.co.id" && !isset($_GET['act']) && $_GET['cr_status'] == "pending_review" || USERPERMISSION == "726ea0dd998698e8a87f8e344d373533" && !isset($_GET['act']) && $_GET['cr_status'] == "open" || $_SESSION['Microservices_UserEmail'] == "hendri@mastersystem.co.id" && !isset($_GET['act']) && $_GET['cr_status'] == "open") {
-                        $condition = "change_request_status='submission_to_be_reviewed' AND change_request_approval_type='submission_to_be_reviewed' AND change_request_approval_type2='submission_to_be_reviewed' ORDER BY gi_id DESC";
+                        $condition = "change_request_approval_type='submission_to_be_reviewed' AND pic='" . $_SESSION['Microservices_UserEmail'] . "' OR change_request_approval_type2='submission_to_be_reviewed' AND pic_leader='" . $_SESSION['Microservices_UserEmail'] . "' ORDER BY gi_id DESC";
                         view_data($tblname, $condition);
                     } elseif (USERPERMISSION == "726ea0dd998698e8a87f8e344d373533" && !isset($_GET['act']) && $_GET['cr_status'] == "approved" || $_SESSION['Microservices_UserEmail'] == "hendri@mastersystem.co.id" && !isset($_GET['act']) && $_GET['cr_status'] == "approved") {
-                        $condition = "change_request_approval_type='submission_approved' OR change_request_approval_type2='submission_approved' ORDER BY gi_id DESC";
+                        $condition = "change_request_approval_type='submission_approved' AND pic='" . $_SESSION['Microservices_UserEmail'] . "' OR change_request_approval_type2='submission_approved' AND pic_leader='" . $_SESSION['Microservices_UserEmail'] . "' ORDER BY gi_id DESC";
                         view_data($tblname, $condition);
                     } elseif (USERPERMISSION == "726ea0dd998698e8a87f8e344d373533" && !isset($_GET['act']) && $_GET['cr_status'] == "completed" || $_SESSION['Microservices_UserEmail'] == "hendri@mastersystem.co.id" && $_GET['cr_status'] == "completed") {
                         $condition = "change_request_status='all_done' ORDER BY gi_id DESC";

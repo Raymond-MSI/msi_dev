@@ -11,9 +11,9 @@ if ((isset($property)) && ($property == 1)) {
 
     $modulename = "md_report_change_request";
     $userpermission = useraccess($modulename);
-    if (USERPERMISSION == "7b7bc2512ee1fedcd76bdc68926d4f7b" || USERPERMISSION == "dbf36ff3e3827639223983ee8ac47b42") {
-        // var_dump($_SESSION);
-    }
+    // if (USERPERMISSION == "7b7bc2512ee1fedcd76bdc68926d4f7b" || USERPERMISSION == "dbf36ff3e3827639223983ee8ac47b42") {
+    //     // var_dump($_SESSION);
+    // }
 }
 
 ?>
@@ -25,7 +25,7 @@ if ((isset($property)) && ($property == 1)) {
         font-weight: bold;
         color: #495057;
         /* Warna teks gelap */
-        cursor: pointer;
+
         /* Mengaktifkan ikon pointer */
     }
 
@@ -49,7 +49,7 @@ if ((isset($property)) && ($property == 1)) {
 <div class="row mt-3 ps-3 pe-3 mb-5" id="showTaskList">
     <div class="hstack gap-3 border-top border-bottom">
         <div class="p-2">
-            <div class="fs-3">Report Change Request</div>
+            <div class="fs-3">Report Change Request Maintenance</div>
         </div>
         <div class="p-2">
         </div>
@@ -64,7 +64,7 @@ if ((isset($property)) && ($property == 1)) {
             <thead class="bg-danger-subtle text-danger-emphasis">
                 <tr>
                     <th class="d-none text-wrap">Project Name </th>
-                    <th rowspan="2">Project Information</th>
+                    <th rowspan="2">CR Number</th>
                     <th rowspan="2">Requested By</th>
                     <th colspan="3" class="text-center">Ticket</th>
                     <th rowspan="2">Requested Date</th>
@@ -81,11 +81,14 @@ if ((isset($property)) && ($property == 1)) {
                 <?php if (!empty($result)): ?>
                     <?php do { ?>
                         <tr>
-                            <td class="d-none text-wrap"><?= htmlspecialchars($result[0]['project_name'] ?? '') ?></td>
+                            <td class="d-none">[<?= htmlspecialchars($result[0]['project_code'] ?? '') ?>] [<?= htmlspecialchars($result[0]['type_of_service'] ?? '') ?>] <?= htmlspecialchars($result[0]['project_name'] ?? '') ?></td>
                             <td>
-                                <b>Project Code:</b> <?= htmlspecialchars($result[0]['project_code'] ?? '') ?><br>
-                                <b>CR No:</b> <?= htmlspecialchars($result[0]['cr_no'] ?? '') ?><br>
-                                <b>Type Of Service:</b> <?= htmlspecialchars($result[0]['type_of_service'] ?? '') ?>
+
+                                <!-- <span class="text-nowrap"><b>Project Code: </b> <?= htmlspecialchars($result[0]['project_code'] ?? '') ?> | </span> -->
+                                <span class="text-nowrap"> <?= htmlspecialchars($result[0]['cr_no'] ?? '') ?> </span>
+                                <!-- <span class="text-nowrap"><b>Type Of Service: </b> <?= htmlspecialchars($result[0]['type_of_service'] ?? '') ?> </span> -->
+
+
                             </td>
                             <td><?= htmlspecialchars($result[0]['requested_by_email'] ?? '') ?></td>
                             <td><?= htmlspecialchars($result[0]['ticket_allocation'] ?? '') ?></td>
