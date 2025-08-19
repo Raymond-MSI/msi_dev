@@ -1,0 +1,375 @@
+File Error Log
+
+2024-04-29 09:03:27
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_complain' doesn't exist
+- Query 		: SELECT * FROM sa_complain WHERE type_project is not null
+
+
+2024-04-29 09:03:27
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_complain' doesn't exist
+- Query 		: SELECT * FROM sa_complain WHERE type_project is not null
+
+
+2024-04-29 09:03:53
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_complain' doesn't exist
+- Query 		: SELECT * FROM sa_complain WHERE type_project is not null
+
+
+2024-04-29 09:03:53
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_complain' doesn't exist
+- Query 		: SELECT * FROM sa_complain WHERE type_project is not null
+
+
+2024-04-29 09:04:17
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_complain' doesn't exist
+- Query 		: SELECT * FROM sa_complain WHERE type_project is not null
+
+
+2024-04-29 09:04:17
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_complain' doesn't exist
+- Query 		: SELECT * FROM sa_complain WHERE type_project is not null
+
+
+2024-04-29 09:07:03
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_complainkpi' at line 1
+- Query 		: show tables sa_complainkpi
+
+
+2024-04-29 09:08:52
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE complain_id=
+
+
+2024-04-29 09:23:02
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL AFTER order_number' at line 1
+- Query 		: 
+ALTER TABLE sa_complainkpi ADD so_number VARCHAR(50) NULL DEAFULT NULL AFTER order_number
+
+
+2024-04-29 09:43:46
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE complain_id=
+
+
+2024-04-29 09:53:27
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE complain_id=
+
+
+2024-04-29 10:06:35
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE complain_id=
+
+
+2024-04-29 10:12:20
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.ggogle_event_id' in 'on clause'
+- Query 		: select * from sa_preschedule a left join sa_schedule b ON a.ggogle_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CZUFL5'
+
+
+2024-04-29 10:12:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.ggogle_event_id' in 'on clause'
+- Query 		: select * from sa_preschedule a left join sa_schedule b ON a.ggogle_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CZUFL5'
+
+
+2024-04-29 10:24:16
+- Server 		: Prod
+- User 			: lucky.andiani@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_complainkpi WHERE complain_id=undefined
+
+
+2024-04-29 10:24:19
+- Server 		: Prod
+- User 			: lucky.andiani@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_complainkpi WHERE complain_id=undefined
+
+
+2024-04-29 10:26:05
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_preschedule' doesn't exist
+- Query 		: SELECT a.project_id,b.project_type,a.project_code, a.resource_email, a.resource_role, SUM(b.diff_time) as total_jam FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE b.response_status='accepted' AND b.project_type='MSI Project Implementation' GROUP BY a.project_id, a.project_code,b.project_type,a.resource_email
+
+
+2024-04-29 10:26:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_mandays_kpi' doesn't exist
+- Query 		: select * from sa_mandays_kpi WHERE project_id='IEAEOPF5I5CZUFL5'
+
+
+2024-04-29 10:27:20
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM sa_mandays_kpi WHERE project_id='IEAEOPF5I5CZUFL5'' at line 1
+- Query 		: DELETE * FROM sa_mandays_kpi WHERE project_id='IEAEOPF5I5CZUFL5'
+
+
+2024-04-29 10:38:56
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_complainkpi SET type_project='Implementation' WHERE type_project='Imp...' at line 1
+- Query 		: UPDATE FROM sa_complainkpi SET type_project='Implementation' WHERE type_project='Implementasi'
+
+
+2024-04-29 10:40:51
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_complainkpi' doesn't exist
+- Query 		: select * from sa_complainkpi WHERE order_number='ORD-29667-H8G1C9'
+
+
+2024-04-29 15:24:55
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Incorrect date value: '' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`end_date` at row 1
+- Query 		: UPDATE sa_maintenance_date
+                            SET entry_by = 'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+                                start_date = '2024-04-26', 
+                                end_date = ''
+                            WHERE project_code = 'TA000122A0022' and id_date = 'renewal'
+
+
+2024-04-29 15:26:15
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Incorrect date value: '' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`end_date` at row 1
+- Query 		: UPDATE sa_maintenance_date
+                            SET entry_by = 'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+                                start_date = '2024-04-26', 
+                                end_date = ''
+                            WHERE project_code = 'TA000122A0022' and id_date = 'renewal'
+
+
+2024-04-29 15:26:49
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Incorrect date value: '' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`end_date` at row 1
+- Query 		: UPDATE sa_maintenance_date
+                            SET entry_by = 'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+                                start_date = '2024-04-27', 
+                                end_date = ''
+                            WHERE project_code = 'TA000122A0022' and id_date = 'renewal'
+
+
+2024-04-29 15:29:39
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2024-04-27','')', 
+                                end_date = 'NULLIF('','')...' at line 3
+- Query 		: UPDATE sa_maintenance_date
+                            SET entry_by = 'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+                                start_date = 'NULLIF('2024-04-27','')', 
+                                end_date = 'NULLIF('','')'
+                            WHERE project_code = 'TA000122A0022' and id_date = 'renewal'
+
+
+2024-04-29 15:40:33
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. 1 .''' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date where project_code = 'TA000122A0022' and id_date = 'mt_report_date_'. 1 .''
+
+
+2024-04-29 15:40:33
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. 1 .''' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date where project_code = 'TA000122A0022' and id_date = 'mt_report_date_'. 1 .''
+
+
+2024-04-29 15:40:33
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. 1 .'',
+                    'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co....' at line 8
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `start_date`, 
+                    `end_date`) VALUES (
+                    'TA000122A0022', 
+                    'mt_report_date_'. 1 .'',
+                    'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+                    NULLIF('2024-04-03',''),
+                    NULLIF('2024-04-04',''))
+
+
+2024-04-29 15:40:33
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. 1 .''' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date where project_code = 'TA000122A0022' and id_date = 'preventive_mt_date_'. 1 .''
+
+
+2024-04-29 15:40:33
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. 1 .''' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date where project_code = 'TA000122A0022' and id_date = 'preventive_mt_date_'. 1 .''
+
+
+2024-04-29 15:40:33
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. 1 .'',
+                    'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co....' at line 8
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `start_date`, 
+                    `end_date`) VALUES (
+                    'TA000122A0022', 
+                    'preventive_mt_date_'. 1 .'',
+                    'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+                    NULLIF('2024-04-05',''),
+                    NULLIF('2024-04-06',''))
+
+
+2024-04-29 15:42:24
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. 1 .''' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date where project_code = 'TA000122A0022' and id_date = 'mt_report_date_'. 1 .''
+
+
+2024-04-29 15:42:24
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. 1 .''' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date where project_code = 'TA000122A0022' and id_date = 'mt_report_date_'. 1 .''
+
+
+2024-04-29 15:44:08
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. 1 .''' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date where project_code = 'TA000122A0022' and id_date = 'mt_report_date_'. 1 .''
+
+
+2024-04-29 15:44:08
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. 1 .''' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date where project_code = 'TA000122A0022' and id_date = 'mt_report_date_'. 1 .''
+
+
+2024-04-29 15:44:08
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. 1 .'',
+                    'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co....' at line 8
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `start_date`, 
+                    `end_date`) VALUES (
+                    'TA000122A0022', 
+                    'mt_report_date_'. 1 .'',
+                    'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+                    NULLIF('2024-04-30',''),
+                    NULLIF('',''))

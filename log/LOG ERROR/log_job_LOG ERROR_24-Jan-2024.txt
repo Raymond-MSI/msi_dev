@@ -1,0 +1,18 @@
+File Error Log
+
+2024-01-24 14:27:38
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_dashboard_kpi' doesn't exist
+- Query 		: desc sa_dashboard_kpi
+
+
+2024-01-24 15:38:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'status_wr' in 'field list'
+- Query 		: UPDATE sa_data_so SET status_wr='Closed',status_project='BAST Kosong' WHERE so_number_kpi='2023/SO/0148' OR so_number_kpi='2022/SO/2759'

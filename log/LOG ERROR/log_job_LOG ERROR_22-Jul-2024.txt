@@ -1,0 +1,112 @@
+File Error Log
+
+2024-07-22 10:45:25
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'divisi' in 'where clause'
+- Query 		: select * from sa_view_employees WHERE divisi like '%hcm%'
+
+
+2024-07-22 10:55:09
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: show table
+
+
+2024-07-22 11:01:48
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'status_rekrutment' in 'field list'
+- Query 		: UPDATE sa_hcm_requirement 
+SET status_rekrutment = 'Penggantian' 
+WHERE id = 4
+
+
+2024-07-22 11:33:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_kpi_board' doesn't exist
+- Query 		: desc sa_kpi_board
+
+
+2024-07-22 13:31:11
+- Server 		: Prod
+- User 			: annisa.riska@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id=undefined
+
+
+2024-07-22 13:43:17
+- Server 		: Prod
+- User 			: annisa.riska@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Incorrect date value: '' for column `sa_md_hcm`.`sa_hcm_notecv`.`tanggal_interview` at row 2
+- Query 		: UPDATE sa_hcm_notecv SET status_cv = 'No', tanggal_interview = '', update_by = 'Annisa Riska Medita<annisa.riska@mastersystem.co.id>' WHERE file = '[Kalibrr]Non-Project_VB Bootcamp.jpeg'
+
+
+2024-07-22 14:05:05
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'start_assignment' in 'sa_kpi_board'
+- Query 		: ALTER TABLE `sa_kpi_board` ADD `end_assignment` DATE NULL AFTER `start_assignment` 
+
+
+2024-07-22 14:51:24
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-07-15' AND task_date <= '2024-07-29' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-07-22 15:15:25
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(22656,'Cisco',134539357,57,4,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-07-22 15:47:40
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'resource_name' in 'where clause'
+- Query 		: select * from sa_preschedule WHERE project_code='TA002224E0003' AND resource_name LIKE '%alvin%'
+
+
+2024-07-22 15:49:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.event' in 'on clause'
+- Query 		: select a.*,b.response_status from sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event-id WHERE a.project_code='TA002224E0003' AND a.resource_email LIKE '%alvin%'
+
+
+2024-07-22 16:09:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM sa_view_employees WHERE job_level in (2,3) AND employee_email I...' at line 3
+- Query 		: SELECT * FROM sa_view_employees where resign_date is null and employee_name like '%raymond%'
+
+SELECT * FROM sa_view_employees WHERE job_level in (2,3) AND employee_email IS NOT NULL AND organization_name LIKE 'Enterprise Service%'

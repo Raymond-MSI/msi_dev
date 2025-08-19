@@ -1,0 +1,2080 @@
+File Error Log
+
+2023-11-08 07:59:14
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:05:33
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:05:54
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:09:18
+- Server 		: Prod
+- User 			: winda.ekawati@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:09:51
+- Server 		: Prod
+- User 			: trie.mayhera@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:11:28
+- Server 		: Prod
+- User 			: winda.ekawati@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:11:43
+- Server 		: Prod
+- User 			: winda.ekawati@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:12:16
+- Server 		: Prod
+- User 			: winda.ekawati@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:12:16
+- Server 		: Prod
+- User 			: trie.mayhera@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:14:26
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:14:26
+- Server 		: Prod
+- User 			: winda.ekawati@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_employees WHERE email='winda.ekawati@mastersystem.co.id'
+
+
+2023-11-08 08:14:53
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:14:57
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_employees WHERE email='aan.dafa@mastersystem.co.id'
+
+
+2023-11-08 08:15:11
+- Server 		: Prod
+- User 			: winda.ekawati@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:15:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:18:56
+- Server 		: Prod
+- User 			: trie.mayhera@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:19:04
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%BU_HB_23_0001%'
+
+
+2023-11-08 08:19:31
+- Server 		: Prod
+- User 			: trie.mayhera@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:23:42
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:29:51
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: cronlogs
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:32:32
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:32:50
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:33:40
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-08 08:33:57
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:34:55
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:35:16
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:35:31
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		: dashboard_survey
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:35:33
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:35:35
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-08 08:35:51
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:35:52
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QJX%'
+
+
+2023-11-08 08:35:59
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QL3%'
+
+
+2023-11-08 08:36:11
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QJX%'
+
+
+2023-11-08 08:36:17
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-08 08:36:24
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QJX%'
+
+
+2023-11-08 08:36:40
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-08 08:36:59
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:37:01
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:37:06
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028RKP%'
+
+
+2023-11-08 08:37:22
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:37:40
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: cronlogs
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:37:42
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:37:45
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-08 08:39:14
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:39:17
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:39:45
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:39:47
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-08 08:39:54
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QJX%'
+
+
+2023-11-08 08:40:00
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QL3%'
+
+
+2023-11-08 08:40:14
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028RKP%'
+
+
+2023-11-08 08:40:35
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:41:34
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:41:35
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-08 08:41:43
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-08 08:42:41
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-08 08:42:46
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-08 08:45:37
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:45:43
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-08 08:46:16
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-08 08:46:22
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-08 08:46:28
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028RKP%'
+
+
+2023-11-08 08:46:40
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-08 08:46:48
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-08 08:50:16
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:50:37
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:51:54
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:54:43
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-08 08:54:50
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QJX%'
+
+
+2023-11-08 08:54:56
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QL3%'
+
+
+2023-11-08 08:55:08
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 08:57:48
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_trx_survey.average' in 'field list'
+- Query 		: select sa_trx_survey.average, sa_survey.project_code from sa_survey join sa_trx_survey on sa_trx_survey.survey_id = sa_survey.survey_id
+
+
+2023-11-08 08:59:44
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_transaction LIMIT 0, 100
+
+
+2023-11-08 09:02:12
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:04:34
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:09:46
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:09:57
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:09:57
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: cronlogs
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:10:59
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:11:39
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:13:02
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_SERVICE_BUDGET'
+
+
+2023-11-08 09:13:12
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:14:10
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:15:03
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:15:05
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:15:44
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:15:45
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:17:40
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:18:01
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:18:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:18:45
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: cronlogs
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:19:29
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:20:22
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:20:44
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:21:03
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:21:06
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: cronlogs
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:21:58
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:25:29
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:26:52
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:26:54
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:27:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:28:36
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:30:44
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: cronlogs
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:30:47
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:38:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028RKP%'
+
+
+2023-11-08 09:41:10
+- Server 		: Prod
+- User 			: ary.mulyati@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 09:41:55
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'type_of_services' in 'where clause'
+- Query 		: select * from sa_survey where type_of_services is null
+
+
+2023-11-08 10:01:22
+- Server 		: Prod
+- User 			: henny.anggra@mastersystem.co.id
+- Module 		: survey
+- SubModule		: dashboard_survey
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:02:54
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:03:19
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:04:17
+- Server 		: Prod
+- User 			: ary.mulyati@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:04:17
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:04:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:05:28
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:09:12
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:19:13
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:19:46
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:30:37
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:34:28
+- Server 		: Prod
+- User 			: isa.pangestu@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:35:57
+- Server 		: Prod
+- User 			: isa.pangestu@mastersystem.co.id
+- Module 		: order_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:38:47
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:38:52
+- Server 		: Prod
+- User 			: isa.pangestu@mastersystem.co.id
+- Module 		: order_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:39:25
+- Server 		: Prod
+- User 			: ary.mulyati@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:39:25
+- Server 		: Prod
+- User 			: isa.pangestu@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+parent`=7
+
+
+2023-11-08 10:41:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:41:24
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:44:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:45:13
+- Server 		: Prod
+- User 			: isa.pangestu@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:46:23
+- Server 		: Prod
+- User 			: isa.pangestu@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:46:54
+- Server 		: Prod
+- User 			: syntia.ayu@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:46:54
+- Server 		: Prod
+- User 			: isa.pangestu@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:46:54
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		: dashboard_survey
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:48:30
+- Server 		: Prod
+- User 			: syntia.ayu@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:49:11
+- Server 		: Prod
+- User 			: syntia.ayu@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:49:14
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		: dashboard_survey
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:51:27
+- Server 		: Prod
+- User 			: syntia.ayu@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:52:18
+- Server 		: Prod
+- User 			: syntia.ayu@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:55:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:56:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:56:31
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:56:36
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 10:59:09
+- Server 		: Prod
+- User 			: ericha.mutia@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_documents WHERE date_expired >=  '2023-11-08'
+
+
+2023-11-08 10:59:09
+- Server 		: Prod
+- User 			: ericha.mutia@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_documents WHERE date_expired <  '2023-11-08'
+
+
+2023-11-08 10:59:09
+- Server 		: Prod
+- User 			: ericha.mutia@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_documents
+
+
+2023-11-08 10:59:09
+- Server 		: Prod
+- User 			: ericha.mutia@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_documents WHERE date_released >= '2023-11-07' ORDER BY date_released DESC
+
+
+2023-11-08 11:04:30
+- Server 		: Prod
+- User 			: miko.widiarta@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 11:04:52
+- Server 		: Prod
+- User 			: miko.widiarta@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 11:05:22
+- Server 		: Prod
+- User 			: miko.widiarta@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 11:11:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 11:12:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 11:15:41
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		: dashboard_survey
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 11:16:15
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		: dashboard_survey
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 11:20:37
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		: dashboard_survey
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 11:24:25
+- Server 		: Prod
+- User 			: miko.widiarta@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_summary
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 11:28:28
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 11:29:32
+- Server 		: Prod
+- User 			: isa.pangestu@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 11:34:09
+- Server 		: Prod
+- User 			: isa.pangestu@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 11:35:25
+- Server 		: Prod
+- User 			: isa.pangestu@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 11:39:22
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-08 13:45:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:45:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:45:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:45:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:45:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:45:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:45:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:45:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:45:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:45:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:45:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:45:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:45:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:45:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:45:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:45:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:45:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:45:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:46:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:46:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:46:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:46:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:46:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:46:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:46:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:46:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:46:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:46:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:46:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:46:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:46:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:46:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:46:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:46:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:46:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 13:46:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s AND nama_kategori = %s' at line 1
+- Query 		: SELECT * FROM kategori_list WHERE kategori_pilih = %s AND nama_kategori = %s
+
+
+2023-11-08 14:32:59
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'asnwer_id' in 'where clause'
+- Query 		: update sa_trx_survey set main_essay = '[{"question_id":"26","value":"Untuk kordinasi tim Project MSI dan Tim Project Satkom sudah baik, tpi Masih ada lost pada saat operasionalnya. Saran saya sih After project baiknya set meeting kordinasi, karena pada saat ada problem Satkom tidak di beritahu, taunya pas dikirimin surat dr BRI."}]' where asnwer_id = 234
+
+
+2023-11-08 14:34:36
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''[{"question_id":"26","value":"Untuk kordinasi tim Project MSI dan Tim Projec...' at line 1
+- Query 		: update sa_trx_survey set main_essay = '[{"question_id":"26","value":"Untuk kordinasi tim Project MSI dan Tim Project Satkom sudah baik, tpi Masih ada lost pada saat operasionalnya. Saran saya sih After project baiknya set meeting kordinasi, karena pada saat ada problem Satkom tidak di beritahu, taunya pas dikirimin surat dr BRI."}] where answer_id = 234
+
+
+2023-11-08 14:38:06
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''[{"question_id":"26","value":"Untuk kordinasi tim Project MSI dan Tim Projec...' at line 1
+- Query 		: update sa_trx_survey set main_essay = '[{"question_id":"26","value":"Untuk kordinasi tim Project MSI dan Tim Project Satkom sudah baik, tpi Masih ada lost pada saat operasionalnya.Saran saya sih After project baiknya set meeting kordinasi, karena pada saat ada problem Satkom tidak di beritahu, taunya pas dikirimin surat dr BRI."}] where answer_id = 237
+
+
+
+2023-11-08 14:47:09
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.survey_id' in 'on clause'
+- Query 		: select * from
+sa_survey a join sa_trx_survey on a.survey_id = b.survey_id
+
+
+2023-11-08 16:02:25
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: select `solution_name`, avg(coalesce(`services`,0)) AS `service` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `so_number` IN (select `so_number` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `services`>0 group by `so_number` order by `so_number`) AND `solution_name`='SP' group by `solution_name` order by `so_number`;
+
+
+2023-11-08 16:02:25
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_NAVISION'
+
+
+2023-11-08 16:02:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_summary
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT `a`.`employee_name` AS `employee_name`,`a`.`email` AS `employee_email`,`c`.`description` AS `job_title`,`b`.`level` AS `level`,`b`.`description` AS `job_structure`,`a`.`resign_date` AS `resign_date`,`e`.`employee_name` AS `ordinate_name`,`e`.`email` AS `ordinate_email`,`g`.`description` AS `ordinate_job_title`,`f`.`level` AS `ordinate_level`,`f`.`description` AS `ordinate_job_structure`, `h`.`organization_name` from ((((((`sa_md_hcm`.`sa_mst_employees` `a` LEFT JOIN `sa_md_hcm`.`sa_mst_job` `b` ON(`a`.`job_id` = `b`.`job_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_jobtitle` `c` ON(`b`.`job_title_id` = `c`.`job_title_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_job` `d` ON(`d`.`parent_id` = `b`.`job_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_employees` `e` ON(`d`.`job_id` = `e`.`job_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_job` `f` ON(`e`.`job_id` = `f`.`job_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_jobtitle` `g` ON(`f`.`job_title_id` = `g`.`job_title_id`)) LEFT JOIN `sa_mst_organization` `h` ON `e`.`organization_id` = `h`.`organization_id` WHERE `e`.`resign_date` IS NULL AND `e`.`employee_name` IS NOT NULL AND `a`.`email` = 'ratna@mastersystem.co.id' ORDER BY `e`.`employee_name`; 
+
+
+2023-11-08 16:02:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_summary
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT 
+    resource_email,
+    work_on_weekends,
+    IF(
+        project_type='MSI Project Implementation', 
+        'Implementation', 
+        IF(
+            project_type='MSI Project Maintenance', 
+            'Maintenance', 
+            IF(
+                project_type='MSI Non-Project', 
+                'Non-Project', 
+                IF(
+                    project_type='MSI Self Improvement', 
+                    'Self Improvement', 
+                    'none'
+                )
+            )
+        )
+    ) as `project_type`, 
+    SUM(
+        IF(
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+            1,
+            IF(
+                work_on_weekends = 1,
+                1,
+                0
+            )
+        ) 
+    ) as `plan`,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                1,
+                0
+            ),
+            0
+        )
+    ) as `accepted1` ,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `accepted0` ,
+    SUM(
+        IF(
+            status_calender='needsAction',
+            1,
+            0
+        )
+    ) as `needsAction` ,
+    SUM(
+        IF(
+            status_calender='declined',
+            1,
+            0
+        )
+    ) as `declined` ,
+    SUM(
+        IF(
+            status_calender='tentative',
+            1,
+            0
+        )
+    ) as `tentative`,
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                IF(
+                    DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+                    1,
+                    IF(
+                        `work_on_weekends` = 1,
+                        1,
+                        0
+                    )
+                ),
+                0
+            ),
+            0
+        )
+    ) as `none_gcalender`, 
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `none` 
+    FROM sa_trx_productivity 
+    WHERE 
+        task_date >= '2023-04-01' 
+        AND task_date <= '2023-11-15'
+        AND resource_email LIKE 'Yongky Karnadi, S.KOM<yongki_k@mastersystem.co.id>'
+        AND project_type LIKE '%%'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `status_calender`=1
+        )
+    GROUP BY resource_email, project_type
+    ORDER BY resource_email, project_type
+    
+
+
+2023-11-08 16:02:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_summary
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT `a`.`employee_name` AS `employee_name`,`a`.`email` AS `employee_email`,`c`.`description` AS `job_title`,`b`.`level` AS `level`,`b`.`description` AS `job_structure`,`a`.`resign_date` AS `resign_date`,`e`.`employee_name` AS `ordinate_name`,`e`.`email` AS `ordinate_email`,`g`.`description` AS `ordinate_job_title`,`f`.`level` AS `ordinate_level`,`f`.`description` AS `ordinate_job_structure`, `h`.`organization_name` from ((((((`sa_md_hcm`.`sa_mst_employees` `a` LEFT JOIN `sa_md_hcm`.`sa_mst_job` `b` ON(`a`.`job_id` = `b`.`job_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_jobtitle` `c` ON(`b`.`job_title_id` = `c`.`job_title_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_job` `d` ON(`d`.`parent_id` = `b`.`job_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_employees` `e` ON(`d`.`job_id` = `e`.`job_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_job` `f` ON(`e`.`job_id` = `f`.`job_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_jobtitle` `g` ON(`f`.`job_title_id` = `g`.`job_title_id`)) LEFT JOIN `sa_mst_organization` `h` ON `e`.`organization_id` = `h`.`organization_id` WHERE `e`.`resign_date` IS NULL AND `e`.`employee_name` IS NOT NULL AND `a`.`email` = 'yongki_k@mastersystem.co.id' ORDER BY `e`.`employee_name`; 
+
+
+2023-11-08 16:02:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_summary
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT 
+    resource_email,
+    work_on_weekends,
+    IF(
+        project_type='MSI Project Implementation', 
+        'Implementation', 
+        IF(
+            project_type='MSI Project Maintenance', 
+            'Maintenance', 
+            IF(
+                project_type='MSI Non-Project', 
+                'Non-Project', 
+                IF(
+                    project_type='MSI Self Improvement', 
+                    'Self Improvement', 
+                    'none'
+                )
+            )
+        )
+    ) as `project_type`, 
+    SUM(
+        IF(
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+            1,
+            IF(
+                work_on_weekends = 1,
+                1,
+                0
+            )
+        ) 
+    ) as `plan`,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                1,
+                0
+            ),
+            0
+        )
+    ) as `accepted1` ,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `accepted0` ,
+    SUM(
+        IF(
+            status_calender='needsAction',
+            1,
+            0
+        )
+    ) as `needsAction` ,
+    SUM(
+        IF(
+            status_calender='declined',
+            1,
+            0
+        )
+    ) as `declined` ,
+    SUM(
+        IF(
+            status_calender='tentative',
+            1,
+            0
+        )
+    ) as `tentative`,
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                IF(
+                    DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+                    1,
+                    IF(
+                        `work_on_weekends` = 1,
+                        1,
+                        0
+                    )
+                ),
+                0
+            ),
+            0
+        )
+    ) as `none_gcalender`, 
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `none` 
+    FROM sa_trx_productivity 
+    WHERE 
+        task_date >= '2023-04-01' 
+        AND task_date <= '2023-11-15'
+        AND resource_email LIKE 'Sumarto Santosa<sumarto@mastersystem.co.id>'
+        AND project_type LIKE '%%'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `status_calender`=1
+        )
+    GROUP BY resource_email, project_type
+    ORDER BY resource_email, project_type
+    
+
+
+2023-11-08 16:02:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_summary
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT `a`.`employee_name` AS `employee_name`,`a`.`email` AS `employee_email`,`c`.`description` AS `job_title`,`b`.`level` AS `level`,`b`.`description` AS `job_structure`,`a`.`resign_date` AS `resign_date`,`e`.`employee_name` AS `ordinate_name`,`e`.`email` AS `ordinate_email`,`g`.`description` AS `ordinate_job_title`,`f`.`level` AS `ordinate_level`,`f`.`description` AS `ordinate_job_structure`, `h`.`organization_name` from ((((((`sa_md_hcm`.`sa_mst_employees` `a` LEFT JOIN `sa_md_hcm`.`sa_mst_job` `b` ON(`a`.`job_id` = `b`.`job_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_jobtitle` `c` ON(`b`.`job_title_id` = `c`.`job_title_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_job` `d` ON(`d`.`parent_id` = `b`.`job_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_employees` `e` ON(`d`.`job_id` = `e`.`job_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_job` `f` ON(`e`.`job_id` = `f`.`job_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_jobtitle` `g` ON(`f`.`job_title_id` = `g`.`job_title_id`)) LEFT JOIN `sa_mst_organization` `h` ON `e`.`organization_id` = `h`.`organization_id` WHERE `e`.`resign_date` IS NULL AND `e`.`employee_name` IS NOT NULL AND `a`.`email` = 'sumarto@mastersystem.co.id' ORDER BY `e`.`employee_name`; 

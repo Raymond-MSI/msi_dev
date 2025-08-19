@@ -1,0 +1,99 @@
+File Error Log
+
+2024-01-09 09:57:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa' doesn't exist
+- Query 		: select * from sa WHERE so_number='2023/SO/0440'
+
+
+2024-01-09 11:31:52
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'adiwan'' at line 1
+- Query 		: SELECT * FROM sa_mst_users WHERE username = 'ma'adiwan'
+
+
+2024-01-09 11:32:01
+- Server 		: Prod
+- User 			: maad@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ad<maad@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-01-02' AND task_date <= '2024-01-16' AND `resource_email` LIKE 'Ma'ad<maad@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-01-09 13:40:12
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_view_employess_v2' doesn't exist
+- Query 		: select * from sa_view_employess_v2 where employee_name = 'Desi Permatasari'
+
+
+2024-01-09 13:40:46
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_view_employess_v2' doesn't exist
+- Query 		: select * from sa_view_employess_v2 where employee_name like  '%Desi Permatasari%'
+
+
+2024-01-09 14:05:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_view_emplyees' doesn't exist
+- Query 		: select * from sa_view_emplyees
+
+
+2024-01-09 14:05:55
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_view_emplyees_V2' doesn't exist
+- Query 		: select * from sa_view_emplyees_V2
+
+
+2024-01-09 14:06:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_view_employees_V2' doesn't exist
+- Query 		: select * from sa_view_employees_V2
+
+
+2024-01-09 14:06:07
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_view_employees_V2' doesn't exist
+- Query 		: select * from sa_view_employees_V2;
+
+
+2024-01-09 14:06:12
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_view_employess_V2' doesn't exist
+- Query 		: select * from sa_view_employess_V2;
+
+
+2024-01-09 14:06:22
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_md_hcm' doesn't exist
+- Query 		: desc sa_md_hcm

@@ -1,0 +1,72 @@
+File Error Log
+
+2023-11-28 08:28:24
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'nilai_prductivity' in 'where clause'
+- Query 		: select * from sa_summary_user WHERE tahun_review=2023 AND (nilai_prductivity is null OR nilai_productivity=0)  
+
+
+2023-11-28 08:36:42
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_view_employees_v2' doesn't exist
+- Query 		: SELECT * FROM sa_view_employees_v2 WHERE employee_email='abdul.lathif@mastersystem.co.id' OR employee_email='aditya.wicaksono@mastersystem.co.id' OR employee_email='adriyanto@mastersystem.co.id' OR employee_email='ahmad.fauzi@mastersystem.co.id' OR employee_email='ahmad.halipudin@mastersystem.co.id' OR employee_email='aldino.delama@mastersystem.co.id' OR employee_email='amalia.dita@mastersystem.co.id' OR employee_email='andre.lukito@mastersystem.co.id' OR employee_email='andreas.johansen@mastersystem.co.id' OR employee_email='aqsha.zakya@mastersystem.co.id' OR employee_email='ari.prahastomo@mastersystem.co.id' OR employee_email='arinda.rahma@mastersystem.co.id' OR employee_email='arnold.nicholas@mastersystem.co.id' OR employee_email='ary.mulyati@mastersystem.co.id' OR employee_email='bambang.ary@mastersystem.co.id' OR employee_email='cakra.sukma@mastersystem.co.id' OR employee_email='candra.prastyadi@mastersystem.co.id' OR employee_email='cassendra@mastersystem.co.id' OR employee_email='desi.permatasari@mastersystem.co.id' OR employee_email='dian.rismawati@mastersystem.co.id' OR employee_email='dila.styaningtyas@mastersystem.co.id' OR employee_email='dimas.fasqi@mastersystem.co.id' OR employee_email='dzulfiqar.ghifari@mastersystem.co.id' OR employee_email='edwin.surya@mastersystem.co.id' OR employee_email='eko.ratno01@mastersystem.co.id' OR employee_email='engelbertus@mastersystem.co.id' OR employee_email='faris.agil@mastersystem.co.id' OR employee_email='fathurizqi.brilian@mastersystem.co.id' OR employee_email='femmy@mastersystem.co.id' OR employee_email='fibyan.saleh@mastersystem.co.id' OR employee_email='ficky_admin@mastersystem.co.id' OR employee_email='fitri.rosvianti@mastersystem.co.id' OR employee_email='galih.rivananda@mastersystem.co.id' OR employee_email='ghifari.irfandi@mastersystem.co.id' OR employee_email='haidar.firdaus@mastersystem.co.id' OR employee_email='haidar.maghrifa@mastersystem.co.id' OR employee_email='hayatullah.qamaini@mastersystem.co.id' OR employee_email='hendra.irawan@mastersystem.co.id' OR employee_email='hendra.lesmana@mastersystem.co.id' OR employee_email='ilham.bintang@mastersystem.co.id' OR employee_email='irfan.hendriana@mastersystem.co.id' OR employee_email='irvan.fauzi@mastersystem.co.id' OR employee_email='jingga.prabaswara@mastersystem.co.id' OR employee_email='kosmas.ari@mastersystem.co.id' OR employee_email='lintang.sindu@mastersystem.co.id' OR employee_email='luthfi.eka@mastersystem.co.id' OR employee_email='maad@mastersystem.co.id' OR employee_email='malik.perwiro@mastersystem.co.id' OR employee_email='mangisi@mastersystem.co.id' OR employee_email='mohammad.rizky@mastersystem.co.id' OR employee_email='muhammad.abdul@mastersystem.co.id' OR employee_email='muhammad.dzaky@mastersystem.co.id' OR employee_email='faisal.irsyadi@mastersystem.co.id' OR employee_email='hadi.dermawan@mastersystem.co.id' OR employee_email='iqbal.ghazali@mastersystem.co.id' OR employee_email='muhammad.muhajir@mastersystem.co.id' OR employee_email='rosyid.ridlo@mastersystem.co.id' OR employee_email='mussa.jazzumar@mastersystem.co.id' OR employee_email='nevis.herlangga@mastersystem.co.id' OR employee_email='nia.rani@mastersystem.co.id' OR employee_email='nyoman.ari@mastersystem.co.id' OR employee_email='oktafian.dwi@mastersystem.co.id' OR employee_email='lay@mastersystem.co.id' OR employee_email='puji.riawan@mastersystem.co.id' OR employee_email='adi.pamadio@mastersystem.co.id' OR employee_email='rahmadani.sudarno@mastersystem.co.id' OR employee_email='rahman.dani@mastersystem.co.id' OR employee_email='ratna.sari@mastersystem.co.id' OR employee_email='reny.dwi@mastersystem.co.id' OR employee_email='restu.wirawan@mastersystem.co.id' OR employee_email='revita.aryani@mastersystem.co.id' OR employee_email='reza.setiawan@mastersystem.co.id' OR employee_email='rezha.aulia@mastersystem.co.id' OR employee_email='ridhi.pratomo@mastersystem.co.id' OR employee_email='rifqy.pratama@mastersystem.co.id' OR employee_email='rizky.adi@mastersystem.co.id' OR employee_email='ruli.handrio@mastersystem.co.id' OR employee_email='safira.ramadhani@mastersystem.co.id' OR employee_email='shannice.ayangketi@mastersystem.co.id' OR employee_email='sonia.isabella@mastersystem.co.id' OR employee_email='teddy.pramana@mastersystem.co.id' OR employee_email='tetriana.yuninta@mastersystem.co.id' OR employee_email='winda.ekawati@mastersystem.co.id' OR employee_email='zahira.nafira@mastersystem.co.id'
+
+
+2023-11-28 08:38:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: select * from sa_summary_user WHERE tahun_review=2023 AND (nilai_productivity is null OR nilai_productivity=0
+
+
+2023-11-28 10:36:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_user' doesn't exist
+- Query 		: select * from sa_user
+
+
+2023-11-28 11:02:01
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: dashboard_kpi
+- SubModule		: dashboard_kpiv2
+- Status 		: 
+- Query 		: SELECT * FROM sa_user WHERE Nama LIKE '%%' LIMIT 0, 100
+
+
+2023-11-28 14:51:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Duplicate column name 'kpi_status'
+- Query 		: ALTER TABLE sa_summary_user ADD kpi_status varchar(100) NULL AFTER tahun_review
+
+
+2023-11-28 16:57:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'order_number' in 'where clause'
+- Query 		: select * from sa_productivity_user WHERE order_number='ORD-27570-P2Y3V4'
+
+
+2023-11-28 16:58:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_productivity_kpi' doesn't exist
+- Query 		: select * from sa_productivity_kpi WHERE order_number='ORD-27570-P2Y3V4'

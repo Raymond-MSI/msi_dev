@@ -1,0 +1,67 @@
+File Error Log
+
+2024-04-22 10:04:06
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'cateogry' in 'where clause'
+- Query 		: select * from sa_trx_edo_request where cateogry = 'onsite'
+
+
+2024-04-22 10:52:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect datetime value: ''
+- Query 		: select * from sa_view_workload_calculation LIMIT 100
+
+
+
+
+2024-04-22 10:54:43
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect datetime value: ''
+- Query 		: select * from sa_view_workloadMSI
+
+
+
+
+2024-04-22 10:55:03
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect datetime value: ''
+- Query 		: select * from sa_view_workload_sum_monthly
+
+
+2024-04-22 10:55:19
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect datetime value: ''
+- Query 		: select * from sa_view_task_date
+
+
+2024-04-22 11:04:04
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_kategori_llist' doesn't exist
+- Query 		: select * from sa_kategori_llist
+
+
+2024-04-22 11:05:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_md_navision' doesn't exist
+- Query 		: select * from sa_md_navision

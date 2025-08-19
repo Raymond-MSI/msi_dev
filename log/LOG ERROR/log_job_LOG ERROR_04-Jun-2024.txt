@@ -1,0 +1,286 @@
+File Error Log
+
+2024-06-04 08:37:02
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND YEAR(entry_date) = 2024' at line 1
+- Query 		: select * from sa_trx_edo_request where status = 'edo submitted' and AND YEAR(entry_date) = 2024;
+
+
+2024-06-04 08:45:22
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'leave status = 'leave approved'' at line 1
+- Query 		: select * from sa_trx_edo_leave WHERE YEAR(entry_date) = 2024 and leave status = 'leave approved'
+
+
+2024-06-04 11:23:40
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_transaaction_product' doesn't exist
+- Query 		: desc sa_transaaction_product
+
+
+2024-06-04 11:38:58
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_trx_project_implementation' doesn't exist
+- Query 		: SELECT * FROM sa_trx_project_implementation WHERE project_id = 21029
+
+
+2024-06-04 12:03:22
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND resource_level IN (11,21,31)' at line 12
+- Query 		: SELECT
+                                                                            CASE
+                                                                                WHEN resource_level = 11 THEN 'Project Director'
+                                                                                WHEN resource_level = 21 THEN 'Project Manager'
+                                                                                WHEN resource_level = 31 THEN 'Project Coordinator'
+                                                                            END AS position
+                                                                        FROM
+                                                                            sa_trx_project_mandays
+                                                                        WHERE
+                                                                            service_type = 1
+                                                                            AND project_id = 
+                                                                            AND resource_level IN (11,21,31)
+                                                                        
+
+
+2024-06-04 12:03:22
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND resource_level IN (11,21,31)' at line 12
+- Query 		: SELECT
+                                                                            CASE
+                                                                                WHEN resource_level = 11 THEN 'Project Director'
+                                                                                WHEN resource_level = 21 THEN 'Project Manager'
+                                                                                WHEN resource_level = 31 THEN 'Project Coordinator'
+                                                                            END AS position
+                                                                        FROM
+                                                                            sa_trx_project_mandays
+                                                                        WHERE
+                                                                            service_type = 1
+                                                                            AND project_id = 
+                                                                            AND resource_level IN (11,21,31)
+                                                                        
+
+
+2024-06-04 12:05:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND resource_level IN (11,21,31)' at line 12
+- Query 		: SELECT
+                                                                            CASE
+                                                                                WHEN resource_level = 11 THEN 'Project Director'
+                                                                                WHEN resource_level = 21 THEN 'Project Manager'
+                                                                                WHEN resource_level = 31 THEN 'Project Coordinator'
+                                                                            END AS position
+                                                                        FROM
+                                                                            sa_trx_project_mandays
+                                                                        WHERE
+                                                                            service_type = 1
+                                                                            AND project_id = 
+                                                                            AND resource_level IN (11,21,31)
+                                                                        
+
+
+2024-06-04 12:05:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND resource_level IN (11,21,31)' at line 12
+- Query 		: SELECT
+                                                                            CASE
+                                                                                WHEN resource_level = 11 THEN 'Project Director'
+                                                                                WHEN resource_level = 21 THEN 'Project Manager'
+                                                                                WHEN resource_level = 31 THEN 'Project Coordinator'
+                                                                            END AS position
+                                                                        FROM
+                                                                            sa_trx_project_mandays
+                                                                        WHERE
+                                                                            service_type = 1
+                                                                            AND project_id = 
+                                                                            AND resource_level IN (11,21,31)
+                                                                        
+
+
+2024-06-04 12:29:55
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2024-06-04'
+        AND `task_date` <= '2024-05-28'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+        
+        
+         AND `resource_email` IN ()
+
+
+2024-06-04 12:30:11
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2024-05-28'
+        AND `task_date` <= '2024-06-04'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+        
+        
+         AND `resource_email` IN ()
+
+
+2024-06-04 13:55:41
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `service_type`, `modified_by`) VALUES (0,21,2,1,15,'HPE Backup',350,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-06-04 13:55:41
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `service_type`, `modified_by`) VALUES (0,61,2,1,45,'HPE Backup',350,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-06-04 13:55:41
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `service_type`, `modified_by`) VALUES (0,71,2,1,12,'HPE Backup',250,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-06-04 13:55:41
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `service_type`, `modified_by`) VALUES (0,32,2,1,10,'HPE Hardware',250,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-06-04 13:55:41
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `service_type`, `modified_by`) VALUES (0,62,2,1,20,'HPE Hardware',350,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-06-04 13:55:41
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `service_type`, `modified_by`) VALUES (0,72,2,1,10,'HPE Hardware',250,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-06-04 13:57:59
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `service_type`, `modified_by`) VALUES (21993,32,2,1,10,'HPE Hardware',250,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-06-04 13:57:59
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `service_type`, `modified_by`) VALUES (21993,62,2,1,20,'HPE Hardware',350,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-06-04 13:57:59
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `service_type`, `modified_by`) VALUES (21993,72,2,1,10,'HPE Hardware',250,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-06-04 14:20:17
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id=
+
+
+2024-06-04 16:16:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_productivity.sa_view_employees' doesn't exist
+- Query 		: select * from sa_view_employees WHERE employee_email='shafira.nadila01@mastersystem.co.id'
+
+
+2024-06-04 16:57:12
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''%FOC2043'' at line 1
+- Query 		: select * from sa_product_list where likr '%FOC2043'
+
+
+2024-06-04 16:57:21
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'like '%FOC2043'' at line 1
+- Query 		: select * from sa_product_list where like '%FOC2043'
+
+
+2024-06-04 16:57:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'like 'FOC2043%'' at line 1
+- Query 		: select * from sa_product_list where like 'FOC2043%'

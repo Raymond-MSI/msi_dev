@@ -1,0 +1,45 @@
+File Error Log
+
+2024-06-19 15:49:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'permission' in 'field list'
+- Query 		: insert into sa_project_detail (project_code,folder_name,folder_id,gd_id,new_gd_id,tahun,permission) VALUES ('TB000824C0013','04. Closing',87,'1Agl8ALmbSwpp9pU3V3z6VF3ObhE7GJ2A','1Agl8ALmbSwpp9pU3V3z6VF3ObhE7GJ2A',2024,2)
+
+
+2024-06-19 15:49:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'permission' in 'field list'
+- Query 		: insert into sa_project_detail (project_code,folder_name,folder_id,gd_id,new_gd_id,tahun,permission) VALUES ('TB000824C0013','04. Closing','87','1Agl8ALmbSwpp9pU3V3z6VF3ObhE7GJ2A','1Agl8ALmbSwpp9pU3V3z6VF3ObhE7GJ2A',2024,2)
+
+
+2024-06-19 15:51:22
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'permission' in 'field list'
+- Query 		: insert into sa_project_detail (project_code,folder_name,folder_id,gd_id,new_gd_id,tahun,permission) VALUES ('TB000824C0013','04. Closing','87','1Agl8ALmbSwpp9pU3V3z6VF3ObhE7GJ2A','1Agl8ALmbSwpp9pU3V3z6VF3ObhE7GJ2A',2024,2)
+
+
+2024-06-19 16:23:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_name' in 'where clause'
+- Query 		: select * from sa_wrike_project_list WHERE project_name LIKE '%[2024  Danamon] Refreshment Cisco APIC DCI%'
+
+
+2024-06-19 17:27:41
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=402 OR leave_id=405' at line 1
+- Query 		: select * from sa_trx_edo_leave_detail where leave_id=399 OR leave_id==402 OR leave_id=405

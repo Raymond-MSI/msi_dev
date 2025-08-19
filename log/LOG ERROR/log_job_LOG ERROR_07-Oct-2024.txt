@@ -1,0 +1,478 @@
+File Error Log
+
+2024-10-07 10:28:58
+- Server 		: Prod
+- User 			: margareta.sekar@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-10-07 10:28:58
+- Server 		: Prod
+- User 			: margareta.sekar@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-10-07 10:37:59
+- Server 		: Prod
+- User 			: bayu.akbar@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TG001021I0005', 
+                    'ORD-25118-D0K8V7', 
+                    'pmr_date',
+                    'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-10-07 10:53:51
+- Server 		: Prod
+- User 			: bayu.akbar@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TG001022I0025', 
+                    'ORD-2023-00045', 
+                    'pmr_date',
+                    'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-10-07 11:10:29
+- Server 		: Prod
+- User 			: bayu.akbar@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TG001023I0008', 
+                    'ORD-2023-00492', 
+                    'pmr_date',
+                    'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-10-07 11:11:28
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24610,'Junior Engineer PM IBM E1080 12 Mandays',51345251,4,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-07 11:11:28
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24610,'Junior Engineer PM IBM FS9500 12 Mandays',51345251,4,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-07 11:11:28
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24610,'Junior Engineer PM SAN256B-7 12 Mandays',51345251,4,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-07 11:14:38
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24610,'Senior Engineer CM IBM E1080 24 Mandays',101834748,6,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-07 11:14:38
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24610,'Senior Engineer CM IBM FS9500 24 Mandays',101834748,6,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-07 11:14:38
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24610,'Senior Engineer CM SAN256B-7 24 Mandays',101834748,6,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-07 11:17:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_requiement' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_requiement
+
+
+
+2024-10-07 13:33:45
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=07-Oct-2024 WHERE order_number='ORD-2023-02657' AND project_type='MSI Project Maintenance'
+
+
+2024-10-07 13:33:45
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=07-Oct-2024 WHERE order_number='ORD-2023-02657' AND project_type='MSI Project Maintenance'
+
+
+2024-10-07 14:36:11
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_asset_fix_asset' doesn't exist
+- Query 		: select * from sa_asset_fix_asset
+
+
+2024-10-07 15:16:49
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_resource_temporary' doesn't exist
+- Query 		: select * from sa_resource_temporary WHERE order_number='ORD-2024-01758'
+
+
+2024-10-07 15:44:22
+- Server 		: Prod
+- User 			: herty.brigita@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_resource_logs WHERE project_code = '' ORDER BY entry_date DESC LIMIT 0, 10
+
+
+2024-10-07 15:44:28
+- Server 		: Prod
+- User 			: herty.brigita@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_resource_logs WHERE project_code = '' ORDER BY entry_date DESC LIMIT 0, 10
+
+
+2024-10-07 15:54:18
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_outstanding
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' 
+        OR `manager` ...' at line 101
+- Query 		: SELECT
+    `employee_name`,
+    SUM(
+        IF(
+            `status` = 'edo submitted',
+            1,
+            IF(
+                `status` = 'request approved',
+                IF(
+                    `flag_approval` = 1,
+                    1,
+                    0
+                ),
+                0
+            )
+        )
+    ) AS `edo_submitted`,
+    SUM(
+    	IF(
+        	`status` = 'request approved',
+        	IF(
+                `flag_approval`=1,
+                1,
+                0
+            ),
+        	0
+        )
+    ) AS `edo_approved1`,
+    SUM(
+    	IF(
+        	`status` = 'request approved',
+        	IF(
+                `flag_approval`=2,
+                1,
+                0
+            ),
+        	0
+        )
+    ) AS `edo_approved2`,
+    SUM(
+    	IF(
+            `status` = 'edo rejected',
+            1,
+            0
+        )
+    ) AS `edo_rejected`,
+    SUM(
+        IF(
+            `status` = 'leave submitted',
+            IF(
+                `flag_approval` = 1,
+                1,
+                0
+            ),
+            0
+        )
+    ) AS `leave_submitted`,
+    SUM(
+	    IF(
+            `status` = 'leave approved',
+            IF(
+                `flag_approval` = 1,
+                1,
+                0
+            ),
+            0
+        )
+    ) AS `leave_approved1`,
+    SUM(
+	    IF(
+            `status` = 'leave approved',
+            IF(
+                `flag_approval` = 2,
+                1,
+                0
+            ),
+            0
+        )
+    ) AS `leave_approved2`,
+    SUM(
+    	IF(
+            `status` = 'leave rejected',
+            1,
+            0
+        )
+    ) AS `leave_rejected`,
+    COUNT(`employee_name`) AS `total_edo`,
+    SUM(
+        IF(
+            `status` = 'drafted',
+            1,
+            0
+        )
+    ) AS `drafted`
+FROM
+    `sa_trx_edo_request`
+WHERE
+    `start_date` >= '2024-01-01' 
+    AND `end_date` <= '2024-10-07' 
+    AND (
+        `employee_name` = 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' 
+        OR `manager` = 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>'
+        OR `leader` = 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>'
+        )
+GROUP BY
+    `employee_name`;
+
+
+2024-10-07 15:54:24
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>'
+        AND `leave_stat...' at line 10
+- Query 		: SELECT 
+        `leave_id`, 
+        `employee_name`, 
+        `employee_email`, 
+        `leave_start`, 
+        `leave_end`, 
+        `leave_status`,
+        `update_date`
+    FROM `sa_trx_edo_leave` 
+    WHERE (`leader1_email` = 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>'
+        AND `leave_status` = 'leave submitted'
+        AND `flag_approval` = 0)
+        OR (`leader2_email` = 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>'
+        AND `leave_status` = 'leave approved'
+        AND `flag_approval` = 1)
+
+
+2024-10-07 16:23:37
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'employee_email' in 'where clause'
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE employee_email like '%zaimatul%'
+
+
+2024-10-07 16:28:37
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_outstanding
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' 
+        OR `manager` ...' at line 101
+- Query 		: SELECT
+    `employee_name`,
+    SUM(
+        IF(
+            `status` = 'edo submitted',
+            1,
+            IF(
+                `status` = 'request approved',
+                IF(
+                    `flag_approval` = 1,
+                    1,
+                    0
+                ),
+                0
+            )
+        )
+    ) AS `edo_submitted`,
+    SUM(
+    	IF(
+        	`status` = 'request approved',
+        	IF(
+                `flag_approval`=1,
+                1,
+                0
+            ),
+        	0
+        )
+    ) AS `edo_approved1`,
+    SUM(
+    	IF(
+        	`status` = 'request approved',
+        	IF(
+                `flag_approval`=2,
+                1,
+                0
+            ),
+        	0
+        )
+    ) AS `edo_approved2`,
+    SUM(
+    	IF(
+            `status` = 'edo rejected',
+            1,
+            0
+        )
+    ) AS `edo_rejected`,
+    SUM(
+        IF(
+            `status` = 'leave submitted',
+            IF(
+                `flag_approval` = 1,
+                1,
+                0
+            ),
+            0
+        )
+    ) AS `leave_submitted`,
+    SUM(
+	    IF(
+            `status` = 'leave approved',
+            IF(
+                `flag_approval` = 1,
+                1,
+                0
+            ),
+            0
+        )
+    ) AS `leave_approved1`,
+    SUM(
+	    IF(
+            `status` = 'leave approved',
+            IF(
+                `flag_approval` = 2,
+                1,
+                0
+            ),
+            0
+        )
+    ) AS `leave_approved2`,
+    SUM(
+    	IF(
+            `status` = 'leave rejected',
+            1,
+            0
+        )
+    ) AS `leave_rejected`,
+    COUNT(`employee_name`) AS `total_edo`,
+    SUM(
+        IF(
+            `status` = 'drafted',
+            1,
+            0
+        )
+    ) AS `drafted`
+FROM
+    `sa_trx_edo_request`
+WHERE
+    `start_date` >= '2024-01-01' 
+    AND `end_date` <= '2024-10-07' 
+    AND (
+        `employee_name` = 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' 
+        OR `manager` = 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>'
+        OR `leader` = 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>'
+        )
+GROUP BY
+    `employee_name`;
+
+
+2024-10-07 17:42:19
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani','zaimatul@mastersystem.co.id','Aceng Zakariya Ramada...' at line 14
+- Query 		: INSERT INTO `sa_trx_edo_leave`
+                (
+                    `employee_name`, 
+                    `employee_email`,
+                    `leader1_email`,
+                    `leader2_email`, 
+                    `leave_start`, 
+                    `leave_end`, 
+                    `leave_status`, 
+                    `entry_by`, 
+                    `entry_date`, 
+                    `update_by`
+                ) VALUES 
+                ('Za'imatul Hakimah Septiani','zaimatul@mastersystem.co.id','Aceng Zakariya Ramadani<aceng.zakariya@mastersystem.co.id>','Raymond R. Taruli<Raymond.Raphael@mastersystem.co.id>','2024-10-09','2024-10-10','leave submitted','Za'imatul Hakimah Septiani','2024-10-07 17:42:19','Za'imatul Hakimah Septiani')

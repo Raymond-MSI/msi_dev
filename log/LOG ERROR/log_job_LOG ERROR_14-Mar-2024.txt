@@ -1,0 +1,156 @@
+File Error Log
+
+2024-03-14 09:41:20
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_notif_prochar' doesn't exist
+- Query 		: select * from sa_notif_prochar WHERE project_id='IEAEOPF5I5GF57Z7'
+
+
+2024-03-14 10:22:58
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''"*fronita@mastersystem.co.id*" OR "*nadya.defani@mastersystem.co.id*")' at line 1
+- Query 		: SELECT * FROM sa_trx_productivity WHERE CONTAINS(resource_email, '"*fronita@mastersystem.co.id*" OR "*nadya.defani@mastersystem.co.id*")
+
+
+
+2024-03-14 10:23:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''"fronita@mastersystem.co.id" OR "nadya.defani@mastersystem.co.id")' at line 1
+- Query 		: SELECT * FROM sa_trx_productivity WHERE CONTAINS(resource_email, '"fronita@mastersystem.co.id" OR "nadya.defani@mastersystem.co.id")
+
+
+
+2024-03-14 10:23:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''"fronita@mastersystem.co.id" OR "nadya.defani@mastersystem.co.id")' at line 1
+- Query 		: SELECT * FROM sa_trx_productivity WHERE CONTAINS(resource_email, '"fronita@mastersystem.co.id" OR "nadya.defani@mastersystem.co.id")
+
+
+
+2024-03-14 10:24:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ALL ('%fronita@mastersystem.co.id%','%nadya.defani@mastersystem.co.id%')' at line 1
+- Query 		: SELECT * FROM sa_trx_productivity WHERE resource_email LIKE ALL ('%fronita@mastersystem.co.id%','%nadya.defani@mastersystem.co.id%')
+
+
+
+2024-03-14 10:24:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ALL ('%fronita@mastersystem.co.id%','%nadya.defani@mastersystem.co.id%')' at line 1
+- Query 		: SELECT * FROM sa_trx_productivity WHERE resource_email LIKE ALL ('%fronita@mastersystem.co.id%','%nadya.defani@mastersystem.co.id%')
+
+
+
+2024-03-14 10:24:57
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '('%fronita@mastersystem.co.id%','%nadya.defani@mastersystem.co.id%')' at line 1
+- Query 		: SELECT * FROM sa_trx_productivity WHERE resource_email LIKE ANY ('%fronita@mastersystem.co.id%','%nadya.defani@mastersystem.co.id%')
+
+
+
+2024-03-14 10:26:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ALL ('%fronita@mastersystem.co.id%','%nadya.defani@mastersystem.co.id%')' at line 1
+- Query 		: SELECT * FROM sa_trx_productivity WHERE resource_email LIKE ALL ('%fronita@mastersystem.co.id%','%nadya.defani@mastersystem.co.id%')
+
+
+
+2024-03-14 10:27:36
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '('%fronita@mastersystem.co.id%','%nadya.defani@mastersystem.co.id%')' at line 1
+- Query 		: SELECT * FROM sa_trx_productivity WHERE resource_email LIKE ANY ('%fronita@mastersystem.co.id%','%nadya.defani@mastersystem.co.id%')
+
+
+
+2024-03-14 10:41:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '('%fronita@mastersystem.co.id%') LIMIT 10' at line 1
+- Query 		: SELECT * FROM sa_trx_productivity WHERE resource_email LIKE ANY ('%fronita@mastersystem.co.id%') LIMIT 10
+
+
+2024-03-14 10:57:22
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '{'Fronita<fronita@mastersystem.co.id>'} LIMIT 0=10' at line 1
+- Query 		: SELECT * FROM sa_trx_productivity WHERE resource_email IN {'Fronita<fronita@mastersystem.co.id>'} LIMIT 0=10
+
+
+2024-03-14 10:59:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2024-03-07'
+        AND `task_date` <= '2024-03-21'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+        
+        
+         AND `resource_email` IN ()
+
+
+2024-03-14 11:00:35
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2024-03-07'
+        AND `task_date` <= '2024-03-21'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+        
+        
+         AND `resource_email` IN ()
+
+
+2024-03-14 13:54:19
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.new_asset' doesn't exist
+- Query 		: truncate new_asset;

@@ -1,0 +1,373 @@
+File Error Log
+
+2024-06-25 09:57:38
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_trx_project_list' doesn't exist
+- Query 		: select * from sa_trx_project_list WHERE project_code='TE007819G0001'
+
+
+2024-06-25 10:51:28
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 8, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 19343 AND `resource_level` = 21 AND `service_type`= 1
+
+
+2024-06-25 10:51:28
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 2, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 700, `catalog_type` = NULL WHERE `project_id` = 19343 AND `resource_level` = 51 AND `service_type`= 1
+
+
+2024-06-25 10:51:28
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 22, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 19343 AND `resource_level` = 61 AND `service_type`= 1
+
+
+2024-06-25 10:51:28
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 22, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 19343 AND `resource_level` = 71 AND `service_type`= 1
+
+
+2024-06-25 11:08:44
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'email_id' in 'where clause'
+- Query 		: UPDATE sa_hcm_requirement _interview SET status = NULL WHERE email_id IN (51,54)
+
+
+
+
+
+2024-06-25 11:09:17
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'email_id' in 'where clause'
+- Query 		: UPDATE sa_hcm_requirement _interview SET status = NULL WHERE email_id IN (51,54)
+
+
+
+
+
+2024-06-25 11:19:20
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_master_maintenance_date' doesn't exist
+- Query 		: select * from sa_master_maintenance_date
+
+
+2024-06-25 12:49:45
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'email_id' in 'where clause'
+- Query 		: UPDATE sa_hcm_requirement _interview SET status = NULL WHERE email_id IN (51,54)
+
+
+
+2024-06-25 12:50:19
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave
+- Status 		: Table 'sa_md_hcm.sa_cfg_menus' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_menus WHERE `employee_name`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' AND DATE_FORMAT(`start_date`, '%Y-%m-%d')='2024-03-16'
+
+
+2024-06-25 12:51:31
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave
+- Status 		: Table 'sa_md_hcm.sa_cfg_menus' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_menus WHERE `employee_name`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' AND DATE_FORMAT(`start_date`, '%Y-%m-%d')='2024-03-16'
+
+
+2024-06-25 13:53:56
+- Server 		: Prod
+- User 			: samsul.maarif@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'arif<samsul.maarif@mastersystem.co.id>' GROUP BY project_type ORDER BY `proje...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-06-18' AND task_date <= '2024-07-02' AND `resource_email` LIKE 'Samsul Ma'arif<samsul.maarif@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-06-25 14:03:15
+- Server 		: Prod
+- User 			: samsul.maarif@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'arif<samsul.maarif@mastersystem.co.id>' GROUP BY project_type ORDER BY `proje...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-06-18' AND task_date <= '2024-07-02' AND `resource_email` LIKE 'Samsul Ma'arif<samsul.maarif@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-06-25 14:31:10
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-06-25 14:31:23
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-06-25 14:57:13
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(22290,'3 persons Standby Engineer (Profesional) for shifting',633486166,11,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-06-25 14:57:13
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(22290,'8 persons Standby Engineer (Associate) for shifting',1206640316,4,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-06-25 14:59:56
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(22290,'3 persons Standby Engineer (Profesional) for shifting',633486166,11,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-06-25 14:59:56
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(22290,'8 persons Standby Engineer (Associate) for shifting',1206640316,4,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-06-25 15:08:37
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 8, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 17563 AND `resource_level` = 21 AND `service_type`= 1
+
+
+2024-06-25 15:08:37
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 2, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 700, `catalog_type` = NULL WHERE `project_id` = 17563 AND `resource_level` = 51 AND `service_type`= 1
+
+
+2024-06-25 15:08:37
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 22, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 17563 AND `resource_level` = 61 AND `service_type`= 1
+
+
+2024-06-25 15:08:37
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 22, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 17563 AND `resource_level` = 71 AND `service_type`= 1
+
+
+2024-06-25 15:09:13
+- Server 		: Prod
+- User 			: hendika.vernanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-06-25 15:09:13
+- Server 		: Prod
+- User 			: hendika.vernanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-06-25 15:23:13
+- Server 		: Prod
+- User 			: samsul.maarif@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'arif<samsul.maarif@mastersystem.co.id>' GROUP BY project_type ORDER BY `proje...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-06-18' AND task_date <= '2024-07-02' AND `resource_email` LIKE 'Samsul Ma'arif<samsul.maarif@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-06-25 15:32:46
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'email_id' in 'where clause'
+- Query 		: UPDATE sa_hcm_requirement SET status_cv = NULL where email_id IN (51,54)
+
+
+2024-06-25 15:39:27
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(22290,'3 persons Standby Engineer (Profesional) for shifting',633486166,11,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-06-25 15:39:27
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(22290,'8 persons Standby Engineer (Associate) for shifting',1206640316,4,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-06-25 15:45:02
+- Server 		: Prod
+- User 			: yasid.ramli@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-06-25 15:45:02
+- Server 		: Prod
+- User 			: yasid.ramli@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-06-25 15:45:28
+- Server 		: Prod
+- User 			: yasid.ramli@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-06-25 15:45:29
+- Server 		: Prod
+- User 			: yasid.ramli@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-06-25 15:55:28
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_interview' doesn't exist
+- Query 		: UPDATE sa_hcm_interview SET status_cv = NULL WHERE email_id IN (48,51,54)
+
+
+
+
+
+
+
+
+2024-06-25 16:39:11
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE status = 'Yes' LIMIT 0, 100
+
+
+2024-06-25 16:39:28
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE status = 'Yes' LIMIT 0, 100
+
+
+2024-06-25 16:40:10
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE email_id = 54 AND status = 'yes'
+
+
+2024-06-25 16:40:10
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE email_id = 54 AND status = 'yes'
+
+
+2024-06-25 16:40:46
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE email_id = 54 AND status = 'yes'
+
+
+2024-06-25 16:40:46
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE email_id = 54 AND status = 'yes'

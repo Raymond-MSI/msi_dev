@@ -1,0 +1,144 @@
+File Error Log
+
+2024-06-27 08:20:38
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,21,2,1,11,'Cisco',350,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-06-27 08:20:38
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,2,1,5,'Cisco',350,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-06-27 08:20:38
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,2,1,21,'Cisco',250,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-06-27 08:20:38
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,62,2,1,3,'Fortigate',350,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-06-27 08:20:38
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,72,2,1,13,'Fortigate',250,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-06-27 10:12:39
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_project_detail' doesn't exist
+- Query 		: UPDATE sa_project_detail set folder_name='01. Initiation & Planning' WHERE new_gd_id='1YHUIIPzx03r8r5Mr6TyiKDM01NeaNeRK'
+
+
+2024-06-27 10:22:24
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(project_code,folder_name,folder_id,gd_id,new_gd_id,tahun) VALUES ('TS033023J...' at line 1
+- Query 		: INSERT INTO (project_code,folder_name,folder_id,gd_id,new_gd_id,tahun) VALUES ('TS033023J0001','04. Closing',87,'1ziYo6-UMTQxCqc6snQhv5I4-wfhqF26p','1ziYo6-UMTQxCqc6snQhv5I4-wfhqF26p',2023)
+
+
+2024-06-27 14:34:44
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(22086,'DLA Engineer',755574774,67,2,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-06-27 14:36:19
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(22086,'DLA Engineer',755574774,67,2,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-06-27 14:36:51
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(22086,'DLA Engineer',755574774,67,2,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-06-27 14:37:38
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(22086,'DLA Engineer',755574774,67,2,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-06-27 15:25:33
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'Proses Interview'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement id_fpkb = 'Proses Interview'
+
+
+2024-06-27 15:30:33
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: FUNCTION sa_md_hcm.count does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+- Query 		: SELECT count (status) as jumlah_complete FROM sa_hcm_requirement_interview where id_fpkb = 'Human Capital Management/FPKB/REC/1/2024' AND status = 'complete offering'
+
+
+2024-06-27 15:31:40
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: FUNCTION sa_md_hcm.count does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+- Query 		: SELECT count (status) as jumlah_complete FROM sa_hcm_requirement_interview where id_fpkb = 'Human Capital Management/FPKB/REC/1/2024'
+
+
+2024-06-27 15:31:50
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: FUNCTION sa_md_hcm.count does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+- Query 		: SELECT count (status) FROM sa_hcm_requirement_interview where id_fpkb = 'Human Capital Management/FPKB/REC/1/2024'
+
+
+2024-06-27 15:47:33
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_trx_project_solution' doesn't exist
+- Query 		: select * from sa_trx_project_solution where project_id=22272

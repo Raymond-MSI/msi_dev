@@ -1,0 +1,186 @@
+File Error Log
+
+2024-09-27 10:26:01
+- Server 		: Prod
+- User 			: royger.febriansyah@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TT016124K0004', 
+                    'ORD-2024-01140', 
+                    'backup_mt_date',
+                    'Mohammad Royger Febriansyah Putra<royger.febriansyah@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-27 11:13:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_initial_jobroles_proejct' doesn't exist
+- Query 		: select * from sa_initial_jobroles_proejct WHERE project_id='IEAEOPF5I44TAUBH'
+
+
+2024-09-27 11:13:35
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_initial_jobroles_proejct' doesn't exist
+- Query 		: select * from sa_initial_jobroles_proejct WHERE project_id='IEAEOPF5I44TAUBH'
+
+
+2024-09-27 11:13:38
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_initial_jobroles_proejct' doesn't exist
+- Query 		: select * from sa_initial_jobroles_proejct WHERE project_id='IEAEOPF5I44TAUBH'
+
+
+2024-09-27 14:28:33
+- Server 		: Prod
+- User 			: agdi.rizky@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB001023C0044', 
+                    'ORD-2024-00895', 
+                    'pmr_date',
+                    'Agdi Rizky Fauzi<agdi.rizky@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-27 14:46:49
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'TB002724D0005' in 'where clause'
+- Query 		: select * FROM sa_wrike_project_list WHERE project_code=TB002724D0005 AND order_number=ORD-2024-02066 AND project_type=Maintenance
+
+
+2024-09-27 14:47:16
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'TB002724D0005' in 'where clause'
+- Query 		: select * FROM sa_wrike_project_list WHERE project_code=TB002724D0005 AND order_number=ORD-2024-02066 AND project_type LIKE '%Maintenance%'
+
+
+2024-09-27 15:31:38
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,3,1,3,'HPE',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-09-27 15:31:38
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,3,1,2,'HPE',350,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-09-27 15:31:38
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,7,'HPE',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-09-27 16:24:53
+- Server 		: Prod
+- User 			: feralia.fitri@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB002723D0093', 
+                    'ORD-2023-03062', 
+                    'pmr_date',
+                    'Feralia Fitri<feralia.fitri@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-27 17:00:40
+- Server 		: Prod
+- User 			: feralia.fitri@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB002722D0092', 
+                    'ORD-29628-Q3X6B5', 
+                    'pmr_date',
+                    'Feralia Fitri<feralia.fitri@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-27 17:09:52
+- Server 		: Prod
+- User 			: feralia.fitri@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB002722D0086', 
+                    'ORD-2023-00177', 
+                    'pmr_date',
+                    'Feralia Fitri<feralia.fitri@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-27 17:18:38
+- Server 		: Prod
+- User 			: ashiv.hakim@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB009724K0002', 
+                    'ORD-2024-02107', 
+                    'pmr_date',
+                    'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>',
+                    NULLIF('Array',''))

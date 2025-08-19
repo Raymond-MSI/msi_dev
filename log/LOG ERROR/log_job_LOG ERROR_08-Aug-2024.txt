@@ -1,0 +1,762 @@
+File Error Log
+
+2024-08-08 09:42:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Truncated incorrect datetime value: ''
+- Query 		: UPDATE sa_kpi_so_wr SET end_assignment=null WHERE end_assignment=''
+
+
+2024-08-08 10:27:42
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_user' doesn't exist
+- Query 		: select * from sa_user WHERE so_number='2023/SO/0351'
+
+
+2024-08-08 11:08:16
+- Server 		: Prod
+- User 			: bayu.santoso@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,1,1,12,'solarwinds',250,1,1,'Bayu Santoso<bayu.santoso@mastersystem.co.id>')
+
+
+2024-08-08 11:08:16
+- Server 		: Prod
+- User 			: bayu.santoso@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,1,1,9,'solarwinds',350,1,1,'Bayu Santoso<bayu.santoso@mastersystem.co.id>')
+
+
+2024-08-08 11:08:16
+- Server 		: Prod
+- User 			: bayu.santoso@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,1,1,35,'solarwinds',250,1,1,'Bayu Santoso<bayu.santoso@mastersystem.co.id>')
+
+
+2024-08-08 11:24:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_master_maintenance_date_kpi' doesn't exist
+- Query 		: SELECT * FROM sa_master_maintenance_date_kpi WHERE order_number='ORD-2023-02437'
+
+
+2024-08-08 11:26:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_master_maintenance_date_kpi' doesn't exist
+- Query 		: SELECT * FROM sa_master_maintenance_date_kpi WHERE order_number='ORD-2023-02437'
+
+
+2024-08-08 11:26:15
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_master_maintenance_date_kpi' doesn't exist
+- Query 		: SELECT * FROM sa_master_maintenance_date_kpi WHERE order_number='ORD-2023-02437'
+
+
+2024-08-08 11:39:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'maintenance_file_name' in 'where clause'
+- Query 		: SELECT * FROM sa_maintenance_date_kpi WHERE maintenance_file_name LIKE '%BC_02%' AND order_number='ORD-2023-02437'
+
+
+2024-08-08 11:39:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'maintenance_file_name' in 'where clause'
+- Query 		: SELECT * FROM sa_maintenance_date_kpi WHERE maintenance_file_name LIKE '%BC_02%' AND order_number='ORD-2023-02437'
+
+
+2024-08-08 11:39:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'maintenance_file_name' in 'where clause'
+- Query 		: SELECT * FROM sa_maintenance_date_kpi WHERE maintenance_file_name LIKE '%BC_03%' AND order_number='ORD-2023-02437'
+
+
+2024-08-08 11:39:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'maintenance_file_name' in 'where clause'
+- Query 		: SELECT * FROM sa_maintenance_date_kpi WHERE maintenance_file_name LIKE '%BC_03%' AND order_number='ORD-2023-02437'
+
+
+2024-08-08 11:44:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'maintenance_file_name' in 'where clause'
+- Query 		: SELECT * FROM sa_maintenance_date_kpi WHERE maintenance_file_name LIKE '%BC_02%' AND order_number='ORD-2023-02437'
+
+
+2024-08-08 11:44:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'maintenance_file_name' in 'where clause'
+- Query 		: SELECT * FROM sa_maintenance_date_kpi WHERE maintenance_file_name LIKE '%BC_02%' AND order_number='ORD-2023-02437'
+
+
+2024-08-08 11:44:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'maintenance_file_name' in 'where clause'
+- Query 		: SELECT * FROM sa_maintenance_date_kpi WHERE maintenance_file_name LIKE '%BC_03%' AND order_number='ORD-2023-02437'
+
+
+2024-08-08 11:44:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'maintenance_file_name' in 'where clause'
+- Query 		: SELECT * FROM sa_maintenance_date_kpi WHERE maintenance_file_name LIKE '%BC_03%' AND order_number='ORD-2023-02437'
+
+
+2024-08-08 11:44:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'maintenance_file_name' in 'where clause'
+- Query 		: SELECT * FROM sa_maintenance_date_kpi WHERE maintenance_file_name LIKE '%BC_02%' AND order_number='ORD-2023-02437'
+
+
+2024-08-08 12:46:57
+- Server 		: Prod
+- User 			: rio.agustian@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TT000121N0001', 
+                'ORD-27762-T6Y6B1', 
+                '1',
+                '',
+                '',
+                '0', 
+                '0',
+                '0',
+                '0', 
+                '0',
+                '0',
+                '0',
+                'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-08 14:04:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'permalink_calender' in 'where clause'
+- Query 		: select * from sa_trx_productivity WHERE resource_email LIKE '%<purwanto@mastersystem.co.id%' AND permalink_calender LIKE '%M2hvZjZ1NzU0c3FqOXFpMmNmNGJsYWd2cXYgcHVyd2FudG9AbWFzdGVyc3lzdGVtLmNvLmlk%'
+
+
+2024-08-08 14:13:31
+- Server 		: Prod
+- User 			: rafi.nurrohim@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TS000924D0001', 
+                'ORD-2024-01027', 
+                '1',
+                '',
+                'Belum di adakan KoM dengan User',
+                '9', 
+                '2',
+                '2',
+                '9', 
+                '2',
+                '2',
+                '0',
+                'Muhammad Rafi Nurrohim<rafi.nurrohim@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-08 14:37:10
+- Server 		: Prod
+- User 			: lucky.andiani@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Data truncated for column 'tahun_review' at row 1
+- Query 		: INSERT INTO sa_kpi_board (`project_type`,`tahun_review`,`so_number`,`order_number`,`pic_approval`,`project_code`,`project_name`,`customer_name`,`email_requester`,`error_list`,`error_list2`,`error_list3`,`error_list4`,`error_list5`,`error_list6`,`error_list7`,`error_list8`,`error_category`,`error_category2`,`error_category3`,`error_category4`,`error_category5`,`error_category6`,`error_category7`,`error_category8`,`notes`,`notes2`,`notes3`,`notes4`,`notes5`,`notes6`,`notes7`,`notes8`,`nilai_error`,`pic_email`,`status_approval`,`status_error`,`status`) VALUES ('MSI Project Maintenance','08-Aug-2024','2023/SO/0351','ORD-29621-Y9K1H6','Aceng Zakariya Ramadani, </br>Cassendra','TB002722D0050','BCA-2023-HSM Payment Migration','BANK CENTRAL ASIA, TBK','lucky.andiani@mastersystem.co.id','','','','','','','','','Minor','Minor','Minor','Minor','Minor','Minor','Major','Critical','','','','','','','','','34.00000','aceng.zakariya@mastersystem.co.id,cassendra@mastersystem.co.id','Pending, </br>Pending','Pending','Ready for Approve')
+
+
+2024-08-08 14:37:10
+- Server 		: Prod
+- User 			: lucky.andiani@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 14:37:10
+- Server 		: Prod
+- User 			: lucky.andiani@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 14:38:27
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Data truncated for column 'tahun_review' at row 1
+- Query 		: INSERT INTO sa_kpi_board (`project_type`,`tahun_review`,`so_number`,`order_number`,`pic_approval`,`project_code`,`project_name`,`customer_name`,`email_requester`,`error_list`,`error_list2`,`error_list3`,`error_list4`,`error_list5`,`error_list6`,`error_list7`,`error_list8`,`error_category`,`error_category2`,`error_category3`,`error_category4`,`error_category5`,`error_category6`,`error_category7`,`error_category8`,`notes`,`notes2`,`notes3`,`notes4`,`notes5`,`notes6`,`notes7`,`notes8`,`nilai_error`,`pic_email`,`status_approval`,`status_error`,`status`) VALUES ('MSI Project Maintenance','08-Aug-2024','2023/SO/0351','ORD-29621-Y9K1H6','Aceng Zakariya Ramadani, </br>Cassendra','TB002722D0050','BCA-2023-HSM Payment Migration','BANK CENTRAL ASIA, TBK','anita.angelina@mastersystem.co.id','','','','','','','','','Minor','Minor','Minor','Minor','Minor','Minor','Major','Critical','','','','','','','','','34.00000','aceng.zakariya@mastersystem.co.id,cassendra@mastersystem.co.id','Pending, </br>Pending','Pending','Ready for Approve')
+
+
+2024-08-08 14:38:27
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 14:38:27
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 14:58:20
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Data truncated for column 'tahun_review' at row 1
+- Query 		: INSERT INTO sa_kpi_board (`project_type`,`tahun_review`,`so_number`,`order_number`,`pic_approval`,`project_code`,`project_name`,`customer_name`,`email_requester`,`error_list`,`error_list2`,`error_list3`,`error_list4`,`error_list5`,`error_list6`,`error_list7`,`error_list8`,`error_category`,`error_category2`,`error_category3`,`error_category4`,`error_category5`,`error_category6`,`error_category7`,`error_category8`,`notes`,`notes2`,`notes3`,`notes4`,`notes5`,`notes6`,`notes7`,`notes8`,`nilai_error`,`pic_email`,`status_approval`,`status_error`,`status`) VALUES ('MSI Project Maintenance','08-Aug-2024','2023/SO/0351','ORD-29621-Y9K1H6','Aceng Zakariya Ramadani, </br>Cassendra','TB002722D0050','BCA-2023-HSM Payment Migration','BANK CENTRAL ASIA, TBK','chrisheryanda@mastersystem.co.id','','','','','','','','','Minor','Minor','Minor','Minor','Minor','Minor','Major','Critical','','','','','','','','','34.00000','aceng.zakariya@mastersystem.co.id,cassendra@mastersystem.co.id','Pending, </br>Pending','Pending','Ready for Approve')
+
+
+2024-08-08 14:58:20
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 14:58:20
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:01:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Data truncated for column 'tahun_review' at row 1
+- Query 		: INSERT INTO sa_kpi_board (`project_type`,`tahun_review`,`so_number`,`order_number`,`pic_approval`,`project_code`,`project_name`,`customer_name`,`email_requester`,`error_list`,`error_list2`,`error_list3`,`error_list4`,`error_list5`,`error_list6`,`error_list7`,`error_list8`,`error_category`,`error_category2`,`error_category3`,`error_category4`,`error_category5`,`error_category6`,`error_category7`,`error_category8`,`notes`,`notes2`,`notes3`,`notes4`,`notes5`,`notes6`,`notes7`,`notes8`,`nilai_error`,`pic_email`,`status_approval`,`status_error`,`status`) VALUES ('MSI Project Maintenance','08-Aug-2024','2023/SO/0351','ORD-29621-Y9K1H6','Aceng Zakariya Ramadani, </br>Cassendra','TB002722D0050','BCA-2023-HSM Payment Migration','BANK CENTRAL ASIA, TBK','chrisheryanda@mastersystem.co.id','','','','','','','','','Minor','Minor','Minor','Minor','Minor','Minor','Major','Critical','','','','','','','','','34.00000','aceng.zakariya@mastersystem.co.id,cassendra@mastersystem.co.id','Pending, </br>Pending','Pending','Ready for Approve')
+
+
+2024-08-08 15:01:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:01:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:05:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Data truncated for column 'tahun_review' at row 1
+- Query 		: INSERT INTO sa_kpi_board (`project_type`,`tahun_review`,`so_number`,`order_number`,`pic_approval`,`project_code`,`project_name`,`customer_name`,`email_requester`,`error_list`,`error_list2`,`error_list3`,`error_list4`,`error_list5`,`error_list6`,`error_list7`,`error_list8`,`error_category`,`error_category2`,`error_category3`,`error_category4`,`error_category5`,`error_category6`,`error_category7`,`error_category8`,`notes`,`notes2`,`notes3`,`notes4`,`notes5`,`notes6`,`notes7`,`notes8`,`nilai_error`,`pic_email`,`status_approval`,`status_error`,`status`) VALUES ('MSI Project Maintenance','08-Aug-2024','2023/SO/0351','ORD-29621-Y9K1H6','Aceng Zakariya Ramadani, </br>Cassendra','TB002722D0050','BCA-2023-HSM Payment Migration','BANK CENTRAL ASIA, TBK','chrisheryanda@mastersystem.co.id','','','','','','','','','Minor','Minor','Minor','Minor','Minor','Minor','Major','Critical','','','','','','','','','34.00000','aceng.zakariya@mastersystem.co.id,cassendra@mastersystem.co.id','Pending, </br>Pending','Pending','Ready for Approve')
+
+
+2024-08-08 15:05:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:05:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:08:05
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Data truncated for column 'tahun_review' at row 1
+- Query 		: INSERT INTO sa_kpi_board (`project_type`,`tahun_review`,`so_number`,`order_number`,`pic_approval`,`project_code`,`project_name`,`customer_name`,`email_requester`,`error_list`,`error_list2`,`error_list3`,`error_list4`,`error_list5`,`error_list6`,`error_list7`,`error_list8`,`error_category`,`error_category2`,`error_category3`,`error_category4`,`error_category5`,`error_category6`,`error_category7`,`error_category8`,`notes`,`notes2`,`notes3`,`notes4`,`notes5`,`notes6`,`notes7`,`notes8`,`nilai_error`,`pic_email`,`status_approval`,`status_error`,`status`) VALUES ('MSI Project Maintenance','08-Aug-2024','2023/SO/0351','ORD-29621-Y9K1H6','Aceng Zakariya Ramadani, </br>Cassendra','TB002722D0050','BCA-2023-HSM Payment Migration','BANK CENTRAL ASIA, TBK','chrisheryanda@mastersystem.co.id','','','','','','','','','Minor','Minor','Minor','Minor','Minor','Minor','Major','Critical','','','','','','','','','34.00000','aceng.zakariya@mastersystem.co.id,cassendra@mastersystem.co.id','Pending, </br>Pending','Pending','Ready for Approve')
+
+
+2024-08-08 15:08:05
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:08:05
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:10:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect datetime value: '2023' for column `sa_dashboard_kpi`.`sa_kpi_board`.`tahun_review` at row 1
+- Query 		: ALTER TABLE sa_kpi_board CHANGE tahun_review tahun_review date null 
+
+
+2024-08-08 15:13:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:13:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:16:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown table 'sa_wrike_integrate.c'
+- Query 		: select b.*,c.* from sa_wrike_assignment a left join sa_wrike_task b ON a.project_id=c.project_id WHERE b.start_date is not null AND b.start_date<>'' AND a.timestamp>b.start_date LIMIT 10
+
+
+2024-08-08 15:16:17
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'c.project_id' in 'on clause'
+- Query 		: select * from sa_wrike_assignment a left join sa_wrike_task b ON a.project_id=c.project_id WHERE b.start_date is not null AND b.start_date<>'' AND a.timestamp>b.start_date LIMIT 10
+
+
+2024-08-08 15:25:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:25:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:30:52
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:30:52
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:33:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:33:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:36:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE project_type LIKE '%Maintenance%'' at line 1
+- Query 		: DELETE sa_kpi_exception WHERE project_type LIKE '%Maintenance%'
+
+
+
+2024-08-08 15:36:17
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE project_type LIKE '%Maintenance%'' at line 1
+- Query 		: DELETE sa_kpi_board WHERE project_type LIKE '%Maintenance%'
+
+
+
+2024-08-08 15:37:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:37:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:40:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:40:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:44:44
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:44:44
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:44:44
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_user' doesn't exist
+- Query 		: SELECT * FROM sa_user where order_number='ORD-29621-Y9K1H6' AND project_type LIKE '%Maintenance%' GROUP BY resource_email
+
+
+2024-08-08 15:50:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 15:50:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=08-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-08 16:43:12
+- Server 		: Prod
+- User 			: rafi.nurrohim@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB029921D0004', 
+                'ORD-26637-W2R7B1', 
+                '1',
+                '',
+                'Preventive Per 3 bulan digabung dengan Report Maintenance',
+                '54', 
+                '36',
+                '0',
+                '54', 
+                '36',
+                '0',
+                '0',
+                'Muhammad Rafi Nurrohim<rafi.nurrohim@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-08 16:48:23
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Field 'group' doesn't have a default value
+- Query 		: INSERT INTO `sa_mst_organization_project`(
+            `project_id`,
+            `structure_code`,
+            `title`,
+            `project_type`,
+            `leader_email`,
+            `parent`,
+            `update_by`
+        )
+        VALUES(
+            NULL,
+            'P1',
+            'P1 Title',
+            'Maintenance',
+            NULL,
+            'Syamsul Arham<syamsul@mastersystem.co.id>',
+            0
+        )
+
+
+2024-08-08 17:39:27
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani',
+                'zaimatul@mastersystem.co.id',
+    ...' at line 9
+- Query 		: INSERT INTO `sa_mst_organization_project_employee`(
+		`employee_name`,
+                `employee_email`,
+                `structure_id`,
+                `entry_by`,
+                `entry_date`
+            )
+            VALUES(
+		'Za'imatul Hakimah Septiani',
+                'zaimatul@mastersystem.co.id',
+                49,
+                'Syamsul Arham<syamsul@mastersystem.co.id>',
+                '2024-08-08 17:39:27'
+            )
+
+
+2024-08-08 17:44:16
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani',
+                'zaimatul@mastersystem.co.id',
+    ...' at line 9
+- Query 		: INSERT INTO `sa_mst_organization_project_employee`(
+		`employee_name`,
+                `employee_email`,
+                `structure_id`,
+                `entry_by`,
+                `entry_date`
+            )
+            VALUES(
+		'Za'imatul Hakimah Septiani',
+                'zaimatul@mastersystem.co.id',
+                49,
+                'Syamsul Arham<syamsul@mastersystem.co.id>',
+                '2024-08-08 17:44:16'
+            )
+
+
+2024-08-08 22:46:34
+- Server 		: Prod
+- User 			: rafi.nurrohim@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB029921D0004', 
+                'ORD-26637-W2R7B1', 
+                '1',
+                '',
+                '',
+                '0', 
+                '0',
+                '0',
+                '0', 
+                '0',
+                '0',
+                '0',
+                'Muhammad Rafi Nurrohim<rafi.nurrohim@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')

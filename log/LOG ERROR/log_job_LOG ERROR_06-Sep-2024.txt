@@ -1,0 +1,1152 @@
+File Error Log
+
+2024-09-06 09:14:26
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 21
+- Query 		: SELECT 
+        resource_email, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_imp, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_imp, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_mnt, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_mnt, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_non, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_non, 
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_si,
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_si,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_imp_progress,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_imp_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_mnt_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_mnt_progress,
+		(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0))) AS total
+
+    FROM sa_trx_productivity 
+    WHERE
+        tracked_date >= '2024-08-01' AND 
+        tracked_date <= '2024-08-31'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+    GROUP BY resource_email
+	ORDER BY total
+	
+
+
+2024-09-06 09:14:26
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 14
+- Query 		: SELECT 
+		resource_email,
+		SUM(IF(status_calender = "accepted", 1, 0)) AS accepted, 
+		SUM(IF(status_calender = "declined", 1, 0)) AS declined, 
+		SUM(IF(status_calender = "needsAction", 1, 0)) AS needsAction, 
+		SUM(IF(status_calender = "tentative", 1, 0)) AS tentative, 
+		SUM(IF(status_calender = NULL, 1, 0)) AS `null`,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0))) AS total_task,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)))/(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0))) AS progress
+	FROM sa_trx_productivity 
+	WHERE
+		tracked_date >= '2024-08-01' AND 
+		tracked_date <= '2024-08-31'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+	GROUP BY resource_email
+	ORDER BY resource_email DESC
+
+
+2024-09-06 09:14:26
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 7
+- Query 		: SELECT
+                                `resource_email`
+                            FROM
+                                `sa_trx_productivity`
+                            WHERE
+                                `tracked_date` >= '2024-08-01' AND `tracked_date` <= '2024-08-31' AND `spen_time` IS NOT NULL
+                                 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+                                
+                            GROUP BY
+                                `resource_email`
+                            ORDER BY
+                                `resource_email` ASC;
+
+
+2024-09-06 09:14:26
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 33
+- Query 		: SELECT
+						`resource_email`,
+						`project_type`,
+						`project_code`,
+						`so_number`,
+						`order_number`,
+						`project_name`,
+						`customer_name`,
+						`start_date`,
+						`due_date`,
+						`task_date`,
+						`day_name`,
+						`work_on_weekends`,
+						`task_name`,
+						`resource_role`,
+						`leader_name`,
+						`department`,
+						`gm_name`,
+						`division`,
+						`available_time`,
+						`plan_time`,
+						`spen_time`,
+						`tracked_date`,
+						`entry_date`,
+						`status_calender`,
+						`permalink_wrike`,
+						`permalink_task`,
+						`permalink_gcalender`
+					FROM
+						`sa_trx_productivity`
+					WHERE
+						`tracked_date` >= '2024-08-01' AND `tracked_date` <= '2024-08-31'
+						 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+						
+						
+					ORDER BY
+						`resource_email` ASC;
+
+
+2024-09-06 09:17:36
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 21
+- Query 		: SELECT 
+        resource_email, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_imp, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_imp, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_mnt, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_mnt, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_non, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_non, 
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_si,
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_si,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_imp_progress,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_imp_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_mnt_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_mnt_progress,
+		(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0))) AS total
+
+    FROM sa_trx_productivity 
+    WHERE
+        tracked_date >= '2024-08-31' AND 
+        tracked_date <= '2024-09-06'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+    GROUP BY resource_email
+	ORDER BY total
+	
+
+
+2024-09-06 09:17:36
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 14
+- Query 		: SELECT 
+		resource_email,
+		SUM(IF(status_calender = "accepted", 1, 0)) AS accepted, 
+		SUM(IF(status_calender = "declined", 1, 0)) AS declined, 
+		SUM(IF(status_calender = "needsAction", 1, 0)) AS needsAction, 
+		SUM(IF(status_calender = "tentative", 1, 0)) AS tentative, 
+		SUM(IF(status_calender = NULL, 1, 0)) AS `null`,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0))) AS total_task,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)))/(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0))) AS progress
+	FROM sa_trx_productivity 
+	WHERE
+		tracked_date >= '2024-08-31' AND 
+		tracked_date <= '2024-09-06'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+	GROUP BY resource_email
+	ORDER BY resource_email DESC
+
+
+2024-09-06 09:17:36
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 7
+- Query 		: SELECT
+                                `resource_email`
+                            FROM
+                                `sa_trx_productivity`
+                            WHERE
+                                `tracked_date` >= '2024-08-31' AND `tracked_date` <= '2024-09-06' AND `spen_time` IS NOT NULL
+                                 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+                                
+                            GROUP BY
+                                `resource_email`
+                            ORDER BY
+                                `resource_email` ASC;
+
+
+2024-09-06 09:17:36
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 33
+- Query 		: SELECT
+						`resource_email`,
+						`project_type`,
+						`project_code`,
+						`so_number`,
+						`order_number`,
+						`project_name`,
+						`customer_name`,
+						`start_date`,
+						`due_date`,
+						`task_date`,
+						`day_name`,
+						`work_on_weekends`,
+						`task_name`,
+						`resource_role`,
+						`leader_name`,
+						`department`,
+						`gm_name`,
+						`division`,
+						`available_time`,
+						`plan_time`,
+						`spen_time`,
+						`tracked_date`,
+						`entry_date`,
+						`status_calender`,
+						`permalink_wrike`,
+						`permalink_task`,
+						`permalink_gcalender`
+					FROM
+						`sa_trx_productivity`
+					WHERE
+						`tracked_date` >= '2024-08-31' AND `tracked_date` <= '2024-09-06'
+						 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+						
+						
+					ORDER BY
+						`resource_email` ASC;
+
+
+2024-09-06 09:18:39
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 21
+- Query 		: SELECT 
+        resource_email, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_imp, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_imp, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_mnt, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_mnt, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_non, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_non, 
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_si,
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_si,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_imp_progress,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_imp_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_mnt_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_mnt_progress,
+		(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0))) AS total
+
+    FROM sa_trx_productivity 
+    WHERE
+        tracked_date >= '2024-08-31' AND 
+        tracked_date <= '2024-09-06'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+    GROUP BY resource_email
+	ORDER BY total
+	
+
+
+2024-09-06 09:18:39
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 14
+- Query 		: SELECT 
+		resource_email,
+		SUM(IF(status_calender = "accepted", 1, 0)) AS accepted, 
+		SUM(IF(status_calender = "declined", 1, 0)) AS declined, 
+		SUM(IF(status_calender = "needsAction", 1, 0)) AS needsAction, 
+		SUM(IF(status_calender = "tentative", 1, 0)) AS tentative, 
+		SUM(IF(status_calender = NULL, 1, 0)) AS `null`,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0))) AS total_task,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)))/(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0))) AS progress
+	FROM sa_trx_productivity 
+	WHERE
+		tracked_date >= '2024-08-31' AND 
+		tracked_date <= '2024-09-06'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+	GROUP BY resource_email
+	ORDER BY resource_email DESC
+
+
+2024-09-06 09:18:39
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 7
+- Query 		: SELECT
+                                `resource_email`
+                            FROM
+                                `sa_trx_productivity`
+                            WHERE
+                                `tracked_date` >= '2024-08-31' AND `tracked_date` <= '2024-09-06' AND `spen_time` IS NOT NULL
+                                 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+                                
+                            GROUP BY
+                                `resource_email`
+                            ORDER BY
+                                `resource_email` ASC;
+
+
+2024-09-06 09:18:39
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 33
+- Query 		: SELECT
+						`resource_email`,
+						`project_type`,
+						`project_code`,
+						`so_number`,
+						`order_number`,
+						`project_name`,
+						`customer_name`,
+						`start_date`,
+						`due_date`,
+						`task_date`,
+						`day_name`,
+						`work_on_weekends`,
+						`task_name`,
+						`resource_role`,
+						`leader_name`,
+						`department`,
+						`gm_name`,
+						`division`,
+						`available_time`,
+						`plan_time`,
+						`spen_time`,
+						`tracked_date`,
+						`entry_date`,
+						`status_calender`,
+						`permalink_wrike`,
+						`permalink_task`,
+						`permalink_gcalender`
+					FROM
+						`sa_trx_productivity`
+					WHERE
+						`tracked_date` >= '2024-08-31' AND `tracked_date` <= '2024-09-06'
+						 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+						
+						
+					ORDER BY
+						`resource_email` ASC;
+
+
+2024-09-06 09:21:06
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.created_at' in 'where clause'
+- Query 		: SELECT COunt(*) as count FROM sa_rental_product_list AS a JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE b.status_product in ('Peminjaman' ,'Sewa') AND a.tipe_aset = 'Titipan' AND YEAR(a.created_at) = YEAR(CURDATE())
+
+
+2024-09-06 09:21:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 21
+- Query 		: SELECT 
+        resource_email, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_imp, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_imp, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_mnt, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_mnt, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_non, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_non, 
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_si,
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_si,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_imp_progress,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_imp_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_mnt_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_mnt_progress,
+		(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0))) AS total
+
+    FROM sa_trx_productivity 
+    WHERE
+        tracked_date >= '2024-08-31' AND 
+        tracked_date <= '2024-09-06'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+    GROUP BY resource_email
+	ORDER BY total
+	
+
+
+2024-09-06 09:21:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 14
+- Query 		: SELECT 
+		resource_email,
+		SUM(IF(status_calender = "accepted", 1, 0)) AS accepted, 
+		SUM(IF(status_calender = "declined", 1, 0)) AS declined, 
+		SUM(IF(status_calender = "needsAction", 1, 0)) AS needsAction, 
+		SUM(IF(status_calender = "tentative", 1, 0)) AS tentative, 
+		SUM(IF(status_calender = NULL, 1, 0)) AS `null`,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0))) AS total_task,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)))/(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0))) AS progress
+	FROM sa_trx_productivity 
+	WHERE
+		tracked_date >= '2024-08-31' AND 
+		tracked_date <= '2024-09-06'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+	GROUP BY resource_email
+	ORDER BY resource_email DESC
+
+
+2024-09-06 09:21:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 7
+- Query 		: SELECT
+                                `resource_email`
+                            FROM
+                                `sa_trx_productivity`
+                            WHERE
+                                `tracked_date` >= '2024-08-31' AND `tracked_date` <= '2024-09-06' AND `spen_time` IS NOT NULL
+                                 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+                                
+                            GROUP BY
+                                `resource_email`
+                            ORDER BY
+                                `resource_email` ASC;
+
+
+2024-09-06 09:21:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 33
+- Query 		: SELECT
+						`resource_email`,
+						`project_type`,
+						`project_code`,
+						`so_number`,
+						`order_number`,
+						`project_name`,
+						`customer_name`,
+						`start_date`,
+						`due_date`,
+						`task_date`,
+						`day_name`,
+						`work_on_weekends`,
+						`task_name`,
+						`resource_role`,
+						`leader_name`,
+						`department`,
+						`gm_name`,
+						`division`,
+						`available_time`,
+						`plan_time`,
+						`spen_time`,
+						`tracked_date`,
+						`entry_date`,
+						`status_calender`,
+						`permalink_wrike`,
+						`permalink_task`,
+						`permalink_gcalender`
+					FROM
+						`sa_trx_productivity`
+					WHERE
+						`tracked_date` >= '2024-08-31' AND `tracked_date` <= '2024-09-06'
+						 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+						
+						
+					ORDER BY
+						`resource_email` ASC;
+
+
+2024-09-06 09:22:17
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 21
+- Query 		: SELECT 
+        resource_email, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_imp, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_imp, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_mnt, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_mnt, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_non, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_non, 
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_si,
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_si,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_imp_progress,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_imp_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_mnt_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_mnt_progress,
+		(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0))) AS total
+
+    FROM sa_trx_productivity 
+    WHERE
+        tracked_date >= '2024-08-31' AND 
+        tracked_date <= '2024-09-06'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+    GROUP BY resource_email
+	ORDER BY total
+	
+
+
+2024-09-06 09:22:17
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 14
+- Query 		: SELECT 
+		resource_email,
+		SUM(IF(status_calender = "accepted", 1, 0)) AS accepted, 
+		SUM(IF(status_calender = "declined", 1, 0)) AS declined, 
+		SUM(IF(status_calender = "needsAction", 1, 0)) AS needsAction, 
+		SUM(IF(status_calender = "tentative", 1, 0)) AS tentative, 
+		SUM(IF(status_calender = NULL, 1, 0)) AS `null`,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0))) AS total_task,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)))/(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0))) AS progress
+	FROM sa_trx_productivity 
+	WHERE
+		tracked_date >= '2024-08-31' AND 
+		tracked_date <= '2024-09-06'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+	GROUP BY resource_email
+	ORDER BY resource_email DESC
+
+
+2024-09-06 09:22:17
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 7
+- Query 		: SELECT
+                                `resource_email`
+                            FROM
+                                `sa_trx_productivity`
+                            WHERE
+                                `tracked_date` >= '2024-08-31' AND `tracked_date` <= '2024-09-06' AND `spen_time` IS NOT NULL
+                                 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+                                
+                            GROUP BY
+                                `resource_email`
+                            ORDER BY
+                                `resource_email` ASC;
+
+
+2024-09-06 09:22:17
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 33
+- Query 		: SELECT
+						`resource_email`,
+						`project_type`,
+						`project_code`,
+						`so_number`,
+						`order_number`,
+						`project_name`,
+						`customer_name`,
+						`start_date`,
+						`due_date`,
+						`task_date`,
+						`day_name`,
+						`work_on_weekends`,
+						`task_name`,
+						`resource_role`,
+						`leader_name`,
+						`department`,
+						`gm_name`,
+						`division`,
+						`available_time`,
+						`plan_time`,
+						`spen_time`,
+						`tracked_date`,
+						`entry_date`,
+						`status_calender`,
+						`permalink_wrike`,
+						`permalink_task`,
+						`permalink_gcalender`
+					FROM
+						`sa_trx_productivity`
+					WHERE
+						`tracked_date` >= '2024-08-31' AND `tracked_date` <= '2024-09-06'
+						 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+						
+						
+					ORDER BY
+						`resource_email` ASC;
+
+
+2024-09-06 09:30:27
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_mst_project_implementations' doesn't exist
+- Query 		: SELECT * FROM sa_mst_project_implementations LIMIT 10
+
+
+2024-09-06 09:30:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_mst_project_implementation' doesn't exist
+- Query 		: SELECT * FROM sa_mst_project_implementation LIMIT 10
+
+
+2024-09-06 09:30:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_trx_project_implementation' doesn't exist
+- Query 		: SELECT * FROM sa_trx_project_implementation LIMIT 10
+
+
+2024-09-06 09:33:31
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-09-06 10:05:23
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 21
+- Query 		: SELECT 
+        resource_email, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_imp, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_imp, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_mnt, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_mnt, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_non, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_non, 
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_si,
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_si,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_imp_progress,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_imp_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_mnt_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_mnt_progress,
+		(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0))) AS total
+
+    FROM sa_trx_productivity 
+    WHERE
+        tracked_date >= '2024-08-01' AND 
+        tracked_date <= '2024-09-06'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+    GROUP BY resource_email
+	ORDER BY total
+	
+
+
+2024-09-06 10:05:23
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 14
+- Query 		: SELECT 
+		resource_email,
+		SUM(IF(status_calender = "accepted", 1, 0)) AS accepted, 
+		SUM(IF(status_calender = "declined", 1, 0)) AS declined, 
+		SUM(IF(status_calender = "needsAction", 1, 0)) AS needsAction, 
+		SUM(IF(status_calender = "tentative", 1, 0)) AS tentative, 
+		SUM(IF(status_calender = NULL, 1, 0)) AS `null`,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0))) AS total_task,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)))/(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0))) AS progress
+	FROM sa_trx_productivity 
+	WHERE
+		tracked_date >= '2024-08-01' AND 
+		tracked_date <= '2024-09-06'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+	GROUP BY resource_email
+	ORDER BY resource_email DESC
+
+
+2024-09-06 10:05:23
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 7
+- Query 		: SELECT
+                                `resource_email`
+                            FROM
+                                `sa_trx_productivity`
+                            WHERE
+                                `tracked_date` >= '2024-08-01' AND `tracked_date` <= '2024-09-06' AND `spen_time` IS NOT NULL
+                                 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+                                
+                            GROUP BY
+                                `resource_email`
+                            ORDER BY
+                                `resource_email` ASC;
+
+
+2024-09-06 10:05:23
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 33
+- Query 		: SELECT
+						`resource_email`,
+						`project_type`,
+						`project_code`,
+						`so_number`,
+						`order_number`,
+						`project_name`,
+						`customer_name`,
+						`start_date`,
+						`due_date`,
+						`task_date`,
+						`day_name`,
+						`work_on_weekends`,
+						`task_name`,
+						`resource_role`,
+						`leader_name`,
+						`department`,
+						`gm_name`,
+						`division`,
+						`available_time`,
+						`plan_time`,
+						`spen_time`,
+						`tracked_date`,
+						`entry_date`,
+						`status_calender`,
+						`permalink_wrike`,
+						`permalink_task`,
+						`permalink_gcalender`
+					FROM
+						`sa_trx_productivity`
+					WHERE
+						`tracked_date` >= '2024-08-01' AND `tracked_date` <= '2024-09-06'
+						 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+						
+						
+					ORDER BY
+						`resource_email` ASC;
+
+
+2024-09-06 10:14:14
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 21
+- Query 		: SELECT 
+        resource_email, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_imp, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_imp, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_mnt, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_mnt, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_non, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_non, 
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_si,
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_si,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_imp_progress,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_imp_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_mnt_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_mnt_progress,
+		(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0))) AS total
+
+    FROM sa_trx_productivity 
+    WHERE
+        tracked_date >= '2024-08-31' AND 
+        tracked_date <= '2024-09-06'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+    GROUP BY resource_email
+	ORDER BY total
+	
+
+
+2024-09-06 10:14:14
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 14
+- Query 		: SELECT 
+		resource_email,
+		SUM(IF(status_calender = "accepted", 1, 0)) AS accepted, 
+		SUM(IF(status_calender = "declined", 1, 0)) AS declined, 
+		SUM(IF(status_calender = "needsAction", 1, 0)) AS needsAction, 
+		SUM(IF(status_calender = "tentative", 1, 0)) AS tentative, 
+		SUM(IF(status_calender = NULL, 1, 0)) AS `null`,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0))) AS total_task,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)))/(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0))) AS progress
+	FROM sa_trx_productivity 
+	WHERE
+		tracked_date >= '2024-08-31' AND 
+		tracked_date <= '2024-09-06'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+	GROUP BY resource_email
+	ORDER BY resource_email DESC
+
+
+2024-09-06 10:14:14
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 7
+- Query 		: SELECT
+                                `resource_email`
+                            FROM
+                                `sa_trx_productivity`
+                            WHERE
+                                `tracked_date` >= '2024-08-31' AND `tracked_date` <= '2024-09-06' AND `spen_time` IS NOT NULL
+                                 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+                                
+                            GROUP BY
+                                `resource_email`
+                            ORDER BY
+                                `resource_email` ASC;
+
+
+2024-09-06 10:14:14
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 33
+- Query 		: SELECT
+						`resource_email`,
+						`project_type`,
+						`project_code`,
+						`so_number`,
+						`order_number`,
+						`project_name`,
+						`customer_name`,
+						`start_date`,
+						`due_date`,
+						`task_date`,
+						`day_name`,
+						`work_on_weekends`,
+						`task_name`,
+						`resource_role`,
+						`leader_name`,
+						`department`,
+						`gm_name`,
+						`division`,
+						`available_time`,
+						`plan_time`,
+						`spen_time`,
+						`tracked_date`,
+						`entry_date`,
+						`status_calender`,
+						`permalink_wrike`,
+						`permalink_task`,
+						`permalink_gcalender`
+					FROM
+						`sa_trx_productivity`
+					WHERE
+						`tracked_date` >= '2024-08-31' AND `tracked_date` <= '2024-09-06'
+						 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+						
+						
+					ORDER BY
+						`resource_email` ASC;
+
+
+2024-09-06 10:17:15
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asc' at line 1
+- Query 		: select * from sa_rental_transaction tanggal_create asc
+
+
+2024-09-06 10:19:25
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 21
+- Query 		: SELECT 
+        resource_email, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_imp, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_imp, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_mnt, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_mnt, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_non, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_non, 
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_si,
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_si,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_imp_progress,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_imp_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_mnt_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_mnt_progress,
+		(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0))) AS total
+
+    FROM sa_trx_productivity 
+    WHERE
+        tracked_date >= '2024-08-31' AND 
+        tracked_date <= '2024-09-06'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+    GROUP BY resource_email
+	ORDER BY total
+	
+
+
+2024-09-06 10:19:25
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 14
+- Query 		: SELECT 
+		resource_email,
+		SUM(IF(status_calender = "accepted", 1, 0)) AS accepted, 
+		SUM(IF(status_calender = "declined", 1, 0)) AS declined, 
+		SUM(IF(status_calender = "needsAction", 1, 0)) AS needsAction, 
+		SUM(IF(status_calender = "tentative", 1, 0)) AS tentative, 
+		SUM(IF(status_calender = NULL, 1, 0)) AS `null`,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0))) AS total_task,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)))/(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0))) AS progress
+	FROM sa_trx_productivity 
+	WHERE
+		tracked_date >= '2024-08-31' AND 
+		tracked_date <= '2024-09-06'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+	GROUP BY resource_email
+	ORDER BY resource_email DESC
+
+
+2024-09-06 10:19:25
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 7
+- Query 		: SELECT
+                                `resource_email`
+                            FROM
+                                `sa_trx_productivity`
+                            WHERE
+                                `tracked_date` >= '2024-08-31' AND `tracked_date` <= '2024-09-06' AND `spen_time` IS NOT NULL
+                                 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+                                
+                            GROUP BY
+                                `resource_email`
+                            ORDER BY
+                                `resource_email` ASC;
+
+
+2024-09-06 10:19:25
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 33
+- Query 		: SELECT
+						`resource_email`,
+						`project_type`,
+						`project_code`,
+						`so_number`,
+						`order_number`,
+						`project_name`,
+						`customer_name`,
+						`start_date`,
+						`due_date`,
+						`task_date`,
+						`day_name`,
+						`work_on_weekends`,
+						`task_name`,
+						`resource_role`,
+						`leader_name`,
+						`department`,
+						`gm_name`,
+						`division`,
+						`available_time`,
+						`plan_time`,
+						`spen_time`,
+						`tracked_date`,
+						`entry_date`,
+						`status_calender`,
+						`permalink_wrike`,
+						`permalink_task`,
+						`permalink_gcalender`
+					FROM
+						`sa_trx_productivity`
+					WHERE
+						`tracked_date` >= '2024-08-31' AND `tracked_date` <= '2024-09-06'
+						 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+						
+						
+					ORDER BY
+						`resource_email` ASC;
+
+
+2024-09-06 10:33:52
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '...
+WHERE id='15e49c02c7442b9376839835c8a43734'' at line 2
+- Query 		: 
+UPDATE sa_rental_transaction
+SET refrence_nomor_transkasi = 'LC-24-06-0018', column2 = value2, ...
+WHERE id='15e49c02c7442b9376839835c8a43734'; 
+
+
+2024-09-06 13:54:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_dashboard_kpi_resource' doesn't exist
+- Query 		: select * from sa_dashboard_kpi_resource
+
+
+2024-09-06 13:56:51
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`project_type` = 'MSI Project Maintenance'
+    GROUP BY
+        `Nama`, `pr...' at line 37
+- Query 		: SELECT
+    `Nama`,
+    `project_type`,
+    SUM(`nilai_ideal`) AS `ideal_value`,
+    SUM(`nilai_aktual`) AS `actual_value`,
+    IF(
+        `nilai_ideal`>0,
+        SUM(`nilai_aktual`) / SUM(`nilai_ideal`),
+        0
+    ) AS `average`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_ideal`, ',', '.')
+    ) AS `ideal_final_value`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_aktual`, ',', '.')
+    ) AS `actual_final_value`,
+    IF(
+        REPLACE
+            (`nilai_akhir_aktual`, ',', '.')>0,
+        (SUM(
+            REPLACE
+                (`nilai_akhir_aktual`, ',', '.')
+        ) / SUM(
+            REPLACE
+                (`nilai_akhir_ideal`, ',', '.')
+        )),
+        0
+    ) AS `average_resource`,
+    `kpi_status`,
+    `tahun_review`
+    FROM
+        `sa_user`
+    WHERE
+    `kpi_status` = 'Not yet reviewed'
+    `project_type` = 'MSI Project Maintenance'
+    GROUP BY
+        `Nama`, `project_type`, `kpi_status`
+
+
+2024-09-06 14:55:57
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2023-01286' AND id_date=' mt_date_start'
+
+
+2024-09-06 14:55:57
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00908' AND id_date=' mt_date_end'
+
+
+2024-09-06 15:08:21
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: select * from sa_maintenance_date WHERE project_code='TB001021C0047'

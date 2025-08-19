@@ -1,0 +1,20 @@
+File Error Log
+
+2024-02-13 09:30:39
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-02-06' AND task_date <= '2024-02-20' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-02-13 10:15:22
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select * from sa_view_employees_v2 where employee_email = 'yulianty.briliant@...' at line 3
+- Query 		: desc sa_view_employees_v2
+
+select * from sa_view_employees_v2 where employee_email = 'yulianty.briliant@mastersystem.co.id'

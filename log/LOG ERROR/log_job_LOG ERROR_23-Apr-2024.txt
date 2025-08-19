@@ -1,0 +1,129 @@
+File Error Log
+
+2024-04-23 11:04:00
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.tables' doesn't exist
+- Query 		: select * from tables
+
+
+2024-04-23 11:04:09
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: show table
+
+
+2024-04-23 11:04:11
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tablex' at line 1
+- Query 		: show tablex
+
+
+2024-04-23 14:09:20
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s
+                                                ORDER BY
+               ...' at line 12
+- Query 		: SELECT
+                                                    `b`.`employee_email`,
+                                                    `d`.`employee_email` AS `leader_email`
+                                                FROM
+                                                    `sa_mst_organization_project` `a`
+                                                LEFT JOIN `sa_mst_organization_project_employee` `b` ON
+                                                    `a`.`structure_id` = `b`.`structure_id`
+                                                LEFT JOIN `sa_mst_organization_project` `c` ON
+                                                    `a`.`parent` = `c`.`structure_id`
+                                                LEFT JOIN `sa_mst_organization_project_employee` `d` ON
+                                                    `c`.`structure_id` = `d`.`structure_id`
+                                                WHERE `b`.`employee_email` = %s
+                                                ORDER BY
+                                                    `b`.`employee_email` ASC
+
+
+2024-04-23 14:11:38
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s
+                                                ORDER BY
+               ...' at line 12
+- Query 		: SELECT
+                                                    `b`.`employee_email`,
+                                                    `d`.`employee_email` AS `leader_email`
+                                                FROM
+                                                    `sa_mst_organization_project` `a`
+                                                LEFT JOIN `sa_mst_organization_project_employee` `b` ON
+                                                    `a`.`structure_id` = `b`.`structure_id`
+                                                LEFT JOIN `sa_mst_organization_project` `c` ON
+                                                    `a`.`parent` = `c`.`structure_id`
+                                                LEFT JOIN `sa_mst_organization_project_employee` `d` ON
+                                                    `c`.`structure_id` = `d`.`structure_id`
+                                                WHERE `b`.`employee_email` = %s
+                                                ORDER BY
+                                                    `b`.`employee_email` ASC;
+
+
+2024-04-23 16:21:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_complain' doesn't exist
+- Query 		: ALTER TABLE `sa_complain` ADD `action_plan` TEXT NULL DEFAULT NULL AFTER `entry_date`; 
+
+
+2024-04-23 16:24:23
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_complain' doesn't exist
+- Query 		: ALTER TABLE `sa_complain` DROP `action_plan`;
+
+
+2024-04-23 17:05:04
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-04-23 17:05:04
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-04-23 17:07:01
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-04-23 17:07:02
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25

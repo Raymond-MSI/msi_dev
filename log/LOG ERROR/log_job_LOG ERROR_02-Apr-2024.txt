@@ -1,0 +1,72 @@
+File Error Log
+
+2024-04-02 10:02:22
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_wrike_integrate' doesn't exist
+- Query 		: SELECT * FROM sa_wrike_integrate WHERE project_code='TB000523B0001'
+
+
+2024-04-02 10:13:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_project_solution' doesn't exist
+- Query 		: SELECT * FROM sa_workload.sa_project_solution WHERE project_id='IEAEOPF5I5EGQCPL'
+
+
+2024-04-02 14:00:03
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: new_request
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_trx_share WHERE id=undefined
+
+
+2024-04-02 15:40:08
+- Server 		: Prod
+- User 			: adriyanto@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-04-02 15:40:08
+- Server 		: Prod
+- User 			: adriyanto@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-04-02 15:40:49
+- Server 		: Prod
+- User 			: adriyanto@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-04-02 15:40:49
+- Server 		: Prod
+- User 			: adriyanto@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-04-02 17:02:10
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: new_request
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_trx_share WHERE id=undefined

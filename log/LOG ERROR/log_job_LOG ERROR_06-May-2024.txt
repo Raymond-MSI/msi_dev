@@ -1,0 +1,124 @@
+File Error Log
+
+2024-05-06 09:38:43
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                `project_code`, 
+                `id_date`,
+                `entry_by`, 
+                `date`) VALUES (
+                'TA002223E0013', 
+                'mt_report_date',
+                'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>',
+                NULLIF('Array',''))
+
+
+2024-05-06 09:38:43
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                `project_code`, 
+                `id_date`,
+                `entry_by`, 
+                `date`) VALUES (
+                'TA002223E0013', 
+                'preventive_mt_date',
+                'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>',
+                NULLIF('Array',''))
+
+
+2024-05-06 09:39:22
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                `project_code`, 
+                `id_date`,
+                `entry_by`, 
+                `date`) VALUES (
+                'TA002223E0013', 
+                'mt_report_date',
+                'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>',
+                NULLIF('Array',''))
+
+
+2024-05-06 09:39:22
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                `project_code`, 
+                `id_date`,
+                `entry_by`, 
+                `date`) VALUES (
+                'TA002223E0013', 
+                'preventive_mt_date',
+                'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>',
+                NULLIF('Array',''))
+
+
+2024-05-06 13:17:24
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_trx_project_list' doesn't exist
+- Query 		: SELECT a.project_id, a.project_code, a.project_name, a.project_name_internal, a.order_number, a.amount_idr, a.amount_usd, a.so_number, b.implementation_price, a.bundling, b.tos_id, b.tos_category_id, b.service_type, a.status, a.create_date 
+    FROM sa_trx_project_list AS a 
+    LEFT JOIN sa_trx_project_implementations AS b ON a.project_id=b.project_id
+    WHERE a.status='acknowledge'
+    AND a.bundling !=''
+    AND a.sbtype=1 
+    AND a.project_name_internal !=''
+    AND a.order_number !=''
+    AND a.create_date>='2022-08-01' 
+    AND b.service_type<>3 
+    AND (MID(a.bundling,1,1)=b.service_type OR MID(a.bundling,3,1)=b.service_type)
+    ORDER BY project_id
+
+
+2024-05-06 15:42:13
+- Server 		: Prod
+- User 			: kevin.sutjipto@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-05-06 15:42:13
+- Server 		: Prod
+- User 			: kevin.sutjipto@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-05-06 15:42:43
+- Server 		: Prod
+- User 			: kevin.sutjipto@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-05-06 15:42:43
+- Server 		: Prod
+- User 			: kevin.sutjipto@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25

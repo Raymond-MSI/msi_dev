@@ -1,0 +1,16 @@
+11-Nov-2024 9:23:55
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7] WSREP has not yet prepared node for application use
+
+11-Nov-2024 9:23:58
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7] WSREP has not yet prepared node for application use
+
+11-Nov-2024 9:23:59
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7] WSREP has not yet prepared node for application use
+
+11-Nov-2024 9:24:51
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7] WSREP has not yet prepared node for application use
+

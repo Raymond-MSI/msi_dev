@@ -1,0 +1,96 @@
+18-11-2024 09:40:46
+- User Name   : lidya.listra@mastersystem.co.id
+- Module      : audit_trail_timesheet
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_audit_trail_timesheet.php(42): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_wrike_integrate18-Nov-2024 9:40:46
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT count(id) as jumlah_project FROM sa_wrike_project_list WHERE project_type LIKE '%Implementation%']  - "SELECT count(id) as jumlah_project FROM sa_wrike_project_list WHERE project_type LIKE '%Implementation%'" - 
+
+18-Nov-2024 9:40:46
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT COUNT(DISTINCT assignment.project_id) AS `total_avail_project_kpi` FROM sa_wrike_assignment AS `assignment`
+                JOIN sa_wrike_task AS `task_list` ON assignment.task_id = task_list.task_id
+                JOIN sa_wrike_timelog AS `timelog` ON assignment.task_id = timelog.task_id
+                JOIN sa_wrike_project_list AS `project_list` ON assignment.project_id = project_list.id
+                WHERE assignment.project_id NOT IN( 
+                    SELECT DISTINCT a.project_id FROM sa_wrike_assignment AS a 
+                    JOIN sa_wrike_task AS b ON a.task_id = b.task_id
+                    WHERE b.start_date = '' OR b.due_date = ''
+                    OR a.resource_role = '' OR a.resource_role = NULL
+                )
+                ORDER BY assignment.project_id]  - "SELECT COUNT(DISTINCT assignment.project_id) AS `total_avail_project_kpi` FROM sa_wrike_assignment AS `assignment`
+                JOIN sa_wrike_task AS `task_list` ON assignment.task_id = task_list.task_id
+                JOIN sa_wrike_timelog AS `timelog` ON assignment.task_id = timelog.task_id
+                JOIN sa_wrike_project_list AS `project_list` ON assignment.project_id = project_list.id
+                WHERE assignment.project_id NOT IN( 
+                    SELECT DISTINCT a.project_id FROM sa_wrike_assignment AS a 
+                    JOIN sa_wrike_task AS b ON a.task_id = b.task_id
+                    WHERE b.start_date = '' OR b.due_date = ''
+                    OR a.resource_role = '' OR a.resource_role = NULL
+                )
+                ORDER BY assignment.project_id" - 
+
+18-Nov-2024 9:40:46
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT count(DISTINCT id) AS `not_avail_project`
+                FROM sa_wrike_project_list
+                WHERE id NOT IN (SELECT total_avail_project_kpi FROM sa_count_avail_project)
+                AND project_type LIKE '%Implementation%']  - "SELECT count(DISTINCT id) AS `not_avail_project`
+                FROM sa_wrike_project_list
+                WHERE id NOT IN (SELECT total_avail_project_kpi FROM sa_count_avail_project)
+                AND project_type LIKE '%Implementation%'" - 
+
+18-Nov-2024 9:40:46
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT id, project_code, no_so, title, project_type 
+                    FROM sa_wrike_project_list
+                    WHERE project_type LIKE '%Implementation%']  - "SELECT id, project_code, no_so, title, project_type 
+                    FROM sa_wrike_project_list
+                    WHERE project_type LIKE '%Implementation%'" - 
+
+18-Nov-2024 9:40:46
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT COUNT(a.task_id) as `jumlah_assignment` 
+                                    FROM sa_wrike_assignment AS a 
+                                    JOIN sa_wrike_task AS b ON a.task_id = b.task_id
+                                    WHERE a.project_id = ''
+                                    GROUP BY a.project_id]  - "SELECT COUNT(a.task_id) as `jumlah_assignment` 
+                                    FROM sa_wrike_assignment AS a 
+                                    JOIN sa_wrike_task AS b ON a.task_id = b.task_id
+                                    WHERE a.project_id = ''
+                                    GROUP BY a.project_id" - 
+
+18-Nov-2024 9:40:46
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT COUNT(b.task_id) AS `task_kosong`
+                                    FROM sa_wrike_assignment AS a 
+                                    JOIN sa_wrike_task AS b ON a.task_id = b.task_id
+                                    WHERE a.project_id = ''
+                                    AND (b.start_date = '' OR b.start_date = NULL OR b.due_date = '' OR b.start_date = NULL)]  - "SELECT COUNT(b.task_id) AS `task_kosong`
+                                    FROM sa_wrike_assignment AS a 
+                                    JOIN sa_wrike_task AS b ON a.task_id = b.task_id
+                                    WHERE a.project_id = ''
+                                    AND (b.start_date = '' OR b.start_date = NULL OR b.due_date = '' OR b.start_date = NULL)" - 
+
+18-Nov-2024 9:40:46
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT COUNT(timelog_id) AS `jumlah_timelog` 
+                                    FROM sa_wrike_timelog
+                                    WHERE project_id = ''
+                                    GROUP BY project_id]  - "SELECT COUNT(timelog_id) AS `jumlah_timelog` 
+                                    FROM sa_wrike_timelog
+                                    WHERE project_id = ''
+                                    GROUP BY project_id" - 
+
+18-Nov-2024 9:40:46
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT permalink FROM sa_wrike_project_list WHERE id = '']  - "SELECT permalink FROM sa_wrike_project_list WHERE id = ''" - 
+

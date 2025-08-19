@@ -1,0 +1,162 @@
+File Error Log
+
+2024-06-28 03:40:28
+- Server 		: Prod
+- User 			: oszi.fitriyanto@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(22350,'Managed Service TechM',181177698,97,2,'Oszi Fitriyanto<oszi.fitriyanto@mastersystem.co.id>')
+
+
+2024-06-28 03:40:28
+- Server 		: Prod
+- User 			: oszi.fitriyanto@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(22350,'Managed Service',77647585,27,3,'Oszi Fitriyanto<oszi.fitriyanto@mastersystem.co.id>')
+
+
+2024-06-28 10:28:56
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UPDATE sa_hcm_requirement_interview SET status_cv = NULL, catatan = NULL WHER...' at line 2
+- Query 		: SELECT  * FROM sa_hcm_requirement_interview
+UPDATE sa_hcm_requirement_interview SET status_cv = NULL, catatan = NULL WHERE email_id IN (84,87,90)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-06-28 11:20:01
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM sa_hcm_requirement_interview r WHERE r.id_fpkb = 'On Duty Servi...' at line 4
+- Query 		: SELECT  * FROM sa_hcm_requirement_interview
+
+
+SELECT * FROM sa_hcm_requirement_interview r WHERE r.id_fpkb = 'On Duty Service Desk/FPKB/REC/1/2024' AND r.status = 'Complete' AND EXISTS (SELECT 1 FROM sa_hcm_requirement i WHERE i.id_fpkb = r.id_fpkb)
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-06-28 13:52:05
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id=undefined
+
+
+2024-06-28 14:54:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'approval_to' in 'where clause'
+- Query 		: select * from sa_temporary_resource WHERE approval_to LIKE '%General%'
+
+
+2024-06-28 16:22:48
+- Server 		: Prod
+- User 			: rifaat.abdul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'at Abdul Haziz Muslim<rifaat.abdul@mastersystem.co.id>' GROUP BY project_type...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-06-21' AND task_date <= '2024-07-05' AND `resource_email` LIKE 'Rifa'at Abdul Haziz Muslim<rifaat.abdul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-06-28 16:49:21
+- Server 		: Prod
+- User 			: anggi.fachrizal@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+- Query 		: UPDATE `sa_trx_edo_request` SET `status`='leave approved',`flag_approval`=1, `edo_approval_by`='Anggi Fachrizal<anggi.fachrizal@mastersystem.co.id>; ',`performed_by`='Anggi Fachrizal<anggi.fachrizal@mastersystem.co.id>' WHERE ()
+
+
+2024-06-28 16:50:16
+- Server 		: Prod
+- User 			: anggi.fachrizal@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+- Query 		: UPDATE `sa_trx_edo_request` SET `flag_approval`=2, `edo_approval_by`='Anggi Fachrizal<anggi.fachrizal@mastersystem.co.id>; Anggi Fachrizal<anggi.fachrizal@mastersystem.co.id>; ',`performed_by`='Anggi Fachrizal<anggi.fachrizal@mastersystem.co.id>' WHERE ()
+
+
+2024-06-28 17:25:01
+- Server 		: Prod
+- User 			: muhamad.dicky@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 22, `brand` = 'Terradata', `modified_by` = 'Muhammad Dicky Hans Setiawan<muhamad.dicky@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 21393 AND `resource_level` = 31 AND `service_type`= 1
+
+
+2024-06-28 17:25:01
+- Server 		: Prod
+- User 			: muhamad.dicky@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 2, `mandays` = 5, `brand` = 'Dell', `modified_by` = 'Muhammad Dicky Hans Setiawan<muhamad.dicky@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 21393 AND `resource_level` = 72 AND `service_type`= 1
+
+
+2024-06-28 17:38:17
+- Server 		: Prod
+- User 			: muhamad.dicky@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 22, `brand` = 'Terradata', `modified_by` = 'Muhammad Dicky Hans Setiawan<muhamad.dicky@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 21393 AND `resource_level` = 31 AND `service_type`= 1
+
+
+2024-06-28 17:38:17
+- Server 		: Prod
+- User 			: muhamad.dicky@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 2, `mandays` = 5, `brand` = 'Dell', `modified_by` = 'Muhammad Dicky Hans Setiawan<muhamad.dicky@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 21393 AND `resource_level` = 72 AND `service_type`= 1
+
+
+2024-06-28 17:38:39
+- Server 		: Prod
+- User 			: muhamad.dicky@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 22, `brand` = 'Terradata', `modified_by` = 'Muhammad Dicky Hans Setiawan<muhamad.dicky@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 21393 AND `resource_level` = 31 AND `service_type`= 1
+
+
+2024-06-28 17:38:39
+- Server 		: Prod
+- User 			: muhamad.dicky@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 2, `mandays` = 5, `brand` = 'Dell', `modified_by` = 'Muhammad Dicky Hans Setiawan<muhamad.dicky@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 21393 AND `resource_level` = 72 AND `service_type`= 1

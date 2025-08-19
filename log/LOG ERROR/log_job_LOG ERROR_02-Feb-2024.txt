@@ -1,0 +1,9 @@
+File Error Log
+
+2024-02-02 16:34:43
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY a.project_id ASC' at line 1
+- Query 		: select * from sa_folder_project a left join sa_ps_service_budgets.sa_trx_project_list b ON a.project_code=b.project_code WHERE b.status='acknowledge' AND b.create_date > '2022-08-01' LIMIT 0,3 ORDER BY a.project_id ASC

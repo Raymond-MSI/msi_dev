@@ -1,0 +1,338 @@
+File Error Log
+
+2024-01-22 09:51:30
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.nilai_akhir_aktual_ideal' in 'field list'
+- Query 		: SELECT a.Nama,a.project_code,a.project_name,a.nilai_akhir_aktual_ideal as Nilai_KPI_Resource,b.nilai_productivity FROM sa_user a left join sa_productivity_alluser b ON a.resource_email=b.resource_email AND a.order_number=b.order_number AND a.project_type=b.project_type WHERE a.tahun_review=2023 AND a.kpi_status='Reviewed'
+
+
+2024-01-22 14:53:16
+- Server 		: Prod
+- User 			: lucky.andiani@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-22 14:55:05
+- Server 		: Prod
+- User 			: lucky.andiani@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-22 14:59:38
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-22 15:12:53
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-22 15:15:06
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-22 15:20:40
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-22 15:22:26
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-22 15:24:23
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-22 15:26:33
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2024 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-22 15:26:35
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-22 15:29:18
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-22 15:29:48
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: Unknown column 'pic.customer_id' in 'on clause'
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023  LIMIT 0,100
+
+
+2024-01-22 15:29:58
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-22 15:30:18
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: Unknown column 'pic.customer_id' in 'on clause'
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id = 2 LIMIT 0,100
+
+
+2024-01-22 15:34:27
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: Unknown column 'pic.customer_id' in 'on clause'
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id = 2 LIMIT 0,100
+
+
+2024-01-22 15:34:59
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: Unknown column 'pic.customer_id' in 'on clause'
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id = 2 LIMIT 0,100
+
+
+2024-01-22 15:35:17
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-22 15:35:55
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: Unknown column 'pic.customer_id' in 'on clause'
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id = 2 LIMIT 0,100
+
+
+2024-01-22 15:38:15
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: Unknown column 'pic.customer_id' in 'on clause'
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id = 2 LIMIT 0,100
+
+
+2024-01-22 15:39:35
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: Unknown column 'pic.customer_id' in 'on clause'
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id = 2 LIMIT 0,100
+
+
+2024-01-22 15:40:25
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: Unknown column 'pic.customer_id' in 'on clause'
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id = 2 LIMIT 0,100
+
+
+2024-01-22 15:43:52
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: Unknown column 'pic.customer_id' in 'on clause'
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id = 2 LIMIT 0,100
+
+
+2024-01-22 15:44:08
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-22 15:50:53
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2024 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-22 15:50:55
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-22 15:54:26
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-22 15:56:46
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_code = cust.customer_code
+                where YEAR(surv.created_datetime) = 2024 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-22 16:05:29
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_code = cust.customer_code
+                where YEAR(surv.created_datetime) = 2024 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-22 16:13:54
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Column 'created_datetime' in where clause is ambiguous
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_code = cust.customer_code where created_datetime = 2023
+
+
+2024-01-22 16:17:02
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_code = cust.customer_code
+                where YEAR(surv.created_datetime) = 2022 AND main_template_id =  LIMIT 0,100

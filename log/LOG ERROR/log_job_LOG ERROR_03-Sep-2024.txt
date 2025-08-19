@@ -1,0 +1,1065 @@
+File Error Log
+
+2024-09-03 08:40:28
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_rental_transaction_product.status_product IS NULL AND sa_rental_transactio...' at line 1
+- Query 		: SELECT COALESCE(sa_rental_product_list.level_parent, 'Blank') AS level_parent, COUNT(sa_rental_product_list.part_number) AS count_number_part FROM sa_rental_product_list LEFT JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri WHERE  sa_rental_product_list.tipe_aset = 'Titipan' sa_rental_transaction_product.status_product IS NULL AND sa_rental_transaction_product.status_return IS NULL GROUP BY COALESCE(sa_rental_product_list.level_parent, 'Blank')
+
+
+2024-09-03 08:52:47
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.part_number, b.status_product, b.status_return
+FROM sa_rental_product_list ...' at line 1
+- Query 		: SELECT a.nomor_serim a.part_number, b.status_product, b.status_return
+FROM sa_rental_product_list AS a
+JOIN sa_rental_transaction_product AS b
+ON a.nomor_seri = b.nomor_seri 
+
+
+
+
+2024-09-03 09:06:48
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect parameters in the call to native function 'COALESCE'
+- Query 		: SELECT COALESCE(pr.level_parent, 'Blank') AS level_parent, COUNT(*) AS count FROM sa_rental_transaction_product AS tr JOIN sa_rental_product_list AS pr ON tr.nomor_seri = pr.nomor_seri AND pr.tipe_aset = 'Titipan'  GROUP BY COALESCE(pr.level_parent,pr.part_number 'Blank')
+
+
+2024-09-03 09:23:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:23:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:23:18
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:23:18
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:23:18
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:23:18
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:23:18
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:23:18
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:23:18
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:23:18
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:23:24
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:23:24
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:23:24
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:23:24
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:23:24
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:23:24
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:23:24
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:23:24
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:23:24
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:23:24
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number;
+
+
+
+2024-09-03 09:25:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:30
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:30
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:30
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:30
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:30
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:30
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:30
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:30
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:30
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:30
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:25:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS jumlah_quantity FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:05
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:05
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:05
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:05
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:05
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:05
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:05
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:05
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:05
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:05
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:26:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return I...' at line 1
+- Query 		: SELECT a.part_number,COUNT(*) AS count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' ANDa.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number; 
+
+
+2024-09-03 09:36:00
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.parend_id' in 'group statement'
+- Query 		: SELECT a.part_number, COUNT(*) AS total_count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' AND a.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number and a.parend_id is null
+
+
+2024-09-03 09:36:10
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.parend_id' in 'group statement'
+- Query 		: SELECT a.part_number, COUNT(*) AS total_count FROM sa_rental_product_list AS a LEFT JOIN sa_rental_transaction_product AS b ON a.nomor_seri = b.nomor_seri WHERE a.tipe_aset = 'Titipan' AND a.level_parent = 'Unit' AND b.status_product IS NULL AND b.status_return IS NULL GROUP BY a.part_number and a.parend_id is not null
+
+
+2024-09-03 09:36:32
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.parent_id' in 'having clause'
+- Query 		: SELECT 
+    a.part_number, 
+    COUNT(*) AS total_count
+FROM 
+    sa_rental_product_list AS a
+LEFT JOIN 
+    sa_rental_transaction_product AS b
+ON 
+    a.nomor_seri = b.nomor_seri
+WHERE 
+    a.tipe_aset = 'Titipan' 
+    AND a.level_parent = 'Unit'
+    AND b.status_product IS NULL 
+    AND b.status_return IS NULL
+GROUP BY 
+    a.part_number
+HAVING 
+    a.parent_id IS NOT NULL;
+
+
+
+2024-09-03 10:21:03
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Peminjaman' AND part_number = 'N540X-12Z16G-SYS-D') OR 
+            (status_...' at line 3
+- Query 		: SELECT count(*) as count FROM sa_rental_transaction_product 
+            WHERE   
+            (status_product = 'Peminjaman' AND part_number = 'N540X-12Z16G-SYS-D) OR 
+            (status_product = 'Peminjaman' AND part_number = 'N540X-12Z16G-SYS-D') OR 
+            (status_product = 'Sewa' AND part_number = 'N540X-12Z16G-SYS-D') OR 
+            (status_product = 'Sewa' AND part_number = 'N540X-12Z16G-SYS-D')
+
+
+2024-09-03 10:25:39
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(pr.level_parent, 'Blank') AS level_parent,
+                  
+            ...' at line 3
+- Query 		: SELECT 
+pr.part_number
+                    COALESCE(pr.level_parent, 'Blank') AS level_parent,
+                  
+                     FROM sa_rental_transaction_product AS tr
+                     JOIN sa_rental_product_list AS pr 
+                     ON tr.nomor_seri = pr.nomor_seri
+                     WHERE 
+                     (tr.status_product = 'Peminjaman' ) OR  
+                     (tr.status_product = 'Sewa' ) AND pr.tipe_aset = 'Titipan' GROUP BY COALESCE(pr.level_parent, 'Blank')
+
+
+2024-09-03 10:25:41
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_rental_transaction_product AS tr
+                     JOIN sa_rental...' at line 5
+- Query 		: SELECT 
+pr.part_number,
+                    COALESCE(pr.level_parent, 'Blank') AS level_parent,
+                  
+                     FROM sa_rental_transaction_product AS tr
+                     JOIN sa_rental_product_list AS pr 
+                     ON tr.nomor_seri = pr.nomor_seri
+                     WHERE 
+                     (tr.status_product = 'Peminjaman' ) OR  
+                     (tr.status_product = 'Sewa' ) AND pr.tipe_aset = 'Titipan' GROUP BY COALESCE(pr.level_parent, 'Blank')
+
+
+2024-09-03 10:25:46
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_rental_transaction_product AS tr
+                     JOIN sa_rental...' at line 4
+- Query 		: SELECT 
+pr.part_number,
+                   
+                     FROM sa_rental_transaction_product AS tr
+                     JOIN sa_rental_product_list AS pr 
+                     ON tr.nomor_seri = pr.nomor_seri
+                     WHERE 
+                     (tr.status_product = 'Peminjaman' ) OR  
+                     (tr.status_product = 'Sewa' ) AND pr.tipe_aset = 'Titipan' GROUP BY COALESCE(pr.level_parent, 'Blank')
+
+
+2024-09-03 10:25:57
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_rental_transaction_product AS tr
+                     JOIN sa_rental...' at line 4
+- Query 		: SELECT 
+pr.part_number,
+                   
+                     FROM sa_rental_transaction_product AS tr
+                     JOIN sa_rental_product_list AS pr 
+                     ON tr.nomor_seri = pr.nomor_seri
+                     WHERE 
+                     (tr.status_product = 'Peminjaman' ) OR  
+                     (tr.status_product = 'Sewa' ) AND pr.tipe_aset = 'Titipan' GROUP BY pr.level_parent
+
+
+2024-09-03 10:34:00
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'tipe_aset' in 'where clause'
+- Query 		: select * from sa_rental_transaction_product where tipe_aset = 'Titipan'
+
+
+2024-09-03 10:34:03
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'tipe_asset' in 'where clause'
+- Query 		: select * from sa_rental_transaction_product where tipe_asset = 'Titipan'
+
+
+2024-09-03 10:40:18
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COUNT(*) AS jumlah
+FROM
+    sa_rental_transaction_product st
+JOIN
+    sa_...' at line 3
+- Query 		: SELECT
+    st.part_number
+    COUNT(*) AS jumlah
+FROM
+    sa_rental_transaction_product st
+JOIN
+    sa_rental_product_list spl
+ON
+    st.part_number = spl.part_number
+WHERE
+    st.status_product IN ('Sewa', 'Peminjaman')
+GROUP BY
+    spl.part_number;
+
+
+
+2024-09-03 10:45:55
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tr.status_product  in ('Sewa','Peminjaman') AND pr.tipe_aset = 'Titipan' GROU...' at line 1
+- Query 		: SELECT COALESCE(pr.level_parent, 'Blank') AS level_parent, COUNT(*) AS count FROM sa_rental_transaction_product AS tr JOIN sa_rental_product_list AS pr ON tr.nomor_seri = pr.nomor_seri tr.status_product  in ('Sewa','Peminjaman') AND pr.tipe_aset = 'Titipan' GROUP BY COALESCE(pr.level_parent, 'Blank')
+
+
+2024-09-03 10:45:55
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tr.status_product  in ('Sewa','Peminjaman') AND pr.tipe_aset = 'Titipan' GROU...' at line 1
+- Query 		: SELECT COALESCE(pr.level_parent, 'Blank') AS level_parent, COUNT(*) AS count FROM sa_rental_transaction_product AS tr JOIN sa_rental_product_list AS pr ON tr.nomor_seri = pr.nomor_seri tr.status_product  in ('Sewa','Peminjaman') AND pr.tipe_aset = 'Titipan' GROUP BY COALESCE(pr.level_parent, 'Blank')
+
+
+2024-09-03 10:56:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND  (b.status_product = 'Peminjaman' OR b.status_product = 'Sewa' )
+AND a.t...' at line 6
+- Query 		: SELECT *
+FROM sa_rental_product_list AS a
+JOIN sa_rental_transaction_product AS b
+ON a.nomor_seri = b.nomor_seri
+WHERE
+AND  (b.status_product = 'Peminjaman' OR b.status_product = 'Sewa' )
+AND a.tipe_aset = 'Titipan'
+
+
+
+
+2024-09-03 11:27:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\
+HAVING 
+    COUNT(b.resource_email) = 1' at line 11
+- Query 		: SELECT 
+    a.*, 
+    b.resource_email 
+FROM 
+    sa_maintenance_date_kpi a 
+LEFT JOIN 
+    sa_wrike_integrate.sa_resource_assignment b 
+ON 
+    a.order_number = b.order_number 
+WHERE 
+    b.project_roles = 'PIC Maintenance'\
+HAVING 
+    COUNT(b.resource_email) = 1
+
+
+2024-09-03 11:58:46
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: eval
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_mst_order_number' doesn't exist
+- Query 		: SELECT * FROM sa_ps_service_budgets.sa_trx_project_list WHERE order_number IN (SELECT sa_mst_order_number.order_number FROM sa_mst_order_number WHERE modified_date >= '2024-09-02')
+
+
+2024-09-03 12:00:30
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: eval
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_mst_order_number' doesn't exist
+- Query 		: SELECT * FROM sa_ps_service_budgets.sa_trx_project_list WHERE order_number IN (SELECT sa_mst_order_number.order_number FROM sa_mst_order_number WHERE modified_date >= '2024-09-02')
+
+
+2024-09-03 13:22:18
+- Server 		: Prod
+- User 			: margareta.sekar@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-09-03 13:22:18
+- Server 		: Prod
+- User 			: margareta.sekar@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-09-03 13:35:50
+- Server 		: Prod
+- User 			: margareta.sekar@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-09-03 13:35:50
+- Server 		: Prod
+- User 			: margareta.sekar@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-09-03 13:35:58
+- Server 		: Prod
+- User 			: margareta.sekar@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-09-03 13:35:58
+- Server 		: Prod
+- User 			: margareta.sekar@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-09-03 16:04:56
+- Server 		: Prod
+- User 			: irfan.hendriana@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-03 16:04:56
+- Server 		: Prod
+- User 			: irfan.hendriana@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-03 16:05:00
+- Server 		: Prod
+- User 			: irfan.hendriana@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-03 16:05:00
+- Server 		: Prod
+- User 			: irfan.hendriana@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-03 16:05:05
+- Server 		: Prod
+- User 			: irfan.hendriana@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-03 16:05:05
+- Server 		: Prod
+- User 			: irfan.hendriana@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-03 16:05:10
+- Server 		: Prod
+- User 			: irfan.hendriana@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-03 16:05:10
+- Server 		: Prod
+- User 			: irfan.hendriana@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 

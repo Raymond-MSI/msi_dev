@@ -1,0 +1,549 @@
+File Error Log
+
+2024-07-19 09:50:59
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 09:50:59
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 09:52:26
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 09:52:26
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 09:53:31
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 09:53:31
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:08:18
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:08:18
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:10:09
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:10:09
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:24:14
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:24:14
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:26:16
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:26:16
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:27:26
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:27:26
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:28:51
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:28:51
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:30:28
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:30:28
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:32:00
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:32:00
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:33:03
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:33:03
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:34:31
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:34:31
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:35:35
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:35:35
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:37:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'renewal_end_date' in 'where clause'
+- Query 		: SELECT * FROM sa_data_so WHERE renewal_end_date<>''
+
+
+2024-07-19 10:38:35
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:38:35
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:39:36
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:39:36
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:41:06
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:41:06
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:42:17
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:42:17
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:50:23
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:50:23
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:51:35
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:51:35
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:52:47
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:52:47
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:54:01
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:54:01
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:54:31
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:54:31
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:55:43
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:55:43
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:57:27
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:57:27
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:59:51
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 10:59:51
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 11:01:46
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 11:01:46
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 11:04:24
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 11:04:24
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 11:05:21
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 11:05:21
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 11:06:21
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-19 11:06:21
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'

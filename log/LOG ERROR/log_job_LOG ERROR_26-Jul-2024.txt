@@ -1,0 +1,206 @@
+File Error Log
+
+2024-07-26 09:04:46
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id=undefined
+
+
+2024-07-26 09:05:43
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id=undefined
+
+
+2024-07-26 09:06:07
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id=undefined
+
+
+2024-07-26 09:06:34
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE email_id=undefined
+
+
+2024-07-26 10:22:45
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22791,21,3,1,1,'CiscoNetwork',350,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-07-26 10:22:45
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22791,51,3,1,3,'CiscoNetwork',700,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-07-26 10:22:45
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22791,61,3,1,3,'CiscoNetwork',350,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-07-26 10:22:45
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22791,71,3,1,3,'CiscoNetwork',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-07-26 10:22:45
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22791,52,3,1,3,'CiscoCollab',700,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-07-26 10:22:45
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22791,62,3,1,3,'CiscoCollab',350,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-07-26 10:22:45
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22791,72,3,1,3,'CiscoCollab',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-07-26 10:31:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_project_list WHERE order_number='ORD-2023-00006' AND (status='acknowledge' OR status='reopen' OR status='approved'
+
+
+2024-07-26 10:31:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_project_list WHERE order_number='ORD-2023-00006' AND (status='acknowledge' OR status='reopen' OR status='approved'
+
+
+2024-07-26 14:08:48
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'complete' in 'field list'
+- Query 		: 
+UPDATE sa_hcm_requirement_interview SET join_date = NULL, status = complete WHERE email_id = 184
+
+
+2024-07-26 14:09:08
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Complete'' WHERE email_id = 184' at line 1
+- Query 		: UPDATE sa_hcm_requirement_interview SET join_date = NULL, status = 'Complete'' WHERE email_id = 184
+
+
+2024-07-26 14:39:16
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_requrement' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_requrement
+
+
+2024-07-26 15:30:05
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UPDATE sa_hcm_requirement_interview SET' at line 3
+- Query 		: SELECT * FROM sa_hcm_requirement_interview
+
+UPDATE sa_hcm_requirement_interview SET 
+
+
+2024-07-26 15:39:27
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = '0'
+
+
+2024-07-26 16:26:31
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'ststus_hcm_gm' in 'field list'
+- Query 		: UPDATE sa_hcm_requirement_interview SET ststus_hcm_gm = 'Pending', catatan_hcm_gm = NULL WHERE email_id IN (16,184)
+
+
+2024-07-26 16:40:58
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'email_id' in 'where clause'
+- Query 		: UPDATE sa_hcm_requirement SET status = 'Complete', join_date = NULL WHERE email_id = 184
+
+
+
+
+
+
+
+2024-07-26 16:53:56
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,3,1,3,'IBM',250,1,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-07-26 16:53:56
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,3,1,4,'IBM',350,1,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')

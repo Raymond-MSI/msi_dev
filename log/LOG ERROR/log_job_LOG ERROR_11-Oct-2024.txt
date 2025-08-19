@@ -1,0 +1,56 @@
+File Error Log
+
+2024-10-11 09:16:03
+- Server 		: Prod
+- User 			: nabella.yanza@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB002724D0016', 
+                    'ORD-2024-02736', 
+                    'pmr_date',
+                    'Nabella Yanza<nabella.yanza@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-10-11 10:07:39
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_resource_assignment WHERE project_id='IEAEOPF5I5M6MXAB'' at line 1
+- Query 		: select * sa_resource_assignment WHERE project_id='IEAEOPF5I5M6MXAB'
+
+
+2024-10-11 12:43:32
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24718,'Add On Preventive Maintenance 4x/Year',58838709,68,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-11 14:54:58
+- Server 		: Prod
+- User 			: bayu.akbar@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB000323D0004', 
+                    'ORD-2023-00994', 
+                    'pmr_date',
+                    'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>',
+                    NULLIF('Array',''))

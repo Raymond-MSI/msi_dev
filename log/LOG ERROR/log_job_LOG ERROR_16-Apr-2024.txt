@@ -1,0 +1,83 @@
+File Error Log
+
+2024-04-16 10:40:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'hmtl_link' in 'where clause'
+- Query 		: select * from sa_schedule WHERE hmtl_link LIKE '%bGI4OWJpYTBsbzRwZ3F0dmxvZXJkYWgzcGcgY2hhbmRyYS5oYWxpbUBtYXN0ZXJzeXN0ZW0uY28uaWQ%'
+
+
+2024-04-16 11:13:22
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Column 'attendees_email' in where clause is ambiguous
+- Query 		: DELETE S1 FROM sa_schedule AS S1  
+INNER JOIN sa_schedule AS S2   
+WHERE S1.id < S2.id AND S1.event_id = S2.event_id AND S1.attendees_email = S2.attendees_email AND S1.calendar_id != S1.attendees_email AND (S1.project_type='MSI Project Maintenance' OR S1.project_type='MSI Project Implementation') AND S1.response_status = '' AND attendees_email = 'mega.dwi@mastersystem.co.id' 
+
+
+2024-04-16 11:44:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: 
+- Query 		: 
+
+
+2024-04-16 14:24:15
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_mandays_kpi' doesn't exist
+- Query 		: select * from sa_mandays_kpi WHERE order_number='ORD-25063-Q5X0N5'
+
+
+2024-04-16 14:46:37
+- Server 		: Prod
+- User 			: purwanto@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-04-16 14:46:37
+- Server 		: Prod
+- User 			: purwanto@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-04-16 15:55:11
+- Server 		: Prod
+- User 			: iwan@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-04-16 15:55:11
+- Server 		: Prod
+- User 			: iwan@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-04-16 17:01:39
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_view_employee' doesn't exist
+- Query 		: select * from sa_view_employee

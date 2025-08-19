@@ -1,0 +1,40 @@
+File Error Log
+
+2024-03-24 23:58:43
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2024-03-09'
+        AND `task_date` <= '2024-03-15'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+        
+        
+         AND `resource_email` IN ()
+
+
+2024-03-24 23:58:46
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2024-03-09'
+        AND `task_date` <= '2024-03-15'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+        
+        
+         AND `resource_email` IN ()

@@ -1,0 +1,12 @@
+13-Nov-2024 10:03:23
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_email_test] Table 'sa_md_navision.sa_email_test' doesn't exist
+
+13-Nov-2024 10:05:11
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_email_test] Table 'sa_md_navision.sa_email_test' doesn't exist
+
+13-Nov-2024 10:09:42
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_email_test] Table 'sa_md_navision.sa_email_test' doesn't exist
+

@@ -1,0 +1,659 @@
+File Error Log
+
+2023-10-26 08:53:18
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_kpi_so_wr WHERE status_wr LIKE '%Closed%' AND kpi_status !='Reviewed' LIMIT 0, 500
+
+
+2023-10-26 08:58:49
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 09:01:20
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 09:02:55
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 09:03:08
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 09:03:39
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 09:04:16
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 09:04:43
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 09:04:51
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 09:05:07
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 09:05:14
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 09:05:19
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 09:05:54
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 09:06:32
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 09:06:40
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 09:06:49
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 09:12:05
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 09:14:34
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 09:15:26
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 10:09:45
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 10:13:36
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-26 10:20:41
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_view_dashboard_resource' doesn't exist
+- Query 		: select * from sa_view_dashboard_resource WHERE project_code='TB000822C0009'
+
+
+2023-10-26 10:27:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY resource_email' at line 1
+- Query 		: SELECT * FROM sa_wrike_evans_assignment LIMIT 100 GROUP BY resource_email
+
+
+2023-10-26 10:30:32
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown table 'sa_wrike_integrate.b'
+- Query 		: SELECT b.* FROM sa_wrike_evans_assignment a left join sa_resource_assignment ON a.project_id=b.project_id WHERE resource_role !='' AND resource_email !='' GROUP BY resource_email,resource_role LIMIT 100  
+
+
+2023-10-26 10:30:44
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown table 'sa_wrike_integrate.b'
+- Query 		: SELECT b.* FROM sa_wrike_evans_assignment a left join sa_resource_assignment ON a.project_id=b.project_id WHERE a.resource_role !='' AND a.resource_email !='' GROUP BY resource_email,resource_role LIMIT 100  
+
+
+2023-10-26 10:30:53
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown table 'sa_wrike_integrate.b'
+- Query 		: SELECT b.* FROM sa_wrike_evans_assignment a left join sa_resource_assignment ON a.project_id=b.project_id WHERE a.resource_role !='' AND a.resource_email !='' GROUP BY a.resource_email,a.resource_role LIMIT 100  
+
+
+2023-10-26 10:35:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_roles' in 'group statement'
+- Query 		: SELECT * FROM sa_wrike_evans_assignment WHERE resource_role !='' AND resource_email !='' GROUP BY resource_email,project_roles LIMIT 100  
+
+
+2023-10-26 11:00:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.resource_role' in 'field list'
+- Query 		: SELECT a.project_code,a.resource_email,b.resource_role,a.start_actual,a.finish_actual,b.project_type, b.no_so, b.order_number FROM `sa_view_dashboard_wrike_resource` a left join sa_wrike_project_list b ON a.project_id=b.id left join sa_wrike_evans_assignment c ON b.id=c.project_id WHERE b.project_type='MSI Project Implementation' LIMIT 100
+
+
+2023-10-26 11:30:08
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 11:31:24
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 11:31:46
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 11:32:12
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 11:32:50
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 11:33:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:35:00
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:35:21
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:36:31
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:36:39
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:36:45
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:36:50
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:36:58
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:37:05
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:37:36
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:38:17
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:38:51
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:40:01
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:40:14
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:40:30
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:40:46
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:41:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:41:12
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:41:57
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:42:08
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:42:17
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:42:28
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:42:37
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:42:54
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: Unknown column 'pic.customer_id' in 'on clause'
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id = 2 LIMIT 0,100
+
+
+2023-10-26 12:42:57
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:43:13
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:43:21
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:43:29
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:43:34
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:43:44
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:43:56
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:44:29
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:44:37
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:44:52
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:44:57
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:45:03
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:45:34
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:45:40
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 12:45:52
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-26 16:01:27
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_trx_project_list' doesn't exist
+- Query 		: SELECT * FROM sa_trx_project_list WHERE project_code='TB001223B0017' AND (so_number='' OR order_number='')

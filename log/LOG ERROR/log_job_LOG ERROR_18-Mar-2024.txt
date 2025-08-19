@@ -1,0 +1,36 @@
+File Error Log
+
+2024-03-18 10:07:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_organization_employee' doesn't exist
+- Query 		: select * from sa_mst_organization_employee
+
+
+2024-03-18 10:11:12
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_mst_organization_project_employee WHERE structure_id=
+
+
+2024-03-18 10:11:12
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_mst_organization_project_employee WHERE structure_id=
+
+
+2024-03-18 13:29:49
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-03-11' AND task_date <= '2024-03-25' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`

@@ -1,0 +1,54 @@
+File Error Log
+
+2024-02-15 14:53:57
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_initial_project' doesn't exist
+- Query 		: select * from sa_initial_project WHERE project_code='TB002323I0080'
+
+
+2024-02-15 15:25:22
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM sa_initial_jobroles WHERE project_code='TB002323I0080'' at line 1
+- Query 		: DELETE * FROM sa_initial_jobroles WHERE project_code='TB002323I0080'
+
+
+2024-02-15 15:40:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_id' in 'where clause'
+- Query 		: UPDATE sa_wrike_project_list SET order_number='ORD-28502-S6K0M3' WHERE project_id='IEAEOPF5I45UZLE4'
+
+
+2024-02-15 15:40:57
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_id' in 'where clause'
+- Query 		: select * from sa_wrike_project_list WHERE project_id='IEAEOPF5I45UZLE4'
+
+
+2024-02-15 15:41:00
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_id' in 'where clause'
+- Query 		: select * from sa_wrike_project_list WHERE project_id='IEAEOPF5I45UZLE4'
+
+
+2024-02-15 15:41:01
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_id' in 'where clause'
+- Query 		: select * from sa_wrike_project_list WHERE project_id='IEAEOPF5I45UZLE4'

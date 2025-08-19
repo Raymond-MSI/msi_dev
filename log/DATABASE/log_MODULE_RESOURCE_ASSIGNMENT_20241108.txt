@@ -1,0 +1,161 @@
+08-11-2024 14:59:20
+- User Name   : Not-Login
+- Module      : resource_assignment
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/login.php(500): get_conn()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_poems08-Nov-2024 14:59:20
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 7, 1]  - "SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 7, 1" - 
+
+08-11-2024 14:59:24
+- User Name   : Not-Login
+- Module      : resource_assignment
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/login.php(102): get_conn()
+#3 /var/www/html/msizone/login.php(516): portal()
+#4 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : portal_msi08-Nov-2024 14:59:24
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; ]  - "SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; " - 
+
+08-11-2024 14:59:27
+- User Name   : Not-Login
+- Module      : resource_assignment
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/login.php(163): Databases->__construct()
+#2 /var/www/html/msizone/login.php(533): msiguide()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_msiguide08-Nov-2024 14:59:27
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-11-01" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-11-01" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10" - 
+
+08-11-2024 16:14:17
+- User Name   : chrisheryanda@mastersystem.co.id
+- Module      : resource_assignment
+- Sub-Module  : 
+- Description : mysqli_sql_exception: Connection refused in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_resource_assignment.php(211): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : mariadb.mastersystem.co.id- User Name   : - Password    : - Database    : 08-Nov-2024 16:14:17
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_resource_assignment LIMIT 0, 100]  - "SELECT * FROM sa_resource_assignment LIMIT 0, 100" - 
+
+08-11-2024 16:14:58
+- User Name   : chrisheryanda@mastersystem.co.id
+- Module      : resource_assignment
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_resource_assignment.php(211): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_wrike_integrate08-Nov-2024 16:14:58
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_resource_assignment LIMIT 0, 100]  - "SELECT * FROM sa_resource_assignment LIMIT 0, 100" - 
+
+08-11-2024 16:15:43
+- User Name   : chrisheryanda@mastersystem.co.id
+- Module      : resource_assignment
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_resource_assignment.php(211): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_wrike_integrate08-Nov-2024 16:15:43
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_resource_assignment LIMIT 0, 100]  - "SELECT * FROM sa_resource_assignment LIMIT 0, 100" - 
+
+08-11-2024 16:16:21
+- User Name   : chrisheryanda@mastersystem.co.id
+- Module      : resource_assignment
+- Sub-Module  : 
+- Description : mysqli_sql_exception: php_network_getaddresses: getaddrinfo failed: Name or service not known in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_resource_assignment.php(211): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : {- User Name   : {- Password    : {- Database    : {08-Nov-2024 16:16:21
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_resource_assignment LIMIT 0, 100]  - "SELECT * FROM sa_resource_assignment LIMIT 0, 100" - 
+
+08-11-2024 16:17:24
+- User Name   : chrisheryanda@mastersystem.co.id
+- Module      : resource_assignment
+- Sub-Module  : 
+- Description : mysqli_sql_exception: php_network_getaddresses: getaddrinfo failed: Name or service not known in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_resource_assignment.php(211): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : {- User Name   : {- Password    : {- Database    : {08-Nov-2024 16:17:24
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_resource_assignment LIMIT 0, 100]  - "SELECT * FROM sa_resource_assignment LIMIT 0, 100" - 
+
+08-11-2024 16:19:05
+- User Name   : chrisheryanda@mastersystem.co.id
+- Module      : resource_assignment
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_resource_assignment.php(211): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_wrike_integrate08-Nov-2024 16:19:05
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_resource_assignment LIMIT 0, 100]  - "SELECT * FROM sa_resource_assignment LIMIT 0, 100" - 
+
+08-11-2024 16:19:34
+- User Name   : chrisheryanda@mastersystem.co.id
+- Module      : resource_assignment
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_resource_assignment.php(211): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_wrike_integrate08-Nov-2024 16:19:34
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_resource_assignment LIMIT 0, 100]  - "SELECT * FROM sa_resource_assignment LIMIT 0, 100" - 
+

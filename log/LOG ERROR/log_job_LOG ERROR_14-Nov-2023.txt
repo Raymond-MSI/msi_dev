@@ -1,0 +1,855 @@
+File Error Log
+
+2023-11-14 08:33:08
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:40:48
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:41:04
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:41:44
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:41:53
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:43:20
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:43:29
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:43:49
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:43:53
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:44:07
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:44:14
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:44:52
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:45:00
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:45:03
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:45:04
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:45:14
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QJX%'
+
+
+2023-11-14 08:45:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QL3%'
+
+
+2023-11-14 08:46:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:46:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:52:48
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:52:51
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:52:54
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:52:55
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:53:03
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:54:00
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:54:04
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:54:56
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:55:00
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:55:22
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:55:26
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:55:40
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:55:49
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:55:57
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:56:07
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:56:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:57:46
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 08:57:59
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:00:48
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:00:57
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:01:06
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:01:30
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:02:00
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:02:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:02:12
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:02:13
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:02:24
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:06:21
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:06:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:06:45
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:06:57
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:07:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:07:44
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:07:48
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:08:23
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:08:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:08:56
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:09:07
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:09:11
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:09:39
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:11:03
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 09:14:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_md_hcm' doesn't exist
+- Query 		: desc sa_md_hcm;
+
+
+2023-11-14 09:14:59
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_asset_rental' doesn't exist
+- Query 		: desc sa_asset_rental;
+
+
+2023-11-14 09:20:36
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FOC2202T32B%'
+
+
+2023-11-14 09:20:49
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QL3%'
+
+
+2023-11-14 09:48:04
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_sa_view_employees_v2' doesn't exist
+- Query 		: SELECT * FROM sa_sa_view_employees_v2 WHERE employee_name is not null
+
+
+2023-11-14 09:48:04
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_sa_view_employees_v2' doesn't exist
+- Query 		: SELECT * FROM sa_sa_view_employees_v2 WHERE resign_date IS NULL ORDER BY employee_name ASC
+
+
+2023-11-14 09:48:04
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_sa_view_employees_v2' doesn't exist
+- Query 		: SELECT * FROM sa_sa_view_employees_v2 WHERE resign_date IS NOT NULL ORDER BY employee_name ASC
+
+
+2023-11-14 09:52:35
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_resource_catalogs' doesn't exist
+- Query 		: select * from sa_resource_catalogs
+
+
+2023-11-14 10:02:11
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 10:02:18
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 10:02:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 10:02:47
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 10:02:56
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FOC2202T34C%'
+
+
+2023-11-14 10:02:57
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 10:10:30
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_' doesn't exist
+- Query 		: SELECT * FROM sa_ WHERE employee_name is not null
+
+
+2023-11-14 10:10:30
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_' doesn't exist
+- Query 		: SELECT * FROM sa_ WHERE resign_date IS NULL ORDER BY employee_name ASC
+
+
+2023-11-14 10:10:30
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_' doesn't exist
+- Query 		: SELECT * FROM sa_ WHERE resign_date IS NOT NULL ORDER BY employee_name ASC
+
+
+2023-11-14 10:43:46
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 10:44:16
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QJX%'
+
+
+2023-11-14 10:44:22
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QJX%'
+
+
+2023-11-14 10:44:31
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WZP220119MY%'
+
+
+2023-11-14 10:44:32
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QJX%'
+
+
+2023-11-14 10:44:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QJX%'
+
+
+2023-11-14 10:46:06
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 10:46:11
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 10:46:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-14 15:39:07
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 1
+- Query 		: select * from sa_view_employees_v2 WHERE employee_name LIKE '%ds/c'%'
+
+
+2023-11-14 15:44:13
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-11-14 15:44:28
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-11-14 15:44:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-11-14 15:45:01
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-11-14 15:45:35
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-11-14 15:46:28
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-11-14 15:46:31
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-11-14 15:49:33
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC

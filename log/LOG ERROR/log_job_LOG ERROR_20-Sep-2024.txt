@@ -1,0 +1,243 @@
+File Error Log
+
+2024-09-20 06:48:18
+- Server 		: Prod
+- User 			: bayu.santoso@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,21,1,1,27,'VMware',350,1,1,'Bayu Santoso<bayu.santoso@mastersystem.co.id>')
+
+
+2024-09-20 06:48:18
+- Server 		: Prod
+- User 			: bayu.santoso@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,1,1,7,'VMware',350,1,1,'Bayu Santoso<bayu.santoso@mastersystem.co.id>')
+
+
+2024-09-20 06:48:18
+- Server 		: Prod
+- User 			: bayu.santoso@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,1,1,12,'VMware',250,1,1,'Bayu Santoso<bayu.santoso@mastersystem.co.id>')
+
+
+2024-09-20 06:48:18
+- Server 		: Prod
+- User 			: bayu.santoso@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,62,1,1,10,'Dell',350,1,1,'Bayu Santoso<bayu.santoso@mastersystem.co.id>')
+
+
+2024-09-20 06:48:18
+- Server 		: Prod
+- User 			: bayu.santoso@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,72,1,1,18,'Dell',250,1,1,'Bayu Santoso<bayu.santoso@mastersystem.co.id>')
+
+
+2024-09-20 06:48:18
+- Server 		: Prod
+- User 			: bayu.santoso@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,53,1,1,4,'Cisco',700,1,1,'Bayu Santoso<bayu.santoso@mastersystem.co.id>')
+
+
+2024-09-20 06:48:18
+- Server 		: Prod
+- User 			: bayu.santoso@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,63,1,1,12,'Cisco',350,1,1,'Bayu Santoso<bayu.santoso@mastersystem.co.id>')
+
+
+2024-09-20 06:48:18
+- Server 		: Prod
+- User 			: bayu.santoso@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,73,1,1,22,'Cisco',250,1,1,'Bayu Santoso<bayu.santoso@mastersystem.co.id>')
+
+
+2024-09-20 09:47:20
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-09-20 09:47:20
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-09-20 09:51:34
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-09-20 09:51:34
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-09-20 09:53:00
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-09-20 09:53:00
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-09-20 09:54:20
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-09-20 09:54:20
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-09-20 10:09:47
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-09-20 10:09:47
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-09-20 10:11:08
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-09-20 10:11:08
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-09-20 10:12:16
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-09-20 10:12:16
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-09-20 10:22:16
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-09-20 10:22:16
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-09-20 15:55:04
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: new_request
+- SubModule		:  
+- Status 		: Table 'sa_new_request.sa_trx_request_requirement' doesn't exist
+- Query 		: SELECT * FROM sa_trx_request_requirement WHERE status_request = 'Pending Approval' LIMIT 0, 100
+
+
+2024-09-20 16:30:42
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-09-20 16:30:42
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25

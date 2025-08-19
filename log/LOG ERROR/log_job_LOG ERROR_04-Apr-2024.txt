@@ -1,0 +1,1031 @@
+File Error Log
+
+2024-04-04 11:09:22
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'code = 'TA023119C0004'' at line 1
+- Query 		: select * from sa_trx_project_list where project code = 'TA023119C0004'
+
+
+2024-04-04 11:09:48
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'code = 'TA023119C0004'' at line 1
+- Query 		: select * from sa_trx_project_list where project code = 'TA023119C0004'
+
+
+2024-04-04 12:12:05
+- Server 		: Prod
+- User 			: aditya.wisnu@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-04-04 12:12:05
+- Server 		: Prod
+- User 			: aditya.wisnu@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-04-04 13:29:32
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000002749599' for key 'asset_id'
+- Query 		: INSERT INTO sa_asset (asset_id,serial_number,contract_number,warranty_end,manufacture,type) VALUES ('145684000002749599','FGE195216L2','204692379','Jan 31, 2023 12:00 AM','CISCO','PLS-S; PLS')
+
+
+2024-04-04 13:51:33
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000005514081' for key 'asset_id'
+- Query 		: INSERT INTO sa_asset (asset_id,serial_number,contract_number,warranty_end,manufacture,type) VALUES ('145684000005514081','FDO23460NGY','203222546','Aug 30, 2023 12:00 AM','CISCO','PLS-S; PLS')
+
+
+2024-04-04 13:54:24
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000002749599' for key 'asset_id'
+- Query 		: INSERT INTO sa_asset (asset_id,serial_number,contract_number,warranty_end,manufacture,type) VALUES ('145684000002749599','FGE195216L2','204692379','Jan 31, 2023 12:00 AM','CISCO','PLS-S; PLS')
+
+
+2024-04-04 13:57:58
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000005957865' for key 'asset_id'
+- Query 		: INSERT INTO sa_asset (asset_id,serial_number,contract_number,warranty_end,manufacture,type) VALUES ('145684000005957865','JMX2232L00J','204481959','Dec 31, 2022 12:00 AM','CISCO','PLS-S; PLS')
+
+
+2024-04-04 14:08:33
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000005957865' for key 'asset_id'
+- Query 		: INSERT INTO sa_asset (asset_id,serial_number,contract_number,warranty_end,manufacture,type) VALUES ('145684000005957865','JMX2232L00J','204481959','Dec 31, 2022 12:00 AM','CISCO','PLS-S; PLS')
+
+
+2024-04-04 14:42:04
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024485193' for key 'id'
+- Query 		: INSERT INTO sa_requests (id,status) VALUES ('145684000024485193','Belum')
+
+
+2024-04-04 14:43:31
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000005957865' for key 'asset_id'
+- Query 		: INSERT INTO sa_asset (asset_id,serial_number,contract_number,warranty_end,manufacture,type) VALUES ('145684000005957865','JMX2232L00J','204481959','Dec 31, 2022 12:00 AM','CISCO','PLS-S; PLS')
+
+
+2024-04-04 14:54:39
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018304331' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000018304331','Smartbonding','145684000018275926','Smartbonding')
+
+
+2024-04-04 14:54:39
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018304331' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000018304331','Smartbonding','145684000018275926','Smartbonding')
+
+
+2024-04-04 14:54:39
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018304343' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000018304343','Smartbonding','145684000018275969','Smartbonding')
+
+
+2024-04-04 14:54:39
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018304343' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000018304343','Smartbonding','145684000018275969','Smartbonding')
+
+
+2024-04-04 14:54:40
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018304355' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000018304355','Smartbonding','145684000018312195','Smartbonding')
+
+
+2024-04-04 14:54:40
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018304355' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000018304355','Smartbonding','145684000018312195','Smartbonding')
+
+
+2024-04-04 14:54:41
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018502773' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000018502773','Smartbonding','145684000018513019','Smartbonding')
+
+
+2024-04-04 14:54:41
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018502773' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000018502773','Smartbonding','145684000018513019','Smartbonding')
+
+
+2024-04-04 14:54:42
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024331960' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024331960','Smartbonding','145684000024354003','Smartbonding')
+
+
+2024-04-04 14:54:42
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024331960' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024331960','Smartbonding','145684000024354003','Smartbonding')
+
+
+2024-04-04 14:54:42
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024331972' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024331972','Smartbonding','145684000024354083','Smartbonding')
+
+
+2024-04-04 14:54:42
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024331972' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024331972','Smartbonding','145684000024354083','Smartbonding')
+
+
+2024-04-04 14:54:43
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361209' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361209','Smartbonding','145684000024354261','Smartbonding')
+
+
+2024-04-04 14:54:43
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361209' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361209','Smartbonding','145684000024354261','Smartbonding')
+
+
+2024-04-04 14:54:44
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361221' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361221','Smartbonding','145684000024354280','Smartbonding')
+
+
+2024-04-04 14:54:44
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361221' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361221','Smartbonding','145684000024354280','Smartbonding')
+
+
+2024-04-04 14:54:44
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361459' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361459','Smartbonding','145684000024354299','Smartbonding')
+
+
+2024-04-04 14:54:44
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361459' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361459','Smartbonding','145684000024354299','Smartbonding')
+
+
+2024-04-04 14:54:45
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361471' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361471','Smartbonding','145684000024354318','Smartbonding')
+
+
+2024-04-04 14:54:45
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361471' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361471','Smartbonding','145684000024354318','Smartbonding')
+
+
+2024-04-04 14:54:46
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361483' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361483','Smartbonding','145684000024354337','Smartbonding')
+
+
+2024-04-04 14:54:46
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361483' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361483','Smartbonding','145684000024354337','Smartbonding')
+
+
+2024-04-04 14:54:47
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361553' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361553','Smartbonding','145684000024354362','Smartbonding')
+
+
+2024-04-04 14:54:47
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361553' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361553','Smartbonding','145684000024354362','Smartbonding')
+
+
+2024-04-04 14:54:47
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361565' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361565','Smartbonding','145684000024364027','Smartbonding')
+
+
+2024-04-04 14:54:47
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361565' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361565','Smartbonding','145684000024364027','Smartbonding')
+
+
+2024-04-04 14:54:48
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486001' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486001','Smartbonding','145684000024485005','Smartbonding')
+
+
+2024-04-04 14:54:49
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486013' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486013','Smartbonding','145684000024485026','Smartbonding')
+
+
+2024-04-04 14:54:51
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486025' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486025','Smartbonding','145684000024485095','Smartbonding')
+
+
+2024-04-04 14:54:52
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486037' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486037','Smartbonding','145684000024485116','Smartbonding')
+
+
+2024-04-04 14:54:52
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486049' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486049','Smartbonding','145684000024485139','Smartbonding')
+
+
+2024-04-04 14:54:53
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486061' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486061','Smartbonding','145684000024485164','Smartbonding')
+
+
+2024-04-04 14:54:54
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486073' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486073','Smartbonding','145684000024485193','Smartbonding')
+
+
+2024-04-04 14:54:54
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018322085' for key 'idworklog'
+- Query 		: INSERT INTO sa_worklog (idworklog,CustCallID,task_id,owner_name,owner_id,description,worklog_name,worklog_id,status) VALUES ('145684000018322085','145684000018275926','145684000018304331','Sonny Widjaya', '145684000000186089', 'Escalate 
+Part Number : QSFP-40G-SR-BD
+Serial Number : AVF2128U1BD
+Problem : unit blank
+Engineer details
+Nama: Matias Jepri
+Mobile Phone: +62 856-9342-9403
+Email Address: matias.jepri@mastersystem.co.id
+Email ServiceDesk: servicedesk@mastersystem.co', 'Smartbonding', '145684000010950083', 'Belum')
+
+
+2024-04-04 14:54:54
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018322118' for key 'idworklog'
+- Query 		: INSERT INTO sa_worklog (idworklog,CustCallID,task_id,owner_name,owner_id,description,worklog_name,worklog_id,status) VALUES ('145684000018322118','145684000018275926','145684000018304331','Sonny Widjaya', '145684000000186089', 'close
+• Complexity
+&nbsp; &nbsp;- 2 Level -Advanced
+• Underlying Cause Codes
+&nbsp; &nbsp;- Hardware Failure
+• Resolution Code
+&nbsp; &nbsp;- Software Upgrade - Existing Defect
+• Problem Description
+&nbsp; &nbsp;- Unit does not boot
+• Resolution Sum', 'Smartbonding', '145684000010950083', 'Belum')
+
+
+2024-04-04 14:54:55
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018322240' for key 'idworklog'
+- Query 		: INSERT INTO sa_worklog (idworklog,CustCallID,task_id,owner_name,owner_id,description,worklog_name,worklog_id,status) VALUES ('145684000018322240','145684000018275969','145684000018304343','Sonny Widjaya', '145684000000186089', 'Escalate 
+Part Number : N9K-C9508-FAN
+Serial Number : AVF2128U1BD
+Problem : unit blank
+Engineer details
+Nama: Matias Jepri
+Mobile Phone: +62 856-9342-9403
+Email Address: matias.jepri@mastersystem.co.id
+Email ServiceDesk: servicedesk@mastersystem.co.', 'Smartbonding', '145684000010950083', 'Belum')
+
+
+2024-04-04 14:54:55
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018322265' for key 'idworklog'
+- Query 		: INSERT INTO sa_worklog (idworklog,CustCallID,task_id,owner_name,owner_id,description,worklog_name,worklog_id,status) VALUES ('145684000018322265','145684000018275969','145684000018304343','Sonny Widjaya', '145684000000186089', 'close
+• Complexity
+&nbsp; &nbsp;- 2 Level -Advanced
+• Underlying Cause Codes
+&nbsp; &nbsp;- Hardware Failure
+• Resolution Code
+&nbsp; &nbsp;- Software Upgrade - Existing Defect
+• Problem Description
+&nbsp; &nbsp;- Unit does not boot
+• Resolution Sum', 'Smartbonding', '145684000010950083', 'Belum')
+
+
+2024-04-04 14:55:03
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024414181' for key 'idworklog'
+- Query 		: INSERT INTO sa_worklog (idworklog,CustCallID,task_id,owner_name,owner_id,description,worklog_name,worklog_id,status) VALUES ('145684000024414181','145684000024364027','145684000024361565','Chrisheryanda Eka Saputra', '145684000010118174', 'UPDATE Check', 'Smartbonding', '145684000010950083', 'Belum')
+
+
+2024-04-04 14:55:45
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-04-04 14:55:45
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-04-04 14:55:48
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-04-04 14:55:48
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-04-04 14:55:51
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-04-04 14:55:51
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-04-04 14:55:53
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-04-04 14:55:53
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-04-04 14:55:56
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-04-04 14:55:56
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-04-04 14:55:56
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-04-04 14:55:56
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-04-04 14:56:59
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018304331' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000018304331','Smartbonding','145684000018275926','Smartbonding')
+
+
+2024-04-04 14:56:59
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018304331' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000018304331','Smartbonding','145684000018275926','Smartbonding')
+
+
+2024-04-04 14:56:59
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018304343' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000018304343','Smartbonding','145684000018275969','Smartbonding')
+
+
+2024-04-04 14:56:59
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018304343' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000018304343','Smartbonding','145684000018275969','Smartbonding')
+
+
+2024-04-04 14:57:00
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018304355' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000018304355','Smartbonding','145684000018312195','Smartbonding')
+
+
+2024-04-04 14:57:00
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018304355' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000018304355','Smartbonding','145684000018312195','Smartbonding')
+
+
+2024-04-04 14:57:01
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018502773' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000018502773','Smartbonding','145684000018513019','Smartbonding')
+
+
+2024-04-04 14:57:01
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018502773' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000018502773','Smartbonding','145684000018513019','Smartbonding')
+
+
+2024-04-04 14:57:02
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024331960' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024331960','Smartbonding','145684000024354003','Smartbonding')
+
+
+2024-04-04 14:57:02
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024331960' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024331960','Smartbonding','145684000024354003','Smartbonding')
+
+
+2024-04-04 14:57:02
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024331972' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024331972','Smartbonding','145684000024354083','Smartbonding')
+
+
+2024-04-04 14:57:02
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024331972' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024331972','Smartbonding','145684000024354083','Smartbonding')
+
+
+2024-04-04 14:57:03
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361209' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361209','Smartbonding','145684000024354261','Smartbonding')
+
+
+2024-04-04 14:57:03
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361209' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361209','Smartbonding','145684000024354261','Smartbonding')
+
+
+2024-04-04 14:57:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361221' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361221','Smartbonding','145684000024354280','Smartbonding')
+
+
+2024-04-04 14:57:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361221' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361221','Smartbonding','145684000024354280','Smartbonding')
+
+
+2024-04-04 14:57:05
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361459' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361459','Smartbonding','145684000024354299','Smartbonding')
+
+
+2024-04-04 14:57:05
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361459' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361459','Smartbonding','145684000024354299','Smartbonding')
+
+
+2024-04-04 14:57:05
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361471' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361471','Smartbonding','145684000024354318','Smartbonding')
+
+
+2024-04-04 14:57:05
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361471' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361471','Smartbonding','145684000024354318','Smartbonding')
+
+
+2024-04-04 14:57:06
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361483' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361483','Smartbonding','145684000024354337','Smartbonding')
+
+
+2024-04-04 14:57:06
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361483' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361483','Smartbonding','145684000024354337','Smartbonding')
+
+
+2024-04-04 14:57:07
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361553' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361553','Smartbonding','145684000024354362','Smartbonding')
+
+
+2024-04-04 14:57:07
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361553' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361553','Smartbonding','145684000024354362','Smartbonding')
+
+
+2024-04-04 14:57:07
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361565' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361565','Smartbonding','145684000024364027','Smartbonding')
+
+
+2024-04-04 14:57:07
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024361565' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024361565','Smartbonding','145684000024364027','Smartbonding')
+
+
+2024-04-04 14:57:08
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486001' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486001','Smartbonding','145684000024485005','Smartbonding')
+
+
+2024-04-04 14:57:08
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486001' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486001','Smartbonding','145684000024485005','Smartbonding')
+
+
+2024-04-04 14:57:09
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486013' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486013','Smartbonding','145684000024485026','Smartbonding')
+
+
+2024-04-04 14:57:09
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486013' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486013','Smartbonding','145684000024485026','Smartbonding')
+
+
+2024-04-04 14:57:11
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486025' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486025','Smartbonding','145684000024485095','Smartbonding')
+
+
+2024-04-04 14:57:11
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486025' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486025','Smartbonding','145684000024485095','Smartbonding')
+
+
+2024-04-04 14:57:12
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486037' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486037','Smartbonding','145684000024485116','Smartbonding')
+
+
+2024-04-04 14:57:12
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486037' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486037','Smartbonding','145684000024485116','Smartbonding')
+
+
+2024-04-04 14:57:12
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486049' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486049','Smartbonding','145684000024485139','Smartbonding')
+
+
+2024-04-04 14:57:12
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486049' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486049','Smartbonding','145684000024485139','Smartbonding')
+
+
+2024-04-04 14:57:13
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486061' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486061','Smartbonding','145684000024485164','Smartbonding')
+
+
+2024-04-04 14:57:13
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486061' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486061','Smartbonding','145684000024485164','Smartbonding')
+
+
+2024-04-04 14:57:14
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486073' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486073','Smartbonding','145684000024485193','Smartbonding')
+
+
+2024-04-04 14:57:14
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024486073' for key 'task_id'
+- Query 		: INSERT INTO sa_task (task_id,description,CustCallID,title) VALUES ('145684000024486073','Smartbonding','145684000024485193','Smartbonding')
+
+
+2024-04-04 14:57:15
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018322085' for key 'idworklog'
+- Query 		: INSERT INTO sa_worklog (idworklog,CustCallID,task_id,owner_name,owner_id,description,worklog_name,worklog_id,status) VALUES ('145684000018322085','145684000018275926','145684000018304331','Sonny Widjaya', '145684000000186089', 'Escalate 
+Part Number : QSFP-40G-SR-BD
+Serial Number : AVF2128U1BD
+Problem : unit blank
+Engineer details
+Nama: Matias Jepri
+Mobile Phone: +62 856-9342-9403
+Email Address: matias.jepri@mastersystem.co.id
+Email ServiceDesk: servicedesk@mastersystem.co', 'Smartbonding', '145684000010950083', 'Belum')
+
+
+2024-04-04 14:57:15
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018322118' for key 'idworklog'
+- Query 		: INSERT INTO sa_worklog (idworklog,CustCallID,task_id,owner_name,owner_id,description,worklog_name,worklog_id,status) VALUES ('145684000018322118','145684000018275926','145684000018304331','Sonny Widjaya', '145684000000186089', 'close
+• Complexity
+&nbsp; &nbsp;- 2 Level -Advanced
+• Underlying Cause Codes
+&nbsp; &nbsp;- Hardware Failure
+• Resolution Code
+&nbsp; &nbsp;- Software Upgrade - Existing Defect
+• Problem Description
+&nbsp; &nbsp;- Unit does not boot
+• Resolution Sum', 'Smartbonding', '145684000010950083', 'Belum')
+
+
+2024-04-04 14:57:15
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018322240' for key 'idworklog'
+- Query 		: INSERT INTO sa_worklog (idworklog,CustCallID,task_id,owner_name,owner_id,description,worklog_name,worklog_id,status) VALUES ('145684000018322240','145684000018275969','145684000018304343','Sonny Widjaya', '145684000000186089', 'Escalate 
+Part Number : N9K-C9508-FAN
+Serial Number : AVF2128U1BD
+Problem : unit blank
+Engineer details
+Nama: Matias Jepri
+Mobile Phone: +62 856-9342-9403
+Email Address: matias.jepri@mastersystem.co.id
+Email ServiceDesk: servicedesk@mastersystem.co.', 'Smartbonding', '145684000010950083', 'Belum')
+
+
+2024-04-04 14:57:15
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000018322265' for key 'idworklog'
+- Query 		: INSERT INTO sa_worklog (idworklog,CustCallID,task_id,owner_name,owner_id,description,worklog_name,worklog_id,status) VALUES ('145684000018322265','145684000018275969','145684000018304343','Sonny Widjaya', '145684000000186089', 'close
+• Complexity
+&nbsp; &nbsp;- 2 Level -Advanced
+• Underlying Cause Codes
+&nbsp; &nbsp;- Hardware Failure
+• Resolution Code
+&nbsp; &nbsp;- Software Upgrade - Existing Defect
+• Problem Description
+&nbsp; &nbsp;- Unit does not boot
+• Resolution Sum', 'Smartbonding', '145684000010950083', 'Belum')
+
+
+2024-04-04 14:57:24
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Duplicate entry '145684000024414181' for key 'idworklog'
+- Query 		: INSERT INTO sa_worklog (idworklog,CustCallID,task_id,owner_name,owner_id,description,worklog_name,worklog_id,status) VALUES ('145684000024414181','145684000024364027','145684000024361565','Chrisheryanda Eka Saputra', '145684000010118174', 'UPDATE Check', 'Smartbonding', '145684000010950083', 'Belum')
+
+
+2024-04-04 16:17:31
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-03-28' AND task_date <= '2024-04-11' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`

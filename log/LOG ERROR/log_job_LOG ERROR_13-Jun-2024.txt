@@ -1,0 +1,468 @@
+File Error Log
+
+2024-06-13 08:13:39
+- Server 		: Prod
+- User 			: bayu.santoso@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,1,1,15,'logrhytm',250,1,1,'Bayu Santoso<bayu.santoso@mastersystem.co.id>')
+
+
+2024-06-13 08:13:39
+- Server 		: Prod
+- User 			: bayu.santoso@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,1,1,7,'logrhytm',250,1,1,'Bayu Santoso<bayu.santoso@mastersystem.co.id>')
+
+
+2024-06-13 10:45:32
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_folder_project_detail' doesn't exist
+- Query 		: select * from sa_folder_project_detail where project_code='TB002722D0050'
+
+
+2024-06-13 10:45:40
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_folder_project_details' doesn't exist
+- Query 		: select * from sa_folder_project_details where project_code='TB002722D0050'
+
+
+2024-06-13 10:45:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_project_details' doesn't exist
+- Query 		: select * from sa_project_details where project_code='TB002722D0050'
+
+
+2024-06-13 10:51:36
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'no_so' in 'where clause'
+- Query 		: select * from sa_wrike_project_detail WHERE no_so='2023/SO/0218'
+
+
+2024-06-13 10:51:50
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'so_no' in 'where clause'
+- Query 		: select * from sa_wrike_project_detail WHERE so_no='2023/SO/0218'
+
+
+2024-06-13 10:51:56
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'so_number' in 'where clause'
+- Query 		: select * from sa_wrike_project_detail WHERE so_number='2023/SO/0218'
+
+
+2024-06-13 11:10:31
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'project_code ='Non-Project' AND nama_project = '-'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id = ''project_code ='Non-Project' AND nama_project = '-'
+
+
+2024-06-13 11:10:31
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'project_code ='Non-Project' AND nama_project = '-'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id = ''project_code ='Non-Project' AND nama_project = '-'
+
+
+2024-06-13 11:11:12
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'project_code ='Non-Project' AND nama_project = '-'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id = ''project_code ='Non-Project' AND nama_project = '-'
+
+
+2024-06-13 11:11:12
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'project_code ='Non-Project' AND nama_project = '-'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id = ''project_code ='Non-Project' AND nama_project = '-'
+
+
+2024-06-13 11:11:12
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'project_code ='Non-Project' AND nama_project = '-'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id = ''project_code ='Non-Project' AND nama_project = '-'
+
+
+2024-06-13 11:11:12
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'project_code ='Non-Project' AND nama_project = '-'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id = ''project_code ='Non-Project' AND nama_project = '-'
+
+
+2024-06-13 11:11:30
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'project_code ='Non-Project' AND nama_project = '-'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id = ''project_code ='Non-Project' AND nama_project = '-'
+
+
+2024-06-13 11:11:30
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'project_code ='Non-Project' AND nama_project = '-'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id = ''project_code ='Non-Project' AND nama_project = '-'
+
+
+2024-06-13 11:12:03
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'project_code ='Non-Project'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id = ''project_code ='Non-Project'
+
+
+2024-06-13 11:12:03
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'project_code ='Non-Project'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id = ''project_code ='Non-Project'
+
+
+2024-06-13 11:12:34
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'project_code ='Non-Project'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id = ''project_code ='Non-Project'
+
+
+2024-06-13 11:12:34
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'project_code ='Non-Project'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id = ''project_code ='Non-Project'
+
+
+2024-06-13 11:12:52
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'project_code ='Non-Project'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id = ''project_code ='Non-Project'
+
+
+2024-06-13 11:12:52
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'project_code ='Non-Project'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id = ''project_code ='Non-Project'
+
+
+2024-06-13 11:13:02
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'project_code ='Non-Project'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id = ''project_code ='Non-Project'
+
+
+2024-06-13 11:13:02
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'project_code ='Non-Project'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id = ''project_code ='Non-Project'
+
+
+2024-06-13 14:20:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'pmo_acknowledge_maintenance' in 'where clause'
+- Query 		: SELECT * FROM sa_trx_project_list WHERE pmo_acknowledge_maintenance <>''
+
+
+2024-06-13 14:22:43
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'entry_by' in 'field list'
+- Query 		: UPDATE sa_hcm_notecv SET status_cv = 'Yes', entry_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>' WHERE file = '[Glints]TB000420I0003_cv1.jpg'
+
+
+2024-06-13 14:22:43
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'entry_by' in 'field list'
+- Query 		: UPDATE sa_hcm_notecv SET status_cv = 'Yes', entry_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>' WHERE file = '[http]TB000420I0003_cv1.jpg'
+
+
+2024-06-13 14:23:53
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'entry_by' in 'field list'
+- Query 		: UPDATE sa_hcm_notecv SET status_cv = 'Yes', tanggal_interview = '', entry_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>' WHERE file = '[Glints]TB000420I0003_cv1.jpg'
+
+
+2024-06-13 14:23:53
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'entry_by' in 'field list'
+- Query 		: UPDATE sa_hcm_notecv SET status_cv = 'Yes', tanggal_interview = '2024-06-14', entry_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>' WHERE file = '[http]TB000420I0003_cv1.jpg'
+
+
+2024-06-13 14:24:48
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'entry_by' in 'field list'
+- Query 		: UPDATE sa_hcm_notecv SET status_cv = 'Yes', tanggal_interview = '', entry_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>' WHERE file = '[Glints]TB000420I0003_cv1.jpg'
+
+
+2024-06-13 14:24:48
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'entry_by' in 'field list'
+- Query 		: UPDATE sa_hcm_notecv SET status_cv = 'Yes', tanggal_interview = '2024-06-19', entry_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>' WHERE file = '[http]TB000420I0003_cv1.jpg'
+
+
+2024-06-13 14:24:48
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'entry_by' in 'field list'
+- Query 		: UPDATE sa_hcm_notecv SET status_cv = '', tanggal_interview = '', entry_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>' WHERE file = '[Facebook]TB000420I0003_cv1.jpg'
+
+
+2024-06-13 14:29:13
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'entry_by' in 'field list'
+- Query 		: UPDATE sa_hcm_notecv SET status_cv = 'Yes', tanggal_interview = '', entry_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>' WHERE file = '[Glints]TB000420I0003_cv1.jpg'
+
+
+2024-06-13 14:29:13
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'entry_by' in 'field list'
+- Query 		: UPDATE sa_hcm_notecv SET status_cv = 'Yes', tanggal_interview = '2024-06-19', entry_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>' WHERE file = '[http]TB000420I0003_cv1.jpg'
+
+
+2024-06-13 14:29:13
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'entry_by' in 'field list'
+- Query 		: UPDATE sa_hcm_notecv SET status_cv = '', tanggal_interview = '', entry_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>' WHERE file = '[Facebook]TB000420I0003_cv1.jpg'
+
+
+2024-06-13 14:30:17
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'entry_by' in 'field list'
+- Query 		: UPDATE sa_hcm_notecv SET status_cv = 'Yes', tanggal_interview = '', entry_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>' WHERE file = '[Glints]TB000420I0003_cv1.jpg'
+
+
+2024-06-13 14:30:17
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'entry_by' in 'field list'
+- Query 		: UPDATE sa_hcm_notecv SET status_cv = 'Yes', tanggal_interview = '', entry_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>' WHERE file = '[http]TB000420I0003_cv1.jpg'
+
+
+2024-06-13 14:30:17
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'entry_by' in 'field list'
+- Query 		: UPDATE sa_hcm_notecv SET status_cv = 'Yes', tanggal_interview = '2024-06-14', entry_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>' WHERE file = '[Facebook]TB000420I0003_cv1.jpg'
+
+
+2024-06-13 14:39:20
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'entry_by' in 'field list'
+- Query 		: UPDATE sa_hcm_notecv SET status_cv = 'Yes', tanggal_interview = '', entry_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>' WHERE file = '[Glints]TB000420I0003_cv1.jpg'
+
+
+2024-06-13 14:39:20
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'entry_by' in 'field list'
+- Query 		: UPDATE sa_hcm_notecv SET status_cv = 'Yes', tanggal_interview = '', entry_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>' WHERE file = '[http]TB000420I0003_cv1.jpg'
+
+
+2024-06-13 17:09:03
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_notes' doesn't exist
+- Query 		: select * from sa_hcm_notes
+
+
+2024-06-13 17:09:07
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_notescv' doesn't exist
+- Query 		: select * from sa_hcm_notescv
+
+
+2024-06-13 17:23:33
+- Server 		: Prod
+- User 			: wahyu.aji@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-06-13 17:23:33
+- Server 		: Prod
+- User 			: wahyu.aji@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-06-13 17:23:33
+- Server 		: Prod
+- User 			: wahyu.aji@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-06-13 17:23:33
+- Server 		: Prod
+- User 			: wahyu.aji@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-06-13 17:23:33
+- Server 		: Prod
+- User 			: wahyu.aji@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-06-13 17:23:33
+- Server 		: Prod
+- User 			: wahyu.aji@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-06-13 17:23:33
+- Server 		: Prod
+- User 			: wahyu.aji@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-06-13 17:23:33
+- Server 		: Prod
+- User 			: wahyu.aji@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-06-13 19:52:06
+- Server 		: Prod
+- User 			: iwan@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-06-13 19:52:06
+- Server 		: Prod
+- User 			: iwan@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 

@@ -1,0 +1,37 @@
+File Error Log
+
+2024-05-27 09:09:25
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_product_limit' doesn't exist
+- Query 		: select * from sa_product_limit limit 1
+
+
+
+2024-05-27 10:07:00
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'order clause'
+- Query 		: select * from sa_general_informations ORDER BY id DESC LIMIT 100 
+
+
+2024-05-27 10:07:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id DESC' at line 1
+- Query 		: select * from sa_general_informations LIMIT 100 ORDER BY id DESC 
+
+
+2024-05-27 10:07:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY gi_id DESC' at line 1
+- Query 		: select * from sa_general_informations LIMIT 100 ORDER BY gi_id DESC 

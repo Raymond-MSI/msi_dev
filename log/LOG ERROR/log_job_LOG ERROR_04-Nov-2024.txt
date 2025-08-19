@@ -1,0 +1,261 @@
+File Error Log
+
+2024-11-04 08:50:25
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '10' at line 1
+- Query 		: select * from sa_asset_requests llimit 10 
+
+
+2024-11-04 08:50:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '10' at line 1
+- Query 		: select * from sa_asset_list llimit 10 
+
+
+2024-11-04 09:47:22
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=04-Nov-2024 WHERE order_number='ORD-24934-N2V7Z5' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 09:47:22
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=04-Nov-2024 WHERE order_number='ORD-24934-N2V7Z5' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 10:43:41
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=04-Nov-2024 WHERE order_number='ORD-28120-J4R8F7' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 10:43:41
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=04-Nov-2024 WHERE order_number='ORD-28120-J4R8F7' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 13:04:26
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=04-Nov-2024 WHERE order_number='ORD-29058-K0W6V3' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 13:04:26
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=04-Nov-2024 WHERE order_number='ORD-29058-K0W6V3' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 13:05:46
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=04-Nov-2024 WHERE order_number='ORD-29202-X8T5Q9' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 13:05:46
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=04-Nov-2024 WHERE order_number='ORD-29202-X8T5Q9' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 13:06:42
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=04-Nov-2024 WHERE order_number='ORD-29417-V2W9Q7' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 13:06:42
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=04-Nov-2024 WHERE order_number='ORD-29417-V2W9Q7' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 13:15:52
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=04-Nov-2024 WHERE order_number='ORD-2023-02572' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 13:15:52
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=04-Nov-2024 WHERE order_number='ORD-2023-02572' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 13:22:17
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=04-Nov-2024 WHERE order_number='ORD-29655-V8L9K7' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 13:22:17
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=04-Nov-2024 WHERE order_number='ORD-29655-V8L9K7' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 14:00:05
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'jumlah' in 'where clause'
+- Query 		: select Nama,order_number,COUNT(Nama) AS jumlah from sa_user WHERE project_type LIKE '%Maintenance%' AND jumlah>1 GROUP BY Nama,order_number
+
+
+2024-11-04 14:00:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'jumlah' in 'where clause'
+- Query 		: select Nama,order_number,COUNT(Nama) AS jumlah from sa_user WHERE project_type LIKE '%Maintenance%' AND jumlah > 1 GROUP BY Nama,order_number
+
+
+2024-11-04 14:34:11
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (25235,63,2,1,25,'Instana',350,NULL,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-11-04 15:58:20
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=04-Nov-2024 WHERE order_number='ORD-26187-J7K0C9' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 15:58:20
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=04-Nov-2024 WHERE order_number='ORD-26187-J7K0C9' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 16:09:38
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=04-Nov-2024 WHERE order_number='ORD-26939-L8V9W6' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 16:09:38
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=04-Nov-2024 WHERE order_number='ORD-26939-L8V9W6' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 16:12:53
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=04-Nov-2024 WHERE order_number='ORD-28676-V8L6H8' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 16:12:53
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=04-Nov-2024 WHERE order_number='ORD-28676-V8L6H8' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 16:14:45
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=04-Nov-2024 WHERE order_number='ORD-28677-Y2L5T4' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 16:14:45
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=04-Nov-2024 WHERE order_number='ORD-28677-Y2L5T4' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 16:38:34
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=04-Nov-2024 WHERE order_number='ORD-2023-01917' AND project_type='MSI Project Maintenance'
+
+
+2024-11-04 16:38:34
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Nov' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=04-Nov-2024 WHERE order_number='ORD-2023-01917' AND project_type='MSI Project Maintenance'

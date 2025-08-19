@@ -1,0 +1,270 @@
+File Error Log
+
+2024-04-01 10:32:18
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: new_request
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_trx_approval WHERE id=undefined
+
+
+2024-04-01 11:29:44
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-04-01 11:30:01
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-04-01 12:51:18
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=17
+
+
+2024-04-01 12:51:18
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=44
+
+
+2024-04-01 12:52:15
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=17
+
+
+2024-04-01 12:52:15
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=44
+
+
+2024-04-01 14:31:41
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=17
+
+
+2024-04-01 14:31:41
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=44
+
+
+2024-04-01 14:32:35
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=17
+
+
+2024-04-01 14:32:36
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=44
+
+
+2024-04-01 14:38:38
+- Server 		: Prod
+- User 			: syarahbil.pawellang@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-04-01 14:38:39
+- Server 		: Prod
+- User 			: syarahbil.pawellang@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-04-01 14:39:04
+- Server 		: Prod
+- User 			: syarahbil.pawellang@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-04-01 14:39:04
+- Server 		: Prod
+- User 			: syarahbil.pawellang@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-04-01 14:55:39
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=17
+
+
+2024-04-01 14:58:45
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=17
+
+
+2024-04-01 14:58:45
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=44
+
+
+2024-04-01 15:17:16
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=17
+
+
+2024-04-01 15:35:03
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=17
+
+
+2024-04-01 15:35:49
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=17
+
+
+2024-04-01 15:37:08
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=17
+
+
+2024-04-01 15:58:57
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=17
+
+
+2024-04-01 16:05:04
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=17
+
+
+2024-04-01 16:05:31
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=17
+
+
+2024-04-01 16:06:16
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=17
+
+
+2024-04-01 16:07:17
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=17
+
+
+2024-04-01 16:16:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: project_delay
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2024-04-01 16:17:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_project_delay' doesn't exist
+- Query 		: SELECT * FROM sa_project_delay
+
+
+2024-04-01 16:53:26
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-03-25' AND task_date <= '2024-04-08' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`

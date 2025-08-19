@@ -1,0 +1,99 @@
+File Error Log
+
+2024-10-29 15:26:53
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'seelct * from sa_initial_project WHERE project_code='TB001722D0001'' at line 1
+- Query 		: seelct * from sa_initial_project WHERE project_code='TB001722D0001'
+
+
+2024-10-29 15:45:42
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_user' doesn't exist
+- Query 		: select * from sa_user WHERE project_code='TA002223E0004'
+
+
+2024-10-29 15:52:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_master_maintenance_date' doesn't exist
+- Query 		: select * from sa_master_maintenance_date WHERE project_code='TB002722D0061'
+
+
+2024-10-29 18:16:29
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-10-29 18:16:29
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-10-29 18:16:29
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-10-29 18:16:29
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-10-29 18:16:29
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-10-29 18:16:29
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-10-29 18:16:29
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-10-29 18:16:29
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 

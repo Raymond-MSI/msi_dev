@@ -1,0 +1,153 @@
+File Error Log
+
+2024-06-20 09:45:24
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_trx_leave' doesn't exist
+- Query 		: select * from sa_trx_leave limit 10
+
+
+2024-06-20 10:09:57
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_intial_project' doesn't exist
+- Query 		: select * from sa_intial_project WHERE project_code='TB000524B0011'
+
+
+2024-06-20 10:10:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_intial_project' doesn't exist
+- Query 		: select * from sa_intial_project WHERE project_code='TB000524B0011'
+
+
+2024-06-20 10:28:51
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-06-20 10:28:51
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-06-20 10:29:48
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-06-20 10:29:48
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-06-20 10:58:35
+- Server 		: Prod
+- User 			: riswan.fadhilah@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'status_manager_gm_bod' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE status_manager_hcm = 'Approve' AND status_hcm_gm = 'Approve' AND status_manager_gm_bod = 'Approve' AND status != 'Selesai' LIMIT 0, 100
+
+
+2024-06-20 10:59:10
+- Server 		: Prod
+- User 			: riswan.fadhilah@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE status = 'Selesai' LIMIT 0, 100
+
+
+2024-06-20 10:59:15
+- Server 		: Prod
+- User 			: riswan.fadhilah@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'status_manager_gm_bod' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE status_manager_hcm = 'Approve' AND status_hcm_gm = 'Approve' AND status_manager_gm_bod = 'Approve' AND status != 'Selesai' LIMIT 0, 100
+
+
+2024-06-20 15:05:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect integer value: '' for column `sa_google_drive`.`sa_project_detail`.`tahun` at row 1
+- Query 		: INSERT INTO sa_project_detail (project_code,folder_name,folder_id,gd_id,new_gd_id,tahun,permission_flag) VALUES ('TY000520K0002','01. Report ','71','1uiJ2H-YWGXke3Z6HRI1LTD6UdEcPEWhj','','',0)
+
+
+2024-06-20 15:06:24
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0)' at line 1
+- Query 		: INSERT INTO sa_project_detail (project_code,folder_name,folder_id,gd_id,new_gd_id,tahun,permission_flag) VALUES ('TY000520K0002','01. Report ','71','1uiJ2H-YWGXke3Z6HRI1LTD6UdEcPEWhj','',,0)
+
+
+2024-06-20 15:06:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect integer value: '' for column `sa_google_drive`.`sa_project_detail`.`tahun` at row 1
+- Query 		: INSERT INTO sa_project_detail (project_code,folder_name,folder_id,gd_id,new_gd_id,tahun,permission_flag) VALUES ('TY000520K0002','01. Report ',71,'1uiJ2H-YWGXke3Z6HRI1LTD6UdEcPEWhj','1uiJ2H-YWGXke3Z6HRI1LTD6UdEcPEWhj','',0)
+
+
+2024-06-20 15:42:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown data type: 'date_time'
+- Query 		: ALTER TABLE sa_detail_plans ADD time_plan date_time NULL AFTER finish_time
+
+
+2024-06-20 17:35:17
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,3,1,9,'Fortinet',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-06-20 17:35:17
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,3,1,6,'Fortinet',350,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-06-20 17:35:17
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,22,'Fortinet',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')

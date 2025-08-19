@@ -1,0 +1,306 @@
+File Error Log
+
+2023-10-30 08:39:34
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-30 09:00:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'progress' in 'field list'
+- Query 		: SELECT order_number,project_code,no_so,resource_email,roles,status,progress FROM `sa_resource_assignment` WHERE approval_status='approved'
+
+
+2023-10-30 09:00:49
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'progress' in 'field list'
+- Query 		: SELECT order_number,project_code,no_so,resource_email,roles,status,progress FROM sa_resource_assignment WHERE approval_status='approved'
+
+
+2023-10-30 09:01:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_resource_assignment_wrike' doesn't exist
+- Query 		: desc sa_resource_assignment_wrike
+
+
+2023-10-30 09:10:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_kpi_ecxception' doesn't exist
+- Query 		: desc sa_kpi_ecxception
+
+
+2023-10-30 09:16:01
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from sa_kpi_exception' at line 1
+- Query 		: desc from sa_kpi_exception
+
+
+2023-10-30 09:17:28
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: request
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_request' doesn't exist
+- Query 		: SELECT request_id, status, request_datetime, GM_Approval, BOD_Approval, HCM_GM_Approval from sa_request where requested_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>'
+
+
+2023-10-30 09:26:12
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '5, note='jelek' WHERE resource_name='chrisheryanda@mastersystem.co.id' AND or...' at line 1
+- Query 		: UPDATE sa_kpi_exception SET kpi_adjustment='25', weighted_value=587,5, note='jelek' WHERE resource_name='chrisheryanda@mastersystem.co.id' AND order_number='TEEST'
+
+
+2023-10-30 09:26:12
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '5 WHERE Nama LIKE '%chrisheryanda@mastersystem.co.id%' AND order_number='TEEST'' at line 1
+- Query 		: UPDATE sa_user SET cte='25', nilai_akhir_aktual=587,5 WHERE Nama LIKE '%chrisheryanda@mastersystem.co.id%' AND order_number='TEEST'
+
+
+2023-10-30 10:18:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'so_number' in 'where clause'
+- Query 		: select * from sa_resource_assignment WHERE so_number='TI013822I0007'
+
+
+2023-10-30 10:18:32
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'so_number' in 'where clause'
+- Query 		: select * from sa_resource_assignment WHERE so_number='2022/SO/1579'
+
+
+2023-10-30 13:32:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO sa_user (Nama,so_number_order_number,cte,nilai_akhir_aktual) VALUES ('Chrisheryanda Eka Saputra <chrisheryanda@mastersystem.co.id>','SO_TEST','TEEST',1.000,2.34)
+
+
+2023-10-30 13:34:27
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '5, note='Keren' WHERE resource_name='chrisheryanda@mastersystem.co.id' AND or...' at line 1
+- Query 		: UPDATE sa_kpi_exception SET kpi_adjustment='25', weighted_value=587,5, note='Keren' WHERE resource_name='chrisheryanda@mastersystem.co.id' AND order_number='TEEST'
+
+
+2023-10-30 13:34:27
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '5 WHERE Nama LIKE '%chrisheryanda@mastersystem.co.id%' AND order_number='TEEST'' at line 1
+- Query 		: UPDATE sa_user SET cte='25', nilai_akhir_aktual=587,5 WHERE Nama LIKE '%chrisheryanda@mastersystem.co.id%' AND order_number='TEEST'
+
+
+2023-10-30 14:08:57
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO sa_kpi_exception (`resource_name`, `project_code`, `so_number`, `order_number`, `status_resource`, `kpi_adjustment`, `weighted_value`, `note`) VALUES ('chrisheryanda@mastersystem.co.id','TESTING','SO_TEST', 'TEEST', 'penuh',0,15,3,3675,'')
+
+
+2023-10-30 14:08:57
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '15, nilai_akhir_aktual=3,3675 WHERE Nama LIKE '%chrisheryanda@mastersystem.co...' at line 1
+- Query 		: UPDATE sa_user SET cte=0,15, nilai_akhir_aktual=3,3675 WHERE Nama LIKE '%chrisheryanda@mastersystem.co.id%' AND order_number='TEEST'
+
+
+2023-10-30 14:14:40
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO sa_kpi_exception (`resource_name`, `project_code`, `so_number`, `order_number`, `status_resource`, `kpi_adjustment`, `weighted_value`, `note`) VALUES ('chrisheryanda@mastersystem.co.id','TESTING','SO_TEST', 'TEEST', 'penuh',0,4,8,98,'')
+
+
+2023-10-30 14:14:40
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '4, nilai_akhir_aktual=8,98 WHERE Nama LIKE '%chrisheryanda@mastersystem.co.id...' at line 1
+- Query 		: UPDATE sa_user SET cte=0,4, nilai_akhir_aktual=8,98 WHERE Nama LIKE '%chrisheryanda@mastersystem.co.id%' AND order_number='TEEST'
+
+
+2023-10-30 14:15:21
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO sa_kpi_exception (`resource_name`, `project_code`, `so_number`, `order_number`, `status_resource`, `kpi_adjustment`, `weighted_value`, `note`) VALUES ('chrisheryanda@mastersystem.co.id','TESTING','SO_TEST', 'TEEST', 'penuh',0,45,10,1025,'')
+
+
+2023-10-30 14:15:21
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Data truncated for column 'cte' at row 9280
+- Query 		: UPDATE sa_user SET cte='0,45', nilai_akhir_aktual='10,1025' WHERE Nama LIKE '%chrisheryanda@mastersystem.co.id%' AND order_number='TEEST'
+
+
+2023-10-30 14:16:53
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT IGNORE INTO sa_kpi_exception (`resource_name`, `project_code`, `so_number`, `order_number`, `status_resource`, `kpi_adjustment`, `weighted_value`, `note`) VALUES ('chrisheryanda@mastersystem.co.id','TESTING','SO_TEST', 'TEEST', 'penuh',0,75,16,8375,'')
+
+
+2023-10-30 14:16:53
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '75, nilai_akhir_aktual=16,8375 WHERE Nama LIKE '%chrisheryanda@mastersystem.c...' at line 1
+- Query 		: UPDATE IGNORE sa_user SET cte=0,75, nilai_akhir_aktual=16,8375 WHERE Nama LIKE '%chrisheryanda@mastersystem.co.id%' AND order_number='TEEST'
+
+
+2023-10-30 14:17:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT IGNORE INTO sa_kpi_exception (`resource_name`, `project_code`, `so_number`, `order_number`, `status_resource`, `kpi_adjustment`, `weighted_value`, `note`) VALUES ('chrisheryanda@mastersystem.co.id','TESTING','SO_TEST', 'TEEST', 'penuh',0,45,10,1025,'')
+
+
+2023-10-30 14:17:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '45, nilai_akhir_aktual=10,1025 WHERE Nama LIKE '%chrisheryanda@mastersystem.c...' at line 1
+- Query 		: UPDATE IGNORE sa_user SET cte=0,45, nilai_akhir_aktual=10,1025 WHERE Nama LIKE '%chrisheryanda@mastersystem.co.id%' AND order_number='TEEST'
+
+
+2023-10-30 14:20:31
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT IGNORE INTO sa_kpi_exception (`resource_name`, `project_code`, `so_number`, `order_number`, `status_resource`, `kpi_adjustment`, `weighted_value`, `note`) VALUES ('chrisheryanda@mastersystem.co.id','TESTING','SO_TEST', 'TEEST', 'penuh',0,15,3,3675,'')
+
+
+2023-10-30 14:20:31
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '15, nilai_akhir_aktual=3,3675 WHERE Nama LIKE '%chrisheryanda@mastersystem.co...' at line 1
+- Query 		: UPDATE IGNORE sa_user SET cte=0,15, nilai_akhir_aktual=3,3675 WHERE Nama LIKE '%chrisheryanda@mastersystem.co.id%' AND order_number='TEEST'
+
+
+2023-10-30 14:22:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Data truncated for column 'cte' at row 9280
+- Query 		: UPDATE sa_user SET cte='0,2', nilai_akhir_aktual='4,49' WHERE Nama LIKE '%chrisheryanda@mastersystem.co.id%' AND order_number='TEEST'
+
+
+2023-10-30 14:52:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_resource_assignment' doesn't exist
+- Query 		: select * from sa_resource_assignment WHERE project_code='TB000422I0006' AND project_type='Implementation'
+
+
+2023-10-30 15:04:50
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-10-23' AND task_date <= '2023-11-06' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2023-10-30 15:07:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_user' doesn't exist
+- Query 		: SELECT * FROM sa_user WHERE Nama LIKE '%chrisheryanda%'
+
+
+2023-10-30 15:10:21
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Data truncated for column 'cte' at row 9280
+- Query 		: UPDATE sa_user SET cte='0,55', nilai_akhir_aktual='12.3475' WHERE Nama LIKE '%chrisheryanda@mastersystem.co.id%' AND order_number='TEEST'
+
+
+2023-10-30 15:15:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''str_replace(' at line 1
+- Query 		: INSERT IGNORE INTO sa_kpi_exception (`resource_name`, `project_code`, `so_number`, `order_number`, `status_resource`, `kpi_adjustment`, `weighted_value`, `note`) VALUES ('chrisheryanda@mastersystem.co.id','TESTING','SO_TEST', 'TEEST', 'penuh','str_replace(
+
+
+2023-10-30 15:15:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''str_replace(' at line 1
+- Query 		: UPDATE sa_user SET cte='str_replace(
+
+
+2023-10-30 15:23:14
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-10-23' AND task_date <= '2023-11-06' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`

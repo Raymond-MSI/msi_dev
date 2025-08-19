@@ -1,0 +1,252 @@
+File Error Log
+
+2024-04-24 08:47:28
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-04-24 08:47:43
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-04-24 08:54:14
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-04-24 08:54:26
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-04-24 09:10:52
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-04-24 10:20:41
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-04-24 10:28:46
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: web_config_v2
+- SubModule		:  
+- Status 		: Unknown column 'published' in 'where clause'
+- Query 		: SELECT * FROM sa_cfg_web WHERE published=1 AND parent=125
+
+
+2024-04-24 10:29:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_resource_assignment' doesn't exist
+- Query 		: SELECT * FROM sa_resource_assignment WHERE approval_to LIKE '%General Manager%'
+
+
+2024-04-24 10:36:56
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-resource_assignment WHERE approval_to LIKE '%cassendra%'' at line 1
+- Query 		: select * from sa-resource_assignment WHERE approval_to LIKE '%cassendra%'
+
+
+2024-04-24 10:37:14
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE id is not null LIMIT 0, 100
+
+
+2024-04-24 10:37:18
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE id is not null LIMIT 0, 100
+
+
+2024-04-24 10:41:47
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_complainkpi WHERE complain_id=undefined
+
+
+2024-04-24 10:42:01
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_complainkpi WHERE complain_id=undefined
+
+
+2024-04-24 10:47:37
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE complain_id=
+
+
+2024-04-24 13:24:37
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-04-24 13:47:41
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE complain_id=
+
+
+2024-04-24 13:47:47
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE complain_id=
+
+
+2024-04-24 13:51:31
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE complain_id=
+
+
+2024-04-24 14:06:57
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_ketegori_list' doesn't exist
+- Query 		: delete from sa_ketegori_list where kategori_pilih = 'test'
+
+
+2024-04-24 14:19:12
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-04-17' AND task_date <= '2024-05-01' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-04-24 14:26:12
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_wrike_project_list' doesn't exist
+- Query 		: SELECT DISTINCT project_code FROM sa_wrike_project_list WHERE project_type = 'MSI Project Maintenance' ORDER BY project_code ASC
+
+
+2024-04-24 14:26:20
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_wrike_project_list' doesn't exist
+- Query 		: SELECT DISTINCT project_code FROM sa_wrike_project_list WHERE project_type = 'MSI Project Maintenance' ORDER BY project_code ASC
+
+
+2024-04-24 14:26:20
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_wrike_project_list' doesn't exist
+- Query 		: SELECT DISTINCT project_code FROM sa_wrike_project_list WHERE project_type = 'MSI Project Maintenance' ORDER BY project_code ASC
+
+
+2024-04-24 14:27:43
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_wrike_project_list' doesn't exist
+- Query 		: SELECT DISTINCT project_code FROM sa_wrike_project_list WHERE project_type = 'MSI Project Maintenance' AND project_code IS NOT NULL ORDER BY project_code ASC
+
+
+2024-04-24 16:51:35
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-04-24 16:51:35
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-04-24 16:52:05
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-04-24 16:52:06
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25

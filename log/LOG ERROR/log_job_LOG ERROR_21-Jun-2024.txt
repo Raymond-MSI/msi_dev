@@ -1,0 +1,162 @@
+File Error Log
+
+2024-06-21 16:39:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_wrike_integrate' doesn't exist
+- Query 		: select * from sa_wrike_integrate WHERE project_code='TB000524B0011'
+
+
+2024-06-21 17:45:25
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_note' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_note WHERE id_fpkb = 'Support and Delivery Service/FPKB/REC/70/2024'
+
+
+2024-06-21 17:45:25
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_note' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_note WHERE id_fpkb = 'Support and Delivery Service/FPKB/REC/70/2024'
+
+
+2024-06-21 17:46:13
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_note' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_note WHERE id_fpkb = 'Support and Delivery Service/FPKB/REC/70/2024'
+
+
+2024-06-21 17:46:13
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_note' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_note WHERE id_fpkb = 'Support and Delivery Service/FPKB/REC/70/2024'
+
+
+2024-06-21 17:50:55
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_note' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_note WHERE id_fpkb = 'Support and Delivery Service'
+
+
+2024-06-21 17:50:55
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_note' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_note WHERE id_fpkb = 'Support and Delivery Service'
+
+
+2024-06-21 17:51:33
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_note' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_note WHERE id_fpkb = 'Support and Delivery Service/FPKB/REC/70/2024'
+
+
+2024-06-21 17:51:33
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_note' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_note WHERE id_fpkb = 'Support and Delivery Service/FPKB/REC/70/2024'
+
+
+2024-06-21 17:52:45
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_note' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_note WHERE id_fpkb = 'Support and Delivery Service/FPKB/REC/70/2024'
+
+
+2024-06-21 17:52:45
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_note' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_note WHERE id_fpkb = 'Support and Delivery Service/FPKB/REC/70/2024'
+
+
+2024-06-21 17:53:36
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_note' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_note WHERE id_fpkb = 'Support and Delivery Service/FPKB/REC/70/2024'
+
+
+2024-06-21 17:53:36
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_note' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_note WHERE id_fpkb = 'Support and Delivery Service/FPKB/REC/70/2024'
+
+
+2024-06-21 17:53:46
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_note' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_note WHERE id_fpkb = 'Support and Delivery Service/FPKB/REC/70/2024'
+
+
+2024-06-21 17:53:46
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_note' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_note WHERE id_fpkb = 'Support and Delivery Service/FPKB/REC/70/2024'
+
+
+2024-06-21 17:54:58
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Support and Delivery Service/FPKB/REC/70/2024' at line 1
+- Query 		: SELECT * FROM sa_hcm_notecv WHERE id_fpkb = 'Support and Delivery Service/FPKB/REC/70/2024
+
+
+2024-06-21 18:17:38
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'status_yes' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE status_yes
+
+
+2024-06-21 18:17:38
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'status_yes' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE status_yes

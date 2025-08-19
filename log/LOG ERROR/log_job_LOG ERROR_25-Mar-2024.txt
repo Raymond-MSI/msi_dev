@@ -1,0 +1,287 @@
+File Error Log
+
+2024-03-25 01:38:17
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2024-03-16'
+        AND `task_date` <= '2024-03-22'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+        
+        
+         AND `resource_email` IN ()
+
+
+2024-03-25 13:40:32
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-03-25 13:40:32
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-03-25 13:40:58
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-03-25 13:40:58
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-03-25 13:41:05
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-03-25 13:41:05
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-03-25 14:09:35
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-03-18' AND task_date <= '2024-04-01' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-03-25 15:08:24
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Table 'sa_smartbonding.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2024-03-25 15:08:35
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Table 'sa_smartbonding.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2024-03-25 15:08:39
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Table 'sa_smartbonding.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2024-03-25 15:23:45
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: UPDATE sa_response_update SET status='Sudah' WHERE id=
+
+
+2024-03-25 15:24:19
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: UPDATE sa_response_update SET status='Sudah' WHERE id=
+
+
+2024-03-25 15:42:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_resource_jobroles_project' doesn't exist
+- Query 		: SELECT * FROM sa_resource_jobroles_project WHERE project_id='IEAEOPF5I46HTW3V'
+
+
+2024-03-25 16:48:47
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-03-18' AND task_date <= '2024-04-01' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-03-25 16:49:17
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>'
+        AND `leave_sta...' at line 10
+- Query 		: SELECT 
+        `leave_id`, 
+        `employee_name`, 
+        `employee_email`, 
+        `leave_start`, 
+        `leave_end`, 
+        `leave_status`,
+        `update_date`
+    FROM `sa_trx_edo_leave` 
+    WHERE (`leader1_email` = 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>'
+        AND `leave_status` = 'leave submitted'
+        AND `flag_approval` = 0)
+        OR (`leader2_email` = 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>'
+        AND `leave_status` = 'leave approved'
+        AND `flag_approval` = 1)
+
+
+2024-03-25 16:49:20
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_outstanding
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' 
+        OR `manager` ...' at line 79
+- Query 		: SELECT
+    `employee_name`,
+    SUM(
+        IF(
+            `status` = 'edo submitted',
+            1,
+            IF(
+                `status` = 'request approved',
+                IF(
+                    `flag_approval` = 1,
+                    1,
+                    0
+                ),
+                0
+            )
+        )
+    ) AS `edo_submitted`,
+    SUM(
+    	IF(
+        	`status` = 'request approved',
+        	IF(
+                `flag_approval`=2,
+                1,
+                0
+            ),
+        	0
+        )
+    ) AS `edo_approved`,
+    SUM(
+    	IF(
+            `status` = 'edo rejected',
+            1,
+            0
+        )
+    ) AS `edo_rejected`,
+    SUM(
+        IF(
+            `status` = 'leave submitted',
+            IF(
+                `flag_approval` = 1,
+                1,
+                0
+            ),
+            0
+        )
+    ) AS `leave_submitted`,
+    SUM(
+	    IF(
+            `status` = 'leave approved',
+            IF(
+                `flag_approval` = 2,
+                1,
+                0
+            ),
+            0
+        )
+    ) AS `leave_approved`,
+    SUM(
+    	IF(
+            `status` = 'leave rejected',
+            1,
+            0
+        )
+    ) AS `leave_rejected`,
+    COUNT(`employee_name`) AS `total_edo`,
+    SUM(
+        IF(
+            `status` = 'drafted',
+            1,
+            0
+        )
+    ) AS `drafted`
+FROM
+    `sa_trx_edo_request`
+WHERE
+    `start_date` >= '2024-01-01' 
+    AND `end_date` <= '2024-03-25' 
+    AND (
+        `employee_name` = 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' 
+        OR `manager` = 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>'
+        OR `leader` = 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>'
+        )
+GROUP BY
+    `employee_name`;
+
+
+2024-03-25 16:50:14
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>'
+        AND `leave_sta...' at line 10
+- Query 		: SELECT 
+        `leave_id`, 
+        `employee_name`, 
+        `employee_email`, 
+        `leave_start`, 
+        `leave_end`, 
+        `leave_status`,
+        `update_date`
+    FROM `sa_trx_edo_leave` 
+    WHERE (`leader1_email` = 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>'
+        AND `leave_status` = 'leave submitted'
+        AND `flag_approval` = 0)
+        OR (`leader2_email` = 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>'
+        AND `leave_status` = 'leave approved'
+        AND `flag_approval` = 1)

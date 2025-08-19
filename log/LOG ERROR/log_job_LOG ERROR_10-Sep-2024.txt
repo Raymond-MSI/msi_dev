@@ -1,0 +1,119 @@
+File Error Log
+
+2024-09-10 08:55:35
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_project_list WHERE project_id=
+
+
+2024-09-10 10:29:00
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_rental_trasaction' doesn't exist
+- Query 		: desc sa_rental_trasaction
+
+
+2024-09-10 10:53:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_project_detail' doesn't exist
+- Query 		: select * from sa_project_detail WHERE project_code='TB001020C0049'
+
+
+2024-09-10 10:59:27
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_maintenance_date_kpi' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date_kpi WHERE project_code='TB001020C0049'
+
+
+2024-09-10 14:37:28
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_wrike_preschedule' doesn't exist
+- Query 		: select * from sa_wrike_preschedule WHERE project_id='IEAEOPF5I5IR4FFZ'
+
+
+2024-09-10 14:51:51
+- Server 		: Prod
+- User 			: rizky.umbara@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_rental' doesn't exist
+- Query 		: delete from sa_rental where transaction_id = 'f1e94711911b23ebb842b5e90ba96abf'
+
+
+2024-09-10 14:52:00
+- Server 		: Prod
+- User 			: rizky.umbara@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'transaction_id' in 'where clause'
+- Query 		: delete from sa_rental_transaction where transaction_id = 'f1e94711911b23ebb842b5e90ba96abf'
+
+
+2024-09-10 15:26:39
+- Server 		: Prod
+- User 			: roza.muhammad@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TJ002221G0001', 
+                    'ORD-2023-00143', 
+                    'backup_mt_date',
+                    'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-10 15:26:39
+- Server 		: Prod
+- User 			: roza.muhammad@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TJ002221G0001', 
+                    'ORD-2023-00143', 
+                    'pmr_date',
+                    'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-10 18:21:57
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'PRIMARY'
+- Query 		: INSERT INTO sa_initial_jobroles (task_id,parent_id,project_code,project_id,resource_category_id,total_mandays) VALUES ('', 'SERVICE BUDGET', 'TI000824E0032', '', '3',30)
+
+
+2024-09-10 18:21:57
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'PRIMARY'
+- Query 		: INSERT INTO sa_initial_jobroles (task_id, parent_id, project_code, project_id, resource_category_id, brand, total_mandays) VALUES ('', 'SERVICE BUDGET', 'TI000824E0032', '', '7', 'fortinet', 10)

@@ -1,0 +1,211 @@
+File Error Log
+
+2023-11-17 09:50:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_preschedule' doesn't exist
+- Query 		: select * from sa_preschedule a left join sa_schedule b ON a.google_event_id = b.event_id AND a.id != b.id AND a.project_id='IEAEOPF5I46N7342'
+
+
+2023-11-17 13:32:57
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_preschedule' doesn't exist
+- Query 		: SELECT * FROM sa_preschedule WHERE project_id='IEAEOPF5I5EEXAQV' AND task_name LIKE '%Weekly%' GROUP BY task_id
+
+
+2023-11-17 14:02:29
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%58T0A1B6F8KC%'
+
+
+2023-11-17 14:02:31
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WZP22280Z8H%'
+
+
+2023-11-17 14:02:54
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WZP22280Z8H%'
+
+
+2023-11-17 14:03:08
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WZP22280Z8H%'
+
+
+2023-11-17 14:03:28
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WZP22280Z8H%'
+
+
+2023-11-17 14:26:41
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code_kpi' in 'field list'
+- Query 		: select project_code_kpi, order_number, WR_mandays_actual_implementation WHERE project_code_kpi='TK003622K0003' OR project_code_kpi='TT004022G0002' OR project_code_kpi='TB000522B0030' OR project_code_kpi='TA002223E0038' OR project_code_kpi='TK017423K0001' OR project_code_kpi='TS003723B0002' OR project_code_kpi='TB029922D0003' OR project_code_kpi='TB001022C0067'
+
+
+2023-11-17 14:29:23
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%58T0A1B6F8KC%'
+
+
+2023-11-17 14:30:20
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WZP22280Z8H%'
+
+
+2023-11-17 14:54:48
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'selecg count(*) from sa_product_list where tipe_aset = 'Hibah'' at line 1
+- Query 		: selecg count(*) from sa_product_list where tipe_aset = 'Hibah';
+
+
+2023-11-17 15:13:18
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '58T0A1BCF8KC'' at line 1
+- Query 		: select * from sa_product_list sa_transaction_product = '58T0A1BCF8KC';
+
+
+2023-11-17 15:13:23
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''58T0A1BCF8KC'' at line 1
+- Query 		: select * from  sa_transaction_product = '58T0A1BCF8KC';
+
+
+2023-11-17 16:05:35
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%58T0A1B8F8KC%'
+
+
+2023-11-17 16:05:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WZP22280Z8H%'
+
+
+2023-11-17 16:05:50
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WZP22280Z8H%'
+
+
+2023-11-17 16:31:19
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%58T0A1B6F8KC%'
+
+
+2023-11-17 16:31:20
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WZP22280Z8H%'
+
+
+2023-11-17 16:34:00
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%58T0A1B6F8KC%'
+
+
+2023-11-17 16:34:01
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WZP22280Z8H%'
+
+
+2023-11-17 16:36:39
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Lock wait timeout exceeded; try restarting transaction
+- Query 		: DELETE S1 FROM sa_schedule AS S1  
+INNER JOIN sa_schedule AS S2   
+WHERE S1.id < S2.id AND S1.event_id = S2.event_id AND S1.attendees_email = S2.attendees_email
+
+
+2023-11-17 16:40:28
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Lock wait timeout exceeded; try restarting transaction
+- Query 		: DELETE S1 FROM sa_schedule AS S1  
+INNER JOIN sa_schedule AS S2   
+WHERE S1.id < S2.id AND S1.event_id = S2.event_id AND S1.attendees_email = S2.attendees_email
+
+
+2023-11-17 16:44:50
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WZP22280Z8H%'

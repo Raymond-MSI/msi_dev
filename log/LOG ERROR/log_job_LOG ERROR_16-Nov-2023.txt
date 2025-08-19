@@ -1,0 +1,158 @@
+File Error Log
+
+2023-11-16 09:25:44
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'projecct_code_kpi' in 'where clause'
+- Query 		: SELECT order_number, WR_mandays_actual_implementation FROM sa_data_so WHERE project_code_kpi='TK003622K0003' OR project_code_kpi='TT004022G0002' OR project_code_kpi='TB000522B0030' OR project_code_kpi='TA002223E0038' OR project_code_kpi='TK017423K0001' OR project_code_kpi='TS003723B0002' OR projecct_code_kpi='TB029922D0003' OR project_code_kpi='TB001022C0067'
+
+
+2023-11-16 09:25:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'projecct_code_kpi' in 'where clause'
+- Query 		: SELECT * FROM sa_data_so WHERE project_code_kpi='TK003622K0003' OR project_code_kpi='TT004022G0002' OR project_code_kpi='TB000522B0030' OR project_code_kpi='TA002223E0038' OR project_code_kpi='TK017423K0001' OR project_code_kpi='TS003723B0002' OR projecct_code_kpi='TB029922D0003' OR project_code_kpi='TB001022C0067'
+
+
+2023-11-16 09:28:58
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%58T0A1B6F8KC%'
+
+
+2023-11-16 09:29:00
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WZP22280Z8H%'
+
+
+2023-11-16 09:40:00
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%58T0A1B6F8KC%'
+
+
+2023-11-16 09:55:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'jumlah' in 'where clause'
+- Query 		: select COUNT(event_id) AS jumlah, event_id from sa_schedule WHERE jumlah > 1 GROUP BY event_id  
+
+
+2023-11-16 09:55:52
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'jumlah' in 'where clause'
+- Query 		: select COUNT(event_id) AS jumlah, event_id from sa_schedule WHERE jumlah > 1 GROUP BY event_id  
+
+
+2023-11-16 09:56:03
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'jumlah' in 'where clause'
+- Query 		: select COUNT(event_id) AS jumlah, event_id from sa_schedule WHERE jumlah>1 GROUP BY event_id  
+
+
+2023-11-16 10:06:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_mandays_kpi' doesn't exist
+- Query 		: SELECT * FROM sa_mandays_kpi WHERE order_number='ORD-2023-01098'
+
+
+2023-11-16 10:15:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'S1' in 'field list'
+- Query 		: SELECT S1 FROM sa_schedule AS S1  
+INNER JOIN sa_schedule AS S2   
+WHERE S1.permalink < S2.permalink AND S1.event_id = S2.event_id;
+
+
+2023-11-16 10:15:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'S1' in 'field list'
+- Query 		: SELECT S1 FROM sa_preschedule AS S1  
+INNER JOIN sa_schedule AS S2   
+WHERE S1.event_id < S2.event_id AND S1.event_id = S2.event_id;
+
+
+2023-11-16 10:33:01
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WZP22280Z8H%'
+
+
+2023-11-16 10:33:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Lock wait timeout exceeded; try restarting transaction
+- Query 		: DELETE S1 FROM sa_schedule AS S1 INNER JOIN sa_schedule AS S2 WHERE S1.start_time < S2.start_time AND S1.event_id = S2.event_id
+
+
+
+2023-11-16 10:42:01
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Lock wait timeout exceeded; try restarting transaction
+- Query 		: DELETE S1 FROM sa_schedule AS S1 INNER JOIN sa_schedule AS S2 WHERE S1.start_time < S2.start_time AND S1.event_id = S2.event_id
+
+
+2023-11-16 11:05:19
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%58T0A1B6F8KC%'
+
+
+2023-11-16 11:05:20
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WZP22280Z8H%'
+
+
+2023-11-16 16:01:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_data_so' doesn't exist
+- Query 		: SELECT * FROM sa_data_so WHERE project_code_kpi='TK003622K0003' OR project_code_kpi='TT004022G0002' OR project_code_kpi='TB000522B0030' OR project_code_kpi='TA002223E0038' OR project_code_kpi='TK017423K0001' OR project_code_kpi='TS003723B0002' OR project_code_kpi='TB029922D0003' OR project_code_kpi='TB001022C0067'

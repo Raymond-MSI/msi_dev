@@ -1,0 +1,18 @@
+File Error Log
+
+2024-01-19 16:20:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.resource_email' in 'on clause'
+- Query 		: SELECT * FROM sa_user a left join sa_productivity_alluser ON a.resource_email=b.resource_email AND a.order_number=b.order_number AND a.project_type=b.project_type WHERE a.tahun_review=2023
+
+
+2024-01-19 16:42:58
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.nilai_akhir_aktual_ideal' in 'field list'
+- Query 		: SELECT a.Nama,a.project_code,a.project_name,a.nilai_akhir_aktual_ideal as Nilai_KPI_Resource,b.nilai_productivity FROM sa_user a left join sa_productivity_alluser b ON a.resource_email=b.resource_email AND a.order_number=b.order_number AND a.project_type=b.project_type WHERE a.tahun_review=2023 AND a.kpi_status='Reviewed'

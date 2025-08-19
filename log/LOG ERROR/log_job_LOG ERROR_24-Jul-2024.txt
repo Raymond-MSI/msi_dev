@@ -1,0 +1,5273 @@
+File Error Log
+
+2024-07-24 00:18:20
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'ikhsan.hidayatullah@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 00:18:21
+- Server 		: Prod
+- User 			: ikhsan.hidayatullah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='ikhsan.hidayatullah'
+
+
+2024-07-24 00:18:21
+- Server 		: Prod
+- User 			: ikhsan.hidayatullah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='ikhsan.hidayatullah'
+
+
+2024-07-24 00:18:23
+- Server 		: Prod
+- User 			: ikhsan.hidayatullah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='ikhsan.hidayatullah'
+
+
+2024-07-24 00:18:23
+- Server 		: Prod
+- User 			: ikhsan.hidayatullah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='ikhsan.hidayatullah'
+
+
+2024-07-24 00:18:43
+- Server 		: Prod
+- User 			: ikhsan.hidayatullah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='ikhsan.hidayatullah'
+
+
+2024-07-24 00:18:44
+- Server 		: Prod
+- User 			: ikhsan.hidayatullah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='ikhsan.hidayatullah'
+
+
+2024-07-24 00:19:12
+- Server 		: Prod
+- User 			: ikhsan.hidayatullah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='ikhsan.hidayatullah'
+
+
+2024-07-24 00:19:13
+- Server 		: Prod
+- User 			: ikhsan.hidayatullah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='ikhsan.hidayatullah'
+
+
+2024-07-24 00:19:35
+- Server 		: Prod
+- User 			: ikhsan.hidayatullah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='ikhsan.hidayatullah'
+
+
+2024-07-24 00:19:36
+- Server 		: Prod
+- User 			: ikhsan.hidayatullah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='ikhsan.hidayatullah'
+
+
+2024-07-24 00:19:38
+- Server 		: Prod
+- User 			: ikhsan.hidayatullah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='ikhsan.hidayatullah'
+
+
+2024-07-24 00:19:38
+- Server 		: Prod
+- User 			: ikhsan.hidayatullah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='ikhsan.hidayatullah'
+
+
+2024-07-24 00:20:19
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'ikhsan.hidayatullah@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 00:20:19
+- Server 		: Prod
+- User 			: ikhsan.hidayatullah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='ikhsan.hidayatullah'
+
+
+2024-07-24 00:20:20
+- Server 		: Prod
+- User 			: ikhsan.hidayatullah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='ikhsan.hidayatullah'
+
+
+2024-07-24 00:24:05
+- Server 		: Prod
+- User 			: ikhsan.hidayatullah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='ikhsan.hidayatullah'
+
+
+2024-07-24 00:24:06
+- Server 		: Prod
+- User 			: ikhsan.hidayatullah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='ikhsan.hidayatullah'
+
+
+2024-07-24 08:16:40
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'parama@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 08:16:41
+- Server 		: Prod
+- User 			: parama
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='parama'
+
+
+2024-07-24 08:16:41
+- Server 		: Prod
+- User 			: parama
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='parama'
+
+
+2024-07-24 08:17:00
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'royger.febriansyah@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 08:17:00
+- Server 		: Prod
+- User 			: royger.febriansyah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='royger.febriansyah'
+
+
+2024-07-24 08:17:00
+- Server 		: Prod
+- User 			: royger.febriansyah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='royger.febriansyah'
+
+
+2024-07-24 08:18:01
+- Server 		: Prod
+- User 			: royger.febriansyah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='royger.febriansyah'
+
+
+2024-07-24 08:18:02
+- Server 		: Prod
+- User 			: royger.febriansyah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='royger.febriansyah'
+
+
+2024-07-24 08:19:17
+- Server 		: Prod
+- User 			: royger.febriansyah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='royger.febriansyah'
+
+
+2024-07-24 08:19:17
+- Server 		: Prod
+- User 			: royger.febriansyah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='royger.febriansyah'
+
+
+2024-07-24 08:43:06
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'malik.aulia@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 08:43:06
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 08:43:06
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='malik.aulia'
+
+
+2024-07-24 08:43:22
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 08:43:22
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='malik.aulia'
+
+
+2024-07-24 08:46:53
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 08:46:53
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='malik.aulia'
+
+
+2024-07-24 08:55:35
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 08:55:35
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='malik.aulia'
+
+
+2024-07-24 08:55:39
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 08:55:39
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='malik.aulia'
+
+
+2024-07-24 08:55:42
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 08:55:42
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='malik.aulia'
+
+
+2024-07-24 09:00:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'irfan.zaki@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 09:00:18
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='irfan.zaki'
+
+
+2024-07-24 09:00:18
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='irfan.zaki'
+
+
+2024-07-24 09:01:08
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='irfan.zaki'
+
+
+2024-07-24 09:01:09
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='irfan.zaki'
+
+
+2024-07-24 09:01:26
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='irfan.zaki'
+
+
+2024-07-24 09:01:26
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='irfan.zaki'
+
+
+2024-07-24 09:01:38
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='irfan.zaki'
+
+
+2024-07-24 09:01:39
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='irfan.zaki'
+
+
+2024-07-24 09:01:45
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='irfan.zaki'
+
+
+2024-07-24 09:01:45
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='irfan.zaki'
+
+
+2024-07-24 09:01:46
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='irfan.zaki'
+
+
+2024-07-24 09:01:47
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='irfan.zaki'
+
+
+2024-07-24 09:01:51
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='irfan.zaki'
+
+
+2024-07-24 09:01:51
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='irfan.zaki'
+
+
+2024-07-24 09:03:32
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='irfan.zaki'
+
+
+2024-07-24 09:03:32
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='irfan.zaki'
+
+
+2024-07-24 09:03:47
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 09:03:47
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='malik.aulia'
+
+
+2024-07-24 09:08:22
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 09:08:22
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='malik.aulia'
+
+
+2024-07-24 09:08:25
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='irfan.zaki'
+
+
+2024-07-24 09:08:25
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='irfan.zaki'
+
+
+2024-07-24 09:09:21
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='irfan.zaki'
+
+
+2024-07-24 09:09:21
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='irfan.zaki'
+
+
+2024-07-24 09:09:26
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='irfan.zaki'
+
+
+2024-07-24 09:09:26
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='irfan.zaki'
+
+
+2024-07-24 09:10:24
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='irfan.zaki'
+
+
+2024-07-24 09:10:24
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='irfan.zaki'
+
+
+2024-07-24 09:12:46
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='irfan.zaki'
+
+
+2024-07-24 09:12:47
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='irfan.zaki'
+
+
+2024-07-24 09:16:14
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='irfan.zaki'
+
+
+2024-07-24 09:16:15
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='irfan.zaki'
+
+
+2024-07-24 09:18:59
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 09:19:00
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='malik.aulia'
+
+
+2024-07-24 09:19:17
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 09:19:29
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 09:19:39
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 09:20:08
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 09:20:08
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: show tables
+
+
+2024-07-24 09:20:13
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 09:20:17
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 09:20:17
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: show tables
+
+
+2024-07-24 09:20:25
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 09:20:45
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 09:20:50
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 09:20:50
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='malik.aulia'
+
+
+2024-07-24 09:22:02
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'bill.julian@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 09:22:03
+- Server 		: Prod
+- User 			: bill.julian
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='bill.julian'
+
+
+2024-07-24 09:22:03
+- Server 		: Prod
+- User 			: bill.julian
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='bill.julian'
+
+
+2024-07-24 09:22:31
+- Server 		: Prod
+- User 			: bill.julian
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='bill.julian'
+
+
+2024-07-24 09:22:32
+- Server 		: Prod
+- User 			: bill.julian
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='bill.julian'
+
+
+2024-07-24 09:23:44
+- Server 		: Prod
+- User 			: bill.julian
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='bill.julian'
+
+
+2024-07-24 09:23:44
+- Server 		: Prod
+- User 			: bill.julian
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='bill.julian'
+
+
+2024-07-24 09:25:25
+- Server 		: Prod
+- User 			: bill.julian
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='bill.julian'
+
+
+2024-07-24 09:25:25
+- Server 		: Prod
+- User 			: bill.julian
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='bill.julian'
+
+
+2024-07-24 09:30:00
+- Server 		: Prod
+- User 			: bill.julian
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='bill.julian'
+
+
+2024-07-24 09:30:00
+- Server 		: Prod
+- User 			: bill.julian
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='bill.julian'
+
+
+2024-07-24 09:36:35
+- Server 		: Prod
+- User 			: bill.julian
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='bill.julian'
+
+
+2024-07-24 09:36:36
+- Server 		: Prod
+- User 			: bill.julian
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='bill.julian'
+
+
+2024-07-24 09:38:32
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 09:38:33
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='malik.aulia'
+
+
+2024-07-24 09:38:46
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 09:38:47
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='malik.aulia'
+
+
+2024-07-24 09:38:55
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 09:38:59
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 09:48:25
+- Server 		: Prod
+- User 			: bill.julian
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='bill.julian'
+
+
+2024-07-24 09:48:26
+- Server 		: Prod
+- User 			: bill.julian
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='bill.julian'
+
+
+2024-07-24 09:48:29
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 09:48:54
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'aryo.bimo@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 09:48:55
+- Server 		: Prod
+- User 			: aryo.bimo
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='aryo.bimo'
+
+
+2024-07-24 09:48:55
+- Server 		: Prod
+- User 			: aryo.bimo
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='aryo.bimo'
+
+
+2024-07-24 09:49:09
+- Server 		: Prod
+- User 			: aryo.bimo
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='aryo.bimo'
+
+
+2024-07-24 09:49:09
+- Server 		: Prod
+- User 			: aryo.bimo
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='aryo.bimo'
+
+
+2024-07-24 09:49:21
+- Server 		: Prod
+- User 			: aryo.bimo
+- Module 		: product_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='aryo.bimo'
+
+
+2024-07-24 09:49:27
+- Server 		: Prod
+- User 			: aryo.bimo
+- Module 		: product_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='aryo.bimo'
+
+
+2024-07-24 09:49:29
+- Server 		: Prod
+- User 			: aryo.bimo
+- Module 		: product_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='aryo.bimo'
+
+
+2024-07-24 09:49:29
+- Server 		: Prod
+- User 			: aryo.bimo
+- Module 		: product_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE resign_date IS NULL ORDER BY employee_name ASC
+
+
+2024-07-24 09:49:35
+- Server 		: Prod
+- User 			: aryo.bimo
+- Module 		: product_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='aryo.bimo'
+
+
+2024-07-24 09:49:42
+- Server 		: Prod
+- User 			: aryo.bimo
+- Module 		: product_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='aryo.bimo'
+
+
+2024-07-24 09:49:43
+- Server 		: Prod
+- User 			: aryo.bimo
+- Module 		: product_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE resign_date IS NULL ORDER BY employee_name ASC
+
+
+2024-07-24 09:49:48
+- Server 		: Prod
+- User 			: aryo.bimo
+- Module 		: product_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='aryo.bimo'
+
+
+2024-07-24 09:50:13
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 09:50:34
+- Server 		: Prod
+- User 			: bill.julian
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='bill.julian'
+
+
+2024-07-24 09:50:34
+- Server 		: Prod
+- User 			: bill.julian
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='bill.julian'
+
+
+2024-07-24 09:51:46
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'nanda.prasetyo@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 09:51:46
+- Server 		: Prod
+- User 			: nanda.prasetyo
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='nanda.prasetyo'
+
+
+2024-07-24 09:51:46
+- Server 		: Prod
+- User 			: nanda.prasetyo
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='nanda.prasetyo'
+
+
+2024-07-24 09:52:02
+- Server 		: Prod
+- User 			: nanda.prasetyo
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='nanda.prasetyo'
+
+
+2024-07-24 09:52:02
+- Server 		: Prod
+- User 			: nanda.prasetyo
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='nanda.prasetyo'
+
+
+2024-07-24 09:52:06
+- Server 		: Prod
+- User 			: nanda.prasetyo
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='nanda.prasetyo'
+
+
+2024-07-24 09:52:07
+- Server 		: Prod
+- User 			: nanda.prasetyo
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='nanda.prasetyo'
+
+
+2024-07-24 09:52:51
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 09:56:34
+- Server 		: Prod
+- User 			: aryo.bimo
+- Module 		: product_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='aryo.bimo'
+
+
+2024-07-24 09:56:43
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'chrisheryanda@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 09:56:44
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 09:57:24
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 09:57:38
+- Server 		: Prod
+- User 			: bill.julian
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='bill.julian'
+
+
+2024-07-24 09:57:38
+- Server 		: Prod
+- User 			: bill.julian
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='bill.julian'
+
+
+2024-07-24 09:58:36
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 09:59:38
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 09:59:53
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:00:05
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:00:45
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:01:26
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:02:51
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:03:20
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:04:28
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'hartini.satiawan@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 10:04:28
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:04:29
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 10:05:16
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:05:19
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'iwan@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 10:05:19
+- Server 		: Prod
+- User 			: iwan
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='iwan'
+
+
+2024-07-24 10:05:19
+- Server 		: Prod
+- User 			: iwan
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='iwan'
+
+
+2024-07-24 10:05:28
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:05:38
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:05:38
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 10:05:40
+- Server 		: Prod
+- User 			: iwan
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='iwan'
+
+
+2024-07-24 10:05:40
+- Server 		: Prod
+- User 			: iwan
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='iwan'
+
+
+2024-07-24 10:06:16
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:06:16
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:06:16
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:06:23
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:06:23
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:06:23
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:07:09
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:07:09
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 10:07:33
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:07:58
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:10:08
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:10:26
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:10:47
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:11:05
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:11:05
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:11:05
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:11:10
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:11:10
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:11:10
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:11:25
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:11:41
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:12:01
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:12:20
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:12:29
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:12:45
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:13:02
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:14:00
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:14:26
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:14:26
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='malik.aulia'
+
+
+2024-07-24 10:14:35
+- Server 		: Prod
+- User 			: aryo.bimo
+- Module 		: product_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='aryo.bimo'
+
+
+2024-07-24 10:14:46
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:14:46
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='chrisheryanda'
+
+
+2024-07-24 10:15:20
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:15:20
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='chrisheryanda'
+
+
+2024-07-24 10:15:23
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:15:46
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:15:46
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_initial_jobroles_project WHERE project_code='TB002323I0009'
+
+
+2024-07-24 10:15:52
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:15:57
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:15:57
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 10:15:59
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'syamsul@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 10:15:59
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:15:59
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:15:59
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:16:00
+- Server 		: Prod
+- User 			: syamsul
+- Module 		: eval
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 10:16:09
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:16:09
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'juan.sapto@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 10:16:09
+- Server 		: Prod
+- User 			: juan.sapto
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='juan.sapto'
+
+
+2024-07-24 10:16:09
+- Server 		: Prod
+- User 			: juan.sapto
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='juan.sapto'
+
+
+2024-07-24 10:16:11
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:16:11
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:16:11
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:16:37
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:16:37
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='malik.aulia'
+
+
+2024-07-24 10:16:53
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:17:02
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 10:17:03
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 10:17:12
+- Server 		: Prod
+- User 			: juan.sapto
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='juan.sapto'
+
+
+2024-07-24 10:17:12
+- Server 		: Prod
+- User 			: juan.sapto
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='juan.sapto'
+
+
+2024-07-24 10:17:25
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:17:33
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:17:38
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:17:40
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:17:40
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: show tables
+
+
+2024-07-24 10:17:42
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:17:51
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:17:53
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:17:53
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: select * from sa_hcm_requirement
+
+
+2024-07-24 10:18:06
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:18:43
+- Server 		: Prod
+- User 			: juan.sapto
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='juan.sapto'
+
+
+2024-07-24 10:18:43
+- Server 		: Prod
+- User 			: juan.sapto
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='juan.sapto'
+
+
+2024-07-24 10:18:46
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:19:03
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:19:11
+- Server 		: Prod
+- User 			: juan.sapto
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='juan.sapto'
+
+
+2024-07-24 10:19:12
+- Server 		: Prod
+- User 			: juan.sapto
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='juan.sapto'
+
+
+2024-07-24 10:20:02
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:20:11
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:20:21
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:20:35
+- Server 		: Prod
+- User 			: juan.sapto
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='juan.sapto'
+
+
+2024-07-24 10:20:35
+- Server 		: Prod
+- User 			: juan.sapto
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='juan.sapto'
+
+
+2024-07-24 10:20:36
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:20:36
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:20:36
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: order_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:21:03
+- Server 		: Prod
+- User 			: juan.sapto
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='juan.sapto'
+
+
+2024-07-24 10:21:04
+- Server 		: Prod
+- User 			: juan.sapto
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='juan.sapto'
+
+
+2024-07-24 10:21:09
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:21:24
+- Server 		: Prod
+- User 			: juan.sapto
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='juan.sapto'
+
+
+2024-07-24 10:21:25
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:21:25
+- Server 		: Prod
+- User 			: juan.sapto
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='juan.sapto'
+
+
+2024-07-24 10:21:48
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:23:24
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:23:57
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:24:23
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:25:46
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:26:58
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:27:35
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'farrel.raditya@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 10:27:37
+- Server 		: Prod
+- User 			: farrel.raditya
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='farrel.raditya'
+
+
+2024-07-24 10:27:37
+- Server 		: Prod
+- User 			: farrel.raditya
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='farrel.raditya'
+
+
+2024-07-24 10:27:38
+- Server 		: Prod
+- User 			: syamsul
+- Module 		: web_config_v3
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 10:27:51
+- Server 		: Prod
+- User 			: farrel.raditya
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='farrel.raditya'
+
+
+2024-07-24 10:27:51
+- Server 		: Prod
+- User 			: farrel.raditya
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='farrel.raditya'
+
+
+2024-07-24 10:28:06
+- Server 		: Prod
+- User 			: syamsul
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 10:28:06
+- Server 		: Prod
+- User 			: syamsul
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 10:28:12
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:28:20
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:28:31
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:28:35
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:28:36
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:28:49
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:28:54
+- Server 		: Prod
+- User 			: farrel.raditya
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='farrel.raditya'
+
+
+2024-07-24 10:28:54
+- Server 		: Prod
+- User 			: farrel.raditya
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='farrel.raditya'
+
+
+2024-07-24 10:29:00
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'alan.maulana@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 10:29:00
+- Server 		: Prod
+- User 			: farrel.raditya
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='farrel.raditya'
+
+
+2024-07-24 10:29:00
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='alan.maulana'
+
+
+2024-07-24 10:29:00
+- Server 		: Prod
+- User 			: farrel.raditya
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='farrel.raditya'
+
+
+2024-07-24 10:29:00
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='alan.maulana'
+
+
+2024-07-24 10:29:01
+- Server 		: Prod
+- User 			: syamsul
+- Module 		: hcm
+- SubModule		: employee_list
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 10:29:02
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='alan.maulana'
+
+
+2024-07-24 10:29:03
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='alan.maulana'
+
+
+2024-07-24 10:29:03
+- Server 		: Prod
+- User 			: syamsul
+- Module 		: hcm
+- SubModule		: employee_list
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_department
+
+
+2024-07-24 10:29:05
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:29:08
+- Server 		: Prod
+- User 			: farrel.raditya
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='farrel.raditya'
+
+
+2024-07-24 10:29:09
+- Server 		: Prod
+- User 			: farrel.raditya
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='farrel.raditya'
+
+
+2024-07-24 10:29:16
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='alan.maulana'
+
+
+2024-07-24 10:29:16
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='alan.maulana'
+
+
+2024-07-24 10:29:18
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:29:19
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:29:22
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 10:29:23
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 10:29:24
+- Server 		: Prod
+- User 			: farrel.raditya
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='farrel.raditya'
+
+
+2024-07-24 10:29:24
+- Server 		: Prod
+- User 			: farrel.raditya
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='farrel.raditya'
+
+
+2024-07-24 10:29:26
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='alan.maulana'
+
+
+2024-07-24 10:29:26
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='alan.maulana'
+
+
+2024-07-24 10:29:28
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='alan.maulana'
+
+
+2024-07-24 10:29:28
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='alan.maulana'
+
+
+2024-07-24 10:29:41
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:29:50
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'farrel.raditya@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 10:29:50
+- Server 		: Prod
+- User 			: farrel.raditya
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='farrel.raditya'
+
+
+2024-07-24 10:29:50
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:29:50
+- Server 		: Prod
+- User 			: farrel.raditya
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='farrel.raditya'
+
+
+2024-07-24 10:30:05
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:30:22
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:30:32
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:30:47
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:31:09
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:31:47
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='alan.maulana'
+
+
+2024-07-24 10:31:48
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='alan.maulana'
+
+
+2024-07-24 10:31:49
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='alan.maulana'
+
+
+2024-07-24 10:31:49
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='alan.maulana'
+
+
+2024-07-24 10:31:59
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:32:39
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:32:39
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 10:32:45
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:32:45
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 10:33:11
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:33:29
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:34:20
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:34:20
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 10:34:25
+- Server 		: Prod
+- User 			: aryo.bimo
+- Module 		: product_list
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='aryo.bimo'
+
+
+2024-07-24 10:34:33
+- Server 		: Prod
+- User 			: aryo.bimo
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='aryo.bimo'
+
+
+2024-07-24 10:34:33
+- Server 		: Prod
+- User 			: aryo.bimo
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='aryo.bimo'
+
+
+2024-07-24 10:34:34
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:34:40
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:34:53
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:35:17
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='alan.maulana'
+
+
+2024-07-24 10:35:17
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='alan.maulana'
+
+
+2024-07-24 10:35:49
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='alan.maulana'
+
+
+2024-07-24 10:35:49
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='alan.maulana'
+
+
+2024-07-24 10:35:49
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:36:20
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:36:32
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:36:42
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:37:04
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:37:06
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:37:27
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:38:38
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 10:38:38
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 10:39:59
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:39:59
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 10:40:03
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:40:03
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 10:41:23
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:41:23
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 10:41:31
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:41:36
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:41:36
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 10:41:43
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:41:43
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 10:41:54
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:41:55
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:41:56
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:41:57
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:41:58
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:41:59
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:42:01
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:42:08
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:42:08
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 10:42:09
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:42:09
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:42:10
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:42:15
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:42:17
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:42:19
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:42:19
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 10:42:24
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:42:24
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 10:42:37
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:43:15
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:43:15
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_id' in 'where clause'
+- Query 		: select * from sa_workload_config WHERE project_id='IEAEOPF5I47LRQ7M' 
+
+
+2024-07-24 10:43:22
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:43:22
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_id' in 'where clause'
+- Query 		: select * from sa_workload_jobroles_config WHERE project_id='IEAEOPF5I47LRQ7M' 
+
+
+2024-07-24 10:43:27
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:43:45
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:43:47
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'malik.aulia@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 10:43:47
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:43:50
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:43:55
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:43:55
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 10:44:18
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:44:21
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:44:29
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'royger.febriansyah@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 10:44:30
+- Server 		: Prod
+- User 			: royger.febriansyah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='royger.febriansyah'
+
+
+2024-07-24 10:44:30
+- Server 		: Prod
+- User 			: royger.febriansyah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='royger.febriansyah'
+
+
+2024-07-24 10:44:38
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:44:38
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 10:44:41
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:44:52
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 10:44:52
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 10:45:37
+- Server 		: Prod
+- User 			: royger.febriansyah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='royger.febriansyah'
+
+
+2024-07-24 10:45:37
+- Server 		: Prod
+- User 			: royger.febriansyah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='royger.febriansyah'
+
+
+2024-07-24 10:45:39
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'irfan.zaki@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 10:45:40
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='irfan.zaki'
+
+
+2024-07-24 10:45:40
+- Server 		: Prod
+- User 			: irfan.zaki
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='irfan.zaki'
+
+
+2024-07-24 10:45:41
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 10:45:41
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 10:45:41
+- Server 		: Prod
+- User 			: royger.febriansyah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='royger.febriansyah'
+
+
+2024-07-24 10:45:42
+- Server 		: Prod
+- User 			: royger.febriansyah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='royger.febriansyah'
+
+
+2024-07-24 10:46:15
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 10:46:15
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 10:46:15
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='alan.maulana'
+
+
+2024-07-24 10:46:16
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='alan.maulana'
+
+
+2024-07-24 10:46:30
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:46:59
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 10:46:59
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 10:47:35
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 10:47:45
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='chrisheryanda'
+
+
+2024-07-24 10:47:54
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 10:47:55
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 10:48:24
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:48:33
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 10:48:34
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 10:48:36
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 10:48:36
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 10:48:54
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:49:20
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:49:49
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:50:30
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:50:47
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 10:51:17
+- Server 		: Prod
+- User 			: farrel.raditya
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='farrel.raditya'
+
+
+2024-07-24 10:51:17
+- Server 		: Prod
+- User 			: farrel.raditya
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='farrel.raditya'
+
+
+2024-07-24 10:52:19
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:53:26
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:53:28
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:53:29
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:53:30
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:53:31
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:53:32
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:53:33
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:53:34
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:53:35
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:55:25
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:55:25
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 10:55:39
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:56:05
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:56:05
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 10:56:09
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 10:56:19
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'syamsul@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 10:56:19
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 10:56:19
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 10:56:29
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:56:40
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:56:49
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'syamsul@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 10:56:49
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:56:49
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'outer join sa_wrike_integrate.sa_resource_assignment b ON a.order_number=b.or...' at line 1
+- Query 		: select * from sa_kpi_so_wr a outer join sa_wrike_integrate.sa_resource_assignment b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%' AND b.project_type='Maintenance' GROUP BY b.order_number
+
+
+2024-07-24 10:56:49
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 10:56:49
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 10:56:59
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:57:37
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:58:09
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:58:18
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 10:58:18
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'syamsul@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 10:58:23
+- Server 		: Prod
+- User 			: royger.febriansyah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='royger.febriansyah'
+
+
+2024-07-24 10:58:23
+- Server 		: Prod
+- User 			: royger.febriansyah
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='royger.febriansyah'
+
+
+2024-07-24 11:00:36
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 11:00:57
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='alan.maulana'
+
+
+2024-07-24 11:00:57
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='alan.maulana'
+
+
+2024-07-24 11:00:58
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='alan.maulana'
+
+
+2024-07-24 11:00:58
+- Server 		: Prod
+- User 			: alan.maulana
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='alan.maulana'
+
+
+2024-07-24 11:01:04
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 11:01:04
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 11:01:12
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 11:01:13
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 11:01:13
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 11:01:16
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 11:01:50
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 11:01:50
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 11:01:57
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 11:01:57
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 11:02:04
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 11:02:27
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:02:36
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'syamsul@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 11:02:38
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 11:02:38
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 11:02:46
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:02:47
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'syamsul@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 11:03:11
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:03:58
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:04:25
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:05:47
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:06:13
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:06:21
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:06:25
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 11:06:25
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 11:06:43
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:06:50
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:06:55
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:06:58
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:07:01
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'nanda.prasetyo@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 11:07:01
+- Server 		: Prod
+- User 			: nanda.prasetyo
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='nanda.prasetyo'
+
+
+2024-07-24 11:07:01
+- Server 		: Prod
+- User 			: nanda.prasetyo
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='nanda.prasetyo'
+
+
+2024-07-24 11:07:09
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:07:11
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:07:40
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='hartini.satiawan'
+
+
+2024-07-24 11:07:40
+- Server 		: Prod
+- User 			: hartini.satiawan
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='hartini.satiawan'
+
+
+2024-07-24 11:09:01
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 11:09:01
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 11:10:05
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 11:10:08
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 11:10:28
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 11:10:28
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 11:10:48
+- Server 		: Prod
+- User 			: nanda.prasetyo
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='nanda.prasetyo'
+
+
+2024-07-24 11:10:48
+- Server 		: Prod
+- User 			: nanda.prasetyo
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='nanda.prasetyo'
+
+
+2024-07-24 11:11:06
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'pitasari.amanda@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-07-24 11:11:07
+- Server 		: Prod
+- User 			: pitasari.amanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='pitasari.amanda'
+
+
+2024-07-24 11:11:07
+- Server 		: Prod
+- User 			: pitasari.amanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='pitasari.amanda'
+
+
+2024-07-24 11:11:09
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 11:11:09
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 11:11:19
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 11:11:21
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:11:26
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:11:42
+- Server 		: Prod
+- User 			: pitasari.amanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='pitasari.amanda'
+
+
+2024-07-24 11:11:42
+- Server 		: Prod
+- User 			: pitasari.amanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='pitasari.amanda'
+
+
+2024-07-24 11:11:43
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:11:48
+- Server 		: Prod
+- User 			: nanda.prasetyo
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='nanda.prasetyo'
+
+
+2024-07-24 11:11:48
+- Server 		: Prod
+- User 			: nanda.prasetyo
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='nanda.prasetyo'
+
+
+2024-07-24 11:12:00
+- Server 		: Prod
+- User 			: pitasari.amanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='pitasari.amanda'
+
+
+2024-07-24 11:12:01
+- Server 		: Prod
+- User 			: pitasari.amanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='pitasari.amanda'
+
+
+2024-07-24 11:12:09
+- Server 		: Prod
+- User 			: pitasari.amanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='pitasari.amanda'
+
+
+2024-07-24 11:12:09
+- Server 		: Prod
+- User 			: pitasari.amanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='pitasari.amanda'
+
+
+2024-07-24 11:12:15
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:12:32
+- Server 		: Prod
+- User 			: pitasari.amanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='pitasari.amanda'
+
+
+2024-07-24 11:12:33
+- Server 		: Prod
+- User 			: pitasari.amanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='pitasari.amanda'
+
+
+2024-07-24 11:12:46
+- Server 		: Prod
+- User 			: pitasari.amanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='pitasari.amanda'
+
+
+2024-07-24 11:12:46
+- Server 		: Prod
+- User 			: pitasari.amanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='pitasari.amanda'
+
+
+2024-07-24 11:13:07
+- Server 		: Prod
+- User 			: pitasari.amanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='pitasari.amanda'
+
+
+2024-07-24 11:13:07
+- Server 		: Prod
+- User 			: pitasari.amanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='pitasari.amanda'
+
+
+2024-07-24 11:13:33
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:14:03
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:14:50
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 11:14:50
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 11:14:57
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:15:13
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:15:24
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:15:29
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:16:01
+- Server 		: Prod
+- User 			: pitasari.amanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='pitasari.amanda'
+
+
+2024-07-24 11:16:01
+- Server 		: Prod
+- User 			: pitasari.amanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='pitasari.amanda'
+
+
+2024-07-24 11:16:04
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 11:16:16
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 11:16:16
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 11:16:31
+- Server 		: Prod
+- User 			: pitasari.amanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='pitasari.amanda'
+
+
+2024-07-24 11:16:31
+- Server 		: Prod
+- User 			: pitasari.amanda
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='pitasari.amanda'
+
+
+2024-07-24 11:17:16
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 11:17:17
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 11:17:18
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='chrisheryanda'
+
+
+2024-07-24 11:17:19
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:17:24
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:17:25
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:17:49
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:17:50
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 11:17:50
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 11:18:07
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 11:18:07
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 11:18:08
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:18:09
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:18:25
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:18:25
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: select * from sa_hcm_requirement
+
+
+2024-07-24 11:18:27
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:18:27
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: select * from sa_hcm_requirement
+
+
+2024-07-24 11:18:37
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:18:41
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:18:45
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:18:48
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:18:48
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: show tables
+
+
+2024-07-24 11:18:59
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:19:30
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:20:56
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 11:20:56
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 11:21:26
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:21:35
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='syamsul'
+
+
+2024-07-24 11:21:35
+- Server 		: Prod
+- User 			: syamsul
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='syamsul'
+
+
+2024-07-24 11:21:57
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:22:20
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='malik.aulia'
+
+
+2024-07-24 11:30:06
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where entry_date like '%2024-07%'' at line 1
+- Query 		: select * from sa_trx_edo_request where employee_name like '%aldo octavian%' where entry_date like '%2024-07%'
+
+
+2024-07-24 13:33:36
+- Server 		: Prod
+- User 			: wirawan.bharata@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_id' in 'where clause'
+- Query 		: select * from sa_schedule WHERE project_id='IEAEOPF5I47LRQ7M' 
+
+
+2024-07-24 14:05:38
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_view_employees WHERE job_level = 3 AND employee_email IS NOT NULL AND...' at line 1
+- Query 		: SELECT  FROM sa_view_employees WHERE job_level = 3 AND employee_email IS NOT NULL AND organization_name LIKE 'support & %'
+
+
+2024-07-24 15:37:55
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-07-17' AND task_date <= '2024-07-31' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-07-24 15:38:36
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-07-17' AND task_date <= '2024-07-31' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-07-24 16:23:11
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_requirement_notecv' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_requirement_notecv
+
+
+
+2024-07-24 16:28:27
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect integer value: 'Unlimited' for column `sa_dashboard_kpi`.`sa_master_maintenance_date`.`ticket_allocation` at row 1
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`) VALUES (
+                'TS003721B0002', 
+                'ORD-2024-01049', 
+                '0',
+                'sales',
+                'Assignment dan Renewal dari Tim Sales Backdate',
+                'Unlimited', 
+                '24',
+                '8',
+                'Unlimited', 
+                '24',
+                '8',
+                '0',
+                'Za\'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>')
+
+
+2024-07-24 16:50:56
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect integer value: 'Unlimited' for column `sa_dashboard_kpi`.`sa_master_maintenance_date`.`ticket_allocation` at row 1
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`) VALUES (
+                'TS003721B0002', 
+                'ORD-2024-01049', 
+                '0',
+                'sales',
+                'Assignment dan Renewal dari Tim Sales Backdate',
+                'Unlimited', 
+                '24',
+                '8',
+                'Unlimited', 
+                '24',
+                '8',
+                '1',
+                'Za\'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>')

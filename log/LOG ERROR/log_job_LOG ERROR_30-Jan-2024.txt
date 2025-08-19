@@ -1,0 +1,18 @@
+File Error Log
+
+2024-01-30 09:41:10
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_maskomen' doesn't exist
+- Query 		: SELECT * FROM sa_maskomen LIMIT 0, 100
+
+
+2024-01-30 13:50:13
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 100' at line 1
+- Query 		: SELECT * FROM sa_survey WHERE status='Active' limit 100 LIMIT 0, 100

@@ -1,0 +1,45 @@
+File Error Log
+
+2024-05-28 10:27:26
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'order clause'
+- Query 		: select * from sa_change_request.sa_change_cost_plans ORDER BY id DESC LIMIT 100
+
+
+2024-05-28 11:03:00
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'paart_number' in 'where clause'
+- Query 		: select count(*) from sa_product_list where paart_number like "%N540"
+
+
+2024-05-28 12:34:46
+- Server 		: Prod
+- User 			: risqi.pratama@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE status = 'Selesai' LIMIT 0, 100
+
+
+2024-05-28 15:48:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_wrike_project_list' doesn't exist
+- Query 		: select * from sa_wrike_project_list WHERE project_code='TB002723D0065' OR project_code='TB002722D0099' OR project_code='TB002723D0025' OR project_code='TB002722D0054' OR project_code='TB002723D0038' GROUP BY project_code
+
+
+2024-05-28 17:52:35
+- Server 		: Prod
+- User 			: alfha.farrel@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'employee_email' in 'where clause'
+- Query 		: select * from sa_trx_edo_request where employee_email like '%alfha.farrel@mastersystem.co.id%'

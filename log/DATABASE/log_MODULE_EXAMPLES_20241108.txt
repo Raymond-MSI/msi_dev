@@ -1,0 +1,116 @@
+08-11-2024 15:11:21
+- User Name   : syamsul@mastersystem.co.id
+- Module      : examples
+- Sub-Module  : connection_version
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/menu/mod_menu_topbar.php(85): get_conn()
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(85): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_msiguide08-Nov-2024 15:11:21
+- SubModule : CONNECTION_VERSION
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC" - 
+
+08-11-2024 15:11:25
+- User Name   : syamsul@mastersystem.co.id
+- Module      : examples
+- Sub-Module  : connection_version
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/menu/mod_footer.php(5): get_conn()
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(107): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_microservices08-Nov-2024 15:11:25
+- SubModule : CONNECTION_VERSION
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_cfg_web WHERE config_key="TITLE_OF_WEBSITE"]  - "SELECT * FROM sa_cfg_web WHERE config_key="TITLE_OF_WEBSITE"" - 
+
+08-11-2024 15:16:15
+- User Name   : syamsul@mastersystem.co.id
+- Module      : examples
+- Sub-Module  : connection_version
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/menu/mod_menu_topbar.php(85): get_conn()
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(85): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_msiguide08-Nov-2024 15:16:15
+- SubModule : CONNECTION_VERSION
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC" - 
+
+08-11-2024 15:20:49
+- User Name   : syamsul@mastersystem.co.id
+- Module      : examples
+- Sub-Module  : connection_version
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/menu/mod_menu_topbar.php(85): get_conn()
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(85): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_msiguide08-Nov-2024 15:20:49
+- SubModule : CONNECTION_VERSION
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC" - 
+
+08-11-2024 15:29:41
+- User Name   : Not-Login
+- Module      : examples
+- Sub-Module  : connection_version
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/login.php(163): Databases->__construct()
+#2 /var/www/html/msizone/login.php(533): msiguide()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_msiguide08-Nov-2024 15:29:41
+- SubModule : CONNECTION_VERSION
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-11-01" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-11-01" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10" - 
+
+08-11-2024 15:38:40
+- User Name   : Not-Login
+- Module      : examples
+- Sub-Module  : connection_version
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/login.php(163): Databases->__construct()
+#2 /var/www/html/msizone/login.php(533): msiguide()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_msiguide08-Nov-2024 15:38:40
+- SubModule : CONNECTION_VERSION
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-11-01" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-11-01" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10" - 
+
+08-11-2024 16:04:09
+- User Name   : Not-Login
+- Module      : examples
+- Sub-Module  : connection_version
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/login.php(163): Databases->__construct()
+#2 /var/www/html/msizone/login.php(533): msiguide()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_msiguide08-Nov-2024 16:04:09
+- SubModule : CONNECTION_VERSION
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-11-01" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-11-01" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10" - 
+

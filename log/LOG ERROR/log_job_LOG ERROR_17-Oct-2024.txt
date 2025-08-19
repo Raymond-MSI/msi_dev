@@ -1,0 +1,200 @@
+File Error Log
+
+2024-10-17 08:44:44
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,21,2,1,20,'Ciena',350,1,1,'Imam Nawawi<imam.nawawi@mastersystem.co.id>')
+
+
+2024-10-17 08:44:44
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,51,2,1,6,'Ciena',700,1,1,'Imam Nawawi<imam.nawawi@mastersystem.co.id>')
+
+
+2024-10-17 08:44:44
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,2,1,30,'Ciena',350,1,1,'Imam Nawawi<imam.nawawi@mastersystem.co.id>')
+
+
+2024-10-17 08:44:44
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,2,1,38,'Ciena',250,1,1,'Imam Nawawi<imam.nawawi@mastersystem.co.id>')
+
+
+2024-10-17 08:52:12
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (24887,21,2,1,20,NULL,350,NULL,1,'Imam Nawawi<imam.nawawi@mastersystem.co.id>')
+
+
+2024-10-17 08:52:12
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (24887,51,2,1,6,NULL,700,NULL,1,'Imam Nawawi<imam.nawawi@mastersystem.co.id>')
+
+
+2024-10-17 08:52:12
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (24887,61,2,1,30,NULL,350,NULL,1,'Imam Nawawi<imam.nawawi@mastersystem.co.id>')
+
+
+2024-10-17 08:52:12
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (24887,71,2,1,38,NULL,250,NULL,1,'Imam Nawawi<imam.nawawi@mastersystem.co.id>')
+
+
+2024-10-17 09:09:02
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (24887,21,2,1,20,NULL,350,NULL,1,'Imam Nawawi<imam.nawawi@mastersystem.co.id>')
+
+
+2024-10-17 09:09:02
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (24887,51,2,1,6,NULL,700,NULL,1,'Imam Nawawi<imam.nawawi@mastersystem.co.id>')
+
+
+2024-10-17 09:09:02
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (24887,61,2,1,30,NULL,350,NULL,1,'Imam Nawawi<imam.nawawi@mastersystem.co.id>')
+
+
+2024-10-17 09:09:02
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (24887,71,2,1,38,NULL,250,NULL,1,'Imam Nawawi<imam.nawawi@mastersystem.co.id>')
+
+
+2024-10-17 09:46:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_wrike_task' doesn't exist
+- Query 		: select * from sa_wrike_task WHERE project_id='IEAEOPF5I5LZSXEU'
+
+
+2024-10-17 10:27:40
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id_note IN (257, 260)' at line 1
+- Query 		: DELETE sa_hcm_notecv WHERE id_note IN (257, 260)
+
+
+2024-10-17 10:34:39
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-10-17 10:36:00
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-10-17 10:37:22
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-10-17 13:49:30
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Truncated incorrect DOUBLE value: 'ORD-2023-00237'
+- Query 		: UPDATE sa_resource_assignment SET order_number='ORD-2023-00237' AND no_so='2023/SO/0606' WHERE project_code='TG001022I0022'
+
+
+2024-10-17 15:58:22
+- Server 		: Prod
+- User 			: muhammad.rafli@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB001723D0004', 
+                    'ORD-2023-01053', 
+                    'backup_mt_date',
+                    'Muhammad Rafli<muhammad.rafli@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-10-17 15:58:22
+- Server 		: Prod
+- User 			: muhammad.rafli@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB001723D0004', 
+                    'ORD-2023-01053', 
+                    'pmr_date',
+                    'Muhammad Rafli<muhammad.rafli@mastersystem.co.id>',
+                    NULLIF('Array',''))

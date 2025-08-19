@@ -1,0 +1,427 @@
+File Error Log
+
+2023-11-10 08:15:44
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-11-10 08:27:38
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-10 08:27:44
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QJX%'
+
+
+2023-11-10 08:27:49
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QL3%'
+
+
+2023-11-10 08:27:54
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028RKP%'
+
+
+2023-11-10 08:27:58
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-10 08:28:04
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QJX%'
+
+
+2023-11-10 08:28:07
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-10 08:38:34
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'status_return' in 'where clause'
+- Query 		: select * from sa_product_list where status_return = 'Dipilih';
+
+
+2023-11-10 08:50:14
+- Server 		: Prod
+- User 			: fronita@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `task_date` >= '2023-11-03'
+        AND `task_date` <= '2023-11-17'
+   ...' at line 4
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE 
+        AND `task_date` >= '2023-11-03'
+        AND `task_date` <= '2023-11-17'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+        
+        
+
+
+2023-11-10 08:51:08
+- Server 		: Prod
+- User 			: fronita@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `task_date` >= '2023-11-03'
+        AND `task_date` <= '2023-11-17'
+   ...' at line 4
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE 
+        AND `task_date` >= '2023-11-03'
+        AND `task_date` <= '2023-11-17'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+        
+        
+
+
+2023-11-10 08:52:07
+- Server 		: Prod
+- User 			: fronita@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `task_date` >= '2023-11-03'
+        AND `task_date` <= '2023-11-17'
+   ...' at line 4
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE 
+        AND `task_date` >= '2023-11-03'
+        AND `task_date` <= '2023-11-17'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+         AND `status_calender` = ''
+        
+
+
+2023-11-10 09:02:45
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) from sa_trx_survey' at line 1
+- Query 		: select distinct(*) from sa_trx_survey
+
+
+2023-11-10 09:03:17
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'so_number' in 'field list'
+- Query 		: select distinct(so_number) from sa_trx_survey
+
+
+2023-11-10 09:03:53
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'so_number' in 'field list'
+- Query 		: select distinct so_number from sa_trx_survey
+
+
+2023-11-10 09:14:17
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'status_asset' in 'field list'
+- Query 		: UPDATE sa_product_list
+SET status_asset= aktif
+WHERE nomor_seri = 'FCZ2203D1CB';
+
+
+2023-11-10 09:14:25
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'aktif' in 'field list'
+- Query 		: UPDATE sa_product_list
+SET status_product= aktif
+WHERE nomor_seri = 'FCZ2203D1CB';
+
+
+2023-11-10 10:27:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where transaction_id = '937961b9337ffe249c15101c2d4f651a'' at line 1
+- Query 		: select count(nomor_seri) where sa_transaction_product where transaction_id = '937961b9337ffe249c15101c2d4f651a';
+
+
+2023-11-10 11:08:29
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_product_list.transaction_id' in 'field list'
+- Query 		: SELECT sa_product_list.nomor_seri, sa_transaction_product.nomor_seri, sa_product_list.transaction_id
+FROM sa_product_list
+INNER JOIN sa_transaction_product
+ON sa_product_list.nomor_seri=sa_transaction_product.nomor_seri;
+
+
+2023-11-10 13:24:43
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-11-03' AND task_date <= '2023-11-17' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2023-11-10 13:31:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_workload_all_user' doesn't exist
+- Query 		: select * from sa_workload_all_user
+
+
+2023-11-10 13:31:36
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: show table
+
+
+2023-11-10 13:31:41
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: show table
+
+
+2023-11-10 13:32:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: show table
+
+
+2023-11-10 13:32:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: show table
+
+
+2023-11-10 13:32:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: show table
+
+
+2023-11-10 13:41:23
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where parent_id != 'Parent'' at line 5
+- Query 		: SELECT count(sa_product_list.nomor_seri)
+FROM sa_product_list
+JOIN sa_transaction_product
+ON sa_product_list.nomor_seri=sa_transaction_product.nomor_seri
+where transaction_id  ='8691467506eb909394714d00fd4f725c' where parent_id != 'Parent';
+
+
+
+2023-11-10 13:42:20
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_product_list.nomor_seri' in 'on clause'
+- Query 		: SELECT count(a.nomor_seri)
+FROM sa_product_list a
+JOIN sa_transaction_product
+ON sa_product_list.nomor_seri=sa_transaction_product.nomor_seri
+where transaction_id  ='8691467506eb909394714d00fd4f725c' and parent_id != 'Parent';
+
+
+
+2023-11-10 13:44:41
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.parent_id' in 'where clause'
+- Query 		: SELECT COUNT(a.nomor_seri)
+FROM sa_product_list a
+JOIN sa_transaction_product b ON a.nomor_seri = b.nomor_seri
+WHERE b.transaction_id = '8691467506eb909394714d00fd4f725c' AND (b.parent_id IS NULL OR b.parent_id != 'Parent');
+
+
+
+2023-11-10 13:45:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' a.resource_email, COUNT(b.diff_time) FROM sa_preschedule a LEFT JOIN sa_sche...' at line 1
+- Query 		: SELECT a.project_id, a.project_code,, a.resource_email, COUNT(b.diff_time) FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE b.attendees_email IS NOT NULL GROUP BY a.project_id, b.attendees_email 
+
+
+2023-11-10 13:48:29
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '"SELECT COUNT(a.nomor_seri) as NS FROM sa_product_list a JOIN sa_transaction_...' at line 1
+- Query 		: "SELECT COUNT(a.nomor_seri) as NS FROM sa_product_list a JOIN sa_transaction_product b ON a.nomor_seri = b.nomor_seri WHERE b.transaction_id = '8691467506eb909394714d00fd4f725c' AND a.parent_id is null"
+
+
+2023-11-10 13:51:17
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_trx_implementations' doesn't exist
+- Query 		: select * from sa_trx_implementations 
+
+
+
+2023-11-10 15:51:03
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-10 15:51:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QJX%'
+
+
+2023-11-10 15:51:16
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QL3%'
+
+
+2023-11-10 16:04:34
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%1%'
+
+
+2023-11-10 16:04:46
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%2%'
+
+
+2023-11-10 16:04:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%3%'
+
+
+2023-11-10 16:05:06
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%2%'
+
+
+2023-11-10 16:05:08
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%1%'
+
+
+2023-11-10 16:32:19
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%9999%'

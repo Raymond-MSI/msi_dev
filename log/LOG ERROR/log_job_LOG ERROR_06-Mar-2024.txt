@@ -1,0 +1,126 @@
+File Error Log
+
+2024-03-06 09:35:44
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-03-06 09:36:34
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-03-06 09:36:41
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-03-06 14:03:21
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: report_project_charter
+- SubModule		:  
+- Status 		: 
+- Query 		: 
+
+
+2024-03-06 14:04:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: report_project_charter
+- SubModule		:  
+- Status 		: 
+- Query 		: 
+
+
+2024-03-06 14:05:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: report_project_charter
+- SubModule		:  
+- Status 		: 
+- Query 		: 
+
+
+2024-03-06 14:06:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: report_project_charter
+- SubModule		:  
+- Status 		: 
+- Query 		: 
+
+
+2024-03-06 14:19:57
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: report_project_charter
+- SubModule		:  
+- Status 		: 
+- Query 		: 
+
+
+2024-03-06 14:21:49
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: report_project_charter
+- SubModule		:  
+- Status 		: 
+- Query 		: 
+
+
+2024-03-06 14:23:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: report_project_charter
+- SubModule		:  
+- Status 		: 
+- Query 		: 
+
+
+2024-03-06 16:11:55
+- Server 		: Prod
+- User 			: riswan.fadhilah@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-03-06 16:12:18
+- Server 		: Prod
+- User 			: riswan.fadhilah@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-03-06 16:12:27
+- Server 		: Prod
+- User 			: riswan.fadhilah@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-03-06 16:25:14
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC

@@ -1,0 +1,63 @@
+File Error Log
+
+2023-10-06 10:06:20
+- Server 		: Prod
+- User 			: muchib.zainul@mastersystem.co.id
+- Module 		: activity_log
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_log_database' doesn't exist
+- Query 		: SELECT * FROM sa_log_database WHERE entry_by='muchib.zainul@mastersystem.co.id' ORDER BY log_id DESC LIMIT 0, 100
+
+
+2023-10-06 10:32:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_eschedule' doesn't exist
+- Query 		: SELECT * FROM sa_eschedule WHERE event_id='1hrbfe21lqgar5kt4867mjsvng' 
+
+
+2023-10-06 11:07:40
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: activity_log
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_log_database' doesn't exist
+- Query 		: SELECT * FROM sa_log_database WHERE entry_by='aan.dafa@mastersystem.co.id' ORDER BY log_id DESC LIMIT 0, 100
+
+
+2023-10-06 12:44:49
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-09-29' AN...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',IF(`spen_time`>0,1,0)),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-09-29' AND task_date <= '2023-10-13' AND `resource_email` LIKE 'Aceng Zakariya Ramadani<aceng.zakariya@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2023-10-06 14:41:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_productivity.sa_productivity' doesn't exist
+- Query 		: SELECT * FROM sa_productivity WHERE status_calender is null
+
+
+2023-10-06 16:21:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: project_delay
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2023-10-06 21:57:52
+- Server 		: Prod
+- User 			: maad@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ad<maad@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-09-29' AND task_date <= '2023-10-13' AND `resource_email` LIKE 'Ma'ad<maad@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`

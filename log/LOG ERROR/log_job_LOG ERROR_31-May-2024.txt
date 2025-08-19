@@ -1,0 +1,219 @@
+File Error Log
+
+2024-05-31 10:52:07
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Lock wait timeout exceeded; try restarting transaction
+- Query 		: DELETE S1 FROM sa_table_report AS S1  
+INNER JOIN sa_table_report AS S2   
+WHERE S1.id < S2.id AND S1.order_number = S2.order_number 
+
+
+2024-05-31 11:32:12
+- Server 		: Prod
+- User 			: m.fahrizal@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'status_manager_hcm' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE status_manager_hcm = 'Approve' AND status_hcm_gm = 'Approve' AND status_manager_gm_bod = 'Approve' AND status != 'Selesai' LIMIT 0, 100
+
+
+2024-05-31 11:32:15
+- Server 		: Prod
+- User 			: m.fahrizal@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE status = 'Selesai' LIMIT 0, 100
+
+
+2024-05-31 14:11:00
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_resource_assignment WHERE project_type = 'Maintenance' LIMIT 0, 10000
+
+
+2024-05-31 14:17:08
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_resource_assignment WHERE project_type = 'Maintenance' LIMIT 0, 10000
+
+
+2024-05-31 14:17:09
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_resource_assignment WHERE project_type = 'Maintenance' LIMIT 0, 10000
+
+
+2024-05-31 14:17:11
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_resource_assignment WHERE project_type = 'Maintenance' LIMIT 0, 10000
+
+
+2024-05-31 14:17:13
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_resource_assignment WHERE project_type = 'Maintenance' LIMIT 0, 10000
+
+
+2024-05-31 14:36:24
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_preschedule' doesn't exist
+- Query 		: SELECT COUNT(a.task_name) AS total_task, a.project_id, a.project_code, b.project_type, a.resource_email FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id left join sa_wrike_integrate.sa_wrike_task c ON a.task_id=c.task_id WHERE b.response_status <>'declined' AND b.response_status<>'' AND b.response_status is not null AND a.work_date > '2023-03-31' AND a.project_id='IEAEOPF5I5GKAOOD' AND a.project_code='TB002723D0069' AND b.project_type='MSI Project Implementation' AND c.task_id is not null GROUP BY a.project_id,a.project_code,b.project_type,a.resource_email
+
+
+2024-05-31 14:46:40
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'flag' in 'field list'
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `addon_ticket_allocation`, 
+                `addon_mt_report_date`,
+                `addon_preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`) VALUES (
+                'TA001423B0001', 
+                'ORD-29391-P2J6P0', 
+                '0',
+                'implementation',
+                'data tes i',
+                '0', 
+                '0',
+                '0',
+                '3', 
+                '1',
+                '2',
+                '3', 
+                '1',
+                '2',
+                '0',
+                'Aceng Zakariya Ramadani<aceng.zakariya@mastersystem.co.id>')
+
+
+2024-05-31 14:48:52
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'flag' in 'field list'
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `addon_ticket_allocation`, 
+                `addon_mt_report_date`,
+                `addon_preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`) VALUES (
+                'TA001423B0001', 
+                'ORD-29391-P2J6P0', 
+                '0',
+                'customer',
+                'tes i',
+                '0', 
+                '0',
+                '0',
+                '5', 
+                '2',
+                '3',
+                '5', 
+                '2',
+                '3',
+                '0',
+                'Aceng Zakariya Ramadani<aceng.zakariya@mastersystem.co.id>')
+
+
+2024-05-31 15:21:38
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_wrike_project_List' doesn't exist
+- Query 		: SELECT * FROM sa_wrike_project_List WHERE order_number='ORD-29391-P2J6P0' AND project_type LIKE '%Maintenance%'
+
+
+2024-05-31 15:21:38
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_wrike_project_List' doesn't exist
+- Query 		: SELECT * FROM sa_wrike_project_List WHERE order_number='ORD-29391-P2J6P0' AND project_type LIKE '%Maintenance%'
+
+
+2024-05-31 15:25:57
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_wrike_project_List' doesn't exist
+- Query 		: SELECT * FROM sa_wrike_project_List WHERE order_number='ORD-29391-P2J6P0' AND project_type LIKE '%Maintenance%'
+
+
+2024-05-31 15:25:57
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_wrike_project_List' doesn't exist
+- Query 		: SELECT * FROM sa_wrike_project_List WHERE order_number='ORD-29391-P2J6P0' AND project_type LIKE '%Maintenance%'
+
+
+2024-05-31 15:27:40
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_wrike_project_List' doesn't exist
+- Query 		: SELECT * FROM sa_wrike_project_List WHERE order_number='ORD-29391-P2J6P0' AND project_type LIKE '%Maintenance%'
+
+
+2024-05-31 15:27:57
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_wrike_project_List' doesn't exist
+- Query 		: SELECT * FROM sa_wrike_project_List WHERE order_number='ORD-29391-P2J6P0' 

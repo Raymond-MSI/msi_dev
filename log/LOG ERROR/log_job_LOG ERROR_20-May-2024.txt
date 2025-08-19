@@ -1,0 +1,189 @@
+File Error Log
+
+2024-05-20 11:18:41
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_products.sa_transaction' doesn't exist
+- Query 		: select * from sa_transaction
+
+
+2024-05-20 11:18:56
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from sa_transaction' at line 1
+- Query 		: desc from sa_transaction
+
+
+2024-05-20 12:00:59
+- Server 		: Prod
+- User 			: arian.nur@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-05-20 12:00:59
+- Server 		: Prod
+- User 			: arian.nur@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-05-20 12:01:14
+- Server 		: Prod
+- User 			: arian.nur@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-05-20 12:01:14
+- Server 		: Prod
+- User 			: arian.nur@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-05-20 12:01:22
+- Server 		: Prod
+- User 			: arian.nur@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-05-20 12:01:22
+- Server 		: Prod
+- User 			: arian.nur@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-05-20 12:11:52
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sas_transaction' doesn't exist
+- Query 		: desc sas_transaction
+
+
+2024-05-20 15:02:39
+- Server 		: Prod
+- User 			: hardian.rustandi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-05-20 15:02:39
+- Server 		: Prod
+- User 			: hardian.rustandi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-05-20 15:02:43
+- Server 		: Prod
+- User 			: hardian.rustandi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-05-20 15:02:43
+- Server 		: Prod
+- User 			: hardian.rustandi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-05-20 15:02:49
+- Server 		: Prod
+- User 			: hardian.rustandi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-05-20 15:02:49
+- Server 		: Prod
+- User 			: hardian.rustandi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-05-20 16:31:25
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_requirement_posisi' doesn't exist
+- Query 		: SELECT DISTINCT posisi FROM sa_hcm_requirement_posisi
+
+
+2024-05-20 16:31:25
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_requirement_posisi' doesn't exist
+- Query 		: SELECT DISTINCT posisi FROM sa_hcm_requirement_posisi
+
+
+2024-05-20 16:33:44
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_requirement_posisi' doesn't exist
+- Query 		: SELECT DISTINCT posisi FROM sa_hcm_requirement_posisi
+
+
+2024-05-20 16:33:44
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_requirement_posisi' doesn't exist
+- Query 		: SELECT DISTINCT posisi FROM sa_hcm_requirement_posisi
+
+
+2024-05-20 16:34:49
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_requirement_posisi' doesn't exist
+- Query 		: SELECT DISTINCT posisi FROM sa_hcm_requirement_posisi
+
+
+2024-05-20 16:34:49
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_requirement_posisi' doesn't exist
+- Query 		: SELECT DISTINCT posisi FROM sa_hcm_requirement_posisi

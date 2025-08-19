@@ -1,0 +1,90 @@
+File Error Log
+
+2024-01-25 09:10:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'resource_name' in 'where clause'
+- Query 		: select * from sa_productivity_alluser WHERE resource_name LIKE '%mohammad.rizky@mastersystem.co.id%'
+
+
+2024-01-25 10:56:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_productivity_alluser' doesn't exist
+- Query 		: select * from sa_productivity_alluser WHERE order_number='ORD-2023-02534'
+
+
+2024-01-25 14:45:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_bacup' doesn't exist
+- Query 		: select * from sa_bacup WHERE cr_no='240125-CR-MT-0647'
+
+
+2024-01-25 15:19:01
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_summary_user' doesn't exist
+- Query 		: select * from sa_summary_user WHERE tahun_review=2023
+
+
+2024-01-25 16:11:19
+- Server 		: Prod
+- User 			: william.marthinus@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_summary_user' doesn't exist
+- Query 		: select * from sa_summary_user WHERE tahun_review=2023
+
+
+2024-01-25 16:42:54
+- Server 		: Prod
+- User 			: william.marthinus@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: select * from sa_affected_ci WHERE id=4874
+
+
+2024-01-25 17:25:17
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+- Query 		: select * from sa_kpi_so_wr WHERE project_code='⁠⁠TB002723D0031'
+
+
+2024-01-25 17:25:35
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+- Query 		: select * from sa_data_so WHERE project_code_kpi='⁠⁠TB002723D0031'
+
+
+2024-01-25 17:25:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+- Query 		: select * from sa_data_so WHERE project_code_kpi='⁠⁠TB002723D0031'
+
+
+2024-01-25 17:46:29
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+- Query 		: select * from sa_data_so WHERE project_code_kpi='⁠⁠TB002723D0031'

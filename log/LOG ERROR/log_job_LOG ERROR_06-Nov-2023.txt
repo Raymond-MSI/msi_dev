@@ -1,0 +1,135 @@
+File Error Log
+
+2023-11-06 08:18:13
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: new_request
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_trx_share WHERE id=undefined
+
+
+2023-11-06 08:20:00
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: new_request
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_trx_share WHERE id=undefined
+
+
+2023-11-06 08:21:55
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: new_request
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_trx_share WHERE id=undefined
+
+
+2023-11-06 13:13:06
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-10-30' AND task_date <= '2023-11-13' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2023-11-06 13:40:03
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.so_number' in 'where clause'
+- Query 		: select * from sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id WHERE a.so_number='2022/SO/1676'
+
+
+2023-11-06 13:42:58
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'TB002719D0021' in 'where clause'
+- Query 		: select * from sa_trx_survey where project_code = TB002719D0021
+
+
+2023-11-06 15:43:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.jumlah_actual' in 'field list'
+- Query 		: SELECT project_code,SUM((a.jumlah_actual/60/8)*a.value) AS mandays_actual_wrike FROM `sa_view_dashboard_wrike_resource`  WHERE project_id='IEAEOPF5I5B4FY7Y'
+
+
+2023-11-06 15:44:07
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.jumlah_actual' in 'field list'
+- Query 		: SELECT SUM((a.jumlah_actual/60/8)*a.value) AS mandays_actual_wrike FROM `sa_view_dashboard_wrike_resource`  WHERE project_id='IEAEOPF5I5B4FY7Y'
+
+
+2023-11-06 15:44:20
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.value' in 'field list'
+- Query 		: SELECT SUM((jumlah_actual/60/8)*a.value) AS mandays_actual_wrike FROM `sa_view_dashboard_wrike_resource`  WHERE project_id='IEAEOPF5I5B4FY7Y'
+
+
+2023-11-06 15:44:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.value' in 'field list'
+- Query 		: SELECT SUM((jumlah_actual/60/8)*a.value) AS mandays_actual_wrike FROM `sa_view_dashboard_wrike_resource`  WHERE project_id='IEAEOPF5I5B4FY7Y'
+
+
+2023-11-06 15:48:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'group statement'
+- Query 		: SELECT * FROM `sa_wrike_timelog`  WHERE project_id='IEAEOPF5I5B4FY7Y' GROUP BY resource_email
+
+
+2023-11-06 15:51:28
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_view_wrike_timelog' doesn't exist
+- Query 		: SELECT * FROM `sa_view_wrike_timelog`  WHERE project_id='IEAEOPF5I5B4FY7Y' 
+
+
+2023-11-06 15:51:38
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_view_wrike_timelog' doesn't exist
+- Query 		: SELECT * FROM `sa_view_wrike_timelog` WHERE project_id='IEAEOPF5I5B4FY7Y' 
+
+
+2023-11-06 15:51:51
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_view_wrike_timelog' doesn't exist
+- Query 		: desc sa_view_wrike_timelog
+
+
+2023-11-06 16:04:40
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_schedule' doesn't exist
+- Query 		: select * from sa_schedule a LEFT JOIN sa_preschedule b ON a.event_id=b.google_event_id WHERE b.project_id='IEAEOPF5I5B4FY7Y'

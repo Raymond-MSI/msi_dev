@@ -1,0 +1,196 @@
+File Error Log
+
+2024-08-30 07:55:37
+- Server 		: Prod
+- User 			: hendra.lesmana@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-08-30 07:55:37
+- Server 		: Prod
+- User 			: hendra.lesmana@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-08-30 07:55:37
+- Server 		: Prod
+- User 			: hendra.lesmana@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-08-30 07:55:37
+- Server 		: Prod
+- User 			: hendra.lesmana@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-08-30 09:28:20
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: FUNCTION sa_md_navision.refrence_nomor_transkasi does not exist
+- Query 		: select * from sa_rental_transaction where refrence_nomor_transkasi ( 'LC/24/06/0014','CS-LC-24-07-0019')
+
+
+2024-08-30 10:15:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'parent_id is not null' at line 1
+- Query 		: select * from sa_rental_product_list where part_number = 'N540X-12Z16G-SYS-D' parent_id is not null
+
+
+2024-08-30 10:25:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 8
+- Query 		: SELECT count(*) as count from sa_rental_transaction_product where part_number = '9196-T110-8090' and 
+            (status_product ='Peminjaman' and status_return = 'Return')
+            OR
+            (status_product = 'Peminjaman' and status_return is null)
+            OR
+              (status_product ='Sewa' and status_return = 'Return')
+            OR
+            (status_product = 'Sewa' and status_return is null
+
+
+2024-08-30 10:25:54
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as count from sa_rental_transaction_product where part_number = '9196-T110-80...' at line 1
+- Query 		: SELECT * as count from sa_rental_transaction_product where part_number = '9196-T110-8090' and 
+            (status_product ='Peminjaman' and status_return = 'Return')
+            OR
+            (status_product = 'Peminjaman' and status_return is null)
+            OR
+              (status_product ='Sewa' and status_return = 'Return')
+            OR
+            (status_product = 'Sewa' and status_return is null)
+
+
+2024-08-30 10:27:40
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(status_product ='Peminjaman' and status_return = 'Return' )
+            OR...' at line 2
+- Query 		: SELECT *  from sa_rental_transaction_product where part_number = '9196-T110-8090'
+            (status_product ='Peminjaman' and status_return = 'Return' )
+            OR
+            (status_product = 'Peminjaman' and status_return is null )
+            OR
+              (status_product ='Sewa' and status_return = 'Return' )
+            OR
+            (status_product = 'Sewa' and status_return is null and )
+
+
+2024-08-30 10:27:45
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 8
+- Query 		: SELECT *  from sa_rental_transaction_product where part_number = '9196-T110-8090' and
+            (status_product ='Peminjaman' and status_return = 'Return' )
+            OR
+            (status_product = 'Peminjaman' and status_return is null )
+            OR
+              (status_product ='Sewa' and status_return = 'Return' )
+            OR
+            (status_product = 'Sewa' and status_return is null and )
+
+
+2024-08-30 10:28:23
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Peminjaman' and status_return = 'Return')
+            OR
+            (statu...' at line 1
+- Query 		: 
+SELECT * from sa_rental_transaction_product where part_number = '9196-T110-8090 and 
+            (status_product ='Peminjaman' and status_return = 'Return')
+            OR
+            (status_product = 'Peminjaman' and status_return is null)
+            OR
+              (status_product ='Sewa' and status_return = 'Return')
+            OR
+            (status_product = 'Sewa' and status_return is null)
+
+
+2024-08-30 10:28:55
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' and part_number = '9196-T110-8090' )
+            OR
+              (status...' at line 4
+- Query 		: SELECT * from sa_rental_transaction_product where  
+            (status_product ='Peminjaman' and status_return = 'Return' and part_number = '9196-T110-8090' )
+            OR
+            (status_product = 'Peminjaman' and status_return is null ' and part_number = '9196-T110-8090' )
+            OR
+              (status_product ='Sewa' and status_return = 'Return' ' and part_number = '9196-T110-8090' )
+            OR
+            (status_product = 'Sewa' and status_return is null ' and part_number = '9196-T110-8090' )
+
+
+2024-08-30 10:32:04
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'tipe_aseet' in 'where clause'
+- Query 		: select * from sa_rental_product_list where tipe_aseet = 'Titipan'
+
+
+2024-08-30 10:34:47
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'group by sa_rental_product_list.part_number' at line 5
+- Query 		: SELECT sa_rental_product_list.lokasi, sa_rental_product_list.tipe_peminjaman, sa_rental_product_list.kategori, sa_rental_product_list.level_parent, sa_rental_product_list.nomor_seri, sa_rental_product_list.tipe_aset, sa_rental_transaction_product.part_number 
+                                FROM sa_rental_product_list
+                                INNER JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri
+ORDER BY sa_rental_product_list.tipe_aset ASC
+group by sa_rental_product_list.part_number
+
+
+2024-08-30 10:48:47
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''S410-20B' at line 1
+- Query 		: SELECT COUNT(*) as customer from sa_rental_product_list WHERE lokasi = 'Customer' and part_number = 'S410-20B 
+
+
+2024-08-30 10:53:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'tipe_transaksi' in 'where clause'
+- Query 		: select * from sa_rental_product_list where tipe_aset = 'Sewa - Rental Vendor' and tipe_transaksi is not null

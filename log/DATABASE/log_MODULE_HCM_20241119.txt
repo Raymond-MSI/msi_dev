@@ -1,0 +1,430 @@
+19-11-2024 00:19:56
+- User Name   : arya.hadi@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 03:07:42
+- User Name   : jorgi.aryfa@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 07:31:12
+- User Name   : nicholaus.valentino@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 07:31:19
+- User Name   : nicholaus.valentino@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 07:33:24
+- User Name   : nicholaus.valentino@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 09:39:12
+- User Name   : andri.ramadhani@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 09:39:21
+- User Name   : andri.ramadhani@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 09:41:08
+- User Name   : andri.ramadhani@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 09:45:07
+- User Name   : jorgi.aryfa@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 10:05:55
+- User Name   : malik.perwiro@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 10:08:49
+- User Name   : malik.perwiro@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 10:14:35
+- User Name   : malik.perwiro@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 10:17:34
+- User Name   : malik.perwiro@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 10:21:22
+- User Name   : oktafian.dwi@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 10:21:47
+- User Name   : malik.perwiro@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 10:25:06
+- User Name   : oktafian.dwi@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 10:25:19
+- User Name   : oktafian.dwi@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 10:25:29
+- User Name   : oktafian.dwi@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 10:26:09
+- User Name   : oktafian.dwi@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 10:26:25
+- User Name   : oktafian.dwi@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 10:26:31
+- User Name   : oktafian.dwi@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 10:28:32
+- User Name   : oktafian.dwi@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 10:41:12
+- User Name   : oktafian.dwi@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 10:46:34
+- User Name   : trianusa.putra@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 10:49:13
+- User Name   : trianusa.putra@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 10:49:57
+- User Name   : trianusa.putra@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 10:51:42
+- User Name   : oktafian.dwi@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 10:52:41
+- User Name   : oktafian.dwi@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 11:37:11
+- User Name   : ahmad.yani@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 11:45:53
+- User Name   : doehan@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 11:46:08
+- User Name   : doehan@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 11:47:35
+- User Name   : doehan@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm19-11-2024 12:00:14
+- User Name   : aditya.wisnu@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm

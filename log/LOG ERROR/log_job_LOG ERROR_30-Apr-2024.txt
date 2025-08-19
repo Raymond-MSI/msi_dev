@@ -1,0 +1,119 @@
+File Error Log
+
+2024-04-30 13:06:49
+- Server 		: Prod
+- User 			: muhammad.dzaky@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-04-30 13:06:49
+- Server 		: Prod
+- User 			: muhammad.dzaky@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-04-30 15:46:21
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'job_structure' in 'where clause'
+- Query 		: select * from sa_mst_employees where job_structure like '%presales engineer%'
+
+
+2024-04-30 16:06:35
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '='2023-06-30' WHERE project_code='TP008023K0005'' at line 1
+- Query 		: UPDATE sa_kpi_so_wr bast_plan='2023-06-30' WHERE project_code='TP008023K0005'
+
+
+2024-04-30 16:15:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_data_so WHERE project_code='TP008023K0005'
+
+
+2024-04-30 16:45:51
+- Server 		: Prod
+- User 			: annisa.riska@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Microservices_UserEmail'] .
+        "'  AND job_structure LIKE '%JG ATN WM H...' at line 1
+- Query 		: SELECT employee_email FROM sa_view_employees WHERE employee_email = '" . $_SESSION['Microservices_UserEmail'] .
+        "'  AND job_structure LIKE '%JG ATN WM HCM Recruitment%' AND resign_date is null
+
+
+2024-04-30 16:47:59
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_new_request.sa_trx_new_request' doesn't exist
+- Query 		: select * from sa_trx_new_request
+
+
+2024-04-30 16:51:11
+- Server 		: Prod
+- User 			: mizhfar@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-04-30 16:51:11
+- Server 		: Prod
+- User 			: mizhfar@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-04-30 16:58:24
+- Server 		: Prod
+- User 			: annisa.riska@mastersystem.co.id
+- Module 		: new_request
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_trx_share WHERE id=undefined
+
+
+2024-04-30 17:04:49
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: new_request
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_trx_approval WHERE id=undefined
+
+
+2024-04-30 17:05:05
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: new_request
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_interview WHERE interview_id=undefined
+
+
+2024-04-30 17:05:12
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: new_request
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_trx_share WHERE id=undefined

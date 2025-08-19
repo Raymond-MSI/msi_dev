@@ -1,0 +1,54 @@
+File Error Log
+
+2024-01-23 09:54:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_kpi_so_wr' doesn't exist
+- Query 		: select * from sa_kpi_so_wr WHERE order_number LIKE '%0500%'
+
+
+2024-01-23 12:17:09
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'arif<samsul.maarif@mastersystem.co.id>'' at line 1
+- Query 		: update sa_trx_edo_request set manager = 'Eko Jatmiko<eko.jatmiko@mastersystem.co.id>', leader = 'Cassendra Cassendra<cassendra@mastersystem.co.id>' where leader = 'General Manager Not Found' AND employee_name = 'Samsul Ma'arif<samsul.maarif@mastersystem.co.id>'
+
+
+2024-01-23 13:44:27
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_schedule' doesn't exist
+- Query 		: select * from sa_google_calendar.sa_preschedule a left join sa_schedule b on a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5B2VVBQ' AND a.resource_email LIKE '%budi%'
+
+
+2024-01-23 16:54:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from sa_kpi_so_wr SET tahun_review = null, kpi_status='Not yet reviewed' WHER...' at line 1
+- Query 		: UPDATE from sa_kpi_so_wr SET tahun_review = null, kpi_status='Not yet reviewed' WHERE project_code_kpi='TT000121N0001'
+
+
+2024-01-23 16:54:40
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from sa_data_so SET tahun_review = null, kpi_status='Not yet reviewed' WHERE ...' at line 1
+- Query 		: UPDATE from sa_data_so SET tahun_review = null, kpi_status='Not yet reviewed' WHERE project_code_kpi='TT000121N0001'
+
+
+2024-01-23 16:54:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from sa_data_so SET tahun_review = null, kpi_status='Not yet reviewed' WHERE ...' at line 1
+- Query 		: UPDATE from sa_data_so SET tahun_review = null, kpi_status='Not yet reviewed' WHERE project_code='TT000121N0001'

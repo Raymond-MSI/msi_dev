@@ -1,0 +1,550 @@
+File Error Log
+
+2024-10-24 08:51:54
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_requiremernt_interview' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_requiremernt_interview
+
+
+2024-10-24 09:32:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET total_mt_report_date=0,total_preventive_mt_date=0,mt_report_date=0,preven...' at line 1
+- Query 		: select * from sa_master_maintenance_date SET total_mt_report_date=0,total_preventive_mt_date=0,mt_report_date=0,preventive_mt_date=0 WHERE project_code='TI000823E0060'
+
+
+2024-10-24 11:02:27
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_maintenance_date_kpi' doesn't exist
+- Query 		: SELECT * FROM  sa_maintenance_date_kpi WHERE project_code='TA023123C0004'
+
+
+2024-10-24 11:02:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_project_detail' doesn't exist
+- Query 		: SELECT * FROM sa_project_detail WHERE project_code='TA023123C0004'
+
+
+2024-10-24 13:03:19
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (24931,51,1,1,1,NULL,700,NULL,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-24 13:22:44
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:22:44
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:24:36
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:24:36
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:26:51
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:26:51
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:26:56
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:26:56
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:28:46
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:28:46
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:30:05
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:30:05
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:33:31
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:33:31
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:35:04
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:35:04
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:36:02
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:36:02
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:38:09
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:38:09
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:39:17
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:39:17
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:40:21
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:40:21
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:41:18
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:41:18
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:48:45
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:48:45
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:49:51
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:49:51
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:50:34
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-10-24 13:50:49
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:50:49
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-24 13:51:32
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-10-24 14:03:44
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_resource_assignment' doesn't exist
+- Query 		: select * from sa_resource_assignment WHERE project_code='TB000822C0007' AND project_type LIKE '%Maintenance%'
+
+
+
+
+2024-10-24 14:04:30
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE project_code='TB000822C0007' AND project_type LIKE '%Maintenance%' AND ...' at line 1
+- Query 		: DELETE sa_resource_assignment WHERE project_code='TB000822C0007' AND project_type LIKE '%Maintenance%' AND id=21507
+
+
+
+
+2024-10-24 14:05:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_user' doesn't exist
+- Query 		: select * from sa_user WHERE project_code='TB000822C0007' AND project_type LIKE '%Maintenance%' 
+
+
+2024-10-24 14:26:08
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(25069,'Implementasi by CDT',82069602,65,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-24 14:45:23
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=24-Oct-2024 WHERE order_number='ORD-2023-02196' AND project_type='MSI Project Maintenance'
+
+
+2024-10-24 14:45:23
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=24-Oct-2024 WHERE order_number='ORD-2023-02196' AND project_type='MSI Project Maintenance'
+
+
+2024-10-24 14:54:52
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s
+									ORDER BY
+										`b`.`employee_email` ASC' at line 12
+- Query 		: SELECT
+										`b`.`employee_email`,
+										`d`.`employee_email` AS `leader_email`
+									FROM
+										`sa_mst_organization_project` `a`
+									LEFT JOIN `sa_mst_organization_project_employee` `b` ON
+										`a`.`structure_id` = `b`.`structure_id`
+									LEFT JOIN `sa_mst_organization_project` `c` ON
+										`a`.`parent` = `c`.`structure_id`
+									LEFT JOIN `sa_mst_organization_project_employee` `d` ON
+										`c`.`structure_id` = `d`.`structure_id`
+									WHERE `b`.`employee_email` = %s
+									ORDER BY
+										`b`.`employee_email` ASC;
+
+
+2024-10-24 14:58:08
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=24-Oct-2024 WHERE order_number='ORD-27093-S6F4G9' AND project_type='MSI Project Maintenance'
+
+
+2024-10-24 14:58:08
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=24-Oct-2024 WHERE order_number='ORD-27093-S6F4G9' AND project_type='MSI Project Maintenance'
+
+
+2024-10-24 15:02:39
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=24-Oct-2024 WHERE order_number='ORD-27093-S6F4G9' AND project_type='MSI Project Maintenance'
+
+
+2024-10-24 15:02:39
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=24-Oct-2024 WHERE order_number='ORD-27093-S6F4G9' AND project_type='MSI Project Maintenance'
+
+
+2024-10-24 15:03:26
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=24-Oct-2024 WHERE order_number='ORD-28502-S6K0M3' AND project_type='MSI Project Maintenance'
+
+
+2024-10-24 15:03:26
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=24-Oct-2024 WHERE order_number='ORD-28502-S6K0M3' AND project_type='MSI Project Maintenance'
+
+
+2024-10-24 15:04:13
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=24-Oct-2024 WHERE order_number='ORD-2023-01202' AND project_type='MSI Project Maintenance'
+
+
+2024-10-24 15:04:13
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=24-Oct-2024 WHERE order_number='ORD-2023-01202' AND project_type='MSI Project Maintenance'
+
+
+2024-10-24 15:51:53
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=24-Oct-2024 WHERE order_number='ORD-2023-01617' AND project_type='MSI Project Maintenance'
+
+
+2024-10-24 15:51:53
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=24-Oct-2024 WHERE order_number='ORD-2023-01617' AND project_type='MSI Project Maintenance'
+
+
+2024-10-24 15:52:01
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=24-Oct-2024 WHERE order_number='ORD-2023-01617' AND project_type='MSI Project Maintenance'
+
+
+2024-10-24 15:52:01
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=24-Oct-2024 WHERE order_number='ORD-2023-01617' AND project_type='MSI Project Maintenance'
+
+
+2024-10-24 16:49:31
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_master_maintenance' doesn't exist
+- Query 		: select * from sa_master_maintenance WHERE project_code='TM025022I0001'

@@ -1,0 +1,126 @@
+File Error Log
+
+2023-10-27 08:42:38
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: legal_documents
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_documents WHERE `status` IS NULL ORDER BY date_expired LIMIT 0, 100
+
+
+2023-10-27 08:43:30
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: legal_documents
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_documents WHERE `status` IS NULL ORDER BY date_expired LIMIT 0, 100
+
+
+2023-10-27 09:09:08
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_general_informations WHERE requested_by_email='malik.aulia@mastersystem.co.id' ORDER BY gi_id DESC LIMIT 0, 600
+
+
+2023-10-27 09:37:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_view_resource_dashboard' doesn't exist
+- Query 		: select * from sa_view_resource_dashboard WHERE so_number='2023/SO/2111'
+
+
+2023-10-27 09:37:26
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'so_number' in 'where clause'
+- Query 		: select * from sa_view_dashboard_wrike_resource WHERE so_number='2023/SO/2111'
+
+
+2023-10-27 09:37:36
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'no_so' in 'where clause'
+- Query 		: select * from sa_view_dashboard_wrike_resource WHERE no_so='2023/SO/2111'
+
+
+2023-10-27 09:45:52
+- Server 		: Prod
+- User 			: lucky.andiani@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO sa_kpi_exception (`resource_name`, `project_code`, `so_number`, `order_number`, `status_resource`, `kpi_adjustment`, `weighted_value`, `note`) VALUES ('ericha.mutia@mastersystem.co.id','TB020821B0007','2022/SO/0747', 'ORD-26788-Z2D7L2', 'Penuh','90',185,1507,'test')
+
+
+2023-10-27 09:45:52
+- Server 		: Prod
+- User 			: lucky.andiani@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO sa_kpi_exception (`resource_name`, `project_code`, `so_number`, `order_number`, `status_resource`, `kpi_adjustment`, `weighted_value`, `note`) VALUES ('gabriel.alexandro@mastersystem.co.id','TB020821B0007','2022/SO/0747', 'ORD-26788-Z2D7L2', 'Penuh','90',185,1507,'test')
+
+
+2023-10-27 09:45:57
+- Server 		: Prod
+- User 			: lucky.andiani@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO sa_kpi_exception (`resource_name`, `project_code`, `so_number`, `order_number`, `status_resource`, `kpi_adjustment`, `weighted_value`, `note`) VALUES ('ericha.mutia@mastersystem.co.id','TB020821B0007','2022/SO/0747', 'ORD-26788-Z2D7L2', 'Penuh','90',185,1507,'test')
+
+
+2023-10-27 09:45:57
+- Server 		: Prod
+- User 			: lucky.andiani@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO sa_kpi_exception (`resource_name`, `project_code`, `so_number`, `order_number`, `status_resource`, `kpi_adjustment`, `weighted_value`, `note`) VALUES ('gabriel.alexandro@mastersystem.co.id','TB020821B0007','2022/SO/0747', 'ORD-26788-Z2D7L2', 'Penuh','90',185,1507,'test')
+
+
+2023-10-27 10:03:43
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: request
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_request' doesn't exist
+- Query 		: SELECT request_id, status, request_datetime, GM_Approval, BOD_Approval, HCM_GM_Approval from sa_request where requested_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>'
+
+
+2023-10-27 13:52:05
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_wrike_initial_project' doesn't exist
+- Query 		: SELECT a.project_code,a.resource_email,a.resource_role,b.project_type, b.no_so, b.order_number FROM `sa_wrike_evans_assignment` a join sa_wrike_initial_project b ON a.project_id=b.id WHERE b.project_type='MSI Project Implementation' AND a.resource_role !='' AND a.resource_email='wirawan.bharata@mastersystem.co.id' AND a.project_code='TP028023E0002' GROUP BY a.resource_email,a.project_code,a.resource_role,b.order_number
+
+
+2023-10-27 13:52:16
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.no_so' in 'field list'
+- Query 		: SELECT a.project_code,a.resource_email,a.resource_role,b.project_type, b.no_so, b.order_number FROM `sa_wrike_evans_assignment` a join sa_initial_project b ON a.project_id=b.id WHERE b.project_type='MSI Project Implementation' AND a.resource_role !='' AND a.resource_email='wirawan.bharata@mastersystem.co.id' AND a.project_code='TP028023E0002' GROUP BY a.resource_email,a.project_code,a.resource_role,b.order_number
+
+
+2023-10-27 13:52:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.so_number' in 'field list'
+- Query 		: SELECT a.project_code,a.resource_email,a.resource_role,b.project_type, b.so_number, b.order_number FROM `sa_wrike_evans_assignment` a join sa_initial_project b ON a.project_id=b.id WHERE b.project_type='MSI Project Implementation' AND a.resource_role !='' AND a.resource_email='wirawan.bharata@mastersystem.co.id' AND a.project_code='TP028023E0002' GROUP BY a.resource_email,a.project_code,a.resource_role,b.order_number

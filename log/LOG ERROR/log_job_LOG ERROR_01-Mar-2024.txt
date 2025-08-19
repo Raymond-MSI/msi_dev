@@ -1,0 +1,27 @@
+File Error Log
+
+2024-03-01 10:52:15
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_id' in 'where clause'
+- Query 		: select * from sa_wrike_project_list WHERE project_id='IEAEOPF5I5FFKEDD'
+
+
+2024-03-01 15:15:14
+- Server 		: Prod
+- User 			: rizky.umbara@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'YN200215H0125066,'YN200215H0125067')' at line 1
+- Query 		: select * from sa_product_list where nomor_seri in (''YN200215H0125066,'YN200215H0125067')
+
+
+2024-03-01 16:43:59
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_compain_result' doesn't exist
+- Query 		: desc sa_compain_result

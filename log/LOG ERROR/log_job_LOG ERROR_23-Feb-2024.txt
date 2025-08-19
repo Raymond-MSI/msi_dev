@@ -1,0 +1,287 @@
+File Error Log
+
+2024-02-23 16:45:27
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		:  
+- Status 		: Data too long for column 'survey_link' at row 1
+- Query 		: INSERT into sa_trx_survey values('482',
+        '854',
+        'https://docs.google.com/forms/d/e/1FAIpQLSeqPCZFX1yt_3MSdjuvHbC5NlorEaGdJSoeG-7jeWZrtVvfaw/viewform?usp=pp_url&entry.573954117=854&entry.36655501=Rifqi+ridho&entry.1828338478=rifqi.ridho%40idx.co.id&entry.693179537=BURSA+EFEK+INDONESIA&entry.875195738=%5B2022%2C+BEI%5D+Pengadaan+Video+Conference+Ruangan+Direksi&entry.1273177308=MSI+Project+Implementation',
+        'TB005422I0017',
+        '[2022, BEI] Pengadaan Video Conference Ruangan Direksi',
+        '2024-02-20 11:21:23',
+        'simple',
+        '[{"question_id":"35","value":"9"}]',
+        '9',
+        '[{"question_id":"29","value":"-"}]',
+        '[{"name":"Semua anggota tim telah bekerja dengan baik","email":"Semua anggota tim telah bekerja dengan baik"}]',
+        'No',
+        '',
+        '')
+
+
+2024-02-23 16:45:27
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		:  
+- Status 		: Data too long for column 'survey_link' at row 1
+- Query 		: INSERT into sa_trx_survey values('482',
+        '845',
+        'https://docs.google.com/forms/d/e/1FAIpQLSeqPCZFX1yt_3MSdjuvHbC5NlorEaGdJSoeG-7jeWZrtVvfaw/viewform?usp=pp_url&entry.573954117=845&entry.36655501=Stephanus+Surendrojati&entry.1828338478=stephanus.surendro%40bankmandiri.co.id&entry.693179537=BANK+MANDIRI+%28PERSERO%29&entry.875195738=%5B2023%2C+Mandiri%5D+Pengadaaan+Server+NICE+AIR+untuk+Project+Modernisasi+Contact+Center&entry.1273177308=MSI+Project+Implementation',
+        'TB001023C0035',
+        '[2023, Mandiri] Pengadaaan Server NICE AIR untuk Project Modernisasi Contact Center',
+        '2024-02-20 10:46:04',
+        'simple',
+        '[{"question_id":"35","value":"8"}]',
+        '8',
+        '[{"question_id":"29","value":"Fast response"}]',
+        '[{"name":"Alexander, fronita","email":"Alexander, fronita"}]',
+        'No',
+        '',
+        '')
+
+
+2024-02-23 16:50:33
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		:  
+- Status 		: Data too long for column 'survey_link' at row 1
+- Query 		: INSERT into sa_trx_survey values('482',
+        '854',
+        'https://docs.google.com/forms/d/e/1FAIpQLSeqPCZFX1yt_3MSdjuvHbC5NlorEaGdJSoeG-7jeWZrtVvfaw/viewform?usp=pp_url&entry.573954117=854&entry.36655501=Rifqi+ridho&entry.1828338478=rifqi.ridho%40idx.co.id&entry.693179537=BURSA+EFEK+INDONESIA&entry.875195738=%5B2022%2C+BEI%5D+Pengadaan+Video+Conference+Ruangan+Direksi&entry.1273177308=MSI+Project+Implementation',
+        'TB005422I0017',
+        '[2022, BEI] Pengadaan Video Conference Ruangan Direksi',
+        '2024-02-20 11:21:23',
+        'simple',
+        '[{"question_id":"35","value":"9"}]',
+        '9',
+        '[{"question_id":"29","value":"-"}]',
+        '[{"name":"Semua anggota tim telah bekerja dengan baik","email":"Semua anggota tim telah bekerja dengan baik"}]',
+        'No',
+        '',
+        '')
+
+
+2024-02-23 16:50:33
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		:  
+- Status 		: Data too long for column 'survey_link' at row 1
+- Query 		: INSERT into sa_trx_survey values('482',
+        '845',
+        'https://docs.google.com/forms/d/e/1FAIpQLSeqPCZFX1yt_3MSdjuvHbC5NlorEaGdJSoeG-7jeWZrtVvfaw/viewform?usp=pp_url&entry.573954117=845&entry.36655501=Stephanus+Surendrojati&entry.1828338478=stephanus.surendro%40bankmandiri.co.id&entry.693179537=BANK+MANDIRI+%28PERSERO%29&entry.875195738=%5B2023%2C+Mandiri%5D+Pengadaaan+Server+NICE+AIR+untuk+Project+Modernisasi+Contact+Center&entry.1273177308=MSI+Project+Implementation',
+        'TB001023C0035',
+        '[2023, Mandiri] Pengadaaan Server NICE AIR untuk Project Modernisasi Contact Center',
+        '2024-02-20 10:46:04',
+        'simple',
+        '[{"question_id":"35","value":"8"}]',
+        '8',
+        '[{"question_id":"29","value":"Fast response"}]',
+        '[{"name":"Alexander, fronita","email":"Alexander, fronita"}]',
+        'No',
+        '',
+        '')
+
+
+2024-02-23 16:50:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT into sa_trx_survey values('482',
+        '854',
+        'https://docs.google.com/forms/d/e/1FAIpQLSeqPCZFX1yt_3MSdjuvHbC5NlorEaGdJSoeG-7jeWZrtVvfaw/viewform?usp=pp_url&entry.573954117=854&entry.36655501=Rifqi+ridho&entry.1828338478=rifqi.ridho%40idx.co.id&entry.693179537=BURSA+EFEK+INDONESIA&entry.875195738=%5B2022%2C+BEI%5D+Pengadaan+Video+Conference+Ruangan+Direksi&entry.1273177308=MSI+Project+Implementation',
+        'TB005422I0017',
+        '[2022, BEI] Pengadaan Video Conference Ruangan Direksi',
+        '2024-02-20 11:21:23',
+        'simple',
+        '[{"question_id":"35","value":"9"}]',
+        '9',
+        '[{"question_id":"29","value":"-"}]',
+        '[{"name":"Semua anggota tim telah bekerja dengan baik","email":"Semua anggota tim telah bekerja dengan baik"}]',
+        'No')
+
+
+2024-02-23 16:50:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT into sa_trx_survey values('482',
+        '845',
+        'https://docs.google.com/forms/d/e/1FAIpQLSeqPCZFX1yt_3MSdjuvHbC5NlorEaGdJSoeG-7jeWZrtVvfaw/viewform?usp=pp_url&entry.573954117=845&entry.36655501=Stephanus+Surendrojati&entry.1828338478=stephanus.surendro%40bankmandiri.co.id&entry.693179537=BANK+MANDIRI+%28PERSERO%29&entry.875195738=%5B2023%2C+Mandiri%5D+Pengadaaan+Server+NICE+AIR+untuk+Project+Modernisasi+Contact+Center&entry.1273177308=MSI+Project+Implementation',
+        'TB001023C0035',
+        '[2023, Mandiri] Pengadaaan Server NICE AIR untuk Project Modernisasi Contact Center',
+        '2024-02-20 10:46:04',
+        'simple',
+        '[{"question_id":"35","value":"8"}]',
+        '8',
+        '[{"question_id":"29","value":"Fast response"}]',
+        '[{"name":"Alexander, fronita","email":"Alexander, fronita"}]',
+        'No')
+
+
+2024-02-23 16:52:55
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT into sa_trx_survey values('482',
+        '854',
+        'https://docs.google.com/forms/d/e/1FAIpQLSeqPCZFX1yt_3MSdjuvHbC5NlorEaGdJSoeG-7jeWZrtVvfaw/viewform?usp=pp_url&entry.573954117=854&entry.36655501=Rifqi+ridho&entry.1828338478=rifqi.ridho%40idx.co.id&entry.693179537=BURSA+EFEK+INDONESIA&entry.875195738=%5B2022%2C+BEI%5D+Pengadaan+Video+Conference+Ruangan+Direksi&entry.1273177308=MSI+Project+Implementation',
+        'TB005422I0017',
+        '[2022, BEI] Pengadaan Video Conference Ruangan Direksi',
+        '2024-02-20 11:21:23',
+        'simple',
+        '[{"question_id":"35","value":"9"}]',
+        '9',
+        '[{"question_id":"29","value":"-"}]',
+        '[{"name":"Semua anggota tim telah bekerja dengan baik","email":"Semua anggota tim telah bekerja dengan baik"}]',
+        'No')
+
+
+2024-02-23 16:52:55
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT into sa_trx_survey values('482',
+        '845',
+        'https://docs.google.com/forms/d/e/1FAIpQLSeqPCZFX1yt_3MSdjuvHbC5NlorEaGdJSoeG-7jeWZrtVvfaw/viewform?usp=pp_url&entry.573954117=845&entry.36655501=Stephanus+Surendrojati&entry.1828338478=stephanus.surendro%40bankmandiri.co.id&entry.693179537=BANK+MANDIRI+%28PERSERO%29&entry.875195738=%5B2023%2C+Mandiri%5D+Pengadaaan+Server+NICE+AIR+untuk+Project+Modernisasi+Contact+Center&entry.1273177308=MSI+Project+Implementation',
+        'TB001023C0035',
+        '[2023, Mandiri] Pengadaaan Server NICE AIR untuk Project Modernisasi Contact Center',
+        '2024-02-20 10:46:04',
+        'simple',
+        '[{"question_id":"35","value":"8"}]',
+        '8',
+        '[{"question_id":"29","value":"Fast response"}]',
+        '[{"name":"Alexander, fronita","email":"Alexander, fronita"}]',
+        'No')
+
+
+2024-02-23 17:00:12
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		:  
+- Status 		: Data too long for column 'survey_link' at row 1
+- Query 		: INSERT into sa_trx_survey values('482',
+        '854',
+        'https://docs.google.com/forms/d/e/1FAIpQLSeqPCZFX1yt_3MSdjuvHbC5NlorEaGdJSoeG-7jeWZrtVvfaw/viewform?usp=pp_url&entry.573954117=854&entry.36655501=Rifqi+ridho&entry.1828338478=rifqi.ridho%40idx.co.id&entry.693179537=BURSA+EFEK+INDONESIA&entry.875195738=%5B2022%2C+BEI%5D+Pengadaan+Video+Conference+Ruangan+Direksi&entry.1273177308=MSI+Project+Implementation',
+        'TB005422I0017',
+        '[2022, BEI] Pengadaan Video Conference Ruangan Direksi',
+        '2024-02-20 11:21:23',
+        'simple',
+        '[{"question_id":"35","value":"9"}]',
+        '9',
+        '[{"question_id":"29","value":"-"}]',
+        '[{"name":"Semua anggota tim telah bekerja dengan baik","email":"Semua anggota tim telah bekerja dengan baik"}]',
+        'No',
+        '',
+        '0')
+
+
+2024-02-23 17:00:12
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		:  
+- Status 		: Data too long for column 'survey_link' at row 1
+- Query 		: INSERT into sa_trx_survey values('482',
+        '845',
+        'https://docs.google.com/forms/d/e/1FAIpQLSeqPCZFX1yt_3MSdjuvHbC5NlorEaGdJSoeG-7jeWZrtVvfaw/viewform?usp=pp_url&entry.573954117=845&entry.36655501=Stephanus+Surendrojati&entry.1828338478=stephanus.surendro%40bankmandiri.co.id&entry.693179537=BANK+MANDIRI+%28PERSERO%29&entry.875195738=%5B2023%2C+Mandiri%5D+Pengadaaan+Server+NICE+AIR+untuk+Project+Modernisasi+Contact+Center&entry.1273177308=MSI+Project+Implementation',
+        'TB001023C0035',
+        '[2023, Mandiri] Pengadaaan Server NICE AIR untuk Project Modernisasi Contact Center',
+        '2024-02-20 10:46:04',
+        'simple',
+        '[{"question_id":"35","value":"8"}]',
+        '8',
+        '[{"question_id":"29","value":"Fast response"}]',
+        '[{"name":"Alexander, fronita","email":"Alexander, fronita"}]',
+        'No',
+        '',
+        '0')
+
+
+2024-02-23 17:03:49
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		:  
+- Status 		: Data too long for column 'survey_link' at row 1
+- Query 		: INSERT into sa_trx_survey values('482',
+        '854',
+        'https://docs.google.com/forms/d/e/1FAIpQLSeqPCZFX1yt_3MSdjuvHbC5NlorEaGdJSoeG-7jeWZrtVvfaw/viewform?usp=pp_url&entry.573954117=854&entry.36655501=Rifqi+ridho&entry.1828338478=rifqi.ridho%40idx.co.id&entry.693179537=BURSA+EFEK+INDONESIA&entry.875195738=%5B2022%2C+BEI%5D+Pengadaan+Video+Conference+Ruangan+Direksi&entry.1273177308=MSI+Project+Implementation',
+        'TB005422I0017',
+        '[2022, BEI] Pengadaan Video Conference Ruangan Direksi',
+        '2024-02-20 11:21:23',
+        'simple',
+        '[{"question_id":"35","value":"9"}]',
+        '9',
+        '[{"question_id":"29","value":"-"}]',
+        '[{"name":"Semua anggota tim telah bekerja dengan baik","email":"Semua anggota tim telah bekerja dengan baik"}]',
+        'No',
+        '',
+        '0')
+
+
+2024-02-23 17:03:49
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		:  
+- Status 		: Data too long for column 'survey_link' at row 1
+- Query 		: INSERT into sa_trx_survey values('482',
+        '845',
+        'https://docs.google.com/forms/d/e/1FAIpQLSeqPCZFX1yt_3MSdjuvHbC5NlorEaGdJSoeG-7jeWZrtVvfaw/viewform?usp=pp_url&entry.573954117=845&entry.36655501=Stephanus+Surendrojati&entry.1828338478=stephanus.surendro%40bankmandiri.co.id&entry.693179537=BANK+MANDIRI+%28PERSERO%29&entry.875195738=%5B2023%2C+Mandiri%5D+Pengadaaan+Server+NICE+AIR+untuk+Project+Modernisasi+Contact+Center&entry.1273177308=MSI+Project+Implementation',
+        'TB001023C0035',
+        '[2023, Mandiri] Pengadaaan Server NICE AIR untuk Project Modernisasi Contact Center',
+        '2024-02-20 10:46:04',
+        'simple',
+        '[{"question_id":"35","value":"8"}]',
+        '8',
+        '[{"question_id":"29","value":"Fast response"}]',
+        '[{"name":"Alexander, fronita","email":"Alexander, fronita"}]',
+        'No',
+        '',
+        '0')
+
+
+2024-02-23 17:06:15
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		:  
+- Status 		: Data too long for column 'survey_link' at row 1
+- Query 		: INSERT into sa_trx_survey values('482',
+        '854',
+        'https://docs.google.com/forms/d/e/1FAIpQLSeqPCZFX1yt_3MSdjuvHbC5NlorEaGdJSoeG-7jeWZrtVvfaw/viewform?usp=pp_url&entry.573954117=854&entry.36655501=Rifqi+ridho&entry.1828338478=rifqi.ridho%40idx.co.id&entry.693179537=BURSA+EFEK+INDONESIA&entry.875195738=%5B2022%2C+BEI%5D+Pengadaan+Video+Conference+Ruangan+Direksi&entry.1273177308=MSI+Project+Implementation',
+        'TB005422I0017',
+        '[2022, BEI] Pengadaan Video Conference Ruangan Direksi',
+        '2024-02-20 11:21:23',
+        'simple',
+        '[{"question_id":"35","value":"9"}]',
+        '9',
+        '[{"question_id":"29","value":"-"}]',
+        '[{"name":"Semua anggota tim telah bekerja dengan baik","email":"Semua anggota tim telah bekerja dengan baik"}]',
+        'No',
+        '',
+        '0')
+
+
+2024-02-23 17:27:52
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@mastersystem.co.id)' at line 1
+- Query 		: SELECT * FROM sa_contact_user WHERE email IN (syamsul@mastersystem.co.id)

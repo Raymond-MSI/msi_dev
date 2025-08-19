@@ -1,0 +1,252 @@
+File Error Log
+
+2023-11-09 09:55:07
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%Product 1 Testing%'
+
+
+2023-11-09 09:55:13
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%Product 1 Testing%'
+
+
+2023-11-09 09:55:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%Product Testing 2%'
+
+
+2023-11-09 09:55:22
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%Product Testing 3%'
+
+
+2023-11-09 09:55:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%Product 1 Testing%'
+
+
+2023-11-09 09:55:41
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%Product Testing 2%'
+
+
+2023-11-09 09:55:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%Product 1 Testing%'
+
+
+2023-11-09 10:01:31
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-09 10:01:35
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QJX%'
+
+
+2023-11-09 10:01:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QL3%'
+
+
+2023-11-09 10:01:42
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-09 10:03:09
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-09 10:03:13
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QJX%'
+
+
+2023-11-09 10:03:17
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QL3%'
+
+
+2023-11-09 10:03:21
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%PUC22028QL3%'
+
+
+2023-11-09 10:03:23
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WOO2206A1F5%'
+
+
+2023-11-09 16:22:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: sync_kpi_summary
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1' at line 1
+- Query 		: 1
+
+
+2023-11-09 16:59:54
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_schedule' doesn't exist
+- Query 		: select * from sa_schedule limit 10
+
+
+2023-11-09 17:01:48
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'attendeed_email' in 'where clause'
+- Query 		: select * from sa_schedule where attendeed_email = 'fronita@mastersystem.co.id' and summary like '%[MCC Fase II] Weekly 08 Nov 2023%' limit 10
+
+
+2023-11-09 17:02:13
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'attendeed_email' in 'where clause'
+- Query 		: select * from sa_schedule where attendeed_email = 'fronita@mastersystem.co.id' and summary like '%Weekly 08 Nov 2023%' limit 10
+
+
+2023-11-09 17:02:22
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'attendeed_email' in 'where clause'
+- Query 		: select * from sa_schedule where attendeed_email = 'fronita@mastersystem.co.id' limit 10
+
+
+2023-11-09 17:03:29
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'attendeed_email' in 'where clause'
+- Query 		: select * from sa_schedule where attendeed_email = 'fronita@mastersystem.co.id' limit 10
+
+
+2023-11-09 17:04:47
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_prrschedule' doesn't exist
+- Query 		: select * from sa_prrschedule limit 10
+
+
+2023-11-09 17:04:52
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_preschedule' doesn't exist
+- Query 		: select * from sa_preschedule limit 10
+
+
+2023-11-09 17:05:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_preschedule' doesn't exist
+- Query 		: select * from sa_preschedule limit 10
+
+
+2023-11-09 17:05:11
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_preschedule' doesn't exist
+- Query 		: select * from sa_preschedule limit 10
+
+
+2023-11-09 17:06:45
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'gue007ha6id1crht656af25e3c'' at line 1
+- Query 		: select * from sa_preschedule google_event_id = 'gue007ha6id1crht656af25e3c'
+
+
+2023-11-09 17:10:37
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_productivity.sa_productivity' doesn't exist
+- Query 		: select * from sa_productivity limit 10

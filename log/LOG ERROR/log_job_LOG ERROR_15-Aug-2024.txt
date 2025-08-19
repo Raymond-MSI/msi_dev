@@ -1,0 +1,474 @@
+File Error Log
+
+2024-08-15 13:42:21
+- Server 		: Prod
+- User 			: meilinie@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-08-15 13:42:21
+- Server 		: Prod
+- User 			: meilinie@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-08-15 14:33:58
+- Server 		: Prod
+- User 			: dyota.laksmana@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect integer value: '' for column `sa_dashboard_kpi`.`sa_master_maintenance_date`.`gabungan` at row 159
+- Query 		: UPDATE `sa_master_maintenance_date` SET 
+            `project_code` = 'TB001021C0049', 
+            `order_number` = 'ORD-2024-00033', 
+            `ontime` = '0',
+            `gabungan` = '',
+            `openitem` = '',
+            `ontime_notes` = 'sales',
+            `notes` = 'sales baru meminta assignment di tanggal 2 juli 2024',
+            `notes_openitem` = '',
+            `total_ticket_allocation` = '9',
+            `total_mt_report_date` = '0',
+            `total_preventive_mt_date` = '4',
+            `total_backup_mt_date` = '',
+            `approval_to` = 'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+            `approval_status` = 'pending',
+            `flag` = '0',
+            
+            `modified_by` = 'Dyota Laksmana Adityantoro<dyota.laksmana@mastersystem.co.id>'
+            WHERE `project_code` = 'TB001021C0049' and `order_number` = 'ORD-2024-00033'
+
+
+2024-08-15 14:51:37
+- Server 		: Prod
+- User 			: naufal.reinaldi@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect integer value: '' for column `sa_dashboard_kpi`.`sa_master_maintenance_date`.`gabungan` at row 135
+- Query 		: UPDATE `sa_master_maintenance_date` SET 
+            `project_code` = 'TB002021B0008', 
+            `order_number` = 'ORD-24934-N2V7Z5', 
+            `ontime` = '1',
+            `gabungan` = '',
+            `openitem` = '',
+            `ontime_notes` = '',
+            `notes` = '',
+            `notes_openitem` = '',
+            `total_ticket_allocation` = '9',
+            `total_mt_report_date` = '4',
+            `total_preventive_mt_date` = '4',
+            `total_backup_mt_date` = '',
+            `approval_to` = 'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+            `approval_status` = 'pending',
+            `flag` = '0',
+            
+            `modified_by` = 'Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>'
+            WHERE `project_code` = 'TB002021B0008' and `order_number` = 'ORD-24934-N2V7Z5'
+
+
+2024-08-15 15:11:25
+- Server 		: Prod
+- User 			: dyota.laksmana@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 19
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `gabungan`,
+                `openitem`,
+                `ontime_notes`,
+                `notes`,
+                `notes_openitem`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `total_backup_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB022122B0001', 
+                'ORD-2023-01409', 
+                '1',
+                '',
+                '',
+                '',
+                '',
+                '',
+                '99', 
+                '0',
+                '12',
+                '99', 
+                '0',
+                '12',
+                '',
+                '0',
+                'Dyota Laksmana Adityantoro<dyota.laksmana@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-15 15:41:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_transaction' doesn't exist
+- Query 		: desc sa_transaction
+
+
+2024-08-15 15:49:02
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,21,3,1,7,'VMWare',350,1,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-08-15 15:49:02
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,3,1,29,'VMWare',350,1,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-08-15 15:49:02
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,11,'VMWare',250,1,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-08-15 16:01:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_master_maintenance_date' doesn't exist
+- Query 		: select * from sa_master_maintenance_date
+
+
+2024-08-15 16:12:39
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE tahun is null' at line 1
+- Query 		: select * from sa_project_detail WHERE project_code='TB001021C0049' WHERE tahun is null
+
+
+2024-08-15 16:30:22
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'so_number' in 'where clause'
+- Query 		: select * from sa_wrike_project_list WHERE so_number='2023/SO/1392'
+
+
+2024-08-15 16:32:53
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,3,1,3,'Cisco',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-15 16:32:53
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,3,1,2,'Cisco',350,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-15 16:32:53
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,7,'Cisco',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-15 16:43:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_project_detail' doesn't exist
+- Query 		: UPDATE sa_project_detail SET folder_name='01. Initiation & Planning' WHERE gd_id='1Sbvmj45KBeYeS2C96ZwsILTPj3SLSbU_'
+
+
+2024-08-15 16:51:50
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_workload_project_solutions' doesn't exist
+- Query 		: select * from sa_workload.sa_workload_project_solutions WHERE project_code='TB002323I0006'
+
+
+2024-08-15 17:21:16
+- Server 		: Prod
+- User 			: rio.agustian@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 19
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `gabungan`,
+                `openitem`,
+                `ontime_notes`,
+                `notes`,
+                `notes_openitem`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `total_backup_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TT003023N0002', 
+                'ORD-2023-00127', 
+                '1',
+                '0',
+                '0',
+                '',
+                '',
+                '',
+                '0', 
+                '0',
+                '0',
+                '0', 
+                '0',
+                '0',
+                '0',
+                '0',
+                'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-15 17:21:21
+- Server 		: Prod
+- User 			: rio.agustian@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 19
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `gabungan`,
+                `openitem`,
+                `ontime_notes`,
+                `notes`,
+                `notes_openitem`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `total_backup_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TT003023N0002', 
+                'ORD-2023-00127', 
+                '1',
+                '0',
+                '0',
+                '',
+                '',
+                '',
+                '0', 
+                '0',
+                '0',
+                '0', 
+                '0',
+                '0',
+                '0',
+                '0',
+                'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-15 17:25:38
+- Server 		: Prod
+- User 			: rio.agustian@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 19
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `gabungan`,
+                `openitem`,
+                `ontime_notes`,
+                `notes`,
+                `notes_openitem`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `total_backup_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TT003022N0010', 
+                'ORD-29413-B8K5Q1', 
+                '1',
+                '0',
+                '0',
+                '',
+                '',
+                '',
+                '0', 
+                '0',
+                '0',
+                '0', 
+                '0',
+                '0',
+                '0',
+                '0',
+                'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-15 17:25:42
+- Server 		: Prod
+- User 			: rio.agustian@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 19
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `gabungan`,
+                `openitem`,
+                `ontime_notes`,
+                `notes`,
+                `notes_openitem`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `total_backup_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TT003022N0010', 
+                'ORD-29413-B8K5Q1', 
+                '1',
+                '0',
+                '0',
+                '',
+                '',
+                '',
+                '0', 
+                '0',
+                '0',
+                '0', 
+                '0',
+                '0',
+                '0',
+                '0',
+                'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-15 17:50:20
+- Server 		: Prod
+- User 			: rio.agustian@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 19
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `gabungan`,
+                `openitem`,
+                `ontime_notes`,
+                `notes`,
+                `notes_openitem`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `total_backup_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TT003022N0001', 
+                'ORD-28329-J3T4L7', 
+                '1',
+                '',
+                '',
+                '',
+                '',
+                '',
+                '0', 
+                '0',
+                '0',
+                '0', 
+                '0',
+                '0',
+                '',
+                '0',
+                'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')

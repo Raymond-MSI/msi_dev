@@ -1,0 +1,343 @@
+File Error Log
+
+2023-10-23 10:28:15
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'so_number' in 'where clause'
+- Query 		: select * from sa_resource_assignment WHERE so_number='2023/SO/1116'
+
+
+2023-10-23 10:36:01
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_data_so' doesn't exist
+- Query 		: SELECT * FROM sa_data_so WHERE so_number_kpi='2023/SO/2256'
+
+
+2023-10-23 11:07:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORD-28502-S6K0M3' at line 2
+- Query 		: SELECT * FROM sa_kpi_so_wr WHERE order_number='ORD-2023-00006' OR order_number='ORD-2023-00037' OR order_number='ORD-2023-00069' OR order_number='ORD-2023-00079' OR order_number='ORD-2023-00168' OR order_number='ORD-2023-00237' OR order_number='ORD-2023-00342' OR order_number='ORD-2023-00402' OR order_number='ORD-2023-00429' OR order_number='ORD-2023-00482' OR order_number='ORD-2023-00496' OR order_number='ORD-2023-00549' OR order_number='ORD-2023-00594' OR order_number='ORD-2023-00652' OR order_number='ORD-2023-00714' OR order_number='ORD-2023-00768' OR order_number='ORD-2023-00837' OR order_number='ORD-2023-00847' OR order_number='ORD-2023-00980' OR order_number='ORD-2023-00994' OR order_number='ORD-2023-01043' OR order_number='ORD-2023-01048' OR order_number='ORD-2023-01050' OR order_number='ORD-2023-01054' OR order_number='ORD-2023-01055' OR order_number='ORD-2023-01065' OR order_number='ORD-2023-01115' OR order_number='ORD-2023-01116' OR order_number='ORD-2023-01145' OR order_number='ORD-2023-01147' OR order_number='ORD-2023-01246' OR order_number='ORD-2023-01297' OR order_number='ORD-2023-01312' OR order_number='ORD-2023-01317' OR order_number='ORD-2023-01331' OR order_number='ORD-2023-01421' OR order_number='ORD-2023-01469' OR order_number='ORD-2023-01484' OR order_number='ORD-2023-01533' OR order_number='ORD-2023-01589' OR order_number='ORD-2023-01624' OR order_number='ORD-2023-01649' OR order_number='ORD-2023-01690' OR order_number='ORD-2023-01709' OR order_number='ORD-2023-01710' OR order_number='ORD-2023-01840' OR order_number='ORD-2023-01906' OR order_number='ORD-2023-02092' OR order_number='ORD-28491-R6N8S OR '
+ORD-28502-S6K0M3
+
+
+2023-10-23 11:18:25
+- Server 		: Prod
+- User 			: rafi.nurrohim@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 11:20:33
+- Server 		: Prod
+- User 			: rafi.nurrohim@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 11:25:10
+- Server 		: Prod
+- User 			: meilita.kurniati@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 11:26:34
+- Server 		: Prod
+- User 			: meilita.kurniati@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 11:27:02
+- Server 		: Prod
+- User 			: meilita.kurniati@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 11:36:01
+- Server 		: Prod
+- User 			: miko.widiarta@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_summary
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 11:36:52
+- Server 		: Prod
+- User 			: miko.widiarta@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 11:55:25
+- Server 		: Prod
+- User 			: meilita.kurniati@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 12:26:52
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 12:34:56
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 12:48:49
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 13:05:12
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 13:21:09
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 13:25:27
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 13:36:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM sa_kpi_so_wr WHERE order_number='ORD-2023-00006' OR order_number='ORD-...' at line 1
+- Query 		: SELECT COUNT(order_number),* FROM sa_kpi_so_wr WHERE order_number='ORD-2023-00006' OR order_number='ORD-2023-00037' OR order_number='ORD-2023-00069' OR order_number='ORD-2023-00079' OR order_number='ORD-2023-00168' OR order_number='ORD-2023-00237' OR order_number='ORD-2023-00342' OR order_number='ORD-2023-00402' OR order_number='ORD-2023-00429' OR order_number='ORD-2023-00482' OR order_number='ORD-2023-00496' OR order_number='ORD-2023-00549' OR order_number='ORD-2023-00594' OR order_number='ORD-2023-00652' OR order_number='ORD-2023-00714' OR order_number='ORD-2023-00768' OR order_number='ORD-2023-00837' OR order_number='ORD-2023-00847' OR order_number='ORD-2023-00980' OR order_number='ORD-2023-00994' OR order_number='ORD-2023-01043' OR order_number='ORD-2023-01048' OR order_number='ORD-2023-01050' OR order_number='ORD-2023-01054' OR order_number='ORD-2023-01055' OR order_number='ORD-2023-01065' OR order_number='ORD-2023-01115' OR order_number='ORD-2023-01116' OR order_number='ORD-2023-01145' OR order_number='ORD-2023-01147' OR order_number='ORD-2023-01246' OR order_number='ORD-2023-01297' OR order_number='ORD-2023-01312' OR order_number='ORD-2023-01317' OR order_number='ORD-2023-01331' OR order_number='ORD-2023-01421' OR order_number='ORD-2023-01469' OR order_number='ORD-2023-01484' OR order_number='ORD-2023-01533' OR order_number='ORD-2023-01589' OR order_number='ORD-2023-01624' OR order_number='ORD-2023-01649' OR order_number='ORD-2023-01690' OR order_number='ORD-2023-01709' OR order_number='ORD-2023-01710' OR order_number='ORD-2023-01840' OR order_number='ORD-2023-01906' OR order_number='ORD-2023-02092' OR order_number='ORD-28491-R6N8S' OR order_number='ORD-28502-S6K0M3'
+
+
+2023-10-23 13:43:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 13:45:15
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: cronlogs
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 13:46:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 13:48:17
+- Server 		: Prod
+- User 			: ia.refyta@mastersystem.co.id
+- Module 		: resource_assignment
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 13:50:13
+- Server 		: Prod
+- User 			: ia.refyta@mastersystem.co.id
+- Module 		: resource_assignment
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 13:50:23
+- Server 		: Prod
+- User 			: femmy@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 13:50:27
+- Server 		: Prod
+- User 			: meilita.kurniati@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 13:56:56
+- Server 		: Prod
+- User 			: meilita.kurniati@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 13:57:06
+- Server 		: Prod
+- User 			: meilita.kurniati@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 13:59:13
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 14:13:41
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '='TS005022I0025'' at line 1
+- Query 		: select * from sa_temporary_resource project_code='TS005022I0025'
+
+
+2023-10-23 14:14:06
+- Server 		: Prod
+- User 			: ia.refyta@mastersystem.co.id
+- Module 		: resource_assignment
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 14:14:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 14:18:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 14:21:21
+- Server 		: Prod
+- User 			: ia.refyta@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-23 14:30:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_evans_assignment' doesn't exist
+- Query 		: SELECT * FROM sa_evans_assignment WHERE project_code='TB000822C0026'
+
+
+2023-10-23 15:26:36
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_data_so' doesn't exist
+- Query 		: UPDATE sa_data_so SET order_number='ORD-27771-J5X9H1' WHERE so_number_kpi='2022/SO/1515'
+
+
+2023-10-23 15:27:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_data_so' doesn't exist
+- Query 		: UPDATE sa_data_so SET order_number='ORD-27787-V8S3G6' WHERE so_number_kpi='2022/SO/1522'
+
+
+2023-10-23 15:29:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_data_so' doesn't exist
+- Query 		: SELECT * FROM sa_data_so WHERE order_number=''
+
+
+2023-10-23 15:29:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_view_order_number' doesn't exist
+- Query 		: SELECT * FROM sa_view_order_number WHERE so_number='2022/SO/1515'

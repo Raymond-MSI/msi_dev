@@ -1,0 +1,265 @@
+File Error Log
+
+2024-06-11 09:28:49
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 15, `brand` = 'HPE Backup', `modified_by` = 'Syamsul Arham<syamsul@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 21993 AND `resource_level` = 21 AND `service_type`= 1
+
+
+2024-06-11 09:28:49
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 45, `brand` = 'HPE Backup', `modified_by` = 'Syamsul Arham<syamsul@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 21993 AND `resource_level` = 61 AND `service_type`= 1
+
+
+2024-06-11 09:28:49
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 12, `brand` = 'HPE Backup', `modified_by` = 'Syamsul Arham<syamsul@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 21993 AND `resource_level` = 71 AND `service_type`= 1
+
+
+2024-06-11 09:46:20
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 15, `brand` = 'HPE Backup', `modified_by` = 'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 21993 AND `resource_level` = 21 AND `service_type`= 1
+
+
+2024-06-11 09:46:20
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 45, `brand` = 'HPE Backup', `modified_by` = 'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 21993 AND `resource_level` = 61 AND `service_type`= 1
+
+
+2024-06-11 09:46:20
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 12, `brand` = 'HPE Backup', `modified_by` = 'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 21993 AND `resource_level` = 71 AND `service_type`= 1
+
+
+2024-06-11 09:49:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'new_gd_id' in 'where clause'
+- Query 		: select * from sa_folder_informations WHERE project_code='TB002722D0050' AND new_gd_id is not null AND new_gd_id <>''
+
+
+2024-06-11 10:08:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Field 'folder_id' doesn't have a default value
+- Query 		: INSERT INTO sa_department (folder_name,folder_level,folder_id_parent,flag_active_folder,flag_active_folderV2) VALUES ('	01. Initiation & Planning',4,13,0,1)
+
+
+
+
+2024-06-11 10:11:53
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Field 'folder_id' doesn't have a default value
+- Query 		: INSERT INTO sa_department (folder_name,folder_level,folder_id_parent,flag_active_folder,flag_active_folderV2) VALUES ('	01. Initiation & Planning',4,13,0,1)
+
+
+
+
+2024-06-11 10:17:37
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 15, `brand` = 'HPE Backup', `modified_by` = 'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 21993 AND `resource_level` = 21 AND `service_type`= 1
+
+
+2024-06-11 10:17:37
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 45, `brand` = 'HPE Backup', `modified_by` = 'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 21993 AND `resource_level` = 61 AND `service_type`= 1
+
+
+2024-06-11 10:17:37
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 12, `brand` = 'HPE Backup', `modified_by` = 'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 21993 AND `resource_level` = 71 AND `service_type`= 1
+
+
+2024-06-11 11:06:40
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''[Glints]TB000420I0003_cv1.jpg' at line 1
+- Query 		: SELECT * FROM sa_hcm_notecv WHERE project_code = 'TB000420I0003' AND file = '[Glints]TB000420I0003_cv1.jpg
+
+
+2024-06-11 11:06:40
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''[Glints]TB000420I0003_cv1.jpg' at line 1
+- Query 		: SELECT * FROM sa_hcm_notecv WHERE project_code = 'TB000420I0003' AND file = '[Glints]TB000420I0003_cv1.jpg
+
+
+2024-06-11 11:06:40
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''[http]TB000420I0003_cv1.jpg' at line 1
+- Query 		: SELECT * FROM sa_hcm_notecv WHERE project_code = 'TB000420I0003' AND file = '[http]TB000420I0003_cv1.jpg
+
+
+2024-06-11 11:06:40
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''[http]TB000420I0003_cv1.jpg' at line 1
+- Query 		: SELECT * FROM sa_hcm_notecv WHERE project_code = 'TB000420I0003' AND file = '[http]TB000420I0003_cv1.jpg
+
+
+2024-06-11 11:06:40
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''[Facebook]TB000420I0003_cv1.jpg' at line 1
+- Query 		: SELECT * FROM sa_hcm_notecv WHERE project_code = 'TB000420I0003' AND file = '[Facebook]TB000420I0003_cv1.jpg
+
+
+2024-06-11 11:06:40
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''[Facebook]TB000420I0003_cv1.jpg' at line 1
+- Query 		: SELECT * FROM sa_hcm_notecv WHERE project_code = 'TB000420I0003' AND file = '[Facebook]TB000420I0003_cv1.jpg
+
+
+2024-06-11 13:29:28
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE id=39
+
+
+2024-06-11 13:29:55
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE id=39
+
+
+2024-06-11 13:30:44
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE project_code="TB000420I0003" AND id=39
+
+
+2024-06-11 13:31:09
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE project_code="TB000420I0003" AND id=39
+
+
+2024-06-11 13:31:29
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_requirement_requirement' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_requirement_requirement
+
+
+2024-06-11 13:32:33
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE project_code="TB000420I0003" AND id=39
+
+
+2024-06-11 13:46:55
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'status_manager_gm_bod' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE status_manager_hcm = 'Approve' AND status_hcm_gm = 'Approve' AND status_manager_gm_bod = 'Approve' AND status != 'Selesai' LIMIT 0, 100
+
+
+2024-06-11 15:50:11
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_md_hcm' doesn't exist
+- Query 		: select * from sa_md_hcm
+
+
+2024-06-11 16:59:35
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_trx_project_list' doesn't exist
+- Query 		: select * from sa_trx_project_list limit 10
+
+
+2024-06-11 16:59:45
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_trx_request' doesn't exist
+- Query 		: select * from sa_trx_request limit 10
+
+
+2024-06-11 17:06:30
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'leave status like '%leave%'' at line 1
+- Query 		: select * from sa_trx_edo_leave where leave status like '%leave%'

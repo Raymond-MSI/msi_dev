@@ -1,0 +1,47 @@
+File Error Log
+
+2024-03-05 11:02:39
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'falg_assign_wrike' in 'field list'
+- Query 		: UPDATE sa_resource_assignment SET falg_assign_wrike=0 WHERE created_in_msizone > '2024-02-01' AND  project_roles ='Project Leader'
+
+
+
+2024-03-05 14:01:01
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_wrike_assignment' doesn't exist
+- Query 		: select * from sa_wrike_assignment WHERE project_id='IEAEOPF5I5A2KQOX'
+
+
+
+2024-03-05 14:23:43
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_wrike_project_list' doesn't exist
+- Query 		: select * from sa_wrike_project_list WHERE id='IEAEOPF5I5A2KQOX'
+
+
+2024-03-05 14:23:43
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_wrike_project_list' doesn't exist
+- Query 		: select * from sa_wrike_project_list WHERE id='IEAEOPF5I5A2KQOX'
+
+
+2024-03-05 16:13:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'flag_assignment' in 'field list'
+- Query 		: UPDATE sa_resource_assignment SET flag_assignment=0 WHERE project_code='TB002723D0081'

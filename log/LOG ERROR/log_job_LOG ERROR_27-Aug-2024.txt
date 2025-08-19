@@ -1,0 +1,1730 @@
+File Error Log
+
+2024-08-27 09:41:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_data_so WHERE project_code='TA004824E0006'
+
+
+2024-08-27 10:34:52
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_summary
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '://portal.mastersystem.co.id' at line 1
+- Query 		: SELECT * FROM sa_mst_organization_project_employee WHERE structure_id=2https://portal.mastersystem.co.id
+
+
+2024-08-27 10:34:52
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_summary
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '://portal.mastersystem.co.id' at line 1
+- Query 		: SELECT * FROM sa_mst_organization_project_employee WHERE structure_id=2https://portal.mastersystem.co.id
+
+
+2024-08-27 11:04:20
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 11:04:20
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 11:08:37
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 11:08:37
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 11:47:18
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 11:47:18
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 11:51:17
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 11:51:17
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 11:51:31
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 11:51:31
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 11:52:40
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 11:52:40
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 11:54:21
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 11:54:21
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:00:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: Unknown column 'c.owner_email' in 'where clause'
+- Query 		: SELECT a.* FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%' AND a.kpi_status='Not Yet Reviewed'  AND c.owner_email LIKE '%alan.maulana@mastersystem.co.id%' 
+
+
+2024-08-27 12:00:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: Unknown column 'c.owner_email' in 'where clause'
+- Query 		: SELECT a.* FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%' AND a.kpi_status='Not Yet Reviewed'  AND c.owner_email LIKE '%alan.maulana@mastersystem.co.id%' 
+
+
+2024-08-27 12:00:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: Unknown column 'c.owner_email' in 'where clause'
+- Query 		: SELECT a.* FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%' AND a.kpi_status='Not Yet Reviewed'  AND c.owner_email LIKE '%alan.maulana@mastersystem.co.id%' 
+
+
+2024-08-27 12:00:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: Unknown column 'c.owner_email' in 'where clause'
+- Query 		: SELECT a.* FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%' AND a.kpi_status='Not Yet Reviewed'  AND c.owner_email LIKE '%alan.maulana@mastersystem.co.id%' 
+
+
+2024-08-27 12:00:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: Unknown column 'c.owner_email' in 'where clause'
+- Query 		: SELECT a.* FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%' AND a.kpi_status='Not Yet Reviewed'  AND c.owner_email LIKE '%alan.maulana@mastersystem.co.id%' 
+
+
+2024-08-27 12:00:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: Unknown column 'c.owner_email' in 'where clause'
+- Query 		: SELECT a.* FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%' AND a.kpi_status='Not Yet Reviewed'  AND c.owner_email LIKE '%alan.maulana@mastersystem.co.id%' 
+
+
+2024-08-27 12:04:31
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:04:31
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:07:07
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:07:07
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:08:20
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:08:20
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:08:43
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:08:43
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:10:11
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:10:11
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:10:26
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:10:26
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:12:18
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:12:18
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:14:03
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:14:03
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:17:18
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:17:18
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:19:33
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:19:33
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:22:23
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:22:23
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:24:48
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:24:48
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:31:11
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:31:11
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:35:18
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:35:18
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:36:31
+- Server 		: Prod
+- User 			: aditya.wisnu@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-08-27 12:36:31
+- Server 		: Prod
+- User 			: aditya.wisnu@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-08-27 12:38:48
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 12:38:48
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:26:28
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:26:28
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:27:48
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:27:48
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:39:51
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:39:51
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:41:44
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:41:44
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:49:02
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:49:02
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:52:33
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:52:33
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:55:36
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:55:36
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:57:18
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:57:18
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:57:24
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:57:24
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:59:48
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 13:59:48
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:01:14
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:01:14
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:02:37
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:02:37
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:04:03
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM 
+    sa_rental_transaction_product srtp
+JOIN 
+    sa_rental_product_l...' at line 5
+- Query 		: SELECT 
+   
+    srtp.nomor_seri,
+    
+FROM 
+    sa_rental_transaction_product srtp
+JOIN 
+    sa_rental_product_list srpl
+ON 
+    srtp.nomor_seri = srpl.nomor_seri
+WHERE 
+    (srtp.status_product = 'Peminjaman' OR srtp.status_product = 'Sewa')
+
+
+
+2024-08-27 14:04:59
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Not unique table/alias: 'sa_rental_transaction_product'
+- Query 		: SELECT sa_rental_product_list.nomor_seri
+FROM sa_rental_transaction_product 
+INNER JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri= sa_rental_transaction_product.nomor_seri
+
+
+
+2024-08-27 14:05:44
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:05:44
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:09:23
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:09:23
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:11:44
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:11:44
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:12:22
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:12:22
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:23:03
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:23:03
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:25:47
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:25:47
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:32:00
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:32:00
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:36:24
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:36:24
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:36:24
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_requiement' doesn't exist
+- Query 		: UPDATE sa_hcm_requiement SET id_folderdrive = NULL, id_file = NULL, file = NULL, offering_salary = NULL, manager_hcm = NULL, status_manager_hcm = NULL, catatan_manager_hcm = NULL, hcm_gm = NULL, status_hcm_gm = NULL, catatan_hcm_gm = NULL, gm_offering = NULL, catatan_gm_offering = NULL, status = 'Proses Offering' WHERE email_id = 2
+
+
+2024-08-27 14:39:04
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_requiement' doesn't exist
+- Query 		: UPDATE sa_hcm_requiement SET id_folderdrive = NULL, id_file = NULL, file = NULL, offering_salary = NULL, manager_hcm = NULL, status_manager_hcm = NULL, catatan_manager_hcm = NULL, hcm_gm = NULL, status_hcm_gm = NULL, catatan_hcm_gm = NULL, gm_offering = NULL, status_gm_offering = NULL,  catatan_gm_offering = NULL, status = 'Proses Offering' WHERE email_id = 2
+
+
+
+
+
+2024-08-27 14:39:51
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:39:51
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:49:08
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:49:08
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:51:20
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:51:20
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:53:01
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 14:53:01
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:01:45
+- Server 		: Prod
+- User 			: royger.febriansyah@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TP012022K0003', 
+                    'ORD-27224-J7Y6Y4', 
+                    'pmr_date',
+                    'Mohammad Royger Febriansyah Putra<royger.febriansyah@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-08-27 15:02:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_rental_product_list.leve_parent' in 'field list'
+- Query 		: SELECT sa_rental_product_list.nomor_seri, sa_rental_transaction_product.part_number, sa_rental_product_list.leve_parent
+FROM sa_rental_product_list
+INNER JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri=sa_rental_transaction_product.nomor_seri;
+
+
+2024-08-27 15:06:01
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_product_list.nomor_seri' in 'field list'
+- Query 		: SELECT sa_product_list.nomor_seri, sa_product_list.level_parent, sa_rental_transaction_product.status_product 
+FROM sa_rental_transaction_product AS tr
+JOIN sa_rental_product_list AS pr
+ON tr.nomor_seri = pr.nomor_seri;
+
+
+
+2024-08-27 15:06:15
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_product_list.nomor_seri' in 'field list'
+- Query 		: SELECT sa_product_list.nomor_seri, sa_rental_product_list.level_parent, sa_rental_transaction_product.status_product 
+FROM sa_rental_transaction_product AS tr
+JOIN sa_rental_product_list AS pr
+ON tr.nomor_seri = pr.nomor_seri;
+
+
+
+2024-08-27 15:06:22
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_rental_product_list.nomor_seri' in 'field list'
+- Query 		: SELECT sa_rental_product_list.nomor_seri, sa_rental_product_list.level_parent, sa_rental_transaction_product.status_product 
+FROM sa_rental_transaction_product AS tr
+JOIN sa_rental_product_list AS pr
+ON tr.nomor_seri = pr.nomor_seri;
+
+
+
+2024-08-27 15:07:59
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'manager_hcm = NULL, 
+    status_manager_hcm = NULL, 
+    catatan_manager_hc...' at line 6
+- Query 		: UPDATE sa_hcm_requirement_interview 
+SET
+    offering_salary = NULL, 
+    salary_Probation = NULL,
+salary_Permanent = NULL
+    manager_hcm = NULL, 
+    status_manager_hcm = NULL, 
+    catatan_manager_hcm = NULL, 
+    hcm_gm = NULL, 
+    status_hcm_gm = NULL, 
+    catatan_hcm_gm = NULL, 
+    gm_offering = NULL, 
+    status_gm_offering = NULL,  
+    catatan_gm_offering = NULL, 
+    status = 'Proses Offering' 
+WHERE 
+    email_id = 14;
+
+
+
+
+
+
+
+
+
+
+
+
+2024-08-27 15:11:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product ...' at line 2
+- Query 		: SELECT 
+SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product AS tr
+JOIN sa_rental_product_list AS pr
+ON tr.nomor_seri = pr.nomor_seri
+GROUP BY pr.level_parent;
+
+
+
+2024-08-27 15:11:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product ...' at line 2
+- Query 		: SELECT 
+SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product AS tr
+JOIN sa_rental_product_list AS pr
+ON tr.nomor_seri = pr.nomor_seri
+GROUP BY pr.level_parent;
+
+
+
+2024-08-27 15:11:32
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product ...' at line 2
+- Query 		: SELECT 
+SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product AS tr
+JOIN sa_rental_product_list AS pr
+ON tr.nomor_seri = pr.nomor_seri
+GROUP BY pr.level_parent;
+
+
+
+2024-08-27 15:11:32
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product ...' at line 2
+- Query 		: SELECT 
+SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product AS tr
+JOIN sa_rental_product_list AS pr
+ON tr.nomor_seri = pr.nomor_seri
+GROUP BY pr.level_parent;
+
+
+
+2024-08-27 15:12:14
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product ...' at line 2
+- Query 		: SELECT 
+SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product AS tr
+JOIN sa_rental_product_list AS pr
+ON tr.nomor_seri = pr.nomor_seri
+GROUP BY pr.level_parent;
+
+
+
+2024-08-27 15:12:14
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product ...' at line 2
+- Query 		: SELECT 
+SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product AS tr
+JOIN sa_rental_product_list AS pr
+ON tr.nomor_seri = pr.nomor_seri
+GROUP BY pr.level_parent;
+
+
+
+2024-08-27 15:12:37
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:12:37
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:13:36
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product ...' at line 2
+- Query 		: SELECT 
+SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product AS tr
+JOIN sa_rental_product_list AS pr
+ON tr.nomor_seri = pr.nomor_seri
+GROUP BY pr.level_parent;
+
+
+
+2024-08-27 15:13:36
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product ...' at line 2
+- Query 		: SELECT 
+SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product AS tr
+JOIN sa_rental_product_list AS pr
+ON tr.nomor_seri = pr.nomor_seri
+GROUP BY pr.level_parent;
+
+
+
+2024-08-27 15:18:31
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:18:31
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:21:00
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:21:00
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:27:06
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product ...' at line 2
+- Query 		: SELECT 
+SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product AS tr
+JOIN sa_rental_product_list AS pr
+ON tr.nomor_seri = pr.nomor_seri
+GROUP BY pr.level_parent;
+
+
+
+2024-08-27 15:27:06
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product ...' at line 2
+- Query 		: SELECT 
+SELECT pr.level_parent, COUNT(*) AS count
+FROM sa_rental_transaction_product AS tr
+JOIN sa_rental_product_list AS pr
+ON tr.nomor_seri = pr.nomor_seri
+GROUP BY pr.level_parent;
+
+
+
+2024-08-27 15:27:14
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:27:14
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:29:45
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:29:45
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:31:27
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:31:27
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:33:23
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:33:23
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:35:00
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_rental_transaction_product AS tr
+JOIN sa_rental_product_list AS pr
+...' at line 6
+- Query 		: SELECT pr.nomor_seri, 
+       pr.level_parent, 
+       tr.status_product, 
+       CASE 
+           WHEN pr.level_parent IS NULL THEN 'Blank' 
+FROM sa_rental_transaction_product AS tr
+JOIN sa_rental_product_list AS pr
+ON tr.nomor_seri = pr.nomor_seri;
+
+
+2024-08-27 15:41:50
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:41:50
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:43:52
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:43:52
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:45:29
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where tr.status_product is null and tr.status_return is null' at line 2
+- Query 		: SELECT pr.level_parent, COUNT(*) AS count FROM sa_rental_transaction_product AS tr JOIN sa_rental_product_list AS pr ON tr.nomor_seri = pr.nomor_seri GROUP BY pr.level_parent
+where tr.status_product is null and tr.status_return is null
+
+
+2024-08-27 15:45:33
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:45:33
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:47:17
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:47:17
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:49:12
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:49:12
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:49:14
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_rental_product_list.level_parent,
+    COUNT(sa_rental_product_list.part_nu...' at line 3
+- Query 		:   SELECT 
+                            COALESCE(sa_rental_product_list.level_parent, 'Blank') AS level_parent
+    sa_rental_product_list.level_parent,
+    COUNT(sa_rental_product_list.part_number) AS count_number_part
+  FROM 
+    sa_rental_product_list
+  LEFT JOIN 
+    sa_rental_transaction_product 
+    ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri 
+  WHERE 
+    sa_rental_transaction_product.status_product IS NULL 
+    AND sa_rental_transaction_product.status_return IS NULL
+  GROUP BY 
+    sa_rental_product_list.level_parent
+
+
+2024-08-27 15:49:14
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_rental_product_list.level_parent,
+    COUNT(sa_rental_product_list.part_nu...' at line 3
+- Query 		:   SELECT 
+                            COALESCE(sa_rental_product_list.level_parent, 'Blank') AS level_parent
+    sa_rental_product_list.level_parent,
+    COUNT(sa_rental_product_list.part_number) AS count_number_part
+  FROM 
+    sa_rental_product_list
+  LEFT JOIN 
+    sa_rental_transaction_product 
+    ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri 
+  WHERE 
+    sa_rental_transaction_product.status_product IS NULL 
+    AND sa_rental_transaction_product.status_return IS NULL
+  GROUP BY 
+    sa_rental_product_list.level_parent
+
+
+2024-08-27 15:49:35
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_rental_product_list.level_parent,
+    COUNT(sa_rental_product_list.part_nu...' at line 3
+- Query 		:   SELECT 
+                            COALESCE(sa_rental_product_list.level_parent, 'Blank') AS blank
+    sa_rental_product_list.level_parent,
+    COUNT(sa_rental_product_list.part_number) AS count_number_part
+  FROM 
+    sa_rental_product_list
+  LEFT JOIN 
+    sa_rental_transaction_product 
+    ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri 
+  WHERE 
+    sa_rental_transaction_product.status_product IS NULL 
+    AND sa_rental_transaction_product.status_return IS NULL
+  GROUP BY 
+    sa_rental_product_list.level_parent
+
+
+2024-08-27 15:49:35
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_rental_product_list.level_parent,
+    COUNT(sa_rental_product_list.part_nu...' at line 3
+- Query 		:   SELECT 
+                            COALESCE(sa_rental_product_list.level_parent, 'Blank') AS blank
+    sa_rental_product_list.level_parent,
+    COUNT(sa_rental_product_list.part_number) AS count_number_part
+  FROM 
+    sa_rental_product_list
+  LEFT JOIN 
+    sa_rental_transaction_product 
+    ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri 
+  WHERE 
+    sa_rental_transaction_product.status_product IS NULL 
+    AND sa_rental_transaction_product.status_return IS NULL
+  GROUP BY 
+    sa_rental_product_list.level_parent
+
+
+2024-08-27 15:50:46
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:50:46
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:52:27
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:52:27
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:54:02
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:54:02
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:55:44
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:55:44
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:57:11
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:57:11
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:58:38
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 15:58:38
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 16:00:08
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 16:00:08
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-27 16:21:01
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'sa_rental_product_list.tipe_aset' in 'on clause'
+- Query 		: SELECT COALESCE(pr.level_parent, 'Blank') AS level_parent, COUNT(*) AS count FROM sa_rental_transaction_product AS tr JOIN sa_rental_product_list AS pr ON tr.nomor_seri = pr.nomor_seri AND sa_rental_product_list.tipe_aset = 'Titipan' GROUP BY COALESCE(pr.level_parent, 'Blank')
+
+
+2024-08-27 16:21:01
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'sa_rental_product_list.tipe_aset' in 'on clause'
+- Query 		: SELECT COALESCE(pr.level_parent, 'Blank') AS level_parent, COUNT(*) AS count FROM sa_rental_transaction_product AS tr JOIN sa_rental_product_list AS pr ON tr.nomor_seri = pr.nomor_seri AND sa_rental_product_list.tipe_aset = 'Titipan' GROUP BY COALESCE(pr.level_parent, 'Blank')

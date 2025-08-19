@@ -1,0 +1,72 @@
+18-11-2024 08:37:53
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/index.php(34): Databases->__construct()
+#2 {main}
+
+- HostName    : mariadb.mastersystem.co.id:4006- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_microservices18-11-2024 08:37:56
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/index.php(37): Databases->__construct()
+#2 {main}
+
+- HostName    : mariadb.mastersystem.co.id:4006- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm18-Nov-2024 8:37:56
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7]  - "SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7" - 
+
+18-11-2024 08:38:22
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/index.php(34): Databases->__construct()
+#2 {main}
+
+- HostName    : mariadb.mastersystem.co.id:4006- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_microservices18-11-2024 08:38:25
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/index.php(37): Databases->__construct()
+#2 {main}
+
+- HostName    : mariadb.mastersystem.co.id:4006- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm18-Nov-2024 8:38:25
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7]  - "SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7" - 
+
+18-11-2024 08:38:34
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/index.php(34): Databases->__construct()
+#2 {main}
+
+- HostName    : mariadb.mastersystem.co.id:4006- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_microservices18-11-2024 08:38:37
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/index.php(37): Databases->__construct()
+#2 {main}
+
+- HostName    : mariadb.mastersystem.co.id:4006- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm18-Nov-2024 8:38:37
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7]  - "SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7" - 
+

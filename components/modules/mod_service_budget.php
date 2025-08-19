@@ -1,17 +1,12 @@
 <?php
-if ((isset($property)) && ($property == 1)) {
-    $version = '1.0';
-    $author = 'Syamsul Arham';
-} else {
-?>
-    <?php
+if (!isset($_GET['sub'])) {
     $mdlname = "SERVICE_BUDGET";
     $userpermission = useraccess_v2($mdlname);
     $modulename = "Service Budget";
     $userpermission = useraccess($modulename);
     if (USERPERMISSION_V2 == "bf7717bbfd879cd1a40b71171f9b393e") {
         // if(USERPERMISSION=="7b7bc2512ee1fedcd76bdc68926d4f7b" || USERPERMISSION=="dbf36ff3e3827639223983ee8ac47b42" || USERPERMISSION=="726ea0dd998698e8a87f8e344d373533" || USERPERMISSION=="5898299487c5b9cdbe7d61809fd20213" || USERPERMISSION=="335a66c239a137964a33e8c60b24e3d9" || USERPERMISSION=="0162bce636a63c3ae499224203e06ed0" || USERPERMISSION=="858ba4765e53c712ef672a9570474b1d" ) {
-    ?>
+?>
         <input type="hidden" id="user_name" value="<?php echo $_SESSION['Microservices_UserName']; ?>">
         <script>
             $(document).ready(function() {
@@ -102,7 +97,8 @@ if ((isset($property)) && ($property == 1)) {
                                 if (project_code == null) {
                                     alert("Please select the data.");
                                 } else {
-                                    window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name;
+                                    // window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code="+project_code+"&so_number="+so_number+"&order_number="+order_number+"&user="+user_name;
+                                    window.open("components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name, "_blank");
                                 }
                             },
                             enabled: false
@@ -112,15 +108,22 @@ if ((isset($property)) && ($property == 1)) {
                             action: function() {
                                 window.location.href = "index.php?mod=service_budget&act=all";
                             },
-                            enabled: true
+                            enabled: false
                         },
                         {
                             text: '<span class="d-inline-block" tabindex="0" data-bs-toggle="modal" data-bs-target="#filter" title="Filter data"><i class="fa fa-filter"></i></span>',
                             enabled: true
                         },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='List Backup BOQ'><i class='fa-solid fa-cart-shopping'></i></span>",
+                            action: function() {
+                                window.location.href = "index.php?mod=service_budget&sub=list_boq";
+                            },
+                            enabled: true
+                        },
                     ],
                     "columnDefs": [{
-                            "targets": [0, 7, 11, 12, 13, 14, 15, 16],
+                            "targets": [0, 1, 2, 3, 8, 10, 11, 12, 13, 14, 15, 16, 17],
                             "visible": false
                         },
                         {
@@ -141,7 +144,7 @@ if ((isset($property)) && ($property == 1)) {
                         },
                     ],
                     "order": [
-                        [16, "desc"]
+                        [17, "desc"]
                     ]
                 });
 
@@ -232,7 +235,8 @@ if ((isset($property)) && ($property == 1)) {
                                 if (project_code == null) {
                                     alert("Please select the data.");
                                 } else {
-                                    window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name;
+                                    // window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code="+project_code+"&so_number="+so_number+"&order_number="+order_number+"&user="+user_name;
+                                    window.open("components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name, "_blank");
                                 }
                             },
                             enabled: false
@@ -240,17 +244,24 @@ if ((isset($property)) && ($property == 1)) {
                         {
                             text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='All My Service Budget'><i class='fa fa-database'></i></span>",
                             action: function() {
-                                window.location.href = "index.php?mod=service_budget";
+                                window.location.href = "index.php?mod=service_budget&act=all";
                             },
-                            enabled: true
+                            enabled: false
                         },
                         {
                             text: '<span class="d-inline-block" tabindex="0" data-bs-toggle="modal" data-bs-target="#filter" title="Filter data"><i class="fa fa-filter"></i></span>',
                             enabled: true
                         },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='List Backup BOQ'><i class='fa-solid fa-cart-shopping'></i></span>",
+                            action: function() {
+                                window.location.href = "index.php?mod=service_budget&sub=list_boq";
+                            },
+                            enabled: true
+                        },
                     ],
                     "columnDefs": [{
-                            "targets": [0, 7, 11, 12, 13, 14, 15, 16],
+                            "targets": [0, 1, 2, 3, 8, 10, 11, 12, 13, 14, 15, 16, 17],
                             "visible": false
                         },
                         {
@@ -271,7 +282,7 @@ if ((isset($property)) && ($property == 1)) {
                         }
                     ],
                     "order": [
-                        [16, "DES"]
+                        [17, "DES"]
                     ]
                 });
 
@@ -362,7 +373,8 @@ if ((isset($property)) && ($property == 1)) {
                                 if (project_code == null) {
                                     alert("Please select the data.");
                                 } else {
-                                    window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name;
+                                    // window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code="+project_code+"&so_number="+so_number+"&order_number="+order_number+"&user="+user_name;
+                                    window.open("components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name, "_blank");
                                 }
                             },
                             enabled: true
@@ -370,17 +382,24 @@ if ((isset($property)) && ($property == 1)) {
                         {
                             text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='All My Service Budget'><i class='fa fa-database'></i></span>",
                             action: function() {
-                                window.location.href = "index.php?mod=service_budget";
+                                window.location.href = "index.php?mod=service_budget&act=all";
                             },
-                            enabled: true
+                            enabled: false
                         },
                         {
                             text: '<span class="d-inline-block" tabindex="0" data-bs-toggle="modal" data-bs-target="#filter" title="Filter data"><i class="fa fa-filter"></i></span>',
                             enabled: true
                         },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Add SB by Order Number'><i class='fa-solid fa-cart-shopping'></i></span>",
+                            action: function() {
+                                window.location.href = "index.php?mod=service_budget&sub=list_boq";
+                            },
+                            enabled: true
+                        },
                     ],
                     "columnDefs": [{
-                            "targets": [0, 7, 11, 12, 13, 14, 15, 16],
+                            "targets": [0, 1, 2, 3, 8, 10, 11, 12, 13, 14, 15, 16, 17],
                             "visible": false
                         },
                         {
@@ -401,7 +420,7 @@ if ((isset($property)) && ($property == 1)) {
                         }
                     ],
                     "order": [
-                        [16, "DES"]
+                        [17, "DES"]
                     ]
                 });
 
@@ -492,7 +511,8 @@ if ((isset($property)) && ($property == 1)) {
                                 if (project_code == null) {
                                     alert("Please select the data.");
                                 } else {
-                                    window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name;
+                                    // window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code="+project_code+"&so_number="+so_number+"&order_number="+order_number+"&user="+user_name;
+                                    window.open("components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name, "_blank");
                                 }
                             },
                             enabled: true
@@ -500,17 +520,24 @@ if ((isset($property)) && ($property == 1)) {
                         {
                             text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='All My Service Budget'><i class='fa fa-database'></i></span>",
                             action: function() {
-                                window.location.href = "index.php?mod=service_budget";
+                                window.location.href = "index.php?mod=service_budget&act=all";
                             },
-                            enabled: true
+                            enabled: false
                         },
                         {
                             text: '<span class="d-inline-block" tabindex="0" data-bs-toggle="modal" data-bs-target="#filter" title="Filter data"><i class="fa fa-filter"></i></span>',
                             enabled: true
                         },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Add SB by Order Number'><i class='fa-solid fa-cart-shopping'></i></span>",
+                            action: function() {
+                                window.location.href = "index.php?mod=service_budget&sub=list_boq";
+                            },
+                            enabled: true
+                        },
                     ],
                     "columnDefs": [{
-                            "targets": [0, 7, 11, 12, 13, 14, 15, 16],
+                            "targets": [0, 1, 2, 3, 8, 10, 11, 12, 13, 14, 15, 16, 17],
                             "visible": false
                         },
                         {
@@ -531,7 +558,7 @@ if ((isset($property)) && ($property == 1)) {
                         }
                     ],
                     "order": [
-                        [16, "DES"]
+                        [17, "DES"]
                     ]
                 });
 
@@ -623,7 +650,8 @@ if ((isset($property)) && ($property == 1)) {
                                 if (project_code == null) {
                                     alert("Please select the data.");
                                 } else {
-                                    window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name;
+                                    // window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code="+project_code+"&so_number="+so_number+"&order_number="+order_number+"&user="+user_name;
+                                    window.open("components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name, "_blank");
                                 }
                             },
                             enabled: true
@@ -631,17 +659,24 @@ if ((isset($property)) && ($property == 1)) {
                         {
                             text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='All My Service Budget'><i class='fa fa-database'></i></span>",
                             action: function() {
-                                window.location.href = "index.php?mod=service_budget";
+                                window.location.href = "index.php?mod=service_budget&act=all";
                             },
-                            enabled: true
+                            enabled: false
                         },
                         {
                             text: '<span class="d-inline-block" tabindex="0" data-bs-toggle="modal" data-bs-target="#filter" title="Filter data"><i class="fa fa-filter"></i></span>',
                             enabled: true
                         },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Add SB by Order Number'><i class='fa-solid fa-cart-shopping'></i></span>",
+                            action: function() {
+                                window.location.href = "index.php?mod=service_budget&sub=list_boq";
+                            },
+                            enabled: true
+                        },
                     ],
                     "columnDefs": [{
-                            "targets": [0, 6, 11, 12, 13, 14, 15, 16],
+                            "targets": [0, 1, 2, 3, 8, 10, 11, 12, 13, 14, 15, 16, 17],
                             "visible": false
                         },
                         {
@@ -662,7 +697,7 @@ if ((isset($property)) && ($property == 1)) {
                         }
                     ],
                     "order": [
-                        [16, "des"]
+                        [17, "des"]
                     ]
                 });
 
@@ -754,7 +789,8 @@ if ((isset($property)) && ($property == 1)) {
                                 if (project_code == null) {
                                     alert("Please select the data.");
                                 } else {
-                                    window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name;
+                                    // window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code="+project_code+"&so_number="+so_number+"&order_number="+order_number+"&user="+user_name;
+                                    window.open("components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name, "_blank");
                                 }
                             },
                             enabled: true
@@ -762,17 +798,24 @@ if ((isset($property)) && ($property == 1)) {
                         {
                             text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='All My Service Budget'><i class='fa fa-database'></i></span>",
                             action: function() {
-                                window.location.href = "index.php?mod=service_budget";
+                                window.location.href = "index.php?mod=service_budget&act=all";
                             },
-                            enabled: true
+                            enabled: false
                         },
                         {
                             text: '<span class="d-inline-block" tabindex="0" data-bs-toggle="modal" data-bs-target="#filter" title="Filter data"><i class="fa fa-filter"></i></span>',
                             enabled: true
                         },
+                        {
+                            text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Add SB by Order Number'><i class='fa-solid fa-cart-shopping'></i></span>",
+                            action: function() {
+                                window.location.href = "index.php?mod=service_budget&sub=list_boq";
+                            },
+                            enabled: true
+                        },
                     ],
                     "columnDefs": [{
-                            "targets": [0, 6, 11, 12, 13, 14, 15, 16],
+                            "targets": [0, 1, 2, 3, 8, 10, 11, 12, 13, 14, 15, 16, 17],
                             "visible": false
                         },
                         {
@@ -793,9 +836,27 @@ if ((isset($property)) && ($property == 1)) {
                         }
                     ],
                     "order": [
-                        [16, "des"]
+                        [17, "des"]
                     ]
                 });
+
+                var user_email = document.getElementById('user_email').value;
+                if (user_email == "syamsul@mastersystem.co.id" || user_email == "iwan@mastersystem.co.id") {
+                    tableUnApproved.button(8).enable();
+                    tableSubmit.button(8).enable();
+                    tableApprovedTrade.button(8).enable();
+                    tableApproved.button(8).enable();
+                    tableTempApproved.button(8).enable();
+                    tableAcknowledge.button(8).enable();
+                } else {
+                    tableUnApproved.button(8).disable();
+                    tableSubmit.button(8).disable();
+                    tableApprovedTrade.button(8).disable();
+                    tableApproved.button(8).disable();
+                    tableTempApproved.button(8).disable();
+                    tableAcknowledge.button(8).disable();
+                }
+
 
             });
         </script>
@@ -811,15 +872,15 @@ if ((isset($property)) && ($property == 1)) {
             $filter = "";
             $sambung = "";
             if (isset($_GET['project_code']) && $_GET['project_code'] != "") {
-                $filter = "project_code LIKE '%" . $_GET['project_code'] . "%'";
+                $filter = "project_code LIKE '%" . trim($_GET['project_code'], " ") . "%'";
                 $sambung = " OR ";
             }
             if (isset($_GET['so_number']) && $_GET['so_number'] != "") {
-                $filter .= $sambung . " so_number LIKE '%" . $_GET['so_number'] . "%'";
+                $filter .= $sambung . " so_number LIKE '%" . trim($_GET['so_number'], " ") . "%'";
                 $sambung = " OR ";
             }
             if (isset($_GET['order_number']) && $_GET['order_number'] != "") {
-                $filter .= $sambung . " order_number LIKE '%" . $_GET['order_number'] . "%'";
+                $filter .= $sambung . " order_number LIKE '%" . trim($_GET['order_number'], " ") . "%'";
             }
         ?>
 
@@ -829,8 +890,9 @@ if ((isset($property)) && ($property == 1)) {
                 $ALERT->datanotselected();
             }
             ?>
+            <input type="hidden" id="user_email" value="<?php echo $_SESSION['Microservices_UserEmail']; ?>">
             <div class="col-lg-12">
-                <div class="card shadow mb-4">
+                <div class="card shadow">
                     <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                         <h6 class="m-0 font-weight-bold text-secondary">Select Project</h6>
                         <?php spinner(); ?>
@@ -870,20 +932,20 @@ if ((isset($property)) && ($property == 1)) {
                             $condition = "leader_email='" . $_SESSION['Microservices_UserEmail'] . "'";
                             $leaders = $DBHCM->get_data($tblname, $condition);
 
-                            $members = "create_by='" . $_SESSION['Microservices_UserEmail'] . "' OR sales_name LIKE '%" . $_SESSION['Microservices_UserName'] . "%'";
+                            $members = "create_by='" . $_SESSION['Microservices_UserEmail'] . "' OR sales_name LIKE '%" . $_SESSION['Microservices_UserName'] . "%' OR `ps_account` = '" . $_SESSION['Microservices_UserEmail'] . "'";
                             $organization = "";
                             if ($leaders[2] > 0) {
                                 $organization = trim($leaders[0]['organization_name']);
                                 // if($leaders[0]['organization_name']=="Presales Engineer" || $leaders[0]['organization_name']=="Sales" || $leaders[0]['organization_name']=="Telesales" || $leaders[0]['organization_name']=="Marketing" || $leaders[0]['organization_name']=="Presales Engineering" || $leaders[0]['organization_name']=="Solution Architect" || $leaders[0]['organization_name']=="Solution Engineer" || $leaders[0]['organization_name']=="Technology Solution Collaboration" || $leaders[0]['organization_name']=="Enterprise Presales Account" || $leaders[0]['organization_name']=="Contact Center & Custom Software" || $leaders[0]['organization_name']=="Enterprise Presales Account" || $leaders[0]['organization_name']=="Account Manager") { 
                                 if ($organization == "Presales Engineer" || $organization == "Sales" || $organization == "Telesales" || $organization == "Marketing" || $organization == "Presales Engineering" || $organization == "Solution Architect" || $organization == "Solution Engineer" || $organization == "Technology Solution Collaboration" || $organization == "Enterprise Presales Account" || $organization == "Contact Center & Custom Software" || $organization == "Enterprise Presales Account" || $organization == "Account Manager") {
                                     do {
-                                        $members .= " OR create_by='" . $leaders[0]['employee_email'] . "' OR sales_name LIKE '%" . $leaders[0]['employee_name'] . "%'";
+                                        $members .= " OR create_by='" . $leaders[0]['employee_email'] . "' OR sales_name LIKE '%" . $leaders[0]['employee_name'] . "%' OR `ps_account` = '" . $leaders[0]['employee_email'] . "'";
 
                                         $condition = "leader_email='" . $leaders[0]['employee_email'] . "'";
                                         $employees = $DBHCM->get_data($tblname, $condition);
                                         if ($employees[2] > 0) {
                                             do {
-                                                $members .= " OR create_by='" . $employees[0]['employee_email'] . "' OR sales_name LIKE '%" . $employees[0]['employee_name'] . "%'";
+                                                $members .= " OR create_by='" . $employees[0]['employee_email'] . "' OR sales_name LIKE '%" . $employees[0]['employee_name'] . "%' OR `ps_account` = '" . $leaders[0]['employee_email'] . "'";
                                             } while ($employees[0] = $employees[1]->fetch_assoc());
                                         }
                                     } while ($leaders[0] = $leaders[1]->fetch_assoc());
@@ -892,6 +954,7 @@ if ((isset($property)) && ($property == 1)) {
 
                             $tblnamevalue = "mst_setup";
                             $conditionvalue = "setup_name='Value SB Sederhana'";
+                            $order = "modified_date DESC";
                             $sbs = $DTSB->get_data($tblnamevalue, $conditionvalue);
                             $dsbs = $sbs[0];
                             $dsbsexp = explode(";", $dsbs['setup_value']);
@@ -948,7 +1011,7 @@ if ((isset($property)) && ($property == 1)) {
                                     } else {
                                         $condition = "status='approved' AND (" . $members . ")";
                                     }
-                                    $condition .= " AND `bundling`='Trade<br/>'";
+                                    $condition .= " AND `bundling`='- Trade<br/>'";
                                     view_table($DTSB, $tblname, $primarykey, $condition, $order, 0, $maxRows, "2");
                                     ?>
                                 </div>
@@ -957,14 +1020,27 @@ if ((isset($property)) && ($property == 1)) {
                                 <div class="card shadow mb-4">
                                     <?php
                                     if ($filter != "") {
-                                        $condition = "(" . $filter . ") AND status='approved'";
+                                        $check_data = $DTSB->get_sqlV2("SELECT * FROM sa_trx_project_list WHERE ($filter) AND (status='approved' OR status='acknowledge')");
+                                        $check_status_ackimp = $check_data[0]['pmo_ack_implementation'];
+                                        $check_status_ackmt = $check_data[0]['pmo_ack_maintenance'];
+                                        if (empty($check_status_ackmt) && empty($check_status_ackimp)) {
+                                            $condition = "(" . $filter . ") AND status='approved'";
+                                        } else if (!empty($check_status_ackmt) && empty($check_status_ackimp) && ($_SESSION['Microservices_UserEmail'] == "fortuna@mastersystem.co.id" || $_SESSION['Microservices_UserEmail'] == "sumarno@mastersystem.co.id" || $_SESSION['Microservices_UserEmail'] == "pitasari.amanda@mastersystem.co.id")) {
+                                            $condition = "(" . $filter . ") AND (status='acknowledge' OR status='approved')";
+                                        } else if (empty($check_status_ackmt) && !empty($check_status_ackimp) && ($_SESSION['Microservices_UserEmail'] == "aceng.zakariya@mastersystem.co.id" || $_SESSION['Microservices_UserEmail'] == "anggi.fachrizal@mastersystem.co.id" || $_SESSION['Microservices_UserEmail'] == "miko.widiarta@mastersystem.co.id")) {
+                                            // echo $check_status_ackimp . " " . $check_status_ackmt . " " . $_SESSION['Microservices_UserEmail'];
+                                            $condition = "(" . $filter . ") AND (status='acknowledge' OR status='approved')";
+                                        } else {
+                                            $condition = "(" . $filter . ") AND status='approved'";
+                                        }
+                                        // $condition = "(" . $filter . ") AND status='approved'";
                                         $maxRows = 0;
                                     } elseif ((isset($_GET['act']) && $_GET['act'] == 'all') || USERPERMISSION == "7b7bc2512ee1fedcd76bdc68926d4f7b" || USERPERMISSION == "dbf36ff3e3827639223983ee8ac47b42" || USERPERMISSION == "726ea0dd998698e8a87f8e344d373533" || USERPERMISSION == "125b55092905c1919f7558d68cfd62d7" || USERPERMISSION == "975031eb0e919d08ec6ba1993b455793") {
                                         $condition = "status='approved'";
                                     } else {
                                         $condition = "status='approved' AND (" . $members . ")";
                                     }
-                                    $condition .= " AND `bundling`<>'Trade<br/>'";
+                                    $condition .= " AND `bundling`<>'- Trade<br/>'";
                                     view_table($DTSB, $tblname, $primarykey, $condition, $order, 0, $maxRows, "21");
                                     ?>
                                 </div>
@@ -988,6 +1064,18 @@ if ((isset($property)) && ($property == 1)) {
                                 <div class="card shadow mb-4">
                                     <?php
                                     if ($filter != "") {
+                                        $check_data2 = $DTSB->get_sqlV2("SELECT * FROM sa_trx_project_list WHERE ($filter) AND status='acknowledge'");
+                                        // $check_status_ackimp2 = $check_data2[0]['pmo_ack_implementation'];
+                                        // $check_status_ackmt2 = $check_data2[0]['pmo_ack_maintenance'];
+                                        // if (empty($check_status_ackmt2) && empty($check_status_ackimp2)) {
+                                        //     $condition = "(" . $filter . ") AND status='acknowledge' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND NOT ISNULL(order_number)";
+                                        // } else if (empty($check_status_ackmt2) && !empty($check_status_ackimp2) && ($_SESSION['Microservices_UserEmail'] == "fortuna@mastersystem.co.id" || $_SESSION['Microservices_UserEmail'] == "sumarno@mastersystem.co.id" || $_SESSION['Microservices_UserEmail'] == "pitasari.amanda@mastersystem.co.id")) {
+                                        //     $condition = "(" . $filter . ") AND status='acknowledge' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND NOT ISNULL(order_number)";
+                                        // } else if (!empty($check_status_ackmt2) && empty($check_status_ackimp2) && ($_SESSION['Microservices_UserEmail'] == "aceng.zakariya@mastersystem.co.id" || $_SESSION['Microservices_UserEmail'] == "anggi.fachrizal@mastersystem.co.id" || $_SESSION['Microservices_UserEmail'] == "miko.widiarta@mastersystem.co.id")) {
+                                        //     $condition = "(" . $filter . ") AND status='acknowledge' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND NOT ISNULL(order_number)";
+                                        // } else {
+                                        //$condition = "(" . $filter . ") AND status='acknowledge' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND NOT ISNULL(order_number)";
+                                        // }
                                         $condition = "(" . $filter . ") AND status='acknowledge' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND NOT ISNULL(order_number)";
                                         $maxRows = 0;
                                     } elseif ((isset($_GET['act']) && $_GET['act'] == 'all') || USERPERMISSION == "7b7bc2512ee1fedcd76bdc68926d4f7b" || USERPERMISSION == "dbf36ff3e3827639223983ee8ac47b42" || USERPERMISSION == "726ea0dd998698e8a87f8e344d373533" || USERPERMISSION == "125b55092905c1919f7558d68cfd62d7" || USERPERMISSION == "975031eb0e919d08ec6ba1993b455793") {
@@ -1001,9 +1089,20 @@ if ((isset($property)) && ($property == 1)) {
                             </div>
                         </div>
                     </div>
-                    <?php //module_version("SERVICE_BUDGET"); 
-                    ?>
+                    <?php
+                    // module update
+                    $title = "Service Budget Listing"; // Title of module or function
+                    $author = 'Syamsul Arham'; // Author or created by
+                    $type = "main-module"; // main-module is mod_xxxx.php, sub-module is form, function is function not form
+                    $revisionType = 'control'; // major, minor, control
+                    $dashboardEnable = false;
+                    $moduleDesc = "This module is used to view a list of Service Budgets that have been created."; // Decsribe about name or function of module
+                    $revision_msg = "Update user Sylvia team for Service Budget"; // Describe the coding chnage made, if any
+                    $showFooter = true; // Select true if you want ti display the version in the main-module or sub-module, otherwise select false 
 
+                    global $ClassVersion;
+                    $ClassVersion->show_footer(__FILE__, $title, $moduleDesc, $type, $revisionType, $dashboardEnable, $author, $revision_msg, $showFooter);
+                    ?>
                 </div>
             </div>
             <?php
@@ -1020,26 +1119,114 @@ if ((isset($property)) && ($property == 1)) {
                     $names = $DBHCM->get_leader_v2($check[0]['create_by']);
 
                     do {
-                        if ($check[0]['status'] == "draft" || $check[0]['status'] == "rejected" || $check[0]['status'] == "reopen") {
-                            $draft++;
-                            echo '<script>document.getElementById("home-tab").style.backgroundColor ="#FFC7CE";</script>';
-                        }
-                        if ($check[0]['status'] == "submited") {
-                            $submit++;
-                            echo '<script>document.getElementById("submit-tab").style.backgroundColor ="#FFC7CE";</script>';
-                        }
-                        if ($check[0]['status'] == "approved" && $check[0]['bundling'] == '0;0;0;') {
-                            $approved++;
-                            echo '<script>document.getElementById("approvalTrade-tab").style.backgroundColor ="#FFC7CE";</script>';
-                        } elseif ($check[0]['status'] == "approved" && $check[0]['bundling'] != '0;0;0;') {
-                            $approved++;
-                            echo '<script>document.getElementById("approval-tab").style.backgroundColor ="#FFC7CE";</script>';
-                        }
-                        if ($check[0]['status'] == "acknowledge" && (is_null($check[0]['po_number']) || is_null($check[0]['so_number']))) {
-                            $acknowledge++;
-                            echo '<script>document.getElementById("temporary-tab").style.backgroundColor ="#FFC7CE";</script>';
-                        } elseif ($check[0]['status'] == "acknowledge") {
-                            echo '<script>document.getElementById("final-tab").style.backgroundColor ="#FFC7CE";</script>';
+                        if (empty($check[0]['pmo_ack_implementation']) && empty($check[0]['pmo_ack_maintenance'])) {
+                            if ($check[0]['status'] == "draft" || $check[0]['status'] == "rejected" || $check[0]['status'] == "reopen") {
+                                $draft++;
+                                echo '<script>document.getElementById("home-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
+                            if ($check[0]['status'] == "submited") {
+                                $submit++;
+                                echo '<script>document.getElementById("submit-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
+                            if ($check[0]['status'] == "approved" && ($check[0]['bundling'] == '0;0;0;' || $check[0]['bundling'] == '0;0;0;0;')) {
+                                $approved++;
+                                echo '<script>document.getElementById("approvalTrade-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
+                            if ($check[0]['status'] == "approved" && ($check[0]['bundling'] != '0;0;0;' && $check[0]['bundling'] != '0;0;0;0;')) {
+                                $approved++;
+                                echo '<script>document.getElementById("approval-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
+                            if ($check[0]['status'] == "acknowledge" && (is_null($check[0]['po_number']) || is_null($check[0]['so_number']))) {
+                                $acknowledge++;
+                                echo '<script>document.getElementById("temporary-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            } else
+                        if ($check[0]['status'] == "acknowledge") {
+                                echo '<script>document.getElementById("final-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
+                        } else if ($_SESSION['Microservices_UserEmail'] == "aceng.zakariya@mastersystem.co.id" || $_SESSION['Microservices_UserEmail'] == "anggi.fachrizal@mastersystem.co.id" || $_SESSION['Microservices_UserEmail'] == "miko.widiarta@mastersystem.co.id") {
+                            if ($check[0]['status'] == "draft" || $check[0]['status'] == "rejected" || $check[0]['status'] == "reopen") {
+                                $draft++;
+                                echo '<script>document.getElementById("home-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
+                            if ($check[0]['status'] == "submited") {
+                                $submit++;
+                                echo '<script>document.getElementById("submit-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
+                            if ($check[0]['status'] == "acknowledge" && ($check[0]['bundling'] == '0;0;0;' || $check[0]['bundling'] == '0;0;0;0;') && empty($check[0]['pmo_ack_maintenance'])) {
+                                $approved++;
+                                echo '<script>document.getElementById("approvalTrade-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            } else
+                        if ($check[0]['status'] == "acknowledge" && ($check[0]['bundling'] != '0;0;0;' || $check[0]['bundling'] != '0;0;0;0;') && empty($check[0]['pmo_ack_maintenance'])) {
+                                $approved++;
+                                echo '<script>document.getElementById("approval-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
+                            if ($check[0]['status'] == "approved" && ($check[0]['bundling'] != '0;0;0;' || $check[0]['bundling'] != '0;0;0;0;')) {
+                                $approved++;
+                                echo '<script>document.getElementById("approval-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
+                            if ($check[0]['status'] == "acknowledge" && (is_null($check[0]['po_number']) || is_null($check[0]['so_number']))) {
+                                $acknowledge++;
+                                echo '<script>document.getElementById("temporary-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            } else
+                        if ($check[0]['status'] == "acknowledge" && !empty($check[0]['pmo_ack_maintenance'])) {
+                                echo '<script>document.getElementById("final-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
+                        } else if ($_SESSION['Microservices_UserEmail'] == "fortuna@mastersystem.co.id" || $_SESSION['Microservices_UserEmail'] == "sumarno@mastersystem.co.id" || $_SESSION['Microservices_UserEmail'] == "pitasari.amanda@mastersystem.co.id") {
+                            if ($check[0]['status'] == "draft" || $check[0]['status'] == "rejected" || $check[0]['status'] == "reopen") {
+                                $draft++;
+                                echo '<script>document.getElementById("home-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
+                            if ($check[0]['status'] == "submited") {
+                                $submit++;
+                                echo '<script>document.getElementById("submit-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
+                            if ($check[0]['status'] == "approved" && ($check[0]['bundling'] != '0;0;0;' || $check[0]['bundling'] != '0;0;0;0;')) {
+                                $approved++;
+                                echo '<script>document.getElementById("approval-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
+                            if ($check[0]['status'] == "acknowledge" && ($check[0]['bundling'] == '0;0;0;' || $check[0]['bundling'] == '0;0;0;0;') && empty($check[0]['pmo_ack_implementation'])) {
+                                $approved++;
+                                echo '<script>document.getElementById("approvalTrade-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            } else
+                        if ($check[0]['status'] == "acknowledge" && ($check[0]['bundling'] != '0;0;0;' || $check[0]['bundling'] != '0;0;0;0;') && empty($check[0]['pmo_ack_implementation'])) {
+                                $approved++;
+                                echo '<script>document.getElementById("approval-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
+                            if ($check[0]['status'] == "acknowledge" && (is_null($check[0]['po_number']) || is_null($check[0]['so_number'])) && (!empty($check[0]['pmo_ack_implementation']))) {
+                                $acknowledge++;
+                                echo '<script>document.getElementById("temporary-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            } else
+                        if ($check[0]['status'] == "acknowledge" && !empty($check[0]['pmo_ack_implementation'])) {
+                                echo '<script>document.getElementById("final-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
+                        } else {
+                            if ($check[0]['status'] == "draft" || $check[0]['status'] == "rejected" || $check[0]['status'] == "reopen") {
+                                $draft++;
+                                echo '<script>document.getElementById("home-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
+                            if ($check[0]['status'] == "submited") {
+                                $submit++;
+                                echo '<script>document.getElementById("submit-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
+                            if ($check[0]['status'] == "approved" && ($check[0]['bundling'] != '0;0;0;' || $check[0]['bundling'] != '0;0;0;0;')) {
+                                $approved++;
+                                echo '<script>document.getElementById("approval-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
+                            if ($check[0]['status'] == "approved" && ($check[0]['bundling'] == '0;0;0;' || $check[0]['bundling'] == '0;0;0;0;')) {
+                                $approved++;
+                                echo '<script>document.getElementById("approvalTrade-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            } else
+                        if ($check[0]['status'] == "approved" && ($check[0]['bundling'] != '0;0;0;' || $check[0]['bundling'] != '0;0;0;0;')) {
+                                $approved++;
+                                echo '<script>document.getElementById("approval-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
+                            if ($check[0]['status'] == "acknowledge" && (is_null($check[0]['po_number']) || is_null($check[0]['so_number']))) {
+                                $acknowledge++;
+                                echo '<script>document.getElementById("temporary-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            } else
+                        if ($check[0]['status'] == "acknowledge") {
+                                echo '<script>document.getElementById("final-tab").style.backgroundColor ="#FFC7CE";</script>';
+                            }
                         }
                     } while ($check[0] = $check[1]->fetch_assoc());
             ?>
@@ -1163,60 +1350,8 @@ if ((isset($property)) && ($property == 1)) {
     }
     // End Body
 
+} else {
+    include("components/modules/service_budget/mod_file_boq.php");
 }
-?>
 
-<?php if (date("2023-03-01") > date("Y-m-d")) { ?>
-    <div class="toast-container position-fixed top-0 end-0 p-3">
-        <div id="liveToast2" class="toast bg-light" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header">
-                <i class="fa-solid fa-circle-info"></i>
-                <strong class="me-auto">&nbsp;Update</strong>
-                <!-- <small>11 mins ago</small> -->
-                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
-            <div class="toast-body">
-                Project Information bisa diedit.
-            </div>
-        </div>
-        <div id="liveToast3" class="toast bg-light" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header">
-                <i class="fa-solid fa-circle-info"></i>
-                <strong class="me-auto">&nbsp;Update</strong>
-                <!-- <small>11 mins ago</small> -->
-                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
-            <div class="toast-body">
-                Update formula band-6.<br>
-                Agreed Price = BPD + Outsourcing + Mandays
-            </div>
-        </div>
-        <div id="liveToast1" class="toast bg-light" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header">
-                <i class="fa-solid fa-circle-info"></i>
-                <strong class="me-auto">&nbsp;Update</strong>
-                <!-- <small>11 mins ago</small> -->
-                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
-            <div class="toast-body">
-                Band-0 digunakan untuk project full outsources.
-            </div>
-        </div>
-    </div>
-<?php } ?>
-
-<script>
-    const toastElement1 = document.getElementById('liveToast1');
-    const toast1 = bootstrap.Toast.getOrCreateInstance(toastElement1);
-    toast1.show();
-    const toastElement2 = document.getElementById('liveToast2');
-    const toast2 = bootstrap.Toast.getOrCreateInstance(toastElement2);
-    toast2.show();
-    const toastElement3 = document.getElementById('liveToast3');
-    const toast3 = bootstrap.Toast.getOrCreateInstance(toastElement3);
-    toast3.show();
-</script>
-
-<?php
-// show_footer("control", "Syamsul Arham", $msg="Testing");
 ?>

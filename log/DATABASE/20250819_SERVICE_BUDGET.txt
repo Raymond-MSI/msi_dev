@@ -1,0 +1,336 @@
+19-08-2025 08:51:13
+- ID : 68a3d8916eb08
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 08:51:14
+- ID : 68a3d8922cefb
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 08:51:14
+- ID : 68a3d892a2242
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 08:51:14
+- ID : 68a3d892c9766
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 08:51:15
+- ID : 68a3d8930e917
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 08:51:15
+- ID : 68a3d89339f1b
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 08:51:15
+- ID : 68a3d893637df
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 08:51:15
+- ID : 68a3d89396768
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 08:51:19
+- ID : 68a3d897078fd
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 08:51:19
+- ID : 68a3d8974404a
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 08:51:19
+- ID : 68a3d897659df
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 08:51:19
+- ID : 68a3d89791a82
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 08:51:19
+- ID : 68a3d897b8f8e
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 08:51:19
+- ID : 68a3d897e99af
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 08:51:20
+- ID : 68a3d898219cc
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 08:58:09
+- ID : 68a3da3131b68
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:05:36
+- ID : 68a3dbf0aedc4
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:05:40
+- ID : 68a3dbf4c9997
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:05:41
+- ID : 68a3dbf5805db
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:05:41
+- ID : 68a3dbf5af74d
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:05:41
+- ID : 68a3dbf5de79a
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:05:42
+- ID : 68a3dbf67efd3
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:05:42
+- ID : 68a3dbf6cf4c8
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:05:47
+- ID : 68a3dbfb0994b
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:05:49
+- ID : 68a3dbfd4f51f
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:06:44
+- ID : 68a3dc349c8a6
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:07:15
+- ID : 68a3dc53a0252
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:07:16
+- ID : 68a3dc54a19cd
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:07:18
+- ID : 68a3dc566e4ae
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:11:33
+- ID : 68a3dd5583a7d
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:11:34
+- ID : 68a3dd56b03db
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:11:34
+- ID : 68a3dd56ea36e
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:11:35
+- ID : 68a3dd573679b
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:11:35
+- ID : 68a3dd576d03f
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:16:10
+- ID : 68a3de6a394b4
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:16:10
+- ID : 68a3de6ab5895
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:16:10
+- ID : 68a3de6ada550
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:16:11
+- ID : 68a3de6b16c23
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:16:11
+- ID : 68a3de6b4f5d4
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:16:11
+- ID : 68a3de6b7817f
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:16:11
+- ID : 68a3de6ba30bf
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+19-08-2025 09:16:11
+- ID : 68a3de6bd22af
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+

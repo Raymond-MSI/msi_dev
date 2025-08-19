@@ -1,0 +1,72 @@
+File Error Log
+
+2024-05-29 10:14:57
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_wrike_project_list' doesn't exist
+- Query 		: select * from sa_wrike_project_list WHERE project_code='TB002323I0090'
+
+
+2024-05-29 10:41:54
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_trx_sb_number where project_code='TS000923D0011'
+
+
+2024-05-29 13:16:32
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-05-22' AND task_date <= '2024-06-05' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-05-29 15:54:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_view_employees' doesn't exist
+- Query 		: select * from sa_view_employees WHERE employee_email='anton.prasetyo@mastersystem.co.id' OR employee_email='zaneta.pelangi@mastersystem.co.id' OR employee_email='desi.permatasari@mastersystem.co.id' OR employee_email='yos.eddy@mastersystem.co.id' OR employee_email='malik.perwiro@mastersystem.co.id' OR employee_email='fajar.andriyanto@mastersystem.co.id' OR employee_email='rahmadani.sudarno@mastersystem.co.id' OR employee_email='rahman.dani@mastersystem.co.id' OR employee_email='kenny.tanoto@mastersystem.co.id' OR employee_email='busra.zukran@mastersystem.co.id' OR employee_email='felix.wibowo@mastersystem.co.id' OR employee_email='fabian.darryl@mastersystem.co.id' OR employee_email='jingga.prabaswara@mastersystem.co.id' OR employee_email='ficky.bharata@mastersystem.co.id' OR employee_email='raymond.raphael@mastersystem.co.id' OR employee_email='reynald.ferdinov@mastersystem.co.id' OR employee_email='lazuardi.nurfaiz@mastersystem.co.id' OR employee_email='royger.febriansyah@mastersystem.co.id' OR employee_email='achmad.imam@mastersystem.co.id' OR employee_email='purwanto@mastersystem.co.id' OR employee_email='nur.alkadri@mastersystem.co.id' 
+
+
+2024-05-29 16:52:56
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: show table
+
+
+2024-05-29 16:54:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_trx_sb_number where sb_number like :2023%' order by sb_number desc' at line 1
+- Query 		: select * sa_trx_sb_number where sb_number like :2023%' order by sb_number desc
+
+
+2024-05-29 16:54:45
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_trx_sb_number where sb_number like '2023%' order by sb_number desc' at line 1
+- Query 		: select * sa_trx_sb_number where sb_number like '2023%' order by sb_number desc
+
+
+2024-05-29 17:00:33
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sb_number' in 'field list'
+- Query 		: insert into sa_trx_project_list (order_number, so_number, sb_number) values ('ORD-2023-02964', '2023/SO/2994', '2023/FSB/12/2353')

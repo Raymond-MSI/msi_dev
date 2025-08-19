@@ -1,0 +1,288 @@
+
+
+2023-10-11 20:12:02
+- Server 		: Prod
+- User 			: adriyanto@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:12:13
+- Server 		: Prod
+- User 			: ficky.bharata@mastersystem.co.id
+- Module 		: productivity
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:12:23
+- Server 		: Prod
+- User 			: ficky.bharata@mastersystem.co.id
+- Module 		: productivity
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:12:29
+- Server 		: Prod
+- User 			: ficky.bharata@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:12:39
+- Server 		: Prod
+- User 			: adriyanto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:12:54
+- Server 		: Prod
+- User 			: adriyanto@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:12:57
+- Server 		: Prod
+- User 			: ficky.bharata@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:13:00
+- Server 		: Prod
+- User 			: hendra.lesmana@mastersystem.co.id
+- Module 		: productivity
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:13:21
+- Server 		: Prod
+- User 			: ajie.prasetyo@mastersystem.co.id
+- Module 		: productivity
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:13:24
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: dashboard
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:13:27
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:13:36
+- Server 		: Prod
+- User 			: hendra.lesmana@mastersystem.co.id
+- Module 		: productivity
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:13:39
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: dashboard
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:13:42
+- Server 		: Prod
+- User 			: hendra.lesmana@mastersystem.co.id
+- Module 		: productivity
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:13:53
+- Server 		: Prod
+- User 			: muchammad.mahdi@mastersystem.co.id
+- Module 		: productivity
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:14:09
+- Server 		: Prod
+- User 			: adriyanto@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:14:36
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:14:42
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:15:09
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: dashboard
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:15:58
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: dashboard
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:16:08
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: dashboard
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:16:18
+- Server 		: Prod
+- User 			: muchammad.mahdi@mastersystem.co.id
+- Module 		: productivity
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:16:18
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: dashboard
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:16:27
+- Server 		: Prod
+- User 			: irfan.hendriana@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:18:56
+- Server 		: Prod
+- User 			: hendra.lesmana@mastersystem.co.id
+- Module 		: productivity
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:19:02
+- Server 		: Prod
+- User 			: hendra.lesmana@mastersystem.co.id
+- Module 		: productivity
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:20:10
+- Server 		: Prod
+- User 			: adriyanto@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:20:22
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: dashboard
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:21:37
+- Server 		: Prod
+- User 			: muchammad.mahdi@mastersystem.co.id
+- Module 		: productivity
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:21:40
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: dashboard
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:23:19
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: dashboard
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-10-11 20:27:30
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7

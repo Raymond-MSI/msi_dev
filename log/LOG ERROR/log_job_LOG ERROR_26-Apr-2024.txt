@@ -1,0 +1,590 @@
+File Error Log
+
+2024-04-26 08:55:19
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_complain' doesn't exist
+- Query 		: SELECT * FROM sa_complain WHERE type_project is not null
+
+
+2024-04-26 08:55:19
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_complain' doesn't exist
+- Query 		: SELECT * FROM sa_complain WHERE type_project is not null
+
+
+2024-04-26 09:35:29
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE complain_id=
+
+
+2024-04-26 10:36:21
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-04-26 11:06:46
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_cfg_menu' doesn't exist
+- Query 		: select * from sa_cfg_menu
+
+
+2024-04-26 11:07:15
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-04-26 11:08:58
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-04-26 11:09:36
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-04-26 11:10:08
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-04-26 14:28:06
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'maintenance_date' at line 1
+- Query 		: maintenance_date
+
+
+2024-04-26 14:28:06
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'maintenance_date' at line 1
+- Query 		: maintenance_date
+
+
+2024-04-26 14:28:06
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'maintenance_date' at line 1
+- Query 		: maintenance_date
+
+
+2024-04-26 14:28:50
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'maintenance_date' at line 1
+- Query 		: maintenance_date
+
+
+2024-04-26 14:28:50
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'maintenance_date' at line 1
+- Query 		: maintenance_date
+
+
+2024-04-26 14:28:50
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'maintenance_date' at line 1
+- Query 		: maintenance_date
+
+
+2024-04-26 14:30:17
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'maintenance_date' at line 1
+- Query 		: maintenance_date
+
+
+2024-04-26 14:30:17
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'maintenance_date' at line 1
+- Query 		: maintenance_date
+
+
+2024-04-26 14:30:17
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'maintenance_date' at line 1
+- Query 		: maintenance_date
+
+
+2024-04-26 14:30:21
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'maintenance_date' at line 1
+- Query 		: maintenance_date
+
+
+2024-04-26 14:30:21
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'maintenance_date' at line 1
+- Query 		: maintenance_date
+
+
+2024-04-26 14:30:21
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'maintenance_date' at line 1
+- Query 		: maintenance_date
+
+
+2024-04-26 14:30:48
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Incorrect date value: '' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`end_date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+            `project_code`, 
+            `id_date`,
+            `entry_by`, 
+            `start_date`, 
+            `end_date`) VALUES (
+            'TA000222B0003', 
+            'ikom',
+            'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+            '2024-04-26',
+            '')
+
+
+2024-04-26 14:30:48
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Incorrect date value: '' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`start_date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+            `project_code`, 
+            `id_date`,
+            `entry_by`, 
+            `start_date`, 
+            `end_date`) VALUES (
+            'TA000222B0003', 
+            'kom',
+            'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+            '',
+            '2024-04-26')
+
+
+2024-04-26 14:32:11
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Incorrect date value: '' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`end_date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+            `project_code`, 
+            `id_date`,
+            `entry_by`, 
+            `start_date`, 
+            `end_date`) VALUES (
+            'TA000222B0003', 
+            'ikom',
+            'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+            '2024-04-26',
+            '')
+
+
+2024-04-26 14:32:11
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Incorrect date value: '' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`start_date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+            `project_code`, 
+            `id_date`,
+            `entry_by`, 
+            `start_date`, 
+            `end_date`) VALUES (
+            'TA000222B0003', 
+            'kom',
+            'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+            '',
+            '2024-04-26')
+
+
+2024-04-26 14:33:07
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Incorrect date value: '' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`end_date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+            `project_code`, 
+            `id_date`,
+            `entry_by`, 
+            `start_date`, 
+            `end_date`) VALUES (
+            '', 
+            'kom',
+            'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+            '2024-04-30',
+            '')
+
+
+2024-04-26 14:33:07
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Data too long for column 'id_date' at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+            `project_code`, 
+            `id_date`,
+            `entry_by`, 
+            `start_date`, 
+            `end_date`) VALUES (
+            '', 
+            'mt_report_date_1',
+            'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+            '',
+            '2024-04-30')
+
+
+2024-04-26 14:33:07
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Data too long for column 'id_date' at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+            `project_code`, 
+            `id_date`,
+            `entry_by`, 
+            `start_date`, 
+            `end_date`) VALUES (
+            '', 
+            'preventive_mt_date_1',
+            'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+            '2024-04-01',
+            '')
+
+
+2024-04-26 14:33:59
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Incorrect date value: '' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`end_date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+            `project_code`, 
+            `id_date`,
+            `entry_by`, 
+            `start_date`, 
+            `end_date`) VALUES (
+            '', 
+            'kom',
+            'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+            '2024-04-26',
+            '')
+
+
+2024-04-26 14:47:03
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Data too long for column 'id_date' at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+            `project_code`, 
+            `id_date`,
+            `entry_by`, 
+            `start_date`, 
+            `end_date`) VALUES (
+            '', 
+            'mt_report_date_1',
+            'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+            NULLIF('2024-04-26',''),
+            NULLIF('2024-05-04',''))
+
+
+2024-04-26 14:47:03
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Data too long for column 'id_date' at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+            `project_code`, 
+            `id_date`,
+            `entry_by`, 
+            `start_date`, 
+            `end_date`) VALUES (
+            '', 
+            'mt_report_date_2',
+            'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+            NULLIF('2024-04-26',''),
+            NULLIF('',''))
+
+
+2024-04-26 14:47:03
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Data too long for column 'id_date' at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+            `project_code`, 
+            `id_date`,
+            `entry_by`, 
+            `start_date`, 
+            `end_date`) VALUES (
+            '', 
+            'preventive_mt_date_1',
+            'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+            NULLIF('2024-04-26',''),
+            NULLIF('2024-04-27',''))
+
+
+2024-04-26 14:47:03
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Data too long for column 'id_date' at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+            `project_code`, 
+            `id_date`,
+            `entry_by`, 
+            `start_date`, 
+            `end_date`) VALUES (
+            '', 
+            'preventive_mt_date_2',
+            'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+            NULLIF('',''),
+            NULLIF('2024-04-27',''))
+
+
+2024-04-26 14:47:19
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Data too long for column 'id_date' at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+            `project_code`, 
+            `id_date`,
+            `entry_by`, 
+            `start_date`, 
+            `end_date`) VALUES (
+            '', 
+            'mt_report_date_1',
+            'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+            NULLIF('2024-04-27',''),
+            NULLIF('',''))
+
+
+2024-04-26 15:09:44
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE complain_id=
+
+
+2024-04-26 15:20:01
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY project_code ORDER BY CREATED_AT DESC LIMIT 0, 100' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE GROUP BY project_code ORDER BY CREATED_AT DESC LIMIT 0, 100
+
+
+2024-04-26 15:20:26
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY project_code ORDER BY CREATED_AT DESC LIMIT 0, 100' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE id is not null ORDER BY GROUP BY project_code ORDER BY CREATED_AT DESC LIMIT 0, 100
+
+
+2024-04-26 15:20:28
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY project_code ORDER BY CREATED_AT DESC LIMIT 0, 100' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE id is not null ORDER BY GROUP BY project_code ORDER BY CREATED_AT DESC LIMIT 0, 100
+
+
+2024-04-26 15:20:29
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY project_code ORDER BY CREATED_AT DESC LIMIT 0, 100' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE id is not null ORDER BY GROUP BY project_code ORDER BY CREATED_AT DESC LIMIT 0, 100
+
+
+2024-04-26 15:20:34
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY CREATED_AT DESC LIMIT 0, 100' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE id is not null ORDER BY ORDER BY CREATED_AT DESC LIMIT 0, 100
+
+
+2024-04-26 15:41:13
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE complain_id=
+
+
+2024-04-26 15:44:08
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE complain_id=
+
+
+2024-04-26 15:45:22
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE complain_id=
+
+
+2024-04-26 15:45:31
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE complain_id=
+
+
+2024-04-26 15:47:26
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE complain_id=
+
+
+2024-04-26 16:05:42
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: INSERT INTO `sa_maintenance_date` (
+            `project_code`, 
+            `id_date`,
+            `entry_by`, 
+            `start_date`, 
+            `end_date`) VALUES (
+            'TA000122A0022', 
+            'mt_report_date_2',
+            'M. Aan Dafa Setiawan<aan.dafa@mastersystem.co.id>', 
+            NULLIF('2024-04-27',''),
+            NULLIF('',''))
+
+
+2024-04-26 16:18:40
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE complain_id=
+
+
+2024-04-26 16:21:07
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE complain_id=
+
+
+2024-04-26 16:24:14
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: maintenance_date
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_maintenance_date WHERE complain_id=
+
+
+2024-04-26 16:47:36
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '='0' where order_number='ORD-25063-Q5X0N5'' at line 1
+- Query 		: UPDATE sa_data_so WR_mandays_actual_implementation='0' where order_number='ORD-25063-Q5X0N5'

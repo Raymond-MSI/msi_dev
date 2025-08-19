@@ -1,0 +1,360 @@
+File Error Log
+
+2024-09-19 14:24:40
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_user' doesn't exist
+- Query 		: SELECT * FROM sa_user WHERE Nama LIKE '%Johnson%'
+
+
+2024-09-19 14:27:21
+- Server 		: Prod
+- User 			: ashiv.hakim@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TJ005723K0002', 
+                    'ORD-2023-00111', 
+                    'pmr_date',
+                    'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-19 14:31:52
+- Server 		: Prod
+- User 			: ashiv.hakim@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TJ005723K0002', 
+                    'ORD-2023-00111', 
+                    'pmr_date',
+                    'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-19 14:40:19
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_resource_assignment' doesn't exist
+- Query 		: SELECT * from sa_resource_assignment where no_so='2019/SO/1697' 
+
+
+2024-09-19 15:02:57
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani')' at line 1
+- Query 		: INSERT INTO sa_history_cr (cr_no,date,time,description) VALUES ('240919-CR-MT-0877','2024-Sep-19','15:02:57','Submit Change Request 240919-CR-MT-0877 <br> Scope of change : 1. Upgrade FortiOS FG 201F ( FG201FT922916503 , FG201FT922916508 , FG201FT922916510 , FG201FT922916514 , FG201FT922916524 ) FortiOS 7.2.6 ke 7.2.8 (https://fortiguard.com/psirt/FG-IR-23-225 )
+2. Upgrade FortiOS FG 601F ( FG6H1FTB22904821 , FG6H1FTB22904988 , FG6H1FTB22905128
+3. Upgrade FortiOS FMG 200G (FMG2HGTA22000483 ) FortiOS 7.2.4 ke 7.2.5<br> Reason of change : 1. An insufficient verification of data authenticity vulnerability [CWE-345] in FortiOS & FortiProxy SSL-VPN tunnel mode may allow an authenticated VPN user to send (but not receive) packets spoofing the IP of another user via crafted network packets.
+2. An improper certificate validation vulnerability [CWE-295] in FortiOS may allow an unauthenticated attacker in a Man-in-the-Middle position to decipher and alter the FortiLink communication channel between the FortiOS device and a FortiSwitch instance.
+3. Multiple stack-based buffer overflow vulnerabilities [CWE-121] in the command line interpreter of FortiOS may allow an authenticated attacker to execute unauthorized code or commands via specially crafted command line arguments.
+4. An insufficiently protected credentials vulnerability (CWE-522) in FortiOS and FortiProxy may allow an attacker to obtain the administrator cookie in rare and specific conditions, via tricking the administrator into visiting a malicious attacker-controlled website through the SSL-VPN.
+5. A out-of-bounds write vulnerability [CWE-787] in FortiOS and FortiProxy may allow a remote unauthenticated attacker to execute arbitrary code or command via specially crafted HTTP requests. Workaround : disable SSL VPN (disable webmode is NOT a valid workaround) Note: This is potentially being exploited in the wild.
+6. A use of externally-controlled format string vulnerability [CWE-134] in FortiOS fgfmd daemon may allow a remote unauthenticated attacker to execute arbitrary code or commands via specially crafted requests.<br> Change Impact :  <br> Oleh : Za'imatul Hakimah Septiani')
+
+
+2024-09-19 16:15:54
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,3,1,3,'Cisco Palembang',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-09-19 16:15:54
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,3,1,10,'Cisco Palembang',350,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-09-19 16:15:54
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,10,'Cisco Palembang',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-09-19 16:15:54
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,32,3,1,7,'Cisco Banjarmasin',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-09-19 16:15:54
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,62,3,1,14,'Cisco Banjarmasin',350,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-09-19 16:15:54
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,72,3,1,22,'Cisco Banjarmasin',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-09-19 16:19:57
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (24399,32,3,1,7,'Cisco Banjarmasin',250,NULL,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-09-19 16:19:57
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (24399,62,3,1,14,'Cisco Banjarmasin',350,NULL,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-09-19 16:19:57
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (24399,72,3,1,22,'Cisco Banjarmasin',250,NULL,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-09-19 20:41:53
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC
+
+
+2024-09-19 20:41:53
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_notification WHERE notif_to LIKE '%agung.nugroho@mastersystem.co.id%' AND notif_status=1 ORDER BY notif_date DESC LIMIT 0, 25
+
+
+2024-09-19 20:41:53
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='agung.nugroho@mastersystem.co.id'
+
+
+2024-09-19 20:41:53
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: MySQL server has gone away
+- Query 		: SELECT `a`.`employee_name` AS `employee_name`,`a`.`email` AS `employee_email`,`c`.`description` AS `job_title`,`b`.`level` AS `level`,`b`.`description` AS `job_structure`,`a`.`resign_date` AS `resign_date`,`e`.`employee_name` AS `ordinate_name`,`e`.`email` AS `ordinate_email`,`g`.`description` AS `ordinate_job_title`,`f`.`level` AS `ordinate_level`,`f`.`description` AS `ordinate_job_structure`, `h`.`organization_name` from ((((((`sa_md_hcm`.`sa_mst_employees` `a` LEFT JOIN `sa_md_hcm`.`sa_mst_job` `b` ON(`a`.`job_id` = `b`.`job_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_jobtitle` `c` ON(`b`.`job_title_id` = `c`.`job_title_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_job` `d` ON(`d`.`parent_id` = `b`.`job_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_employees` `e` ON(`d`.`job_id` = `e`.`job_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_job` `f` ON(`e`.`job_id` = `f`.`job_id`)) LEFT JOIN `sa_md_hcm`.`sa_mst_jobtitle` `g` ON(`f`.`job_title_id` = `g`.`job_title_id`)) LEFT JOIN `sa_mst_organization` `h` ON `e`.`organization_id` = `h`.`organization_id` WHERE `e`.`resign_date` IS NULL AND `e`.`employee_name` IS NOT NULL AND `a`.`email` = 'agung.nugroho@mastersystem.co.id' ORDER BY `e`.`employee_name`; 
+
+
+2024-09-19 20:41:54
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='agung.nugroho@mastersystem.co.id' AND resign_date is null
+
+
+2024-09-19 20:41:54
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='agung.nugroho@mastersystem.co.id' AND resign_date is null
+
+
+2024-09-19 20:41:54
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key="TITLE_OF_WEBSITE"
+
+
+2024-09-19 20:42:55
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_notification WHERE notif_to LIKE '%agung.nugroho@mastersystem.co.id%' AND notif_status=1 ORDER BY notif_date DESC LIMIT 0, 25
+
+
+2024-09-19 20:42:55
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='agung.nugroho@mastersystem.co.id'
+
+
+2024-09-19 20:42:55
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-09-12' AND task_date <= '2024-09-26' AND `resource_email` LIKE 'Agung Nugroho<agung.nugroho@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-09-19 20:42:55
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='agung.nugroho@mastersystem.co.id'
+
+
+2024-09-19 20:42:55
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: select `solution_name`, avg(coalesce(`product`,0)) AS `product` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `so_number` IN (select `so_number` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `product`>0 AND `sa_trx_project_solutions`.`modified_date`>='2023-09-19' group by `so_number` order by `so_number`) group by `solution_name` order by `so_number`, `solution_name`;
+
+
+2024-09-19 20:42:55
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: select `solution_name`, avg(coalesce(`services`,0)) AS `service` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `so_number` IN (select `so_number` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `services`>0 AND `sa_trx_project_solutions`.`modified_date`>'2023-09-19' group by `so_number` order by `so_number`) group by `solution_name` order by `so_number`;
+
+
+2024-09-19 20:42:55
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE status_order=0
+
+
+2024-09-19 20:42:55
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE status_order=1
+
+
+2024-09-19 20:42:55
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number
+
+
+2024-09-19 20:42:55
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE create_date >= '2024-09-18' ORDER BY create_date DESC
+
+
+2024-09-19 20:42:55
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_documents WHERE date_expired >=  '2024-09-19'
+
+
+2024-09-19 20:42:55
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_documents WHERE date_expired <  '2024-09-19'
+
+
+2024-09-19 20:42:55
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_documents
+
+
+2024-09-19 20:42:55
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_documents WHERE date_released >= '2024-09-18' ORDER BY date_released DESC
+
+
+2024-09-19 20:42:55
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_mst_employees WHERE email='agung.nugroho@mastersystem.co.id' ORDER BY resign_date
+
+
+2024-09-19 20:42:55
+- Server 		: Prod
+- User 			: agung.nugroho@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT `employee_name`, SUM(IF( `status` = 'drafted', 1, 0) ) AS `edo_draft`, SUM(IF( `status` = 'edo submitted', 1, 0) ) AS `edo_submitted`, SUM(IF( `status` = 'edo rejected', 1, 0) ) AS `edo_rejected`, SUM(IF( `status` = 'request approved', 1, 0) ) AS `edo_approved`, SUM(IF( `status` = 'leave submitted', 1, 0) ) AS `leave_submitted`, SUM(IF( `status` = 'leave rejected', 1, 0) ) AS `leave_rejected`, SUM(IF( `status` = 'completed', 1, 0) ) AS `completed` FROM `sa_trx_edo_request` WHERE `employee_name` LIKE '%agung.nugroho@mastersystem.co.id%' GROUP BY `employee_name`; 

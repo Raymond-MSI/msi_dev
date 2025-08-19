@@ -1,0 +1,111 @@
+File Error Log
+
+2024-01-12 09:25:57
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_preschedule' doesn't exist
+- Query 		: select * from sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I46BCJYM'
+
+
+2024-01-12 13:56:22
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_view_project_implementations' doesn't exist
+- Query 		: SELECT project_code,so_number,service_type, tos_category_id, DAY, SUM(implementation_price) AS total_implementation_price, SUM(bpd_price) AS total_bpd_price, SUM(maintenance_package_price) AS total_maintenance_package_price, SUM(maintenance_addon_description) AS total_maintenance_addon_description FROM sa_view_project_implementations WHERE status='acknowledge' AND bundling LIKE '%2%' AND  order_number='ORD-26030-R0L6M6' GROUP BY order_number
+
+
+2024-01-12 13:58:17
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_view_project_implementaions' doesn't exist
+- Query 		: select * from sa_view_project_implementaions limit 10
+
+
+2024-01-12 14:38:16
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-01-05' AND task_date <= '2024-01-19' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-01-12 15:10:42
+- Server 		: Prod
+- User 			: dzaki.alwansyah@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Alwansyah Sembodho<dzaki.alwansyah@mastersystem.co.id>' GROUP BY project_type...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-01-05' AND task_date <= '2024-01-19' AND `resource_email` LIKE 'Dzaki 'Alwansyah Sembodho<dzaki.alwansyah@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-01-12 15:32:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_wrike_proejct_list' doesn't exist
+- Query 		: select * from sa_wrike_proejct_list WHERE no_so='2022/SO/2294'
+
+
+2024-01-12 16:07:49
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_resource_assignment' doesn't exist
+- Query 		: select * from sa_resource_assignment WHERE project_code='TB001022C0067'
+
+
+2024-01-12 16:59:40
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_table_report' doesn't exist
+- Query 		: TRUNCATE TABLE sa_table_report
+
+
+2024-01-12 17:03:36
+- Server 		: Prod
+- User 			: dzaki.alwansyah@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Alwansyah Sembodho<dzaki.alwansyah@mastersystem.co.id>' GROUP BY project_type...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-01-05' AND task_date <= '2024-01-19' AND `resource_email` LIKE 'Dzaki 'Alwansyah Sembodho<dzaki.alwansyah@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-01-12 17:39:17
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO sa_user (Nama,resource_email,project_code,so_number,order_number,project_type,project_name,customer_name,role,nilai_ideal,nilai_aktual,start_assignment,end_assignment,duration,progress_start,progress_end,progress,project_support,cte,nilai_akhir_ideal,nilai_akhir_aktual,periode,periode_so,tahun_review,status_wr,status_project,kpi_status,board_status) VALUES ('Hanis Hafsyani <hanis.hafsyani@mastersystem.co.id>','fronita@mastersystem.co.id','TB001022C0067','2022/SO/2511','ORD-28902-V2H8F0','MSI Project Implementation','[2022, Mandiri] System Telephony IT Helpdesk BANK MANDIRI (PERSERO)',null,'2.27928','2.27928',null,null,'1','0','100','100','Penuh','1','2.27928','2.27928','2023','2022','2023','Closed','Closed','Not yet reviewed',null)
+
+
+
+2024-01-12 17:39:57
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO sa_user (Nama,resource_email,project_code,so_number,order_number,project_type,project_name,customer_name,role,nilai_ideal,nilai_aktual,start_assignment,end_assignment,duration,progress_start,progress_end,progress,project_support,cte,nilai_akhir_ideal,nilai_akhir_aktual,periode,periode_so,tahun_review,status_wr,status_project,kpi_status,board_status) VALUES ('Hanis Hafsyani <hanis.hafsyani@mastersystem.co.id>','fronita@mastersystem.co.id','TB001022C0067','2022/SO/2511','ORD-28902-V2H8F0','MSI Project Implementation','[2022, Mandiri] System Telephony IT Helpdesk BANK MANDIRI (PERSERO)','','2.27928','2.27928','','','1','0','100','100','Penuh','1','2.27928','2.27928','2023','2022','2023','Closed','Closed','Not yet reviewed','')
+
+
+
+2024-01-12 17:40:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO sa_user (Nama,resource_email,project_code,so_number,order_number,project_type,project_name,customer_name,role,nilai_ideal,nilai_aktual,start_assignment,end_assignment,duration,progress_start,progress_end,progress,project_support,cte,nilai_akhir_ideal,nilai_akhir_aktual,periode,periode_so,tahun_review,status_wr,status_project,kpi_status,board_status) VALUES ('Hanis Hafsyani <hanis.hafsyani@mastersystem.co.id>', 'hanis.hafsyani@mastersystem.co.id','TB001022C0067','2022/SO/2511','ORD-28902-V2H8F0','MSI Project Implementation','[2022, Mandiri] System Telephony IT Helpdesk BANK MANDIRI (PERSERO)','','2.27928','2.27928','','','1','0','100','100','Penuh','1','2.27928','2.27928','2023','2022','2023','Closed','Closed','Not yet reviewed','')
+

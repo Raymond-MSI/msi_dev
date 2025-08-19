@@ -1,0 +1,90 @@
+File Error Log
+
+2024-09-26 09:28:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: change_request_mt
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_master_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_master_maintenance_date WHERE order_number=''
+
+
+2024-09-26 09:28:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: change_request_mt
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_master_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_master_maintenance_date WHERE order_number=''
+
+
+2024-09-26 09:28:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: change_request_mt
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_master_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_master_maintenance_date WHERE order_number=''
+
+
+2024-09-26 09:28:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: change_request_mt
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_master_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_master_maintenance_date WHERE order_number=''
+
+
+2024-09-26 09:31:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: change_request_mt
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_master_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_master_maintenance_date WHERE project_code='TB000821C0034'
+
+
+2024-09-26 09:31:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: change_request_mt
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_master_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_master_maintenance_date WHERE project_code='TB000821C0034'
+
+
+2024-09-26 09:31:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: change_request_mt
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_master_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_master_maintenance_date WHERE project_code='TB000821C0034'
+
+
+2024-09-26 09:31:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: change_request_mt
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_master_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_master_maintenance_date WHERE project_code='TB000821C0034'
+
+
+2024-09-26 09:32:41
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: change_request_mt
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_master_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_master_maintenance_date WHERE project_code='TB000821C0034'
+
+
+2024-09-26 09:32:41
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: change_request_mt
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_master_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_master_maintenance_date WHERE project_code='TB000821C0034'

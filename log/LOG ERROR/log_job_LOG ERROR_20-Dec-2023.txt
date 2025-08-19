@@ -1,0 +1,531 @@
+File Error Log
+
+2023-12-20 08:34:50
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'Nama' in 'where clause'
+- Query 		: select * from sa_productivity_alluser WHERE Nama LIKE '%hendika.ver%'
+
+
+2023-12-20 08:39:26
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s `sa_dashboard_kpi`.`sa_user`.`kpi_status` = 'Reviewed' AND `sa_dashboard_k...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE %s `sa_dashboard_kpi`.`sa_user`.`kpi_status` = 'Reviewed' AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE '%hendika.ver%' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2023-12-20 08:43:05
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_resource_assignment' doesn't exist
+- Query 		: select * from sa_resource_assignment LIMIT 100
+
+
+2023-12-20 08:48:03
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'so_number' in 'where clause'
+- Query 		: select * from sa_resource_assignment where so_number = '2022/SO/2694'
+
+
+2023-12-20 08:52:19
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s GROUP BY `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email` ORDER...' at line 1
+- Query 		: SELECT `sa_wrike_integrate`.`sa_wrike_project_list`.`project_code`, `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` AS `so_number`, `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number`, `sa_wrike_integrate`.`sa_wrike_project_detail`.`customer_name`, `sa_wrike_integrate`.`sa_wrike_project_list`.`title` AS `project_name`, `sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email`, `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email` FROM `sa_wrike_integrate`.`sa_wrike_project_list` LEFT JOIN `sa_wrike_integrate`.`sa_wrike_assignment` ON `sa_wrike_integrate`.`sa_wrike_assignment`.`project_id` = `sa_wrike_integrate`.`sa_wrike_project_list`.`id` LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` ON `sa_wrike_integrate`.`sa_wrike_project_list`.`id` = `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_id` LEFT JOIN `sa_dashboard_kpi`.`sa_user` ON `sa_dashboard_kpi`.`sa_user`.`so_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` WHERE `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email`<>'' AND `sa_wrike_integrate`.`sa_wrike_assignment`.`project_id` = %s GROUP BY `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email` ORDER BY `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email` ASC
+
+
+2023-12-20 08:52:31
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s GROUP BY `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email` ORDER...' at line 1
+- Query 		: SELECT `sa_wrike_integrate`.`sa_wrike_project_list`.`project_code`, `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` AS `so_number`, `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number`, `sa_wrike_integrate`.`sa_wrike_project_detail`.`customer_name`, `sa_wrike_integrate`.`sa_wrike_project_list`.`title` AS `project_name`, `sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email`, `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email` FROM `sa_wrike_integrate`.`sa_wrike_project_list` LEFT JOIN `sa_wrike_integrate`.`sa_wrike_assignment` ON `sa_wrike_integrate`.`sa_wrike_assignment`.`project_id` = `sa_wrike_integrate`.`sa_wrike_project_list`.`id` LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` ON `sa_wrike_integrate`.`sa_wrike_project_list`.`id` = `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_id` LEFT JOIN `sa_dashboard_kpi`.`sa_user` ON `sa_dashboard_kpi`.`sa_user`.`so_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` WHERE `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email`<>'' AND `sa_wrike_integrate`.`sa_wrike_assignment`.`project_id` = %s GROUP BY `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email` ORDER BY `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email` ASC
+
+
+2023-12-20 10:48:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'order_number' in 'where clause'
+- Query 		: select * from sa_wrike_evans_assignment WHERE order_number='ORD-29311-H5Q5C2'
+
+
+2023-12-20 10:49:05
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_productivity_alluser' doesn't exist
+- Query 		: select * from sa_productivity_alluser WHERE order_number='ORD-29311-H5Q5C2'
+
+
+2023-12-20 12:31:29
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_productivity.sa_productivity_alluser' doesn't exist
+- Query 		: SELECT * FROM sa_productivity_alluser WHERE resource_email='%Muhammad Muhajir Kurniawan%' AND order_number='ORD-29053-S8F7W0'
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I5CYIFLW' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I5CYIFLW' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I5CYIFLW' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I5CYIFLW' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I43SBHS2' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I43SBHS2' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I43SBGSH' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I43SBGSH' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I43SBKZ7' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I43SBKZ7' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I43SBMFH' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I43SBMFH' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I43SBM3Y' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I43SBM3Y' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I43SBPID' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I43SBPID' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I45CWNE3' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I45CWNE3' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I45GCJSO' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I45GCJSO' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I5CYIFWK' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I5CYIFWK' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I5A463GI' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I5A463GI' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I5CTNKV3' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I5CTNKV3' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I5CTNNUE' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I5CTNNUE' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I5D4JBD3' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I5D4JBD3' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:39
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I5CTNGXX' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:39
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I5CTNGXX' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:39
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I5CTNJ5V' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:07:39
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND brand = ''' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles WHERE project_id = 'IEAEOPF5I5CTNJ5V' AND resource_category_id =  AND brand = ''
+
+
+2023-12-20 14:34:32
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_preschedule' doesn't exist
+- Query 		: SELECT * FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id left join sa_productivity.sa_trx_productivity c ON b.event_id=c.event_id WHERE a.work_date > '2023-03-31' AND a.project_code='TI000822E0049' AND a.resource_email='muhammad.muhajir@mastersystem.co.id' 
+
+
+
+2023-12-20 14:39:25
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s 
+            AND `b`.`start_date` <= %s 
+        ORDER BY `b`.`start_dat...' at line 28
+- Query 		: SELECT `a`.`id`, 
+            `a`.`project_code`, 
+            `a`.`order_number`, 
+            `a`.`no_so` AS `so_number`, 
+            `a`.`title` AS `project_name`, 
+            `d`.`customer_name`, 
+            `a`.`project_type`, 
+            `a`.`owner_email`, 
+            `a`.`project_leader`,
+            `b`.`task_id`, 
+            `b`.`task_name`, 
+            `b`.`start_date`, 
+            `b`.`due_date`, 
+            `c`.`resource_id`, 
+            `c`.`resource_email`, 
+            `c`.`resource_role`, 
+            `a`.`permalink` AS `permalink_wrike` 
+        FROM `sa_wrike_project_list` `a` 
+        LEFT JOIN `sa_wrike_task` `b` 
+            ON `a`.`id`=`b`.`project_id` 
+        LEFT JOIN `sa_wrike_assignment` `c` 
+            ON `b`.`task_id`=`c`.`task_id` 
+        LEFT JOIN `sa_wrike_project_detail` `d` 
+            ON `a`.`id`=`d`.`project_id` 
+        WHERE 
+            `b`.`start_date` IS NOT NULL 
+            AND `c`.`resource_email` IS NOT NULL 
+            AND `b`.`start_date` >= %s 
+            AND `b`.`start_date` <= %s 
+        ORDER BY `b`.`start_date`, `a`.`id`, `b`.`task_id` ASC;
+
+
+2023-12-20 14:45:16
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`a`.`order_number`= 'ORD-29053-S8F7W0'
+        ORDER BY `b`.`start_date`, `a...' at line 30
+- Query 		: SELECT `a`.`id`, 
+            `a`.`project_code`, 
+            `a`.`order_number`, 
+            `a`.`no_so` AS `so_number`, 
+            `a`.`title` AS `project_name`, 
+            `d`.`customer_name`, 
+            `a`.`project_type`, 
+            `a`.`owner_email`, 
+            `a`.`project_leader`,
+            `b`.`task_id`, 
+            `b`.`task_name`, 
+            `b`.`start_date`, 
+            `b`.`due_date`, 
+            `c`.`resource_id`, 
+            `c`.`resource_email`, 
+            `c`.`resource_role`, 
+            `a`.`permalink` AS `permalink_wrike` 
+        FROM `sa_wrike_project_list` `a` 
+        LEFT JOIN `sa_wrike_task` `b` 
+            ON `a`.`id`=`b`.`project_id` 
+        LEFT JOIN `sa_wrike_assignment` `c` 
+            ON `b`.`task_id`=`c`.`task_id` 
+        LEFT JOIN `sa_wrike_project_detail` `d` 
+            ON `a`.`id`=`d`.`project_id` 
+        WHERE 
+            `b`.`start_date` IS NOT NULL 
+            AND `c`.`resource_email` IS NOT NULL 
+            AND `b`.`start_date` >= '2023-04-01'
+            AND `b`.`start_date` <= '2023-12-27'
+`a`.`order_number`= 'ORD-29053-S8F7W0'
+        ORDER BY `b`.`start_date`, `a`.`id`, `b`.`task_id` ASC;
+
+
+2023-12-20 15:18:42
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.start_time' in 'where clause'
+- Query 		: SELECT a.*,b.*,c.* FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id left join sa_productivity.sa_trx_productivity c ON b.event_id=c.event_id WHERE a.start_time > '2023-03-31' AND a.project_code='TI000822E0049' AND a.resource_email='muhammad.muhajir@mastersystem.co.id' 
+
+
+2023-12-20 16:05:58
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sawrike_integrate.sa_wrike_task' doesn't exist
+- Query 		: SELECT * FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id left join sawrike_integrate.sa_wrike_task c ON a.task_id=c.task_id WHERE a.work_date > '2023-03-31' AND a.project_code='TI000822E0049' AND a.resource_email='muhammad.muhajir@mastersystem.co.id' 
+
+
+2023-12-20 16:11:34
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-12-13' AND task_date <= '2023-12-27' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2023-12-20 16:24:38
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_wriketask' doesn't exist
+- Query 		: SELECT COUNT(a.task_name) AS total_task, a.project_id, a.project_code, b.project_type, a.resource_email FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id left join sa_wrike_integrate.sa_wriketask c ON a.task_id=c.task_id WHERE b.response_status <>'declined' AND b.response_status<>'' AND b.response_status is not null AND a.work_date > '2023-03-31' AND a.project_id='IEAEOPF5I4647ARK' AND a.project_code='TI000822E0049' AND b.project_type='MSI Project Implementation' AND c.task_id is not null GROUP BY a.project_id,a.project_code,b.project_type,a.resource_email
+
+
+2023-12-20 18:05:21
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_productivity_alluser' doesn't exist
+- Query 		: select b.nik,b.employee_name,a.resource_email,SUM(a.task_plan),SUM(a.task_actual),a.kpi_status,b.department_name,b.section_name,b.unit_name,b.job_title,b.job_structure,b.employee_status,a.tahun_review from sa_productivity_alluser a left join sa_md_hcm.sa_view_employees_v2 b ON a.resource_email=b.employee_email GROUP BY a.resource_email,a.kpi_status,a.tahun_review
+
+
+2023-12-20 18:26:09
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-12-13' AND task_date <= '2023-12-27' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`

@@ -1,0 +1,760 @@
+File Error Log
+
+2023-10-12 12:46:11
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 's' in 'where clause'
+- Query 		: SELECT `resource_email`, 
+            `project_type`, 
+            SUM(`plan_time`) AS `plan_time`, 
+            SUM(
+                IF(
+                    `plan_time`>0, 
+                    1,
+                    0
+                )
+            ) AS `plan_task`, 
+            SUM(
+                IF(
+                    `spen_time`>0, 
+                    `spen_time`, 
+                    0
+                )
+            ) AS `actual_time`, 
+            SUM(
+                IF(
+                    `spen_time`>0, 
+                    1,
+                    0
+                )
+            ) AS `actual_task`,
+            SUM(
+                IF(
+                    `project_type`='MSI Project Implementation',
+                    1,
+                    IF(
+                        `project_type`='MSI Project Maintenance',
+                        1,
+                        0
+                    )
+                )
+            ) AS `total_project` 
+        FROM `sa_trx_productivity` 
+        WHERE 
+            `task_date` >= '2023-09-01' 
+            AND `task_date` <= '2023-09-30'
+            %s 
+            %s 
+            AND `resource_email` like '%ridho%'
+            AND ((DAYOFWEEK(`task_date`) BETWEEN 2 AND 6) OR `work_on_weekends`=1)
+        GROUP BY `project_type`
+
+
+2023-10-12 12:48:15
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS `actual_time`, 
+            SUM(
+                IF(
+                  ...' at line 20
+- Query 		: SELECT `resource_email`, 
+            `project_type`, 
+            SUM(`plan_time`) AS `plan_time`, 
+            SUM(
+                IF(
+                    `plan_time`>0, 
+                    1,
+                    0
+                )
+            ) AS `plan_task`, 
+            SUM(
+IF(
+`status_calender`='accepted',
+                IF(
+                    `spen_time`>0, 
+                    `spen_time`, 
+                    0
+                ),
+0
+            ) AS `actual_time`, 
+            SUM(
+                IF(
+                    `spen_time`>0, 
+                    1,
+                    0
+                )
+            ) AS `actual_task`,
+            SUM(
+                IF(
+                    `project_type`='MSI Project Implementation',
+                    1,
+                    IF(
+                        `project_type`='MSI Project Maintenance',
+                        1,
+                        0
+                    )
+                )
+            ) AS `total_project` 
+        FROM `sa_trx_productivity` 
+        WHERE 
+            `task_date` >= '2023-09-01' 
+            AND `task_date` <= '2023-09-30'
+            AND `resource_email` like '%ridho%'
+            AND ((DAYOFWEEK(`task_date`) BETWEEN 2 AND 6) OR `work_on_weekends`=1)
+        GROUP BY `project_type`
+
+
+2023-10-12 13:07:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s 
+        AND task_date <= %s
+        AND resource_email LIKE %s
+       ...' at line 107
+- Query 		: SELECT 
+    resource_email,
+    work_on_weekends,
+    IF(
+        project_type='MSI Project Implementation', 
+        'Implementation', 
+        IF(
+            project_type='MSI Project Maintenance', 
+            'Maintenance', 
+            IF(
+                project_type='MSI Non-Project', 
+                'Non-Project', 
+                IF(
+                    project_type='MSI Self Improvement', 
+                    'Self Improvement', 
+                    'none'
+                )
+            )
+        )
+    ) as `project_type`, 
+    SUM(
+        IF(
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+            1,
+            IF(
+                work_on_weekends = 1,
+                1,
+                0
+            )
+        ) 
+    ) as `plan`,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                1,
+                0
+            ),
+            0
+        )
+    ) as `accepted1` ,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `accepted0` ,
+    SUM(
+        IF(
+            status_calender='needsAction',
+            1,
+            0
+        )
+    ) as `needsAction` ,
+    SUM(
+        IF(
+            status_calender='declined',
+            1,
+            0
+        )
+    ) as `declined` ,
+    SUM(
+        IF(
+            status_calender='tentative',
+            1,
+            0
+        )
+    ) as `tentative`,
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                IF(
+                    DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+                    1,
+                    IF(
+                        `work_on_weekends` = 1,
+                        1,
+                        0
+                    )
+                ),
+                0
+            ),
+            0
+        )
+    ) as `none_gcalender`, 
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `none` 
+    FROM sa_trx_productivity 
+    WHERE 
+        task_date >= %s 
+        AND task_date <= %s
+        AND resource_email LIKE %s
+        AND project_type LIKE %s
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 3
+            OR `status_calender`=1
+        )
+    GROUP BY resource_email, project_type
+    ORDER BY resource_email, project_type
+
+
+2023-10-12 14:38:37
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`resource_email LIKE '%ridho%'
+    GROUP BY resource_email, project_type
+  ...' at line 113
+- Query 		: SELECT 
+    resource_email,
+    work_on_weekends,
+    IF(
+        project_type='MSI Project Implementation', 
+        'Implementation', 
+        IF(
+            project_type='MSI Project Maintenance', 
+            'Maintenance', 
+            IF(
+                project_type='MSI Non-Project', 
+                'Non-Project', 
+                IF(
+                    project_type='MSI Self Improvement', 
+                    'Self Improvement', 
+                    'none'
+                )
+            )
+        )
+    ) as `project_type`, 
+    SUM(
+        IF(
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+            1,
+            IF(
+                work_on_weekends = 1,
+                1,
+                0
+            )
+        ) 
+    ) as `plan`,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                1,
+                0
+            ),
+            0
+        )
+    ) as `accepted1` ,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `accepted0` ,
+    SUM(
+        IF(
+            status_calender='needsAction',
+            1,
+            0
+        )
+    ) as `needsAction` ,
+    SUM(
+        IF(
+            status_calender='declined',
+            1,
+            0
+        )
+    ) as `declined` ,
+    SUM(
+        IF(
+            status_calender='tentative',
+            1,
+            0
+        )
+    ) as `tentative`,
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                IF(
+                    DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+                    1,
+                    IF(
+                        `work_on_weekends` = 1,
+                        1,
+                        0
+                    )
+                ),
+                0
+            ),
+            0
+        )
+    ) as `none_gcalender`, 
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `none` 
+    FROM sa_trx_productivity 
+    WHERE 
+        task_date >= '2023-09-01'
+        AND task_date <= '2023-09-30'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 3
+            OR `status_calender`=1
+        )
+AND `resource_email LIKE '%ridho%'
+    GROUP BY resource_email, project_type
+    ORDER BY resource_email, project_type
+
+
+2023-10-12 15:00:42
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GETWEEN '2023-09-01' ADN '2023-09-30'AND (`status_calender` IS NULL OR `statu...' at line 1
+- Query 		: select * from sa_trx_productivity where `task_date` GETWEEN '2023-09-01' ADN '2023-09-30'AND (`status_calender` IS NULL OR `status_calender` = '') AND (`permalink_gcalender` IS NOT NULL OR `permalink_gcalender` = '') AND `resource_email` LIKE '%muhammad.ridhi%'
+
+
+2023-10-12 15:00:57
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GETWEEN '2023-09-01' ADN '2023-09-30'AND (`status_calender` IS NULL OR `statu...' at line 1
+- Query 		: select * from sa_trx_productivity where `task_date` GETWEEN '2023-09-01' ADN '2023-09-30'AND (`status_calender` IS NULL OR `status_calender` = '') AND (`permalink_gcalender` IS NOT NULL OR `permalink_gcalender` = '') AND `resource_email` LIKE '%muhammad.ridho@mastersystem.co.id%'
+
+
+2023-10-12 15:05:14
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `plan`,
+    SUM(
+        IF(
+            status_calender='accepted',
+ ...' at line 21
+- Query 		: SELECT 
+    resource_email,
+    work_on_weekends,
+    IF(
+        project_type='MSI Project Implementation', 
+        'Implementation', 
+        IF(
+            project_type='MSI Project Maintenance', 
+            'Maintenance', 
+            IF(
+                project_type='MSI Non-Project', 
+                'Non-Project', 
+                IF(
+                    project_type='MSI Self Improvement', 
+                    'Self Improvement', 
+                    'none'
+                )
+            )
+        )
+    ) as `project_type`, 
+    COUNT(`productivity_id`) AS  as `plan`,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                1,
+                0
+            ),
+            0
+        )
+    ) as `accepted1` ,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `accepted0` ,
+    SUM(
+        IF(
+            status_calender='needsAction',
+            1,
+            0
+        )
+    ) as `needsAction` ,
+    SUM(
+        IF(
+            status_calender='declined',
+            1,
+            0
+        )
+    ) as `declined` ,
+    SUM(
+        IF(
+            status_calender='tentative',
+            1,
+            0
+        )
+    ) as `tentative`,
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                IF(
+                    DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+                    1,
+                    IF(
+                        `work_on_weekends` = 1,
+                        1,
+                        0
+                    )
+                ),
+                0
+            ),
+            0
+        )
+    ) as `none_gcalender`, 
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `none` 
+    FROM sa_trx_productivity 
+    WHERE 
+        task_date >= '2023-09-01'
+        AND task_date <= '2023-09-30'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 3
+            OR `status_calender`=1
+        )
+AND `resource_email` LIKE '%muhammad.ridho@mastersystem.co.id%'
+    GROUP BY resource_email, project_type
+    ORDER BY resource_email, project_type
+
+
+2023-10-12 15:21:29
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR `status_calender`=0
+        )' at line 3
+- Query 		: select * from sa_trx_productivity where `task_date` BETWEEN '2023-09-01' AND '2023-09-30'  AND `resource_email` LIKE '%muhammad.ridho@mastersystem.co.id%'        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 1
+            OR `status_calender`=0
+        )
+
+
+2023-10-12 15:29:27
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s 
+        AND task_date <= %s
+        AND resource_email LIKE %s
+       ...' at line 107
+- Query 		: SELECT 
+    resource_email,
+    work_on_weekends,
+    IF(
+        project_type='MSI Project Implementation', 
+        'Implementation', 
+        IF(
+            project_type='MSI Project Maintenance', 
+            'Maintenance', 
+            IF(
+                project_type='MSI Non-Project', 
+                'Non-Project', 
+                IF(
+                    project_type='MSI Self Improvement', 
+                    'Self Improvement', 
+                    'none'
+                )
+            )
+        )
+    ) as `project_type`, 
+    SUM(
+        IF(
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+            1,
+            IF(
+                work_on_weekends = 1,
+                1,
+                0
+            )
+        ) 
+    ) as `plan`,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                1,
+                0
+            ),
+            0
+        )
+    ) as `accepted1` ,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `accepted0` ,
+    SUM(
+        IF(
+            status_calender='needsAction',
+            1,
+            0
+        )
+    ) as `needsAction` ,
+    SUM(
+        IF(
+            status_calender='declined',
+            1,
+            0
+        )
+    ) as `declined` ,
+    SUM(
+        IF(
+            status_calender='tentative',
+            1,
+            0
+        )
+    ) as `tentative`,
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                IF(
+                    DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+                    1,
+                    IF(
+                        `work_on_weekends` = 1,
+                        1,
+                        0
+                    )
+                ),
+                0
+            ),
+            0
+        )
+    ) as `none_gcalender`, 
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `none` 
+    FROM sa_trx_productivity 
+    WHERE 
+        task_date >= %s 
+        AND task_date <= %s
+        AND resource_email LIKE %s
+        AND project_type LIKE %s
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `status_calender`=1
+        )
+    GROUP BY resource_email, project_type
+    ORDER BY resource_email, project_type
+
+
+2023-10-12 15:30:19
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s 
+        AND task_date BETWEEN '2023-09-01' AND '2023-09-30'
+        AND...' at line 107
+- Query 		: SELECT 
+    resource_email,
+    work_on_weekends,
+    IF(
+        project_type='MSI Project Implementation', 
+        'Implementation', 
+        IF(
+            project_type='MSI Project Maintenance', 
+            'Maintenance', 
+            IF(
+                project_type='MSI Non-Project', 
+                'Non-Project', 
+                IF(
+                    project_type='MSI Self Improvement', 
+                    'Self Improvement', 
+                    'none'
+                )
+            )
+        )
+    ) as `project_type`, 
+    SUM(
+        IF(
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+            1,
+            IF(
+                work_on_weekends = 1,
+                1,
+                0
+            )
+        ) 
+    ) as `plan`,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                1,
+                0
+            ),
+            0
+        )
+    ) as `accepted1` ,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `accepted0` ,
+    SUM(
+        IF(
+            status_calender='needsAction',
+            1,
+            0
+        )
+    ) as `needsAction` ,
+    SUM(
+        IF(
+            status_calender='declined',
+            1,
+            0
+        )
+    ) as `declined` ,
+    SUM(
+        IF(
+            status_calender='tentative',
+            1,
+            0
+        )
+    ) as `tentative`,
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                IF(
+                    DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+                    1,
+                    IF(
+                        `work_on_weekends` = 1,
+                        1,
+                        0
+                    )
+                ),
+                0
+            ),
+            0
+        )
+    ) as `none_gcalender`, 
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `none` 
+    FROM sa_trx_productivity 
+    WHERE 
+        task_date >= %s 
+        AND task_date BETWEEN '2023-09-01' AND '2023-09-30'
+        AND resource_email LIKE '%muhammad.ridho%'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `status_calender`=1
+        )
+    GROUP BY resource_email, project_type
+    ORDER BY resource_email, project_type

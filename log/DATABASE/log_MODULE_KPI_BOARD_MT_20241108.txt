@@ -1,0 +1,413 @@
+08-11-2024 13:54:47
+- User Name   : anita.angelina@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/components/classes/func_functions.php(442): get_conn()
+#3 /var/www/html/msizone/index.php(49): reset_notif()
+#4 {main}
+
+08-11-2024 14:56:57
+- User Name   : aditya.wisnu@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/menu/mod_menu_topbar.php(85): get_conn()
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(85): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_msiguide08-Nov-2024 14:56:57
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC" - 
+
+08-11-2024 14:57:01
+- User Name   : aditya.wisnu@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(295): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_dashboard_kpi08-11-2024 14:57:04
+- User Name   : aditya.wisnu@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/kpi_board/func_kpi_board_mt.php(6): get_conn()
+#3 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(307): include('/var/www/html/m...')
+#4 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#5 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#6 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_wrike_integrate08-11-2024 14:57:07
+- User Name   : aditya.wisnu@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/kpi_board/func_kpi_board_mt.php(11): get_conn()
+#3 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(307): include('/var/www/html/m...')
+#4 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#5 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#6 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_google_calendar08-Nov-2024 14:57:07
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_kpi_board WHERE status='Ready for Approve' AND pic_email LIKE '%aditya.wisnu@mastersystem.co.id%' AND status_approval LIKE '%Pending%' AND project_type LIKE '%Maintenance%' LIMIT 0, 500]  - "SELECT * FROM sa_kpi_board WHERE status='Ready for Approve' AND pic_email LIKE '%aditya.wisnu@mastersystem.co.id%' AND status_approval LIKE '%Pending%' AND project_type LIKE '%Maintenance%' LIMIT 0, 500" - 
+
+08-11-2024 14:59:14
+- User Name   : aditya.wisnu@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/menu/mod_menu_topbar.php(85): get_conn()
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(85): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_msiguide08-Nov-2024 14:59:14
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC" - 
+
+08-11-2024 14:59:17
+- User Name   : aditya.wisnu@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(295): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_dashboard_kpi08-11-2024 14:59:20
+- User Name   : aditya.wisnu@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/kpi_board/func_kpi_board_mt.php(6): get_conn()
+#3 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(307): include('/var/www/html/m...')
+#4 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#5 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#6 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_wrike_integrate08-11-2024 14:59:24
+- User Name   : aditya.wisnu@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/kpi_board/func_kpi_board_mt.php(11): get_conn()
+#3 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(307): include('/var/www/html/m...')
+#4 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#5 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#6 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_google_calendar08-11-2024 14:59:27
+- User Name   : aditya.wisnu@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/kpi_board/form_kpi_board_mt.php(9): get_conn()
+#3 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(277): include('/var/www/html/m...')
+#4 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(439): form_data()
+#5 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#6 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#7 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_wrike_integrate08-11-2024 14:59:30
+- User Name   : aditya.wisnu@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/kpi_board/form_kpi_board_mt.php(21): get_conn()
+#3 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(277): include('/var/www/html/m...')
+#4 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(439): form_data()
+#5 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#6 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#7 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_google_calendar08-Nov-2024 14:59:31
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT owner_email FROM sa_wrike_project_list WHERE order_number='ORD-29058-K0W6V3' AND project_type='MSI Project Maintenance']  - "SELECT owner_email FROM sa_wrike_project_list WHERE order_number='ORD-29058-K0W6V3' AND project_type='MSI Project Maintenance'" - 
+
+08-Nov-2024 14:59:31
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_resource_assignment where order_number='ORD-29058-K0W6V3' AND project_type='Maintenance' AND approval_status='approved' GROUP BY resource_email]  - "SELECT * FROM sa_resource_assignment where order_number='ORD-29058-K0W6V3' AND project_type='Maintenance' AND approval_status='approved' GROUP BY resource_email" - 
+
+08-Nov-2024 14:59:31
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT a.document_bast_no FROM sa_wrike_project_detail a left join sa_wrike_project_list b ON a.project_id=b.id WHERE b.order_number='ORD-29058-K0W6V3' AND b.project_type='MSI Project Maintenance']  - "SELECT a.document_bast_no FROM sa_wrike_project_detail a left join sa_wrike_project_list b ON a.project_id=b.id WHERE b.order_number='ORD-29058-K0W6V3' AND b.project_type='MSI Project Maintenance'" - 
+
+08-Nov-2024 14:59:32
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * from sa_wrike_project_list WHERE order_number='ORD-29058-K0W6V3' AND project_type='MSI Project Maintenance']  - "SELECT * from sa_wrike_project_list WHERE order_number='ORD-29058-K0W6V3' AND project_type='MSI Project Maintenance'" - 
+
+08-Nov-2024 14:59:32
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT COUNT(a.task_name) AS total_task, a.project_id, a.project_code, b.project_type, a.resource_email FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id WHERE b.response_status <>'declined' AND b.response_status<>'' AND b.response_status is not null AND a.project_id='' AND a.project_code='' AND b.project_type='MSI Project Maintenance' GROUP BY a.project_id,a.project_code,b.project_type]  - "SELECT COUNT(a.task_name) AS total_task, a.project_id, a.project_code, b.project_type, a.resource_email FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id WHERE b.response_status <>'declined' AND b.response_status<>'' AND b.response_status is not null AND a.project_id='' AND a.project_code='' AND b.project_type='MSI Project Maintenance' GROUP BY a.project_id,a.project_code,b.project_type" - 
+
+08-Nov-2024 14:59:32
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT COUNT(a.project_id) as total_update, a.project_id, a.project_code, b.project_type FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='' AND a.project_code='' AND b.project_type='MSI Project Maintenance' AND b.response_status='accepted' AND b.diff_time<>0 GROUP BY a.project_id,a.project_code,b.project_type]  - "SELECT COUNT(a.project_id) as total_update, a.project_id, a.project_code, b.project_type FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='' AND a.project_code='' AND b.project_type='MSI Project Maintenance' AND b.response_status='accepted' AND b.diff_time<>0 GROUP BY a.project_id,a.project_code,b.project_type" - 
+
+08-Nov-2024 14:59:32
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_resource_assignment WHERE resource_email LIKE '%fauzan.radifan@mastersystem.co.id%' AND order_number='ORD-29058-K0W6V3' AND project_type='Maintenance' AND start_date is not null]  - "SELECT * FROM sa_resource_assignment WHERE resource_email LIKE '%fauzan.radifan@mastersystem.co.id%' AND order_number='ORD-29058-K0W6V3' AND project_type='Maintenance' AND start_date is not null" - 
+
+08-Nov-2024 14:59:32
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_resource_assignment WHERE resource_email LIKE '%hayatullah.qamaini@mastersystem.co.id%' AND order_number='ORD-29058-K0W6V3' AND project_type='Maintenance' AND start_date is not null]  - "SELECT * FROM sa_resource_assignment WHERE resource_email LIKE '%hayatullah.qamaini@mastersystem.co.id%' AND order_number='ORD-29058-K0W6V3' AND project_type='Maintenance' AND start_date is not null" - 
+
+08-Nov-2024 14:59:32
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_resource_assignment WHERE resource_email LIKE '%imanuel.fernando@mastersystem.co.id%' AND order_number='ORD-29058-K0W6V3' AND project_type='Maintenance' AND start_date is not null]  - "SELECT * FROM sa_resource_assignment WHERE resource_email LIKE '%imanuel.fernando@mastersystem.co.id%' AND order_number='ORD-29058-K0W6V3' AND project_type='Maintenance' AND start_date is not null" - 
+
+08-Nov-2024 14:59:32
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_resource_assignment WHERE resource_email LIKE '%mizhfar@mastersystem.co.id%' AND order_number='ORD-29058-K0W6V3' AND project_type='Maintenance' AND start_date is not null]  - "SELECT * FROM sa_resource_assignment WHERE resource_email LIKE '%mizhfar@mastersystem.co.id%' AND order_number='ORD-29058-K0W6V3' AND project_type='Maintenance' AND start_date is not null" - 
+
+08-Nov-2024 14:59:32
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_resource_assignment WHERE resource_email LIKE '%rio.agustian@mastersystem.co.id%' AND order_number='ORD-29058-K0W6V3' AND project_type='Maintenance' AND start_date is not null]  - "SELECT * FROM sa_resource_assignment WHERE resource_email LIKE '%rio.agustian@mastersystem.co.id%' AND order_number='ORD-29058-K0W6V3' AND project_type='Maintenance' AND start_date is not null" - 
+
+08-11-2024 15:17:53
+- User Name   : aditya.wisnu@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/menu/mod_menu_topbar.php(85): get_conn()
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(85): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_msiguide08-Nov-2024 15:17:53
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC" - 
+
+08-11-2024 15:17:57
+- User Name   : aditya.wisnu@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(295): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_dashboard_kpi08-11-2024 15:34:39
+- User Name   : aditya.wisnu@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(295): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_dashboard_kpi08-11-2024 15:38:56
+- User Name   : aditya.wisnu@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(295): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_dashboard_kpi08-Nov-2024 15:38:56
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_kpi_board WHERE status='Ready for Approve' AND pic_email LIKE '%aditya.wisnu@mastersystem.co.id%' AND status_approval LIKE '%Pending%' AND project_type LIKE '%Maintenance%' LIMIT 0, 500]  - "SELECT * FROM sa_kpi_board WHERE status='Ready for Approve' AND pic_email LIKE '%aditya.wisnu@mastersystem.co.id%' AND status_approval LIKE '%Pending%' AND project_type LIKE '%Maintenance%' LIMIT 0, 500" - 
+
+08-11-2024 15:51:52
+- User Name   : aditya.wisnu@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(295): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_dashboard_kpi08-Nov-2024 15:51:52
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_kpi_board WHERE status='Ready for Approve' AND pic_email LIKE '%aditya.wisnu@mastersystem.co.id%' AND status_approval LIKE '%Pending%' AND project_type LIKE '%Maintenance%' LIMIT 0, 500]  - "SELECT * FROM sa_kpi_board WHERE status='Ready for Approve' AND pic_email LIKE '%aditya.wisnu@mastersystem.co.id%' AND status_approval LIKE '%Pending%' AND project_type LIKE '%Maintenance%' LIMIT 0, 500" - 
+
+08-11-2024 15:52:45
+- User Name   : aditya.wisnu@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(295): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_dashboard_kpi08-Nov-2024 15:52:45
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_kpi_board WHERE status='Ready for Approve' AND pic_email LIKE '%aditya.wisnu@mastersystem.co.id%' AND status_approval LIKE '%Pending%' AND project_type LIKE '%Maintenance%' LIMIT 0, 500]  - "SELECT * FROM sa_kpi_board WHERE status='Ready for Approve' AND pic_email LIKE '%aditya.wisnu@mastersystem.co.id%' AND status_approval LIKE '%Pending%' AND project_type LIKE '%Maintenance%' LIMIT 0, 500" - 
+
+08-11-2024 15:56:35
+- User Name   : chrisheryanda@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(295): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_dashboard_kpi08-Nov-2024 15:56:35
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_kpi_so_wr WHERE status_wr LIKE '%Closed%' AND kpi_status !='Reviewed' AND kpi_status NOT LIKE '%Cancel%' AND project_code<>'TB002022B0030' AND project_type='MSI Project Maintenance' AND end_assignment > '2024-07-01' OR project_type='MSI Project Maintenance' AND kpi_status !='Reviewed' AND end_assignment > '2024-07-01' LIMIT 0, 500]  - "SELECT * FROM sa_kpi_so_wr WHERE status_wr LIKE '%Closed%' AND kpi_status !='Reviewed' AND kpi_status NOT LIKE '%Cancel%' AND project_code<>'TB002022B0030' AND project_type='MSI Project Maintenance' AND end_assignment > '2024-07-01' OR project_type='MSI Project Maintenance' AND kpi_status !='Reviewed' AND end_assignment > '2024-07-01' LIMIT 0, 500" - 
+
+08-11-2024 15:56:46
+- User Name   : chrisheryanda@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(295): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_dashboard_kpi08-Nov-2024 15:56:46
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_kpi_so_wr WHERE status_wr LIKE '%Closed%' AND kpi_status !='Reviewed' AND kpi_status NOT LIKE '%Cancel%' AND project_code<>'TB002022B0030' AND project_type='MSI Project Maintenance' AND end_assignment > '2024-07-01' OR project_type='MSI Project Maintenance' AND kpi_status !='Reviewed' AND end_assignment > '2024-07-01' LIMIT 0, 500]  - "SELECT * FROM sa_kpi_so_wr WHERE status_wr LIKE '%Closed%' AND kpi_status !='Reviewed' AND kpi_status NOT LIKE '%Cancel%' AND project_code<>'TB002022B0030' AND project_type='MSI Project Maintenance' AND end_assignment > '2024-07-01' OR project_type='MSI Project Maintenance' AND kpi_status !='Reviewed' AND end_assignment > '2024-07-01' LIMIT 0, 500" - 
+
+08-11-2024 16:08:22
+- User Name   : chrisheryanda@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(295): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_dashboard_kpi08-Nov-2024 16:08:22
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_kpi_so_wr WHERE status_wr LIKE '%Closed%' AND kpi_status !='Reviewed' AND kpi_status NOT LIKE '%Cancel%' AND project_code<>'TB002022B0030' AND project_type='MSI Project Maintenance' AND end_assignment > '2024-07-01' OR project_type='MSI Project Maintenance' AND kpi_status !='Reviewed' AND end_assignment > '2024-07-01' LIMIT 0, 500]  - "SELECT * FROM sa_kpi_so_wr WHERE status_wr LIKE '%Closed%' AND kpi_status !='Reviewed' AND kpi_status NOT LIKE '%Cancel%' AND project_code<>'TB002022B0030' AND project_type='MSI Project Maintenance' AND end_assignment > '2024-07-01' OR project_type='MSI Project Maintenance' AND kpi_status !='Reviewed' AND end_assignment > '2024-07-01' LIMIT 0, 500" - 
+
+08-11-2024 16:09:15
+- User Name   : chrisheryanda@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(295): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_dashboard_kpi08-Nov-2024 16:09:15
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_kpi_so_wr WHERE status_wr LIKE '%Closed%' AND kpi_status !='Reviewed' AND kpi_status NOT LIKE '%Cancel%' AND project_code<>'TB002022B0030' AND project_type='MSI Project Maintenance' AND end_assignment > '2024-07-01' OR project_type='MSI Project Maintenance' AND kpi_status !='Reviewed' AND end_assignment > '2024-07-01' LIMIT 0, 500]  - "SELECT * FROM sa_kpi_so_wr WHERE status_wr LIKE '%Closed%' AND kpi_status !='Reviewed' AND kpi_status NOT LIKE '%Cancel%' AND project_code<>'TB002022B0030' AND project_type='MSI Project Maintenance' AND end_assignment > '2024-07-01' OR project_type='MSI Project Maintenance' AND kpi_status !='Reviewed' AND end_assignment > '2024-07-01' LIMIT 0, 500" - 
+
+08-11-2024 16:11:51
+- User Name   : chrisheryanda@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(295): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_dashboard_kpi08-Nov-2024 16:11:51
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_kpi_so_wr WHERE status_wr LIKE '%Closed%' AND kpi_status !='Reviewed' AND kpi_status NOT LIKE '%Cancel%' AND project_code<>'TB002022B0030' AND project_type='MSI Project Maintenance' AND end_assignment > '2024-07-01' OR project_type='MSI Project Maintenance' AND kpi_status !='Reviewed' AND end_assignment > '2024-07-01' LIMIT 0, 500]  - "SELECT * FROM sa_kpi_so_wr WHERE status_wr LIKE '%Closed%' AND kpi_status !='Reviewed' AND kpi_status NOT LIKE '%Cancel%' AND project_code<>'TB002022B0030' AND project_type='MSI Project Maintenance' AND end_assignment > '2024-07-01' OR project_type='MSI Project Maintenance' AND kpi_status !='Reviewed' AND end_assignment > '2024-07-01' LIMIT 0, 500" - 
+
+08-11-2024 16:19:56
+- User Name   : aditya.wisnu@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_kpi_board_mt.php(295): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_dashboard_kpi08-Nov-2024 16:19:56
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_kpi_board WHERE status='Ready for Approve' AND pic_email LIKE '%aditya.wisnu@mastersystem.co.id%' AND status_approval LIKE '%Pending%' AND project_type LIKE '%Maintenance%' LIMIT 0, 500]  - "SELECT * FROM sa_kpi_board WHERE status='Ready for Approve' AND pic_email LIKE '%aditya.wisnu@mastersystem.co.id%' AND status_approval LIKE '%Pending%' AND project_type LIKE '%Maintenance%' LIMIT 0, 500" - 
+
+08-11-2024 17:00:02
+- User Name   : aceng.zakariya@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: Connection refused in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/index.php(34): Databases->__construct()
+#2 {main}
+
+- HostName    : mariadb.mastersystem.co.id:4006- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_microservices08-11-2024 17:00:02
+- User Name   : aceng.zakariya@mastersystem.co.id
+- Module      : kpi_board_mt
+- Sub-Module  : 
+- Description : mysqli_sql_exception: Connection refused in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/index.php(37): Databases->__construct()
+#2 {main}
+
+- HostName    : mariadb.mastersystem.co.id:4006- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm08-Nov-2024 17:00:02
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7]  - "SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7" - 
+

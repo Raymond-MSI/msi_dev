@@ -1,0 +1,4 @@
+19-Nov-2024 14:27:10
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_preschedule WHERE project_code='TB022124B0012'] Table 'sa_dashboard_kpi.sa_preschedule' doesn't exist
+

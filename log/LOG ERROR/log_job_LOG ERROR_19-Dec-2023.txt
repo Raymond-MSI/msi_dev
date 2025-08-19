@@ -1,0 +1,36 @@
+File Error Log
+
+2023-12-19 10:41:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Column 'so_number' cannot be null
+- Query 		: UPDATE sa_kpi_so_wr SET so_number=null, kpi_status='Not yet reviewed' WHERE order_number='ORD-2023-00500'
+
+
+2023-12-19 14:43:19
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.task_plan' in 'field list'
+- Query 		: select b.nik,b.employee_name,a.resource_email,SUM(a.task_plan),SUM(a.task_actual),a.kpi_status,b.department_name,b.section_name,b.unit_name,b.job_title,b.job_structure,b.employee_status,a.tahun_review from sa_summary_user a left join sa_md_hcm.sa_view_employees_v2 b ON a.resource_email=b.employee_email WHERE a.kpi_status='Reviewed' AND a.tahun_review=2023 AND b.employee_status='Permanent' GROUP BY a.resource_email,a.kpi_status,a.tahun_review
+
+
+2023-12-19 15:08:30
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_wrike_evans_assignment' doesn't exist
+- Query 		: SELECT a.project_code,a.resource_email,a.resource_role,b.project_type, b.no_so, b.order_number FROM `sa_wrike_evans_assignment` a join sa_wrike_project_list b ON a.project_id=b.id WHERE b.project_type='MSI Project Implementation' AND a.resource_role !='' AND a.resource_email='hendhika.vernanda@mastersystem.co.id' GROUP BY a.resource_email,a.project_code,a.resource_role,b.order_number
+
+
+2023-12-19 15:43:39
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_resourve_assignment' doesn't exist
+- Query 		: desc sa_resourve_assignment

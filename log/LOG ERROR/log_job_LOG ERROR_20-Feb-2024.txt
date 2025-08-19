@@ -1,0 +1,27 @@
+File Error Log
+
+2024-02-20 13:46:28
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_trx_approve' doesn't exist
+- Query 		: desc sa_trx_approve
+
+
+2024-02-20 14:34:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_contact_user' doesn't exist
+- Query 		: select * from sa_contact_user a left join sa_md_hcm.sa_view_employees_v2 b ON a.email=b.employee_email WHERE b.resign_date is null
+
+
+2024-02-20 16:55:27
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'evenr_id' in 'where clause'
+- Query 		: select * from sa_schedule WHERE evenr_id='murtitdhphtf3q4f1s5btnj154'

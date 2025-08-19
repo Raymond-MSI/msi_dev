@@ -1,0 +1,300 @@
+File Error Log
+
+2024-08-12 08:57:23
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IN ('submitted')' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement  status_request IN ('submitted')
+
+
+2024-08-12 10:39:35
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_wrike_task' doesn't exist
+- Query 		: select * from sa_wrike_task WHERE project_id='IEAEOPF5I5CTNJ22'
+
+
+2024-08-12 11:08:26
+- Server 		: Prod
+- User 			: rezha.aulia@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB002322I0006', 
+                'ORD-27687-N6L0T3', 
+                '0',
+                'customer',
+                '',
+                '9', 
+                '0',
+                '12',
+                '9', 
+                '0',
+                '12',
+                '0',
+                'Rezha Aulia Riyanda<rezha.aulia@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-12 13:19:30
+- Server 		: Prod
+- User 			: rafi.nurrohim@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB001723D0030', 
+                'ORD-2023-01884', 
+                '1',
+                '',
+                '',
+                '0', 
+                '0',
+                '0',
+                '0', 
+                '0',
+                '0',
+                '0',
+                'Muhammad Rafi Nurrohim<rafi.nurrohim@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-12 13:31:51
+- Server 		: Prod
+- User 			: rafi.nurrohim@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB029922D0005', 
+                'ORD-28440-F1F6S8', 
+                '1',
+                '',
+                '',
+                '54', 
+                '36',
+                '0',
+                '54', 
+                '36',
+                '0',
+                '0',
+                'Muhammad Rafi Nurrohim<rafi.nurrohim@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-12 14:14:53
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = '0'
+
+
+2024-08-12 14:28:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_master_maintenance_date' doesn't exist
+- Query 		: select * from sa_master_maintenance_date WHERE project_code='TB002722D0050'
+
+
+2024-08-12 16:24:31
+- Server 		: Prod
+- User 			: fibyan.saleh@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB025823B0005', 
+                'ORD-2024-00429', 
+                '0',
+                'implementation',
+                '',
+                '9', 
+                '0',
+                '4',
+                '9', 
+                '0',
+                '4',
+                '0',
+                'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-12 16:36:41
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: new_request
+- SubModule		:  
+- Status 		: Table 'sa_new_request.sa_trx_request_requirement' doesn't exist
+- Query 		: SELECT * FROM sa_trx_request_requirement WHERE status_request = 'Pending Approval' LIMIT 0, 100
+
+
+2024-08-12 17:03:07
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id_requirement_log IN (514,511,508)' at line 1
+- Query 		: DELETE sa_hcm_requirement_log WHERE id_requirement_log IN (514,511,508)
+
+
+2024-08-12 17:03:38
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id_requirement_log IN (514,511,508)' at line 1
+- Query 		: DELETE sa_hcm_requirement_log WHERE id_requirement_log IN (514,511,508)
+
+
+
+2024-08-12 17:16:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: Table 'sa_wrike_integrate.sa_kpi_so_wr' doesn't exist
+- Query 		: SELECT * FROM sa_kpi_so_wr WHERE project_type LIKE '%Maintenance%'
+
+
+2024-08-12 17:16:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: Table 'sa_wrike_integrate.sa_kpi_so_wr' doesn't exist
+- Query 		: SELECT * FROM sa_kpi_so_wr WHERE project_type LIKE '%Maintenance%'
+
+
+2024-08-12 17:17:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: Table 'sa_wrike_integrate.sa_kpi_so_wr' doesn't exist
+- Query 		: SELECT * FROM sa_kpi_so_wr WHERE project_type LIKE '%Maintenance%'
+
+
+2024-08-12 17:17:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: Table 'sa_wrike_integrate.sa_kpi_so_wr' doesn't exist
+- Query 		: SELECT * FROM sa_kpi_so_wr WHERE project_type LIKE '%Maintenance%'
+
+
+2024-08-12 17:19:03
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: Table 'sa_wrike_integrate.sa_kpi_so_wr' doesn't exist
+- Query 		: SELECT * FROM sa_kpi_so_wr WHERE project_type LIKE '%Maintenance%'
+
+
+2024-08-12 17:19:03
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: Table 'sa_wrike_integrate.sa_kpi_so_wr' doesn't exist
+- Query 		: SELECT * FROM sa_kpi_so_wr WHERE project_type LIKE '%Maintenance%'
+
+
+2024-08-12 17:19:07
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: Table 'sa_wrike_integrate.sa_kpi_so_wr' doesn't exist
+- Query 		: SELECT * FROM sa_kpi_so_wr WHERE project_type LIKE '%Maintenance%'
+
+
+2024-08-12 17:19:07
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: Table 'sa_wrike_integrate.sa_kpi_so_wr' doesn't exist
+- Query 		: SELECT * FROM sa_kpi_so_wr WHERE project_type LIKE '%Maintenance%'

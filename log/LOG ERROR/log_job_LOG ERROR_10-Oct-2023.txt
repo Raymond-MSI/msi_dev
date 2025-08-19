@@ -1,0 +1,361 @@
+File Error Log
+
+2023-10-10 09:31:16
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id...' at line 1
+- Query 		: SELECT a.*, b* FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id WHERE a.google_event_id='e7j6thp4bcjs73ssosk3qolav0'
+OR a.google_event_id='n0li03bfhuud7vh1bboaoj68ho'
+OR a.google_event_id='dah6081hok9aqpjean0he6kns4'
+OR a.google_event_id='3jjdnvn3jd508vrklo862r9uqs'
+OR a.google_event_id='1mlpg9am920q89mjl9g14kkfrk'
+OR a.google_event_id='11utmobp0ti70chg2h26hpt1h4'
+OR a.google_event_id='tv427fii9b35su3iicfdfg1ia4'
+OR a.google_event_id='q89uthq429uivtg81ttf6pvobg'
+OR a.google_event_id='6irkonsn8bio2nui0tc19qn490'
+OR a.google_event_id='q04o2so4p5vspd8d692tcrf4q0'
+OR a.google_event_id='g6dl02tndh0i89u9kipm8uegs4'
+OR a.google_event_id='5fm76jm170864tto26re2e1lq8'
+OR a.google_event_id='ohsscc0jntj8e77o082dpen9ns'
+OR a.google_event_id='29prmuqsk4vu5ur74vl31it808'
+OR a.google_event_id='q6es1erqbafvlt3ejfr5gduoig'
+OR a.google_event_id='36cjjbqo31usdmd3eq03oolp6k'
+OR a.google_event_id='0kh0t6ferf0fvl1qjhe03icq7c'
+OR a.google_event_id='30bulikrsmm3metmqmnu464o2g'
+OR a.google_event_id='ggg6fml8005b1c2a62a89omo3s'
+OR a.google_event_id='ma203ckg9ue2ligcbis979cm1g'
+OR a.google_event_id='d9cnnp1j7c1507cqfo26leqms0'
+OR a.google_event_id='pf9bu999ptlgu59r5fj8rjmaoo'
+OR a.google_event_id='j8le04fhtrnb50lnfri81ni92c'
+OR a.google_event_id='2m3mrae9mnrh6nvh65v7r9j20s'
+OR a.google_event_id='0o6pbtktsgok7a7rdtvgdruos0'
+OR a.google_event_id='1c5a3vuci91io672ajt4ttejac'
+OR a.google_event_id='3408l8knpi7cavfrb3uc8nucr8'
+OR a.google_event_id='cp2ejui3f3kn2r01j421jfpml4'
+OR a.google_event_id='q2kl3av1k0mn1li46ebd59tl6s'
+OR a.google_event_id='4vnloa48l85pllkruvt69g37lk'
+OR a.google_event_id='uot6t8ihqh8d1905ben058k71g'
+OR a.google_event_id='omehmi6upag88ji4onpbgu3mh0'
+OR a.google_event_id='7rskcmdamgq936secmv0ev9lnk'
+
+
+2023-10-10 10:48:00
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s 
+            AND `b`.`start_date` <= %s 
+            AND `b`.`work_on_we...' at line 28
+- Query 		: SELECT `a`.`id`, 
+            `a`.`project_code`, 
+            `a`.`order_number`, 
+            `a`.`no_so` AS `so_number`, 
+            `a`.`title` AS `project_name`, 
+            `d`.`customer_name`, 
+            `a`.`project_type`, 
+            `a`.`owner_email`, 
+            `a`.`project_leader`,
+            `b`.`task_id`, 
+            `b`.`task_name`, 
+            `b`.`start_date`, 
+            `b`.`due_date`, 
+            `c`.`resource_id`, 
+            `c`.`resource_email`, 
+            `c`.`resource_role`, 
+            `a`.`permalink` AS `permalink_wrike` 
+        FROM `sa_wrike_project_list` `a` 
+        LEFT JOIN `sa_wrike_task` `b` 
+            ON `a`.`id`=`b`.`project_id` 
+        LEFT JOIN `sa_wrike_assignment` `c` 
+            ON `b`.`task_id`=`c`.`task_id` 
+        LEFT JOIN `sa_wrike_project_detail` `d` 
+            ON `a`.`id`=`d`.`project_id` 
+        WHERE 
+            `b`.`start_date` IS NOT NULL 
+            AND `c`.`resource_email` IS NOT NULL 
+            AND `b`.`start_date` >= %s 
+            AND `b`.`start_date` <= %s 
+            AND `b`.`work_on_weekends` = 1
+        ORDER BY `b`.`start_date`, `a`.`id`, `b`.`task_id` ASC
+LIMIT 100;
+
+
+2023-10-10 10:48:11
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s 
+            AND `b`.`start_date` <= %s 
+            AND `b`.`work_on_we...' at line 28
+- Query 		: SELECT `a`.`id`, 
+            `a`.`project_code`, 
+            `a`.`order_number`, 
+            `a`.`no_so` AS `so_number`, 
+            `a`.`title` AS `project_name`, 
+            `d`.`customer_name`, 
+            `a`.`project_type`, 
+            `a`.`owner_email`, 
+            `a`.`project_leader`,
+            `b`.`task_id`, 
+            `b`.`task_name`, 
+            `b`.`start_date`, 
+            `b`.`due_date`, 
+            `c`.`resource_id`, 
+            `c`.`resource_email`, 
+            `c`.`resource_role`, 
+            `a`.`permalink` AS `permalink_wrike` 
+        FROM `sa_wrike_project_list` `a` 
+        LEFT JOIN `sa_wrike_task` `b` 
+            ON `a`.`id`=`b`.`project_id` 
+        LEFT JOIN `sa_wrike_assignment` `c` 
+            ON `b`.`task_id`=`c`.`task_id` 
+        LEFT JOIN `sa_wrike_project_detail` `d` 
+            ON `a`.`id`=`d`.`project_id` 
+        WHERE 
+            `b`.`start_date` IS NOT NULL 
+            AND `c`.`resource_email` IS NOT NULL 
+            AND `b`.`start_date` >= %s 
+            AND `b`.`start_date` <= %s 
+            AND `b`.`work_on_weekends` = 1
+        ORDER BY `b`.`start_date`, `a`.`id`, `b`.`task_id` ASC
+LIMIT 0,100;
+
+
+2023-10-10 13:51:17
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`DAYOFWEEK(task_date) BETWEEN 2 AND 6' at line 1
+- Query 		: select * from sa_preschedule where resource_email like '%aulia.yogi%' AND work_date BETWEEN '2023-09-01' AND '2023-09-30' AND `DAYOFWEEK(task_date) BETWEEN 2 AND 6
+
+
+2023-10-10 13:51:25
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'task_date' in 'where clause'
+- Query 		: select * from sa_preschedule where resource_email like '%aulia.yogi%' AND work_date BETWEEN '2023-09-01' AND '2023-09-30' AND DAYOFWEEK(task_date) BETWEEN 2 AND 6
+
+
+2023-10-10 13:51:27
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'task_date' in 'where clause'
+- Query 		: select * from sa_preschedule where resource_email like '%aulia.yogi%' AND work_date BETWEEN '2023-09-01' AND '2023-09-30' AND DAYOFWEEK(task_date) BETWEEN 2 AND 6
+
+
+2023-10-10 13:51:53
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'task_date' in 'where clause'
+- Query 		: select * from sa_preschedule where resource_email like '%aulia.yogi%' AND (work_date BETWEEN '2023-09-01' AND '2023-09-30') AND DAYOFWEEK(task_date) BETWEEN 2 AND 6
+
+
+2023-10-10 13:52:57
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'work_on_weekends' in 'where clause'
+- Query 		: select * from sa_preschedule where resource_email like '%aulia.yogi%' AND (work_date BETWEEN '2023-09-01' AND '2023-09-30') AND (DAYOFWEEK(work_date) BETWEEN 2 AND 6) AND `work_on_weekends`=1
+
+
+2023-10-10 13:54:44
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'work_on_weekends' in 'where clause'
+- Query 		: select * from sa_preschedule where resource_email like '%aulia.yogi%' AND (work_date BETWEEN '2023-09-01' AND '2023-09-30') AND (DAYOFWEEK(work_date) BETWEEN 2 AND 6) AND `work_on_weekends`=0
+
+
+2023-10-10 13:54:56
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'work_on_weekends' in 'where clause'
+- Query 		: select * from sa_preschedule where resource_email like '%aulia.yogi%' AND (work_date BETWEEN '2023-09-01' AND '2023-09-30') AND (DAYOFWEEK(work_date) BETWEEN 2 AND 6) AND `work_on_weekends`=1
+
+
+2023-10-10 13:55:19
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'work_on_weekends' in 'where clause'
+- Query 		: select * from sa_preschedule where resource_email like '%aulia.yogi%' AND (work_date BETWEEN '2023-09-01' AND '2023-09-30') AND (DAYOFWEEK(work_date) BETWEEN 2 AND 6) AND `work_on_weekends`='1'
+
+
+2023-10-10 14:06:51
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'work_on_weekends' in 'where clause'
+- Query 		: select * from sa_preschedule LEFT JOIN sa_schedule ON sa_preschedule.google_event_id = sa_schedule.event_id where resource_email like '%aulia.yogi%' AND (work_date BETWEEN '2023-09-01' AND '2023-09-30') AND (DAYOFWEEK(work_date) BETWEEN 2 AND 6) AND `work_on_weekends`='1'
+
+
+2023-10-10 14:23:27
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BETWWEN 2 AND 3
+        AND DAYOFWEEK(`work_on_weekends`) = 1
+         AND ...' at line 6
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE `resource_email` LIKE '%ficky.bharata@mastersystem.co.id%'
+        AND `task_date` >= '2023-09-01'
+        AND `task_date` <= '2023-09-30'
+        AND DAYOFWEEK(`task_date`) BETWWEN 2 AND 3
+        AND DAYOFWEEK(`work_on_weekends`) = 1
+         AND (`status_calender` IS NULL OR `status_calender` = '') AND (`permalink_gcalender` IS NULL OR `permalink_gcalender` = '')
+         AND `project_type` LIKE '%Implementation%'
+
+
+2023-10-10 14:24:00
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BETWWEN 2 AND 3
+        AND `work_on_weekends` = 1
+         AND (`status_ca...' at line 6
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE `resource_email` LIKE '%ficky.bharata@mastersystem.co.id%'
+        AND `task_date` >= '2023-09-01'
+        AND `task_date` <= '2023-09-30'
+        AND DAYOFWEEK(`task_date`) BETWWEN 2 AND 3
+        AND `work_on_weekends` = 1
+         AND (`status_calender` IS NULL OR `status_calender` = '') AND (`permalink_gcalender` IS NULL OR `permalink_gcalender` = '')
+         AND `project_type` LIKE '%Implementation%'
+
+
+2023-10-10 14:24:01
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BETWWEN 2 AND 3
+        AND `work_on_weekends` = 1
+         AND (`status_ca...' at line 6
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE `resource_email` LIKE '%ficky.bharata@mastersystem.co.id%'
+        AND `task_date` >= '2023-09-01'
+        AND `task_date` <= '2023-09-30'
+        AND DAYOFWEEK(`task_date`) BETWWEN 2 AND 3
+        AND `work_on_weekends` = 1
+         AND (`status_calender` IS NULL OR `status_calender` = '') AND (`permalink_gcalender` IS NULL OR `permalink_gcalender` = '')
+         AND `project_type` LIKE '%Implementation%'
+
+
+2023-10-10 14:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BETWWEN 2 AND 3
+            OR `work_on_weekends` = 1
+        )
+         A...' at line 7
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE `resource_email` LIKE '%ficky.bharata@mastersystem.co.id%'
+        AND `task_date` >= '2023-09-01'
+        AND `task_date` <= '2023-09-30'
+        AND (
+            DAYOFWEEK(`task_date`) BETWWEN 2 AND 3
+            OR `work_on_weekends` = 1
+        )
+         AND (`status_calender` IS NULL OR `status_calender` = '') AND (`permalink_gcalender` IS NULL OR `permalink_gcalender` = '')
+         AND `project_type` LIKE '%Implementation%'
+
+
+2023-10-10 14:25:03
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BETWWEN 2 AND 3
+            OR `work_on_weekends` = 1
+        )
+         A...' at line 7
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE `resource_email` LIKE '%ficky.bharata@mastersystem.co.id%'
+        AND `task_date` >= '2023-09-01'
+        AND `task_date` <= '2023-09-30'
+        AND (
+            DAYOFWEEK(`task_date`) BETWWEN 2 AND 3
+            OR `work_on_weekends` = 1
+        )
+         AND (`status_calender` IS NULL OR `status_calender` = '') AND (`permalink_gcalender` IS NULL OR `permalink_gcalender` = '')
+         AND `project_type` LIKE '%Implementation%'
+
+
+2023-10-10 15:41:53
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''sa_wrike_proejct_detail WHERE project_code='TB001222B0007'' at line 1
+- Query 		: SELECT * from 'sa_wrike_proejct_detail WHERE project_code='TB001222B0007'
+
+
+2023-10-10 15:41:58
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_wrike_proejct_detail' doesn't exist
+- Query 		: SELECT * from sa_wrike_proejct_detail WHERE project_code='TB001222B0007'
+
+
+2023-10-10 15:48:16
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_backup' doesn't exist
+- Query 		: SELECT * from sa_backup 
+
+
+2023-10-10 16:25:15
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'kpi_status='Not yet reviewed' AND periode_so=2023' at line 1
+- Query 		: select * from sa_user WHERE Nama like '%David Kusuma Chandra%' kpi_status='Not yet reviewed' AND periode_so=2023 
+
+
+2023-10-10 16:35:35
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sss' at line 1
+- Query 		: sss
+
+
+2023-10-10 17:18:17
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`kpi_status` = 'Not Yet Reviewed' GROUP BY `Nama`' at line 1
+- Query 		: SELECT `Nama`, SUM(`nilai_ideal`) AS `ideal_value`, SUM(`nilai_aktual`) AS `actual_value`, SUM(`nilai_aktual`) / SUM(`nilai_ideal`) * 100 AS `average`, SUM(REPLACE(`nilai_akhir_ideal`, ',', '.')) AS `ideal_final_value`, SUM(REPLACE(`nilai_akhir_aktual`, ',', '.')) AS `actual_final_value`, SUM(REPLACE(`nilai_akhir_ideal`, ',', '.')) / SUM(REPLACE(`nilai_akhir_aktual`, ',', '.')) * 100 AS `average_resource`, `periode_so`, `kpi_status` FROM `sa_user` WHERE `periode_so`='2023' `kpi_status` = 'Not Yet Reviewed' GROUP BY `Nama`;

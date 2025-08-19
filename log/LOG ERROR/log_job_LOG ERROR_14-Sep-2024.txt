@@ -1,0 +1,139 @@
+File Error Log
+
+2024-09-14 20:30:20
+- Server 		: Prod
+- User 			: abdul.lathif@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='abdul.lathif@mastersystem.co.id'
+
+
+2024-09-14 20:30:20
+- Server 		: Prod
+- User 			: abdul.lathif@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: select `solution_name`, avg(coalesce(`product`,0)) AS `product` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `so_number` IN (select `so_number` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `product`>0 AND `sa_trx_project_solutions`.`modified_date`>='2023-09-14' group by `so_number` order by `so_number`) group by `solution_name` order by `so_number`, `solution_name`;
+
+
+2024-09-14 20:30:20
+- Server 		: Prod
+- User 			: abdul.lathif@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: select `solution_name`, avg(coalesce(`services`,0)) AS `service` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `so_number` IN (select `so_number` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `services`>0 AND `sa_trx_project_solutions`.`modified_date`>'2023-09-14' group by `so_number` order by `so_number`) group by `solution_name` order by `so_number`;
+
+
+2024-09-14 20:30:20
+- Server 		: Prod
+- User 			: abdul.lathif@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE status_order=0
+
+
+2024-09-14 20:30:20
+- Server 		: Prod
+- User 			: abdul.lathif@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE status_order=1
+
+
+2024-09-14 20:30:20
+- Server 		: Prod
+- User 			: abdul.lathif@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number
+
+
+2024-09-14 20:30:20
+- Server 		: Prod
+- User 			: abdul.lathif@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE create_date >= '2024-09-13' ORDER BY create_date DESC
+
+
+2024-09-14 20:30:20
+- Server 		: Prod
+- User 			: abdul.lathif@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_documents WHERE date_expired >=  '2024-09-14'
+
+
+2024-09-14 20:30:20
+- Server 		: Prod
+- User 			: abdul.lathif@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_documents WHERE date_expired <  '2024-09-14'
+
+
+2024-09-14 20:30:20
+- Server 		: Prod
+- User 			: abdul.lathif@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_documents
+
+
+2024-09-14 20:30:20
+- Server 		: Prod
+- User 			: abdul.lathif@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_documents WHERE date_released >= '2024-09-13' ORDER BY date_released DESC
+
+
+2024-09-14 20:30:20
+- Server 		: Prod
+- User 			: abdul.lathif@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_mst_employees WHERE email='abdul.lathif@mastersystem.co.id' ORDER BY resign_date
+
+
+2024-09-14 20:30:20
+- Server 		: Prod
+- User 			: abdul.lathif@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT `employee_name`, SUM(IF( `status` = 'drafted', 1, 0) ) AS `edo_draft`, SUM(IF( `status` = 'edo submitted', 1, 0) ) AS `edo_submitted`, SUM(IF( `status` = 'edo rejected', 1, 0) ) AS `edo_rejected`, SUM(IF( `status` = 'request approved', 1, 0) ) AS `edo_approved`, SUM(IF( `status` = 'leave submitted', 1, 0) ) AS `leave_submitted`, SUM(IF( `status` = 'leave rejected', 1, 0) ) AS `leave_rejected`, SUM(IF( `status` = 'completed', 1, 0) ) AS `completed` FROM `sa_trx_edo_request` WHERE `employee_name` LIKE '%abdul.lathif@mastersystem.co.id%' GROUP BY `employee_name`; 
+
+
+2024-09-14 20:32:58
+- Server 		: Prod
+- User 			: abdul.lathif@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT `project_name` 
+                                                FROM `sa_mst_order_number` 
+                                                WHERE `project_code` = 'TB000523B0010'
+
+
+2024-09-14 20:32:58
+- Server 		: Prod
+- User 			: abdul.lathif@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT `project_name` 
+                                                FROM `sa_mst_order_number` 
+                                                WHERE `project_code` = 'TB000523B0010'

@@ -1,0 +1,8 @@
+20-Nov-2024 11:49:00
+- SubModule : RESOURCES_LOAD
+- Status    : Caught 'get_sql' error - [SELECT `event_id`, `summary`, `description`, `html_link`, `created_event`, `updated_event`, `start_time`, `end_time`, `diff_time`, `attendees_email`, `response_status`, `project_type` FROM `sa_schedule` WHERE `event_id` IN ();] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+
+20-Nov-2024 17:11:55
+- SubModule : RESOURCES_LOAD
+- Status    : Caught 'get_sql' error - [SELECT `event_id`, `summary`, `description`, `html_link`, `created_event`, `updated_event`, `start_time`, `end_time`, `diff_time`, `attendees_email`, `response_status`, `project_type` FROM `sa_schedule` WHERE `event_id` IN ();] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+

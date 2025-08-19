@@ -1,0 +1,225 @@
+File Error Log
+
+2023-09-29 16:00:42
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_tes
+- Status 		: tes error prod
+- Query 		: error
+
+
+2023-09-29 16:01:03
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_tes
+- Status 		: tes error prod
+- Query 		: error
+
+
+2023-09-29 16:05:35
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_tes
+- Status 		: Table 'sa_microservices.sa_cfg_webs' doesn't exist
+- Query 		: SELECT config_value
+    FROM sa_cfg_webs
+    WHERE config_key = 'MODULE_PRODUCTIVITY'
+    
+
+
+2023-09-29 16:05:35
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_tes
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+    )
+
+        AND `resign_date` IS NULL' at line 16
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` 
+    FROM `sa_view_employees`
+    WHERE 
+    (
+        (
+            (
+                (
+                `job_structure` LIKE 'JG%'
+                OR `job_structure` LIKE 'LWW%'
+                OR `job_structure` LIKE 'RBC%'
+                )
+                AND `job_level`=2
+            )
+            OR `job_structure` LIKE 'EA Account Management Group B'
+        )
+        AND ()
+    )
+
+        AND `resign_date` IS NULL
+
+
+2023-09-29 16:05:35
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_tes
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+    )
+
+        AND `resign_date` IS NULL' at line 16
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` 
+    FROM `sa_view_employees`
+    WHERE 
+    (
+        (
+            (
+                (
+                `job_structure` LIKE 'JG%'
+                OR `job_structure` LIKE 'LWW%'
+                OR `job_structure` LIKE 'RBC%'
+                )
+                AND `job_level`=2
+            )
+            OR `job_structure` LIKE 'EA Account Management Group B'
+        )
+        AND ()
+    )
+
+        AND `resign_date` IS NULL
+
+
+2023-09-29 16:28:41
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''News'' order by `post_date` desc limit 0, 1' at line 1
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News'' order by `post_date` desc limit 0, 1; 
+
+
+2023-09-29 16:29:20
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: 
+
+
+2023-09-29 16:30:31
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''News'' order by `post_date` desc limit 0, 1' at line 1
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News'' order by `post_date` desc limit 0, 1; 
+
+
+2023-09-29 18:25:01
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-09-29 18:25:01
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-09-29 18:25:01
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-09-29 18:25:01
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-09-29 18:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-09-29 18:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-09-29 18:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-09-29 18:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-09-29 18:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-09-29 20:18:48
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'attendees_eail' in 'where clause'
+- Query 		: select * from sa_schedule where attendees_eail like '%yohanes.hendra@mastersystem.co.id%'

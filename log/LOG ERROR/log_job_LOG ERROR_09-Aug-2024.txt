@@ -1,0 +1,181 @@
+File Error Log
+
+2024-08-09 09:00:09
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-08-09 09:00:09
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-08-09 09:16:40
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'status_calendar' in 'where clause'
+- Query 		: SELECT * FROM sa_trx_productivity WHERE start_date >="2024-07-01" AND start_date <= "2024-07-31" AND status_calendar != "accepted" ORDER BY start_date
+
+
+2024-08-09 09:17:15
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'status_calendar' in 'where clause'
+- Query 		: SELECT * FROM sa_trx_productivity WHERE start_date >="2024-07-01" AND start_date <= "2024-07-31" AND status_calendar != "accepted" ORDER BY start_date
+
+
+2024-08-09 11:25:21
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = '0'
+
+
+2024-08-09 11:34:23
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: new_request
+- SubModule		:  
+- Status 		: Table 'sa_new_request.sa_trx_request_requirement' doesn't exist
+- Query 		: SELECT * FROM sa_trx_request_requirement WHERE status_request = 'Pending Approval' LIMIT 0, 100
+
+
+2024-08-09 13:58:08
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: order_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '24 - 21 April '25 (85%)%' AND project_code!='' AND (so_number LIKE '%SO%' OR ...' at line 1
+- Query 		: SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code LIKE '%Renewal Arista 22 April '24 - 21 April '25 (85%)%' AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC
+
+
+2024-08-09 13:58:08
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: order_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '24 - 21 April '25 (85%)%'' at line 1
+- Query 		: SELECT * FROM sa_view_order_number WHERE project_code LIKE '%Renewal Arista 22 April '24 - 21 April '25 (85%)%'
+
+
+2024-08-09 14:05:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '{AND employee_email='yohanes.hendra@mastersystem.co.id'}  GROUP BY employee_e...' at line 2
+- Query 		: SELECT employee_email FROM sa_view_employees WHERE resign_date IS NULL 
+                              {AND employee_email='yohanes.hendra@mastersystem.co.id'}  GROUP BY employee_email 
+
+
+2024-08-09 14:05:30
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '{AND employee_email='yohanes.hendra@mastersystem.co.id'}  GROUP BY employee_e...' at line 1
+- Query 		: SELECT employee_email FROM sa_view_employees WHERE resign_date IS NULL {AND employee_email='yohanes.hendra@mastersystem.co.id'}  GROUP BY employee_email 
+
+
+2024-08-09 14:05:35
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '{AND employee_email='yohanes.hendra@mastersystem.co.id'} GROUP BY employee_email' at line 1
+- Query 		: SELECT employee_email FROM sa_view_employees WHERE resign_date IS NULL {AND employee_email='yohanes.hendra@mastersystem.co.id'} GROUP BY employee_email 
+
+
+2024-08-09 15:18:12
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'group statement'
+- Query 		: SELECT employee_email FROM sa_view_employees WHERE resign_date IS NULL 
+                            AND (job_structure LIKE '%RBC%' 
+                            OR job_structure LIKE '%JG%' 
+                            OR job_structure LIKE '%LWW%' 
+			    OR branch_name LIKE '%SBY%' AND organization_name LIKE '%engineer%') GROUP BY resource_email
+
+
+2024-08-09 16:35:07
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'html_link' in 'where clause'
+- Query 		: select * from sa_preschedule WHERE html_link LIKE '%bzFlaGlxY3Q5dDJpY2JpZGFrNnB2Ymg0amMgd2FoeXVkaW4uZGpvaGFuQG1hc3RlcnN5c3RlbS5jby5pZA%'
+
+
+2024-08-09 17:32:33
+- Server 		: Prod
+- User 			: nabella.yanza@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB002723D0051', 
+                'ORD-2023-02535', 
+                '1',
+                '',
+                '',
+                '9', 
+                '0',
+                '2',
+                '9', 
+                '0',
+                '2',
+                '0',
+                'Nabella Yanza<nabella.yanza@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-09 17:40:40
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_summary
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC
+
+
+2024-08-09 17:40:40
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_summary
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_notification WHERE notif_to LIKE '%syamsul@mastersystem.co.id%' AND notif_status=1 ORDER BY notif_date DESC LIMIT 0, 25

@@ -1,0 +1,226 @@
+File Error Log
+
+2023-10-25 09:12:12
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-25 14:46:38
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_general_informations WHERE change_request_status='submission_rejected' OR change_request_approval_type='submission_rejected' ORDER BY gi_id DESC LIMIT 0, 600
+
+
+2023-10-25 14:51:30
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-25 14:55:31
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: legal_documents
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_documents WHERE `status` IS NULL ORDER BY date_expired LIMIT 0, 100
+
+
+2023-10-25 14:56:03
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: legal_documents
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_documents WHERE `status` IS NULL ORDER BY date_expired LIMIT 0, 100
+
+
+2023-10-25 14:57:28
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'd.order_number' in 'field list'
+- Query 		: SELECT d.order_number,a.project_code,a.so_number,SUM(b.mandays_value) AS mandays_cr from sa_general_informations a left join sa_mandays b on a.cr_no=b.cr_no left join sa_change_cost_plans c on b.cr_no=c.cr_no left join sa_ps_service_budgets.sa_trx_project_list on a.so_number=d.so_number WHERE a.change_request_approval_type='submission_approved' AND a.change_request_approval_type2='submission_approved' AND a.CR_status_approval_pmo='submission_approved' AND a.CR_status_approval_presales='submission_approved' AND c.cost_type='Chargeable' GROUP BY a.cr_no
+
+
+2023-10-25 14:58:03
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: legal_documents
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_documents WHERE `status` IS NULL ORDER BY date_expired LIMIT 0, 100
+
+
+2023-10-25 14:59:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'd.order_number' in 'field list'
+- Query 		: SELECT d.order_number,a.project_code,a.so_number,SUM(b.mandays_value) AS mandays_cr from sa_general_informations a left join sa_mandays b on a.cr_no=b.cr_no left join sa_change_cost_plans c on b.cr_no=c.cr_no left join sa_ps_service_budgets.sa_trx_project_list on a.so_number=d.so_number WHERE a.change_request_approval_type='submission_approved' AND a.change_request_approval_type2='submission_approved' AND a.CR_status_approval_pmo='submission_approved' AND a.CR_status_approval_presales='submission_approved' AND c.cost_type='Chargeable' GROUP BY a.cr_no
+
+
+2023-10-25 15:00:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'd.order_number' in 'field list'
+- Query 		: SELECT d.order_number,a.project_code,a.so_number,SUM(b.mandays_value) AS mandays_cr from sa_general_informations a left join sa_mandays b on a.cr_no=b.cr_no left join sa_change_cost_plans c on b.cr_no=c.cr_no WHERE a.change_request_approval_type='submission_approved' AND a.change_request_approval_type2='submission_approved' AND a.CR_status_approval_pmo='submission_approved' AND a.CR_status_approval_presales='submission_approved' AND c.cost_type='Chargeable' GROUP BY a.cr_no
+
+
+2023-10-25 15:03:43
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: legal_documents
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_documents WHERE `status` IS NULL ORDER BY date_expired LIMIT 0, 100
+
+
+2023-10-25 15:03:53
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: legal_documents
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_documents WHERE `status` IS NULL ORDER BY date_expired LIMIT 0, 100
+
+
+2023-10-25 15:05:58
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-25 15:07:04
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_legal_documents.sa_legal_document' doesn't exist
+- Query 		: desc sa_legal_document
+
+
+2023-10-25 15:08:01
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_id' in 'field list'
+- Query 		: SELECT project_id,project_code,no_so,resource_email,roles,status,progress FROM `sa_view_resource_assignment` WHERE approval_status='approved'
+
+
+2023-10-25 15:11:41
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: legal_documents
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_documents WHERE `status` IS NULL ORDER BY date_expired LIMIT 0, 100
+
+
+2023-10-25 15:16:42
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_general_informations WHERE requested_by_email='malik.aulia@mastersystem.co.id' ORDER BY gi_id DESC LIMIT 0, 600
+
+
+2023-10-25 15:27:44
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: SELECT * FROM sa_workload.`sa_initial_jobroles_project` WHERE project_code='TB002723D0049'
+
+
+2023-10-25 15:28:01
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: SELECT * FROM sa_workload.sa_initial_jobroles_project WHERE project_code='TB002723D0049'
+
+
+2023-10-25 15:29:07
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'c.project_code' in 'field list'
+- Query 		: SELECT DISTINCT a.project_id, c.project_code, b.project_status FROM sa_workload.`sa_initial_jobroles_project` AS a
+                                    JOIN sa_wrike_integrate.sa_wrike_project_detail AS b ON a.project_id = b.project_id
+
+
+2023-10-25 15:37:10
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_general_informations WHERE requested_by_email='malik.aulia@mastersystem.co.id' ORDER BY gi_id DESC LIMIT 0, 600
+
+
+2023-10-25 15:53:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_general_informations WHERE requested_by_email='malik.aulia@mastersystem.co.id' ORDER BY gi_id DESC LIMIT 0, 600
+
+
+2023-10-25 16:00:43
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_general_informations WHERE requested_by_email='malik.aulia@mastersystem.co.id' ORDER BY gi_id DESC LIMIT 0, 600
+
+
+2023-10-25 16:32:49
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-25 17:11:29
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'syn_date' in 'where clause'
+- Query 		: select * from sa_trx_sync_date where syn_date >= '2023-10-01'
+
+
+2023-10-25 17:16:25
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_productivity.sa_cronlogs' doesn't exist
+- Query 		: SELECT `module`, SUM(if(hour(`entry_date`) = 0,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `00`,SUM(if(hour(`entry_date`) = 1,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `01`,SUM(if(hour(`entry_date`) = 2,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `02`,SUM(if(hour(`entry_date`) = 3,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `03`,SUM(if(hour(`entry_date`) = 4,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `04`,SUM(if(hour(`entry_date`) = 5,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `05`,SUM(if(hour(`entry_date`) = 6,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `06`,SUM(if(hour(`entry_date`) = 7,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `07`,SUM(if(hour(`entry_date`) = 8,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `08`,SUM(if(hour(`entry_date`) = 9,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `09`,SUM(if(hour(`entry_date`) = 10,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `10`,SUM(if(hour(`entry_date`) = 11,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `11`,SUM(if(hour(`entry_date`) = 12,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `12`,SUM(if(hour(`entry_date`) = 13,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `13`,SUM(if(hour(`entry_date`) = 14,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `14`,SUM(if(hour(`entry_date`) = 15,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `15`,SUM(if(hour(`entry_date`) = 16,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `16`,SUM(if(hour(`entry_date`) = 17,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `17`,SUM(if(hour(`entry_date`) = 18,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `18`,SUM(if(hour(`entry_date`) = 19,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `19`,SUM(if(hour(`entry_date`) = 20,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `20`,SUM(if(hour(`entry_date`) = 21,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `21`,SUM(if(hour(`entry_date`) = 22,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `22`,SUM(if(hour(`entry_date`) = 23,if(`duration` > 0,1,if(`duration`=0,0,NULL)),NULL)) AS `23`, avg(`duration`) AS `duration` from `sa_cronlogs` WHERE `entry_date` LIKE '2023-10-01%' group by `module`;

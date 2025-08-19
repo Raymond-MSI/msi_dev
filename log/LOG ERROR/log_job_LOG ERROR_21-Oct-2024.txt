@@ -1,0 +1,101 @@
+File Error Log
+
+2024-10-21 15:35:58
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '"SELECT `id`, `project_id`, `project_code`, `task_id`, `task_name`, `catalogu...' at line 1
+- Query 		: "SELECT `id`, `project_id`, `project_code`, `task_id`, `task_name`, `catalogue_code`, `task_category`, `work_date`, `start_date`, `due_date`, `duration_date_minute`, `resource_id`, `resource_email`, `resource_role`, `assignment_type`, `permalink`, `google_event_id`, `flag`, `flag_update`, `created_at` FROM `sa_preschedule` WHERE `work_date` >= '2024-10-21' ORDER BY `resource_email` ASC, `work_date` ASC
+
+
+2024-10-21 15:51:51
+- Server 		: Prod
+- User 			: dyota.laksmana@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect integer value: '' for column `sa_dashboard_kpi`.`sa_master_maintenance_date`.`total_backup_mt_date` at row 1
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `parent`,
+                `renewal`,
+                `gabungan`,
+                `gabungan_parent`,
+                `openitem`,
+                `ontime_notes`,
+                `notes`,
+                `notes_openitem`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `total_backup_mt_date`,
+                `flag`,
+                `entry_by`,
+                `approval_to`,
+                `approval_status`,
+                `total_pmr_date`) VALUES (
+                'TB001023C0050', 
+                'ORD-2024-01322', 
+                '0',
+                '===== Pilih Parent =====',
+                'Bukan Project Renewal',
+                '0',
+                '0',
+                '1',
+                'sales',
+                '',
+                'VOIP, Kopra, IVR, HA ',
+                '99', 
+                '12',
+                '4',
+                '99', 
+                '12',
+                '4',
+                '',
+                '0',
+                'Dyota Laksmana Adityantoro<dyota.laksmana@mastersystem.co.id>',
+                'Aceng Zakariya Ramadani<aceng.zakariya@mastersystem.co.id>',
+                'pending',
+                '0')
+
+
+2024-10-21 18:10:41
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(22005,'Add On Preventive Maintenance 2x/Year',22522522,52,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-21 18:27:49
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB000420I0003', 
+                    'ORD-27402-R4T1X3', 
+                    'pmr_date',
+                    'Za\'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-10-21 19:08:47
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24943,'Add On Preventive Maintenance 2x/Year',7673151,33,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')

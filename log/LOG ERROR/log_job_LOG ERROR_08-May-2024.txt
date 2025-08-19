@@ -1,0 +1,584 @@
+File Error Log
+
+2024-05-08 10:58:32
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Column 'project_id' cannot be null
+- Query 		: INSERT INTO `sa_mst_organization_project`(
+            `project_id`,
+            `structure_code`,
+            `title`,
+            `project_type`,
+            `leader_email`,
+            `parent`,
+            `update_by`
+        )
+        VALUES(
+            NULL,
+            'P1',
+            'P1 Title',
+            'Maintenance',
+            NULL,
+            'MYFULLNAME',
+            0
+        )
+
+
+2024-05-08 10:58:32
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT `structure_id`, `project_id`, `structure_code`, `title`, `project_type`, `leader_email`, `division`, `parent` FROM `sa_mst_organization_project`  WHERE `structure_id` = 
+
+
+2024-05-08 10:59:15
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT `structure_id`, `project_id`, `structure_code`, `title`, `project_type`, `leader_email`, `division`, `parent` FROM `sa_mst_organization_project`  WHERE `structure_id` = 
+
+
+2024-05-08 10:59:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Column 'project_id' cannot be null
+- Query 		: INSERT INTO `sa_mst_organization_project`(
+            `project_id`,
+            `structure_code`,
+            `title`,
+            `project_type`,
+            `leader_email`,
+            `parent`,
+            `update_by`
+        )
+        VALUES(
+            NULL,
+            'P1',
+            'P1 Title',
+            'Maintenance',
+            NULL,
+            'MYFULLNAME',
+            0
+        )
+
+
+2024-05-08 10:59:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT `structure_id`, `project_id`, `structure_code`, `title`, `project_type`, `leader_email`, `division`, `parent` FROM `sa_mst_organization_project`  WHERE `structure_id` = 
+
+
+2024-05-08 11:01:57
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT `structure_id`, `project_id`, `structure_code`, `title`, `project_type`, `leader_email`, `division`, `parent` FROM `sa_mst_organization_project`  WHERE `structure_id` = 
+
+
+2024-05-08 11:04:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Column 'project_id' cannot be null
+- Query 		: INSERT INTO `sa_mst_organization_project`(
+            `project_id`,
+            `structure_code`,
+            `title`,
+            `project_type`,
+            `leader_email`,
+            `parent`,
+            `update_by`
+        )
+        VALUES(
+            NULL,
+            'P1',
+            'P1 Title',
+            'Maintenance',
+            NULL,
+            'Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>',
+            0
+        )
+
+
+2024-05-08 11:04:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT `structure_id`, `project_id`, `structure_code`, `title`, `project_type`, `leader_email`, `division`, `parent` FROM `sa_mst_organization_project`  WHERE `structure_id` = 
+
+
+2024-05-08 11:04:26
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT `structure_id`, `project_id`, `structure_code`, `title`, `project_type`, `leader_email`, `division`, `parent` FROM `sa_mst_organization_project`  WHERE `structure_id` = 
+
+
+2024-05-08 11:05:01
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT `structure_id`, `project_id`, `structure_code`, `title`, `project_type`, `leader_email`, `division`, `parent` FROM `sa_mst_organization_project`  WHERE `structure_id` = 
+
+
+2024-05-08 11:08:51
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Field 'employee_name' doesn't have a default value
+- Query 		: INSERT INTO `sa_mst_organization_project_employee`(
+                `employee_email`,
+                `structure_id`,
+                `entry_by`,
+                `entry_date`
+            )
+            VALUES(
+                'sumarno@mastersystem.co.id',
+                6,
+                'Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>',
+                '2024-05-08 11:08:51'
+            )
+
+
+2024-05-08 11:09:19
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Field 'employee_name' doesn't have a default value
+- Query 		: INSERT INTO `sa_mst_organization_project_employee`(
+                `employee_email`,
+                `structure_id`,
+                `entry_by`,
+                `entry_date`
+            )
+            VALUES(
+                'sumarno@mastersystem.co.id',
+                6,
+                'Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>',
+                '2024-05-08 11:09:19'
+            )
+
+
+2024-05-08 11:31:26
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-05-08 11:31:26
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-05-08 13:31:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Field 'employee_name' doesn't have a default value
+- Query 		: INSERT INTO `sa_mst_organization_project_employee`(
+                `employee_email`,
+                `structure_id`,
+                `entry_by`,
+                `entry_date`
+            )
+            VALUES(
+                'sumarno@mastersystem.co.id',
+                6,
+                'Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>',
+                '2024-05-08 13:31:55'
+            )
+
+
+2024-05-08 13:35:53
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Field 'employee_name' doesn't have a default value
+- Query 		: INSERT INTO sa_mst_organization_project_employee (employee_email,structure_id,entry_by,entry_date) VALUES ('sumarno@mastersystem.co.id','6','Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>','2024-05-08 13:35:53')
+
+
+2024-05-08 13:36:24
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_mst_organization_project_employee' doesn't exist
+- Query 		: select * from sa_mst_organization_project_employee
+
+
+2024-05-08 13:37:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Field 'employee_name' doesn't have a default value
+- Query 		: INSERT INTO sa_mst_organization_project_employee (employee_email,structure_id,entry_by,entry_date) VALUES ('sumarno@mastersystem.co.id','6','Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>','2024-05-08 13:37:25')
+
+
+2024-05-08 13:39:22
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Field 'employee_name' doesn't have a default value
+- Query 		: INSERT INTO sa_mst_organization_project_employee (employee_email,structure_id,entry_by,entry_date) VALUES ('sumarno@mastersystem.co.id','6','Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>','2024-05-08 13:39:22')
+
+
+2024-05-08 13:40:21
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Field 'employee_name' doesn't have a default value
+- Query 		: INSERT INTO sa_mst_organization_project_employee (employee_email,structure_id,entry_by,entry_date) VALUES ('sumarno@mastersystem.co.id','6','Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>','2024-05-08 13:40:21')
+
+
+2024-05-08 13:43:00
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Column 'project_id' cannot be null
+- Query 		: INSERT INTO `sa_mst_organization_project`(
+            `project_id`,
+            `structure_code`,
+            `title`,
+            `project_type`,
+            `leader_email`,
+            `parent`,
+            `update_by`
+        )
+        VALUES(
+            NULL,
+            'M1',
+            'M1',
+            'Implementation',
+            NULL,
+            'Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>',
+            0
+        )
+
+
+2024-05-08 13:43:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Column 'project_id' cannot be null
+- Query 		: INSERT INTO `sa_mst_organization_project`(
+            `project_id`,
+            `structure_code`,
+            `title`,
+            `project_type`,
+            `leader_email`,
+            `parent`,
+            `update_by`
+        )
+        VALUES(
+            NULL,
+            'M1',
+            'M1',
+            'Implementation',
+            NULL,
+            'Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>',
+            0
+        )
+
+
+2024-05-08 13:46:53
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Column 'project_id' cannot be null
+- Query 		: INSERT INTO `sa_mst_organization_project`(
+            `project_id`,
+            `structure_code`,
+            `title`,
+            `project_type`,
+            `leader_email`,
+            `parent`,
+            `update_by`
+        )
+        VALUES(
+            NULL,
+            'M2',
+            'PM Senior',
+            'Implementation',
+            NULL,
+            'Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>',
+            0
+        )
+
+
+2024-05-08 13:49:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Column 'project_id' specified twice
+- Query 		: INSERT INTO `sa_mst_organization_project`(
+            `project_id`,
+            `structure_code`,
+            `title`,
+            `project_type`,
+            `leader_email`,
+            `parent`,
+            `update_by`,
+            `project_id`
+        )
+        VALUES(
+            NULL,
+            'M2',
+            'PM Senior',
+            'Implementation',
+            NULL,
+            'Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>',
+            0,
+            NULL
+        )
+
+
+2024-05-08 13:51:07
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Column 'project_id' specified twice
+- Query 		: INSERT INTO `sa_mst_organization_project`(
+            `project_id`,
+            `structure_code`,
+            `title`,
+            `project_type`,
+            `leader_email`,
+            `parent`,
+            `update_by`,
+            `project_id`
+        )
+        VALUES(
+            NULL,
+            'M2',
+            'PM Senior',
+            'Implementation',
+            NULL,
+            'Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>',
+            0,
+            NULL
+        )
+
+
+2024-05-08 13:51:39
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+        VALUES(
+            NULL,
+            'M2',
+            'PM Senior'...' at line 9
+- Query 		: INSERT INTO `sa_mst_organization_project`(
+            `project_id`,
+            `structure_code`,
+            `title`,
+            `project_type`,
+            `leader_email`,
+            `parent`,
+            `update_by`,
+        )
+        VALUES(
+            NULL,
+            'M2',
+            'PM Senior',
+            'Implementation',
+            NULL,
+            'Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>',
+            0
+        )
+
+
+2024-05-08 13:55:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: INSERT INTO sa_mst_organization_project (project_id,structure_code,title,project_type,leader_email,parent,update_by) VALUES ('','M2','PM Senior','Implementation','','','Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>'
+
+
+2024-05-08 13:55:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: INSERT INTO sa_mst_organization_project (project_id,structure_code,title,project_type,leader_email,parent,update_by) VALUES ('','M2','PM Senior','Implementation','','','Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>'
+
+
+2024-05-08 13:58:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''M2','PM Senior','Implementation','',0,'Chrisheryanda Eka Saputra<chrisheryan...' at line 1
+- Query 		: INSERT INTO sa_mst_organization_project (project_id,structure_code,title,project_type,leader_email,parent,update_by) VALUES (,'M2','PM Senior','Implementation','',0,'Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>'
+
+
+2024-05-08 14:00:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: INSERT INTO sa_mst_organization_project (project_id,structure_code,title,project_type,leader_email,parent,update_by) VALUES (0,'M2','PM Senior','Implementation','',0,'Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>'
+
+
+2024-05-08 14:02:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: INSERT INTO sa_mst_organization_project (project_id,structure_code,title,project_type,leader_email,parent,update_by) VALUES (0,'M2','PM Senior','Implementation','',0,'Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>'
+
+
+2024-05-08 14:04:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: INSERT INTO sa_mst_organization_project (project_id,structure_code,title,project_type,leader_email,parent,update_by,division) VALUES (0,'M2','PM Senior','Implementation','',0,'Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>',''
+
+
+2024-05-08 14:06:30
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: INSERT INTO sa_mst_organization_project (project_id,structure_code,title,project_type,leader_email,parent,update_by,division,update_date) VALUES (0,'M2','PM Senior','Implementation','',0,'Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>','','2024-05-08 14:06:30'
+
+
+2024-05-08 14:09:28
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: INSERT INTO sa_mst_organization_project (project_id,structure_code,title,project_type,leader_email,parent,update_by,division,update_date) VALUES (0,'M2','PM Senior','Implementation','',0,'Chrisheryanda Eka Saputra','','2024-05-08 14:06:30'
+
+
+2024-05-08 14:53:07
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where entry_date like '%2024-05-08%'' at line 1
+- Query 		: select * from sa_trx_edo_request where employee_name like '%Dimas Setiawan<dimas.setiawan@mastersystem.co.id>%'  where entry_date like '%2024-05-08%'
+
+
+2024-05-08 15:08:23
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+- Query 		: UPDATE sa_trx_edo_request
+SET manager = 'Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>'
+WHERE edo_id IN (43104, 43107, 43110, 43113, 43116, 43119, 43122, 43125,);
+
+
+
+2024-05-08 16:31:36
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'draft' OR status='rejected' OR status='reopen') ORDER BY project_id DESC LIMI...' at line 1
+- Query 		: SELECT * FROM sa_view_project_list WHERE ( order_number LIKE '%ORD-2024-01289'%') AND (status='draft' OR status='rejected' OR status='reopen') ORDER BY project_id DESC LIMIT 0, 100
+
+
+2024-05-08 16:31:36
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'submited' ORDER BY project_id DESC' at line 1
+- Query 		: SELECT * FROM sa_view_project_list WHERE ( order_number LIKE '%ORD-2024-01289'%') AND status='submited' ORDER BY project_id DESC
+
+
+2024-05-08 16:31:36
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'approved' AND `bundling`='Trade<br/>' ORDER BY project_id DESC' at line 1
+- Query 		: SELECT * FROM sa_view_project_list WHERE ( order_number LIKE '%ORD-2024-01289'%') AND status='approved' AND `bundling`='Trade<br/>' ORDER BY project_id DESC
+
+
+2024-05-08 16:31:36
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'approved' AND `bundling`<>'Trade<br/>' ORDER BY project_id DESC' at line 1
+- Query 		: SELECT * FROM sa_view_project_list WHERE ( order_number LIKE '%ORD-2024-01289'%') AND status='approved' AND `bundling`<>'Trade<br/>' ORDER BY project_id DESC
+
+
+2024-05-08 16:31:36
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'acknowledge' AND (ISNULL(po_number) OR ISNULL(so_number) OR ISNULL(order_numb...' at line 1
+- Query 		: SELECT * FROM sa_view_project_list WHERE ( order_number LIKE '%ORD-2024-01289'%') AND status='acknowledge' AND (ISNULL(po_number) OR ISNULL(so_number) OR ISNULL(order_number)) ORDER BY project_id DESC
+
+
+2024-05-08 16:31:36
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'acknowledge' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND NOT ISNU...' at line 1
+- Query 		: SELECT * FROM sa_view_project_list WHERE ( order_number LIKE '%ORD-2024-01289'%') AND status='acknowledge' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND NOT ISNULL(order_number) ORDER BY project_id DESC
+
+
+2024-05-08 16:31:36
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 1
+- Query 		: SELECT * FROM sa_trx_project_list WHERE  order_number LIKE '%ORD-2024-01289'%'

@@ -1,0 +1,36 @@
+12-Nov-2024 20:08:38
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT DISTINCT project_code,so_number,customer_name,project_name FROM sa_trx_project_list] MySQL server has gone away
+
+12-Nov-2024 20:08:38
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_view_employees WHERE employee_email = 'bill.julian@mastersystem.co.id'] MySQL server has gone away
+
+12-Nov-2024 20:08:38
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_view_employees WHERE job_structure like '%JG RRT MC MIS IT%' and  resign_date is null and job_title like '%Manager%' OR employee_name LIKE '%Lukman Susanto%'] MySQL server has gone away
+
+12-Nov-2024 20:08:38
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT DISTINCT project_code,so_number,order_number,customer_name,project_name,sales_name FROM sa_trx_project_list WHERE project_code='TS045523E0001'] MySQL server has gone away
+
+12-Nov-2024 20:08:38
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT DISTINCT project_code,so_number,order_number,customer_name,project_name,sales_name FROM sa_trx_project_list WHERE so_number='2023/SO/2396'] MySQL server has gone away
+
+12-Nov-2024 20:08:38
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT E.project_code, E.status, D.tos_id FROM sa_trx_project_list E JOIN sa_trx_project_implementations D ON E.project_id=D.project_id WHERE D.service_type LIKE '%1%' AND so_number='2023/SO/2396'] MySQL server has gone away
+
+12-Nov-2024 20:08:38
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT E.project_code, E.status, D.tos_id FROM sa_trx_project_list E JOIN sa_trx_project_implementations D ON E.project_id=D.project_id WHERE so_number='2023/SO/2396' ORDER BY D.project_implementation_id DESC] MySQL server has gone away
+
+12-Nov-2024 20:08:54
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_mst_orders] MySQL server has gone away
+
+12-Nov-2024 20:08:54
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_list WHERE project_code ='TS045523E0001'] MySQL server has gone away
+

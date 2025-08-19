@@ -1,0 +1,223 @@
+File Error Log
+
+2024-08-22 09:37:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'selelct * from sa_rental_pr_temp' at line 1
+- Query 		: selelct * from sa_rental_pr_temp
+
+
+2024-08-22 09:37:45
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'selelct * from sa_rental_pr_temp' at line 1
+- Query 		: selelct * from sa_rental_pr_temp
+
+
+2024-08-22 09:48:27
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by id desc' at line 1
+- Query 		: select * from sa_trx_project_list LIMIT 100 order by id desc
+
+
+2024-08-22 09:52:35
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.your_table' doesn't exist
+- Query 		: SELECT * FROM your_table WHERE nomor_seri = 'FG181FTK23900641 ';
+
+
+2024-08-22 09:52:52
+- Server 		: Prod
+- User 			: muhammad.egga@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-08-22 09:52:53
+- Server 		: Prod
+- User 			: muhammad.egga@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-08-22 09:53:06
+- Server 		: Prod
+- User 			: muhammad.egga@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-08-22 09:53:06
+- Server 		: Prod
+- User 			: muhammad.egga@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-08-22 10:43:52
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_project_detail' doesn't exist
+- Query 		: select * from sa_project_detail WHERE project_code='TB002723D0032' 
+
+
+2024-08-22 12:49:50
+- Server 		: Prod
+- User 			: carrissa.diljan@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB000821C0001', 
+                    'ORD-23851-Z8M7P5', 
+                    'backup_mt_date',
+                    'Carrissa Diljan<carrissa.diljan@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-08-22 12:49:50
+- Server 		: Prod
+- User 			: carrissa.diljan@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB000821C0001', 
+                    'ORD-23851-Z8M7P5', 
+                    'pmr_date',
+                    'Carrissa Diljan<carrissa.diljan@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-08-22 12:50:05
+- Server 		: Prod
+- User 			: carrissa.diljan@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB000821C0001', 
+                    'ORD-23851-Z8M7P5', 
+                    'backup_mt_date',
+                    'Carrissa Diljan<carrissa.diljan@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-08-22 12:50:06
+- Server 		: Prod
+- User 			: carrissa.diljan@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB000821C0001', 
+                    'ORD-23851-Z8M7P5', 
+                    'pmr_date',
+                    'Carrissa Diljan<carrissa.diljan@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-08-22 13:16:21
+- Server 		: Prod
+- User 			: carrissa.diljan@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB000821C0001', 
+                    'ORD-23851-Z8M7P5', 
+                    'pmr_date',
+                    'Carrissa Diljan<carrissa.diljan@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-08-22 14:25:03
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'old_date' in 'where clause'
+- Query 		: select * from sa_resource_logs WHERE old_date is not null
+
+
+2024-08-22 14:27:54
+- Server 		: Prod
+- User 			: carrissa.diljan@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB000821C0001', 
+                    'ORD-23851-Z8M7P5', 
+                    'pmr_date',
+                    'Carrissa Diljan<carrissa.diljan@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-08-22 16:07:04
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB007322F0002', 
+                    'ORD-29111-V8D6M7', 
+                    'pmr_date',
+                    'Za\'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>',
+                    NULLIF('Array',''))

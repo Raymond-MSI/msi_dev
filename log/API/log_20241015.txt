@@ -1,0 +1,754 @@
+12:24:27
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=bqhbsaum847nkcm7s4qk5f9jed 
+Authorization:  
+12:24:38
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=bqhbsaum847nkcm7s4qk5f9jed 
+Authorization:  
+12:25:38
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=bqhbsaum847nkcm7s4qk5f9jed 
+Authorization:  
+
+12:26:11
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=bqhbsaum847nkcm7s4qk5f9jed 
+Authorization:  
+
+
+Time : [12:26:59]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=bqhbsaum847nkcm7s4qk5f9jed 
+Authorization:  
+
+
+Time : [12:27:11]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=bqhbsaum847nkcm7s4qk5f9jed 
+Authorization:  
+
+
+Time : [12:27:36]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=bqhbsaum847nkcm7s4qk5f9jed 
+Authorization:  
+
+Time : [12:27:55]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=bqhbsaum847nkcm7s4qk5f9jed 
+Authorization:  
+
+Time : [13:35:34]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: none 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=c7bjurcc54u8c6282j81dhip92 
+Authorization:  
+
+Time : [13:36:23]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: none 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=c7bjurcc54u8c6282j81dhip92 
+Authorization:  
+
+Time : [13:37:17]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=c7bjurcc54u8c6282j81dhip92 
+Authorization:  
+
+Time : [13:40:15]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=c7bjurcc54u8c6282j81dhip92 
+Authorization:  
+
+Time : [13:40:17]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=c7bjurcc54u8c6282j81dhip92 
+Authorization:  
+
+Time : [13:40:39]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=c7bjurcc54u8c6282j81dhip92 
+Authorization:  
+
+Time : [13:43:41]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=c7bjurcc54u8c6282j81dhip92 
+Authorization:  
+
+Time : [13:44:37]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=c7bjurcc54u8c6282j81dhip92 
+Authorization:  
+
+Time : [13:46:37]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=c7bjurcc54u8c6282j81dhip92 
+Authorization:  
+
+Time : [13:46:37]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=c7bjurcc54u8c6282j81dhip92 
+Authorization:  
+
+Time : [13:47:43]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=c7bjurcc54u8c6282j81dhip92 
+Authorization:  
+
+Time : [14:02:23]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Microsoft Edge";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: none 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9,id;q=0.8 
+Cookie: PHPSESSID=dl7fn7ukqpf0uahd491832ta3b 
+Authorization:  
+
+Time : [14:19:55]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 1713 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=c7bjurcc54u8c6282j81dhip92 
+Authorization:  
+
+Time : [14:21:46]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 1731 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=c7bjurcc54u8c6282j81dhip92 
+Authorization:  
+
+Time : [14:21:59]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 1742 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=c7bjurcc54u8c6282j81dhip92 
+Authorization:  
+
+Time : [14:22:44]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 1743 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=c7bjurcc54u8c6282j81dhip92 
+Authorization:  
+
+Time : [14:25:07]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 1860 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=c7bjurcc54u8c6282j81dhip92 
+Authorization:  
+
+Time : [15:48:10]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: none 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=kuamua4jm8belj9joqg83gu6nf 
+Authorization:  
+
+Time : [15:48:20]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 1860 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=kuamua4jm8belj9joqg83gu6nf 
+Authorization:  
+
+Time : [15:51:36]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=kuamua4jm8belj9joqg83gu6nf 
+Authorization:  
+
+Time : [15:51:39]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=kuamua4jm8belj9joqg83gu6nf 
+Authorization:  
+
+Time : [15:51:45]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 1860 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=kuamua4jm8belj9joqg83gu6nf 
+Authorization:  
+
+Time : [15:53:04]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=kuamua4jm8belj9joqg83gu6nf 
+Authorization:  
+
+Time : [15:53:06]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=kuamua4jm8belj9joqg83gu6nf 
+Authorization:  
+
+Time : [16:10:23]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=kuamua4jm8belj9joqg83gu6nf 
+Authorization:  
+
+Time : [16:32:20]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=kuamua4jm8belj9joqg83gu6nf 
+Authorization:  
+
+Time : [16:41:51]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=kuamua4jm8belj9joqg83gu6nf 
+Authorization:  
+
+Time : [16:41:53]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=kuamua4jm8belj9joqg83gu6nf 
+Authorization:  
+
+Time : [17:05:58]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 1860 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=kuamua4jm8belj9joqg83gu6nf 
+Authorization:  
+
+Time : [17:06:30]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed&level=All&start=January&end=December&year=2024 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=kuamua4jm8belj9joqg83gu6nf 
+Authorization:  
+

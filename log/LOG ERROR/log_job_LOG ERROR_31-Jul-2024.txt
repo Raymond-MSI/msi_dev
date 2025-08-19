@@ -1,0 +1,552 @@
+File Error Log
+
+2024-07-31 10:34:16
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = '0'
+
+
+2024-07-31 10:34:48
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = '0'
+
+
+2024-07-31 10:57:32
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET flag=0 WHERE project_code='TB006323B0012'' at line 1
+- Query 		: select * from sa_master_maintenance_date SET flag=0 WHERE project_code='TB006323B0012'
+
+
+2024-07-31 11:32:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'proejct_code' in 'where clause'
+- Query 		: select * from sa_master_maintenance_date where proejct_code='TB016322B0002'
+
+
+2024-07-31 11:35:00
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '='Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',approval_status='pending...' at line 1
+- Query 		: UPDATE sa_master_maintenance_date approval_to='Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',approval_status='pending' where project_code='TB016322B0002'
+
+
+2024-07-31 12:04:29
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersyst...' at line 1
+- Query 		: SELECT * FROM sa_view_project_list WHERE (status='draft' OR status='rejected' OR status='reopen') AND (create_by='imam.nawawi@mastersystem.co.id' OR sales_name LIKE '%Imam Nawawi%'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersystem.co.id')) ORDER BY modified_date DESC LIMIT 0, 100
+
+
+2024-07-31 12:04:29
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersyst...' at line 1
+- Query 		: SELECT * FROM sa_view_project_list WHERE status='submited' AND (create_by='imam.nawawi@mastersystem.co.id' OR sales_name LIKE '%Imam Nawawi%'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersystem.co.id')) ORDER BY modified_date DESC LIMIT 0, 100
+
+
+2024-07-31 12:04:29
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersyst...' at line 1
+- Query 		: SELECT * FROM sa_view_project_list WHERE status='approved' AND (create_by='imam.nawawi@mastersystem.co.id' OR sales_name LIKE '%Imam Nawawi%'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersystem.co.id')) AND `bundling`='- Trade<br/>' ORDER BY modified_date DESC LIMIT 0, 100
+
+
+2024-07-31 12:04:29
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersyst...' at line 1
+- Query 		: SELECT * FROM sa_view_project_list WHERE status='approved' AND (create_by='imam.nawawi@mastersystem.co.id' OR sales_name LIKE '%Imam Nawawi%'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersystem.co.id')) AND `bundling`<>'- Trade<br/>' ORDER BY modified_date DESC LIMIT 0, 100
+
+
+2024-07-31 12:04:29
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersyst...' at line 1
+- Query 		: SELECT * FROM sa_view_project_list WHERE status='acknowledge' AND (ISNULL(po_number) OR ISNULL(so_number) OR ISNULL(order_number)) AND (create_by='imam.nawawi@mastersystem.co.id' OR sales_name LIKE '%Imam Nawawi%'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersystem.co.id')) ORDER BY modified_date DESC LIMIT 0, 100
+
+
+2024-07-31 12:04:29
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersyst...' at line 1
+- Query 		: SELECT * FROM sa_view_project_list WHERE status='acknowledge' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND NOT ISNULL(order_number) AND (create_by='imam.nawawi@mastersystem.co.id' OR sales_name LIKE '%Imam Nawawi%'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersystem.co.id')) ORDER BY modified_date DESC LIMIT 0, 100
+
+
+2024-07-31 12:04:46
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersyst...' at line 1
+- Query 		: SELECT * FROM sa_view_project_list WHERE (status='draft' OR status='rejected' OR status='reopen') AND (create_by='imam.nawawi@mastersystem.co.id' OR sales_name LIKE '%Imam Nawawi%'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersystem.co.id')) ORDER BY modified_date DESC LIMIT 0, 100
+
+
+2024-07-31 12:04:46
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersyst...' at line 1
+- Query 		: SELECT * FROM sa_view_project_list WHERE status='submited' AND (create_by='imam.nawawi@mastersystem.co.id' OR sales_name LIKE '%Imam Nawawi%'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersystem.co.id')) ORDER BY modified_date DESC LIMIT 0, 100
+
+
+2024-07-31 12:04:46
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersyst...' at line 1
+- Query 		: SELECT * FROM sa_view_project_list WHERE status='approved' AND (create_by='imam.nawawi@mastersystem.co.id' OR sales_name LIKE '%Imam Nawawi%'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersystem.co.id')) AND `bundling`='- Trade<br/>' ORDER BY modified_date DESC LIMIT 0, 100
+
+
+2024-07-31 12:04:46
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersyst...' at line 1
+- Query 		: SELECT * FROM sa_view_project_list WHERE status='approved' AND (create_by='imam.nawawi@mastersystem.co.id' OR sales_name LIKE '%Imam Nawawi%'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersystem.co.id')) AND `bundling`<>'- Trade<br/>' ORDER BY modified_date DESC LIMIT 0, 100
+
+
+2024-07-31 12:04:46
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersyst...' at line 1
+- Query 		: SELECT * FROM sa_view_project_list WHERE status='acknowledge' AND (ISNULL(po_number) OR ISNULL(so_number) OR ISNULL(order_number)) AND (create_by='imam.nawawi@mastersystem.co.id' OR sales_name LIKE '%Imam Nawawi%'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersystem.co.id')) ORDER BY modified_date DESC LIMIT 0, 100
+
+
+2024-07-31 12:04:46
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersyst...' at line 1
+- Query 		: SELECT * FROM sa_view_project_list WHERE status='acknowledge' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND NOT ISNULL(order_number) AND (create_by='imam.nawawi@mastersystem.co.id' OR sales_name LIKE '%Imam Nawawi%'ps_account IN ('rayhan.bintang@mastersystem.co.id', 'farkhan.Khoir@mastersystem.co.id')) ORDER BY modified_date DESC LIMIT 0, 100
+
+
+2024-07-31 13:54:35
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_trx_proejct_solutions' doesn't exist
+- Query 		: select * from sa_trx_proejct_solutions
+
+
+2024-07-31 14:07:05
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Truncated incorrect DOUBLE value: '06.08.0442.TS'
+- Query 		: UPDATE sa_view_employees SET leader_name = 'Arian Nur Afgan', leader_email = 'arian.nur@mastersystem.co.id' WHERE nik = 22.2306
+
+
+2024-07-31 14:41:28
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_wrike_config' doesn't exist
+- Query 		: select * from sa_wrike_config
+
+
+2024-07-31 14:41:59
+- Server 		: Prod
+- User 			: Anastasia.sonya@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-07-31 14:41:59
+- Server 		: Prod
+- User 			: Anastasia.sonya@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-07-31 14:43:00
+- Server 		: Prod
+- User 			: Anastasia.sonya@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-07-31 14:43:00
+- Server 		: Prod
+- User 			: Anastasia.sonya@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-07-31 14:43:26
+- Server 		: Prod
+- User 			: Anastasia.sonya@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-07-31 14:43:26
+- Server 		: Prod
+- User 			: Anastasia.sonya@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-07-31 15:12:26
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_project_detail' doesn't exist
+- Query 		: INSERT INTO sa_project_detail (project_code,folder_name,folder_id,gd_id,new_gd_id,tahun,permission_flag) VALUES ('TA002224E0003','04. Initiation & Planning','87','1e99Lc0bt2cEgHKhAoFVhh7xoAJTG38Kt','1e99Lc0bt2cEgHKhAoFVhh7xoAJTG38Kt',2024,0)
+
+
+2024-07-31 15:14:30
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_project_detail' doesn't exist
+- Query 		: INSERT INTO sa_project_detail (project_code,folder_name,folder_id,gd_id,new_gd_id,tahun,permission_flag) VALUES ('TA002224E0003','05. Execution','88','1Ih19Z-0l6F67W7DkDCS96coMS4lEvMrf','1Ih19Z-0l6F67W7DkDCS96coMS4lEvMrf',2024,0)
+
+
+2024-07-31 15:37:06
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = '0'
+
+
+2024-07-31 15:50:43
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_master_maintenance' doesn't exist
+- Query 		: select * from sa_master_maintenance WHERE project_code_kpi='TW000823C0001'
+
+
+2024-07-31 15:50:49
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_master_maintenance' doesn't exist
+- Query 		: select * from sa_master_maintenance WHERE project_code='TW000823C0001'
+
+
+2024-07-31 16:32:39
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_master_maintenance_date' doesn't exist
+- Query 		: select * from sa_master_maintenance_date WHERE project_code='TB002323I0045'
+
+
+2024-07-31 16:52:28
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.project_code' in 'field list'
+- Query 		: select b.project_code,b.project_name,b.customer_name,a.*,c.entry_by from sa_maintenance_date_kpi a left join sa_data_so b ON a.project_code=b.project_code_kpi left join sa_master_maintenance_date c ON a.project_code=c.project_code
+
+
+2024-07-31 17:11:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'proejct_code' in 'where clause'
+- Query 		: SELECT * FROM sa_maintenance_date WHERE proejct_code='TM016623J0003' AND id_date='preventive_mt_date_1'
+
+
+2024-07-31 17:38:21
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.maintenance_date_aktual' in 'field list'
+- Query 		: SELECT a.project_code,a.order_number,a.maintenance_name_file,a.maintenance_date_aktual,b.project_name,b.customer_name,c.entry_by FROM sa_maintenance_date_kpi a left join sa_data_so b ON a.order_number=b.order_number left join sa_master_maintenance_date c ON b.order_number=c.order_number
+
+
+2024-07-31 17:40:15
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'a.maintenance_name_file,a.maintenance_aktual_date,a.maintenance_plan_date,c.e...' at line 1
+- Query 		: SELECT a.project_code,a.order_number,b.project_name,b.customer_name,,a.maintenance_name_file,a.maintenance_aktual_date,a.maintenance_plan_date,c.entry_by FROM sa_maintenance_date_kpi a left join sa_data_so b ON a.order_number=b.order_number left join sa_master_maintenance_date c ON b.order_number=c.order_number
+
+
+2024-07-31 17:43:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'a.maintenance_name_file,a.maintenance_aktual_date,a.maintenance_plan_date,c.e...' at line 1
+- Query 		: SELECT a.project_code,a.order_number,b.project_name,b.customer_name,,a.maintenance_name_file,a.maintenance_aktual_date,a.maintenance_plan_date,c.entry_by FROM sa_maintenance_date_kpi a left join sa_data_so b ON a.order_number=b.order_number left join sa_master_maintenance_date c ON b.order_number=c.order_number
+
+
+2024-07-31 17:54:49
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect integer value: 'Unlimited' for column `sa_dashboard_kpi`.`sa_master_maintenance_date`.`ticket_allocation` at row 1
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`) VALUES (
+                'TW000823C0003', 
+                'ORD-2023-02687', 
+                '1',
+                '',
+                '',
+                'Unlimited', 
+                '12',
+                '0',
+                'Unlimited', 
+                '12',
+                '0',
+                '0',
+                'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>')
+
+
+2024-07-31 18:02:46
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,21,3,1,3,'Dell',350,1,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-07-31 18:02:46
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,3,1,2,'Dell',250,1,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-07-31 18:02:46
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,3,1,9,'Dell',350,1,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-07-31 18:02:46
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,7,'Dell',250,1,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-07-31 18:02:46
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,32,3,1,4,'Mellanox',250,1,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-07-31 18:02:46
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,62,3,1,4,'Mellanox',350,1,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-07-31 18:02:46
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,72,3,1,8,'Mellanox',250,1,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-07-31 18:03:48
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TW000823C0003', 
+                'ORD-2023-02687', 
+                '1',
+                '',
+                '',
+                'Unlimited', 
+                '12',
+                '0',
+                'Unlimited', 
+                '12',
+                '0',
+                '0',
+                'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-07-31 18:03:58
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect integer value: 'Unlimited' for column `sa_dashboard_kpi`.`sa_master_maintenance_date`.`ticket_allocation` at row 1
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`,
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TW000823C0003', 
+                'ORD-2023-02687', 
+                '1',
+                '',
+                '',
+                'Unlimited', 
+                '12',
+                '0',
+                'Unlimited', 
+                '12',
+                '0',
+                '0',
+                'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-07-31 18:16:48
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TW000823C0002', 
+                'ORD-2023-02806', 
+                '1',
+                '',
+                '',
+                '0', 
+                '12',
+                '0',
+                '0', 
+                '12',
+                '0',
+                '0',
+                'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')

@@ -1,0 +1,18 @@
+File Error Log
+
+2024-05-02 11:06:44
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_trx_project_list' doesn't exist
+- Query 		: SELECT * FROM sa_trx_project_list WHERE project_code='TB001720D0035' AND (so_number='' OR order_number='')
+
+
+2024-05-02 14:19:59
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_trx_projcet_list' doesn't exist
+- Query 		: select * from sa_trx_projcet_list

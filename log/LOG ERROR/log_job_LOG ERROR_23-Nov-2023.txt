@@ -1,0 +1,54 @@
+File Error Log
+
+2023-11-23 11:14:56
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'tahun_review' in 'field list'
+- Query 		: SELECT Nama,total_nilai_ideal,total_nilai_aktual,hasil_aktual_ideal,total_nilai_akhir_ideal,total_nilai_akhir_aktual,hasil_akhir_aktual_ideal,status_wr,periode,periode_so,status_project,kpi_status,tahun_review FROM `sa_user_kpi` WHERE kpi_status='Reviewed'
+
+
+2023-11-23 14:57:30
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_initial_project' doesn't exist
+- Query 		: select * from sa_initial_project WHERE order_number='ORD-2023-02175'
+
+
+2023-11-23 15:43:06
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'where clause'
+- Query 		: select * from sa_schedule where resource_email like '%ratna%'
+
+
+2023-11-23 16:19:35
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-11-16' AND task_date <= '2023-11-30' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2023-11-23 16:55:16
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_preschedule' doesn't exist
+- Query 		: SELECT * FROM sa_preschedule WHERE project_id='IEAEOPF5I453SNU4'
+
+
+2023-11-23 19:06:37
+- Server 		: Prod
+- User 			: irvan.fauzi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7

@@ -1,0 +1,161 @@
+File Error Log
+
+2024-06-26 13:51:17
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_department' doesn't exist
+- Query 		: select * from sa_department
+
+
+2024-06-26 14:52:39
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'status_offering' in 'field list'
+- Query 		: UPDATE sa_hcm_requirement_interview SET status_offering = 'Pending', catatan_gm_offering = NULL where email_id = 63
+
+
+
+
+
+2024-06-26 15:19:04
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_hcm_requirement_interview' at line 1
+- Query 		: select * sa_hcm_requirement_interview
+
+
+
+
+
+2024-06-26 15:42:43
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'email_id' in 'where clause'
+- Query 		: UPDATE sa_hcm_requirement SET join_date = NULL, status = 'Complete' WHERE email_id = 63
+
+
+
+
+2024-06-26 15:46:40
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(22293,'Add On Preventive Maintenance 1x/Tahun',4736842,11,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-06-26 15:50:19
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(22293,'Add On Preventive Maintenance 1x/Tahun',4736842,11,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-06-26 16:29:11
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id=undefined
+
+
+2024-06-26 17:19:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(project_code,job_id,project_id,approval_status,project_type,service_type,ord...' at line 1
+- Query 		: INSERT INTO (project_code,job_id,project_id,approval_status,project_type,service_type,order_number,owner_project,sb_role,status,flag_data_wrike) VALUES ('TB000822C0016','project_lama','IEAEOPF5I43SBN3H','Approved','Maintenance','Gold','ORD-2023-02730','carrissa.diljan@mastersystem.co.id',null,3,0)
+
+
+2024-06-26 17:20:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(project_code,job_id,project_id,approval_status,project_type,service_type,ord...' at line 1
+- Query 		: INSERT INTO (project_code,job_id,project_id,approval_status,project_type,service_type,order_number,owner_project,sb_role,status,flag_data_wrike) VALUES ('TB000822C0016','project_lama','IEAEOPF5I43SBN3H','Approved','Maintenance','Gold','ORD-2023-02730','carrissa.diljan@mastersystem.co.id',null,3,0)
+
+
+2024-06-26 17:21:01
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(project_code,job_id,project_id,approval_status,project_type,service_type,ord...' at line 1
+- Query 		: INSERT INTO (project_code,job_id,project_id,approval_status,project_type,service_type,order_number,owner_project,sb_role,status,flag_data_wrike) VALUES ('TB000822C0016','project_lama','IEAEOPF5I43SBN3H','Approved','Maintenance','Gold','ORD-2023-02730','carrissa.diljan@mastersystem.co.id',null,'3','0')
+
+
+2024-06-26 17:24:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'owner_email' in 'field list'
+- Query 		: UPDATE sa_initial_project SET owner_email='niki.ihsanul@mastersystem.co.id' WHERE project_code='TA023123C0002'
+
+
+2024-06-26 17:30:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_temporary_resources' doesn't exist
+- Query 		: select * from sa_temporary_resources WHERE project_code='TA023123C0002'
+
+
+2024-06-26 17:30:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_temporary_resources' doesn't exist
+- Query 		: select * from sa_temporary_resources WHERE project_code='TA023123C0002'
+
+
+2024-06-26 17:47:53
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_resource_assignment' doesn't exist
+- Query 		: select * from sa_resource_assignment WHERE project_code='TB018122B0005'
+
+
+2024-06-26 18:19:20
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-06-19' AND task_date <= '2024-07-03' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-06-26 19:00:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_resource_assignment' doesn't exist
+- Query 		: update sa_resource_assignment SET project_id='IEAEOPF5I5KH24U7' WHERE order_number='ORD-2024-00212'
+
+
+2024-06-26 19:01:52
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_temporary_resource' doesn't exist
+- Query 		: update sa_temporary_resource SET project_id='IEAEOPF5I5KH24U7' WHERE order_number='ORD-2024-00212'

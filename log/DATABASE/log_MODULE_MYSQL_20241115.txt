@@ -1,0 +1,11 @@
+15-Nov-2024 9:14:19
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT *
+FROM sa_hcm_requirement AS r
+JOIN sa_hcm_requirement_interview AS i ON r.id = i.requirement_id;
+] Unknown column 'i.requirement_id' in 'on clause'
+
+15-Nov-2024 14:47:53
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_wrike_task WHERE project_id='IEAEOPF5I5CR5FJY'] Table 'sa_google_calendar.sa_wrike_task' doesn't exist
+

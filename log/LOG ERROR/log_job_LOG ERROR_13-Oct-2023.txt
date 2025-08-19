@@ -1,0 +1,18 @@
+File Error Log
+
+2023-10-13 13:38:00
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_project_detail' doesn't exist
+- Query 		: select * from sa_project_detail WHERE project_code='TA014423G0002'
+
+
+2023-10-13 15:51:31
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: project_delay
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'

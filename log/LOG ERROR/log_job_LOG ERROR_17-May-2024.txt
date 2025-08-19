@@ -1,0 +1,9 @@
+File Error Log
+
+2024-05-17 14:21:51
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_transaction' doesn't exist
+- Query 		: select * from sa_transaction

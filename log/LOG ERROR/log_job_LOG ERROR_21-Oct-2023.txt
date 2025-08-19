@@ -1,0 +1,72 @@
+File Error Log
+
+2023-10-21 09:18:02
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_mst_users WHERE username = ''
+
+
+2023-10-21 09:18:47
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'abdul.rasyid@mastersystem.co.id'
+
+
+2023-10-21 09:18:47
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_mst_users WHERE username = 'abdul.rasyid'
+
+
+2023-10-21 09:18:47
+- Server 		: Prod
+- User 			: abdul.rasyid
+- Module 		:  
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_mst_users WHERE username = 'abdul.rasyid'
+
+
+2023-10-21 09:18:47
+- Server 		: Prod
+- User 			: abdul.rasyid
+- Module 		:  
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_cfg_menus WHERE parent=5 AND published=1 ORDER BY ordering ASC, title ASC
+
+
+2023-10-21 09:18:47
+- Server 		: Prod
+- User 			: abdul.rasyid
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND published=1 ORDER BY ordering ASC, title ASC' at line 1
+- Query 		: SELECT * FROM sa_cfg_menus WHERE parent= AND published=1 ORDER BY ordering ASC, title ASC
+
+
+2023-10-21 09:18:59
+- Server 		: Prod
+- User 			: abdul.rasyid
+- Module 		:  
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_cfg_menus WHERE parent=5 AND published=1 ORDER BY ordering ASC, title ASC
+
+
+2023-10-21 09:18:59
+- Server 		: Prod
+- User 			: abdul.rasyid
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND published=1 ORDER BY ordering ASC, title ASC' at line 1
+- Query 		: SELECT * FROM sa_cfg_menus WHERE parent= AND published=1 ORDER BY ordering ASC, title ASC

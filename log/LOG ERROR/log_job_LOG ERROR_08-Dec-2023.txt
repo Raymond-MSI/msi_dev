@@ -1,0 +1,898 @@
+File Error Log
+
+2023-12-08 09:19:49
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`
+    AND `project_type` = MSI ProjectImplementation'
+GROUP BY
+    `a`.`co...' at line 10
+- Query 		: SELECT
+    `a`.`commercial_category`,
+    COUNT(DISTINCT `a`.`project_id`) AS `total`
+FROM
+    `sa_kpi_dashboard_pl` `a`
+LEFT JOIN `sa_user` AS `b`
+ON
+    `a`.`project_code` = `b`.`project_code`
+WHERE
+    `periode_review` =2023`
+    AND `project_type` = MSI ProjectImplementation'
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+    `a`.`commercial_category
+
+
+
+2023-12-08 09:21:41
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`
+    AND `project_type` = MSI Project Implementation'
+GROUP BY
+    `a`.`c...' at line 10
+- Query 		: SELECT
+    `a`.`commercial_category`,
+    COUNT(DISTINCT `a`.`project_id`) AS `total`
+FROM
+    `sa_kpi_dashboard_pl` `a`
+LEFT JOIN `sa_user` AS `b`
+ON
+    `a`.`project_code` = `b`.`project_code`
+WHERE
+    `periode_review` =2023`
+    AND `project_type` = MSI Project Implementation'
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+    `a`.`commercial_category
+
+
+
+2023-12-08 09:21:43
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`
+    AND `project_type` = MSI Project Implementation'
+GROUP BY
+    `a`.`c...' at line 10
+- Query 		: SELECT
+    `a`.`commercial_category`,
+    COUNT(DISTINCT `a`.`project_id`) AS `total`
+FROM
+    `sa_kpi_dashboard_pl` `a`
+LEFT JOIN `sa_user` AS `b`
+ON
+    `a`.`project_code` = `b`.`project_code`
+WHERE
+    `periode_review` =2023`
+    AND `project_type` = MSI Project Implementation'
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+    `a`.`commercial_category
+
+
+
+2023-12-08 09:21:56
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Project Implementation'
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+ ...' at line 11
+- Query 		: SELECT
+    `a`.`commercial_category`,
+    COUNT(DISTINCT `a`.`project_id`) AS `total`
+FROM
+    `sa_kpi_dashboard_pl` `a`
+LEFT JOIN `sa_user` AS `b`
+ON
+    `a`.`project_code` = `b`.`project_code`
+WHERE
+    `periode_review` =2023
+    AND `project_type` = MSI Project Implementation'
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+    `a`.`commercial_category
+
+
+
+2023-12-08 09:21:57
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Project Implementation'
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+ ...' at line 11
+- Query 		: SELECT
+    `a`.`commercial_category`,
+    COUNT(DISTINCT `a`.`project_id`) AS `total`
+FROM
+    `sa_kpi_dashboard_pl` `a`
+LEFT JOIN `sa_user` AS `b`
+ON
+    `a`.`project_code` = `b`.`project_code`
+WHERE
+    `periode_review` =2023
+    AND `project_type` = MSI Project Implementation'
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+    `a`.`commercial_category
+
+
+
+2023-12-08 09:23:45
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Project Implementation'
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+ ...' at line 10
+- Query 		: SELECT
+    `a`.`commercial_category`,
+    COUNT(DISTINCT `a`.`project_id`) AS `total`
+FROM
+    `sa_kpi_dashboard_pl` `a`
+LEFT JOIN `sa_user` AS `b`
+ON
+    `a`.`project_code` = `b`.`project_code`
+WHERE
+    `project_type` = MSI Project Implementation'
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+    `a`.`commercial_category
+
+
+
+2023-12-08 09:23:59
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Project Implementation'
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+ ...' at line 10
+- Query 		: SELECT
+    `a`.`commercial_category`,
+    COUNT(DISTINCT `a`.`project_id`) AS `total`
+FROM
+    `sa_kpi_dashboard_pl` `a`
+LEFT JOIN `sa_user` AS `b`
+ON
+    `a`.`project_code` = `b`.`project_code`
+WHERE
+    `a`.`project_type` = MSI Project Implementation'
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+    `a`.`commercial_category
+
+
+
+2023-12-08 09:24:01
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Project Implementation'
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+ ...' at line 10
+- Query 		: SELECT
+    `a`.`commercial_category`,
+    COUNT(DISTINCT `a`.`project_id`) AS `total`
+FROM
+    `sa_kpi_dashboard_pl` `a`
+LEFT JOIN `sa_user` AS `b`
+ON
+    `a`.`project_code` = `b`.`project_code`
+WHERE
+    `a`.`project_type` = MSI Project Implementation'
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+    `a`.`commercial_category
+
+
+
+2023-12-08 09:24:08
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`commercial_category' at line 14
+- Query 		: SELECT
+    `a`.`commercial_category`,
+    COUNT(DISTINCT `a`.`project_id`) AS `total`
+FROM
+    `sa_kpi_dashboard_pl` `a`
+LEFT JOIN `sa_user` AS `b`
+ON
+    `a`.`project_code` = `b`.`project_code`
+WHERE
+    `a`.`project_type` = 'MSI Project Implementation'
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+    `a`.`commercial_category
+
+
+
+2023-12-08 09:24:21
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`commercial_category' at line 14
+- Query 		: SELECT
+    `a`.`commercial_category`,
+    COUNT(DISTINCT `a`.`project_id`) AS `total`
+FROM
+    `sa_kpi_dashboard_pl` `a`
+LEFT JOIN `sa_user` AS `b`
+ON
+    `a`.`project_code` = `b`.`project_code`
+WHERE
+    `a`.`project_type` = 'MSI Project Implementation'
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+    `a`.`commercial_category
+
+
+
+2023-12-08 09:24:35
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`commercial_category' at line 13
+- Query 		: SELECT
+    `a`.`commercial_category`,
+    COUNT(DISTINCT `a`.`project_id`) AS `total`
+FROM
+    `sa_kpi_dashboard_pl` `a`
+LEFT JOIN `sa_user` AS `b`
+ON
+    `a`.`project_code` = `b`.`project_code`
+
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+    `a`.`commercial_category
+
+
+
+2023-12-08 09:24:36
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`commercial_category' at line 13
+- Query 		: SELECT
+    `a`.`commercial_category`,
+    COUNT(DISTINCT `a`.`project_id`) AS `total`
+FROM
+    `sa_kpi_dashboard_pl` `a`
+LEFT JOIN `sa_user` AS `b`
+ON
+    `a`.`project_code` = `b`.`project_code`
+
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+    `a`.`commercial_category
+
+
+
+2023-12-08 09:25:05
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`commercial_category' at line 13
+- Query 		: SELECT
+    `a`.`commercial_category`,
+    COUNT(DISTINCT `a`.`project_id`) AS `total`
+FROM
+    `sa_kpi_dashboard_pl` `a`
+LEFT JOIN `sa_user` AS `b`
+ON
+    `a`.`project_code` = `b`.`project_code`
+
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+    `a`.`commercial_category
+
+
+
+2023-12-08 09:25:13
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`commercial_category' at line 12
+- Query 		: SELECT
+    `a`.`commercial_category`,
+    COUNT(DISTINCT `a`.`project_id`) AS `total`
+FROM
+    `sa_kpi_dashboard_pl` `a`
+LEFT JOIN `sa_user` AS `b`
+ON
+    `a`.`project_code` = `b`.`project_code`
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+    `a`.`commercial_category
+
+
+
+2023-12-08 09:26:56
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`commercial_category' at line 13
+- Query 		: SELECT
+    `a`.`commercial_category`,
+    COUNT(DISTINCT `a`.`project_id`) AS `total`
+FROM
+    `sa_kpi_dashboard_pl` `a`
+LEFT JOIN `sa_user` AS `b`
+ON
+    `a`.`project_code` = `b`.`project_code`
+
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+    `a`.`commercial_category
+
+
+2023-12-08 09:27:26
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT
+    `a`.`commercial_category`,
+    COUNT(DISTINCT `a`.`project_id`) ...' at line 9
+- Query 		: SELECT
+    `a`.`commercial_category`,
+    COUNT(DISTINCT `a`.`project_id`) AS `total`
+FROM
+    `sa_kpi_dashboard_pl` `a`
+LEFT JOIN `sa_user` AS `b`
+ON
+    `a`.`project_code` = `b`.`project_code`
+SELECT
+    `a`.`commercial_category`,
+    COUNT(DISTINCT `a`.`project_id`) AS `total`
+FROM
+    `sa_kpi_dashboard_pl` `a`
+LEFT JOIN `sa_user` AS `b`
+ON
+    `a`.`project_code` = `b`.`project_code`
+WHERE
+    `a`.`project_type` = 'MSI Project Implementation'
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+    `a`.`commercial_category
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+    `a`.`commercial_category`
+
+
+2023-12-08 09:27:55
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`commercial_category' at line 14
+- Query 		: SELECT
+    `a`.`commercial_category`,
+    COUNT(DISTINCT `a`.`project_id`) AS `total`
+FROM
+    `sa_kpi_dashboard_pl` `a`
+LEFT JOIN `sa_user` AS `b`
+ON
+    `a`.`project_code` = `b`.`project_code`
+WHERE
+    `a`.`project_type` = 'MSI Project Implementation'
+GROUP BY
+    `a`.`commercial_category`
+ORDER BY
+    `a`.`commercial_category
+
+
+2023-12-08 10:12:03
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'employe_name' in 'where clause'
+- Query 		: select * from sa_view_employees where employe_name = 'mega'
+
+
+2023-12-08 10:25:48
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'job_structur' in 'where clause'
+- Query 		: select * from sa_view_employees where job_structur is null
+
+
+2023-12-08 10:27:43
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%'JG RRT MC MIS IT'%' at line 1
+- Query 		: select * from sa_view_employees where job_structure like %'JG RRT MC MIS IT'%
+
+
+2023-12-08 10:27:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''%JG IR MIS IT%' at line 1
+- Query 		: select * from sa_view_employees where job_structure LIKE '%JG IR MIS IT%
+
+
+2023-12-08 15:33:17
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''%redy%'' at line 1
+- Query 		: select * from sa_trx_edo_request where managerlike '%redy%'
+
+
+2023-12-08 15:37:32
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_viw_employees_v2' doesn't exist
+- Query 		: select * from sa_viw_employees_v2
+
+
+2023-12-08 16:34:03
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'Unit'' at line 1
+- Query 		: select * from sa_pr_temp level_parent = 'Unit';
+
+
+
+2023-12-08 16:54:34
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'br.kpi_status' in 'field list'
+- Query 		: SELECT
+    `a`.`id`,
+    `a`.`project_type`,
+    `a`.`project_code`,
+    `a`.`no_so`,
+    `a`.`order_number`,
+    `d`.`periode_so`,
+    `c`.`customer_name`,
+    `a`.`title`,
+    `a`.`permalink`,
+    `a`.`project_leader`,
+    `a`.`owner_email`,
+    `b`.`value`,
+    `d`.`SB_mandays_implementation`,
+    `d`.`CR_mandays_implementation`,
+    `d`.`WR_mandays_actual_implementation`,
+    `b`.`start_assignment`,
+    `b`.`start_assignment`,
+    `b`.`bast_plan`,
+    `b`.`bast_actual`,
+    `b`.`commercial_kpi`,
+    `b`.`commercial_category`,
+    `b`.`time_kpi`,
+    `b`.`time_category`,
+    `b`.`error_kpi`,
+    `b`.`error_category`,
+    `b`.`total_cte`,
+    `b`.`weighted_value`,
+    `b`.`status_wr`,
+    `b`.`status_project`,
+    `br`.`kpi_status`,
+    `d`.`tahun_review`
+FROM
+    `sa_wrike_integrate`.`sa_wrike_project_list` `a`
+LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` `b` ON
+    `b`.`order_number` = `a`.`order_number`
+LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` `c` ON
+    `a`.`id` = `c`.`project_id`
+LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` `d` ON
+    `d`.`order_number` = `a`.`order_number`;
+
+
+2023-12-08 17:03:42
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'tahun_reviewed' in 'where clause'
+- Query 		: select * from sa_data_so WHERE `tahun_reviewed`=2023
+
+
+2023-12-08 17:07:03
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Column 'board_status' in where clause is ambiguous
+- Query 		: SELECT
+    `a`.`id`,
+    `a`.`project_type`,
+    `a`.`project_code`,
+    `a`.`no_so`,
+    `a`.`order_number`,
+    `d`.`periode_so`,
+    `c`.`customer_name`,
+    `a`.`title`,
+    `a`.`permalink`,
+    `a`.`project_leader`,
+    `a`.`owner_email`,
+    `b`.`value`,
+    `d`.`SB_mandays_implementation`,
+    `d`.`CR_mandays_implementation`,
+    `d`.`WR_mandays_actual_implementation`,
+    `b`.`start_assignment`,
+    `b`.`start_assignment`,
+    `b`.`bast_plan`,
+    `b`.`bast_actual`,
+    `b`.`commercial_kpi`,
+    `b`.`commercial_category`,
+    `b`.`time_kpi`,
+    `b`.`time_category`,
+    `b`.`error_kpi`,
+    `b`.`error_category`,
+    `b`.`total_cte`,
+    `b`.`weighted_value`,
+    `b`.`status_wr`,
+    `b`.`status_project`,
+    `b`.`board_status`,
+    `d`.`tahun_review`
+FROM
+    `sa_wrike_integrate`.`sa_wrike_project_list` `a`
+LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` `b` ON
+    `b`.`order_number` = `a`.`order_number`
+LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` `c` ON
+    `a`.`id` = `c`.`project_id`
+LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` `d` ON
+    `d`.`order_number` = `a`.`order_number`
+WHERE `board_status`='Reviewed' AND `tahun_review`=2023;
+
+
+2023-12-08 17:07:32
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Column 'board_status' in where clause is ambiguous
+- Query 		: SELECT
+    `a`.`id`,
+    `a`.`project_type`,
+    `a`.`project_code`,
+    `a`.`no_so`,
+    `a`.`order_number`,
+    `d`.`periode_so`,
+    `c`.`customer_name`,
+    `a`.`title`,
+    `a`.`permalink`,
+    `a`.`project_leader`,
+    `a`.`owner_email`,
+    `b`.`value`,
+    `d`.`SB_mandays_implementation`,
+    `d`.`CR_mandays_implementation`,
+    `d`.`WR_mandays_actual_implementation`,
+    `b`.`start_assignment`,
+    `b`.`start_assignment`,
+    `b`.`bast_plan`,
+    `b`.`bast_actual`,
+    `b`.`commercial_kpi`,
+    `b`.`commercial_category`,
+    `b`.`time_kpi`,
+    `b`.`time_category`,
+    `b`.`error_kpi`,
+    `b`.`error_category`,
+    `b`.`total_cte`,
+    `b`.`weighted_value`,
+    `b`.`status_wr`,
+    `b`.`status_project`,
+    `b`.`board_status`,
+    `d`.`tahun_review`
+FROM
+    `sa_wrike_integrate`.`sa_wrike_project_list` `a`
+LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` `b` ON
+    `b`.`order_number` = `a`.`order_number`
+LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` `c` ON
+    `a`.`id` = `c`.`project_id`
+LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` `d` ON
+    `d`.`order_number` = `a`.`order_number`
+WHERE `board_status`='Reviewed';
+
+
+2023-12-08 17:07:35
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Column 'board_status' in where clause is ambiguous
+- Query 		: SELECT
+    `a`.`id`,
+    `a`.`project_type`,
+    `a`.`project_code`,
+    `a`.`no_so`,
+    `a`.`order_number`,
+    `d`.`periode_so`,
+    `c`.`customer_name`,
+    `a`.`title`,
+    `a`.`permalink`,
+    `a`.`project_leader`,
+    `a`.`owner_email`,
+    `b`.`value`,
+    `d`.`SB_mandays_implementation`,
+    `d`.`CR_mandays_implementation`,
+    `d`.`WR_mandays_actual_implementation`,
+    `b`.`start_assignment`,
+    `b`.`start_assignment`,
+    `b`.`bast_plan`,
+    `b`.`bast_actual`,
+    `b`.`commercial_kpi`,
+    `b`.`commercial_category`,
+    `b`.`time_kpi`,
+    `b`.`time_category`,
+    `b`.`error_kpi`,
+    `b`.`error_category`,
+    `b`.`total_cte`,
+    `b`.`weighted_value`,
+    `b`.`status_wr`,
+    `b`.`status_project`,
+    `b`.`board_status`,
+    `d`.`tahun_review`
+FROM
+    `sa_wrike_integrate`.`sa_wrike_project_list` `a`
+LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` `b` ON
+    `b`.`order_number` = `a`.`order_number`
+LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` `c` ON
+    `a`.`id` = `c`.`project_id`
+LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` `d` ON
+    `d`.`order_number` = `a`.`order_number`
+WHERE `board_status`='Reviewed';
+
+
+2023-12-08 17:08:48
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`d`.`tahun_review` =2023' at line 42
+- Query 		: SELECT
+    `a`.`id`,
+    `a`.`project_type`,
+    `a`.`project_code`,
+    `a`.`no_so`,
+    `a`.`order_number`,
+    `d`.`periode_so`,
+    `c`.`customer_name`,
+    `a`.`title`,
+    `a`.`permalink`,
+    `a`.`project_leader`,
+    `a`.`owner_email`,
+    `b`.`value`,
+    `d`.`SB_mandays_implementation`,
+    `d`.`CR_mandays_implementation`,
+    `d`.`WR_mandays_actual_implementation`,
+    `b`.`start_assignment`,
+    `b`.`start_assignment`,
+    `b`.`bast_plan`,
+    `b`.`bast_actual`,
+    `b`.`commercial_kpi`,
+    `b`.`commercial_category`,
+    `b`.`time_kpi`,
+    `b`.`time_category`,
+    `b`.`error_kpi`,
+    `b`.`error_category`,
+    `b`.`total_cte`,
+    `b`.`weighted_value`,
+    `b`.`status_wr`,
+    `b`.`status_project`,
+    `b`.`board_status`,
+    `d`.`tahun_review`
+FROM
+    `sa_wrike_integrate`.`sa_wrike_project_list` `a`
+LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` `b` ON
+    `b`.`order_number` = `a`.`order_number`
+LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` `c` ON
+    `a`.`id` = `c`.`project_id`
+LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` `d` ON
+    `d`.`order_number` = `a`.`order_number`
+WHERE`b`.`board_status`='Reviewed'
+    `d`.`tahun_review` =2023;
+
+
+2023-12-08 17:08:57
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`d`.`tahun_review` =2023' at line 42
+- Query 		: SELECT
+    `a`.`id`,
+    `a`.`project_type`,
+    `a`.`project_code`,
+    `a`.`no_so`,
+    `a`.`order_number`,
+    `d`.`periode_so`,
+    `c`.`customer_name`,
+    `a`.`title`,
+    `a`.`permalink`,
+    `a`.`project_leader`,
+    `a`.`owner_email`,
+    `b`.`value`,
+    `d`.`SB_mandays_implementation`,
+    `d`.`CR_mandays_implementation`,
+    `d`.`WR_mandays_actual_implementation`,
+    `b`.`start_assignment`,
+    `b`.`start_assignment`,
+    `b`.`bast_plan`,
+    `b`.`bast_actual`,
+    `b`.`commercial_kpi`,
+    `b`.`commercial_category`,
+    `b`.`time_kpi`,
+    `b`.`time_category`,
+    `b`.`error_kpi`,
+    `b`.`error_category`,
+    `b`.`total_cte`,
+    `b`.`weighted_value`,
+    `b`.`status_wr`,
+    `b`.`status_project`,
+    `b`.`board_status`,
+    `d`.`tahun_review`
+FROM
+    `sa_wrike_integrate`.`sa_wrike_project_list` `a`
+LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` `b` ON
+    `b`.`order_number` = `a`.`order_number`
+LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` `c` ON
+    `a`.`id` = `c`.`project_id`
+LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` `d` ON
+    `d`.`order_number` = `a`.`order_number`
+WHERE `b`.`board_status`='Reviewed'
+    `d`.`tahun_review` =2023;
+
+
+2023-12-08 17:10:21
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`d`.`tahun_review` =2023' at line 42
+- Query 		: SELECT
+    `a`.`id`,
+    `a`.`project_type`,
+    `a`.`project_code`,
+    `a`.`no_so`,
+    `a`.`order_number`,
+    `d`.`periode_so`,
+    `c`.`customer_name`,
+    `a`.`title`,
+    `a`.`permalink`,
+    `a`.`project_leader`,
+    `a`.`owner_email`,
+    `b`.`value`,
+    `d`.`SB_mandays_implementation`,
+    `d`.`CR_mandays_implementation`,
+    `d`.`WR_mandays_actual_implementation`,
+    `b`.`start_assignment`,
+    `b`.`start_assignment`,
+    `b`.`bast_plan`,
+    `b`.`bast_actual`,
+    `b`.`commercial_kpi`,
+    `b`.`commercial_category`,
+    `b`.`time_kpi`,
+    `b`.`time_category`,
+    `b`.`error_kpi`,
+    `b`.`error_category`,
+    `b`.`total_cte`,
+    `b`.`weighted_value`,
+    `b`.`status_wr`,
+    `b`.`status_project`,
+    `b`.`board_status`,
+    `d`.`tahun_review`
+FROM
+    `sa_wrike_integrate`.`sa_wrike_project_list` `a`
+LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` `b` ON
+    `b`.`order_number` = `a`.`order_number`
+LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` `c` ON
+    `a`.`id` = `c`.`project_id`
+LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` `d` ON
+    `d`.`order_number` = `a`.`order_number`
+WHERE `b`.`board_status`='Reviewed'
+    `d`.`tahun_review` =2023;
+
+
+2023-12-08 17:11:54
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`d`.`tahun_review` =2023' at line 42
+- Query 		: SELECT
+    `a`.`id`,
+    `a`.`project_type`,
+    `a`.`project_code`,
+    `a`.`no_so`,
+    `a`.`order_number`,
+    `d`.`periode_so`,
+    `c`.`customer_name`,
+    `a`.`title`,
+    `a`.`permalink`,
+    `a`.`project_leader`,
+    `a`.`owner_email`,
+    `b`.`value`,
+    `d`.`SB_mandays_implementation`,
+    `d`.`CR_mandays_implementation`,
+    `d`.`WR_mandays_actual_implementation`,
+    `b`.`start_assignment`,
+    `b`.`start_assignment`,
+    `b`.`bast_plan`,
+    `b`.`bast_actual`,
+    `b`.`commercial_kpi`,
+    `b`.`commercial_category`,
+    `b`.`time_kpi`,
+    `b`.`time_category`,
+    `b`.`error_kpi`,
+    `b`.`error_category`,
+    `b`.`total_cte`,
+    `b`.`weighted_value`,
+    `b`.`status_wr`,
+    `b`.`status_project`,
+    `d`.`board_status`,
+    `d`.`tahun_review`
+FROM
+    `sa_wrike_integrate`.`sa_wrike_project_list` `a`
+LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` `b` ON
+    `b`.`order_number` = `a`.`order_number`
+LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` `c` ON
+    `a`.`id` = `c`.`project_id`
+LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` `d` ON
+    `d`.`order_number` = `a`.`order_number`
+WHERE `d`.`board_status`='Reviewed'
+    `d`.`tahun_review` =2023;

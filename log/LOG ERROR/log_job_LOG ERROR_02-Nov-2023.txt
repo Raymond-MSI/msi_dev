@@ -1,0 +1,1432 @@
+File Error Log
+
+2023-11-02 09:02:42
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 09:03:07
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%o%'
+
+
+2023-11-02 09:03:15
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 09:04:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 09:04:52
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 09:08:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 09:08:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%undefined%'
+
+
+2023-11-02 09:09:41
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 09:10:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 09:10:19
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 09:12:20
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 09:12:23
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 09:13:20
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 09:14:21
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 09:14:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 09:15:49
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 09:16:11
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 09:17:39
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 09:39:29
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '''' at line 1
+- Query 		: SELECT DISTINCT sa_wrike_timelog.task_id, sa_wrike_timelog.* FROM sa_wrike_project_list LEFT JOIN sa_wrike_timelog ON sa_wrike_project_list.id = sa_wrike_timelog.project_id LEFT JOIN sa_wrike_assignment ON sa_wrike_assignment.resource_id = sa_wrike_timelog.resource_id WHERE sa_wrike_project_list.no_so = '2023/SO/0841' AND sa_wrike_assignment.resource_email LIKE '%nurma%' AND sa_wrike_timelog.timelog_id <> '';
+
+
+2023-11-02 09:39:36
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '''' at line 1
+- Query 		: SELECT DISTINCT sa_wrike_timelog.task_id, sa_wrike_timelog.* FROM sa_wrike_project_list LEFT JOIN sa_wrike_timelog ON sa_wrike_project_list.id = sa_wrike_timelog.project_id LEFT JOIN sa_wrike_assignment ON sa_wrike_assignment.resource_id = sa_wrike_timelog.resource_id WHERE sa_wrike_project_list.no_so = '2023/SO/0841' AND sa_wrike_assignment.resource_email LIKE '%nurma%' AND sa_wrike_timelog.timelog_id <> '';
+
+
+2023-11-02 09:40:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' GROUP BY sa_wrike_timelog.task_id' at line 1
+- Query 		: SELECT DISTINCT sa_wrike_timelog.timelog_id, sa_wrike_timelog.* FROM sa_wrike_project_list LEFT JOIN sa_wrike_timelog ON sa_wrike_project_list.id = sa_wrike_timelog.project_id LEFT JOIN sa_wrike_assignment ON sa_wrike_assignment.resource_id = sa_wrike_timelog.resource_id WHERE sa_wrike_project_list.no_so = '2023/SO/0841' AND sa_wrike_assignment.resource_email LIKE '%nurma%' AND sa_wrike_timelog.timelog_id <> '' GROUP BY sa_wrike_timelog.task_id;
+
+
+2023-11-02 09:41:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' GROUP BY sa_wrike_timelog.task_id' at line 1
+- Query 		: SELECT DISTINCT sa_wrike_timelog.timelog_id, sa_wrike_timelog.* FROM sa_wrike_project_list LEFT JOIN sa_wrike_timelog ON sa_wrike_project_list.id = sa_wrike_timelog.project_id LEFT JOIN sa_wrike_assignment ON sa_wrike_assignment.resource_id = sa_wrike_timelog.resource_id WHERE sa_wrike_project_list.no_so = '2023/SO/0841' AND sa_wrike_assignment.resource_email LIKE '%nurma%' AND sa_wrike_timelog.timelog_id <> '' GROUP BY sa_wrike_timelog.task_id;
+
+
+2023-11-02 09:43:35
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '''' at line 1
+- Query 		: SELECT DISTINCT sa_wrike_timelog.timelog_id, sa_wrike_timelog.* FROM sa_wrike_project_list LEFT JOIN sa_wrike_timelog ON sa_wrike_project_list.id = sa_wrike_timelog.project_id LEFT JOIN sa_wrike_assignment ON sa_wrike_assignment.resource_id = sa_wrike_timelog.resource_id WHERE sa_wrike_project_list.no_so = '2023/SO/0841' AND sa_wrike_assignment.resource_email LIKE '%nurma%' AND sa_wrike_timelog.timelog_id <> '';
+
+
+2023-11-02 09:44:16
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '''' at line 1
+- Query 		: SELECT DISTINCT sa_wrike_timelog.timelog_id, sa_wrike_timelog.* FROM sa_wrike_project_list LEFT JOIN sa_wrike_timelog ON sa_wrike_project_list.id = sa_wrike_timelog.project_id LEFT JOIN sa_wrike_assignment ON sa_wrike_assignment.resource_id = sa_wrike_timelog.resource_id WHERE sa_wrike_project_list.no_so = '2023/SO/0841' AND sa_wrike_assignment.resource_email LIKE '%nurma%' AND sa_wrike_timelog.timelog_id <> '';
+
+
+2023-11-02 09:49:20
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: Array
+
+
+2023-11-02 09:49:21
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: Array
+
+
+2023-11-02 09:49:57
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND project_type='MSI Project Implementation' AND (progress='' OR progress is...' at line 1
+- Query 		: select * from sa_user WHERE AND project_type='MSI Project Implementation' AND (progress='' OR progress is null) 
+
+
+2023-11-02 09:53:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'so_number' in 'where clause'
+- Query 		: select * from sa_resource_assignment WHERE so_number='2022/SO/1975'
+
+
+2023-11-02 10:11:25
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 10:12:03
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 10:12:24
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 10:13:01
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 10:14:07
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 10:14:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 10:16:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 10:16:47
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 10:16:53
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 10:17:08
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 10:43:23
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 11:09:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_data_so' doesn't exist
+- Query 		: select * from sa_data_so WHERE project_code_kpi='TA002223E0006'
+
+
+2023-11-02 11:09:43
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code_kpi' in 'where clause'
+- Query 		: select * from sa_kpi_so_wr WHERE project_code_kpi='TA002223E0006'
+
+
+2023-11-02 11:10:39
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_wrike_project_detail' doesn't exist
+- Query 		: select * from sa_wrike_project_detail WHERE project_code='TA002223E0006'
+
+
+2023-11-02 11:14:49
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_data_so WHERE project_code='TA002223E0006'
+
+
+2023-11-02 11:15:30
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%o%'
+
+
+2023-11-02 13:06:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_wrike_timelog' doesn't exist
+- Query 		: select * from sa_wrike_timelog WHERE project_code='TA002223E0006'
+
+
+2023-11-02 13:06:07
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_wrike_timelog WHERE project_code='TA002223E0006'
+
+
+2023-11-02 13:12:52
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Unknown column 'timelog_id' in 'field list'
+- Query 		: SELECT COUNT(timelog_id) AS updated_task FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I5CBHUMO' GROUP BY task_id
+
+
+2023-11-02 13:13:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'timelog_id' in 'field list'
+- Query 		: SELECT COUNT(timelog_id) AS updated_task FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I5CBHUMO' GROUP BY task_id
+
+
+2023-11-02 13:14:32
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* AS updated_task FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I5CBHUMO'' at line 1
+- Query 		: SELECT COUNT(task_id), * AS updated_task FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I5CBHUMO' 
+
+
+2023-11-02 13:14:42
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I5CBHUMO'' at line 1
+- Query 		: SELECT COUNT(task_id) AS updated_task, * FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I5CBHUMO' 
+
+
+2023-11-02 13:14:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I5CBHUMO'' at line 1
+- Query 		: SELECT COUNT(task_id) AS updated_task, * FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I5CBHUMO' 
+
+
+2023-11-02 13:30:22
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s 
+        AND task_date <= %s
+        AND resource_email LIKE %s
+       ...' at line 107
+- Query 		: SELECT 
+    resource_email,
+    work_on_weekends,
+    IF(
+        project_type='MSI Project Implementation', 
+        'Implementation', 
+        IF(
+            project_type='MSI Project Maintenance', 
+            'Maintenance', 
+            IF(
+                project_type='MSI Non-Project', 
+                'Non-Project', 
+                IF(
+                    project_type='MSI Self Improvement', 
+                    'Self Improvement', 
+                    'none'
+                )
+            )
+        )
+    ) as `project_type`, 
+    SUM(
+        IF(
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+            1,
+            IF(
+                work_on_weekends = 1,
+                1,
+                0
+            )
+        ) 
+    ) as `plan`,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                1,
+                0
+            ),
+            0
+        )
+    ) as `accepted1` ,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `accepted0` ,
+    SUM(
+        IF(
+            status_calender='needsAction',
+            1,
+            0
+        )
+    ) as `needsAction` ,
+    SUM(
+        IF(
+            status_calender='declined',
+            1,
+            0
+        )
+    ) as `declined` ,
+    SUM(
+        IF(
+            status_calender='tentative',
+            1,
+            0
+        )
+    ) as `tentative`,
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                IF(
+                    DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+                    1,
+                    IF(
+                        `work_on_weekends` = 1,
+                        1,
+                        0
+                    )
+                ),
+                0
+            ),
+            0
+        )
+    ) as `none_gcalender`, 
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `none` 
+    FROM sa_trx_productivity 
+    WHERE 
+        task_date >= %s 
+        AND task_date <= %s
+        AND resource_email LIKE %s
+        AND project_type LIKE %s
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `status_calender`=1
+        )
+    GROUP BY resource_email, project_type
+    ORDER BY resource_email, project_type
+
+
+2023-11-02 13:30:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s 
+        AND task_date <= %s
+        AND resource_email LIKE %s
+       ...' at line 107
+- Query 		: SELECT 
+    resource_email,
+    work_on_weekends,
+    IF(
+        project_type='MSI Project Implementation', 
+        'Implementation', 
+        IF(
+            project_type='MSI Project Maintenance', 
+            'Maintenance', 
+            IF(
+                project_type='MSI Non-Project', 
+                'Non-Project', 
+                IF(
+                    project_type='MSI Self Improvement', 
+                    'Self Improvement', 
+                    'none'
+                )
+            )
+        )
+    ) as `project_type`, 
+    SUM(
+        IF(
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+            1,
+            IF(
+                work_on_weekends = 1,
+                1,
+                0
+            )
+        ) 
+    ) as `plan`,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                1,
+                0
+            ),
+            0
+        )
+    ) as `accepted1` ,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `accepted0` ,
+    SUM(
+        IF(
+            status_calender='needsAction',
+            1,
+            0
+        )
+    ) as `needsAction` ,
+    SUM(
+        IF(
+            status_calender='declined',
+            1,
+            0
+        )
+    ) as `declined` ,
+    SUM(
+        IF(
+            status_calender='tentative',
+            1,
+            0
+        )
+    ) as `tentative`,
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                IF(
+                    DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+                    1,
+                    IF(
+                        `work_on_weekends` = 1,
+                        1,
+                        0
+                    )
+                ),
+                0
+            ),
+            0
+        )
+    ) as `none_gcalender`, 
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `none` 
+    FROM sa_trx_productivity 
+    WHERE 
+        task_date >= %s 
+        AND task_date <= %s
+        AND resource_email LIKE %s
+        AND project_type LIKE %s
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `status_calender`=1
+        )
+    GROUP BY resource_email, project_type
+    ORDER BY resource_email, project_type
+
+
+2023-11-02 13:42:47
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 13:46:32
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND resource_email LIKE NULL
+        AND project_type LIKE '%%'
+        AND (...' at line 109
+- Query 		: SELECT 
+    resource_email,
+    work_on_weekends,
+    IF(
+        project_type='MSI Project Implementation', 
+        'Implementation', 
+        IF(
+            project_type='MSI Project Maintenance', 
+            'Maintenance', 
+            IF(
+                project_type='MSI Non-Project', 
+                'Non-Project', 
+                IF(
+                    project_type='MSI Self Improvement', 
+                    'Self Improvement', 
+                    'none'
+                )
+            )
+        )
+    ) as `project_type`, 
+    SUM(
+        IF(
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+            1,
+            IF(
+                work_on_weekends = 1,
+                1,
+                0
+            )
+        ) 
+    ) as `plan`,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                1,
+                0
+            ),
+            0
+        )
+    ) as `accepted1` ,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `accepted0` ,
+    SUM(
+        IF(
+            status_calender='needsAction',
+            1,
+            0
+        )
+    ) as `needsAction` ,
+    SUM(
+        IF(
+            status_calender='declined',
+            1,
+            0
+        )
+    ) as `declined` ,
+    SUM(
+        IF(
+            status_calender='tentative',
+            1,
+            0
+        )
+    ) as `tentative`,
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                IF(
+                    DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+                    1,
+                    IF(
+                        `work_on_weekends` = 1,
+                        1,
+                        0
+                    )
+                ),
+                0
+            ),
+            0
+        )
+    ) as `none_gcalender`, 
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `none` 
+    FROM sa_trx_productivity 
+    WHERE 
+        -- task_date >= NULL 
+        -- AND task_date <= NULL
+        AND resource_email LIKE NULL
+        AND project_type LIKE '%%'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `status_calender`=1
+        )
+    GROUP BY resource_email, project_type
+    ORDER BY resource_email, project_type
+    
+
+
+2023-11-02 13:46:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'mantul.tes' in 'field list'
+- Query 		: SELECT
+	COUNT(mantul.tes)
+FROM
+	(SELECT
+	COUNT(project_id) as tes
+FROM
+	sa_view_task_timelog 
+WHERE
+	project_id = 'IEAEOPF5I5CBHUMO' 
+GROUP BY
+	task_id, resource_id) as mantul
+
+
+2023-11-02 13:46:58
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'mantul.tes' in 'field list'
+- Query 		: SELECT
+	COUNT(mantul.tes)
+FROM
+	(SELECT
+	COUNT(project_id) as tes
+FROM
+	sa_view_task_timelog 
+WHERE
+	project_id = 'IEAEOPF5I5CBHUMO' 
+GROUP BY
+	task_id, resource_id) as mantul
+
+
+2023-11-02 13:48:53
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 11
+- Query 		: SELECT
+	COUNT(tes)
+FROM
+	(SELECT
+	COUNT(project_id) as tes
+FROM
+	sa_view_task_timelog 
+WHERE
+	project_id = 'IEAEOPF5I5CBHUMO' 
+GROUP BY
+	task_id, resource_id)
+
+
+2023-11-02 13:48:56
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 11
+- Query 		: SELECT
+	COUNT(tes)
+FROM
+	(SELECT
+	COUNT(project_id) as tes
+FROM
+	sa_view_task_timelog 
+WHERE
+	project_id = 'IEAEOPF5I5CBHUMO' 
+GROUP BY
+	task_id, resource_id)
+
+
+2023-11-02 13:50:57
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%o%'
+
+
+2023-11-02 13:52:19
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%o%'
+
+
+2023-11-02 13:52:32
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 13:52:32
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%o%'
+
+
+2023-11-02 13:52:49
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%o%'
+
+
+2023-11-02 13:53:14
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: 
+
+
+2023-11-02 13:53:14
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: 
+
+
+2023-11-02 13:53:14
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: 
+
+
+2023-11-02 13:53:29
+- Server 		: Prod
+- User 			: ary.mulyati@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Unknown column 'timelog_id' in 'field list'
+- Query 		: SELECT COUNT(timelog_id) AS updated_task FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I5CHA46F' GROUP BY task_id
+
+
+2023-11-02 14:07:18
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-02 14:07:24
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%o%'
+
+
+2023-11-02 14:09:40
+- Server 		: Prod
+- User 			: ary.mulyati@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Unknown column 'timelog_id' in 'field list'
+- Query 		: SELECT COUNT(timelog_id) AS updated_task FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I5APA3JW' GROUP BY task_id
+
+
+2023-11-02 14:55:24
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-02 14:55:28
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FDO2201A0Q7%'
+
+
+2023-11-02 14:55:34
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FDO2201A0Q8%'
+
+
+2023-11-02 14:55:40
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FGL2201A107%'
+
+
+2023-11-02 14:55:45
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FOC1617Z5BT%'
+
+
+2023-11-02 14:55:50
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FDO2201A0Q7%'
+
+
+2023-11-02 14:55:53
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-02 14:56:19
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-02 14:56:41
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-02 14:57:47
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-02 14:57:50
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FDO2201A0Q7%'
+
+
+2023-11-02 14:58:21
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FDO2201A0Q7%'
+
+
+2023-11-02 14:58:47
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FDO2201A0Q7%'
+
+
+2023-11-02 15:00:09
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FDO2201A0Q7%'
+
+
+2023-11-02 15:00:17
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-02 15:00:48
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-02 15:00:54
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FDO2201A0Q7%'
+
+
+2023-11-02 15:01:02
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FDO2201A0Q7%'
+
+
+2023-11-02 15:01:06
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-02 15:01:14
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-02 15:01:17
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FDO2201A0Q7%'
+
+
+2023-11-02 15:01:22
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-02 15:06:56
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-02 15:07:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FDO2201A0Q7%'
+
+
+2023-11-02 15:07:07
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FDO2201A0Q8%'
+
+
+2023-11-02 15:07:12
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FGL2201A107%'
+
+
+2023-11-02 15:07:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FOC1617Z5BT%'
+
+
+2023-11-02 15:38:21
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: 
+
+
+2023-11-02 15:38:21
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: 
+
+
+2023-11-02 15:38:21
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: 
+
+
+2023-11-02 15:39:58
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s
+        AND project_type LIKE %s
+        AND (
+            DAYOFWEEK(`t...' at line 93
+- Query 		: SELECT 
+    resource_email,
+    work_on_weekends,
+    SUM(
+        IF(
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+            1,
+            IF(
+                work_on_weekends = 1,
+                1,
+                0
+            )
+        ) 
+    ) as `plan`,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                1,
+                0
+            ),
+            0
+        )
+    ) as `accepted1` ,
+    SUM(
+        IF(
+            status_calender='accepted',
+            IF(
+                `spen_time`>0,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `accepted0` ,
+    SUM(
+        IF(
+            status_calender='needsAction',
+            1,
+            0
+        )
+    ) as `needsAction` ,
+    SUM(
+        IF(
+            status_calender='declined',
+            1,
+            0
+        )
+    ) as `declined` ,
+    SUM(
+        IF(
+            status_calender='tentative',
+            1,
+            0
+        )
+    ) as `tentative`,
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                IF(
+                    DAYOFWEEK(`task_date`) BETWEEN 2 AND 6,
+                    1,
+                    IF(
+                        `work_on_weekends` = 1,
+                        1,
+                        0
+                    )
+                ),
+                0
+            ),
+            0
+        )
+    ) as `none_gcalender`, 
+    SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `none` 
+    FROM sa_trx_productivity 
+    WHERE 
+        -- task_date >= %s 
+        -- AND task_date <= %s
+        project_type='MSI Project Implementation'
+        AND resource_email LIKE %s
+        AND project_type LIKE %s
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `status_calender`=1
+        )
+    GROUP BY resource_email
+    ORDER BY resource_email
+
+
+2023-11-02 15:44:25
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: 
+
+
+2023-11-02 15:44:25
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: 

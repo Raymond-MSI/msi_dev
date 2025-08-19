@@ -1,0 +1,162 @@
+File Error Log
+
+2024-06-23 12:55:51
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_' doesn't exist
+- Query 		: SELECT * FROM sa_ WHERE email_id=39
+
+
+2024-06-23 13:06:10
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND status = 'yes'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE email_id =  AND status = 'yes'
+
+
+2024-06-23 13:06:10
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND status = 'yes'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE email_id =  AND status = 'yes'
+
+
+2024-06-23 13:06:41
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND status = 'yes'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE email_id =  AND status = 'yes'
+
+
+2024-06-23 13:06:41
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND status = 'yes'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE email_id =  AND status = 'yes'
+
+
+2024-06-23 13:06:48
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND status = 'yes'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE email_id =  AND status = 'yes'
+
+
+2024-06-23 13:06:48
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND status = 'yes'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE email_id =  AND status = 'yes'
+
+
+2024-06-23 13:07:08
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND status = 'yes'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE email_id =  AND status = 'yes'
+
+
+2024-06-23 13:07:08
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND status = 'yes'' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE email_id =  AND status = 'yes'
+
+
+2024-06-23 13:45:59
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT DISTINCT leader_name, leader_email FROM sa_view_employees WHERE employee_email IS NOT NULL AND organization_name = 'Developer' AND resign_date IS NULL AND
+
+
+2024-06-23 13:45:59
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT DISTINCT leader_name, leader_email FROM sa_view_employees WHERE employee_email IS NOT NULL AND organization_name = 'Developer' AND resign_date IS NULL AND
+
+
+2024-06-23 13:46:08
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT DISTINCT leader_name, leader_email FROM sa_view_employees WHERE employee_email IS NOT NULL AND organization_name = 'Developer' AND resign_date IS NULL AND
+
+
+2024-06-23 13:46:08
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT DISTINCT leader_name, leader_email FROM sa_view_employees WHERE employee_email IS NOT NULL AND organization_name = 'Developer' AND resign_date IS NULL AND
+
+
+2024-06-23 13:46:15
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT DISTINCT leader_name, leader_email FROM sa_view_employees WHERE employee_email IS NOT NULL AND organization_name = 'Developer' AND resign_date IS NULL AND
+
+
+2024-06-23 13:46:15
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT DISTINCT leader_name, leader_email FROM sa_view_employees WHERE employee_email IS NOT NULL AND organization_name = 'Developer' AND resign_date IS NULL AND
+
+
+2024-06-23 13:46:20
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT DISTINCT leader_name, leader_email FROM sa_view_employees WHERE employee_email IS NOT NULL AND organization_name = 'Project Coordinator' AND resign_date IS NULL AND
+
+
+2024-06-23 13:46:20
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT DISTINCT leader_name, leader_email FROM sa_view_employees WHERE employee_email IS NOT NULL AND organization_name = 'Project Coordinator' AND resign_date IS NULL AND
+
+
+2024-06-23 14:04:40
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_trx_notification' doesn't exist
+- Query 		: SELECT * FROM sa_trx_notification WHERE status_request = 'Pending Approval' LIMIT 0, 100

@@ -1,0 +1,176 @@
+11-11-2024 09:52:48
+- User Name   : yanuarizki@mastersystem.co.id
+- Module      : order_list
+- Sub-Module  : 
+- Description : mysqli_sql_exception: Connection refused in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_order_list.php(26): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_navision11-Nov-2024 9:52:49
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100]  - "SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100" - 
+
+11-11-2024 09:52:57
+- User Name   : yanuarizki@mastersystem.co.id
+- Module      : order_list
+- Sub-Module  : 
+- Description : mysqli_sql_exception: Connection refused in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_order_list.php(26): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_navision11-Nov-2024 9:52:57
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100]  - "SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100" - 
+
+11-11-2024 09:53:05
+- User Name   : yanuarizki@mastersystem.co.id
+- Module      : order_list
+- Sub-Module  : 
+- Description : mysqli_sql_exception: Connection refused in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_order_list.php(26): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_navision11-Nov-2024 9:53:05
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100]  - "SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100" - 
+
+11-11-2024 09:53:36
+- User Name   : yanuarizki@mastersystem.co.id
+- Module      : order_list
+- Sub-Module  : 
+- Description : mysqli_sql_exception: Connection refused in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_order_list.php(26): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_navision11-Nov-2024 9:53:36
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100]  - "SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100" - 
+
+11-11-2024 09:53:53
+- User Name   : yanuarizki@mastersystem.co.id
+- Module      : order_list
+- Sub-Module  : 
+- Description : mysqli_sql_exception: Connection refused in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_order_list.php(26): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_navision11-Nov-2024 9:53:53
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100]  - "SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100" - 
+
+11-11-2024 10:43:06
+- User Name   : hartini.satiawan@mastersystem.co.id
+- Module      : order_list
+- Sub-Module  : 
+- Description : mysqli_sql_exception: Connection refused in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_order_list.php(26): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_navision11-Nov-2024 10:43:06
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100]  - "SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100" - 
+
+11-11-2024 10:43:16
+- User Name   : hartini.satiawan@mastersystem.co.id
+- Module      : order_list
+- Sub-Module  : 
+- Description : mysqli_sql_exception: Connection refused in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_order_list.php(26): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_navision11-Nov-2024 10:43:16
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100]  - "SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100" - 
+
+11-11-2024 10:43:30
+- User Name   : hartini.satiawan@mastersystem.co.id
+- Module      : order_list
+- Sub-Module  : 
+- Description : mysqli_sql_exception: Connection refused in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_order_list.php(26): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_navision11-Nov-2024 10:43:30
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100]  - "SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100" - 
+
+11-11-2024 10:50:25
+- User Name   : hartini.satiawan@mastersystem.co.id
+- Module      : order_list
+- Sub-Module  : 
+- Description : mysqli_sql_exception: Connection refused in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_order_list.php(26): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_navision11-Nov-2024 10:50:26
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100]  - "SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100" - 
+
+11-11-2024 10:55:32
+- User Name   : syamsul@mastersystem.co.id
+- Module      : order_list
+- Sub-Module  : 
+- Description : mysqli_sql_exception: Connection refused in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_order_list.php(26): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_navision11-Nov-2024 10:55:32
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100]  - "SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100" - 
+
+11-11-2024 10:56:55
+- User Name   : syamsul@mastersystem.co.id
+- Module      : order_list
+- Sub-Module  : 
+- Description : mysqli_sql_exception: Connection refused in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_order_list.php(26): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_navision11-Nov-2024 10:56:55
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100]  - "SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100" - 
+

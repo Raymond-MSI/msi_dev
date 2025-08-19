@@ -1,0 +1,174 @@
+File Error Log
+
+2024-01-02 10:34:03
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'proejct_code' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE proejct_code='TA002223E0057'
+
+
+2024-01-02 10:36:12
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_wrike_evans_assignment' doesn't exist
+- Query 		: SELECT * FROM sa_wrike_evans_assignment WHERE project_id='IEAEOPF5I5EEXLTX' 
+
+
+2024-01-02 10:36:15
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_wrike_evans_assignment' doesn't exist
+- Query 		: SELECT * FROM sa_wrike_evans_assignment WHERE project_id='IEAEOPF5I5EEXLTX' 
+
+
+2024-01-02 10:37:58
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect datetime value: ''
+- Query 		: SELECT * FROM sa_view_task_assignment WHERE project_id='IEAEOPF5I5EEXLTX' 
+
+
+
+2024-01-02 11:11:28
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_ps_service_budgets' doesn't exist
+- Query 		: select * from sa_ps_service_budgets where project_code= 'TP008023K0012'
+
+
+2024-01-02 11:35:42
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_ih' in 'where clause'
+- Query 		: select * from sa_trx_approval where project_ih = 19055
+
+
+2024-01-02 11:38:21
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'status_approval' in 'where clause'
+- Query 		: select * from sa_trx_approval where status_approval = 'approved' and approve_date >='2013-12-20'
+
+
+2024-01-02 11:38:57
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'status_approval' in 'where clause'
+- Query 		: select * from sa_trx_approval where status_approval = 'approved' and approve_date >='2023-12-20'
+
+
+2024-01-02 12:04:42
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_sa_logs' doesn't exist
+- Query 		: select * from sa_sa_logs where project_id = 19085
+
+
+2024-01-02 16:24:28
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '")' at line 1
+- Query 		: SELECT `summary_id`, `resource_name`,`implementation_not_reviewed`, `maintenance_not_reviewed`, (`implementation_not_reviewed` + `maintenance_not_reviewed`) AS `not_reviewed`, `implementation_reviewed`, `maintenance_reviewed`, (`implementation_reviewed` + `maintenance_reviewed`) AS `reviewed`, `implementation_period` AS `period` FROM `sa_kpi_summary` WHERE `implementation_period` = 2023 OR `implementation_period` = 0")
+
+
+2024-01-02 16:24:36
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+- Query 		: SELECT `summary_id`, `resource_name`,`implementation_not_reviewed`, `maintenance_not_reviewed`, (`implementation_not_reviewed` + `maintenance_not_reviewed`) AS `not_reviewed`, `implementation_reviewed`, `maintenance_reviewed`, (`implementation_reviewed` + `maintenance_reviewed`) AS `reviewed`, `implementation_period` AS `period` FROM `sa_kpi_summary` WHERE `implementation_period` = 2023 OR `implementation_period` = 0)
+
+
+2024-01-02 16:25:24
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+- Query 		: SELECT `summary_id`, `resource_name`,`implementation_not_reviewed`, `maintenance_not_reviewed`, (`implementation_not_reviewed` + `maintenance_not_reviewed`) AS `not_reviewed`, `implementation_reviewed`, `maintenance_reviewed`, (`implementation_reviewed` + `maintenance_reviewed`) AS `reviewed`, `implementation_period` AS `period` FROM `sa_kpi_summary` WHERE `implementation_period` = 2023 OR `implementation_period` = 0)
+
+
+2024-01-02 16:26:28
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(2023==date("Y") ? " OR `implementation_period` = 0" : "")
+
+
+
+
+SELECT `s...' at line 1
+- Query 		: SELECT `summary_id`, `resource_name`,`implementation_not_reviewed`, `maintenance_not_reviewed`, (`implementation_not_reviewed` + `maintenance_not_reviewed`) AS `not_reviewed`, `implementation_reviewed`, `maintenance_reviewed`, (`implementation_reviewed` + `maintenance_reviewed`) AS `reviewed`, `implementation_period` AS `period` FROM `sa_kpi_summary` WHERE `implementation_period` = 2023 (2023==date("Y") ? " OR `implementation_period` = 0" : "")
+
+
+
+
+SELECT `summary_id`, `resource_name`,`implementation_not_reviewed`, `maintenance_not_reviewed`, (`implementation_not_reviewed` + `maintenance_not_reviewed`) AS `not_reviewed`, `implementation_reviewed`, `maintenance_reviewed`, (`implementation_reviewed` + `maintenance_reviewed`) AS `reviewed`, `implementation_period` AS `period` FROM `sa_kpi_summary` WHERE `implementation_period` = 2023 OR `implementation_period` = 0)
+
+
+2024-01-02 16:26:29
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(2023==date("Y") ? " OR `implementation_period` = 0" : "")
+
+
+
+
+SELECT `s...' at line 1
+- Query 		: SELECT `summary_id`, `resource_name`,`implementation_not_reviewed`, `maintenance_not_reviewed`, (`implementation_not_reviewed` + `maintenance_not_reviewed`) AS `not_reviewed`, `implementation_reviewed`, `maintenance_reviewed`, (`implementation_reviewed` + `maintenance_reviewed`) AS `reviewed`, `implementation_period` AS `period` FROM `sa_kpi_summary` WHERE `implementation_period` = 2023 (2023==date("Y") ? " OR `implementation_period` = 0" : "")
+
+
+
+
+SELECT `summary_id`, `resource_name`,`implementation_not_reviewed`, `maintenance_not_reviewed`, (`implementation_not_reviewed` + `maintenance_not_reviewed`) AS `not_reviewed`, `implementation_reviewed`, `maintenance_reviewed`, (`implementation_reviewed` + `maintenance_reviewed`) AS `reviewed`, `implementation_period` AS `period` FROM `sa_kpi_summary` WHERE `implementation_period` = 2023 OR `implementation_period` = 0)
+
+
+2024-01-02 16:26:36
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(2023==date("Y") ? " OR `implementation_period` = 0" : "")' at line 1
+- Query 		: SELECT `summary_id`, `resource_name`,`implementation_not_reviewed`, `maintenance_not_reviewed`, (`implementation_not_reviewed` + `maintenance_not_reviewed`) AS `not_reviewed`, `implementation_reviewed`, `maintenance_reviewed`, (`implementation_reviewed` + `maintenance_reviewed`) AS `reviewed`, `implementation_period` AS `period` FROM `sa_kpi_summary` WHERE `implementation_period` = 2023 (2023==date("Y") ? " OR `implementation_period` = 0" : "")
+
+
+2024-01-02 16:26:38
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(2023==date("Y") ? " OR `implementation_period` = 0" : "")' at line 1
+- Query 		: SELECT `summary_id`, `resource_name`,`implementation_not_reviewed`, `maintenance_not_reviewed`, (`implementation_not_reviewed` + `maintenance_not_reviewed`) AS `not_reviewed`, `implementation_reviewed`, `maintenance_reviewed`, (`implementation_reviewed` + `maintenance_reviewed`) AS `reviewed`, `implementation_period` AS `period` FROM `sa_kpi_summary` WHERE `implementation_period` = 2023 (2023==date("Y") ? " OR `implementation_period` = 0" : "")
+
+
+2024-01-02 17:30:10
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-12-26' AND task_date <= '2024-01-09' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`

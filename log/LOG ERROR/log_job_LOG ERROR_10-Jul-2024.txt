@@ -1,0 +1,766 @@
+
+
+2024-07-10 17:07:14
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC
+ 1, 0) ) AS `edo_approved`, SUM(IF( `status` = 'leave submitted', 1, 0) ) AS `leave_submitted`, SUM(IF( `status` = 'leave rejected', 1, 0) ) AS `leave_rejected`, SUM(IF( `status` = 'completed', 1, 0) ) AS `completed` FROM `sa_trx_edo_request` WHERE `employee_name` LIKE '%malik.aulia%' GROUP BY `employee_name`; 
+
+
+2024-07-10 17:07:08
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE so_date >= '2024-07-09' ORDER BY so_date DESC
+
+
+2024-07-10 17:07:11
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`,`post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-07-03" ORDER BY `post_modified_gmt` DESC LIMIT 0,5
+
+
+2024-07-10 17:07:11
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key="TITLE_OF_WEBSITE"
+
+
+2024-07-10 17:07:11
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_employees WHERE email='chrisheryanda' ORDER BY resign_date
+
+
+2024-07-10 17:07:11
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `employee_name`, SUM(IF( `status` = 'drafted', 1, 0) ) AS `edo_draft`, SUM(IF( `status` = 'edo submitted', 1, 0) ) AS `edo_submitted`, SUM(IF( `status` = 'edo rejected', 1, 0) ) AS `edo_rejected`, SUM(IF( `status` = 'request approved', 1, 0) ) AS `edo_approved`, SUM(IF( `status` = 'leave submitted', 1, 0) ) AS `leave_submitted`, SUM(IF( `status` = 'leave rejected', 1, 0) ) AS `leave_rejected`, SUM(IF( `status` = 'completed', 1, 0) ) AS `completed` FROM `sa_trx_edo_request` WHERE `employee_name` LIKE '%chrisheryanda%' GROUP BY `employee_name`; 
+
+
+2024-07-10 17:07:14
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`,`post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-07-03" ORDER BY `post_modified_gmt` DESC LIMIT 0,5
+
+
+2024-07-10 17:07:14
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE `post_type`="post" AND `post_status`="publish" AND `post_modified_gmt`>"2024-07-03" ORDER BY `post_modified_gmt` DESC LIMIT 0,1
+
+
+2024-07-10 17:07:14
+- Server 		: Prod
+- User 			: malik.aulia
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT post_title, post_modified, post_name, post_content FROM wp_posts WHERE post_status="publish" AND post_type="cma_thread" AND `post_modified_gmt`>"2024-07-03" ORDER BY post_modified DESC LIMIT 0,1
+
+
+2024-07-10 17:07:17
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE `post_type`="post" AND `post_status`="publish" AND `post_modified_gmt`>"2024-07-03" ORDER BY `post_modified_gmt` DESC LIMIT 0,1
+
+
+2024-07-10 17:07:17
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_notification WHERE notif_to LIKE '%maria.monica@mastersystem.co.id%' AND notif_status=1 ORDER BY notif_date DESC LIMIT 0, 25
+
+
+2024-07-10 17:07:17
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT post_title, post_modified, post_name, post_content FROM wp_posts WHERE post_status="publish" AND post_type="cma_thread" AND `post_modified_gmt`>"2024-07-03" ORDER BY post_modified DESC LIMIT 0,1
+
+
+2024-07-10 17:07:20
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='maria.monica@mastersystem.co.id'
+
+
+2024-07-10 17:07:20
+- Server 		: Prod
+- User 			: chrisheryanda
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key="TITLE_OF_WEBSITE"
+
+
+2024-07-10 17:07:23
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='maria.monica@mastersystem.co.id'
+
+
+2024-07-10 17:07:27
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE status_order=0
+
+
+2024-07-10 17:07:27
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE status_order=1
+
+
+2024-07-10 17:07:27
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number
+
+
+2024-07-10 17:07:27
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE create_date >= '2024-07-09' AND `so_number` LIKE '%/SO/%' ORDER BY create_date DESC
+
+
+2024-07-10 17:07:30
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE status =  'released'
+
+
+2024-07-10 17:07:30
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE status =  'open'
+
+
+2024-07-10 17:07:30
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE status =  'pending approval'
+
+
+2024-07-10 17:07:30
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE so_date >= '2024-07-09' ORDER BY so_date DESC
+
+
+2024-07-10 17:07:33
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_employees WHERE email='maria.monica@mastersystem.co.id' ORDER BY resign_date
+
+
+2024-07-10 17:07:33
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `employee_name`, SUM(IF( `status` = 'drafted', 1, 0) ) AS `edo_draft`, SUM(IF( `status` = 'edo submitted', 1, 0) ) AS `edo_submitted`, SUM(IF( `status` = 'edo rejected', 1, 0) ) AS `edo_rejected`, SUM(IF( `status` = 'request approved', 1, 0) ) AS `edo_approved`, SUM(IF( `status` = 'leave submitted', 1, 0) ) AS `leave_submitted`, SUM(IF( `status` = 'leave rejected', 1, 0) ) AS `leave_rejected`, SUM(IF( `status` = 'completed', 1, 0) ) AS `completed` FROM `sa_trx_edo_request` WHERE `employee_name` LIKE '%maria.monica@mastersystem.co.id%' GROUP BY `employee_name`; 
+
+
+2024-07-10 17:07:36
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`,`post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-07-03" ORDER BY `post_modified_gmt` DESC LIMIT 0,5
+
+
+2024-07-10 17:07:39
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE `post_type`="post" AND `post_status`="publish" AND `post_modified_gmt`>"2024-07-03" ORDER BY `post_modified_gmt` DESC LIMIT 0,1
+
+
+2024-07-10 17:07:39
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT post_title, post_modified, post_name, post_content FROM wp_posts WHERE post_status="publish" AND post_type="cma_thread" AND `post_modified_gmt`>"2024-07-03" ORDER BY post_modified DESC LIMIT 0,1
+
+
+2024-07-10 17:07:42
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key="TITLE_OF_WEBSITE"
+
+
+2024-07-10 17:07:45
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC
+
+
+2024-07-10 17:07:48
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_notification WHERE notif_to LIKE '%maria.monica@mastersystem.co.id%' AND notif_status=1 ORDER BY notif_date DESC LIMIT 0, 25
+
+
+2024-07-10 17:07:51
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='maria.monica@mastersystem.co.id'
+
+
+2024-07-10 17:07:54
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='maria.monica@mastersystem.co.id'
+
+
+2024-07-10 17:07:57
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE status_order=0
+
+
+2024-07-10 17:07:57
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE status_order=1
+
+
+2024-07-10 17:07:57
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number
+
+
+2024-07-10 17:07:57
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE create_date >= '2024-07-09' AND `so_number` LIKE '%/SO/%' ORDER BY create_date DESC
+
+
+2024-07-10 17:08:00
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE status =  'released'
+
+
+2024-07-10 17:08:00
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE status =  'open'
+
+
+2024-07-10 17:08:00
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE status =  'pending approval'
+
+
+2024-07-10 17:08:00
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE so_date >= '2024-07-09' ORDER BY so_date DESC
+
+
+2024-07-10 17:08:03
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_employees WHERE email='maria.monica@mastersystem.co.id' ORDER BY resign_date
+
+
+2024-07-10 17:08:03
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `employee_name`, SUM(IF( `status` = 'drafted', 1, 0) ) AS `edo_draft`, SUM(IF( `status` = 'edo submitted', 1, 0) ) AS `edo_submitted`, SUM(IF( `status` = 'edo rejected', 1, 0) ) AS `edo_rejected`, SUM(IF( `status` = 'request approved', 1, 0) ) AS `edo_approved`, SUM(IF( `status` = 'leave submitted', 1, 0) ) AS `leave_submitted`, SUM(IF( `status` = 'leave rejected', 1, 0) ) AS `leave_rejected`, SUM(IF( `status` = 'completed', 1, 0) ) AS `completed` FROM `sa_trx_edo_request` WHERE `employee_name` LIKE '%maria.monica@mastersystem.co.id%' GROUP BY `employee_name`; 
+
+
+2024-07-10 17:08:06
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`,`post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-07-03" ORDER BY `post_modified_gmt` DESC LIMIT 0,5
+
+
+2024-07-10 17:08:10
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE `post_type`="post" AND `post_status`="publish" AND `post_modified_gmt`>"2024-07-03" ORDER BY `post_modified_gmt` DESC LIMIT 0,1
+
+
+2024-07-10 17:08:10
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT post_title, post_modified, post_name, post_content FROM wp_posts WHERE post_status="publish" AND post_type="cma_thread" AND `post_modified_gmt`>"2024-07-03" ORDER BY post_modified DESC LIMIT 0,1
+
+
+2024-07-10 17:08:13
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key="TITLE_OF_WEBSITE"
+
+
+2024-07-10 17:08:16
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC
+
+
+2024-07-10 17:08:19
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_notification WHERE notif_to LIKE '%maria.monica@mastersystem.co.id%' AND notif_status=1 ORDER BY notif_date DESC LIMIT 0, 25
+
+
+2024-07-10 17:08:22
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='maria.monica@mastersystem.co.id'
+
+
+2024-07-10 17:08:25
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='maria.monica@mastersystem.co.id'
+
+
+2024-07-10 17:08:28
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE status_order=0
+
+
+2024-07-10 17:08:28
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE status_order=1
+
+
+2024-07-10 17:08:28
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number
+
+
+2024-07-10 17:08:28
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE create_date >= '2024-07-09' AND `so_number` LIKE '%/SO/%' ORDER BY create_date DESC
+
+
+2024-07-10 17:08:31
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE status =  'released'
+
+
+2024-07-10 17:08:31
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE status =  'open'
+
+
+2024-07-10 17:08:31
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE status =  'pending approval'
+
+
+2024-07-10 17:08:31
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE so_date >= '2024-07-09' ORDER BY so_date DESC
+
+
+2024-07-10 17:08:34
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_employees WHERE email='maria.monica@mastersystem.co.id' ORDER BY resign_date
+
+
+2024-07-10 17:08:34
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `employee_name`, SUM(IF( `status` = 'drafted', 1, 0) ) AS `edo_draft`, SUM(IF( `status` = 'edo submitted', 1, 0) ) AS `edo_submitted`, SUM(IF( `status` = 'edo rejected', 1, 0) ) AS `edo_rejected`, SUM(IF( `status` = 'request approved', 1, 0) ) AS `edo_approved`, SUM(IF( `status` = 'leave submitted', 1, 0) ) AS `leave_submitted`, SUM(IF( `status` = 'leave rejected', 1, 0) ) AS `leave_rejected`, SUM(IF( `status` = 'completed', 1, 0) ) AS `completed` FROM `sa_trx_edo_request` WHERE `employee_name` LIKE '%maria.monica@mastersystem.co.id%' GROUP BY `employee_name`; 
+
+
+2024-07-10 17:08:37
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`,`post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-07-03" ORDER BY `post_modified_gmt` DESC LIMIT 0,5
+
+
+2024-07-10 17:08:40
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE `post_type`="post" AND `post_status`="publish" AND `post_modified_gmt`>"2024-07-03" ORDER BY `post_modified_gmt` DESC LIMIT 0,1
+
+
+2024-07-10 17:08:40
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT post_title, post_modified, post_name, post_content FROM wp_posts WHERE post_status="publish" AND post_type="cma_thread" AND `post_modified_gmt`>"2024-07-03" ORDER BY post_modified DESC LIMIT 0,1
+
+
+2024-07-10 17:08:43
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key="TITLE_OF_WEBSITE"
+
+
+2024-07-10 17:08:46
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC
+
+
+2024-07-10 17:08:50
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_notification WHERE notif_to LIKE '%maria.monica@mastersystem.co.id%' AND notif_status=1 ORDER BY notif_date DESC LIMIT 0, 25
+
+
+2024-07-10 17:08:53
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='maria.monica@mastersystem.co.id'
+
+
+2024-07-10 17:08:59
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC
+
+
+2024-07-10 17:09:02
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_notification WHERE notif_to LIKE '%maria.monica@mastersystem.co.id%' AND notif_status=1 ORDER BY notif_date DESC LIMIT 0, 25
+
+
+2024-07-10 17:09:05
+- Server 		: Prod
+- User 			: maria.monica@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='maria.monica@mastersystem.co.id'
+
+
+2024-07-10 17:10:06
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: profile
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 9, 1
+
+
+2024-07-10 17:10:06
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: profile
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-07-10 17:10:06
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: profile
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-07-03" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-07-10 17:10:12
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: profile
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 9, 1
+
+
+2024-07-10 17:10:12
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: profile
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-07-10 17:10:12
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: profile
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-07-03" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-07-10 17:31:03
+- Server 		: Prod
+- User 			: bayu.akbar@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-07-10 17:31:09
+- Server 		: Prod
+- User 			: bayu.akbar@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-07-10 17:31:15
+- Server 		: Prod
+- User 			: bayu.akbar@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-07-10 17:31:22
+- Server 		: Prod
+- User 			: bayu.akbar@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-07-10 17:31:28
+- Server 		: Prod
+- User 			: bayu.akbar@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-07-10 17:31:34
+- Server 		: Prod
+- User 			: bayu.akbar@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-07-10 17:31:56
+- Server 		: Prod
+- User 			: bayu.akbar@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-07-10 17:32:10
+- Server 		: Prod
+- User 			: bayu.akbar@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7

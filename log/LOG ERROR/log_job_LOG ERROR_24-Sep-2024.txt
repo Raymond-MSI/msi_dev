@@ -1,0 +1,189 @@
+File Error Log
+
+2024-09-24 10:34:28
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2023-01037' AND id_date=' mt_date_start'
+
+
+2024-09-24 10:34:28
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-01758' AND id_date=' mt_date_end'
+
+
+2024-09-24 10:34:36
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2023-01037' AND id_date=' mt_date_start'
+
+
+2024-09-24 10:34:36
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-01758' AND id_date=' mt_date_end'
+
+
+2024-09-24 10:38:24
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2023-01037' AND id_date=' mt_date_start'
+
+
+2024-09-24 10:38:24
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-01758' AND id_date=' mt_date_end'
+
+
+2024-09-24 12:42:09
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Sep' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=24-Sep-2024 WHERE order_number='ORD-18430-W9J4L4' AND project_type='MSI Project Maintenance'
+
+
+2024-09-24 12:42:09
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Sep' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=24-Sep-2024 WHERE order_number='ORD-18430-W9J4L4' AND project_type='MSI Project Maintenance'
+
+
+2024-09-24 12:57:42
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Sep' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=24-Sep-2024 WHERE order_number='ORD-2023-01042' AND project_type='MSI Project Maintenance'
+
+
+2024-09-24 12:57:42
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Sep' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=24-Sep-2024 WHERE order_number='ORD-2023-01042' AND project_type='MSI Project Maintenance'
+
+
+2024-09-24 13:34:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id DESC' at line 1
+- Query 		: select * from sa_schedule limit 10 ORDER BY id DESC
+
+
+2024-09-24 13:34:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY event_id DESC' at line 1
+- Query 		: select * from sa_schedule limit 10 ORDER BY event_id DESC
+
+
+2024-09-24 13:39:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_initial_jobroles_project WHERE project_code='TI000822E0058'
+
+
+2024-09-24 13:41:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_schedule' doesn't exist
+- Query 		: desc sa_schedule
+
+
+2024-09-24 14:22:45
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Sep' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=24-Sep-2024 WHERE order_number='ORD-2023-01015' AND project_type='MSI Project Maintenance'
+
+
+2024-09-24 14:22:45
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Sep' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=24-Sep-2024 WHERE order_number='ORD-2023-01015' AND project_type='MSI Project Maintenance'
+
+
+2024-09-24 14:27:40
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Sep' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=24-Sep-2024 WHERE order_number='ORD-2023-01042' AND project_type='MSI Project Maintenance'
+
+
+2024-09-24 14:27:40
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Sep' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=24-Sep-2024 WHERE order_number='ORD-2023-01042' AND project_type='MSI Project Maintenance'
+
+
+2024-09-24 16:25:27
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_summary
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '://portal.mastersystem.co.id' at line 1
+- Query 		: SELECT * FROM sa_mst_organization_project_employee WHERE structure_id=2https://portal.mastersystem.co.id
+
+
+2024-09-24 16:25:27
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_summary
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '://portal.mastersystem.co.id' at line 1
+- Query 		: SELECT * FROM sa_mst_organization_project_employee WHERE structure_id=2https://portal.mastersystem.co.id
+
+
+2024-09-24 16:38:39
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = '0'

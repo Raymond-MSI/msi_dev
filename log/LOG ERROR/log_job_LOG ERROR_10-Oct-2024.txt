@@ -1,0 +1,79 @@
+File Error Log
+
+2024-10-10 13:37:31
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_resource_maintenance' doesn't exist
+- Query 		: select * from sa_resource_maintenance WHERE project_code='TF001024K0002'
+
+
+2024-10-10 13:39:58
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_initial_jobroles_project WHERE project_code='TF001024K0002'
+
+
+2024-10-10 13:43:36
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_id' in 'where clause'
+- Query 		: select * from sa_workload_config WHERE project_id='IEAEOPF5I5M3JTRN'
+
+
+2024-10-10 13:44:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_id' in 'where clause'
+- Query 		: select * from sa_workload_jobroles_config WHERE project_id='IEAEOPF5I5M3JTRN'
+
+
+2024-10-10 14:30:31
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'id_folder_drive' in 'field list'
+- Query 		: UPDATE sa_hcm_notecv SET id_folder_drive = '1NI9yaujMlD8nlmW-Uy80Tk7AVhwLmx0c' WHERE id_note IN (223,232)
+
+
+
+
+
+2024-10-10 16:01:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_wrike_project_solution' doesn't exist
+- Query 		: select * from sa_wrike_project_solution where project_id='IEAEOPF5I5M3JTRN'
+
+
+2024-10-10 16:01:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_wrike_project_solution' doesn't exist
+- Query 		: select * from sa_wrike_project_solution limit 10
+
+
+2024-10-10 16:13:25
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UPDATE sa_hcm_requirement_interview SET status_gm_offering = 'Pending' WHERE ...' at line 2
+- Query 		: SELECT * FROM sa_hcm_requirement_interview
+UPDATE sa_hcm_requirement_interview SET status_gm_offering = 'Pending' WHERE email_id = 61
+
+
+

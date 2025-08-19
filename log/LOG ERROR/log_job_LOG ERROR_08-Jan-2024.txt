@@ -1,0 +1,234 @@
+File Error Log
+
+2024-01-08 10:01:56
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Column 'so_number' cannot be null
+- Query 		: UPDATE sa_kpi_so_wr SET so_number=null, kpi_status='Not yet reviewed' WHERE order_number='ORD-2023-01321'
+
+
+2024-01-08 10:02:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Column 'so_number' cannot be null
+- Query 		: UPDATE sa_kpi_so_wr set so_number=null, kpi_status='Not yet reviewed' WHERE order_number='ORD-2023-01321'
+
+
+2024-01-08 10:03:03
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_mst_order' doesn't exist
+- Query 		: select * from sa_mst_order where order_number='ORD-2023-01321'
+
+
+2024-01-08 11:21:50
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resign_date' in 'where clause'
+- Query 		: SELECT * FROM sa_mst_users WHERE username = 'deni.suwarno' AND resign_date IS NULL
+
+
+2024-01-08 11:23:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'employee_email' in 'where clause'
+- Query 		: select * from sa_mst_users WHERE employee_email='deni.suwarno@mastersystem.co.id'
+
+
+2024-01-08 11:24:58
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_trx_users' doesn't exist
+- Query 		: select * from sa_trx_users where user_name like '$deni%'
+
+
+2024-01-08 11:25:21
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_trx_users' doesn't exist
+- Query 		: select * from sa_trx_users where username like '$deni%'
+
+
+2024-01-08 11:25:31
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_trx_users' doesn't exist
+- Query 		: select * from sa_trx_users where username like '%deni%'
+
+
+2024-01-08 11:37:01
+- Server 		: Prod
+- User 			: deni.suwarno@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resign_date' in 'where clause'
+- Query 		: SELECT * FROM sa_mst_users WHERE email = 'deni.suwarno@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-01-08 11:37:21
+- Server 		: Prod
+- User 			: deni.suwarno@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resign_date' in 'where clause'
+- Query 		: SELECT * FROM sa_mst_users WHERE email = 'deni.suwarno@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-01-08 11:38:13
+- Server 		: Prod
+- User 			: deni.suwarno@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resign_date' in 'where clause'
+- Query 		: SELECT * FROM sa_mst_users WHERE email = 'deni.suwarno@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-01-08 11:42:57
+- Server 		: Prod
+- User 			: deni.suwarno@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resign_date' in 'where clause'
+- Query 		: SELECT * FROM sa_mst_users WHERE email = 'deni.suwarno@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-01-08 11:43:47
+- Server 		: Prod
+- User 			: deni.suwarno@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resign_date' in 'where clause'
+- Query 		: SELECT * FROM sa_mst_users WHERE email = 'deni.suwarno@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-01-08 12:42:11
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'approve_id desc limit 100' at line 1
+- Query 		: select * from sa_trx_approval order approve_id desc limit 100
+
+
+2024-01-08 12:51:11
+- Server 		: Prod
+- User 			: danu.kurniawan@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resign_date' in 'where clause'
+- Query 		: SELECT * FROM sa_mst_users WHERE email = 'danu.kurniawan@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-01-08 13:00:32
+- Server 		: Prod
+- User 			: danu.kurniawan@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resign_date' in 'where clause'
+- Query 		: SELECT * FROM sa_mst_users WHERE email = 'danu.kurniawan@mastersystem.co.id' AND resign_date IS NULL
+
+
+2024-01-08 13:31:39
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-01-08 13:32:20
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'proejct_id' in 'where clause'
+- Query 		: select * from sa_preschedule WHERE proejct_id='IEAEOPF5I44S6NGP'
+
+
+2024-01-08 13:34:51
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-01-08 13:35:35
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-01-08 13:37:31
+- Server 		: Prod
+- User 			: aan.dafa@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-01-08 14:04:52
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_department WHERE project_code='TS026523G0001'
+
+
+2024-01-08 14:06:30
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_folder_customer WHERE project_code='TS026523G0001'
+
+
+2024-01-08 14:11:20
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-01-01' AND task_date <= '2024-01-15' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-01-08 15:32:11
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-01-01' AND task_date <= '2024-01-15' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-01-08 17:37:12
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-01-01' AND task_date <= '2024-01-15' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`

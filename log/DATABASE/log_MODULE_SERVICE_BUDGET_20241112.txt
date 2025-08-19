@@ -1,0 +1,436 @@
+12-Nov-2024 8:58:26
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 8:58:26
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 8:58:55
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 8:58:55
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 8:59:24
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 8:59:24
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 8:59:53
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 8:59:54
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 9:00:15
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 9:00:16
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 9:00:52
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 9:00:52
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 9:01:13
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 9:01:13
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:35:37
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:35:37
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:37:26
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:37:26
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:38:28
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:38:28
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:39:27
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:39:27
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:40:13
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:40:13
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:40:29
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:40:29
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:43:07
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:43:07
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:47:08
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:47:08
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:47:40
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:47:40
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:49:21
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:49:21
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:51:22
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:51:22
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:51:33
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:51:33
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:56:32
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:56:32
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:57:33
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 13:57:33
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 14:14:42
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 14:14:42
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 14:18:22
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 14:18:22
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 14:20:32
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 14:20:32
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 14:29:29
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 14:29:29
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 14:56:50
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 14:56:50
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 15:03:47
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 15:03:47
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 15:10:58
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 15:10:58
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 15:14:27
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 15:14:27
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 16:20:16
+- SubModule : 
+- Status    : Caught 'get_sql' error - [INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,21,2,1,7,'Fortinet',350,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')] Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+
+12-Nov-2024 16:20:16
+- SubModule : 
+- Status    : Caught 'get_sql' error - [INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,2,1,30,'Fortinet',250,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')] Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+
+12-Nov-2024 16:20:16
+- SubModule : 
+- Status    : Caught 'get_sql' error - [INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,2,1,31,'Fortinet',350,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')] Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+
+12-Nov-2024 16:20:16
+- SubModule : 
+- Status    : Caught 'get_sql' error - [INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,2,1,81,'Fortinet',250,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')] Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+
+12-Nov-2024 19:12:51
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 19:12:51
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 19:16:01
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 19:16:01
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+12-Nov-2024 20:20:07
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT order_number, so_number, po_number, amount, currency_code FROM sa_mst_order_number WHERE order_number = "ORD-2024-03279"] MySQL server has gone away
+
+12-Nov-2024 20:20:07
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_solutions WHERE `project_id`=24920] MySQL server has gone away
+
+12-Nov-2024 20:20:07
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_implementations WHERE project_id=24920 AND service_type=1] MySQL server has gone away
+
+12-Nov-2024 20:20:07
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_implementations WHERE `project_id`=24920 AND service_type=2] MySQL server has gone away
+
+12-Nov-2024 20:20:07
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_implementations WHERE `project_id`=24920 AND service_type=3] MySQL server has gone away
+
+12-Nov-2024 20:20:08
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='DC'] MySQL server has gone away
+
+12-Nov-2024 20:20:08
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='EC'] MySQL server has gone away
+
+12-Nov-2024 20:20:08
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='BA'] MySQL server has gone away
+
+12-Nov-2024 20:20:08
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='DB'] MySQL server has gone away
+
+12-Nov-2024 20:20:08
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='SA'] MySQL server has gone away
+
+12-Nov-2024 20:20:08
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='SP'] MySQL server has gone away
+
+12-Nov-2024 20:20:19
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT order_number, so_number, po_number, amount, currency_code FROM sa_mst_order_number WHERE order_number = "ORD-2024-03279"] MySQL server has gone away
+
+12-Nov-2024 20:20:19
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_solutions WHERE `project_id`=24920] MySQL server has gone away
+
+12-Nov-2024 20:20:19
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_implementations WHERE project_id=24920 AND service_type=1] MySQL server has gone away
+
+12-Nov-2024 20:20:19
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_implementations WHERE `project_id`=24920 AND service_type=2] MySQL server has gone away
+
+12-Nov-2024 20:20:19
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_implementations WHERE `project_id`=24920 AND service_type=3] MySQL server has gone away
+
+12-Nov-2024 20:20:20
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='DC'] MySQL server has gone away
+
+12-Nov-2024 20:20:20
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='EC'] MySQL server has gone away
+
+12-Nov-2024 20:20:20
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='BA'] MySQL server has gone away
+
+12-Nov-2024 20:20:20
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='DB'] MySQL server has gone away
+
+12-Nov-2024 20:20:20
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='SA'] MySQL server has gone away
+
+12-Nov-2024 20:20:20
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='SP'] MySQL server has gone away
+

@@ -1,0 +1,17 @@
+08-11-2024 15:14:47
+- User Name   : chrisheryanda@mastersystem.co.id
+- Module      : survey
+- Sub-Module  : dashboard_survey
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/menu/mod_menu_topbar.php(85): get_conn()
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(85): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_msiguide08-Nov-2024 15:14:47
+- SubModule : DASHBOARD_SURVEY
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC" - 
+

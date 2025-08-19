@@ -1,0 +1,63 @@
+File Error Log
+
+2024-05-16 11:43:54
+- Server 		: Prod
+- User 			: irfan.hendriana@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-05-16 11:43:54
+- Server 		: Prod
+- User 			: irfan.hendriana@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-05-16 15:30:04
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'employee_email' in 'where clause'
+- Query 		: select * from sa_trx_edo_request where employee_email like '%agus sopyan%'
+
+
+2024-05-16 19:12:59
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'PRIMARY'
+- Query 		: INSERT INTO sa_initial_jobroles (task_id,parent_id,project_code,project_id,resource_category_id,total_mandays) VALUES ('', 'SERVICE BUDGET', 'TB002723D0085', '', '2',200)
+
+
+2024-05-16 19:12:59
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'PRIMARY'
+- Query 		: INSERT INTO sa_initial_jobroles (task_id, parent_id, project_code, project_id, resource_category_id, brand, total_mandays) VALUES ('', 'SERVICE BUDGET', 'TB002723D0085', '', '5', 'F5', 28)
+
+
+2024-05-16 19:13:00
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'PRIMARY'
+- Query 		: INSERT INTO sa_initial_jobroles (task_id, parent_id, project_code, project_id, resource_category_id, brand, total_mandays) VALUES ('', 'SERVICE BUDGET', 'TB002723D0085', '', '6', 'F5', 122)
+
+
+2024-05-16 19:13:00
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'PRIMARY'
+- Query 		: INSERT INTO sa_initial_jobroles (task_id, parent_id, project_code, project_id, resource_category_id, brand, total_mandays) VALUES ('', 'SERVICE BUDGET', 'TB002723D0085', '', '7', 'F5', 212)

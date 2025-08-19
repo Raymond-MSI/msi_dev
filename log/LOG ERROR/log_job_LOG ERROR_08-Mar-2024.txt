@@ -1,0 +1,27 @@
+File Error Log
+
+2024-03-08 10:25:15
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@mastersystem.co.id' at line 1
+- Query 		: select * from sa_view_employees_v2 WHERE leader_email LIKE '%rahman.dani@mastersystem.co.id%' OR leader_email LIKE '%budi.satriawan@mastersystem.co.id%' OR leader_email LIKE '%hendika.vernanda@mastersystem.co.id%' OR leader_email LIKE '%ajie.prasetyo@mastersystem.co.id%' OR leader_email LIKE '%arya.hadi@mastersystem.co.id%' OR leader_email LIKE '%faisal.suryadi@mastersystem.co.id%' OR leader_email LIKE '%luthfi.eka@mastersystem.co.id%' OR leader_email LIKE '%syamsul@mastersystem.co.id%' OR leader_email LIKE '%agus.sutomo@mastersystem.co.id%' OR hanna.utami@mastersystem.co.id
+
+
+2024-03-08 15:05:03
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_notif_prochar' doesn't exist
+- Query 		: select * from sa_notif_prochar WHERE project_id='IEAEOPF5I5GRCUQ2'
+
+
+2024-03-08 15:09:56
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_resource_assignmnet' doesn't exist
+- Query 		: select * from sa_resource_assignmnet WHERE project_code='TP034523E0001'

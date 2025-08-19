@@ -1,0 +1,17 @@
+LIST INFO{
+    "has_more_rows": false,
+    "start_index": 101,
+    "total_count": 89,
+    "page": 2,
+    "get_total_count": "true",
+    "search_criteria": {
+        "condition": "greater than",
+        "field": "last_updated_time",
+        "value": "1729668342000"
+    },
+    "row_count": 0,
+    "back_date": "1"
+}
+
+Total Records : 1 of 89
+Page 2 of 2

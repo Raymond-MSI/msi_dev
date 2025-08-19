@@ -1,0 +1,166 @@
+File Error Log
+
+2024-01-10 11:08:19
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_data_so' doesn't exist
+- Query 		: select * from sa_data_so WHERE order_number='ORD-2023-01321'
+
+
+2024-01-10 13:42:17
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_md_hcm' doesn't exist
+- Query 		: desc sa_md_hcm
+
+
+2024-01-10 13:43:18
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select * from sa_view_employees_v2 where employee_name = 'dila styaningtyas'' at line 3
+- Query 		: show tables
+
+select * from sa_view_employees_v2 where employee_name = 'dila styaningtyas'
+
+
+2024-01-10 13:43:31
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'desc sa_view_employees_v2' at line 3
+- Query 		: show tables
+
+desc sa_view_employees_v2 
+
+
+2024-01-10 14:20:17
+- Server 		: Prod
+- User 			: iwan@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I43NVIUB' AND a.resource_email='ericha.mutia@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-10 14:20:17
+- Server 		: Prod
+- User 			: iwan@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I43NVIUB' AND a.resource_email='ericha.mutia@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-10 14:20:17
+- Server 		: Prod
+- User 			: iwan@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I43NVIUB' AND a.resource_email='gabriel.alexandro@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-10 14:20:17
+- Server 		: Prod
+- User 			: iwan@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I43NVIUB' AND a.resource_email='gabriel.alexandro@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-10 14:20:17
+- Server 		: Prod
+- User 			: iwan@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I43NVIUB' AND a.resource_email='lay@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-10 14:20:17
+- Server 		: Prod
+- User 			: iwan@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I43NVIUB' AND a.resource_email='lay@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-10 14:20:22
+- Server 		: Prod
+- User 			: iwan@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I43NVIUB' AND a.resource_email='' b.response_status <>'declined'
+
+
+2024-01-10 14:20:22
+- Server 		: Prod
+- User 			: iwan@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I43NVIUB' AND a.resource_email='' b.response_status <>'declined'
+
+
+2024-01-10 14:20:22
+- Server 		: Prod
+- User 			: iwan@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I43NVIUB' AND a.resource_email='' b.response_status <>'declined'
+
+
+2024-01-10 14:20:22
+- Server 		: Prod
+- User 			: iwan@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I43NVIUB' AND a.resource_email='' b.response_status <>'declined'
+
+
+2024-01-10 14:20:22
+- Server 		: Prod
+- User 			: iwan@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I43NVIUB' AND a.resource_email='' b.response_status <>'declined'
+
+
+2024-01-10 14:20:22
+- Server 		: Prod
+- User 			: iwan@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I43NVIUB' AND a.resource_email='' b.response_status <>'declined'
+
+
+2024-01-10 15:51:03
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Unknown column 'order_number_kpi' in 'where clause'
+- Query 		: SELECT * FROM sa_data_so WHERE order_number_kpi='ORD-2023-01321' AND SB_service_type_implementation=1
+
+
+2024-01-10 15:51:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Unknown column 'order_number_kpi' in 'where clause'
+- Query 		: SELECT * FROM sa_data_so WHERE order_number_kpi='ORD-2023-01321' AND SB_service_type_implementation=1

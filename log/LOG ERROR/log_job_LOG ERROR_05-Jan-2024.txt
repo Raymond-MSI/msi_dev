@@ -1,0 +1,67 @@
+File Error Log
+
+2024-01-05 09:53:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_initial_project' doesn't exist
+- Query 		: SELECT * FROM sa_initial_project WHERE project_code='TW000823C0002'
+
+
+2024-01-05 14:36:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '='Implementation' AND project_code='TB002721D0061'' at line 1
+- Query 		: SELECT * FROM sa_temporary_resourceWHERE project_type='Implementation' AND project_code='TB002721D0061'
+
+
+2024-01-05 16:41:51
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5
+- Query 		: SELECT * 
+FROM sa_product_list 
+WHERE (status_aset = 'Aktif') 
+  AND (status_product = 'Aktif') 
+  AND (tipe_aset = 'Sewa Vendor' OR tipe_aset = 'Peminjaman Vendor' OR tipe_aset = 'Titipan'
+
+
+2024-01-05 16:55:35
+- Server 		: Prod
+- User 			: dzaki.alwansyah@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Alwansyah Sembodho<dzaki.alwansyah@mastersystem.co.id>' GROUP BY project_type...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-12-29' AND task_date <= '2024-01-12' AND `resource_email` LIKE 'Dzaki 'Alwansyah Sembodho<dzaki.alwansyah@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-01-05 17:05:37
+- Server 		: Prod
+- User 			: dzaki.alwansyah@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Alwansyah Sembodho<dzaki.alwansyah@mastersystem.co.id>' GROUP BY project_type...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-12-29' AND task_date <= '2024-01-12' AND `resource_email` LIKE 'Dzaki 'Alwansyah Sembodho<dzaki.alwansyah@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-01-05 17:05:58
+- Server 		: Prod
+- User 			: dzaki.alwansyah@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Alwansyah Sembodho<dzaki.alwansyah@mastersystem.co.id>' GROUP BY project_type...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-12-29' AND task_date <= '2024-01-12' AND `resource_email` LIKE 'Dzaki 'Alwansyah Sembodho<dzaki.alwansyah@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-01-05 17:06:04
+- Server 		: Prod
+- User 			: dzaki.alwansyah@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Alwansyah Sembodho<dzaki.alwansyah@mastersystem.co.id>' GROUP BY project_type...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-12-29' AND task_date <= '2024-01-12' AND `resource_email` LIKE 'Dzaki 'Alwansyah Sembodho<dzaki.alwansyah@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`

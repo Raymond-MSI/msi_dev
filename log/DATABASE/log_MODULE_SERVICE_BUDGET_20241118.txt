@@ -1,0 +1,4 @@
+18-Nov-2024 10:45:53
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = '0'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+

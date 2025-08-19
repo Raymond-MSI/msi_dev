@@ -1,0 +1,775 @@
+File Error Log
+
+2024-02-29 09:14:26
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-02-29 09:14:26
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Vendor)' at line 1
+- Query 		: SELECT * FROM sa_product_list WHERE status_aset = 'Aktif' AND status_product = 'Aktif' AND lokasi = 'Warehouse' AND sn_child is null and parent_id is null AND level_parent in ('Module','Sub Module','Software','Accesorries') AND tipe_aset in('Peminjaman Vendor', Sewa Vendor) 
+
+
+2024-02-29 09:14:26
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Vendor)' at line 1
+- Query 		: SELECT * FROM sa_product_list WHERE status_aset = 'Aktif' AND status_product = 'Aktif' AND lokasi = 'Warehouse' AND sn_child is null and parent_id is null AND level_parent in ('Sub Module','Software','Accesorries') AND tipe_aset in('Peminjaman Vendor', Sewa Vendor) 
+
+
+2024-02-29 09:14:26
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Vendor)' at line 1
+- Query 		: SELECT * FROM sa_product_list WHERE status_aset = 'Aktif' AND status_product = 'Aktif' AND lokasi = 'Warehouse' AND sn_child is null and parent_id is null AND level_parent in ('Software','Accesorries') AND tipe_aset in('Peminjaman Vendor', Sewa Vendor) 
+
+
+2024-02-29 09:15:05
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-02-29 09:15:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-02-29 09:15:16
+- Server 		: Prod
+- User 			: rizky.umbara@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Vendor)' at line 1
+- Query 		: SELECT * FROM sa_product_list WHERE status_aset = 'Aktif' AND status_product = 'Aktif' AND lokasi = 'Warehouse' AND sn_child is null and parent_id is null AND level_parent in ('Module','Sub Module','Software','Accesorries') AND tipe_aset in('Peminjaman Vendor', Sewa Vendor) 
+
+
+2024-02-29 09:15:16
+- Server 		: Prod
+- User 			: rizky.umbara@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Vendor)' at line 1
+- Query 		: SELECT * FROM sa_product_list WHERE status_aset = 'Aktif' AND status_product = 'Aktif' AND lokasi = 'Warehouse' AND sn_child is null and parent_id is null AND level_parent in ('Sub Module','Software','Accesorries') AND tipe_aset in('Peminjaman Vendor', Sewa Vendor) 
+
+
+2024-02-29 09:15:16
+- Server 		: Prod
+- User 			: rizky.umbara@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Vendor)' at line 1
+- Query 		: SELECT * FROM sa_product_list WHERE status_aset = 'Aktif' AND status_product = 'Aktif' AND lokasi = 'Warehouse' AND sn_child is null and parent_id is null AND level_parent in ('Software','Accesorries') AND tipe_aset in('Peminjaman Vendor', Sewa Vendor) 
+
+
+2024-02-29 09:15:21
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-02-29 09:15:39
+- Server 		: Prod
+- User 			: rizky.umbara@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Vendor)' at line 1
+- Query 		: SELECT * FROM sa_product_list WHERE status_aset = 'Aktif' AND status_product = 'Aktif' AND lokasi = 'Warehouse' AND sn_child is null and parent_id is null AND level_parent in ('Module','Sub Module','Software','Accesorries') AND tipe_aset in('Peminjaman Vendor', Sewa Vendor) 
+
+
+2024-02-29 09:15:39
+- Server 		: Prod
+- User 			: rizky.umbara@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Vendor)' at line 1
+- Query 		: SELECT * FROM sa_product_list WHERE status_aset = 'Aktif' AND status_product = 'Aktif' AND lokasi = 'Warehouse' AND sn_child is null and parent_id is null AND level_parent in ('Sub Module','Software','Accesorries') AND tipe_aset in('Peminjaman Vendor', Sewa Vendor) 
+
+
+2024-02-29 09:15:39
+- Server 		: Prod
+- User 			: rizky.umbara@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Vendor)' at line 1
+- Query 		: SELECT * FROM sa_product_list WHERE status_aset = 'Aktif' AND status_product = 'Aktif' AND lokasi = 'Warehouse' AND sn_child is null and parent_id is null AND level_parent in ('Software','Accesorries') AND tipe_aset in('Peminjaman Vendor', Sewa Vendor) 
+
+
+2024-02-29 09:15:58
+- Server 		: Prod
+- User 			: rizky.umbara@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Vendor)' at line 1
+- Query 		: SELECT * FROM sa_product_list WHERE status_aset = 'Aktif' AND status_product = 'Aktif' AND lokasi = 'Warehouse' AND sn_child is null and parent_id is null AND level_parent in ('Module','Sub Module','Software','Accesorries') AND tipe_aset in('Peminjaman Vendor', Sewa Vendor) 
+
+
+2024-02-29 09:15:58
+- Server 		: Prod
+- User 			: rizky.umbara@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Vendor)' at line 1
+- Query 		: SELECT * FROM sa_product_list WHERE status_aset = 'Aktif' AND status_product = 'Aktif' AND lokasi = 'Warehouse' AND sn_child is null and parent_id is null AND level_parent in ('Sub Module','Software','Accesorries') AND tipe_aset in('Peminjaman Vendor', Sewa Vendor) 
+
+
+2024-02-29 09:15:58
+- Server 		: Prod
+- User 			: rizky.umbara@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Vendor)' at line 1
+- Query 		: SELECT * FROM sa_product_list WHERE status_aset = 'Aktif' AND status_product = 'Aktif' AND lokasi = 'Warehouse' AND sn_child is null and parent_id is null AND level_parent in ('Software','Accesorries') AND tipe_aset in('Peminjaman Vendor', Sewa Vendor) 
+
+
+2024-02-29 09:16:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Vendor)' at line 1
+- Query 		: SELECT * FROM sa_product_list WHERE status_aset = 'Aktif' AND status_product = 'Aktif' AND lokasi = 'Warehouse' AND sn_child is null and parent_id is null AND level_parent in ('Module','Sub Module','Software','Accesorries') AND tipe_aset in('Peminjaman Vendor', Sewa Vendor) 
+
+
+2024-02-29 09:17:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Vendor)' at line 1
+- Query 		: SELECT * FROM sa_product_list WHERE status_aset = 'Aktif' AND status_product = 'Aktif' AND lokasi = 'Warehouse' AND sn_child is null and parent_id is null AND level_parent in ('Module','Sub Module','Software','Accesorries') AND tipe_aset in('Peminjaman Vendor', Sewa Vendor)
+
+
+2024-02-29 09:17:54
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Vendor)' at line 1
+- Query 		: SELECT * FROM sa_product_list WHERE status_aset = 'Aktif' AND status_product = 'Aktif' AND lokasi = 'Warehouse' AND sn_child is null and parent_id is null AND level_parent in ('Module','Sub Module','Software','Accesorries') AND tipe_asset in('Peminjaman Vendor', Sewa Vendor)
+
+
+2024-02-29 09:18:22
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'tipe_asset' in 'where clause'
+- Query 		: SELECT * FROM sa_product_list WHERE status_aset = 'Aktif' AND status_product = 'Aktif' AND lokasi = 'Warehouse' AND sn_child is null and parent_id is null AND level_parent in ('Module','Sub Module','Software','Accesorries') AND tipe_asset in('Peminjaman Vendor', 'Sewa Vendor')
+
+
+2024-02-29 09:18:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'tipe_asset' in 'where clause'
+- Query 		: SELECT * FROM sa_product_list WHERE status_aset = 'Aktif' AND status_product = 'Aktif' AND lokasi = 'Warehouse' AND sn_child is null and parent_id is null AND level_parent in ('Module','Sub Module','Software','Accesorries') AND tipe_asset in ('Peminjaman Vendor', 'Sewa Vendor')
+
+
+2024-02-29 09:33:05
+- Server 		: Prod
+- User 			: rizky.umbara@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-02-29 10:22:10
+- Server 		: Prod
+- User 			: ia.refyta@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_outstanding
+- Status 		: Table 'sa_md_hcm.sa_trx_edo_cutoff' doesn't exist
+- Query 		: SELECT `tahun`, `periode` FROM `sa_trx_edo_cutoff` ORDER BY `tahun` DESC, `periode` DESC LIMIT 0,1
+
+
+2024-02-29 10:24:56
+- Server 		: Prod
+- User 			: fronita@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_outstanding
+- Status 		: Table 'sa_md_hcm.sa_trx_edo_cutoff' doesn't exist
+- Query 		: SELECT `tahun`, `periode` FROM `sa_trx_edo_cutoff` ORDER BY `tahun` DESC, `periode` DESC LIMIT 0,1
+
+
+2024-02-29 10:45:01
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_product_list WHERE parent_id = '' and status_product = 'Aktif'
+
+
+2024-02-29 10:45:01
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_product_list WHERE parent_id = '' and status_product = 'Aktif'
+
+
+2024-02-29 10:45:01
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * from sa_transaction where id = 'c6a16f9e4e48eb64614084519eea93af' 
+
+
+2024-02-29 10:48:13
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'like user_create %'Mega'%' at line 1
+- Query 		: select * from sa_transaction like user_create %'Mega'%
+
+
+2024-02-29 11:13:05
+- Server 		: Prod
+- User 			: syntia.ayu@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-02-29 11:36:23
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-02-29 11:38:27
+- Server 		: Prod
+- User 			: lucky.andiani@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-02-29 11:39:31
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_outstanding
+- Status 		: Table 'sa_md_hcm.sa_trx_edo_cutoff' doesn't exist
+- Query 		: SELECT `tahun`, `periode` FROM `sa_trx_edo_cutoff` ORDER BY `tahun` DESC, `periode` DESC LIMIT 0,1
+
+
+2024-02-29 13:39:23
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-02-29 14:05:39
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_outstanding
+- Status 		: Table 'sa_md_hcm.sa_trx_edo_cutoff' doesn't exist
+- Query 		: SELECT `tahun`, `periode` FROM `sa_trx_edo_cutoff` ORDER BY `tahun` DESC, `periode` DESC LIMIT 0,1
+
+
+2024-02-29 14:06:55
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_outstanding
+- Status 		: Table 'sa_md_hcm.sa_trx_edo_cutoff' doesn't exist
+- Query 		: SELECT `tahun`, `periode` FROM `sa_trx_edo_cutoff` ORDER BY `tahun` DESC, `periode` DESC LIMIT 0,1
+
+
+2024-02-29 14:08:31
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_outstanding
+- Status 		: Table 'sa_md_hcm.sa_trx_edo_cutoff' doesn't exist
+- Query 		: SELECT `tahun`, `periode` FROM `sa_trx_edo_cutoff` ORDER BY `tahun` DESC, `periode` DESC LIMIT 0,1
+
+
+2024-02-29 14:08:32
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_outstanding
+- Status 		: Table 'sa_md_hcm.sa_trx_edo_cutoff' doesn't exist
+- Query 		: SELECT `tahun`, `periode` FROM `sa_trx_edo_cutoff` ORDER BY `tahun` DESC, `periode` DESC LIMIT 0,1
+
+
+2024-02-29 14:09:40
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_outstanding
+- Status 		: Table 'sa_md_hcm.sa_trx_edo_cutoff' doesn't exist
+- Query 		: SELECT `tahun`, `periode` FROM `sa_trx_edo_cutoff` ORDER BY `tahun` DESC, `periode` DESC LIMIT 0,1
+
+
+2024-02-29 14:43:44
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_preschedule' doesn't exist
+- Query 		: select * from sa_preschedule WHERE project_id='IEAEOPF5I5A2KQOX'
+
+
+2024-02-29 14:46:07
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_outstanding
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'edo_submitted`,
+    SUM(
+    	IF(
+        	`status` = 'request approved',...' at line 10
+- Query 		: SELECT
+    `employee_name`,
+    SUM(
+        IF(
+            `status` = 'edo submitted',
+            1,
+            IF(
+                `status` = 'request approved',
+                IF(
+                    `flag_approval = 1,
+                    1,
+                    0
+                ),
+                0
+            )
+        )
+    ) AS `edo_submitted`,
+    SUM(
+    	IF(
+        	`status` = 'request approved',
+        	IF(
+                `flag_approval`=2,
+                1,
+                0
+            ),
+        	0
+        )
+    ) AS `edo_approved`,
+    SUM(
+    	IF(
+            `status` = 'edo rejected',
+            1,
+            0
+        )
+    ) AS `edo_rejected`,
+    SUM(
+        IF(
+            `status` = 'leave submitted',
+            IF(
+                `flag_approval` = 1,
+                1,
+                0
+            ),
+            0
+        )
+    ) AS `leave_submitted`,
+    SUM(
+	    IF(
+            `status` = 'leave approved',
+            IF(
+                `flag_approval` = 2,
+                1,
+                0
+            ),
+            0
+        )
+    ) AS `leave_approved`,
+    SUM(
+    	IF(
+            `status` = 'leave rejected',
+            1,
+            0
+        )
+    ) AS `leave_rejected`
+FROM
+    `sa_trx_edo_request`
+WHERE
+    `start_date` >= '2024-01-01' 
+    AND `end_date` <= '2024-02-29' 
+    AND (
+        `employee_name` = 'Fortuna Setyo Arumsari<fortuna@mastersystem.co.id>' 
+        OR `manager` = 'Fortuna Setyo Arumsari<fortuna@mastersystem.co.id>'
+        OR `leader` = 'Fortuna Setyo Arumsari<fortuna@mastersystem.co.id>'
+        )
+GROUP BY
+    `employee_name`;
+
+
+2024-02-29 14:59:30
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_preschedule' doesn't exist
+- Query 		: SELECT * FROM sa_preschedule WHERE project_id='IEAEOPF5I5FLSYXA'
+
+
+2024-02-29 15:23:05
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_wrike_project_list' doesn't exist
+- Query 		: select * from sa_wrike_project_list WHERE id='IEAEOPF5I5D4HKX6'
+
+
+2024-02-29 15:43:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'flag' in 'field list'
+- Query 		: INSERT INTO sa_initial_project (project_id,project_code,order_number,project_type,flag) VALUES ('IEAEOPF5I4343S3K','TT000121N0001','ORD-27021-T7S9N2','Implementation',0)
+
+
+2024-02-29 15:45:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'flag' in 'field list'
+- Query 		: INSERT INTO sa_initial_project (project_id,project_code,order_number,project_type,flag,job_id,approval_status,status) VALUES ('IEAEOPF5I4343S3K','TT000121N0001','ORD-27021-T7S9N2','Implementation',0,'Hilang','Approved',5)
+
+
+2024-02-29 16:04:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_preshedule' doesn't exist
+- Query 		: select * from sa_preshedule limit 10
+
+
+2024-02-29 16:06:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_wrike_task' doesn't exist
+- Query 		: SELECT * FROM sa_wrike_task LIMIT 10
+
+
+2024-02-29 16:19:17
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_view_wrike_assignment' doesn't exist
+- Query 		: desc sa_view_wrike_assignment
+
+
+2024-02-29 16:24:43
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.project_id' in 'where clause'
+- Query 		: SELECT b.project_id,b.task_id,a.* FROM sa_google_calendar.sa_schedule AS a 
+    JOIN sa_wrike_integrate.sa_wrike_task AS b ON a.permalink = b.permalink
+    WHERE a.project_id='IEAEOPF5I452Y2DS'
+
+
+2024-02-29 16:24:49
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.project_id' in 'where clause'
+- Query 		: SELECT b.project_id,b.task_id,a.* FROM sa_google_calendar.sa_schedule AS a 
+    JOIN sa_wrike_integrate.sa_wrike_task AS b ON a.permalink = b.permalink
+    WHERE a.project_id='IEAEOPF5I452Y2DS'
+
+
+2024-02-29 16:32:26
+- Server 		: Prod
+- User 			: rizky.adi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT `project_code`, `project_name` FROM `sa_mst_order_number` WHERE `so_number` LIKE '202%' AND `project_code` <> '' AND (`status` = 'approved' OR `status` = 'acknowledge') GROUP BY `project_code` ORDER BY `modified_date` DESC LIMIT 0,1000;
+
+
+2024-02-29 16:32:43
+- Server 		: Prod
+- User 			: rizky.adi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT `project_code`, `project_name` FROM `sa_mst_order_number` WHERE `so_number` LIKE '202%' AND `project_code` <> '' AND (`status` = 'approved' OR `status` = 'acknowledge') GROUP BY `project_code` ORDER BY `modified_date` DESC LIMIT 0,1000;
+
+
+2024-02-29 16:34:38
+- Server 		: Prod
+- User 			: rizky.adi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT `project_code`, `project_name` FROM `sa_mst_order_number` WHERE `so_number` LIKE '202%' AND `project_code` <> '' AND (`status` = 'approved' OR `status` = 'acknowledge') GROUP BY `project_code` ORDER BY `modified_date` DESC LIMIT 0,1000;
+
+
+2024-02-29 16:34:55
+- Server 		: Prod
+- User 			: rizky.adi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT `project_code`, `project_name` FROM `sa_mst_order_number` WHERE `so_number` LIKE '202%' AND `project_code` <> '' AND (`status` = 'approved' OR `status` = 'acknowledge') GROUP BY `project_code` ORDER BY `modified_date` DESC LIMIT 0,1000;
+
+
+2024-02-29 16:35:27
+- Server 		: Prod
+- User 			: rezha.aulia@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT `project_code`, `project_name` FROM `sa_mst_order_number` WHERE `so_number` LIKE '202%' AND `project_code` <> '' AND (`status` = 'approved' OR `status` = 'acknowledge') GROUP BY `project_code` ORDER BY `modified_date` DESC LIMIT 0,1000;
+
+
+2024-02-29 17:15:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: project_delay
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2024-02-29 17:15:52
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: project_delay
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2024-02-29 17:16:30
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_report_delay' doesn't exist
+- Query 		: select * from sa_report_delay
+
+
+2024-02-29 17:16:44
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_project_delay' doesn't exist
+- Query 		: select * from sa_project_delay
+
+
+2024-02-29 17:21:00
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: project_delay
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2024-02-29 17:25:28
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: project_delay
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2024-02-29 17:25:40
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: project_delay
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2024-02-29 17:25:50
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: project_delay
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2024-02-29 17:25:52
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: project_delay
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2024-02-29 17:25:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: project_delay
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2024-02-29 17:25:56
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: project_delay
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2024-02-29 17:27:28
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: project_delay
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2024-02-29 17:50:43
+- Server 		: Prod
+- User 			: giovanni.surya@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT `project_code`, `project_name` FROM `sa_mst_order_number` WHERE `so_number` LIKE '202%' AND `project_code` <> '' AND (`status` = 'approved' OR `status` = 'acknowledge') GROUP BY `project_code` ORDER BY `modified_date` DESC LIMIT 0,1000;
+
+
+2024-02-29 17:51:15
+- Server 		: Prod
+- User 			: giovanni.surya@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT `project_code`, `project_name` FROM `sa_mst_order_number` WHERE `so_number` LIKE '202%' AND `project_code` <> '' AND (`status` = 'approved' OR `status` = 'acknowledge') GROUP BY `project_code` ORDER BY `modified_date` DESC LIMIT 0,1000;
+
+
+2024-02-29 17:51:17
+- Server 		: Prod
+- User 			: giovanni.surya@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT `project_code`, `project_name` FROM `sa_mst_order_number` WHERE `so_number` LIKE '202%' AND `project_code` <> '' AND (`status` = 'approved' OR `status` = 'acknowledge') GROUP BY `project_code` ORDER BY `modified_date` DESC LIMIT 0,1000;
+
+
+2024-02-29 17:52:51
+- Server 		: Prod
+- User 			: giovanni.surya@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT `project_code`, `project_name` FROM `sa_mst_order_number` WHERE `so_number` LIKE '202%' AND `project_code` <> '' AND (`status` = 'approved' OR `status` = 'acknowledge') GROUP BY `project_code` ORDER BY `modified_date` DESC LIMIT 0,1000;
+
+
+2024-02-29 17:55:43
+- Server 		: Prod
+- User 			: giovanni.surya@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT `project_code`, `project_name` FROM `sa_mst_order_number` WHERE `so_number` LIKE '202%' AND `project_code` <> '' AND (`status` = 'approved' OR `status` = 'acknowledge') GROUP BY `project_code` ORDER BY `modified_date` DESC LIMIT 0,1000;
+
+
+2024-02-29 17:55:44
+- Server 		: Prod
+- User 			: giovanni.surya@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT `project_code`, `project_name` FROM `sa_mst_order_number` WHERE `so_number` LIKE '202%' AND `project_code` <> '' AND (`status` = 'approved' OR `status` = 'acknowledge') GROUP BY `project_code` ORDER BY `modified_date` DESC LIMIT 0,1000;
+
+
+2024-02-29 17:55:58
+- Server 		: Prod
+- User 			: giovanni.surya@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT `project_code`, `project_name` FROM `sa_mst_order_number` WHERE `so_number` LIKE '202%' AND `project_code` <> '' AND (`status` = 'approved' OR `status` = 'acknowledge') GROUP BY `project_code` ORDER BY `modified_date` DESC LIMIT 0,1000;
+
+
+2024-02-29 19:32:22
+- Server 		: Prod
+- User 			: zahira.nafira@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT `project_code`, `project_name` FROM `sa_mst_order_number` WHERE `so_number` LIKE '202%' AND `project_code` <> '' AND (`status` = 'approved' OR `status` = 'acknowledge') GROUP BY `project_code` ORDER BY `modified_date` DESC LIMIT 0,1000;
+
+
+2024-02-29 19:32:53
+- Server 		: Prod
+- User 			: zahira.nafira@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT `project_code`, `project_name` FROM `sa_mst_order_number` WHERE `so_number` LIKE '202%' AND `project_code` <> '' AND (`status` = 'approved' OR `status` = 'acknowledge') GROUP BY `project_code` ORDER BY `modified_date` DESC LIMIT 0,1000;
+
+
+2024-02-29 19:33:14
+- Server 		: Prod
+- User 			: zahira.nafira@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT `project_code`, `project_name` FROM `sa_mst_order_number` WHERE `so_number` LIKE '202%' AND `project_code` <> '' AND (`status` = 'approved' OR `status` = 'acknowledge') GROUP BY `project_code` ORDER BY `modified_date` DESC LIMIT 0,1000;
+
+
+2024-02-29 19:34:04
+- Server 		: Prod
+- User 			: zahira.nafira@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT `project_code`, `project_name` FROM `sa_mst_order_number` WHERE `so_number` LIKE '202%' AND `project_code` <> '' AND (`status` = 'approved' OR `status` = 'acknowledge') GROUP BY `project_code` ORDER BY `modified_date` DESC LIMIT 0,1000;

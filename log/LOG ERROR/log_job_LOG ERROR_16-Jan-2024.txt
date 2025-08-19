@@ -1,0 +1,267 @@
+File Error Log
+
+2024-01-16 09:08:07
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'Cisco' in 'field list'
+- Query 		: INSERT INTO sa_initial_jobroles (task_id,parent_id,project_id,project_code,resource_category_id,brand,total_mandays,flag) VALUES ('IEAEOPF5KRGHR47J','SERVICE BUDGET','IEAEOPF5I43IKAOF','TB002722D0019',3,Cisco,2,0)
+
+
+2024-01-16 10:12:26
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 2
+- Query 		: select * from sa_mst_order_number where project_code = 'TB013122B0008'
+'
+
+
+2024-01-16 10:13:03
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 2
+- Query 		: select * from sa_mst_order_number where project_code = 'TB013122B0008'
+'
+
+
+2024-01-16 10:40:32
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_mst_order_number' doesn't exist
+- Query 		: select * from sa_mst_order_number where project_code = 'TB013122B0008'
+
+
+
+2024-01-16 10:40:37
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_mst_order_number' doesn't exist
+- Query 		: select * from sa_mst_order_number where project_code = 'TB013122B0008'
+
+
+
+2024-01-16 10:40:48
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_mst_order_number' doesn't exist
+- Query 		: select * from sa_mst_order_number where project_code = 'TB013122B0008'
+
+
+
+2024-01-16 11:14:30
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_mst_order_number' doesn't exist
+- Query 		: select * from sa_mst_order_number where project_code = 'TB013122B0008'
+
+
+2024-01-16 11:14:42
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_mst_prject_list' doesn't exist
+- Query 		: select * from sa_mst_prject_list where project_code = 'TB013122B0008'
+
+
+2024-01-16 11:14:49
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_trx_prject_list' doesn't exist
+- Query 		: select * from sa_trx_prject_list where project_code = 'TB013122B0008'
+
+
+2024-01-16 11:41:51
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'amount_idr' in 'field list'
+- Query 		: select amount_idr, amount from sa_mst_order_number where `so_number`  = '2022/SO/0129'
+
+
+2024-01-16 11:43:01
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 2
+- Query 		: select project_code, so_number, order_number,amount from sa_mst_order_number where `so_number`  = '2022/SO/1699'
+'
+
+
+2024-01-16 13:57:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_wrike_project_list' doesn't exist
+- Query 		: select * from sa_wrike_project_list WHERE project_code='TI001222E0007'
+
+
+2024-01-16 14:00:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Nama like 'Desi%'' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE project_code = 'TI001223E0012' Nama like 'Desi%'
+
+
+2024-01-16 14:05:37
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s `sa_dashboard_kpi`.`sa_user`.`kpi_status` = tahun_review = 2023 AND `sa_da...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE %s `sa_dashboard_kpi`.`sa_user`.`kpi_status` = tahun_review = 2023 AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Desi%' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2024-01-16 14:06:05
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_productivity_alluser' doesn't exist
+- Query 		: select * from sa_productivity_alluser WHERE project_id='IEAEOPF5I5AGTWMN'
+
+
+2024-01-16 14:14:15
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboar...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE `sa_dashboard_kpi`.`sa_user`.`kpi_status` = `tahun_review` = 2023 AND  AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2024-01-16 14:14:21
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboar...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE `sa_dashboard_kpi`.`sa_user`.`kpi_status` = `tahun_review` = 2023 AND  AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2024-01-16 14:14:23
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboar...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE `sa_dashboard_kpi`.`sa_user`.`kpi_status` = `tahun_review` = 2023 AND  AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2024-01-16 14:14:33
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboar...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE `sa_dashboard_kpi`.`sa_user`.`kpi_status` = `tahun_review` = 2023 AND  AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2024-01-16 14:15:50
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboar...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE `sa_dashboard_kpi`.`sa_user`.`kpi_status` = `tahun_review` = 2023 AND  AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2024-01-16 14:18:28
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboar...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE `sa_dashboard_kpi`.`sa_user`.`kpi_status` = `tahun_review` = 2023 AND  AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2024-01-16 14:18:36
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboar...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE `sa_dashboard_kpi`.`sa_user`.`kpi_status` = `tahun_review` = 2023 AND  AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2024-01-16 14:18:37
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboar...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE `sa_dashboard_kpi`.`sa_user`.`kpi_status` = `tahun_review` = 2023 AND  AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2024-01-16 14:18:47
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboar...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE `sa_dashboard_kpi`.`sa_user`.`kpi_status` = `tahun_review` = 2023 AND  AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2024-01-16 14:19:00
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboar...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE `sa_dashboard_kpi`.`sa_user`.`kpi_status` = `tahun_review` = 2023 AND  AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE 'Reviewed' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2024-01-16 14:19:53
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `sa_dashboard_kpi`.`sa_user`.`kpi_status` = 'Reviewed' AND `sa_dashboard_...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE `sa_dashboard_kpi`.`sa_user`.`tahun_review` = `tahun_review` = 2023 AND  AND `sa_dashboard_kpi`.`sa_user`.`kpi_status` = 'Reviewed' AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE '%desi.permatasari@mastersystem.co.id%' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2024-01-16 14:28:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_kpi_board' doesn't exist
+- Query 		: select a.status,b.kpi_status from sa_kpi_board a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.status='Reviewed'
+
+
+2024-01-16 14:29:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'tahun_review' in 'field list'
+- Query 		: UPDATE sa_kpi_board SET tahun_review=2023 WHERE order_number='ORD-26788-Z2D7L2'
+
+
+2024-01-16 14:47:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_dashboard_kpi_pl' doesn't exist
+- Query 		: DELETE FROM sa_dashboard_kpi_pl WHERE project_code='TP031322E0001'

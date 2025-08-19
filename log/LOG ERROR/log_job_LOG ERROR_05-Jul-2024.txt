@@ -1,0 +1,195 @@
+File Error Log
+
+2024-07-05 09:22:17
+- Server 		: Prod
+- User 			: muhamad.dicky@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22455,31,3,1,6,'HPE',250,NULL,1,'Muhammad Dicky Hans Setiawan<muhamad.dicky@mastersystem.co.id>')
+
+
+2024-07-05 09:22:17
+- Server 		: Prod
+- User 			: muhamad.dicky@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22455,71,3,1,8,'HPE',250,NULL,1,'Muhammad Dicky Hans Setiawan<muhamad.dicky@mastersystem.co.id>')
+
+
+2024-07-05 11:10:31
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 1, `brand` = 'Fortinet', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 62 AND `service_type`= 1
+
+
+2024-07-05 11:10:31
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 8, `brand` = 'Fortinet', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 72 AND `service_type`= 1
+
+
+2024-07-05 13:33:41
+- Server 		: Prod
+- User 			: bayu.santoso@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,21,2,1,3,'Cisco',350,1,1,'Bayu Santoso<bayu.santoso@mastersystem.co.id>')
+
+
+2024-07-05 13:33:41
+- Server 		: Prod
+- User 			: bayu.santoso@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,51,2,1,1,'Cisco',700,1,1,'Bayu Santoso<bayu.santoso@mastersystem.co.id>')
+
+
+2024-07-05 13:33:41
+- Server 		: Prod
+- User 			: bayu.santoso@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,2,1,5,'Cisco',350,1,1,'Bayu Santoso<bayu.santoso@mastersystem.co.id>')
+
+
+2024-07-05 13:33:41
+- Server 		: Prod
+- User 			: bayu.santoso@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,2,1,9,'Cisco',250,1,1,'Bayu Santoso<bayu.santoso@mastersystem.co.id>')
+
+
+2024-07-05 14:58:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_general_informations WHERE so_number='2023/SO/2455'' at line 1
+- Query 		: SELECT * sa_general_informations WHERE so_number='2023/SO/2455'
+
+
+2024-07-05 14:59:31
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_notification.sa_notification' doesn't exist
+- Query 		: 
+
+SELECT * FROM sa_notification ORDER BY notif_id DESC limit 1
+
+
+2024-07-05 14:59:42
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_notification.sa_notification' doesn't exist
+- Query 		: 
+SELECT * FROM sa_notification limit 10
+
+
+2024-07-05 15:23:36
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE email_id IN (15,18)' at line 1
+- Query 		: 
+
+DELETE sa_hcm_requirement_interview WHERE email_id IN (15,18)
+
+
+
+
+2024-07-05 15:24:31
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE email_id IN (15,18)' at line 1
+- Query 		: 
+
+DELETE sa_hcm_requirement_interview WHERE email_id IN (15,18)
+
+
+
+
+2024-07-05 15:27:19
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'email_id' in 'where clause'
+- Query 		: 
+
+UPDATE sa_hcm_requirement set status = 'Proses Offering' WHERE email_id = 12
+
+
+
+
+2024-07-05 15:36:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'CR_approval_sales' in 'field list'
+- Query 		: UPDATE sa_general_informations SET change_request_status='submission_to_be_reviewed',change_request_approval_type='submission_approved',change_request_approval_type2='submission_approved',CR_approval_sales='submission_approved',CR_approval_pmo='submission_approved' WHERE so_number='2023/SO/2455'
+
+
+2024-07-05 16:02:05
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_folder_project_cr' doesn't exist
+- Query 		: SELECT * FROM sa_folder_project_cr limit 10
+
+
+2024-07-05 16:02:14
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 1, `brand` = 'Fortinet', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 62 AND `service_type`= 1
+
+
+2024-07-05 16:02:14
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 8, `brand` = 'Fortinet', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 72 AND `service_type`= 1
+
+
+2024-07-05 16:05:16
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 1, `brand` = 'Fortinet', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 62 AND `service_type`= 1
+
+
+2024-07-05 16:05:16
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 8, `brand` = 'Fortinet', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 72 AND `service_type`= 1

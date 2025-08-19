@@ -1,0 +1,39 @@
+13-Nov-2024 10:08:26
+- SubModule : 
+- Status    : Caught 'get_sql' error - [desc sa_email_renwal] Table 'sa_dashboard_kpi.sa_email_renwal' doesn't exist
+
+13-Nov-2024 10:13:52
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_assesment WHERE riskassesment LIKE '%TESTING DESKRIPSI RISK%'] Table 'sa_change_request.sa_assesment' doesn't exist
+
+13-Nov-2024 10:53:14
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_trx_projec_implementations where project_id=5556] Table 'sa_ps_service_budgets.sa_trx_projec_implementations' doesn't exist
+
+13-Nov-2024 13:40:52
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_resource_assignment WHERE project_code='TB002323I0010'] Table 'sa_dashboard_kpi.sa_resource_assignment' doesn't exist
+
+13-Nov-2024 14:49:34
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT *
+FROM sa_trx_project_list
+WHERE project_name ILIKE '%Pertamina Training%'
+] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ILIKE '%Pertamina Training%'' at line 3
+
+13-Nov-2024 15:11:05
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_rental_log_transaction where nomor_seri = 'FOC2652N17S'] Unknown column 'nomor_seri' in 'where clause'
+
+13-Nov-2024 15:37:39
+- SubModule : 
+- Status    : Caught 'get_sql' error - [INSERT INTO sa_temporary_resource (project_code,project_id,order_number,no_so,project_type,customer_name,project_name,resource_email,project_roles,start_date,end_date,status,created_by) VALUES ('TB002324I0073','IEAEOPF5I5NOD4UG','ORD-2024-02511','2024/SO/2208','Maintenance','BANK UOB INDONESIA','Quotation for Renewal Citrix License 2024 - 2025 Maintenance','Kosmas Asri Kusuma Dewa<kosmas.ari@mastersystem.co.id>','Technical Leader','2024-07-01','2025-06-30','Penuh','Annisa Nur Hapifah<annisa.hapifah@mastersystem.co.id>')] Field 'roles' doesn't have a default value
+
+13-Nov-2024 15:56:27
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_data_so where project_code='TB018122B0002'] Unknown column 'project_code' in 'where clause'
+
+13-Nov-2024 15:56:51
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_kpi_so_wr where project_code_kpi='TB018122B0002'] Unknown column 'project_code_kpi' in 'where clause'
+

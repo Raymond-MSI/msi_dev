@@ -1,0 +1,846 @@
+File Error Log
+
+2024-04-19 17:53:47
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 18, 1
+
+
+2024-04-19 17:53:47
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-04-19 17:53:47
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-04-12" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-04-19 18:01:38
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 18, 1
+
+
+2024-04-19 18:01:38
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-04-19 18:01:38
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-04-12" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-04-19 18:01:44
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 18, 1
+
+
+2024-04-19 18:01:44
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-04-19 18:01:45
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-04-12" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-04-19 18:01:55
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'galih.putro@mastersystem.co.id'
+
+
+2024-04-19 18:01:55
+- Server 		: Prod
+- User 			: galih.putro
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 18, 1
+
+
+2024-04-19 18:01:55
+- Server 		: Prod
+- User 			: galih.putro
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-04-19 18:01:55
+- Server 		: Prod
+- User 			: galih.putro
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-04-12" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-04-19 18:01:56
+- Server 		: Prod
+- User 			: galih.putro
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC
+
+
+2024-04-19 18:01:56
+- Server 		: Prod
+- User 			: galih.putro
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_notification WHERE notif_to LIKE '%galih.putro%' AND notif_status=1 ORDER BY notif_date DESC LIMIT 0, 25
+
+
+2024-04-19 18:01:56
+- Server 		: Prod
+- User 			: galih.putro
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='galih.putro'
+
+
+2024-04-19 18:01:56
+- Server 		: Prod
+- User 			: galih.putro
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='galih.putro'
+
+
+2024-04-19 18:01:56
+- Server 		: Prod
+- User 			: galih.putro
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'
+
+
+2024-04-19 18:01:56
+- Server 		: Prod
+- User 			: galih.putro
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_project_list WHERE (status='draft' OR status='rejected' OR status='reopen') AND (create_by='galih.putro' OR sales_name LIKE '%galih.putro%') ORDER BY project_id DESC LIMIT 0, 100
+
+
+2024-04-19 18:02:06
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 18, 1
+
+
+2024-04-19 18:02:07
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-04-19 18:02:07
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-04-12" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-04-19 18:44:38
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 18, 1
+
+
+2024-04-19 18:44:38
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-04-19 18:44:38
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-04-12" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-04-19 18:45:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 18, 1
+
+
+2024-04-19 18:45:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-04-19 18:45:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-04-12" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-04-19 18:45:09
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 18, 1
+
+
+2024-04-19 18:45:09
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-04-19 18:45:09
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-04-12" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-04-19 18:45:20
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_employees WHERE email = 'yanuar.reza@mastersystem.co.id'
+
+
+2024-04-19 18:45:20
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 18, 1
+
+
+2024-04-19 18:45:20
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-04-19 18:45:20
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-04-12" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-04-19 18:45:20
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC
+
+
+2024-04-19 18:45:20
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_notification WHERE notif_to LIKE '%yanuar.reza%' AND notif_status=1 ORDER BY notif_date DESC LIMIT 0, 25
+
+
+2024-04-19 18:45:20
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='yanuar.reza'
+
+
+2024-04-19 18:45:21
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='yanuar.reza'
+
+
+2024-04-19 18:45:21
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: select `solution_name`, avg(coalesce(`product`,0)) AS `product` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `so_number` IN (select `so_number` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `product`>0 AND `sa_trx_project_solutions`.`modified_date`>='2023-04-19' group by `so_number` order by `so_number`) group by `solution_name` order by `so_number`, `solution_name`;
+
+
+2024-04-19 18:45:21
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: select `solution_name`, avg(coalesce(`services`,0)) AS `service` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `so_number` IN (select `so_number` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `services`>0 AND `sa_trx_project_solutions`.`modified_date`>'2023-04-19' group by `so_number` order by `so_number`) group by `solution_name` order by `so_number`;
+
+
+2024-04-19 18:45:21
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE status_order=0
+
+
+2024-04-19 18:45:21
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE status_order=1
+
+
+2024-04-19 18:45:21
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number
+
+
+2024-04-19 18:45:21
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE create_date >= '2024-04-18' AND `so_number` LIKE '%/SO/%' ORDER BY create_date DESC
+
+
+2024-04-19 18:45:21
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE status =  'released'
+
+
+2024-04-19 18:45:21
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE status =  'open'
+
+
+2024-04-19 18:45:21
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE status =  'pending approval'
+
+
+2024-04-19 18:45:21
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE so_date >= '2024-04-18' ORDER BY so_date DESC
+
+
+2024-04-19 18:45:21
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_employees WHERE email='yanuar.reza' ORDER BY resign_date
+
+
+2024-04-19 18:45:21
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `employee_name`, SUM(IF( `status` = 'drafted', 1, 0) ) AS `edo_draft`, SUM(IF( `status` = 'edo submitted', 1, 0) ) AS `edo_submitted`, SUM(IF( `status` = 'edo rejected', 1, 0) ) AS `edo_rejected`, SUM(IF( `status` = 'request approved', 1, 0) ) AS `edo_approved`, SUM(IF( `status` = 'leave submitted', 1, 0) ) AS `leave_submitted`, SUM(IF( `status` = 'leave rejected', 1, 0) ) AS `leave_rejected`, SUM(IF( `status` = 'completed', 1, 0) ) AS `completed` FROM `sa_trx_edo_request` WHERE `employee_name` LIKE '%yanuar.reza%' GROUP BY `employee_name`; 
+
+
+2024-04-19 18:45:21
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`,`post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-04-12" ORDER BY `post_modified_gmt` DESC LIMIT 0,5
+
+
+2024-04-19 18:45:21
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE `post_type`="post" AND `post_status`="publish" AND `post_modified_gmt`>"2024-04-12" ORDER BY `post_modified_gmt` DESC LIMIT 0,1
+
+
+2024-04-19 18:45:21
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT post_title, post_modified, post_name, post_content FROM wp_posts WHERE post_status="publish" AND post_type="cma_thread" AND `post_modified_gmt`>"2024-04-12" ORDER BY post_modified DESC LIMIT 0,1
+
+
+2024-04-19 18:45:21
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key="TITLE_OF_WEBSITE"
+
+
+2024-04-19 18:45:58
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		: new_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC
+
+
+2024-04-19 18:45:58
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		: new_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_notification WHERE notif_to LIKE '%yanuar.reza%' AND notif_status=1 ORDER BY notif_date DESC LIMIT 0, 25
+
+
+2024-04-19 18:45:58
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		: new_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='yanuar.reza'
+
+
+2024-04-19 18:45:58
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		: new_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT employee_email FROM sa_view_employees WHERE employee_email = 'yanuar.reza'  AND job_structure LIKE '%JG ATN WM HCM Recruitment%' AND resign_date is null
+
+
+2024-04-19 18:45:58
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		: new_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT employee_email FROM sa_view_employees WHERE employee_email = 'yanuar.reza'  AND job_structure LIKE '%JG ATN WM HCM Recruitment%' AND resign_date is null
+
+
+2024-04-19 18:45:59
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		: new_request
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key="TITLE_OF_WEBSITE"
+
+
+2024-04-19 18:45:59
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC
+
+
+2024-04-19 18:46:00
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_notification WHERE notif_to LIKE '%yanuar.reza%' AND notif_status=1 ORDER BY notif_date DESC LIMIT 0, 25
+
+
+2024-04-19 18:46:00
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='yanuar.reza'
+
+
+2024-04-19 18:46:00
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='yanuar.reza'
+
+
+2024-04-19 18:46:00
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='yanuar.reza' AND `resign_date` IS NULL
+
+
+2024-04-19 18:46:00
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='yanuar.reza'
+
+
+2024-04-19 18:46:00
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email = 'yanuar.reza' AND `resign_date` IS NULL
+
+
+2024-04-19 18:46:00
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='yanuar.reza'
+
+
+2024-04-19 18:46:00
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='yanuar.reza' AND `resign_date` IS NULL
+
+
+2024-04-19 18:46:00
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='yanuar.reza'
+
+
+2024-04-19 18:46:00
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE (`status` = 'edo submitted' OR (`status` = 'request approved' AND `flag_approval` = 1)) AND `employee_name` LIKE '%yanuar.reza%' AND `start_date` >= '2023-01-01'
+
+
+2024-04-19 18:46:00
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT `ID`,`post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_title` LIKE "%EDO%" AND `post_modified_gmt`>"2024-04-12" ORDER BY `post_modified_gmt` DESC LIMIT 0,1
+
+
+2024-04-19 18:46:00
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key="TITLE_OF_WEBSITE"
+
+
+2024-04-19 18:46:45
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC
+
+
+2024-04-19 18:46:45
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_notification WHERE notif_to LIKE '%yanuar.reza%' AND notif_status=1 ORDER BY notif_date DESC LIMIT 0, 25
+
+
+2024-04-19 18:46:45
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='yanuar.reza'
+
+
+2024-04-19 18:46:45
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='yanuar.reza'
+
+
+2024-04-19 18:46:45
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: select `solution_name`, avg(coalesce(`product`,0)) AS `product` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `so_number` IN (select `so_number` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `product`>0 AND `sa_trx_project_solutions`.`modified_date`>='2023-04-19' group by `so_number` order by `so_number`) group by `solution_name` order by `so_number`, `solution_name`;
+
+
+2024-04-19 18:46:45
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: select `solution_name`, avg(coalesce(`services`,0)) AS `service` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `so_number` IN (select `so_number` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `services`>0 AND `sa_trx_project_solutions`.`modified_date`>'2023-04-19' group by `so_number` order by `so_number`) group by `solution_name` order by `so_number`;
+
+
+2024-04-19 18:46:45
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE status_order=0
+
+
+2024-04-19 18:46:45
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE status_order=1
+
+
+2024-04-19 18:46:45
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number
+
+
+2024-04-19 18:46:45
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE create_date >= '2024-04-18' AND `so_number` LIKE '%/SO/%' ORDER BY create_date DESC
+
+
+2024-04-19 18:46:45
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE status =  'released'
+
+
+2024-04-19 18:46:45
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE status =  'open'
+
+
+2024-04-19 18:46:45
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE status =  'pending approval'
+
+
+2024-04-19 18:46:45
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_orders WHERE so_date >= '2024-04-18' ORDER BY so_date DESC
+
+
+2024-04-19 18:46:45
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_employees WHERE email='yanuar.reza' ORDER BY resign_date
+
+
+2024-04-19 18:46:45
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `employee_name`, SUM(IF( `status` = 'drafted', 1, 0) ) AS `edo_draft`, SUM(IF( `status` = 'edo submitted', 1, 0) ) AS `edo_submitted`, SUM(IF( `status` = 'edo rejected', 1, 0) ) AS `edo_rejected`, SUM(IF( `status` = 'request approved', 1, 0) ) AS `edo_approved`, SUM(IF( `status` = 'leave submitted', 1, 0) ) AS `leave_submitted`, SUM(IF( `status` = 'leave rejected', 1, 0) ) AS `leave_rejected`, SUM(IF( `status` = 'completed', 1, 0) ) AS `completed` FROM `sa_trx_edo_request` WHERE `employee_name` LIKE '%yanuar.reza%' GROUP BY `employee_name`; 
+
+
+2024-04-19 18:46:45
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`,`post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-04-12" ORDER BY `post_modified_gmt` DESC LIMIT 0,5
+
+
+2024-04-19 18:46:45
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE `post_type`="post" AND `post_status`="publish" AND `post_modified_gmt`>"2024-04-12" ORDER BY `post_modified_gmt` DESC LIMIT 0,1
+
+
+2024-04-19 18:46:45
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT post_title, post_modified, post_name, post_content FROM wp_posts WHERE post_status="publish" AND post_type="cma_thread" AND `post_modified_gmt`>"2024-04-12" ORDER BY post_modified DESC LIMIT 0,1
+
+
+2024-04-19 18:46:46
+- Server 		: Prod
+- User 			: yanuar.reza
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key="TITLE_OF_WEBSITE"

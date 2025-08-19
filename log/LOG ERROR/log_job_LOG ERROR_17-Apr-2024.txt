@@ -1,0 +1,119 @@
+File Error Log
+
+2024-04-17 09:42:14
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: new_request
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''%Enterprise Service%' AND job_level = 2' at line 1
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email IS NOT NULL AND organization_name '%Enterprise Service%' AND job_level = 2
+
+
+2024-04-17 10:57:16
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+- Query 		: ALTER TABLE `sa_log_transaction`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,
+
+
+2024-04-17 10:57:33
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COMMIT' at line 3
+- Query 		: ALTER TABLE `sa_log_transaction`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+COMMIT;
+
+
+2024-04-17 10:58:21
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COMMIT' at line 3
+- Query 		: ALTER TABLE `sa_transaction_product`
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+COMMIT;
+
+
+2024-04-17 11:00:52
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-employees' at line 1
+- Query 		: select * from sa_view-employees
+
+
+2024-04-17 11:01:55
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COMMIT' at line 3
+- Query 		: ALTER TABLE `sa_transaction`
+  ADD PRIMARY KEY (`id`);
+COMMIT;
+
+
+2024-04-17 11:02:08
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect table definition; there can be only one auto column and it must be defined as a key
+- Query 		: ALTER TABLE sa_transaction MODIFY COLUMN id INT AUTO_INCREMENT;
+
+
+
+2024-04-17 11:02:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COMMIT' at line 3
+- Query 		: ALTER TABLE `sa_transaction`
+  ADD PRIMARY KEY (`id`);
+COMMIT;
+
+
+
+2024-04-17 11:20:01
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_project_information' doesn't exist
+- Query 		: select * from sa_project_information LIMIT 1000
+
+
+2024-04-17 11:20:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_folder_information' doesn't exist
+- Query 		: select * from sa_folder_information LIMIT 1000
+
+
+2024-04-17 16:13:38
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: project_delay
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2024-04-17 16:14:42
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: project_delay
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'

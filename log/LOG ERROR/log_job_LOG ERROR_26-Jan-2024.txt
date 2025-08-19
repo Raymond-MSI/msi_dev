@@ -1,0 +1,96 @@
+File Error Log
+
+2024-01-26 10:55:09
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee' doesn't exist
+- Query 		: select employee_name, job_id from sa_mst_employee where employee_name like '%Iwan Rusmin%'
+
+
+2024-01-26 10:56:29
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: select * from sa_mst_job where id = 'BA09AEED-7F2F-4FC4-80CC-148A580397D5'
+
+
+2024-01-26 10:59:48
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECTa.employee_name, b.job_id 
+FROM sa_mst_employees a 
+LEFT JOIN sa_mst_...' at line 1
+- Query 		: SELECTa.employee_name, b.job_id 
+FROM sa_mst_employees a 
+LEFT JOIN sa_mst_job b 
+ON a.job_id = b.job_id 
+WHERE a.employee_name like '%Malik Perwiro Joyo%'
+
+
+2024-01-26 11:01:14
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'c.parent_id' in 'on clause'
+- Query 		: SELECT a.employee_name, b.job_id, c.employee_name 
+FROM sa_mst_employees a 
+LEFT JOIN sa_mst_job b 
+ON a.job_id = b.job_id 
+LEFT JOIN sa_mst_employees c
+ON a.job_id = c.parent_id
+WHERE a.employee_name like '%Malik Perwiro Joyo%'
+
+
+2024-01-26 11:01:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'c.parent_id' in 'on clause'
+- Query 		: SELECT a.employee_name, b.job_id, c.employee_name 
+FROM sa_mst_employees a 
+LEFT JOIN sa_mst_job b 
+ON a.job_id = b.job_id 
+LEFT JOIN sa_mst_employees c
+ON b.job_id = c.parent_id
+WHERE a.employee_name like '%Malik Perwiro Joyo%'
+
+
+2024-01-26 11:01:39
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'c.parent_id' in 'on clause'
+- Query 		: SELECT a.employee_name, b.job_id, c.employee_name 
+FROM sa_mst_employees a 
+LEFT JOIN sa_mst_job b 
+ON a.job_id = b.job_id 
+LEFT JOIN sa_mst_employees c
+ON b.job_id = c.parent_id
+WHERE a.employee_name like '%Malik Perwiro Joyo%'
+
+
+2024-01-26 14:19:46
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-01-19' AND task_date <= '2024-02-02' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-01-26 15:06:49
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'name like '%damar%'' at line 1
+- Query 		: select * from sa_view_employees_v2 where employe name like '%damar%'

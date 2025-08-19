@@ -1,0 +1,56 @@
+File Error Log
+
+2024-09-04 09:22:03
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_rental_transaction_product.status_product IS NULL AND sa_rental_transactio...' at line 1
+- Query 		: SELECT COALESCE(sa_rental_product_list.level_parent, 'Blank') AS level_parent, COUNT(sa_rental_product_list.part_number) AS count_number_part FROM sa_rental_product_list LEFT JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri WHERE sa_rental_product_list.lokasi != 'Remove' AND sa_rental_product_list.tipe_aset = 'Titipan' sa_rental_transaction_product.status_product IS NULL AND sa_rental_transaction_product.status_return IS NULL GROUP BY COALESCE(sa_rental_product_list.level_parent, 'Blank')
+
+
+2024-09-04 09:22:14
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDsa_rental_transaction_product.status_product IS NULL AND sa_rental_transac...' at line 1
+- Query 		: SELECT COALESCE(sa_rental_product_list.level_parent, 'Blank') AS level_parent, COUNT(sa_rental_product_list.part_number) AS count_number_part FROM sa_rental_product_list LEFT JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri WHERE sa_rental_product_list.lokasi != 'Remove' AND sa_rental_product_list.tipe_aset = 'Titipan' ANDsa_rental_transaction_product.status_product IS NULL AND sa_rental_transaction_product.status_return IS NULL GROUP BY COALESCE(sa_rental_product_list.level_parent, 'Blank')
+
+
+2024-09-04 15:56:51
+- Server 		: Prod
+- User 			: utari.maharani@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB002323I0046', 
+                    'ORD-2024-00912', 
+                    'backup_mt_date',
+                    'Putu Utari Maharani Pradeshi Duarsa<utari.maharani@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-04 15:56:51
+- Server 		: Prod
+- User 			: utari.maharani@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB002323I0046', 
+                    'ORD-2024-00912', 
+                    'pmr_date',
+                    'Putu Utari Maharani Pradeshi Duarsa<utari.maharani@mastersystem.co.id>',
+                    NULLIF('Array',''))

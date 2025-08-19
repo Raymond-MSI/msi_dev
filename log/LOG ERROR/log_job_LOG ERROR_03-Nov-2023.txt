@@ -1,0 +1,978 @@
+File Error Log
+
+2023-11-03 08:45:12
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%undefined%'
+
+
+2023-11-03 08:46:09
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%undefined%'
+
+
+2023-11-03 08:47:02
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-03 08:47:08
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FDO2201A0Q7%'
+
+
+2023-11-03 08:56:18
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FDO2201A0Q7%'
+
+
+2023-11-03 09:14:21
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?as?mantul' at line 11
+- Query 		: SELECT
+	COUNT(updated_task)
+FROM
+	(SELECT
+	COUNT(project_id) as updated_task
+FROM
+	sa_view_task_timelog 
+WHERE
+	project_id = 'IEAEOPF5I47KXPCM' 
+GROUP BY
+	task_id, resource_id)�as�mantul
+
+
+2023-11-03 09:15:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?as?mantul' at line 11
+- Query 		: SELECT
+	COUNT(mantul.updated_task)
+FROM
+	(SELECT
+	COUNT(project_id) as updated_task
+FROM
+	sa_view_task_timelog 
+WHERE
+	project_id = 'IEAEOPF5I47KXPCM' 
+GROUP BY
+	task_id, resource_id)�as�mantul
+
+
+2023-11-03 09:15:15
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?as?mantul' at line 11
+- Query 		: SELECT
+	COUNT(mantul.updated_task)
+FROM
+	(SELECT
+	COUNT(project_id) as updated_task
+FROM
+	sa_view_task_timelog 
+WHERE
+	project_id = 'IEAEOPF5I47KXPCM' 
+GROUP BY
+	task_id, resource_id)�as�mantul
+
+
+2023-11-03 09:23:44
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Unknown column 'timelog_id' in 'field list'
+- Query 		: SELECT COUNT(timelog_id) AS updated_task FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I47KXPCM' GROUP BY task_id
+
+
+2023-11-03 09:24:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Unknown column 'timelog_id' in 'field list'
+- Query 		: SELECT COUNT(timelog_id) AS updated_task FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I47KXPCM' GROUP BY task_id
+
+
+2023-11-03 09:24:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Unknown column 'timelog_id' in 'field list'
+- Query 		: SELECT COUNT(timelog_id) AS updated_task FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I47KXPCM' GROUP BY task_id
+
+
+2023-11-03 09:24:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Unknown column 'timelog_id' in 'field list'
+- Query 		: SELECT COUNT(timelog_id) AS updated_task FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I4ZVOYU6' GROUP BY task_id
+
+
+2023-11-03 09:26:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Unknown column 'timelog_id' in 'field list'
+- Query 		: SELECT COUNT(timelog_id) AS updated_task FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I4ZVOYU6' GROUP BY task_id
+
+
+2023-11-03 09:26:38
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Unknown column 'timelog_id' in 'field list'
+- Query 		: SELECT COUNT(timelog_id) AS updated_task FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I4ZVOYU6' GROUP BY task_id
+
+
+2023-11-03 09:26:52
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?as?mantul' at line 11
+- Query 		: SELECT
+	COUNT(updated_task)
+FROM
+	(SELECT
+	COUNT(project_id) as updated_task
+FROM
+	sa_view_task_timelog 
+WHERE
+	project_id = 'IEAEOPF5I4ZVOYU6' 
+GROUP BY
+	task_id, resource_id)�as�mantul
+
+
+2023-11-03 09:26:53
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?as?mantul' at line 11
+- Query 		: SELECT
+	COUNT(updated_task)
+FROM
+	(SELECT
+	COUNT(project_id) as updated_task
+FROM
+	sa_view_task_timelog 
+WHERE
+	project_id = 'IEAEOPF5I4ZVOYU6' 
+GROUP BY
+	task_id, resource_id)�as�mantul
+
+
+2023-11-03 09:27:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Unknown column 'timelog_id' in 'field list'
+- Query 		: SELECT COUNT(timelog_id) AS updated_task FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I4ZVOYU6' GROUP BY task_id
+
+
+2023-11-03 09:27:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Unknown column 'timelog_id' in 'field list'
+- Query 		: SELECT COUNT(timelog_id) AS updated_task FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I4ZVOYU6' GROUP BY task_id
+
+
+2023-11-03 09:27:28
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Unknown column 'timelog_id' in 'field list'
+- Query 		: SELECT COUNT(timelog_id) AS updated_task FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I4ZVOYU6' GROUP BY task_id
+
+
+2023-11-03 09:28:16
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Table 'sa_productivity.sa_view_task_timelog' doesn't exist
+- Query 		: SELECT COUNT(timelog_id) AS updated_task FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I4ZVOYU6' GROUP BY task_id
+
+
+2023-11-03 09:28:16
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Table 'sa_productivity.sa_view_task_timelog' doesn't exist
+- Query 		: SELECT COUNT(timelog_id) AS updated_task FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I4ZVOYU6' GROUP BY task_id
+
+
+2023-11-03 09:28:30
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Table 'sa_productivity.sa_view_task_timelog' doesn't exist
+- Query 		: SELECT COUNT(timelog_id) AS updated_task FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I44TAUDN' GROUP BY task_id
+
+
+2023-11-03 09:28:30
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Table 'sa_productivity.sa_view_task_timelog' doesn't exist
+- Query 		: SELECT COUNT(timelog_id) AS updated_task FROM sa_view_task_timelog WHERE project_id='IEAEOPF5I44TAUDN' GROUP BY task_id
+
+
+2023-11-03 09:36:16
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-03 09:36:25
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-03 09:49:58
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FOC2202T32B%'
+
+
+2023-11-03 10:08:30
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-11-03 10:12:18
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_microservices.miscroservices' doesn't exist
+- Query 		: desc miscroservices;
+
+
+2023-11-03 10:12:24
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_miscroservices' doesn't exist
+- Query 		: desc sa_miscroservices;
+
+
+2023-11-03 10:39:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_view_timelog' doesn't exist
+- Query 		: select * from sa_view_timelog LIMIT 10
+
+
+2023-11-03 10:50:38
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect datetime value: ''
+- Query 		: select * from sa_view_task_assignment LIMIT 100
+
+
+2023-11-03 11:00:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT COUNT(task_name) as updated FROM (SELECT COUNT(project_id) as updated_task FROM sa_view_task_timelog WHERE project_id = 'IEAEOPF5I5BQMIK2' AND resource_email LIKE '%nurma%' 
+
+
+2023-11-03 11:00:30
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT COUNT(task_name) as updated FROM (SELECT COUNT(project_id) as updated_task FROM sa_view_task_timelog WHERE project_id = 'IEAEOPF5I5BQMIK2' AND resource_email LIKE '%nurma%' 
+
+
+2023-11-03 11:00:43
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT COUNT(task_name) as updated FROM (SELECT COUNT(project_id) as updated_task FROM sa_preschedule WHERE project_id = 'IEAEOPF5I5BQMIK2' AND resource_email LIKE '%nurma%' 
+
+
+2023-11-03 11:14:00
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.attendees_email' in 'field list'
+- Query 		: SELECT COUNT(b.attendees_email) as updated_task FROM sa_schedule a left join sa_preschedule b ON a.event_id=b.google_event_id WHERE b.project_id = 'IEAEOPF5I5BQMIK2' AND a.attendees_email='nurma.sumar@mastersystem.co.id'
+
+
+2023-11-03 13:23:06
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-03 13:23:56
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FDO2201A0Q7%'
+
+
+2023-11-03 13:24:05
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%FCZ2203D1CB%'
+
+
+2023-11-03 13:35:49
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%upquii%'
+
+
+2023-11-03 13:36:14
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%upquii%'
+
+
+2023-11-03 13:37:12
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%upquii%'
+
+
+2023-11-03 15:25:04
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULLSELECT
+    `emp`.`employee_name`,
+    `sub1`.`employee_name` AS `employ...' at line 33
+- Query 		: SELECT
+    `emp`.`employee_name`,
+    `sub1`.`employee_name` AS `employee_name_sub1`,
+    `sub2`.`employee_name` AS `employee_name_sub2`,
+    `sub3`.`employee_name` AS `employee_name_sub3`,
+    `sub4`.`employee_name` AS `employee_name_sub4`,
+    `sub5`.`employee_name` AS `employee_name_sub5`
+FROM
+    `sa_mst_employees` `emp`
+LEFT JOIN `sa_mst_job` `job` ON
+    `emp`.`job_id` = `job`.`job_id`
+LEFT JOIN `sa_mst_job` `job1` ON
+    `job`.`job_id` = `job1`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub1` ON
+    `job1`.`job_id` = `sub1`.`job_id`
+LEFT JOIN `sa_mst_job` `job2` ON
+    `job1`.`job_id` = `job2`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub2` ON
+    `job2`.`job_id` = `sub2`.`job_id`
+LEFT JOIN `sa_mst_job` `job3` ON
+    `job2`.`job_id` = `job3`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub3` ON
+    `job3`.`job_id` = `sub3`.`job_id`
+LEFT JOIN `sa_mst_job` `job4` ON
+    `job3`.`job_id` = `job4`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub4` ON
+    `job4`.`job_id` = `sub4`.`job_id`
+LEFT JOIN `sa_mst_job` `job5` ON
+    `job4`.`job_id` = `job5`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub5` ON
+    `job5`.`job_id` = `sub5`.`job_id`
+WHERE
+    `emp`.`resign_date` IS NULL AND `sub1`.`resign_date` IS NULL AND `sub2`.`resign_date` IS NULL AND `sub3`.`resign_date` IS NULL AND `sub4`.`resign_date` IS NULL AND `sub5`.`resign_date` IS NULLSELECT
+    `emp`.`employee_name`,
+    `sub1`.`employee_name` AS `employee_name_sub1`,
+    `sub2`.`employee_name` AS `employee_name_sub2`,
+    `sub3`.`employee_name` AS `employee_name_sub3`,
+    `sub4`.`employee_name` AS `employee_name_sub4`,
+    `sub5`.`employee_name` AS `employee_name_sub5`
+FROM
+    `sa_mst_employees` `emp`
+LEFT JOIN `sa_mst_job` `job` ON
+    `emp`.`job_id` = `job`.`job_id`
+LEFT JOIN `sa_mst_job` `job1` ON
+    `job`.`job_id` = `job1`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub1` ON
+    `job1`.`job_id` = `sub1`.`job_id`
+LEFT JOIN `sa_mst_job` `job2` ON
+    `job1`.`job_id` = `job2`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub2` ON
+    `job2`.`job_id` = `sub2`.`job_id`
+LEFT JOIN `sa_mst_job` `job3` ON
+    `job2`.`job_id` = `job3`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub3` ON
+    `job3`.`job_id` = `sub3`.`job_id`
+LEFT JOIN `sa_mst_job` `job4` ON
+    `job3`.`job_id` = `job4`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub4` ON
+    `job4`.`job_id` = `sub4`.`job_id`
+LEFT JOIN `sa_mst_job` `job5` ON
+    `job4`.`job_id` = `job5`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub5` ON
+    `job5`.`job_id` = `sub5`.`job_id`
+WHERE
+    `emp`.`resign_date` IS NULL AND `sub1`.`resign_date` IS NULL AND `sub2`.`resign_date` IS NULL AND `sub3`.`resign_date` IS NULL AND `sub4`.`resign_date` IS NULL AND `sub5`.`resign_date` IS NULL AND (`emp`.`employee_name` LIKE '%Joko Gunawan%' OR `emp`.`employee_name` LIKE '%Jupri Wijaya%' OR `emp`.`employee_name` LIKE '%Eddy Anthony%' OR `emp`.`employee_name` LIKE '%Lintar Wardana%' OR `emp`.`employee_name` LIKE '%Raymon Busi Citra%')
+ORDER BY
+    `emp`.`employee_name`,
+    `sub1`.`employee_name`,
+    `sub2`.`employee_name`,
+    `sub3`.`employee_name`,
+    `sub4`.`employee_name`,
+    `sub5`.`employee_name`;
+ORDER BY
+    `emp`.`employee_name`,
+    `sub1`.`employee_name`,
+    `sub2`.`employee_name`,
+    `sub3`.`employee_name`,
+    `sub4`.`employee_name`,
+    `sub5`.`employee_name`;
+
+
+2023-11-03 15:26:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULLSELECT
+    `emp`.`employee_name`,
+    `sub1`.`employee_name` AS `employ...' at line 33
+- Query 		: SELECT
+    `emp`.`employee_name`,
+    `sub1`.`employee_name` AS `employee_name_sub1`,
+    `sub2`.`employee_name` AS `employee_name_sub2`,
+    `sub3`.`employee_name` AS `employee_name_sub3`,
+    `sub4`.`employee_name` AS `employee_name_sub4`,
+    `sub5`.`employee_name` AS `employee_name_sub5`
+FROM
+    `sa_mst_employees` `emp`
+LEFT JOIN `sa_mst_job` `job` ON
+    `emp`.`job_id` = `job`.`job_id`
+LEFT JOIN `sa_mst_job` `job1` ON
+    `job`.`job_id` = `job1`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub1` ON
+    `job1`.`job_id` = `sub1`.`job_id`
+LEFT JOIN `sa_mst_job` `job2` ON
+    `job1`.`job_id` = `job2`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub2` ON
+    `job2`.`job_id` = `sub2`.`job_id`
+LEFT JOIN `sa_mst_job` `job3` ON
+    `job2`.`job_id` = `job3`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub3` ON
+    `job3`.`job_id` = `sub3`.`job_id`
+LEFT JOIN `sa_mst_job` `job4` ON
+    `job3`.`job_id` = `job4`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub4` ON
+    `job4`.`job_id` = `sub4`.`job_id`
+LEFT JOIN `sa_mst_job` `job5` ON
+    `job4`.`job_id` = `job5`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub5` ON
+    `job5`.`job_id` = `sub5`.`job_id`
+WHERE
+    `emp`.`resign_date` IS NULL AND `sub1`.`resign_date` IS NULL AND `sub2`.`resign_date` IS NULL AND `sub3`.`resign_date` IS NULL AND `sub4`.`resign_date` IS NULL AND `sub5`.`resign_date` IS NULLSELECT
+    `emp`.`employee_name`,
+    `sub1`.`employee_name` AS `employee_name_sub1`,
+    `sub2`.`employee_name` AS `employee_name_sub2`,
+    `sub3`.`employee_name` AS `employee_name_sub3`,
+    `sub4`.`employee_name` AS `employee_name_sub4`,
+    `sub5`.`employee_name` AS `employee_name_sub5`
+FROM
+    `sa_mst_employees` `emp`
+LEFT JOIN `sa_mst_job` `job` ON
+    `emp`.`job_id` = `job`.`job_id`
+LEFT JOIN `sa_mst_job` `job1` ON
+    `job`.`job_id` = `job1`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub1` ON
+    `job1`.`job_id` = `sub1`.`job_id`
+LEFT JOIN `sa_mst_job` `job2` ON
+    `job1`.`job_id` = `job2`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub2` ON
+    `job2`.`job_id` = `sub2`.`job_id`
+LEFT JOIN `sa_mst_job` `job3` ON
+    `job2`.`job_id` = `job3`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub3` ON
+    `job3`.`job_id` = `sub3`.`job_id`
+LEFT JOIN `sa_mst_job` `job4` ON
+    `job3`.`job_id` = `job4`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub4` ON
+    `job4`.`job_id` = `sub4`.`job_id`
+LEFT JOIN `sa_mst_job` `job5` ON
+    `job4`.`job_id` = `job5`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub5` ON
+    `job5`.`job_id` = `sub5`.`job_id`
+WHERE
+    `emp`.`resign_date` IS NULL AND `sub1`.`resign_date` IS NULL AND `sub2`.`resign_date` IS NULL AND `sub3`.`resign_date` IS NULL AND `sub4`.`resign_date` IS NULL AND `sub5`.`resign_date` IS NULL AND (`emp`.`employee_name` LIKE '%Joko Gunawan%' )
+ORDER BY
+    `emp`.`employee_name`,
+    `sub1`.`employee_name`,
+    `sub2`.`employee_name`,
+    `sub3`.`employee_name`,
+    `sub4`.`employee_name`,
+    `sub5`.`employee_name`;
+ORDER BY
+    `emp`.`employee_name`,
+    `sub1`.`employee_name`,
+    `sub2`.`employee_name`,
+    `sub3`.`employee_name`,
+    `sub4`.`employee_name`,
+    `sub5`.`employee_name`;
+
+
+2023-11-03 15:28:14
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY
+    `emp`.`employee_name`,
+    `sub1`.`employee_name`,
+    `sub2`...' at line 34
+- Query 		: SELECT
+    `emp`.`employee_name`,
+    `sub1`.`employee_name` AS `employee_name_sub1`,
+    `sub2`.`employee_name` AS `employee_name_sub2`,
+    `sub3`.`employee_name` AS `employee_name_sub3`,
+    `sub4`.`employee_name` AS `employee_name_sub4`,
+    `sub5`.`employee_name` AS `employee_name_sub5`
+FROM
+    `sa_mst_employees` `emp`
+LEFT JOIN `sa_mst_job` `job` ON
+    `emp`.`job_id` = `job`.`job_id`
+LEFT JOIN `sa_mst_job` `job1` ON
+    `job`.`job_id` = `job1`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub1` ON
+    `job1`.`job_id` = `sub1`.`job_id`
+LEFT JOIN `sa_mst_job` `job2` ON
+    `job1`.`job_id` = `job2`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub2` ON
+    `job2`.`job_id` = `sub2`.`job_id`
+LEFT JOIN `sa_mst_job` `job3` ON
+    `job2`.`job_id` = `job3`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub3` ON
+    `job3`.`job_id` = `sub3`.`job_id`
+LEFT JOIN `sa_mst_job` `job4` ON
+    `job3`.`job_id` = `job4`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub4` ON
+    `job4`.`job_id` = `sub4`.`job_id`
+LEFT JOIN `sa_mst_job` `job5` ON
+    `job4`.`job_id` = `job5`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub5` ON
+    `job5`.`job_id` = `sub5`.`job_id`
+WHERE
+    `emp`.`resign_date` IS NULL AND `sub1`.`resign_date` IS NULL AND `sub2`.`resign_date` IS NULL AND `sub3`.`resign_date` IS NULL AND `sub4`.`resign_date` IS NULL AND `sub5`.`resign_date` IS NULL AND (`employee_name` LIKE '%Jupri%'
+ORDER BY
+    `emp`.`employee_name`,
+    `sub1`.`employee_name`,
+    `sub2`.`employee_name`,
+    `sub3`.`employee_name`,
+    `sub4`.`employee_name`,
+    `sub5`.`employee_name`;
+
+
+2023-11-03 15:28:24
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Column 'employee_name' in where clause is ambiguous
+- Query 		: SELECT
+    `emp`.`employee_name`,
+    `sub1`.`employee_name` AS `employee_name_sub1`,
+    `sub2`.`employee_name` AS `employee_name_sub2`,
+    `sub3`.`employee_name` AS `employee_name_sub3`,
+    `sub4`.`employee_name` AS `employee_name_sub4`,
+    `sub5`.`employee_name` AS `employee_name_sub5`
+FROM
+    `sa_mst_employees` `emp`
+LEFT JOIN `sa_mst_job` `job` ON
+    `emp`.`job_id` = `job`.`job_id`
+LEFT JOIN `sa_mst_job` `job1` ON
+    `job`.`job_id` = `job1`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub1` ON
+    `job1`.`job_id` = `sub1`.`job_id`
+LEFT JOIN `sa_mst_job` `job2` ON
+    `job1`.`job_id` = `job2`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub2` ON
+    `job2`.`job_id` = `sub2`.`job_id`
+LEFT JOIN `sa_mst_job` `job3` ON
+    `job2`.`job_id` = `job3`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub3` ON
+    `job3`.`job_id` = `sub3`.`job_id`
+LEFT JOIN `sa_mst_job` `job4` ON
+    `job3`.`job_id` = `job4`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub4` ON
+    `job4`.`job_id` = `sub4`.`job_id`
+LEFT JOIN `sa_mst_job` `job5` ON
+    `job4`.`job_id` = `job5`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub5` ON
+    `job5`.`job_id` = `sub5`.`job_id`
+WHERE
+    `emp`.`resign_date` IS NULL AND `sub1`.`resign_date` IS NULL AND `sub2`.`resign_date` IS NULL AND `sub3`.`resign_date` IS NULL AND `sub4`.`resign_date` IS NULL AND `sub5`.`resign_date` IS NULL AND (`employee_name` LIKE '%Jupri%')
+ORDER BY
+    `emp`.`employee_name`,
+    `sub1`.`employee_name`,
+    `sub2`.`employee_name`,
+    `sub3`.`employee_name`,
+    `sub4`.`employee_name`,
+    `sub5`.`employee_name`;
+
+
+2023-11-03 15:28:56
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Column 'employee_name' in where clause is ambiguous
+- Query 		: SELECT
+    `emp`.`employee_name`,
+    `sub1`.`employee_name` AS `employee_name_sub1`,
+    `sub2`.`employee_name` AS `employee_name_sub2`,
+    `sub3`.`employee_name` AS `employee_name_sub3`,
+    `sub4`.`employee_name` AS `employee_name_sub4`,
+    `sub5`.`employee_name` AS `employee_name_sub5`
+FROM
+    `sa_mst_employees` `emp`
+LEFT JOIN `sa_mst_job` `job` ON
+    `emp`.`job_id` = `job`.`job_id`
+LEFT JOIN `sa_mst_job` `job1` ON
+    `job`.`job_id` = `job1`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub1` ON
+    `job1`.`job_id` = `sub1`.`job_id`
+LEFT JOIN `sa_mst_job` `job2` ON
+    `job1`.`job_id` = `job2`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub2` ON
+    `job2`.`job_id` = `sub2`.`job_id`
+LEFT JOIN `sa_mst_job` `job3` ON
+    `job2`.`job_id` = `job3`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub3` ON
+    `job3`.`job_id` = `sub3`.`job_id`
+LEFT JOIN `sa_mst_job` `job4` ON
+    `job3`.`job_id` = `job4`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub4` ON
+    `job4`.`job_id` = `sub4`.`job_id`
+LEFT JOIN `sa_mst_job` `job5` ON
+    `job4`.`job_id` = `job5`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub5` ON
+    `job5`.`job_id` = `sub5`.`job_id`
+WHERE
+    `emp`.`resign_date` IS NULL AND `sub1`.`resign_date` IS NULL AND `sub2`.`resign_date` IS NULL AND `sub3`.`resign_date` IS NULL AND `sub4`.`resign_date` IS NULL AND `sub5`.`resign_date` IS NULL AND `employee_name` LIKE '%Jupri%'
+ORDER BY
+    `emp`.`employee_name`,
+    `sub1`.`employee_name`,
+    `sub2`.`employee_name`,
+    `sub3`.`employee_name`,
+    `sub4`.`employee_name`,
+    `sub5`.`employee_name`;
+
+
+2023-11-03 15:31:50
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: request
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_request' doesn't exist
+- Query 		: SELECT request_id, status, request_datetime, GM_Approval, BOD_Approval, HCM_GM_Approval from sa_request where requested_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>'
+
+
+2023-11-03 15:32:15
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: request
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_request' doesn't exist
+- Query 		: SELECT request_id, status, request_datetime, GM_Approval, BOD_Approval, HCM_GM_Approval from sa_request where requested_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>'
+
+
+2023-11-03 15:41:11
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'liek ;%joko%'' at line 1
+- Query 		: select * from sa_mst_employees where employee_name liek ;%joko%'
+
+
+2023-11-03 15:41:17
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ';%joko%'' at line 1
+- Query 		: select * from sa_mst_employees where employee_name like ;%joko%'
+
+
+2023-11-03 15:42:34
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+    `sa_mst_employees` `emp`
+LEFT JOIN `sa_mst_job` `job` ON
+    `emp...' at line 4
+- Query 		: SELECT
+    `emp`.`employee_name`,
+    `sub1`.`employee_name` AS `employee_name_sub1`,
+FROM
+    `sa_mst_employees` `emp`
+LEFT JOIN `sa_mst_job` `job` ON
+    `emp`.`job_id` = `job`.`job_id`
+LEFT JOIN `sa_mst_job` `job1` ON
+    `job`.`job_id` = `job1`.`parent_id`
+LEFT JOIN `sa_mst_employees` `sub1` ON
+    `job1`.`job_id` = `sub1`.`job_id`
+
+WHERE
+    `emp`.`resign_date` IS NULL AND `sub1`.`resign_date` IS NULL AND (`emp`.`employee_name` LIKE '%Joko%')
+ORDER BY
+    `emp`.`employee_name`,
+    `sub1`.`employee_name`;
+
+
+2023-11-03 16:01:37
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: request
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_request' doesn't exist
+- Query 		: SELECT request_id, status, request_datetime, GM_Approval, BOD_Approval, HCM_GM_Approval from sa_request where requested_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>'
+
+
+2023-11-03 16:22:27
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: request
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_request' doesn't exist
+- Query 		: SELECT request_id, status, request_datetime, GM_Approval, BOD_Approval, HCM_GM_Approval from sa_request where requested_by = 'Malik Aulia Wiratama<malik.aulia@mastersystem.co.id>'
+
+
+2023-11-03 16:23:00
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%joko%' )' at line 7
+- Query 		: SELECT
+	b.employee_name 
+FROM
+	sa_mst_job a
+	INNER JOIN sa_mst_employees b ON a.job_id = b.job_id 
+WHERE
+	parent_id = ( SELECT job_id FROM sa_mst_employees WHERE employee_name LIKE '%joko%' );
+
+
+2023-11-03 16:25:03
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%joko%' )' at line 7
+- Query 		: SELECT
+	b.employee_name 
+FROM
+	sa_mst_job a
+	INNER JOIN sa_mst_employees b ON a.job_id = b.job_id 
+WHERE
+	parent_id = ( SELECT job_id FROM sa_mst_employees WHERE employee_name LIKE '%joko%' )
+
+
+2023-11-03 16:25:30
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%joko%' )' at line 7
+- Query 		: SELECT
+	b.employee_name 
+FROM
+	sa_mst_job a
+	INNER JOIN sa_mst_employees b ON a.job_id = b.job_id 
+WHERE
+	parent_id = ( SELECT job_id FROM sa_mst_employees WHERE employee_name LIKE '%joko%' )
+
+
+2023-11-03 16:27:08
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''%joko%' )' at line 7
+- Query 		: SELECT
+	b.employee_name 
+FROM
+	sa_mst_job a
+	INNER JOIN sa_mst_employees b ON a.job_id = b.job_id 
+WHERE
+	parent_id = ( SELECT job_id FROM sa_mst_employees WHERE employee_name LIKE '%joko%' )
+
+
+2023-11-03 16:27:33
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''%joko%' )' at line 7
+- Query 		: SELECT
+	b.employee_name 
+FROM
+	sa_mst_job a
+	INNER JOIN sa_mst_employees b ON a.job_id = b.job_id 
+WHERE
+	parent_id = ( SELECT job_id FROM sa_mst_employees WHERE employee_name LIKE '%joko%' )
+
+
+2023-11-03 16:31:33
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%joko%' )' at line 7
+- Query 		: SELECT
+	b.employee_name 
+FROM
+	sa_mst_job a
+	INNER JOIN sa_mst_employees b ON a.job_id = b.job_id 
+WHERE
+	parent_id = ( SELECT job_id FROM sa_mst_employees WHERE employee_name LIKE '%joko%' )
+
+
+2023-11-03 16:31:42
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%joko%' )' at line 7
+- Query 		: SELECT
+	b.employee_name 
+FROM
+	sa_mst_job a
+	INNER JOIN sa_mst_employees b ON a.job_id = b.job_id 
+WHERE
+	parent_id = ( SELECT job_id FROM sa_mst_employees WHERE employee_name LIKE '%joko%' )
+
+
+2023-11-03 16:38:49
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%2023-11-02%'' at line 1
+- Query 		: select * from sa_log_activity entry_time LIKE '%2023-11-02%'
+
+
+2023-11-03 16:38:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%11-02%'' at line 1
+- Query 		: select * from sa_log_activity entry_time LIKE '%11-02%'
+
+
+2023-11-03 16:39:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%02-11%'' at line 1
+- Query 		: select * from sa_log_activity entry_time LIKE '%02-11%'
+
+
+2023-11-03 16:41:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_trx_project_list' doesn't exist
+- Query 		: SELECT a.project_id, a.project_code, a.project_name, a.project_name_internal, a.order_number, a.amount_idr, a.amount_usd, a.so_number, b.implementation_price, a.bundling, b.tos_id, b.tos_category_id, b.service_type, a.status, a.create_date 
+    FROM sa_trx_project_list AS a 
+    LEFT JOIN sa_trx_project_implementations AS b ON a.project_id=b.project_id
+    WHERE a.status='acknowledge'
+    AND a.bundling !=''
+    AND a.sbtype=1 
+    AND a.project_name_internal !=''
+    AND a.order_number !=''
+    AND a.create_date>='2022-08-01' 
+    AND b.service_type<>3 
+    AND (MID(a.bundling,1,1)=b.service_type OR MID(a.bundling,3,1)=b.service_type)
+    ORDER BY project_id

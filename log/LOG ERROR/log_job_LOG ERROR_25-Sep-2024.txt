@@ -1,0 +1,451 @@
+File Error Log
+
+2024-09-25 08:57:00
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'notif_form' in 'where clause'
+- Query 		: SELECT * FROM sa_trx_notification WHERE notif_form like '%malik.aulia%'
+
+
+2024-09-25 09:10:04
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id=
+
+
+2024-09-25 09:24:18
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Support Management/FPKB/REC/37/2024' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id_fpkb = Customer Support Management/FPKB/REC/37/2024
+
+
+2024-09-25 09:24:18
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Support Management/FPKB/REC/37/2024' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id_fpkb = Customer Support Management/FPKB/REC/37/2024
+
+
+2024-09-25 09:28:49
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Support Management/FPKB/REC/37/2024' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id_fpkb = Customer Support Management/FPKB/REC/37/2024
+
+
+2024-09-25 09:28:49
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Support Management/FPKB/REC/37/2024' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id_fpkb = Customer Support Management/FPKB/REC/37/2024
+
+
+2024-09-25 09:28:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Support Management/FPKB/REC/37/2024' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id_fpkb = Customer Support Management/FPKB/REC/37/2024
+
+
+2024-09-25 09:28:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Support Management/FPKB/REC/37/2024' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id_fpkb = Customer Support Management/FPKB/REC/37/2024
+
+
+2024-09-25 09:29:15
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Support Management/FPKB/REC/37/2024' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id_fpkb = Customer Support Management/FPKB/REC/37/2024
+
+
+2024-09-25 09:29:15
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Support Management/FPKB/REC/37/2024' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id_fpkb = Customer Support Management/FPKB/REC/37/2024
+
+
+2024-09-25 09:36:01
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id=
+
+
+2024-09-25 09:36:33
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id=
+
+
+2024-09-25 10:14:53
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_initial_jobroles_project' doesn't exist
+- Query 		: select * from sa_initial_jobroles_project WHERE project_id='IEAEOPF5I46UOZDC'
+
+
+2024-09-25 10:22:10
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE id=
+
+
+2024-09-25 11:48:17
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,21,3,1,2,'NetApp',350,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-09-25 11:48:17
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,3,1,3,'NetApp',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-09-25 11:48:17
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,3,1,5,'NetApp',350,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-09-25 11:48:17
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,8,'NetApp',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-09-25 13:19:39
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Column 'order_number' in where clause is ambiguous
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number left join sa_wrike_integrate.sa_wrike_project_list c ON a.order_number=c.order_number WHERE a.project_type LIKE '%Maintenance%' AND c.project_type LIKE '%Maintenance%' AND a.kpi_status='Not yet reviewed' AND order_number='ORD-29122-F1L8B2'
+
+
+2024-09-25 13:30:33
+- Server 		: Prod
+- User 			: handi.widiansyah@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TS027720E0002', 
+                    'ORD-2023-03055', 
+                    'backup_mt_date',
+                    'Handi Widiansyah<handi.widiansyah@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-25 13:30:33
+- Server 		: Prod
+- User 			: handi.widiansyah@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TS027720E0002', 
+                    'ORD-2023-03055', 
+                    'pmr_date',
+                    'Handi Widiansyah<handi.widiansyah@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-25 13:31:05
+- Server 		: Prod
+- User 			: handi.widiansyah@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TS027720E0002', 
+                    'ORD-2023-03055', 
+                    'backup_mt_date',
+                    'Handi Widiansyah<handi.widiansyah@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-25 13:31:05
+- Server 		: Prod
+- User 			: handi.widiansyah@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TS027720E0002', 
+                    'ORD-2023-03055', 
+                    'pmr_date',
+                    'Handi Widiansyah<handi.widiansyah@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-25 14:17:54
+- Server 		: Prod
+- User 			: bill.julian@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect integer value: 'Unlimited' for column `sa_dashboard_kpi`.`sa_master_maintenance_date`.`ticket_allocation` at row 59
+- Query 		: UPDATE `sa_master_maintenance_date` SET 
+                ontime='0',
+                gabungan='0',
+                openitem='0',
+                ontime_notes='implementation',
+                notes='',
+                notes_openitem='',
+                ticket_allocation='Unlimited', 
+                mt_report_date='12',
+                preventive_mt_date='12',
+                total_ticket_allocation='Unlimited', 
+                total_mt_report_date='12',
+                total_preventive_mt_date='12',
+                total_backup_mt_date='12',
+                flag='0',
+                entry_by='Bill Julian Bana<bill.julian@mastersystem.co.id>',
+                approval_to='Anggi Fachrizal<anggi.fachrizal@mastersystem.co.id>',
+                approval_status='pending' WHERE project_code='TI000823E0039' AND order_number='ORD-2023-01116'
+
+
+2024-09-25 14:17:54
+- Server 		: Prod
+- User 			: bill.julian@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TI000823E0039', 
+                    'ORD-2023-01116', 
+                    'backup_mt_date',
+                    'Bill Julian Bana<bill.julian@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-25 14:27:17
+- Server 		: Prod
+- User 			: bill.julian@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect integer value: 'Unlimited' for column `sa_dashboard_kpi`.`sa_master_maintenance_date`.`ticket_allocation` at row 59
+- Query 		: UPDATE `sa_master_maintenance_date` SET 
+                ontime='0',
+                gabungan='0',
+                gabungan_parent='0',
+                openitem='0',
+                ontime_notes='implementation',
+                notes='',
+                notes_openitem='',
+                ticket_allocation='Unlimited', 
+                mt_report_date='12',
+                preventive_mt_date='12',
+                total_ticket_allocation='Unlimited', 
+                total_mt_report_date='12',
+                total_preventive_mt_date='12',
+                total_backup_mt_date='12',
+                total_pmr_date='0',
+                flag='0',
+                entry_by='Bill Julian Bana<bill.julian@mastersystem.co.id>',
+                approval_to='Anggi Fachrizal<anggi.fachrizal@mastersystem.co.id>',
+                approval_status='pending' WHERE project_code='TI000823E0039' AND order_number='ORD-2023-01116'
+
+
+2024-09-25 14:47:37
+- Server 		: Prod
+- User 			: handi.widiansyah@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TD011120E0001', 
+                    'ORD-24571-N1P5G4', 
+                    'backup_mt_date',
+                    'Handi Widiansyah<handi.widiansyah@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-25 14:47:37
+- Server 		: Prod
+- User 			: handi.widiansyah@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TD011120E0001', 
+                    'ORD-24571-N1P5G4', 
+                    'pmr_date',
+                    'Handi Widiansyah<handi.widiansyah@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-25 14:49:36
+- Server 		: Prod
+- User 			: handi.widiansyah@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB033621E0001', 
+                    'ORD-24726-T3K1B3', 
+                    'backup_mt_date',
+                    'Handi Widiansyah<handi.widiansyah@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-25 14:49:36
+- Server 		: Prod
+- User 			: handi.widiansyah@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB033621E0001', 
+                    'ORD-24726-T3K1B3', 
+                    'pmr_date',
+                    'Handi Widiansyah<handi.widiansyah@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-25 15:02:29
+- Server 		: Prod
+- User 			: andreas@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-09-25 15:02:29
+- Server 		: Prod
+- User 			: andreas@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-09-25 15:04:24
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_master_maintenance_date' doesn't exist
+- Query 		: SELECT a.*,b.customer_name,b.project_name FROM sa_master_maintenance_date a left join sa_ps_service_budgets.sa_trx_project_list b ON a.order_number=b.order_number WHERE a.approval_status='approved' AND b.status='acknowledge'
+
+
+2024-09-25 16:03:05
+- Server 		: Prod
+- User 			: bill.julian@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect integer value: 'Unlimited' for column `sa_dashboard_kpi`.`sa_master_maintenance_date`.`ticket_allocation` at row 59
+- Query 		: UPDATE `sa_master_maintenance_date` SET 
+                ontime='0',
+                gabungan='0',
+                gabungan_parent='0',
+                openitem='0',
+                ontime_notes='implementation',
+                notes='',
+                notes_openitem='',
+                ticket_allocation='Unlimited', 
+                mt_report_date='12',
+                preventive_mt_date='12',
+                total_ticket_allocation='Unlimited', 
+                total_mt_report_date='12',
+                total_preventive_mt_date='12',
+                total_backup_mt_date='13',
+                total_pmr_date='0',
+                flag='0',
+                entry_by='Bill Julian Bana<bill.julian@mastersystem.co.id>',
+                approval_to='Anggi Fachrizal<anggi.fachrizal@mastersystem.co.id>',
+                approval_status='pending' WHERE project_code='TI000823E0039' AND order_number='ORD-2023-01116'

@@ -1,0 +1,9 @@
+File Error Log
+
+2024-09-11 16:08:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''IEAEOPF5I5GHEG3O'' at line 1
+- Query 		: SELECT * FROM sa_wrike_integrate.sa_wrike_task WHERE project_id='IEAEOPF5I5IYIFA3','IEAEOPF5I5GHEG3O'

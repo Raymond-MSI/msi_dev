@@ -1,0 +1,117 @@
+File Error Log
+
+2023-12-18 10:48:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'plan,SUM(a.task_actual) as task actual,b.kpi_status from sa_productivity_allu...' at line 1
+- Query 		: select a.resource_email,a.project_type,SUM(a.task_plan) AS task plan,SUM(a.task_actual) as task actual,b.kpi_status from sa_productivity_alluser a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.project_type='MSI Project Implementation' AND b.kpi_status='Not yet reviewed' GROUP BY a.resource_email,a.project_type,b.kpi_status
+
+
+2023-12-18 10:49:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'task_plan1' in 'field list'
+- Query 		: select a.resource_email,a.project_type,SUM(a.task_plan) AS task_plan1,SUM(a.task_actual) as task_actual1,SUM(task_plan1/task_actual1),b.kpi_status from sa_productivity_alluser a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.project_type='MSI Project Implementation' AND b.kpi_status='Not yet reviewed' GROUP BY a.resource_email,a.project_type,b.kpi_status
+
+
+2023-12-18 10:49:36
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'task_plan1' in 'field list'
+- Query 		: select a.resource_email,a.project_type,SUM(a.task_plan) AS task_plan1,SUM(a.task_actual) as task_actual1,SUM(task_plan1/task_actual1),b.kpi_status from sa_productivity_alluser a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.project_type='MSI Project Implementation' AND b.kpi_status='Not yet reviewed' GROUP BY a.resource_email,a.project_type,b.kpi_status
+
+
+2023-12-18 13:12:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.proejct_id' in 'where clause'
+- Query 		: select * from sa_preschedule a left join sa_schedule b on a.google_event_id=b.event_id WHERE a.proejct_id='IEAEOPF5I44TAUCC' AND a.resource_email LIKE '%sumarno%'
+
+
+2023-12-18 13:48:28
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_data_so' doesn't exist
+- Query 		: select * from sa_data_so WHERE order_number='ORD-2023-01017' OR order_number='ORD-27958-Z5Q1C3' OR order_number='ORD-2023-02571'
+
+
+2023-12-18 14:45:49
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.project_id,a.project_code,b.project_type,a.resource_email' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS total_task, a.project_id, a.project_code, b.project_type, a.resource_email FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id WHERE b.response_status <>'declined' AND b.response_status<>'' AND b.response_status is not null AND GROUP BY a.project_id,a.project_code,b.project_type,a.resource_email
+
+
+2023-12-18 14:48:25
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_kategori_pilih' doesn't exist
+- Query 		: delete from sa_kategori_pilih where kategori_pilih = 'test1';
+
+
+2023-12-18 14:48:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_kategori_pilih' doesn't exist
+- Query 		: delete from sa_kategori_pilih where kategori_pilih = 'test1';
+
+
+2023-12-18 14:48:55
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_kateogri_pilih' doesn't exist
+- Query 		: select * from sa_kateogri_pilih
+
+
+2023-12-18 14:49:01
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_kateogri_pilih' doesn't exist
+- Query 		: select * from sa_kateogri_pilih;
+
+
+2023-12-18 14:49:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_kateogri_list' doesn't exist
+- Query 		: select * from sa_kateogri_list;
+
+
+2023-12-18 16:55:57
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-12-11' AND task_date <= '2023-12-25' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2023-12-18 17:17:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'a.project_id='IEAEOPF5I44TAUCC' AND b.project_type='MSI Project Implementatio...' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS total_task, a.project_id, a.project_code, b.project_type, a.resource_email FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id WHERE b.response_status <>'declined' AND b.response_status<>'' AND b.response_status is not null AND a.work_date > '2023-03-31'  a.project_id='IEAEOPF5I44TAUCC' AND b.project_type='MSI Project Implementation' GROUP BY a.project_id,a.project_code,b.project_type,a.resource_email

@@ -1,0 +1,45 @@
+File Error Log
+
+2023-12-22 08:57:00
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.SA_product_list' doesn't exist
+- Query 		: SELECT * FROM SA_product_list;
+
+
+2023-12-22 09:16:44
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'tipe_asset' in 'where clause'
+- Query 		: delete from sa_pr_temp where tipe_asset = 'Peminjaman Vendor';
+
+
+2023-12-22 10:41:53
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seru' in 'where clause'
+- Query 		: select * from sa_product_list where nomor_seru = '73'
+
+
+2023-12-22 15:07:36
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-12-22 15:08:34
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC

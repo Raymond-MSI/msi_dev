@@ -1,0 +1,32 @@
+06-Nov-2024 17:54:48
+- SubModule : EDO_LEAVE_APPROVAL
+- Status    : Caught 'get_sql' error - [] 0 - "" - 
+
+06-Nov-2024 17:54:48
+- SubModule : EDO_LEAVE_APPROVAL
+- Status    : Caught 'get_sql' error - [] 0 - "" - 
+
+06-Nov-2024 17:54:53
+- SubModule : EDO_LEAVE_APPROVAL
+- Status    : Caught 'get_sql' error - [] 0 - "" - 
+
+06-Nov-2024 17:54:53
+- SubModule : EDO_LEAVE_APPROVAL
+- Status    : Caught 'get_sql' error - [] 0 - "" - 
+
+06-Nov-2024 17:54:57
+- SubModule : EDO_LEAVE_APPROVAL
+- Status    : Caught 'get_sql' error - [] 0 - "" - 
+
+06-Nov-2024 17:54:57
+- SubModule : EDO_LEAVE_APPROVAL
+- Status    : Caught 'get_sql' error - [] 0 - "" - 
+
+06-Nov-2024 17:55:01
+- SubModule : EDO_LEAVE_APPROVAL
+- Status    : Caught 'get_sql' error - [] 0 - "" - 
+
+06-Nov-2024 17:55:01
+- SubModule : EDO_LEAVE_APPROVAL
+- Status    : Caught 'get_sql' error - [] 0 - "" - 
+

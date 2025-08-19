@@ -1,0 +1,8 @@
+06-Nov-2024 14:00:15
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_preschedule WHERE project_id='IEAEOPF5I5NEQ7GK'] Table 'sa_wrike_integrate.sa_preschedule' doesn't exist
+
+06-Nov-2024 16:40:56
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_log_board WHERE project_code='TB000819C0004'] Unknown column 'project_code' in 'where clause'
+

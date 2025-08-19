@@ -1,0 +1,1043 @@
+File Error Log
+
+2024-08-26 10:39:54
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY tipe_aset' at line 6
+- Query 		: 
+SELECT count(nomor_seri) as total_count, tipe_aset
+FROM sa_rental_product_list
+WHERE (tipe_aset IN ('Titipan', 'Hibah', 'Exrental', 'Sewa - Rental Vendor', 'Peminjaman Insiden Vendor')
+
+   OR ('Kosong' IS NOT NULL AND tipe_aset = 'Kosong')
+GROUP BY tipe_aset;
+
+
+
+2024-08-26 10:39:54
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY tipe_aset' at line 6
+- Query 		: 
+SELECT count(nomor_seri) as total_count, tipe_aset
+FROM sa_rental_product_list
+WHERE (tipe_aset IN ('Titipan', 'Hibah', 'Exrental', 'Sewa - Rental Vendor', 'Peminjaman Insiden Vendor')
+
+   OR ('Kosong' IS NOT NULL AND tipe_aset = 'Kosong')
+GROUP BY tipe_aset;
+
+
+
+2024-08-26 10:40:18
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY tipe_aset' at line 6
+- Query 		: 
+SELECT count(nomor_seri) as total_count, tipe_aset
+FROM sa_rental_product_list
+WHERE (tipe_aset IN ('Titipan', 'Hibah', 'Exrental', 'Sewa - Rental Vendor', 'Peminjaman Insiden Vendor')
+
+   OR ( tipe_aset = 'Kosong')
+GROUP BY tipe_aset;
+
+
+
+2024-08-26 10:40:18
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY tipe_aset' at line 6
+- Query 		: 
+SELECT count(nomor_seri) as total_count, tipe_aset
+FROM sa_rental_product_list
+WHERE (tipe_aset IN ('Titipan', 'Hibah', 'Exrental', 'Sewa - Rental Vendor', 'Peminjaman Insiden Vendor')
+
+   OR ( tipe_aset = 'Kosong')
+GROUP BY tipe_aset;
+
+
+
+2024-08-26 10:40:33
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY tipe_aset' at line 6
+- Query 		: 
+SELECT count(nomor_seri) as total_count, tipe_aset
+FROM sa_rental_product_list
+WHERE (tipe_aset IN ('Titipan', 'Hibah', 'Exrental', 'Sewa - Rental Vendor', 'Peminjaman Insiden Vendor')
+
+   OR ( tipe_aset = 'Titipan')
+GROUP BY tipe_aset;
+
+
+
+2024-08-26 10:40:33
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY tipe_aset' at line 6
+- Query 		: 
+SELECT count(nomor_seri) as total_count, tipe_aset
+FROM sa_rental_product_list
+WHERE (tipe_aset IN ('Titipan', 'Hibah', 'Exrental', 'Sewa - Rental Vendor', 'Peminjaman Insiden Vendor')
+
+   OR ( tipe_aset = 'Titipan')
+GROUP BY tipe_aset;
+
+
+
+2024-08-26 10:47:26
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Titipan')
+GROUP BY tipe_aset' at line 5
+- Query 		: 
+   SELECT count(nomor_seri) as total_count, tipe_aset
+FROM sa_rental_product_list
+Where (tipe_aset in ('Titipan','Hibah','Exrental','Sewa - Rental Vendor','Peminjaman Insiden Vendor'))
+OR 
+ ('tipe_aset = 'Titipan')
+GROUP BY tipe_aset
+
+
+
+2024-08-26 10:47:26
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Titipan')
+GROUP BY tipe_aset' at line 5
+- Query 		: 
+   SELECT count(nomor_seri) as total_count, tipe_aset
+FROM sa_rental_product_list
+Where (tipe_aset in ('Titipan','Hibah','Exrental','Sewa - Rental Vendor','Peminjaman Insiden Vendor'))
+OR 
+ ('tipe_aset = 'Titipan')
+GROUP BY tipe_aset
+
+
+
+2024-08-26 10:47:33
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Titipan')
+GROUP BY tipe_aset' at line 5
+- Query 		: 
+   SELECT count(nomor_seri) as total_count, tipe_aset
+FROM sa_rental_product_list
+Where (tipe_aset in ('Titipan','Hibah','Exrental','Sewa - Rental Vendor','Peminjaman Insiden Vendor'))
+OR 
+ ('tipe_aset = 'Titipan')
+GROUP BY tipe_aset
+
+
+
+2024-08-26 10:47:33
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Titipan')
+GROUP BY tipe_aset' at line 5
+- Query 		: 
+   SELECT count(nomor_seri) as total_count, tipe_aset
+FROM sa_rental_product_list
+Where (tipe_aset in ('Titipan','Hibah','Exrental','Sewa - Rental Vendor','Peminjaman Insiden Vendor'))
+OR 
+ ('tipe_aset = 'Titipan')
+GROUP BY tipe_aset
+
+
+
+2024-08-26 11:09:19
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND )
+                    )
+                GROUP BY 
+                    par...' at line 16
+- Query 		: SELECT 
+                    part_number, 
+                    COUNT(CASE WHEN status_product = 'Peminjaman' AND status_return = 'Return' THEN 1 END) as count_peminjaman, 
+                    COUNT(CASE WHEN status_product = 'Sewa' AND status_return = 'Return' THEN 1 END) as count_return 
+                FROM 
+                    sa_rental_transaction_product 
+                WHERE 
+                    YEAR(created_at) = '2024' 
+                    AND (
+                        (MONTH(created_at) = 'Aug' AND 'Aug' <> '') OR
+                        (MONTH(created_at) BETWEEN 6 AND 12 <> '') -- OR
+                        -- (MONTH(created_at) BETWEEN  AND )
+                    )
+                    AND (
+                        (MONTH(created_at) = 'Aug' AND 'Aug' <> '')   OR
+                        (MONTH(created_at) BETWEEN  AND )
+                    )
+                GROUP BY 
+                    part_number;
+            
+
+
+2024-08-26 11:09:19
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND )
+                    )
+                GROUP BY 
+                    par...' at line 16
+- Query 		: SELECT 
+                    part_number, 
+                    COUNT(CASE WHEN status_product = 'Peminjaman' AND status_return = 'Return' THEN 1 END) as count_peminjaman, 
+                    COUNT(CASE WHEN status_product = 'Sewa' AND status_return = 'Return' THEN 1 END) as count_return 
+                FROM 
+                    sa_rental_transaction_product 
+                WHERE 
+                    YEAR(created_at) = '2024' 
+                    AND (
+                        (MONTH(created_at) = 'Aug' AND 'Aug' <> '') OR
+                        (MONTH(created_at) BETWEEN 6 AND 12 <> '') -- OR
+                        -- (MONTH(created_at) BETWEEN  AND )
+                    )
+                    AND (
+                        (MONTH(created_at) = 'Aug' AND 'Aug' <> '')   OR
+                        (MONTH(created_at) BETWEEN  AND )
+                    )
+                GROUP BY 
+                    part_number;
+            
+
+
+2024-08-26 11:21:36
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'Exrental' in 'where clause'
+- Query 		: SELECT count(nomor_seri) as total_count, level_parent
+   FROM sa_rental_product_list
+ Where level_parent in ('Unit','Module','Sub Module','Software','Accesorries')  and tipe_aset = Exrental group by level_parent
+
+
+2024-08-26 11:23:49
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where tipe_aset = 'Exrental'' at line 1
+- Query 		: select count(*) from sa_rental_product_list where level_parent is not null where tipe_aset = 'Exrental'
+
+
+2024-08-26 11:26:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'seelct * from sa_kpi_so_wr WHERE project_type LIKE '%Maintenance%'' at line 1
+- Query 		: seelct * from sa_kpi_so_wr WHERE project_type LIKE '%Maintenance%'
+
+
+2024-08-26 11:26:22
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'seelct * from sa_kpi_so_wr WHERE project_type LIKE '%Maintenance%'' at line 1
+- Query 		: seelct * from sa_kpi_so_wr WHERE project_type LIKE '%Maintenance%'
+
+
+2024-08-26 11:33:35
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'group by lokasi' at line 3
+- Query 		: SELECT count(nomor_seri) as total_count, lokasi
+ FROM sa_rental_product_list
+ WHERE lokasi IS NOT NULL AND lokasi != ''  AND lokasi != 'Remove' and tipe_aset = 'Titipan' and group by lokasi
+
+
+2024-08-26 11:33:46
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'group by lokasi' at line 3
+- Query 		: SELECT count(nomor_seri) as total_count, lokasi, tipe_aset
+ FROM sa_rental_product_list
+ WHERE lokasi IS NOT NULL AND lokasi != ''  AND lokasi != 'Remove' and tipe_aset = 'Titipan' and group by lokasi
+
+
+2024-08-26 13:35:51
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_rental_transaction_product.nomor_seri as tp,
+  sa_rental_transaction.id
+...' at line 3
+- Query 		: SELECT
+  sa_rental_product_list.nomor_seri as pl
+  sa_rental_transaction_product.nomor_seri as tp,
+  sa_rental_transaction.id
+FROM  sa_rental_product_list
+JOIN sa_rental_transaction_product
+  ON sa_rental_product_list.nomor_seri =  sa_rental_transaction_product.nomor_seri
+JOIN  sa_rental_transaction_product
+  ON   sa_rental_transaction.id =  sa_rental_transaction_product.transaction_id
+
+
+2024-08-26 13:38:29
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where sa_rental_product_list.tipe_aset = 'Exrental'' at line 11
+- Query 		: SELECT
+  sa_rental_product_list.nomor_seri AS pl,
+sa_rental_product_list.tipe_aset AS pl,
+  sa_rental_transaction_product.nomor_seri AS tp,
+  sa_rental_transaction.id
+FROM sa_rental_product_list
+JOIN sa_rental_transaction_product
+  ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri
+JOIN sa_rental_transaction
+  ON sa_rental_transaction_product.transaction_id = sa_rental_transaction.id;
+where sa_rental_product_list.tipe_aset = 'Exrental'
+
+
+
+2024-08-26 13:38:36
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where sa_rental_product_list.tipe_aset = 'Exrental'' at line 11
+- Query 		: SELECT
+  sa_rental_product_list.nomor_seri AS pl,
+sa_rental_product_list.tipe_aset AS psl,
+  sa_rental_transaction_product.nomor_seri AS tp,
+  sa_rental_transaction.id
+FROM sa_rental_product_list
+JOIN sa_rental_transaction_product
+  ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri
+JOIN sa_rental_transaction
+  ON sa_rental_transaction_product.transaction_id = sa_rental_transaction.id;
+where sa_rental_product_list.tipe_aset = 'Exrental'
+
+
+
+2024-08-26 13:50:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where sa_rental_product_list.tipe_aset = 'Exrental'' at line 11
+- Query 		: SELECT
+  sa_rental_product_list.nomor_seri AS pl,
+sa_rental_product_list.tipe_aset AS psl,
+  sa_rental_transaction_product.nomor_seri AS tp,
+  sa_rental_transaction.id
+FROM sa_rental_product_list
+JOIN sa_rental_transaction_product
+  ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri
+JOIN sa_rental_transaction
+  ON sa_rental_transaction_product.transaction_id = sa_rental_transaction.id;
+where sa_rental_product_list.tipe_aset = 'Exrental'
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: 
+SELECT 
+    sa_rental_transaction.id, 
+    sa_rental_transaction.tipe_peminjaman, 
+    sa_rental_transaction.pic_user, 
+    sa_rental_transaction.alamat, 
+    sa_rental_transaction.nama_perusahaan, 
+    sa_rental_transaction.nomor_transaksi, 
+    sa_rental_transaction.brands, 
+    sa_rental_transaction_product.nomor_seri AS nomor_seri_list,
+    sa_rental_transaction_product.status_product,
+    sa_rental_product_list.nomor_seri AS pl,
+    sa_rental_product_list.tipe_aset AS psl,
+    sa_rental_transaction_product.nomor_seri AS tp
+FROM sa_rental_transaction
+INNER JOIN sa_rental_transaction_product 
+    ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+INNER JOIN sa_rental_product_list
+    ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri
+WHERE sa_rental_transaction_product.status_product = 'Peminjaman' 
+  AND sa_rental_transaction.tipe_peminjaman = 'Customer';
+ AND sa_rental_product_list.tipe_aset = 'Exrental' GROUP BY sa_rental_product_list.tipe_aset
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: 
+SELECT 
+    sa_rental_transaction.id, 
+    sa_rental_transaction.tipe_peminjaman, 
+    sa_rental_transaction.pic_user, 
+    sa_rental_transaction.alamat, 
+    sa_rental_transaction.nama_perusahaan, 
+    sa_rental_transaction.brands, 
+    sa_rental_transaction.nomor_transaksi, 
+    sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+    sa_rental_transaction_product.status_product,
+    sa_rental_transaction.tipe_transaksi 
+FROM sa_rental_transaction
+INNER JOIN sa_rental_transaction_product 
+    ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+WHERE sa_rental_transaction.tipe_transaksi = 'Sewa' and sa_rental_transaction_product.status_product = 'Sewa'
+
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: 
+SELECT 
+    sa_rental_transaction.id, 
+    sa_rental_transaction.tipe_peminjaman, 
+    sa_rental_transaction.pic_user, 
+    sa_rental_transaction.alamat, 
+    sa_rental_transaction.nama_perusahaan, 
+    sa_rental_transaction.brands, 
+    sa_rental_transaction.nomor_transaksi, 
+    sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+    sa_rental_transaction_product.status_product,
+    sa_rental_transaction.tipe_transaksi 
+FROM sa_rental_transaction
+INNER JOIN sa_rental_transaction_product 
+    ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+WHERE sa_rental_transaction.tipe_transaksi = 'Sewa' and sa_rental_transaction_product.status_product = 'Sewa'
+
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: 
+SELECT 
+    sa_rental_transaction.id, 
+    sa_rental_transaction.tipe_peminjaman, 
+    sa_rental_transaction.nomor_transaksi, 
+    sa_rental_transaction.pic_pinjam, 
+    sa_rental_transaction.alamat, 
+    sa_rental_transaction.nama_perusahaan, 
+    sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+    sa_rental_transaction_product.status_product 
+FROM sa_rental_transaction
+INNER JOIN sa_rental_transaction_product 
+    ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+WHERE sa_rental_transaction.tipe_peminjaman = 'Internal' and sa_rental_transaction_product.status_product = 'Peminjaman'
+
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: 
+SELECT 
+    sa_rental_transaction.id, 
+    sa_rental_transaction.tipe_peminjaman, 
+    sa_rental_transaction.nomor_transaksi, 
+    sa_rental_transaction.pic_pinjam, 
+    sa_rental_transaction.alamat, 
+    sa_rental_transaction.nama_perusahaan, 
+    sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+    sa_rental_transaction_product.status_product 
+FROM sa_rental_transaction
+INNER JOIN sa_rental_transaction_product 
+    ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+WHERE sa_rental_transaction.tipe_peminjaman = 'Internal' and sa_rental_transaction_product.status_product = 'Peminjaman'
+
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: 
+  SELECT count(nomor_seri) as total_count, lokasi
+ FROM sa_rental_product_list
+ WHERE lokasi IS NOT NULL AND lokasi != ''  AND lokasi != 'Remove'
+ AND tipe_aset = 'Exrental' GROUP BY lokasi
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: 
+  SELECT count(nomor_seri) as total_count, lokasi
+ FROM sa_rental_product_list
+ WHERE lokasi IS NOT NULL AND lokasi != ''  AND lokasi != 'Remove'
+ AND tipe_aset = 'Exrental' GROUP BY lokasi
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: 
+   SELECT count(nomor_seri) as total_count, tipe_aset
+   FROM sa_rental_product_list
+   WHERE tipe_aset IN ('Titipan','Hibah','Exrental','Sewa - Rental Vendor','Peminjaman Insiden Vendor')
+ AND tipe_aset = 'Exrental' GROUP BY tipe_aset
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: 
+   SELECT count(nomor_seri) as total_count, tipe_aset
+   FROM sa_rental_product_list
+   WHERE tipe_aset IN ('Titipan','Hibah','Exrental','Sewa - Rental Vendor','Peminjaman Insiden Vendor')
+ AND tipe_aset = 'Exrental' GROUP BY tipe_aset
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: 
+   SELECT count(nomor_seri) as total_count, part_number
+FROM sa_rental_transaction_product
+where status_product = 'Peminjaman' and status_return = 'Return' OR status_product = 'Peminjaman' and status_return is null
+GROUP BY part_number
+
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: 
+   SELECT count(nomor_seri) as total_count, part_number
+FROM sa_rental_transaction_product
+where status_product = 'Peminjaman' and status_return = 'Return' OR status_product = 'Peminjaman' and status_return is null
+GROUP BY part_number
+
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: 
+    SELECT COUNT(nomor_seri) AS total_count, level_parent
+    FROM sa_rental_product_list
+    WHERE level_parent IN ('Unit', 'Module', 'Sub Module', 'Software', 'Accesorries')
+ AND tipe_aset = 'Exrental' GROUP BY level_parent
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: 
+    SELECT COUNT(nomor_seri) AS total_count, level_parent
+    FROM sa_rental_product_list
+    WHERE level_parent IN ('Unit', 'Module', 'Sub Module', 'Software', 'Accesorries')
+ AND tipe_aset = 'Exrental' GROUP BY level_parent
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: SELECT sa_rental_transaction_product.nomor_seri, sa_rental_product_list.kategori, sa_rental_product_list.tipe_aset, sa_rental_transaction_product.part_number
+ FROM sa_rental_transaction_product
+ JOIN sa_rental_product_list ON sa_rental_transaction_product.nomor_seri=sa_rental_product_list.nomor_seri;
+ 
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: SELECT sa_rental_transaction_product.nomor_seri, sa_rental_product_list.kategori, sa_rental_product_list.tipe_aset, sa_rental_transaction_product.part_number
+ FROM sa_rental_transaction_product
+ JOIN sa_rental_product_list ON sa_rental_transaction_product.nomor_seri=sa_rental_product_list.nomor_seri;
+ 
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: SELECT sa_rental_product_list.lokasi, sa_rental_product_list.tipe_peminjaman, sa_rental_product_list.kategori, sa_rental_product_list.level_parent, sa_rental_product_list.nomor_seri, sa_rental_product_list.tipe_aset, sa_rental_transaction_product.part_number 
+                                FROM sa_rental_product_list
+                                INNER JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri
+                                WHERE sa_rental_product_list.tipe_aset = 'Exrental' 
+                                OR sa_rental_product_list.level_parent = ''
+                                OR sa_rental_product_list.kategori = ''
+                                OR sa_rental_product_list.part_number = ''
+                                ORDER BY sa_rental_product_list.tipe_aset ASC
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: SELECT sa_rental_product_list.lokasi, sa_rental_product_list.tipe_peminjaman, sa_rental_product_list.kategori, sa_rental_product_list.level_parent, sa_rental_product_list.nomor_seri, sa_rental_product_list.tipe_aset, sa_rental_transaction_product.part_number 
+                                FROM sa_rental_product_list
+                                INNER JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri
+                                WHERE sa_rental_product_list.tipe_aset = 'Exrental' 
+                                OR sa_rental_product_list.level_parent = ''
+                                OR sa_rental_product_list.kategori = ''
+                                OR sa_rental_product_list.part_number = ''
+                                ORDER BY sa_rental_product_list.tipe_aset ASC
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: SELECT * FROM sa_rental_product_list WHERE parent_id IS NULL
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: SELECT * FROM sa_rental_product_list WHERE parent_id IS NULL
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: SELECT nomor_seri from sa_rental_product_list where parent_id = 'Parent'
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: SELECT nomor_seri from sa_rental_product_list where parent_id = 'Parent'
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: SELECT tipe_asset from sa_rental_new_asset where nomor_dokumen = ''
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: SELECT tipe_asset from sa_rental_new_asset where nomor_dokumen = ''
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: SELECT * from sa_rental_product_list where nomor_seri = ''
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: SELECT * from sa_rental_product_list
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: SELECT * from sa_rental_product_list
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: SELECT * from sa_rental_product_list where tipe_aset in ('Hibah','Titipan','Exrental','Peminjaman Vendor Insiden','Sewa - Rental Vendor' )
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: SELECT * from sa_rental_product_list where tipe_aset in ('Hibah','Titipan','Exrental','Peminjaman Vendor Insiden','Sewa - Rental Vendor' )
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: SELECT * from sa_rental_product_list where tipe_aset in ('Sewa Vendor','Peminjaman Vendor')
+
+
+2024-08-26 14:08:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Commands out of sync; you can't run this command now
+- Query 		: SELECT * from sa_rental_product_list where tipe_aset in ('Sewa Vendor','Peminjaman Vendor')
+
+
+2024-08-26 14:11:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_master_maintenance' doesn't exist
+- Query 		: select * from sa_master_maintenance WHERE project_code IN ('TB000821C0010','TB000820C0001','TB000821C0011','TB000822C0007','TB000822C0026','TB000823C0006','TB000821C0001')
+
+
+2024-08-26 14:19:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'gorup by sa_rental_transaction.id' at line 22
+- Query 		: SELECT 
+    sa_rental_transaction.id, 
+    sa_rental_transaction.tipe_peminjaman, 
+    sa_rental_transaction.pic_user, 
+    sa_rental_transaction.alamat, 
+    sa_rental_transaction.nama_perusahaan, 
+    sa_rental_transaction.nomor_transaksi, 
+    sa_rental_transaction.brands, 
+    sa_rental_transaction_product.nomor_seri AS nomor_seri_list,
+    sa_rental_transaction_product.status_product,
+    sa_rental_product_list.nomor_seri AS pl_nomor_seri,
+    sa_rental_product_list.tipe_aset AS pl_tipe_aset,
+    sa_rental_transaction_product.nomor_seri AS tp_nomor_seri
+FROM sa_rental_transaction
+INNER JOIN sa_rental_transaction_product 
+    ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+INNER JOIN sa_rental_product_list
+    ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri
+WHERE sa_rental_transaction_product.status_product = 'Peminjaman' 
+  AND sa_rental_transaction.tipe_peminjaman = 'Customer' 
+  AND sa_rental_product_list.tipe_aset = 'Titipan'
+gorup by sa_rental_transaction.id;
+
+
+2024-08-26 14:47:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '( srtp.status_return = 'Return') 
+    OR 
+    (srtp.status_return IS NULL)...' at line 13
+- Query 		:  SELECT 
+    COUNT(srtp.nomor_seri) AS total_count,
+    srtp.part_number,
+    srpl.tipe_aset
+FROM 
+    sa_rental_transaction_product srtp
+JOIN 
+    sa_rental_product_list srpl
+ON 
+    srtp.nomor_seri = srpl.nomor_seri
+WHERE 
+srtp.status_product = 'Peminjaman' 
+    ( srtp.status_return = 'Return') 
+    OR 
+    (srtp.status_return IS NULL)
+and srpl.tipe_aset = 'Exrental'
+GROUP BY 
+    srtp.part_number, 
+    srpl.tipe_aset
+
+
+2024-08-26 14:53:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.status_product FROM 
+    sa_rental_transaction_product srtp
+JOIN 
+    sa_...' at line 5
+- Query 		: SELECT 
+    COUNT(srtp.nomor_seri) AS total_count,
+    srtp.part_number,
+    srpl.tipe_aset
+srtp.status_product FROM 
+    sa_rental_transaction_product srtp
+JOIN 
+    sa_rental_product_list srpl
+ON 
+    srtp.nomor_seri = srpl.nomor_seri
+WHERE 
+   ( srtp.status_product = 'Peminjaman')
+OR srtp.status_product  = 'Sewa'
+    AND 
+    (srtp.status_return = 'Return' 
+    OR srtp.status_return IS NULL)
+
+
+
+2024-08-26 14:53:41
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.status_product 
+FROM 
+    sa_rental_transaction_product srtp
+JOIN 
+    s...' at line 5
+- Query 		: SELECT 
+    COUNT(srtp.nomor_seri) AS total_count,
+    srtp.part_number,
+    srpl.tipe_aset
+srtp.status_product 
+FROM 
+    sa_rental_transaction_product srtp
+JOIN 
+    sa_rental_product_list srpl
+ON 
+    srtp.nomor_seri = srpl.nomor_seri
+WHERE 
+   ( srtp.status_product = 'Peminjaman')
+OR srtp.status_product  = 'Sewa'
+    AND 
+    (srtp.status_return = 'Return' 
+    OR srtp.status_return IS NULL)
+
+
+
+2024-08-26 14:53:53
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.status_product 
+FROM 
+    sa_rental_transaction_product srtp
+JOIN 
+    s...' at line 5
+- Query 		: SELECT 
+    COUNT(srtp.nomor_seri) AS total_count,
+    srtp.part_number,
+    srpl.tipe_aset
+srtp.status_product 
+FROM 
+    sa_rental_transaction_product srtp
+JOIN 
+    sa_rental_product_list srpl
+ON 
+    srtp.nomor_seri = srpl.nomor_seri
+WHERE 
+   ( srtp.status_product = 'Peminjaman')
+
+    AND 
+    (srtp.status_return = 'Return' 
+    OR srtp.status_return IS NULL)
+
+
+
+2024-08-26 15:14:19
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'srtp.status_product = 'Sewa')
+    AND 
+    (srtp.status_return = 'Return' 
+  ...' at line 12
+- Query 		: 
+SELECT 
+    COUNT(srtp.nomor_seri) AS total_count,
+    srtp.part_number,
+    srpl.tipe_aset
+FROM 
+    sa_rental_transaction_product srtp
+JOIN 
+    sa_rental_product_list srpl
+ON 
+    srtp.nomor_seri = srpl.nomor_seri
+WHERE 
+   (  srtp.status_product = 'Peminjaman' srtp.status_product = 'Sewa')
+    AND 
+    (srtp.status_return = 'Return' 
+    OR srtp.status_return IS NULL)
+
+ GROUP BY 
+    srtp.part_number, 
+    srpl.tipe_aset
+
+
+
+2024-08-26 15:14:19
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'srtp.status_product = 'Sewa')
+    AND 
+    (srtp.status_return = 'Return' 
+  ...' at line 12
+- Query 		: 
+SELECT 
+    COUNT(srtp.nomor_seri) AS total_count,
+    srtp.part_number,
+    srpl.tipe_aset
+FROM 
+    sa_rental_transaction_product srtp
+JOIN 
+    sa_rental_product_list srpl
+ON 
+    srtp.nomor_seri = srpl.nomor_seri
+WHERE 
+   (  srtp.status_product = 'Peminjaman' srtp.status_product = 'Sewa')
+    AND 
+    (srtp.status_return = 'Return' 
+    OR srtp.status_return IS NULL)
+
+ GROUP BY 
+    srtp.part_number, 
+    srpl.tipe_aset
+
+
+
+2024-08-26 15:17:18
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,3,1,3,'VMWare',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-26 15:17:18
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,8,'VMWare',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-26 15:18:45
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Illegal parameter data types varchar and row for operation '<>'
+- Query 		: select * from sa_rental_transaction_product where status_product != ('Peminjaman','Sewa','Return') 
+
+
+2024-08-26 16:49:26
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-08-26 17:14:21
+- Server 		: Prod
+- User 			: hasan@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-08-26 17:14:21
+- Server 		: Prod
+- User 			: hasan@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25

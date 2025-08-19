@@ -1,0 +1,432 @@
+File Error Log
+
+2024-09-23 10:38:45
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-09-23 10:57:15
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-09-23 10:57:24
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-09-23 10:57:28
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-09-23 10:57:45
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-09-23 11:02:24
+- Server 		: Prod
+- User 			: andri.ramadhani@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_view_employees
+
+
+2024-09-23 11:02:24
+- Server 		: Prod
+- User 			: andri.ramadhani@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_mst_orders
+
+
+2024-09-23 11:02:24
+- Server 		: Prod
+- User 			: andri.ramadhani@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_general_informations WHERE change_request_type='Maintenance'
+
+
+2024-09-23 11:02:24
+- Server 		: Prod
+- User 			: andri.ramadhani@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_general_informations WHERE project_code ='TA004824E0002'
+
+
+2024-09-23 11:02:24
+- Server 		: Prod
+- User 			: andri.ramadhani@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_trx_project_list WHERE project_code ='TA004824E0002'
+
+
+2024-09-23 11:02:24
+- Server 		: Prod
+- User 			: andri.ramadhani@mastersystem.co.id
+- Module 		: change_request
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_NOTIFICATION'
+
+
+2024-09-23 13:58:33
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' no_so = '2023/SO/2654', resource_email = 'Rian Yasnita Yulianty'' at line 1
+- Query 		: SELECT * FROM sa_resource_assignment WHERE project_code = 'TB001020C0049', no_so = '2023/SO/2654', resource_email = 'Rian Yasnita Yulianty'
+
+
+2024-09-23 13:58:45
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' no_so = '2023/SO/2654'' at line 1
+- Query 		: SELECT * FROM sa_resource_assignment WHERE project_code = 'TB001020C0049', no_so = '2023/SO/2654'
+
+
+2024-09-23 13:59:36
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' no_so = '2023/SO/2654' AND resource_email = 'Rian Yasnita Yulianty<rian.yasn...' at line 1
+- Query 		: SELECT * FROM sa_resource_assignment WHERE project_code = 'TB001020C0049', no_so = '2023/SO/2654' AND resource_email = 'Rian Yasnita Yulianty<rian.yasnita@mastersystem.co.id>'
+
+
+2024-09-23 14:15:11
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'like 'rizky yuana'' at line 1
+- Query 		: SELECT * FROM nama like 'rizky yuana'
+
+
+2024-09-23 14:15:19
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'like 'rizky yuana'' at line 1
+- Query 		: SELECT * FROM nama like 'rizky yuana'
+
+
+2024-09-23 14:17:28
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'name' in 'where clause'
+- Query 		: SELECT * FROM sa_user WHERE name like '%rizky%'
+
+
+2024-09-23 17:20:00
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_trx_leave' doesn't exist
+- Query 		: SELECT * FROM sa_trx_leave WHERE employee_name like '%rizki mada%'
+
+
+2024-09-23 18:33:26
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:26
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:31
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:31
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:31
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:31
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:36
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:36
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:36
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:36
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:40
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:40
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:40
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:40
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:46
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:46
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:46
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:46
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:50
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:50
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:50
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:50
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:55
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:55
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:55
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:33:55
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:34:00
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:34:00
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:34:00
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-09-23 18:34:00
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 

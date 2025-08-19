@@ -1,0 +1,782 @@
+File Error Log
+
+2023-11-20 08:09:44
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%58T0A1B6F8KC%'
+
+
+2023-11-20 08:09:48
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%WZP22280Z8H%'
+
+
+2023-11-20 11:45:01
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_v2
+- Status 		: Table 'sa_dashboard_kpi.sa_kpi_dashboard_pl' doesn't exist
+- Query 		: SELECT `project_id`, `project_type`, `project_code`, `so_number`, `order_number`, `periode_so`, `customer_name`, `project_name`, `wrike_permalink`, `project_leader`, `project_manager`, `project_amount`, `total_task_plan`, `total_task_actual`, `SB_mandays_implementation`, `CR_mandays_implementation`, `WR_mandays_actual_implementation`, `start_assignment`, `end_assignment`, `bast_plan`, `bast_actual`, `commercial_kpi`, `commercial_category`, `time_kpi`, `time_category`, `error_kpi`, `error_category`, `total_cte`, `weighted_value`, `status_wrike`, `status_wrike`, `kpi_status`, `periode_kpi` 
+                                            FROM `sa_kpi_dashboard_pl` 
+                                            WHERE  `kpi_status` = 'Reviewed'  AND  `periode_so` = 2023  AND  `periode_kpi` = 2023 
+
+
+2023-11-20 11:45:01
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_v2
+- Status 		: Table 'sa_dashboard_kpi.sa_kpi_dashboard_resource' doesn't exist
+- Query 		: SELECT
+                                        `resource_name`,
+                                        `ideal_value`,
+                                        `actual_value`,
+                                        `average_value`,
+                                        `ideal_final_value`,
+                                        `actual_final_value`,
+                                        `average_final_value`,
+                                        `kpi_status`,
+                                        `periode_kpi`
+                                    FROM
+                                        `sa_kpi_dashboard_resource`
+                                    WHERE  `kpi_status` = 'Reviewed'  AND  `periode_kpi` = 2023 
+
+
+2023-11-20 11:47:31
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: sync_kpi_project_list
+- Status 		: Data too long for column 'so_number' at row 1
+- Query 		: INSERT INTO `sa_kpi_dashboard_pl`(
+    `project_id`,
+    `project_type`,
+    `project_code`,
+    `so_number`,
+    `order_number`,
+    `periode_so`,
+    `customer_name`,
+    `project_name`,
+    `wrike_permalink`,
+    `project_leader`,
+    `project_manager`,
+    `project_amount`,
+    `SB_mandays_implementation`,
+    `CR_mandays_implementation`,
+    `WR_mandays_actual_implementation`,
+    `start_assignment`,
+    `end_assignment`,
+    `bast_plan`,
+    `bast_actual`,
+    `commercial_kpi`,
+    `commercial_category`,
+    `time_kpi`,
+    `time_category`,
+    `error_kpi`,
+    `error_category`,
+    `total_cte`,
+    `weighted_value`,
+    `status_wrike`,
+    `status_project`,
+    `kpi_status`,
+    `periode_kpi`
+)
+SELECT
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`id`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`project_type`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`project_code`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number`,
+    `sa_dashboard_kpi`.`sa_data_so`.`periode_so`,
+    `sa_wrike_integrate`.`sa_wrike_project_detail`.`customer_name`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`title`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`permalink`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`project_leader`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`value`,
+    `sa_dashboard_kpi`.`sa_data_so`.`SB_mandays_implementation`,
+    `sa_dashboard_kpi`.`sa_data_so`.`CR_mandays_implementation`,
+    `sa_dashboard_kpi`.`sa_data_so`.`WR_mandays_actual_implementation`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`start_assignment`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`start_assignment`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_plan`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_actual`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_kpi`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_category`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_kpi`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_category`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_kpi`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_category`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`total_cte`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`weighted_value`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_wr`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_project`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`kpi_status`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`periode`
+FROM
+    `sa_wrike_integrate`.`sa_wrike_project_list`
+LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` ON
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`order_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number`
+LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` ON
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`id` = `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_id`
+LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` ON
+    `sa_dashboard_kpi`.`sa_data_so`.`order_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number`;
+
+
+2023-11-20 11:47:31
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: sync_kpi_project_list
+- Status 		: Division by 0
+- Query 		: INSERT INTO `sa_kpi_dashboard_resource`(
+    `resource_name`,
+    `project_type`,
+    `ideal_value`,
+    `actual_value`,
+    `average_value`,
+    `ideal_final_value`,
+    `actual_final_value`,
+    `average_final_value`,
+    `kpi_status`,
+    `periode_kpi`
+)
+SELECT
+    `Nama`,
+    `project_type`,
+    SUM(`nilai_ideal`) AS `ideal_value`,
+    SUM(`nilai_aktual`) AS `actual_value`,
+    SUM(`nilai_aktual`) / SUM(`nilai_ideal`) * 100 AS `average`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_ideal`, ',', '.')
+    ) AS `ideal_final_value`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_aktual`, ',', '.')
+    ) AS `actual_final_value`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_ideal`, ',', '.')
+    ) / SUM(
+        REPLACE
+            (`nilai_akhir_aktual`, ',', '.')
+    ) * 100 AS `average_resource`,
+    `kpi_status`,
+    `periode`
+    FROM
+        `sa_user`
+    GROUP BY
+        `Nama`, `project_type`, `kpi_status`, `periode`;
+
+
+2023-11-20 11:49:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: sync_kpi_project_list
+- Status 		: Data too long for column 'so_number' at row 1
+- Query 		: INSERT INTO `sa_kpi_dashboard_pl`(
+    `project_id`,
+    `project_type`,
+    `project_code`,
+    `so_number`,
+    `order_number`,
+    `periode_so`,
+    `customer_name`,
+    `project_name`,
+    `wrike_permalink`,
+    `project_leader`,
+    `project_manager`,
+    `project_amount`,
+    `SB_mandays_implementation`,
+    `CR_mandays_implementation`,
+    `WR_mandays_actual_implementation`,
+    `start_assignment`,
+    `end_assignment`,
+    `bast_plan`,
+    `bast_actual`,
+    `commercial_kpi`,
+    `commercial_category`,
+    `time_kpi`,
+    `time_category`,
+    `error_kpi`,
+    `error_category`,
+    `total_cte`,
+    `weighted_value`,
+    `status_wrike`,
+    `status_project`,
+    `kpi_status`,
+    `periode_kpi`
+)
+SELECT
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`id`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`project_type`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`project_code`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number`,
+    `sa_dashboard_kpi`.`sa_data_so`.`periode_so`,
+    `sa_wrike_integrate`.`sa_wrike_project_detail`.`customer_name`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`title`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`permalink`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`project_leader`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`value`,
+    `sa_dashboard_kpi`.`sa_data_so`.`SB_mandays_implementation`,
+    `sa_dashboard_kpi`.`sa_data_so`.`CR_mandays_implementation`,
+    `sa_dashboard_kpi`.`sa_data_so`.`WR_mandays_actual_implementation`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`start_assignment`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`start_assignment`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_plan`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_actual`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_kpi`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_category`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_kpi`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_category`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_kpi`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_category`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`total_cte`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`weighted_value`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_wr`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_project`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`kpi_status`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`periode`
+FROM
+    `sa_wrike_integrate`.`sa_wrike_project_list`
+LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` ON
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`order_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number`
+LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` ON
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`id` = `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_id`
+LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` ON
+    `sa_dashboard_kpi`.`sa_data_so`.`order_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number`;
+
+
+2023-11-20 11:49:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: sync_kpi_project_list
+- Status 		: Division by 0
+- Query 		: INSERT INTO `sa_kpi_dashboard_resource`(
+    `resource_name`,
+    `project_type`,
+    `ideal_value`,
+    `actual_value`,
+    `average_value`,
+    `ideal_final_value`,
+    `actual_final_value`,
+    `average_final_value`,
+    `kpi_status`,
+    `periode_kpi`
+)
+SELECT
+    `Nama`,
+    `project_type`,
+    SUM(`nilai_ideal`) AS `ideal_value`,
+    SUM(`nilai_aktual`) AS `actual_value`,
+    SUM(`nilai_aktual`) / SUM(`nilai_ideal`) * 100 AS `average`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_ideal`, ',', '.')
+    ) AS `ideal_final_value`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_aktual`, ',', '.')
+    ) AS `actual_final_value`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_ideal`, ',', '.')
+    ) / SUM(
+        REPLACE
+            (`nilai_akhir_aktual`, ',', '.')
+    ) * 100 AS `average_resource`,
+    `kpi_status`,
+    `periode`
+    FROM
+        `sa_user`
+    GROUP BY
+        `Nama`, `project_type`, `kpi_status`, `periode`;
+
+
+2023-11-20 11:57:47
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: sync_kpi_project_list
+- Status 		: Data too long for column 'so_number' at row 1
+- Query 		: INSERT INTO `sa_kpi_dashboard_pl`(
+    `project_id`,
+    `project_type`,
+    `project_code`,
+    `so_number`,
+    `order_number`,
+    `periode_so`,
+    `customer_name`,
+    `project_name`,
+    `wrike_permalink`,
+    `project_leader`,
+    `project_manager`,
+    `project_amount`,
+    `SB_mandays_implementation`,
+    `CR_mandays_implementation`,
+    `WR_mandays_actual_implementation`,
+    `start_assignment`,
+    `end_assignment`,
+    `bast_plan`,
+    `bast_actual`,
+    `commercial_kpi`,
+    `commercial_category`,
+    `time_kpi`,
+    `time_category`,
+    `error_kpi`,
+    `error_category`,
+    `total_cte`,
+    `weighted_value`,
+    `status_wrike`,
+    `status_project`,
+    `kpi_status`,
+    `periode_kpi`
+)
+SELECT
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`id`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`project_type`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`project_code`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number`,
+    `sa_dashboard_kpi`.`sa_data_so`.`periode_so`,
+    `sa_wrike_integrate`.`sa_wrike_project_detail`.`customer_name`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`title`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`permalink`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`project_leader`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`value`,
+    `sa_dashboard_kpi`.`sa_data_so`.`SB_mandays_implementation`,
+    `sa_dashboard_kpi`.`sa_data_so`.`CR_mandays_implementation`,
+    `sa_dashboard_kpi`.`sa_data_so`.`WR_mandays_actual_implementation`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`start_assignment`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`start_assignment`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_plan`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_actual`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_kpi`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_category`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_kpi`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_category`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_kpi`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_category`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`total_cte`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`weighted_value`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_wr`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_project`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`kpi_status`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`periode`
+FROM
+    `sa_wrike_integrate`.`sa_wrike_project_list`
+LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` ON
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`order_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number`
+LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` ON
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`id` = `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_id`
+LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` ON
+    `sa_dashboard_kpi`.`sa_data_so`.`order_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number`;
+
+
+2023-11-20 11:57:47
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: sync_kpi_project_list
+- Status 		: Division by 0
+- Query 		: INSERT INTO `sa_kpi_dashboard_resource`(
+    `resource_name`,
+    `project_type`,
+    `ideal_value`,
+    `actual_value`,
+    `average_value`,
+    `ideal_final_value`,
+    `actual_final_value`,
+    `average_final_value`,
+    `kpi_status`,
+    `periode_kpi`
+)
+SELECT
+    `Nama`,
+    `project_type`,
+    SUM(`nilai_ideal`) AS `ideal_value`,
+    SUM(`nilai_aktual`) AS `actual_value`,
+    SUM(`nilai_aktual`) / SUM(`nilai_ideal`) * 100 AS `average`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_ideal`, ',', '.')
+    ) AS `ideal_final_value`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_aktual`, ',', '.')
+    ) AS `actual_final_value`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_ideal`, ',', '.')
+    ) / SUM(
+        REPLACE
+            (`nilai_akhir_aktual`, ',', '.')
+    ) * 100 AS `average_resource`,
+    `kpi_status`,
+    `periode`
+    FROM
+        `sa_user`
+    GROUP BY
+        `Nama`, `project_type`, `kpi_status`, `periode`;
+
+
+2023-11-20 12:00:57
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: sync_kpi_project_list
+- Status 		: Data too long for column 'order_number' at row 1
+- Query 		: INSERT INTO `sa_kpi_dashboard_pl`(
+    `project_id`,
+    `project_type`,
+    `project_code`,
+    `so_number`,
+    `order_number`,
+    `periode_so`,
+    `customer_name`,
+    `project_name`,
+    `wrike_permalink`,
+    `project_leader`,
+    `project_manager`,
+    `project_amount`,
+    `SB_mandays_implementation`,
+    `CR_mandays_implementation`,
+    `WR_mandays_actual_implementation`,
+    `start_assignment`,
+    `end_assignment`,
+    `bast_plan`,
+    `bast_actual`,
+    `commercial_kpi`,
+    `commercial_category`,
+    `time_kpi`,
+    `time_category`,
+    `error_kpi`,
+    `error_category`,
+    `total_cte`,
+    `weighted_value`,
+    `status_wrike`,
+    `status_project`,
+    `kpi_status`,
+    `periode_kpi`
+)
+SELECT
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`id`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`project_type`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`project_code`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number`,
+    `sa_dashboard_kpi`.`sa_data_so`.`periode_so`,
+    `sa_wrike_integrate`.`sa_wrike_project_detail`.`customer_name`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`title`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`permalink`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`project_leader`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`value`,
+    `sa_dashboard_kpi`.`sa_data_so`.`SB_mandays_implementation`,
+    `sa_dashboard_kpi`.`sa_data_so`.`CR_mandays_implementation`,
+    `sa_dashboard_kpi`.`sa_data_so`.`WR_mandays_actual_implementation`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`start_assignment`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`start_assignment`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_plan`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_actual`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_kpi`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_category`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_kpi`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_category`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_kpi`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_category`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`total_cte`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`weighted_value`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_wr`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_project`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`kpi_status`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`periode`
+FROM
+    `sa_wrike_integrate`.`sa_wrike_project_list`
+LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` ON
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`order_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number`
+LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` ON
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`id` = `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_id`
+LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` ON
+    `sa_dashboard_kpi`.`sa_data_so`.`order_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number`;
+
+
+2023-11-20 12:00:57
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: sync_kpi_project_list
+- Status 		: Division by 0
+- Query 		: INSERT INTO `sa_kpi_dashboard_resource`(
+    `resource_name`,
+    `project_type`,
+    `ideal_value`,
+    `actual_value`,
+    `average_value`,
+    `ideal_final_value`,
+    `actual_final_value`,
+    `average_final_value`,
+    `kpi_status`,
+    `periode_kpi`
+)
+SELECT
+    `Nama`,
+    `project_type`,
+    SUM(`nilai_ideal`) AS `ideal_value`,
+    SUM(`nilai_aktual`) AS `actual_value`,
+    SUM(`nilai_aktual`) / SUM(`nilai_ideal`) * 100 AS `average`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_ideal`, ',', '.')
+    ) AS `ideal_final_value`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_aktual`, ',', '.')
+    ) AS `actual_final_value`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_ideal`, ',', '.')
+    ) / SUM(
+        REPLACE
+            (`nilai_akhir_aktual`, ',', '.')
+    ) * 100 AS `average_resource`,
+    `kpi_status`,
+    `periode`
+    FROM
+        `sa_user`
+    GROUP BY
+        `Nama`, `project_type`, `kpi_status`, `periode`;
+
+
+2023-11-20 12:03:04
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: sync_kpi_project_list
+- Status 		: Column 'project_type' cannot be null
+- Query 		: INSERT INTO `sa_kpi_dashboard_pl`(
+    `project_id`,
+    `project_type`,
+    `project_code`,
+    `so_number`,
+    `order_number`,
+    `periode_so`,
+    `customer_name`,
+    `project_name`,
+    `wrike_permalink`,
+    `project_leader`,
+    `project_manager`,
+    `project_amount`,
+    `SB_mandays_implementation`,
+    `CR_mandays_implementation`,
+    `WR_mandays_actual_implementation`,
+    `start_assignment`,
+    `end_assignment`,
+    `bast_plan`,
+    `bast_actual`,
+    `commercial_kpi`,
+    `commercial_category`,
+    `time_kpi`,
+    `time_category`,
+    `error_kpi`,
+    `error_category`,
+    `total_cte`,
+    `weighted_value`,
+    `status_wrike`,
+    `status_project`,
+    `kpi_status`,
+    `periode_kpi`
+)
+SELECT
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`id`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`project_type`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`project_code`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number`,
+    `sa_dashboard_kpi`.`sa_data_so`.`periode_so`,
+    `sa_wrike_integrate`.`sa_wrike_project_detail`.`customer_name`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`title`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`permalink`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`project_leader`,
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`value`,
+    `sa_dashboard_kpi`.`sa_data_so`.`SB_mandays_implementation`,
+    `sa_dashboard_kpi`.`sa_data_so`.`CR_mandays_implementation`,
+    `sa_dashboard_kpi`.`sa_data_so`.`WR_mandays_actual_implementation`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`start_assignment`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`start_assignment`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_plan`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_actual`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_kpi`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_category`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_kpi`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_category`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_kpi`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_category`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`total_cte`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`weighted_value`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_wr`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_project`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`kpi_status`,
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`periode`
+FROM
+    `sa_wrike_integrate`.`sa_wrike_project_list`
+LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` ON
+    `sa_dashboard_kpi`.`sa_kpi_so_wr`.`order_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number`
+LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` ON
+    `sa_wrike_integrate`.`sa_wrike_project_list`.`id` = `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_id`
+LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` ON
+    `sa_dashboard_kpi`.`sa_data_so`.`order_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number`;
+
+
+2023-11-20 12:03:04
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: sync_kpi_project_list
+- Status 		: Division by 0
+- Query 		: INSERT INTO `sa_kpi_dashboard_resource`(
+    `resource_name`,
+    `project_type`,
+    `ideal_value`,
+    `actual_value`,
+    `average_value`,
+    `ideal_final_value`,
+    `actual_final_value`,
+    `average_final_value`,
+    `kpi_status`,
+    `periode_kpi`
+)
+SELECT
+    `Nama`,
+    `project_type`,
+    SUM(`nilai_ideal`) AS `ideal_value`,
+    SUM(`nilai_aktual`) AS `actual_value`,
+    SUM(`nilai_aktual`) / SUM(`nilai_ideal`) * 100 AS `average`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_ideal`, ',', '.')
+    ) AS `ideal_final_value`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_aktual`, ',', '.')
+    ) AS `actual_final_value`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_ideal`, ',', '.')
+    ) / SUM(
+        REPLACE
+            (`nilai_akhir_aktual`, ',', '.')
+    ) * 100 AS `average_resource`,
+    `kpi_status`,
+    `periode`
+    FROM
+        `sa_user`
+    GROUP BY
+        `Nama`, `project_type`, `kpi_status`, `periode`;
+
+
+2023-11-20 12:05:00
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: sync_kpi_project_list
+- Status 		: Division by 0
+- Query 		: INSERT INTO `sa_kpi_dashboard_resource`(
+    `resource_name`,
+    `project_type`,
+    `ideal_value`,
+    `actual_value`,
+    `average_value`,
+    `ideal_final_value`,
+    `actual_final_value`,
+    `average_final_value`,
+    `kpi_status`,
+    `periode_kpi`
+)
+SELECT
+    `Nama`,
+    `project_type`,
+    SUM(`nilai_ideal`) AS `ideal_value`,
+    SUM(`nilai_aktual`) AS `actual_value`,
+    SUM(`nilai_aktual`) / SUM(`nilai_ideal`) * 100 AS `average`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_ideal`, ',', '.')
+    ) AS `ideal_final_value`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_aktual`, ',', '.')
+    ) AS `actual_final_value`,
+    SUM(
+        REPLACE
+            (`nilai_akhir_ideal`, ',', '.')
+    ) / SUM(
+        REPLACE
+            (`nilai_akhir_aktual`, ',', '.')
+    ) * 100 AS `average_resource`,
+    `kpi_status`,
+    `periode`
+    FROM
+        `sa_user`
+    GROUP BY
+        `Nama`, `project_type`, `kpi_status`, `periode`;
+
+
+2023-11-20 14:11:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.event_id' in 'on clause'
+- Query 		: select * from sa_preschedule a left join sa_schedule ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I44AJ7DU'
+
+
+2023-11-20 15:22:39
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Table 'sa_smartbonding.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2023-11-20 15:25:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: smart_bonding
+- SubModule		:  
+- Status 		: Table 'sa_smartbonding.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2023-11-20 16:28:51
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''ORD-29967-G4X4Y8' at line 1
+- Query 		: UPDATE sa_data_so SET tahun_review=2023 WHERE order_number='ORD-2023-00037' OR order_number='ORD-2023-00047' OR order_number='ORD-2023-00058' OR order_number='ORD-2023-00132' OR order_number='ORD-2023-00168' OR order_number='ORD-2023-00188' OR order_number='ORD-2023-00189' OR order_number='ORD-2023-00242' OR order_number='ORD-2023-00387' OR order_number='ORD-2023-00388' OR order_number='ORD-2023-00419' OR order_number='ORD-2023-00447' OR order_number='ORD-2023-00466' OR order_number='ORD-2023-00526' OR order_number='ORD-2023-00573' OR order_number='ORD-2023-00711' OR order_number='ORD-2023-00712' OR order_number='ORD-2023-00754' OR order_number='ORD-2023-00794' OR order_number='ORD-2023-00823' OR order_number='ORD-2023-00888' OR order_number='ORD-2023-00980' OR order_number='ORD-2023-01098' OR order_number='ORD-24503-X5G9B1' OR order_number='ORD-25790-D9T3T1' OR order_number='ORD-26427-V0V0C3' OR order_number='ORD-26590-B8Z8D8' OR order_number='ORD-26760-R0W4D8' OR order_number='ORD-26788-Z2D7L2' OR order_number='ORD-26791-P2X6S6' OR order_number='ORD-26861-X1C6R2' OR order_number='ORD-26914-V8G7X9' OR order_number='ORD-27093-S6F4G9' OR order_number='ORD-27223-V3Z6P2' OR order_number='ORD-27268-L5B2W0' OR order_number='ORD-27543-G6V7Y7' OR order_number='ORD-27547-X4P6N3' OR order_number='ORD-27550-Y7F9Y9' OR order_number='ORD-27570-P2Y3V4' OR order_number='ORD-27591-V4J9W5' OR order_number='ORD-27609-R7D3W4' OR order_number='ORD-27627-Y4V3B2' OR order_number='ORD-27684-M8N2K8' OR order_number='ORD-27688-H1H9T8' OR order_number='ORD-27698-T0K1G7' OR order_number='ORD-27703-F9D5C2' OR order_number='ORD-27704-M3W9L8' OR order_number='ORD-27712-T0V2Y2' OR order_number='ORD-27713-D8K0T2' OR order_number='ORD-27714-J8X1R6' OR order_number='ORD-27810-Y6J4T9' OR order_number='ORD-27822-F5Z5H4' OR order_number='ORD-27896-Z1R7X9' OR order_number='ORD-27908-S6K7N5' OR order_number='ORD-27909-J2X5C8' OR order_number='ORD-27931-V9Y0Q1' OR order_number='ORD-27936-H9F6V1' OR order_number='ORD-27944-B6D5G8' OR order_number='ORD-27977-B1P7K2' OR order_number='ORD-27982-H8V9M4' OR order_number='ORD-28008-S7N7F2' OR order_number='ORD-28041-M1B2X6' OR order_number='ORD-28066-C4G1S0' OR order_number='ORD-28120-J4R8F7' OR order_number='ORD-28183-H7F2R7' OR order_number='ORD-28200-V0Y8L5' OR order_number='ORD-28220-L1W2W9' OR order_number='ORD-28299-V4N4F7' OR order_number='ORD-28329-J3T4L7' OR order_number='ORD-28333-R6X0M1' OR order_number='ORD-28335-V7G9D7' OR order_number='ORD-28338-L6P7R1' OR order_number='ORD-28343-R5P8Y0' OR order_number='ORD-28344-T6L7B6' OR order_number='ORD-28361-W5N6Q8' OR order_number='ORD-28440-F1F6S8' OR order_number='ORD-28471-D3X2D2' OR order_number='ORD-28472-V3T8P5' OR order_number='ORD-28504-J9K7L8' OR order_number='ORD-28515-L9T8Y5' OR order_number='ORD-28549-L6P2Z9' OR order_number='ORD-28582-Y4B8Z9' OR order_number='ORD-28612-D7M0F7' OR order_number='ORD-28671-M8Q0K8' OR order_number='ORD-28720-H0M2W0' OR order_number='ORD-28748-Z2N6G2' OR order_number='ORD-28812-J9T6R6' OR order_number='ORD-28860-W3L6Y7' OR order_number='ORD-28900-L0J1N5' OR order_number='ORD-28902-V2H8F0' OR order_number='ORD-28925-G7K0Q2' OR order_number='ORD-28934-H4C1Y8' OR order_number='ORD-28946-P5H8H5' OR order_number='ORD-28988-Q6B7Q7' OR order_number='ORD-29088-J1L6M0' OR order_number='ORD-29094-Q4X3Y3' OR order_number='ORD-29115-L8P8H5' OR order_number='ORD-29126-D0S6T4' OR order_number='ORD-29160-S4G1Q7' OR order_number='ORD-29200-Z8M6Z4' OR order_number='ORD-29271-K7H0H3' OR order_number='ORD-29302-P6F6B4' OR order_number='ORD-29311-H5Q5C2' OR order_number='ORD-29324-R7T3H7' OR order_number='ORD-29355-M6Q6J0' OR order_number='ORD-29358-D8R8Q5' OR order_number='ORD-29401-V2V1M8' OR order_number='ORD-29403-V7J2F7' OR order_number='ORD-29456-F7G7C3' OR order_number='ORD-29470-J6R2J6' OR order_number='ORD-29541-B1K9P5' OR order_number='ORD-29544-F6X8K5' OR order_number='ORD-29572-T4B8T7' OR order_number='ORD-29579-W3W6K4' OR order_number='ORD-29967-G4X4Y8
+
+
+2023-11-20 17:12:17
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BEFORE timestamp' at line 1
+- Query 		: ALTER TABLE sa_wrike_project_list ADD tahun_review int(11) NULL BEFORE timestamp

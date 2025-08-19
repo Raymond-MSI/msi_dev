@@ -1,0 +1,366 @@
+08-11-2024 07:31:15
+- User Name   : Not-Login
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(500): get_conn()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+08-Nov-2024 7:31:15
+- SubModule : EDO
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 7, 1]  - "SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 7, 1" - 
+
+08-11-2024 07:31:18
+- User Name   : Not-Login
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(102): get_conn()
+#3 /var/www/html/msizone/login.php(516): portal()
+#4 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#5 {main}
+
+08-Nov-2024 7:31:18
+- SubModule : EDO
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; ]  - "SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; " - 
+
+08-11-2024 07:31:21
+- User Name   : Not-Login
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/login.php(163): Databases->__construct()
+#2 /var/www/html/msizone/login.php(533): msiguide()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+08-Nov-2024 7:31:21
+- SubModule : EDO
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-11-01" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-11-01" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10" - 
+
+08-11-2024 07:31:36
+- User Name   : melysa.wahyuningsih@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/components/classes/func_functions.php(442): get_conn()
+#3 /var/www/html/msizone/index.php(49): reset_notif()
+#4 {main}
+
+08-11-2024 07:32:06
+- User Name   : melysa.wahyuningsih@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/components/classes/func_functions.php(442): get_conn()
+#3 /var/www/html/msizone/index.php(49): reset_notif()
+#4 {main}
+
+08-11-2024 08:09:08
+- User Name   : Not-Login
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(500): get_conn()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+08-Nov-2024 8:09:08
+- SubModule : EDO
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 7, 1]  - "SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 7, 1" - 
+
+08-11-2024 08:09:11
+- User Name   : Not-Login
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(102): get_conn()
+#3 /var/www/html/msizone/login.php(516): portal()
+#4 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#5 {main}
+
+08-Nov-2024 8:09:11
+- SubModule : EDO
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; ]  - "SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; " - 
+
+08-11-2024 08:09:14
+- User Name   : Not-Login
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/login.php(163): Databases->__construct()
+#2 /var/www/html/msizone/login.php(533): msiguide()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+08-Nov-2024 8:09:14
+- SubModule : EDO
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-11-01" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-11-01" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10" - 
+
+08-11-2024 15:08:02
+- User Name   : rahmat.arizal@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/menu/mod_menu_topbar.php(85): get_conn()
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(85): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_msiguide08-Nov-2024 15:08:02
+- SubModule : EDO
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC" - 
+
+08-11-2024 15:08:05
+- User Name   : rahmat.arizal@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm08-11-2024 15:08:08
+- User Name   : rahmat.arizal@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(561): Databases->__construct()
+#2 /var/www/html/msizone/components/classes/func_msiguide.php(2): get_conn()
+#3 /var/www/html/msizone/components/modules/hcm/mod_edo_menu.php(2): include_once('/var/www/html/m...')
+#4 /var/www/html/msizone/components/modules/hcm/mod_edo.php(153): include('/var/www/html/m...')
+#5 /var/www/html/msizone/components/modules/hcm/mod_edo.php(297): view_data()
+#6 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#7 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#8 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#9 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_msiguide08-Nov-2024 15:08:08
+- SubModule : EDO
+- Status    : Caught 'get_sql' error - [SELECT `ID`,`post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_title` LIKE "%EDO%" AND `post_modified_gmt`>"2024-11-01" ORDER BY `post_modified_gmt` DESC LIMIT 0,1]  - "SELECT `ID`,`post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_title` LIKE "%EDO%" AND `post_modified_gmt`>"2024-11-01" ORDER BY `post_modified_gmt` DESC LIMIT 0,1" - 
+
+08-11-2024 15:08:12
+- User Name   : rahmat.arizal@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/menu/mod_footer.php(5): get_conn()
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(107): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_microservices08-Nov-2024 15:08:12
+- SubModule : EDO
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_cfg_web WHERE config_key="TITLE_OF_WEBSITE"]  - "SELECT * FROM sa_cfg_web WHERE config_key="TITLE_OF_WEBSITE"" - 
+
+08-11-2024 15:09:06
+- User Name   : rahmat.arizal@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/menu/mod_menu_topbar.php(85): get_conn()
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(85): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_msiguide08-Nov-2024 15:09:06
+- SubModule : EDO
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC" - 
+
+08-11-2024 15:09:10
+- User Name   : rahmat.arizal@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm08-11-2024 15:09:13
+- User Name   : rahmat.arizal@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/menu/mod_footer.php(5): get_conn()
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(107): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_microservices08-Nov-2024 15:09:13
+- SubModule : EDO
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_cfg_web WHERE config_key="TITLE_OF_WEBSITE"]  - "SELECT * FROM sa_cfg_web WHERE config_key="TITLE_OF_WEBSITE"" - 
+
+08-11-2024 15:15:23
+- User Name   : rahmat.arizal@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/menu/mod_menu_topbar.php(85): get_conn()
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(85): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_msiguide08-Nov-2024 15:15:23
+- SubModule : EDO
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC" - 
+
+08-11-2024 15:15:26
+- User Name   : rahmat.arizal@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm08-11-2024 15:15:29
+- User Name   : rahmat.arizal@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/hcm/func_edo.php(107): get_conn()
+#3 /var/www/html/msizone/components/modules/hcm/mod_edo.php(282): include('/var/www/html/m...')
+#4 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#5 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#6 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#7 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_navision08-Nov-2024 15:15:29
+- SubModule : EDO
+- Status    : Caught 'get_sql' error - [SELECT `project_name` FROM `sa_mst_order_number` WHERE `project_code` = 'TI000824G0001';]  - "SELECT `project_name` FROM `sa_mst_order_number` WHERE `project_code` = 'TI000824G0001';" - 
+
+08-11-2024 15:15:36
+- User Name   : rahmat.arizal@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/hcm/mod_edo.php(208): get_conn()
+#3 /var/www/html/msizone/components/modules/hcm/mod_edo.php(297): view_data()
+#4 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#5 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#6 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#7 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_navision08-Nov-2024 15:15:36
+- SubModule : EDO
+- Status    : Caught 'get_sql' error - [SELECT `project_name` 
+                                                FROM `sa_mst_order_number` 
+                                                WHERE `project_code` = 'TI000824G0001']  - "SELECT `project_name` 
+                                                FROM `sa_mst_order_number` 
+                                                WHERE `project_code` = 'TI000824G0001'" - 
+
+08-11-2024 15:16:05
+- User Name   : rahmat.arizal@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/menu/mod_menu_topbar.php(85): get_conn()
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(85): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_msiguide08-Nov-2024 15:16:05
+- SubModule : EDO
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt`, `post_type` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" ORDER BY `post_modified_gmt` DESC" - 
+
+08-11-2024 15:16:08
+- User Name   : rahmat.arizal@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm08-11-2024 15:25:11
+- User Name   : arun.nugraha@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm08-11-2024 16:19:52
+- User Name   : chrisheryanda@mastersystem.co.id
+- Module      : hcm
+- Sub-Module  : edo
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/hcm/mod_edo.php(279): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_hcm.php(3): include('/var/www/html/m...')
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_hcm

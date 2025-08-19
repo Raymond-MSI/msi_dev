@@ -1,0 +1,646 @@
+07-11-2024 19:11:26
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(500): get_conn()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-Nov-2024 19:11:26
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1]  - "SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1" - 
+
+07-11-2024 19:11:29
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(102): get_conn()
+#3 /var/www/html/msizone/login.php(516): portal()
+#4 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#5 {main}
+
+07-Nov-2024 19:11:29
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; ]  - "SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; " - 
+
+07-11-2024 19:11:32
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/login.php(163): Databases->__construct()
+#2 /var/www/html/msizone/login.php(533): msiguide()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-Nov-2024 19:11:32
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10" - 
+
+07-11-2024 19:11:46
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(500): get_conn()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-Nov-2024 19:11:46
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1]  - "SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1" - 
+
+07-11-2024 19:11:49
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(102): get_conn()
+#3 /var/www/html/msizone/login.php(516): portal()
+#4 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#5 {main}
+
+07-Nov-2024 19:11:49
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; ]  - "SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; " - 
+
+07-11-2024 19:11:52
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/login.php(163): Databases->__construct()
+#2 /var/www/html/msizone/login.php(533): msiguide()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-Nov-2024 19:11:52
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10" - 
+
+07-11-2024 19:12:07
+- User Name   : rezha.aulia@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(500): get_conn()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-Nov-2024 19:12:07
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1]  - "SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1" - 
+
+07-11-2024 19:12:10
+- User Name   : rezha.aulia@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(102): get_conn()
+#3 /var/www/html/msizone/login.php(516): portal()
+#4 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#5 {main}
+
+07-Nov-2024 19:12:10
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; ]  - "SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; " - 
+
+07-11-2024 19:12:13
+- User Name   : rezha.aulia@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/login.php(163): Databases->__construct()
+#2 /var/www/html/msizone/login.php(533): msiguide()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-Nov-2024 19:12:13
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10" - 
+
+07-11-2024 19:12:16
+- User Name   : rezha.aulia@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/components/classes/func_functions.php(442): get_conn()
+#3 /var/www/html/msizone/index.php(49): reset_notif()
+#4 {main}
+
+07-11-2024 19:12:38
+- User Name   : rezha.aulia@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/components/classes/func_functions.php(442): get_conn()
+#3 /var/www/html/msizone/index.php(49): reset_notif()
+#4 {main}
+
+07-11-2024 19:12:45
+- User Name   : rezha.aulia@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/components/classes/func_functions.php(442): get_conn()
+#3 /var/www/html/msizone/index.php(49): reset_notif()
+#4 {main}
+
+07-11-2024 21:51:22
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(500): get_conn()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-Nov-2024 21:51:22
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1]  - "SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1" - 
+
+07-11-2024 21:51:25
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(102): get_conn()
+#3 /var/www/html/msizone/login.php(516): portal()
+#4 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#5 {main}
+
+07-Nov-2024 21:51:25
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; ]  - "SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; " - 
+
+07-11-2024 21:51:28
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/login.php(163): Databases->__construct()
+#2 /var/www/html/msizone/login.php(533): msiguide()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-11-2024 21:51:28
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(500): get_conn()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-Nov-2024 21:51:28
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10" - 
+
+07-Nov-2024 21:51:28
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1]  - "SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1" - 
+
+07-11-2024 21:51:31
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(102): get_conn()
+#3 /var/www/html/msizone/login.php(516): portal()
+#4 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#5 {main}
+
+07-Nov-2024 21:51:31
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; ]  - "SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; " - 
+
+07-11-2024 21:51:34
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/login.php(163): Databases->__construct()
+#2 /var/www/html/msizone/login.php(533): msiguide()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-Nov-2024 21:51:34
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10" - 
+
+07-11-2024 22:09:26
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(500): get_conn()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-Nov-2024 22:09:26
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1]  - "SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1" - 
+
+07-11-2024 22:09:29
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(102): get_conn()
+#3 /var/www/html/msizone/login.php(516): portal()
+#4 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#5 {main}
+
+07-Nov-2024 22:09:29
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; ]  - "SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; " - 
+
+07-11-2024 22:09:32
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/login.php(163): Databases->__construct()
+#2 /var/www/html/msizone/login.php(533): msiguide()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-Nov-2024 22:09:32
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10" - 
+
+07-11-2024 22:09:44
+- User Name   : mohammad.rizky@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(500): get_conn()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-Nov-2024 22:09:44
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1]  - "SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1" - 
+
+07-11-2024 22:09:48
+- User Name   : mohammad.rizky@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(102): get_conn()
+#3 /var/www/html/msizone/login.php(516): portal()
+#4 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#5 {main}
+
+07-Nov-2024 22:09:48
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; ]  - "SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; " - 
+
+07-11-2024 22:09:51
+- User Name   : mohammad.rizky@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/login.php(163): Databases->__construct()
+#2 /var/www/html/msizone/login.php(533): msiguide()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-Nov-2024 22:09:51
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10" - 
+
+07-11-2024 22:09:54
+- User Name   : mohammad.rizky@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/components/classes/func_functions.php(442): get_conn()
+#3 /var/www/html/msizone/index.php(49): reset_notif()
+#4 {main}
+
+07-11-2024 22:10:34
+- User Name   : mohammad.rizky@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/components/classes/func_functions.php(442): get_conn()
+#3 /var/www/html/msizone/index.php(49): reset_notif()
+#4 {main}
+
+07-11-2024 22:12:00
+- User Name   : mohammad.rizky@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/components/classes/func_functions.php(442): get_conn()
+#3 /var/www/html/msizone/index.php(49): reset_notif()
+#4 {main}
+
+07-11-2024 22:12:19
+- User Name   : mohammad.rizky@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/components/classes/func_functions.php(442): get_conn()
+#3 /var/www/html/msizone/index.php(49): reset_notif()
+#4 {main}
+
+07-11-2024 22:12:28
+- User Name   : mohammad.rizky@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/components/classes/func_functions.php(442): get_conn()
+#3 /var/www/html/msizone/index.php(49): reset_notif()
+#4 {main}
+
+07-11-2024 22:37:50
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(500): get_conn()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-Nov-2024 22:37:50
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1]  - "SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1" - 
+
+07-11-2024 22:37:53
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(102): get_conn()
+#3 /var/www/html/msizone/login.php(516): portal()
+#4 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#5 {main}
+
+07-Nov-2024 22:37:53
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; ]  - "SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; " - 
+
+07-11-2024 22:37:56
+- User Name   : Not-Login
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/login.php(163): Databases->__construct()
+#2 /var/www/html/msizone/login.php(533): msiguide()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-Nov-2024 22:37:56
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10" - 
+
+07-11-2024 22:38:12
+- User Name   : danu.kurniawan@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(500): get_conn()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-Nov-2024 22:38:12
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1]  - "SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1" - 
+
+07-11-2024 22:38:15
+- User Name   : danu.kurniawan@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(102): get_conn()
+#3 /var/www/html/msizone/login.php(516): portal()
+#4 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#5 {main}
+
+07-Nov-2024 22:38:15
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; ]  - "SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; " - 
+
+07-11-2024 22:38:18
+- User Name   : danu.kurniawan@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/login.php(163): Databases->__construct()
+#2 /var/www/html/msizone/login.php(533): msiguide()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-Nov-2024 22:38:18
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10" - 
+
+07-11-2024 22:38:22
+- User Name   : danu.kurniawan@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/components/classes/func_functions.php(442): get_conn()
+#3 /var/www/html/msizone/index.php(49): reset_notif()
+#4 {main}
+
+07-11-2024 22:38:29
+- User Name   : danu.kurniawan@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/components/classes/func_functions.php(442): get_conn()
+#3 /var/www/html/msizone/index.php(49): reset_notif()
+#4 {main}
+
+07-11-2024 22:39:07
+- User Name   : danu.kurniawan@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/components/classes/func_functions.php(442): get_conn()
+#3 /var/www/html/msizone/index.php(49): reset_notif()
+#4 {main}
+
+07-11-2024 22:39:37
+- User Name   : danu.kurniawan@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/components/classes/func_functions.php(442): get_conn()
+#3 /var/www/html/msizone/index.php(49): reset_notif()
+#4 {main}
+
+07-11-2024 22:39:45
+- User Name   : danu.kurniawan@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/components/classes/func_functions.php(442): get_conn()
+#3 /var/www/html/msizone/index.php(49): reset_notif()
+#4 {main}
+
+07-11-2024 23:52:58
+- User Name   : arieftyarto@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(500): get_conn()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-Nov-2024 23:52:58
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1]  - "SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 6, 1" - 
+
+07-11-2024 23:53:01
+- User Name   : arieftyarto@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/login.php(102): get_conn()
+#3 /var/www/html/msizone/login.php(516): portal()
+#4 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#5 {main}
+
+07-Nov-2024 23:53:01
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; ]  - "SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; " - 
+
+07-11-2024 23:53:04
+- User Name   : arieftyarto@mastersystem.co.id
+- Module      : Home
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/login.php(163): Databases->__construct()
+#2 /var/www/html/msizone/login.php(533): msiguide()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+07-Nov-2024 23:53:04
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-31" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10" - 
+

@@ -1,0 +1,406 @@
+File Error Log
+
+2024-07-01 09:37:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_report_delay' doesn't exist
+- Query 		: select * from sa_report_delay
+
+
+2024-07-01 10:05:32
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_project_cr_no' doesn't exist
+- Query 		: SELECT * FROM sa_project_cr_no WHERE folder_status = 0
+
+
+2024-07-01 10:09:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_detail_plans' doesn't exist
+- Query 		: select * from sa_detail_plans WHERE cr_no='240624-CR-IM-0104'
+
+
+
+2024-07-01 10:20:51
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'pic' in 'where clause'
+- Query 		: select * from sa_project_cr_no WHERE pic LIKE '%aditia%'
+
+
+2024-07-01 10:53:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_general_informations' doesn't exist
+- Query 		: select * from sa_general_informations WHERE project_code='TB002723D0049'
+
+
+2024-07-01 11:03:07
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,3,1,2,'Cisco',250,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-07-01 11:03:07
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,3,1,1,'Cisco',350,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-07-01 11:03:07
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,2,'Cisco',250,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-07-01 11:35:01
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,3,1,2,'Cisco',250,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-07-01 11:35:01
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,3,1,1,'Cisco',350,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-07-01 11:35:01
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,2,'Cisco',250,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-07-01 11:35:02
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 7, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 21678 AND `resource_level` = 31 AND `service_type`= 1
+
+
+2024-07-01 11:35:02
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 6, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 21678 AND `resource_level` = 61 AND `service_type`= 1
+
+
+2024-07-01 11:35:02
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 24, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 21678 AND `resource_level` = 71 AND `service_type`= 1
+
+
+2024-07-01 13:44:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect table definition; there can be only one auto column and it must be defined as a key
+- Query 		: CREATE TABLE `sa_change_request`.`sa_history_cr` ( `id` INT NOT NULL AUTO_INCREMENT , `project_code` VARCHAR(100) NOT NULL , `so_number` VARCHAR(100) NOT NULL , `type` VARCHAR(100) NOT NULL , `date` VARCHAR(100) NOT NULL , `time` VARCHAR(100) NOT NULL , `description` TEXT NOT NULL ) ENGINE = InnoDB
+
+
+2024-07-01 13:44:21
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_history_cr' doesn't exist
+- Query 		: DESC sa_history_cr
+
+
+2024-07-01 13:44:22
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_history_cr' doesn't exist
+- Query 		: DESC sa_history_cr
+
+
+2024-07-01 13:44:29
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_history_cr' doesn't exist
+- Query 		: desc sa_history_cr
+
+
+2024-07-01 13:44:42
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect table definition; there can be only one auto column and it must be defined as a key
+- Query 		: CREATE TABLE `sa_change_request`.`sa_history_cr` ( `id` INT NOT NULL AUTO_INCREMENT , `project_code` VARCHAR(100) NOT NULL , `so_number` VARCHAR(100) NOT NULL , `type` VARCHAR(100) NOT NULL , `date` VARCHAR(100) NOT NULL , `time` VARCHAR(100) NOT NULL , `description` TEXT NOT NULL )
+
+
+2024-07-01 13:44:50
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_history_cr' doesn't exist
+- Query 		: desc sa_history_cr
+
+
+2024-07-01 13:44:51
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_history_cr' doesn't exist
+- Query 		: desc sa_history_cr
+
+
+2024-07-01 13:45:50
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect table definition; there can be only one auto column and it must be defined as a key
+- Query 		: CREATE TABLE `sa_change_request`.`sa_history_cr` (id INT NOT NULL AUTO_INCREMENT, `project_code` VARCHAR(100) NOT NULL, `so_number` VARCHAR(100) NOT NULL, `type` VARCHAR(100) NOT NULL , `date` VARCHAR(100) NOT NULL, `time` VARCHAR(100) NOT NULL, `description` TEXT NOT NULL)
+
+
+2024-07-01 13:45:56
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_history_cr' doesn't exist
+- Query 		: desc sa_history_cr
+
+
+2024-07-01 13:45:57
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_history_cr' doesn't exist
+- Query 		: desc sa_history_cr
+
+
+2024-07-01 13:45:58
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_history_cr' doesn't exist
+- Query 		: desc sa_history_cr
+
+
+2024-07-01 13:45:58
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_history_cr' doesn't exist
+- Query 		: desc sa_history_cr
+
+
+2024-07-01 13:45:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_history_cr' doesn't exist
+- Query 		: desc sa_history_cr
+
+
+2024-07-01 13:46:26
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect table definition; there can be only one auto column and it must be defined as a key
+- Query 		: CREATE TABLE `sa_history_cr` (id INT NOT NULL AUTO_INCREMENT, `project_code` VARCHAR(100) NOT NULL, `so_number` VARCHAR(100) NOT NULL, `type` VARCHAR(100) NOT NULL , `date` VARCHAR(100) NOT NULL, `time` VARCHAR(100) NOT NULL, `description` TEXT NOT NULL)
+
+
+2024-07-01 13:46:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_history_cr' doesn't exist
+- Query 		: desc sa_history_cr
+
+
+2024-07-01 13:46:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_history_cr' doesn't exist
+- Query 		: desc sa_history_cr
+
+
+2024-07-01 14:00:56
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'mainteanance_kom_date' in 'where clause'
+- Query 		: select * from sa_data_so WHERE mainteanance_kom_date<>''
+
+
+2024-07-01 14:11:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_data_so WHERE project_code='TK002324E0002'
+
+
+2024-07-01 14:39:01
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: select * from sa_maintenance_date WHERE project_code='TM016623J0003'
+
+
+2024-07-01 15:42:40
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_preschedule' doesn't exist
+- Query 		: select * from sa_preschedule WHERE id='IEAEOPF5I5KH3WQX'
+
+
+2024-07-01 15:42:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_preschedule' doesn't exist
+- Query 		: select * from sa_preschedule WHERE project_id='IEAEOPF5I5KH3WQX'
+
+
+2024-07-01 16:47:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'approval_status='approved' AND project_type='Implementation'' at line 1
+- Query 		: SELECT * FROM sa_resource_assignment WHERE order_number='ORD-24528-M5Q8N7' approval_status='approved' AND project_type='Implementation'
+
+
+2024-07-01 16:57:54
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'PRIMARY'
+- Query 		: INSERT INTO sa_initial_jobroles (task_id,parent_id,project_code,project_id,resource_category_id,total_mandays) VALUES ('', 'SERVICE BUDGET', 'TP026322G0001', '', '3',74)
+
+
+2024-07-01 16:57:54
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'PRIMARY'
+- Query 		: INSERT INTO sa_initial_jobroles (task_id,parent_id,project_code,project_id,resource_category_id,total_mandays) VALUES ('', 'SERVICE BUDGET', 'TP026322G0001', '', '3',74)
+
+
+2024-07-01 16:57:55
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'PRIMARY'
+- Query 		: INSERT INTO sa_initial_jobroles (task_id,parent_id,project_code,project_id,resource_category_id,total_mandays) VALUES ('', 'SERVICE BUDGET', 'TP026322G0001', '', '3',74)
+
+
+2024-07-01 16:57:55
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'PRIMARY'
+- Query 		: INSERT INTO sa_initial_jobroles (task_id, parent_id, project_code, project_id, resource_category_id, brand, total_mandays) VALUES ('', 'SERVICE BUDGET', 'TP026322G0001', '', '6', 'Dell', 12)
+
+
+2024-07-01 16:57:56
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'PRIMARY'
+- Query 		: INSERT INTO sa_initial_jobroles (task_id, parent_id, project_code, project_id, resource_category_id, brand, total_mandays) VALUES ('', 'SERVICE BUDGET', 'TP026322G0001', '', '7', 'Dell', 52)
+
+
+2024-07-01 16:57:56
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'PRIMARY'
+- Query 		: INSERT INTO sa_initial_jobroles (task_id, parent_id, project_code, project_id, resource_category_id, brand, total_mandays) VALUES ('', 'SERVICE BUDGET', 'TP026322G0001', '', '6', 'PaloAlto', 3)
+
+
+2024-07-01 16:57:57
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'PRIMARY'
+- Query 		: INSERT INTO sa_initial_jobroles (task_id, parent_id, project_code, project_id, resource_category_id, brand, total_mandays) VALUES ('', 'SERVICE BUDGET', 'TP026322G0001', '', '7', 'PaloAlto', 17)
+
+
+2024-07-01 16:57:58
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'PRIMARY'
+- Query 		: INSERT INTO sa_initial_jobroles (task_id, parent_id, project_code, project_id, resource_category_id, brand, total_mandays) VALUES ('', 'SERVICE BUDGET', 'TP026322G0001', '', '6', 'Veeam', 10)
+
+
+2024-07-01 16:57:59
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'PRIMARY'
+- Query 		: INSERT INTO sa_initial_jobroles (task_id, parent_id, project_code, project_id, resource_category_id, brand, total_mandays) VALUES ('', 'SERVICE BUDGET', 'TP026322G0001', '', '7', 'Veeam', 23)

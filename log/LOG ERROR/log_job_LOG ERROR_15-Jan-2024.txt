@@ -1,0 +1,196 @@
+File Error Log
+
+2024-01-15 09:42:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Duplicate entry 'ORD-26788-Z2D7L2' for key 'order_number'
+- Query 		: UPDATE sa_kpi_board set order_number='ORD-26788-Z2D7L2' WHERE so_number='2022/SO/0747'
+
+
+2024-01-15 09:42:53
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Duplicate entry 'ORD-26788-Z2D7L2' for key 'order_number'
+- Query 		: UPDATE sa_kpi_board SET order_number='ORD-26788-Z2D7L2' WHERE id=25
+
+
+2024-01-15 09:43:24
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Duplicate entry 'ORD-26788-Z2D7L2' for key 'order_number'
+- Query 		: update sa_kpi_board set order_number='ORD-26788-Z2D7L2' WHERE id=25
+
+
+2024-01-15 09:48:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'WR_bast_date_actual_implementation' in 'field list'
+- Query 		: select so_number_kpi,order_number,WR_bast_date_project_implementation,WR_bast_date_actual_implementation,kpi_status,board_status,tahun_review from sa_data_so WHERE tahun_review=2023
+
+
+2024-01-15 09:48:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'WR_bast_actual_implementation' in 'field list'
+- Query 		: select so_number_kpi,order_number,WR_bast_date_project_implementation,WR_bast_actual_implementation,kpi_status,board_status,tahun_review from sa_data_so WHERE tahun_review=2023
+
+
+2024-01-15 09:55:05
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'bast_plan' in 'field list'
+- Query 		: select id,so_number_kpi,order_number,bast_plan,bast_actual,kpi_status,board_status,tahun_review from sa_data_so WHERE tahun_review=2023
+
+
+2024-01-15 10:06:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_trx_project_list' doesn't exist
+- Query 		: select * from sa_trx_project_list WHERE order_number='ORD-26051-T5G2H1'
+
+
+2024-01-15 10:36:12
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_resource_assignment' doesn't exist
+- Query 		: select * from sa_resource_assignment WHERE project_code='TP008023K0005'
+
+
+2024-01-15 11:42:44
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: Unknown column 'b.Nama' in 'where clause'
+- Query 		: SELECT
+                                        `resource_name`,
+                                        SUM(`ideal_value`) AS `ideal_value`,
+                                        SUM(`actual_value`) AS `actual_value`,
+                                        IF(
+                                            COUNT(`average_value`)>0,
+                                            SUM(`average_value`) / COUNT(`average_value`),
+                                            0
+                                        ) AS `average_value`,
+                                        SUM(`ideal_final_value`) `ideal_final_value`,
+                                        SUM(`actual_final_value`) AS `actual_final_value`,
+                                        IF(
+                                            COUNT(`average_final_value`)>0,
+                                            SUM(`average_final_value`) / COUNT(`average_final_value`),
+                                            0
+                                        ) AS `average_final_value`,
+                                        SUM(`total_task_plan`) AS `task_plan`,
+                                        SUM(`total_task_actual`) AS `task_actual`,
+                                        SUM(`average_productivity`) AS `average_productivity`,
+                                        `kpi_status`,
+                                        `periode_kpi`
+                                    FROM
+                                        `sa_kpi_dashboard_resource` `a`
+                                    WHERE  `a`.`kpi_status` = 'Reviewed'  AND  `a`.`periode_kpi` = 2024  AND  `a`.`project_type` = 'MSI Project Implementation'  AND `b`.`Nama` IN ('Budiman Rahardjo<budiman.rahardjo@mastersystem.co.id>')
+                                    GROUP BY
+                                        `resource_name`
+
+
+2024-01-15 13:30:42
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_data_so' doesn't exist
+- Query 		: select * from sa_data_so WHERE project_code='TT004021G0008'
+
+
+2024-01-15 13:30:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_data_so WHERE project_code='TT004021G0008'
+
+
+2024-01-15 14:34:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_data_so WHERE project_code='TT004021G0008'
+
+
+2024-01-15 16:46:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_trx_project_list' doesn't exist
+- Query 		: select * from sa_trx_project_list WHERE project_code='TB002722D0019'
+
+
+2024-01-15 16:56:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'c.entry_by' in 'field list'
+- Query 		: SELECT a.project_code,a.so_number,a.project_name,c.bundling,b.SB_amount_idr,b.SB_maintenance_price,c.entry_by FROM sa_kpi_so_wr a left join sa_data_so b ON a.order_number=b.order_number LEFT JOIN sa_ps_service_budgets.sa_trx_project_list c ON b.order_number=c.order_number WHERE a.value LIKE '%-%'
+
+
+2024-01-15 16:57:31
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-01-08' AND task_date <= '2024-01-22' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-01-15 17:05:58
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'c.bundling' in 'field list'
+- Query 		: SELECT a.project_code,a.so_number,a.project_name,c.bundling,b.SB_amount_idr,b.SB_maintenance_price,c.entry_by as Approved_By FROM sa_kpi_so_wr a left join sa_data_so b ON a.order_number=b.order_number LEFT JOIN sa_ps_service_budgets.sa_view_logs c ON b.order_number=c.order_number WHERE a.value LIKE '%-%' AND c.description LIKE '%to approved%'
+
+
+2024-01-15 17:06:00
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'c.bundling' in 'field list'
+- Query 		: SELECT a.project_code,a.so_number,a.project_name,c.bundling,b.SB_amount_idr,b.SB_maintenance_price,c.entry_by as Approved_By FROM sa_kpi_so_wr a left join sa_data_so b ON a.order_number=b.order_number LEFT JOIN sa_ps_service_budgets.sa_view_logs c ON b.order_number=c.order_number WHERE a.value LIKE '%-%' AND c.description LIKE '%to approved%'
+
+
+2024-01-15 18:02:18
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-01-08' AND task_date <= '2024-01-22' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-01-15 19:02:00
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-01-08' AND task_date <= '2024-01-22' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`

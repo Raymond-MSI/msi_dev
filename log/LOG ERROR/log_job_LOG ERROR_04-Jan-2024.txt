@@ -1,0 +1,641 @@
+File Error Log
+
+2024-01-04 08:34:04
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'selesai_peminjaman' in 'field list'
+- Query 		: UPDATE sa_product_list SET selesai_peminjaman= '2023-12-24' WHERE nomor_transaksi = 'LI/24/01/0001';
+
+
+2024-01-04 08:35:04
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'selesai_peminjaman' in 'field list'
+- Query 		: UPDATE sa_product_list SET selesai_peminjaman = '2023-12-24' WHERE nomor_transaksi = 'LC/24/01/0002';
+
+
+2024-01-04 10:13:06
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1
+- Query 		: SELECT * FROM sa_product_list WHERE nomor_seri = ?
+
+
+2024-01-04 10:13:06
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1
+- Query 		: SELECT * FROM sa_product_list WHERE nomor_seri = ?
+
+
+2024-01-04 10:13:06
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: Array
+
+
+2024-01-04 10:30:06
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_survey
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,100' at line 3
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, customer_company_name, trx.project_code, trx.project_title, surv.survey_link, main_rating, main_essay, main_engineer, trx.created_datetime
+                from sa_survey surv join sa_trx_survey trx on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_id
+                where YEAR(surv.created_datetime) = 2023 AND main_template_id =  LIMIT 0,100
+
+
+2024-01-04 11:47:40
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5B4DJLX' AND a.resource_email='alifian.bayu@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:47:40
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5B4DJLX' AND a.resource_email='alifian.bayu@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:47:40
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5B4DJLX' AND a.resource_email='bagus.irfan@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:47:40
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5B4DJLX' AND a.resource_email='bagus.irfan@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:47:41
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5B4DJLX' AND a.resource_email='jayanti.susan@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:47:41
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5B4DJLX' AND a.resource_email='jayanti.susan@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:47:41
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5B4DJLX' AND a.resource_email='lay@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:47:41
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5B4DJLX' AND a.resource_email='lay@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:48:43
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='faisal.rabani@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:48:43
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='faisal.rabani@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:48:43
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='ibnu.ubaedi@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:48:43
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='ibnu.ubaedi@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:48:43
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='melysa.wahyuningsih@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:48:43
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='melysa.wahyuningsih@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:48:44
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='okta.sumahendra@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:48:44
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='okta.sumahendra@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:48:44
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='wahyu.aji@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:48:44
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='wahyu.aji@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:51:29
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5B4DJLX' AND a.resource_email='alifian.bayu@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:51:29
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5B4DJLX' AND a.resource_email='alifian.bayu@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:51:29
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5B4DJLX' AND a.resource_email='bagus.irfan@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:51:29
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5B4DJLX' AND a.resource_email='bagus.irfan@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:51:30
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5B4DJLX' AND a.resource_email='jayanti.susan@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:51:30
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5B4DJLX' AND a.resource_email='jayanti.susan@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:51:30
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5B4DJLX' AND a.resource_email='lay@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:51:30
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5B4DJLX' AND a.resource_email='lay@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:51:58
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CQLQQ3' AND a.resource_email='haidar.firdaus@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:51:58
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CQLQQ3' AND a.resource_email='haidar.firdaus@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:51:58
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CQLQQ3' AND a.resource_email='nadya.defani@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:51:58
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CQLQQ3' AND a.resource_email='nadya.defani@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:51:58
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CQLQQ3' AND a.resource_email='winda.ekawati@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:51:58
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CQLQQ3' AND a.resource_email='winda.ekawati@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:51:58
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CQLQQ3' AND a.resource_email='yulian.adi@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:51:58
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CQLQQ3' AND a.resource_email='yulian.adi@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:52:02
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='faisal.rabani@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:52:02
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='faisal.rabani@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:52:03
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='ibnu.ubaedi@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:52:03
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='ibnu.ubaedi@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:52:03
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='melysa.wahyuningsih@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:52:03
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='melysa.wahyuningsih@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:52:03
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='okta.sumahendra@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:52:03
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='okta.sumahendra@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:52:03
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='wahyu.aji@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:52:03
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5DJLF7K' AND a.resource_email='wahyu.aji@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:53:04
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CQLQQ3' AND a.resource_email='haidar.firdaus@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:53:04
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CQLQQ3' AND a.resource_email='haidar.firdaus@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:53:04
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CQLQQ3' AND a.resource_email='nadya.defani@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:53:04
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CQLQQ3' AND a.resource_email='nadya.defani@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:53:04
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CQLQQ3' AND a.resource_email='winda.ekawati@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:53:04
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CQLQQ3' AND a.resource_email='winda.ekawati@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:53:04
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CQLQQ3' AND a.resource_email='yulian.adi@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 11:53:04
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CQLQQ3' AND a.resource_email='yulian.adi@mastersystem.co.id' b.response_status <>'declined'
+
+
+2024-01-04 12:09:27
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-12-28' AND task_date <= '2024-01-11' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-01-04 13:56:05
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' sa_pr_temp, sa_product_list, sa_transaction, sa_transaction_product' at line 1
+- Query 		: TRUNCATE TABLE sa_new_asset, sa_pr_temp, sa_product_list, sa_transaction, sa_transaction_product
+
+
+2024-01-04 13:56:20
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' sa_pr_temp, sa_product_list, sa_transaction, sa_transaction_product' at line 1
+- Query 		: TRUNCATE TABLE sa_new_asset, sa_pr_temp, sa_product_list, sa_transaction, sa_transaction_product
+
+
+2024-01-04 13:56:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' sa_pr_temp, sa_product_list, sa_transaction, sa_transaction_product' at line 1
+- Query 		: TRUNCATE sa_new_asset, sa_pr_temp, sa_product_list, sa_transaction, sa_transaction_product
+
+
+2024-01-04 14:00:02
+- Server 		: Prod
+- User 			: maad@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ad<maad@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-12-28' AND task_date <= '2024-01-11' AND `resource_email` LIKE 'Ma'ad<maad@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-01-04 14:13:49
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'so_number' in 'where clause'
+- Query 		: select * from sa_resource_assignment WHERE so_number='2023/SO/1758'
+
+
+2024-01-04 14:48:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_initial_jobroles' doesn't exist
+- Query 		: select project_id from sa_initial_jobroles where task_id IN (IEAEOPF5KREX6WQV,IEAEOPF5KREX6WRO,IEAEOPF5KREX6WS6) GROUP BY project_id UNION select project_id from sa_initial_jobroles_project where job_task_id IN (IEAEOPF5KREX6WQV,IEAEOPF5KREX6WRO,IEAEOPF5KREX6WS6) GROUP BY project_id
+
+
+2024-01-04 14:48:16
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'IEAEOPF5KREX6WQV' in 'where clause'
+- Query 		: select project_id from sa_initial_jobroles where task_id IN (IEAEOPF5KREX6WQV,IEAEOPF5KREX6WRO,IEAEOPF5KREX6WS6) GROUP BY project_id UNION select project_id from sa_initial_jobroles_project where job_task_id IN (IEAEOPF5KREX6WQV,IEAEOPF5KREX6WRO,IEAEOPF5KREX6WS6) GROUP BY project_id
+
+
+2024-01-04 14:48:43
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: select project_id from sa_initial_jobroles where task_id IN ('IEAEOPF5KREX6WQV','IEAEOPF5KREX6WRO','IEAEOPF5KREX6WS6') GROUP BY project_id UNION 
+
+
+2024-01-04 14:49:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Illegal parameter data types varchar and row for operation '='
+- Query 		: select project_id from sa_initial_jobroles where task_id IN (('IEAEOPF5KREX6WQV','IEAEOPF5KREX6WRO','IEAEOPF5KREX6WS6')) GROUP BY project_id UNION select project_id from sa_initial_jobroles_project where job_task_id IN (('IEAEOPF5KREX6WQV','IEAEOPF5KREX6WRO','IEAEOPF5KREX6WS6')) GROUP BY project_id
+
+
+2024-01-04 15:12:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_data_so WHERE project_code='TB005423I0013'
+
+
+2024-01-04 17:00:44
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where status = 'status'' at line 1
+- Query 		: select * from sa_survey where project_code in ('TB000522D0002','TB001020C0049','TS005021I0019','TB006322B0025','TB002722D0019','TB002322I0048','TK001622E0005','TR006121K0002','TL004521K0010','TD012823E0001','TB002721D0055','TB001022C0050','TB006319B0010','TI000822E0001','TB002722D0021','TB002719D0111','TB002720D0084','TB001221B0042','TB001219B0019','TB000522B0028','TB000522B0017','TB018121B0018','TA002222E0032','TB032521B0013','TP007321N0001','TB001721D0024','TB002121B0034','TI000821E0064','TB001221B0035','TB001119D0032','TB016321B0006','TS003721B0001','TP025921K0001','TB003519F0004','TW000821C0002','TB001016C0069','TB000819C0012','TB000818C0006','TB000818C0023','TB000817C0003','TB000822C0025','TB002121B0009','TB002721D0059','TG001421B0003','TK001521I0010','TB001022C0067','TT003021N0004','TT003020N0009','TT003021N0017','TB001721D0033','TB001719D0024','TB001721D0009','TB002721D0076','TK006621I0008','TI013821I0009','TI013821I0002','TI013821I0004','TI013821I0007','TB001221B0011','TB001221B0028','TB002322I0015','TB002322I0031','TB002322I0020','TB018119B0009','TB000522B0053','TR001021K0003','TI005222K0008','TK006620I0006','TK010022I0004','TP007118G0004','TB001020C0007','TK009422B0002','TP004218G0001','TI001223E0012','TB002321I0044','TB001021C0035','TB013121B0004','TA000122A0022','TA000122A0024','TM016620B0001','TB002321I0065','TP028021E0004','TB027522K0029','TI000821E0063','TB025820B0005','TB032921C0008','TT017921N0002','TH000321I0003','TB000518B0020','TB029220D0003','TB027518K0003','TT003022N0004','TB000821C0033','TP020621I0002','TB000821C0010','TB000822C0023','TB001221B0012','TB001721D0041','TB001722D0013','TB031121D0010','TB031321B0001','TB013122B0002','TB031121D0010','TT003021N0004','TB001021C0072','TB031821B0001','TK010021I0002','TI000821E0063','TB006122B0013','TP008022K0016','TK009421B0001','TB002722D0013','TB002322I0038','TB002322I0067','TB002322I0065','TB013122B0008','TB032522B0007','TB002721D0092','TB002721D0021','TS020520D0004','TB031820B0001','TB001022C0049','TG003721I0003','TB020821B0002','TS005019I0028','TS005021I0021','TB002722D0066','TP012021K0001','TI001222E0015','TB000421I0027','TD003321K0009','TG001422B0008','TB005422I0016','TS005022I0011','TB000821C0043','TA024521K0005','TL000821K0009','TB002322I0068','TB002722D0012','TB001222B0015','TM016621B0003','TA024521K0002','TB009721K0002','TB018622E0002','TK001521I0002','TK001521I0003','TT000821F0005','TB002322I0009','TB002321I0028','TB002321I0042','TB002322I0020','TB007319F0001','TT003021N0004','TT003021N0004','TA024521K0004','TB002721D0056','TP028022E0009','TI000821E0045','TA002221E0024','TB023421K0007','TB016821K0007','TS001921E0001','TB021921B0025','TB004719B0001','TT010721C0001','TA001421B0001','TH000322I0004','TB005421I0005','TP028021E0003','TB002722D0011','TA023122C0008','TP008022K0004','TB001221B0019','TA024521K0005','TA024522K0002','TB022822B0003','TA004820E0001','TT003021N0004','TK002322E0001','TB002722D0014','TA027022K0001','TT017821K0001','TI000821E0050','TT004021G0004','TB026321G0001','TA002222E0035','TB002321I0061','TB002321I0069','TB002321I0027','TB002320I0077','TP028021E0004','TS011622G0001','TB001220B0042','TG001017I0012','TP008021K0007','TC002317G0001','TA000121A0007','TL003922A0003','TP008022K0013','TK003822K0001','TB002322I0039','TI000822E0001','TB002322I0036','TB002321I0067','TB002322I0003','TB002321I0018','TB002720D0039','TB002721D0097','TB002721D0080','TB002721D0014','TB002721D0013','TB018121B0001','TB018121B0002','TB000819C0035','TB002721D0042','TB002721D0009','TB002721D0058','TP020620I0001','TI020621I0001','TB000820C0009','TT000121N0001','TB002318D0017','TB002321I0026','TB002319D0005','TB002318D0064','TB002318D0063','TB002319D0011','TI005220K0007','TI005221K0001','TY000521K0001','TY000520K0002','TB006319B0008','TP01042I0001-','TB027521K0023','TB002619D0001','TP020620I0002','TB002721D0068','TI005022B0002','TB002720D0045','TB002721D0043','TB002721D0066','TB000818C0003','TB001020C0051','TB001020C0032','TB000521B0014','TB000821C0010','TZ000621K0001','TN002221K0002','TB007621D0002','TJ000221A0002','Ti013821I0008','TB005422I0013','TB001016C0044','TG001021I0019','TB005518G0001','TB031722D0004','TB034322C0001','TP008022K0002','TB025822B0004','TB002721D0095','TB002721D0073','TK001521I0006','TI000818E0011','TB002719D0021','TK001522I0001','TG001021I0011','TB002321I0029','TK001521I0008','TJ002221G0001','TB001719D0023','TB018121B0003','TB000517B0018','TB027521K0018','TI001221E0007','TD010821K0001','TP027221K0001','TB001022C0002','TB001022C0039','TB023421K0008','TM011722K0001','TK009420B0003','TK009418B0008','TS040322B0002','TB002322I0023','TK003821K0001','TB023421K0001','TK010022I0001','TB001719D0023','TB001717D0019','TL004521K0010','TB009319B0002','TM013922C0004','TG001021I0015','TB002322I0025','TB002322I0026','TB002322I0027','TG001021I0004','TK003621K0001','TB007221G0002','TB005421I0022','TA024520K0009','TB001021C0047','TI001220E0046','TB002318D0015','TB002319D0033','TB002318D0055','TB002319D0010','TB002320I0016','TB002318D0061','TB016321B0002','TL000521B0003','TI001221E0018','TB002720D0091','TA002221E0017','TC013121K0002','TB000618B0009','TG001018I0004','TT003020N0018','TI000821E0014','TI000821E0027','TB002320I0049','TB005420I0018','TB005420I0017','TI001220E0013','TT000217E0004','TB000820C0023','TB001016C0015','TI013821I0006','TB005422I0007','Ti013821I0009','TB027521K0009','TI001221E0022','TI000820E0024','TL000821K0008','TM014120K0003','TT016122K0005','TA002221E0078','TB031121D0011','TG003722I0002','TB001722D0001','TA000121I0001','TA002220E0019','TB002021B0017','TT003019N0014','TB002321I0068','TB002320I0071','TB009721K0001','TB021921B0035','TB021921B0010','TB002721D0052','TB000821C0012','TB002721D0015','TT000121N0001','TT000121N0001','TB002321I003-','TM011722K0001','TB002721D0004','TB000521B0007','TP028021E0003','TB002322I0018','TB002322I0017','TB002322I0016','TB002322I0002','TB018620E0001','TB000521B0021','TB002720D0038','TB025820B0005','TB026021B0011','TB001016C0047','TB021921B0023','TB002721D0076','TB001021C0019','TB000519B0006','TP008021K0003','TB001220B0034','TB001221B0036','TK010021I0001','TK010016I0003','TB004721B0014','TZ001322B0001','TB001220B0035','TB002720D0060','TR000520D0003','TD010921E0001','TP026020I0001','TW000820C0001','TB027521K0002','TB002720D0030','TB000520B0003','TM000921C0005','TA001420B0001','TB002720D0010','TS003720B0001','TB005419I0027','TB000421I0016','TT017421G0001','TG002020K0001','TC011521B0001','TB001721D0009','TB005421I0002','TB002719D0102','TB002321I0037','TB002321I0040','TB020821B0002','TB018921K0004','TB001719D0033','TK001521I0013','TT003020N0009','TB018920K0003','TB002320I0053','TB002318D0011','TB002320I0072','TB002721D0007','TK009420B0001','TB026020B0015','TK006621I0001','TB006320B0011','TT003020N0011','TG001421B0003','TI000818E0011','TI013821I0007','TB002320I0073','TB002320I0057','TB002321I0039','TB001220B0007','TB001220B0030','TB020820B0002','TB002320I0062','TB000820C0017','TA002220E0060','TB005420I0018','TB005420I0017','TB005420I0017','TB002721D0011','TB002721D0054','TI001220E0047','TK001520I0003','TK001520I0010','TK001520I0004','TA024520K0006','TB000521B0039','TB002318D0011','TB002719D0036','TB029220D0003','TB000520B0048','TB000520B0008','TB000820C0008','TB000818C0007','TB000817C0002','TB000817C0002','TB000820C0011','TB021920B0014','TB021920B0019','TB021920B0021','TB021920B0018','TB021920B0020','TB021918B0002','TB021920B0011','TC005620E0002','TC005619E0016','TB001120D0018','TB001120D0001','TS001921E0001','TB001020C0063','TB001020C0063','TB001020C0063','TB001020C0063','TA002221E0033','TB016321B0006','TG009521K0004','TY002421K0007','TY002421K0007','TK001521I0006','TB001019C0004','TH000321I0002','TI000820E0004','TB001019C0007','TB001016C0015','TB005419I0029','TB005420I0009','TB000421I0001','TB005420I0012','TK006620I0008','TK006620I0006','TK006617I0005','TB002721D0059','TB020821B0009','TB002721D0079','TB004721B0006','TB001019C0007','TB002721D0078','TB001721D0037','TB002321I0058','TB002321I0059','TB002320I0013','TT003019N0014','TB002721D0009','TB001720D0032','TC005621E0006','TS005020I0022','TB002720D0051','TB002720D0057','TB000820C0013','TM013920C0007','TT016120K0012','TB005419I0030','TB005419I0029','TB015618G0003','TB002720D0018','TB021921B0015','TS002118E0001','TW000816C0003','TB021921B0009','TI005021B0001','TB007620D0028','TB001720D0035','TK001521I0009','TB031920C0001','TW000821C0001','TB001120D0015','TI000821E0027','TB000820C0031','TR006120K0001','TI013821I0004','TT000218E0003','TM000921C0006','TB000821C0034','TB001018C0013','TB000821C0007','TB000520B0013','TR001020K0005','TB002319I0009','TC005621E0001','TB001720D0048','TB000820C0018','TB002721D0049','TB018121B0016','TB018121B0021','TB009320B0006','TA024920K0001','TB001219B0003','TB001019C0093','TB001017C0070','TP008021K0007','TA002220E0069','TI001118E0002','TP025921K0001','TA020721A0004','TS003721B0004','TJ004519N0001','TG001021I0006','TT004020G0003','TB016820K0009','TM013917C0005','TS002118K0001','TA002220E0060','TA002220E0045','TH000320I0011','TB001019C0009','TB001120D0003','TB001119D0032','TS001921E0002','TB026021B0001','TB005420I0020','TB005420I0022','TB032921C0013','TB001219B0017','TA002221E0048','TI013820I0003','TI013820I0009','TI013820I0004','TB000820C0015','TX000120E0004','TB002321I0046','TB002321I0043','TK001620E0003','TB002719D0067','TB013121B0001','TM016620B0001','TM016619B0012','TM016619B0011','TB016320B0004','TT000118E0014','TA002221E0054','TA024520K0001','TB002720D0019','TD003020E0003','TR006821K0002','TD011120E0001','TB000418I0013','TB033621E0001','TE007820G0003','TS040321B0001','TB021921B0020','TB011621B0005','TR000520D0008','TK010021I0002','TP007318E0010','TB001218B0035','TB000820C0005','TL003920A0007','TB001018C0061','TB001020C0072','TB001020C0065','TB001220B0018','TB011621B0003','TB011621B0004','TG001020I0035','TB000520B0006','TB000520B0009','TB000520B0007','TB000519B0023','TB028921G0006','TB002719D0050','TB000820C0001','TC013120K0004','TB009320B0006','TT000820F0006','TB003519F0006','TB002320I0064','TB002320I0065','TB002320I0066','TB002320I0067','TB002320I0068','TB001220B0012','TI000821E0035','TS005020I0007','TB000521B0038','TB002721D0014','TB002721D0013','TB001219B0019','TA002220E0069','TB002321I0025','TB002321I0030','TB002321I0032','TB002321I0030','TB002321I0025','TK010016I0001','TP010420I0001','TZ000620K0004','TN00222K0002-','TR000519D0008','TP008020K0005','TB001217B0039','TT000217E0004','TB030520K0001','TB020820B0003','TB002321I0007','TB002320I0077','TY002421K0001','TB018119B0022','TB002720D0033','TK008320K0003','TI005221K0002','TB000520B0010','TB022120B0006','TB021919B0008','TI000820E0038','TB009720K0001','TB002320I0027','TL000820K0003','TT016120K0010','TB000818C0015','TM013920C0020','TB006121B0001','TS005020I0028','TK010015I0001','TS017419G0004','TL003920A0005','TB002719D0021','TB029920D0002','TB001020C0007','TG001020I0005','TA002221E0020','TB020820B0001','TA000121A0002','TF004621K0003','TP008021K0002','TI013820I0007','TB002719D0044','TB002720D0064','TB002619D0002','TB000519B0006','TB002720D0008','TM005620A0002','TB004719B0001','TT010720C0002','TS020520D0004','TB002120B0018','TB031721D0005','TB031721D0003','TI001220E0044','TB002720D0045','TB002721D0006','TB002019B0022','TB001016C0061','TB000420I0013','TT000217E0004','TB001019C0040','TM013917C0003','TM013917C0005','TB000619B0017','TA002221E0024','TB001720D0043','TL003919A0003','TB007620D0001','TJ002217G0005','TN006320G0001','TI013819I0011','TI013820I0001','TB031720D0003','TG001020I0006','TG001020I0036','TA003620B0007','TI005420F0002','TB000419I0005','TP022020B0001','TS033020I0002','TK009019K0002','TD000320K0002','TD000320K0004','TB002721D004-','TT004021G0002','TB001420I0005','TT003019N0014','TB025819B0001','TB003519F0004','TB002618D0001','TI001220E0023','TB000520B0038','TI005420F0001','TS032918E0003','TI001116E0001','TL00052B0002-','TB001020C0028','TP020620I0002','TI001220E0013','TB007620D0009','TB001420I0001','TB001020C0051','TT003020N0019','TT000217E0004','TB018920K0003','TT003020N0016','TB002320I0014','TG001020I0038','TK001519I0015','TB003520F0003','TA002221E0038','TB000818C0004','TB000816C0035','TB000816C0039','TC002316G0003','TB002720D0076','TK006620I0001','TM019920B0001','TT000118E0014','TT000118E0014','TB000520B0009','TI000819E0009','TB002321I0007','TB002718D0037','TB030520K0001','TA024520K0006','TB001219B0021','TI001116E0001','TB000520B0027','TB002720D0046','TB018119B0022','TB002720D0030','TP020620I0001','TK010020I0001','TB004720B0002','TT000818F0008','TB000618B0006','TA004817E0002','TB029219D0006','TT003019N0012','TT003019N0016','TT003019N0013','TT003019N0014','TR000519D0002','TR000519D0015','TG001019I0013','TC005620E0004','TM007620K0021','TB001419I0003','TI001220E0048','TL005621N0001','TA012920D0009','TK001520I0008','TB001720D0052','TG001020I0020','TG009521K0001','TG009521K0002','TB002019B0001','TB000420I0003','TB002320I0056','TB002321I0015','TB002321I0008','TB002321I0009','TB002718D0106','TB002719D0017','TB001121D0002','TK003620K0001','TI005220K0010','TB002318D0068','TB002720D0061','TM016619B0009','TB001720D0049','TA024520K0009','TM013521Z0001','TB020820B0005','TC002316G0004','TB001020C0047','TB018620E0001','TI001220E0028','TA002220E0024','TI005219K0005','TB002720D0068','TB002720D0050','TB002720D0038','TB016318B0002','TB016318B0001','TB016319B0001','TB018920K0001','TB000820C0019','TB000820C0003','TK003821K0003','TK003820K0001','TB002320I0036','TB002320I0060','TB002719D0131','TB002320I0076','TB001020C0032','TN002120E0001','TB001720D0033','TB005420I0006','TB002320I0050','TB002320I0048','TB001721D0002','TM013920C0019','TB021919B0023','TB002720D0010','TS00501910021','TB001720D0053','TW000820C0001','TH000319I0016','TS005019I0019','TB002720D0049','TB002720D0062','TB001119D0035','TA012920D0007','TB000820C0007','TM000920C0003','TB013120B0007','TB000819C0024','TA002220E0019','TB018120B0007','TP022019B0001','TC013119K0007','TB005419I0034','TB023420K0002','TB009320B0006','TB009319B0004','TB001219B0001','TB001217B0003','TB001216B0038','TB029920D0002','TM003020I0001','TB002719D0046','TB002719D0053','TY002420K0001','TA024920K0001','TC011520N0001','TB002320I0013','TB001219B0006','TB001220B0004','TB020819B0004','TB020819B0001','TB000817C0029','TB018117B0003','TB018117B0009','TB002719D0087','TB002020B0002','TB002719D0067','TA014419G0004','TB016819K0009','TB003519F0006','TB000819C0034','TB000816C0030','TT000819F0007','TC005618E0015','TB001018C0013','TA002220E0023','TB001118D0034','TB001118D0035','TB025819B0001','TB000318D0002','TI001220E0001','TB004719B0001','TT015219B0001','TB026019B0021','TB002719D0021','TP022019B0002','TB002719D0025','TB002716D0047','TB002719D0116','TK009419B0001','TA024820N0001','TA002221E0001','TD000320K0001','TK008320K0005','TM013520G0003','TI005220K0007','TB002320I0028','TB002319I0007','TB002320I0004','TB002320I0005','TB001019C0007','TP026020I0001','TR000518D0001','TB002320I0016','TB002318D0064','TB002319D0009','TB002320I0021','TB016320B0004','TM016619B0011','TM016619B0012','TM016619B0005','TB000820C0002','TC005617E0022','TB028920G0001','TB002719D0005','TB001219B0007','TA002220E0006','TR001020K0001','TA003620B0006','TB005420I0012','TB001119D0040','TA002220E0015','TB005419I0029','TM013920C0018','TB001217B0045','TB002019B0025','TA002218E0028','TB009318B0008','TA024520K0001','TB002319D0001','TB002720D0005','TB005419I0030','TB002319I0005','TB005420I0010','TB026020B0011','TB026020B0010','TB002720D0047','TY002720K0010','TI000819E0041','TB027520K0004','TB002720D0051','TK001620E0003','TB002720D0040','TB002719D0056','TB013120B0009','TK001620E0009','TB002718D0109','TK001519I0015','TI000820E0025','TB001018C0060','TA002220E0044','TK009019K0002','TB000419I0013','TB000418I0028','TB007619D0001','TB007619D0001','TB007619D0001','TB007619D0001','TB007619D0001','TB007619D0001','TB009320B0006','TB007619D0005','TB026020B0009','TB001216B0038','TT010719C0001','TB000818C0002','TB000818C0002','TB001019C0093','TB002719D0016','TI001219E0034','TI007920N0002','TB001018C0047','TB001219B0017','TB002719D0040','TB002720D0064','TB002720D0008','TB002719D0013','TB001418I0006','TB002719D0066','TB001019C0009','TB005420I0013','TB002720D0006','TM013920C0007','TB019620K0001','TI000819E0048','TK001520I0001','TB023419K0001','TB001217B0025','TP013619K0028','TB001220B0012','TB026020B0009','TA002222E0031','TC013122K0001','TT000822F0003','TI001221E0017','TB002721D0049','TA002221E0010','TB001721D0008','TB018922K0003','TB002721D0091','TA024522K0005','TG001021I0026','TB009722K0006','TT004021G0008','TS017422G0002','TI013821I0010','TI013821I0006','TB000521B0031','TP008022K0007','TC005621E0007','TB001017C0046','TB001021C0069','TB005422I0020','TB002722D0049','TI005021C0001','TI005922K0002','TK006622I0002','TK006621I0006','TB020818B0012','TB020821B0001','TB020821B0003','TB002621D0005','TB001121D0007','TS040021K0011','TK006621I0006','TB027522K0003','TG010121K0001','TA027722K0001','TB002721D0070','TB001021C0019','TB001021C0037','TB001021C0047','TB001021C0049','TB001022C0014','TA000122A0022','TB031321B0002','TT003021N0012','TA023119C0004','TB032922C0001','TB000422I0021','TB002322I0034','TB002322I0033','TB027522K0033','TB027522K0017','TI000821E0055','TA010121G0001','TI001222E0007','TE008222K0001','TS042522K0002','TS044723K0002','TB002122B0001','TW003621B0001','TB004721B0006','TG001019I0027','TB001721D0022','TB025822B0001','TB030521K0001','TT003021N0016','TB000822C0009','TB029922D0003','TG001022I0009','TB030522K0001','TS026523G0001','TB031821B0001','TC018523K0001','TX000122E0001','TTX000123E000','TB002722D0066','TR029222D0001','TB002722D0010','TB002321I0068','TI000822E0030','TP004219G0009','TI000523J0001','TI001221E0037','TI015221B0002','TK006617I0005','TA002221C0001','TA002221C0001','TB002720D0028','TB002621D0005','TB020821B0006','TB020821B0007','TB000422I0013','TB000519B0006','TB000519B0022','TP008023K0006','TA002221E0063','TA002221E0068','TC005621E0001','TC005620E0004','TM022222E0002','TA004821E0002') where status = 'status'
+
+
+2024-01-04 17:05:03
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where status = 'active'' at line 1
+- Query 		: select * from where status = 'active'

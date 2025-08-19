@@ -1,0 +1,171 @@
+File Error Log
+
+2023-11-01 11:20:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_user' doesn't exist
+- Query 		: select * from sa_user WHERE project_code='TB000522B0032'
+
+
+2023-11-01 14:24:15
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s `sa_dashboard_kpi`.`sa_user`.`kpi_status` = %s AND `sa_dashboard_kpi`.`sa_...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE %s `sa_dashboard_kpi`.`sa_user`.`kpi_status` = %s AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE %s ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2023-11-01 14:24:46
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s `sa_dashboard_kpi`.`sa_user`.`kpi_status` = 'reviewed' AND `sa_dashboard_k...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE %s `sa_dashboard_kpi`.`sa_user`.`kpi_status` = 'reviewed' AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE '%nurma%' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2023-11-01 14:28:21
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_wrike_project_list.so_number' in 'where clause'
+- Query 		: SELECT COUNT(`sa_wrike_task`.`task_id`) AS `total_task` FROM `sa_wrike_project_list` LEFT JOIN `sa_wrike_assignment` ON `sa_wrike_project_list`.`id` = `sa_wrike_assignment`.`project_id` LEFT JOIN `sa_wrike_task` ON `sa_wrike_task`.`task_id` = `sa_wrike_assignment`.`task_id` AND `sa_wrike_task`.`project_id` = `sa_wrike_project_list`.`id` WHERE `sa_wrike_project_list`.`so_number` = '2023/SO/0841' AND `sa_wrike_assignment`.`resource_email` LIKE '%nurma%';
+
+
+2023-11-01 14:29:06
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_wrike_project_list.so_number' in 'where clause'
+- Query 		: SELECT COUNT(`sa_wrike_task`.`task_id`) AS `total_task` FROM `sa_wrike_project_list` LEFT JOIN `sa_wrike_assignment` ON `sa_wrike_project_list`.`id` = `sa_wrike_assignment`.`project_id` LEFT JOIN `sa_wrike_task` ON `sa_wrike_task`.`task_id` = `sa_wrike_assignment`.`task_id` AND `sa_wrike_task`.`project_id` = `sa_wrike_project_list`.`id` WHERE `sa_wrike_project_list`.`so_number` = '2023/SO/0841' AND `sa_wrike_assignment`.`resource_email` LIKE '%nurma%';
+
+
+2023-11-01 14:32:43
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS `total_update` FROM `sa_wrike_project_list` LEFT JOIN `sa_wrike_timelog` O...' at line 1
+- Query 		: SELECT `sa_wrike_timelog`.* AS `total_update` FROM `sa_wrike_project_list` LEFT JOIN `sa_wrike_timelog` ON `sa_wrike_project_list`.`id` = `sa_wrike_timelog`.`project_id` LEFT JOIN `sa_wrike_assignment` ON `sa_wrike_assignment`.`resource_id` = `sa_wrike_timelog`.`resource_id` WHERE `sa_wrike_project_list`.`no_so` LIKE '2023/SO/0841' AND `sa_wrike_assignment`.`resource_email` LIKE '%nurma%' AND `sa_wrike_timelog`.`timelog_id` <> '';
+
+
+2023-11-01 14:39:49
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM `sa_wrike_project_list` LEFT JOIN `sa_wrike_timelog` ON `sa_wrike_proj...' at line 1
+- Query 		: SELECT DISTINCT `sa_wrike_timelog`.`timelog_id` AS `total_update`, * FROM `sa_wrike_project_list` LEFT JOIN `sa_wrike_timelog` ON `sa_wrike_project_list`.`id` = `sa_wrike_timelog`.`project_id` LEFT JOIN `sa_wrike_assignment` ON `sa_wrike_assignment`.`resource_id` = `sa_wrike_timelog`.`resource_id` WHERE `sa_wrike_project_list`.`order_number` = '2023/SO/0841' AND `sa_wrike_assignment`.`resource_email` LIKE '%nurma%' AND `sa_wrike_timelog`.`timelog_id` <> '';
+
+
+2023-11-01 15:22:39
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_product_list LIMIT 0, 100
+
+
+2023-11-01 15:27:13
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_product_list LIMIT 0, 100
+
+
+2023-11-01 15:31:35
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_notification.sa_product_list' doesn't exist
+- Query 		: SELECT * FROM sa_product_list LIMIT 0, 100
+
+
+2023-11-01 15:37:51
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-11-01 15:40:44
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_view_task_timelog WHERE project_code='TB001723D0003'
+
+
+2023-11-01 16:11:14
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Column 'project_id' in field list is ambiguous
+- Query 		: SELECT DISTINCT(`sa_wrike_timelog`.`task_id`), `timelog_id`, `project_id`, `task_id`, `resource_id`, `hours`, `created_date`, `updated_date`, `tracked_date`, `create_date_calendar`, `update_date_calendar`, `start_time`, `end_time`, `timestamp` FROM `sa_wrike_project_list` LEFT JOIN `sa_wrike_timelog` ON `sa_wrike_project_list`.`id` = `sa_wrike_timelog`.`project_id` LEFT JOIN `sa_wrike_assignment` ON `sa_wrike_assignment`.`resource_id` = `sa_wrike_timelog`.`resource_id` WHERE `sa_wrike_project_list`.`no_so` = '2023/SO/0841' AND `sa_wrike_assignment`.`resource_email` LIKE '%nurma%' AND `sa_wrike_timelog`.`create_date_calendar` <> '';
+
+
+2023-11-01 16:21:57
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_wrike_timelog.timelog_is' in 'field list'
+- Query 		: SELECT COUNT(DISTINCT `sa_wrike_timelog`.`timelog_is`) AS `total_update` FROM `sa_wrike_project_list` LEFT JOIN `sa_wrike_timelog` ON `sa_wrike_project_list`.`id` = `sa_wrike_timelog`.`project_id` LEFT JOIN `sa_wrike_assignment` ON `sa_wrike_assignment`.`resource_id` = `sa_wrike_timelog`.`resource_id` WHERE `sa_wrike_project_list`.`no_so` = '2023/SO/0841' AND `sa_wrike_assignment`.`resource_email` LIKE '%ilmawan%' AND `sa_wrike_timelog`.`create_date_calendar` <> '';
+
+
+2023-11-01 16:47:04
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-01 16:47:24
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'nomor_seri' in 'where clause'
+- Query 		: SELECT * FROM sa_kategori_list WHERE nomor_seri IS NOT NULL AND 	nomor_seri LIKE '%p%'
+
+
+2023-11-01 17:00:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'spen_time' in 'field list'
+- Query 		: SELECT COUNT(spen_time), resource_email, department, resource_role, project_code, project_name, customer_name, project_type GROUP BY resource_email, order_number, project_type
+
+
+2023-11-01 17:00:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'spen_time' in 'field list'
+- Query 		: SELECT COUNT(spen_time), resource_email, department, resource_role, project_code, project_name, customer_name, project_type GROUP BY resource_email, project_code, project_type
+
+
+2023-11-01 17:06:31
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.department' in 'field list'
+- Query 		: SELECT COUNT(a.spen_time), a.resource_email, b.department, a.resource_role, a.project_code, a.project_name, a.customer_name, a.project_type from sa_trx_productivity a left join sa_md_hcm.sa_view_employees_v2 b ON a.resource_email=b.employee_email WHERE a.task_date BETWEEN '2023-09-01' AND '2023-09-31' GROUP BY a.resource_email, a.project_code, a.project_type

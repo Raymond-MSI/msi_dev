@@ -1,0 +1,54 @@
+File Error Log
+
+2023-10-05 06:25:37
+- Server 		: Prod
+- User 			: sumarno@mastersystem.co.id
+- Module 		: activity_log
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_log_database' doesn't exist
+- Query 		: SELECT * FROM sa_log_database WHERE entry_by='sumarno@mastersystem.co.id' ORDER BY log_id DESC LIMIT 0, 100
+
+
+2023-10-05 08:30:56
+- Server 		: Prod
+- User 			: royger.febriansyah@mastersystem.co.id
+- Module 		: activity_log
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_log_database' doesn't exist
+- Query 		: SELECT * FROM sa_log_database WHERE entry_by='royger.febriansyah@mastersystem.co.id' ORDER BY log_id DESC LIMIT 0, 100
+
+
+2023-10-05 08:31:11
+- Server 		: Prod
+- User 			: royger.febriansyah@mastersystem.co.id
+- Module 		: activity_log
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_log_database' doesn't exist
+- Query 		: SELECT * FROM sa_log_database WHERE entry_by='royger.febriansyah@mastersystem.co.id' ORDER BY log_id DESC LIMIT 0, 100
+
+
+2023-10-05 13:56:40
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_data_so WHERE project_code='TS000921D0004'
+
+
+2023-10-05 14:20:27
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''nadya.defani' at line 1
+- Query 		: select * from sa_mst_users where username = 'nadya.defani
+
+
+2023-10-05 14:21:36
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'nadya.defani@mastersystem.co.id'' at line 1
+- Query 		: select * from sa_mst_employees where email = ''nadya.defani@mastersystem.co.id'

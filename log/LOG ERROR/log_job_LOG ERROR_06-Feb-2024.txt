@@ -1,0 +1,9 @@
+File Error Log
+
+2024-02-06 10:37:41
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'projecct_id' in 'where clause'
+- Query 		: select * from sa_wrike_task WHERE projecct_id='IEAEOPF5I5DUACHB'

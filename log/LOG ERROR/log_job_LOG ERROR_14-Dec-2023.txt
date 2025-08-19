@@ -1,0 +1,126 @@
+File Error Log
+
+2023-12-14 09:58:41
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET event_id='khpn6seq198olq80tvs8tqe3d8' WHERE a.task_name='[[2023 ICON+] SD...' at line 1
+- Query 		: select * from sa_preschedule SET event_id='khpn6seq198olq80tvs8tqe3d8' WHERE a.task_name='[[2023 ICON+] SDWAN PT KAI] 3.3.42. Deployment lanjutan sisa Stasiun KAI' AND a.resource_email LIKE '%ficky%'
+
+
+2023-12-14 09:58:50
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.task_name' in 'where clause'
+- Query 		: update sa_preschedule SET event_id='khpn6seq198olq80tvs8tqe3d8' WHERE a.task_name='[[2023 ICON+] SDWAN PT KAI] 3.3.42. Deployment lanjutan sisa Stasiun KAI' AND a.resource_email LIKE '%ficky%'
+
+
+2023-12-14 13:12:12
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_data_so' doesn't exist
+- Query 		: SELECT * FROM sa_data_so WHERE board_status='Reviewed'
+
+
+2023-12-14 13:21:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_kpi_board' doesn't exist
+- Query 		: SELECT * FROM sa_kpi_board WHERE status='Reviewed'
+
+
+2023-12-14 13:56:49
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_data_so WHERE project_code='TC018523K0001'
+
+
+2023-12-14 14:39:33
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column '48767a626e9bae9541809aeba2d8ae61' in 'where clause'
+- Query 		: SELECT * from sa_transaction where id = 48767a626e9bae9541809aeba2d8ae61
+
+
+2023-12-14 14:39:53
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column '48767a626e9bae9541809aeba2d8ae61' in 'where clause'
+- Query 		: SELECT tipe_transaksi from sa_transaction where id = 48767a626e9bae9541809aeba2d8ae61
+
+
+2023-12-14 14:39:54
+- Server 		: Prod
+- User 			: horas.parsaoran@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column '48767a626e9bae9541809aeba2d8ae61' in 'where clause'
+- Query 		: SELECT tipe_transaksi from sa_transaction where id = 48767a626e9bae9541809aeba2d8ae61
+
+
+2023-12-14 15:09:02
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-12-07' AND task_date <= '2023-12-21' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2023-12-14 15:09:20
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'tipe_asset' in 'where clause'
+- Query 		: select * from sa_pr_temp where tipe_asset = 'Titipan';
+
+
+2023-12-14 15:10:07
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-12-07' AND task_date <= '2023-12-21' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2023-12-14 15:11:16
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sselect * from sa_pr_temp' at line 1
+- Query 		: sselect * from sa_pr_temp
+
+
+2023-12-14 15:43:07
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_productivity_all_user' doesn't exist
+- Query 		: SELECT * FROM sa_productivity_all_user
+
+
+2023-12-14 16:16:44
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-12-07' AND task_date <= '2023-12-21' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`

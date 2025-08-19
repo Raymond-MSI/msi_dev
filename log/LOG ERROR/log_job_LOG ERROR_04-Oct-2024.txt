@@ -1,0 +1,145 @@
+File Error Log
+
+2024-10-04 10:41:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_id' in 'where clause'
+- Query 		: select * from sa_wrike_project_list WHERE project_id IN ('IEAEOPF5I44OQHI6','IEAEOPF5I47ETV2P','IEAEOPF5I5B7TDU7','IEAEOPF5I465PVUJ','IEAEOPF5I47JC54E')
+
+
+2024-10-04 11:20:31
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani','zaimatul@mastersystem.co.id','Aceng Zakariya Ramada...' at line 14
+- Query 		: INSERT INTO `sa_trx_edo_leave`
+                (
+                    `employee_name`, 
+                    `employee_email`,
+                    `leader1_email`,
+                    `leader2_email`, 
+                    `leave_start`, 
+                    `leave_end`, 
+                    `leave_status`, 
+                    `entry_by`, 
+                    `entry_date`, 
+                    `update_by`
+                ) VALUES 
+                ('Za'imatul Hakimah Septiani','zaimatul@mastersystem.co.id','Aceng Zakariya Ramadani<aceng.zakariya@mastersystem.co.id>','Raymond R. Taruli<Raymond.Raphael@mastersystem.co.id>','2024-10-09','2024-10-10','leave submitted','Za'imatul Hakimah Septiani','2024-10-04 11:20:31','Za'imatul Hakimah Septiani')
+
+
+2024-10-04 11:21:05
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>'
+        AND `leave_stat...' at line 10
+- Query 		: SELECT 
+        `leave_id`, 
+        `employee_name`, 
+        `employee_email`, 
+        `leave_start`, 
+        `leave_end`, 
+        `leave_status`,
+        `update_date`
+    FROM `sa_trx_edo_leave` 
+    WHERE (`leader1_email` = 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>'
+        AND `leave_status` = 'leave submitted'
+        AND `flag_approval` = 0)
+        OR (`leader2_email` = 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>'
+        AND `leave_status` = 'leave approved'
+        AND `flag_approval` = 1)
+
+
+2024-10-04 12:12:29
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24610,'Senior Engineer CM IBM E1080 24 Mandays',101834748,6,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-04 12:12:29
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24610,'Senior Engineer CM IBM FS9500 24 Mandays',101834748,6,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-04 12:12:30
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24610,'Senior Engineer CM SAN256B-70 24 Mandays',101834748,6,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-04 13:03:39
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul%'' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_leave WHERE employee_name like '%za'imatul%'
+
+
+2024-10-04 13:05:46
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'employee_email' in 'where clause'
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE employee_email like '%zaimatul%'
+
+
+2024-10-04 13:59:43
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''IEAEOPF5I47ETV2P','IEAEOPF5I5B7TDU7','IEAEOPF5I465PVUJ','IEAEOPF5I47JC54E')' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles_project WHERE project_id IN (IEAEOPF5I44OQHI6'IEAEOPF5I47ETV2P','IEAEOPF5I5B7TDU7','IEAEOPF5I465PVUJ','IEAEOPF5I47JC54E')
+
+
+2024-10-04 13:59:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''IEAEOPF5I47ETV2P','IEAEOPF5I5B7TDU7','IEAEOPF5I465PVUJ','IEAEOPF5I47JC54E')' at line 1
+- Query 		: SELECT * FROM sa_initial_jobroles_project WHERE project_id IN (IEAEOPF5I44OQHI6'IEAEOPF5I47ETV2P','IEAEOPF5I5B7TDU7','IEAEOPF5I465PVUJ','IEAEOPF5I47JC54E')
+
+
+2024-10-04 14:29:42
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_master_maintenance' doesn't exist
+- Query 		: select * from sa_master_maintenance WHERE order_number='ORD-2024-00912'
+
+
+2024-10-04 15:41:49
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_id' in 'group statement'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE id IN ('IEAEOPF5I44OQHI6','IEAEOPF5I465PVUJ') GROUP BY project_id
+
+
+2024-10-04 17:11:49
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'employee_email' in 'where clause'
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE employee_email like '%zaimatul%'

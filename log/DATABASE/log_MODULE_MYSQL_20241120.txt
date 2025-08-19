@@ -1,0 +1,27 @@
+20-Nov-2024 9:58:50
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_preschedule WHERE resource_name LIKE '%teguh.wahyu@mastersystem.co.id%'] Unknown column 'resource_name' in 'where clause'
+
+20-Nov-2024 11:24:33
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_wrike_task WHERE project_id='IEAEOPF5I5KQYQXB'] Table 'sa_google_calendar.sa_wrike_task' doesn't exist
+
+20-Nov-2024 11:41:11
+- SubModule : 
+- Status    : Caught 'get_sql' error - [
+UPDATE sa_hcm_requirement SET status = 'Request Complete' WHERE id = 155
+
+] Unknown column 'status' in 'field list'
+
+20-Nov-2024 16:14:55
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_trx_proejct_list WHERE project_code='TB018124J0015'] Table 'sa_ps_service_budgets.sa_trx_proejct_list' doesn't exist
+
+20-Nov-2024 16:25:11
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_master_maintenance_date WHERE proejct_code='TL000822K0004'] Unknown column 'proejct_code' in 'where clause'
+
+20-Nov-2024 16:25:32
+- SubModule : 
+- Status    : Caught 'get_sql' error - [UPDATE sa_master_maintenance_date flag=0 WHERE project_code='TL000822K0004'] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=0 WHERE project_code='TL000822K0004'' at line 1
+

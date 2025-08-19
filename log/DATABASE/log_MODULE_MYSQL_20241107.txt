@@ -1,0 +1,12 @@
+07-Nov-2024 11:17:05
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_data_so WHERE project_code='TT000121N0013'] Unknown column 'project_code' in 'where clause'
+
+07-Nov-2024 16:17:22
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_kpi_so_wr WHERE project_code='TB001224B0019'] Table 'sa_wrike_integrate.sa_kpi_so_wr' doesn't exist
+
+07-Nov-2024 16:32:00
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_initial_jobrole_project WHERE project_id IN ('IEAEOPF5I5NOE2P3','IEAEOPF5I5NPDBIE')] Table 'sa_wrike_integrate.sa_initial_jobrole_project' doesn't exist
+

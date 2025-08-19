@@ -1,0 +1,48 @@
+08-Nov-2024 8:42:18
+- SubModule : 
+- Status    : Caught 'get_sql' error - [UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 45, `brand` = 'Dell', `modified_by` = 'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 20504 AND `resource_level` = 21 AND `service_type`= 1] Column 'catalog_type' cannot be null
+
+08-Nov-2024 8:42:18
+- SubModule : 
+- Status    : Caught 'get_sql' error - [UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 12, `brand` = 'Dell', `modified_by` = 'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 20504 AND `resource_level` = 31 AND `service_type`= 1] Column 'catalog_type' cannot be null
+
+08-11-2024 14:05:57
+- User Name   : surya.ningsih@mastersystem.co.id
+- Module      : service_budget
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/components/classes/func_functions.php(442): get_conn()
+#3 /var/www/html/msizone/index.php(49): reset_notif()
+#4 {main}
+
+08-11-2024 14:16:57
+- User Name   : miko.widiarta@mastersystem.co.id
+- Module      : service_budget
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(559): Databases->__construct()
+#2 /var/www/html/msizone/components/classes/func_functions.php(442): get_conn()
+#3 /var/www/html/msizone/index.php(49): reset_notif()
+#4 {main}
+
+08-11-2024 16:10:20
+- User Name   : Not-Login
+- Module      : service_budget
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/login.php(163): Databases->__construct()
+#2 /var/www/html/msizone/login.php(533): msiguide()
+#3 /var/www/html/msizone/index.php(67): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_msiguide08-Nov-2024 16:10:20
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-11-01" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10]  - "SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-11-01" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10" - 
+

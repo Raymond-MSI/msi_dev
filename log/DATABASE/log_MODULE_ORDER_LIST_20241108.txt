@@ -1,0 +1,48 @@
+08-11-2024 16:18:40
+- User Name   : hartini.satiawan@mastersystem.co.id
+- Module      : order_list
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_order_list.php(26): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_navision08-Nov-2024 16:18:40
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100]  - "SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100" - 
+
+08-11-2024 16:19:08
+- User Name   : hartini.satiawan@mastersystem.co.id
+- Module      : order_list
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_order_list.php(26): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_navision08-Nov-2024 16:19:08
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100]  - "SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100" - 
+
+08-11-2024 16:27:19
+- User Name   : hartini.satiawan@mastersystem.co.id
+- Module      : order_list
+- Sub-Module  : 
+- Description : mysqli_sql_exception: No route to host in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/modules/mod_order_list.php(26): Databases->__construct()
+#2 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#3 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#4 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_navision08-Nov-2024 16:27:19
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100]  - "SELECT * FROM sa_view_order_number WHERE status_order=0 AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC LIMIT 0, 100" - 
+

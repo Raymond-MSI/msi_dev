@@ -1,0 +1,434 @@
+File Error Log
+
+2024-07-04 13:57:12
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_trx_productivity SET status_calender='declined' WHERE resource_email ...' at line 1
+- Query 		: UPDATE FROM sa_trx_productivity SET status_calender='declined' WHERE resource_email LIKE '%wijayanto.agung@mastersystem.co.id%' and permalink_gcalender LIKE '%ZGpvMnRpdG92YjBydTlhcm0xNjNscjZuNWtfMjAyNDAyMjhUMDMzMDAwWiB3aWpheWFudG8uYWd1bmdAbWFzdGVyc3lzdGVtLmNvLmlk%'
+
+
+2024-07-04 14:01:50
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND permalink_gcalender LIKE '%ZGpvMnRpdG92YjBydTlhcm0xNjNscjZuNWtfMjAyNDAzMD...' at line 1
+- Query 		: select * from sa_trx_productivity AND permalink_gcalender LIKE '%ZGpvMnRpdG92YjBydTlhcm0xNjNscjZuNWtfMjAyNDAzMDRUMDMzMDAwWiB3aWpheWFudG8uYWd1bmdAbWFzdGVyc3lzdGVtLmNvLmlk%'
+
+
+2024-07-04 14:02:22
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 1, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 700, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 11 AND `service_type`= 1
+
+
+2024-07-04 14:02:22
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 1, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 21 AND `service_type`= 1
+
+
+2024-07-04 14:02:22
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 4, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 31 AND `service_type`= 1
+
+
+2024-07-04 14:02:22
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 1, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 700, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 51 AND `service_type`= 1
+
+
+2024-07-04 14:02:22
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 3, `mandays` = 2, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 61 AND `service_type`= 1
+
+
+2024-07-04 14:02:22
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 3, `mandays` = 3, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 71 AND `service_type`= 1
+
+
+2024-07-04 14:02:22
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 1, `brand` = 'Fortinet', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 62 AND `service_type`= 1
+
+
+2024-07-04 14:02:22
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 8, `brand` = 'Fortinet', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 72 AND `service_type`= 1
+
+
+2024-07-04 14:02:46
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 1, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 700, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 11 AND `service_type`= 1
+
+
+2024-07-04 14:02:46
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 1, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 21 AND `service_type`= 1
+
+
+2024-07-04 14:02:46
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 4, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 31 AND `service_type`= 1
+
+
+2024-07-04 14:02:46
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 1, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 700, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 51 AND `service_type`= 1
+
+
+2024-07-04 14:02:46
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 3, `mandays` = 2, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 61 AND `service_type`= 1
+
+
+2024-07-04 14:02:46
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 3, `mandays` = 3, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 71 AND `service_type`= 1
+
+
+2024-07-04 14:02:46
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 1, `brand` = 'Fortinet', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 62 AND `service_type`= 1
+
+
+2024-07-04 14:02:46
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 8, `brand` = 'Fortinet', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 20279 AND `resource_level` = 72 AND `service_type`= 1
+
+
+2024-07-04 14:43:54
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 11, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 19409 AND `resource_level` = 31 AND `service_type`= 1
+
+
+2024-07-04 14:43:54
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 5, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 19409 AND `resource_level` = 61 AND `service_type`= 1
+
+
+2024-07-04 14:43:54
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 22, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 19409 AND `resource_level` = 71 AND `service_type`= 1
+
+
+2024-07-04 14:45:05
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 11, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 19409 AND `resource_level` = 31 AND `service_type`= 1
+
+
+2024-07-04 14:45:05
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 5, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 19409 AND `resource_level` = 61 AND `service_type`= 1
+
+
+2024-07-04 14:45:05
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 22, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 19409 AND `resource_level` = 71 AND `service_type`= 1
+
+
+2024-07-04 14:46:08
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 11, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 19409 AND `resource_level` = 31 AND `service_type`= 1
+
+
+2024-07-04 14:46:08
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 5, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 19409 AND `resource_level` = 61 AND `service_type`= 1
+
+
+2024-07-04 14:46:08
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 22, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 19409 AND `resource_level` = 71 AND `service_type`= 1
+
+
+2024-07-04 14:49:09
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 11, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 19409 AND `resource_level` = 31 AND `service_type`= 1
+
+
+2024-07-04 14:49:09
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 5, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 19409 AND `resource_level` = 61 AND `service_type`= 1
+
+
+2024-07-04 14:49:09
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 22, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 19409 AND `resource_level` = 71 AND `service_type`= 1
+
+
+2024-07-04 14:52:22
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 11, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 19409 AND `resource_level` = 31 AND `service_type`= 1
+
+
+2024-07-04 14:52:22
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 5, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 19409 AND `resource_level` = 61 AND `service_type`= 1
+
+
+2024-07-04 14:52:22
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 22, `brand` = 'Cisco', `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 19409 AND `resource_level` = 71 AND `service_type`= 1
+
+
+2024-07-04 15:10:15
+- Server 		: Prod
+- User 			: algie.putra@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22446,71,3,1,1,'Cisco Network',250,1,1,'Algie Putra Handaya<algie.putra@mastersystem.co.id>')
+
+
+2024-07-04 15:10:15
+- Server 		: Prod
+- User 			: algie.putra@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22446,72,3,1,1,'Cisco Security',250,1,1,'Algie Putra Handaya<algie.putra@mastersystem.co.id>')
+
+
+2024-07-04 15:15:10
+- Server 		: Prod
+- User 			: algie.putra@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22446,71,3,1,1,'Cisco Network',250,1,1,'Algie Putra Handaya<algie.putra@mastersystem.co.id>')
+
+
+2024-07-04 15:15:10
+- Server 		: Prod
+- User 			: algie.putra@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22446,72,3,1,1,'Cisco Security',250,1,1,'Algie Putra Handaya<algie.putra@mastersystem.co.id>')
+
+
+2024-07-04 15:17:37
+- Server 		: Prod
+- User 			: algie.putra@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22446,71,3,1,2,'Cisco Network & Security',250,1,1,'Algie Putra Handaya<algie.putra@mastersystem.co.id>')
+
+
+2024-07-04 15:19:25
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asc' at line 1
+- Query 		: select * from sa_transaction tanggal_create asc
+
+
+
+2024-07-04 15:19:33
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'desc tanggal_create' at line 1
+- Query 		: select * from sa_transaction order_by desc tanggal_create 
+
+
+
+2024-07-04 16:00:09
+- Server 		: Prod
+- User 			: algie.putra@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22446,71,3,1,1,'Cisco Network',250,1,1,'Algie Putra Handaya<algie.putra@mastersystem.co.id>')
+
+
+2024-07-04 16:00:09
+- Server 		: Prod
+- User 			: algie.putra@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22446,72,3,1,1,'Cisco Security',250,1,1,'Algie Putra Handaya<algie.putra@mastersystem.co.id>')
+
+
+2024-07-04 16:05:36
+- Server 		: Prod
+- User 			: algie.putra@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22446,71,3,1,1,'Cisco Network',250,1,1,'Algie Putra Handaya<algie.putra@mastersystem.co.id>')
+
+
+2024-07-04 16:05:36
+- Server 		: Prod
+- User 			: algie.putra@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22446,72,3,1,1,'Cisco Security',250,1,1,'Algie Putra Handaya<algie.putra@mastersystem.co.id>')
+
+
+2024-07-04 16:06:57
+- Server 		: Prod
+- User 			: algie.putra@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22446,71,3,1,1,'Cisco Network',250,1,1,'Algie Putra Handaya<algie.putra@mastersystem.co.id>')
+
+
+2024-07-04 16:06:57
+- Server 		: Prod
+- User 			: algie.putra@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22446,72,3,1,1,'Cisco Security',250,1,1,'Algie Putra Handaya<algie.putra@mastersystem.co.id>')
+
+
+2024-07-04 16:14:02
+- Server 		: Prod
+- User 			: algie.putra@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22446,71,3,1,1,'Cisco Network',250,1,1,'Algie Putra Handaya<algie.putra@mastersystem.co.id>')
+
+
+2024-07-04 16:14:02
+- Server 		: Prod
+- User 			: algie.putra@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Data too long for column 'brand' at row 1
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22446,72,3,1,1,'Cisco Security',250,1,1,'Algie Putra Handaya<algie.putra@mastersystem.co.id>')

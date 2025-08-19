@@ -1,0 +1,129 @@
+File Error Log
+
+2023-10-24 10:28:50
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_initial_jobroles_project' doesn't exist
+- Query 		: SELECT * FROM sa_initial_jobroles_project WHERE project_id = 'IEAEOPF5I5EVUJYH' AND jobroles_name LIKE '%Project Manager%'
+
+
+2023-10-24 10:29:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_resource_assignment' doesn't exist
+- Query 		: SELECT * FROM sa_resource_assignment 
+    WHERE (status = 'Penuh' OR status = 'Mutasi') 
+    AND flag_assign_wrike = 0 
+    AND approval_status = 'approved'
+
+
+2023-10-24 15:04:29
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'Nama' in 'field list'
+- Query 		: SELECT COUNT(Nama), Nama, so_number GROUP BY Nama,so_number,role
+
+
+2023-10-24 16:51:17
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-24 16:52:07
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-24 16:53:18
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-24 16:55:44
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-24 17:00:38
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-24 17:00:48
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-24 17:00:56
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: trx_maskomen
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_trx_maskomen LIMIT 0, 100
+
+
+2023-10-24 17:24:17
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Nama`, SUM(`nilai_ideal`) AS `ideal_value`, SUM(`nilai_aktual`) AS `actual_va...' at line 1
+- Query 		: Nama`, SUM(`nilai_ideal`) AS `ideal_value`, SUM(`nilai_aktual`) AS `actual_value`, SUM(`nilai_aktual`) / SUM(`nilai_ideal`) * 100 AS `average`, SUM(REPLACE(`nilai_akhir_ideal`, ',', '.')) AS `ideal_final_value`, SUM(REPLACE(`nilai_akhir_aktual`, ',', '.')) AS `actual_final_value`, SUM(REPLACE(`nilai_akhir_ideal`, ',', '.')) / SUM(REPLACE(`nilai_akhir_aktual`, ',', '.')) * 100 AS `average_resource`, `periode_so`, `kpi_status` FROM `sa_user` GROUP BY `Nama`;
+
+
+2023-10-24 17:30:28
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_data_so' doesn't exist
+- Query 		: select * from sa_data_so where project_code='TB001222B0019'
+
+
+2023-10-24 17:30:34
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_data_so' doesn't exist
+- Query 		: select * from sa_data_so where project_code_kpi='TB001222B0019'
+
+
+2023-10-24 17:30:35
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_data_so' doesn't exist
+- Query 		: select * from sa_data_so where project_code_kpi='TB001222B0019'

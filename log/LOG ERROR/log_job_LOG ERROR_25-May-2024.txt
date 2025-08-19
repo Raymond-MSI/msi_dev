@@ -1,0 +1,9 @@
+File Error Log
+
+2024-05-25 14:18:48
+- Server 		: Prod
+- User 			: yos.eddy@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'status_manager_hcm' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE status_manager_hcm = 'Approve' AND status_hcm_gm = 'Approve' AND status_manager_gm_bod = 'Approve' AND status != 'Selesai' LIMIT 0, 100

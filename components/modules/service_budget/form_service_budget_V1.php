@@ -1,0 +1,2577 @@
+<script src="components/modules/service_budget/java_service_budget.js"></script>
+<?php
+global $DTSB, $DBHCM;
+$mdlname="SERVICE_BUDGET";
+$userpermission_v3 = useraccess_v3($mdlname);
+
+if(isset($_GET['project_code']) && $_GET['project_code']=="undefined") {
+    ?>
+    <script>window.location.href='index.php?mod=service_budget&err=datanotselected';</script>
+    <?php
+}   
+$readonly = '';
+if($_GET['act']=='view') {
+    $readonly = 'readonly';
+}
+
+//reset notif
+$link = "index.php?" . $_SERVER['QUERY_STRING'];
+reset_notif($_SESSION['Microservices_UserEmail'], $link);
+
+// Project Information
+$srcdata="project";
+$tblname = "trx_project_list";
+if(!isset($_GET['project_code'])) {
+    $condition = "project_id=" . $_GET['id'];
+} elseif($_GET['act']=="add") {
+    $condition = "project_code='" . $_GET['project_code'] . "' AND so_number='" . $_GET['so_number'] . "'";
+} elseif($_GET['act']=="order") {
+    $condition = "project_code='" . $_GET['project_code'] . "' AND order_number='" . $_GET['order_number'] . "'";
+} elseif($_GET['act']=='edit' || $_GET['act']=='view') {
+    $condition = "project_code='" . $_GET['project_code'] . "' AND (so_number='" . $_GET['so_number'] . "' OR order_number='" . $_GET['order_number'] . "')";
+}
+$order = "project_id DESC";
+$sb = $DTSB->get_data($tblname, $condition, $order);
+$dsb = $sb[0];
+
+if($sb[2] == 0) {
+    global $username, $password, $hostname;
+    $srcdata="order";
+    $databaseNav = "sa_md_navision";
+    if($_GET['act']=='add') {
+        $condition = "`project_code`='" . $_GET['project_code'] . "' AND so_number='" . $_GET['so_number'] . "'";
+        $tblname = "view_orders";
+    } elseif($_GET['act']=='order') {
+        $condition = "`project_code`='" . $_GET['project_code'] . "' AND order_number='" . $_GET['order_number'] . "'";
+        $tblname = "view_order_number";
+    }
+    $DTNAV = new Databases($hostname, $username, $password, $databaseNav);
+    $sb = $DTNAV->get_data($tblname, $condition);
+    $dsb = $sb[0];
+    $ver = 0;
+} else {
+    $ver = $dsb['version'];
+}
+$tsb = $sb[2];
+
+if($dsb['sales_name'] == $_SESSION['Microservices_UserName']) {
+    $tblnamevalue = "mst_setup";
+    $conditionvalue = "setup_name='Value SB Sederhana'";
+    $sbs = $DTSB->get_data($tblnamevalue,$conditionvalue);
+    $dsbs = $sbs[0];
+    $dsbsexp = explode(";",$dsbs['setup_value']);
+    $dsbidrexp = explode("=", $dsbsexp[0]);
+    $dsbid = $dsbidrexp[1];
+    $dsbusdexp = explode("=", $dsbsexp[1]);
+    $dsbusd = $dsbusdexp[1];
+    if($dsb['amount_idr']>=$dsbid || $dsb['amount_usd']>=$dsbusd) {
+        $permission = "readonly";
+    }
+}
+
+$permission = '';
+if(USERPERMISSION_V2=="bf7717bbfd879cd1a40b71171f9b393e" && (isset($dsb['status']) && ($dsb['status']=="approved" || $dsb['status']=='submited' || $dsb['status']=='acknowledge'))) {
+// if(USERPERMISSION=="858ba4765e53c712ef672a9570474b1d") {
+    $permission = 'readonly';
+}
+$adminpermission = "readonly";
+if(USERPERMISSION=="7b7bc2512ee1fedcd76bdc68926d4f7b") {
+    $adminpermission = "";
+}
+
+// Project Solution
+global $username, $password, $hostname;
+if($ver>0) {
+    $database = "sa_ps_service_budgets";
+    $tblname = "trx_project_solutions";
+    $condition = "`project_id`=" . $dsb['project_id'];
+    $DPS = new Databases($hostname, $username, $password, $database);
+    $psolution = $DPS->get_data($tblname, $condition);
+    $dpsolution = $psolution[0];
+    $qpsolution = $psolution[1];
+    $tpsolution = $psolution[2];
+
+    $totalproductsolution = 0;
+    $totalservicesolution = 0;
+    $psol = array();
+    if($tpsolution>0) {
+        do { 
+            $array1 = array($dpsolution['solution_name']=>array("product"=>$dpsolution['product'], "services"=>$dpsolution['services'] ));
+            $psol = array_merge($psol, $array1);
+            if($dpsolution['product']!="" && $dpsolution['services']!="") {
+                $totalproductsolution += $dpsolution['product'];
+                $totalservicesolution += $dpsolution['services'];
+            }
+        } while($dpsolution=$qpsolution->fetch_assoc());
+    }
+}
+
+// Project Implementation
+global $username, $password, $hostname;
+if($ver>0) {
+    $database = "sa_ps_service_budgets";
+    $tblname = "trx_project_implementations";
+    $condition = "project_id=" . $dsb['project_id'] . " AND service_type=1";
+    $DIMP = new Databases($hostname, $username, $password, $database);
+    $implement = $DIMP->get_data($tblname, $condition);
+    $dimplement = $implement[0];
+    $qimplement = $implement[1];
+    $timplement = $implement[2];
+}
+
+// Project Maintenance
+if($ver>0) {
+    $database = "sa_ps_service_budgets";
+    $tblname = "trx_project_implementations";
+    $condition = "`project_id`=" . $dsb['project_id'] . " AND service_type=2";
+    $DMNT = new Databases($hostname, $username, $password, $database);
+    $maintenance = $DMNT->get_data($tblname, $condition);
+    $dmaintenance = $maintenance[0];
+    $qmaintenance = $maintenance[1];
+    $tmaintenance = $maintenance[2];
+}
+
+// Project Extended Warranty
+if($ver>0) {
+    $database = "sa_ps_service_budgets";
+    $tblname = "trx_project_implementations";
+    $condition = "`project_id`=" . $dsb['project_id'] . " AND service_type=3";
+    $DWAR = new Databases($hostname, $username, $password, $database);
+    $warranty = $DWAR->get_data($tblname, $condition);
+    $dwarranty = $warranty[0];
+    $qwarranty = $warranty[1];
+    $twarranty = $warranty[2];
+}
+
+?>
+<div class="card shadow">
+    <div class="card-header fw-bold">
+        Service Budget
+    </div>
+    <div class="card-body">
+        <form name="form" method="post" action="index.php?mod=service_budget"> 
+            <!-- <div class="col-lg-12">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                        <h6 class="m-0 font-weight-bold text-primary"><?php //echo 'Version ' . $ver; ?></h6>
+                        <div class="dropdown no-arrow">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                aria-labelledby="dropdownMenuLink">
+                                <div class="dropdown-header">Module Information:</div>
+                                <?php
+                                //$fstat = stat("components/modules/service_budget/form_service_budget.php");
+                                ?>
+                                    <span class="dropdown-item">Version : 1.0</span>
+                                    <span class="dropdown-item">Released : <?php ///echo $fstat['mtime']; ?></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body"> -->
+                        <?php if($tsb > 0) { ?>
+
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active text-body" id="info-tab" data-bs-toggle="tab" data-bs-target="#ProjectInformation" type="button" role="tab" aria-controls="projectinformation" aria-selected="true">Project Information</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="solution-tab" data-bs-toggle="tab" data-bs-target="#ProjectSolution" type="button" role="tab" aria-controls="projectsolution" aria-selected="false">Project Solution</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="implementation-tab" data-bs-toggle="tab" data-bs-target="#Implementation" type="button" role="tab" aria-controls="implementation" aria-selected="false">Implementation</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="maintenance-tab" data-bs-toggle="tab" data-bs-target="#Maintenance" type="button" role="tab" aria-controls="maintenance" aria-selected="false">Maintenance</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="warranty-tab" data-bs-toggle="tab" data-bs-target="#ExtendedWarranty" type="button" role="tab" aria-controls="warranty" aria-selected="false">Extended Warranty</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link text-body" id="fileupload-tab" data-bs-toggle="tab" data-bs-target="#FileUpload" type="button" role="tab" aria-controls="fileupload" aria-selected="false">File Upload</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link text-body" id="history-tab" data-bs-toggle="tab" data-bs-target="#History" type="button" role="tab" aria-controls="history" aria-selected="false">History</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <!-- TAB Project Information -->
+                                <div class="tab-pane fade show active" id="ProjectInformation" role="tabpanel" aria-labelledby="projectinformation-tab">
+                                    <div class="card shadow mb-4">
+                                        <!-- Card Body -->
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <label for="inputCID3" class="col-sm-12 alert alert-secondary py-3 d-flex flex-row align-items-center justify-content-between">
+                                                        <b>Project Information</b>
+                                                        <div class="align-items-right">
+                                                            <?php 
+                                                            if(isset($_GET['act']) && $_GET['act']!="order") {
+                                                            if((($dsb['status']=='draft' || $dsb['status']=='rejected' || $dsb['status']=='reopen') && USERPERMISSION=="5898299487c5b9cdbe7d61809fd20213") || (($dsb['status']=='approved' || $dsb['status']=='acknowledge') && (USERPERMISSION=="726ea0dd998698e8a87f8e344d373533" || USERPERMISSION=="125b55092905c1919f7558d68cfd62d7" || USERPERMISSION=="975031eb0e919d08ec6ba1993b455793")) || USERPERMISSION=="7b7bc2512ee1fedcd76bdc68926d4f7b" || USERPERMISSION=="dbf36ff3e3827639223983ee8ac47b42") {
+                                                            ?>
+                                                                <i class="fa-solid fa-pencil" data-bs-toggle="modal" data-bs-target="#modal_project_name_internal"></i>
+                                                            <?php }} ?>
+                                                        </div>
+                                                    </label>
+                                                    <div class="row mb-3">
+                                                        <label for="inputKP3" class="col-sm-3 col-form-label col-form-label-sm">No. KP</label>
+                                                        <div class="col-sm-3">
+                                                            <input type="text" class="form-control form-control-sm" name="project_code" id="project_code" value="<?php echo $dsb['project_code']; ?>" readonly>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="inputKP3" class="col-sm-3 col-form-label col-form-label-sm">Order Number</label>
+                                                        <div class="col-sm-3">
+                                                            <input type="text" class="form-control form-control-sm" name="order_number" id="order_number" value="<?php echo $dsb['order_number']; ?>" readonly>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="inputSO3" class="col-sm-3 col-form-label col-form-label-sm">No. SO / Tgl / Status</label>
+                                                        <div class="col-sm-3">
+                                                            <input type="text" class="form-control form-control-sm" id="inputSONumber" value="<?php echo $dsb['so_number']; ?>" <?php echo $adminpermission; ?> name="so_number">
+                                                        </div>
+                                                        <div class="col-sm-2">
+                                                            <input type="text" class="form-control form-control-sm text-end" style="text-align: right;" id="inputSODate" value="<?php 
+                                                                if(isset($_GET['act']) && $_GET['act']=='add') {
+                                                                    echo $dsb['so_date']>0 ? date('d-M-Y', strtotime($dsb['so_date'])) : '';
+                                                                } ?>" readonly name="so_date">
+                                                        </div>
+                                                        <div class="col-sm-4">
+                                                            <input type="text" class="form-control form-control-sm" name="status_so" id="inputStatus" value="<?php 
+                                                                if(isset($_GET['act']) && $_GET['act']=='add') {
+                                                                    echo $dsb['status_so'] <> -1 ? $dsb['status_so'] : "";
+                                                                } ?>" readonly>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="inputPO3" class="col-sm-3 col-form-label col-form-label-sm">PO/WO/SP/Kont./Tgl</label>
+                                                        <div class="col-sm-3">
+                                                            <input type="text" class="form-control form-control-sm" id="inputPONumber" value="<?php echo $dsb['po_number']; ?>" readonly name="po_number">
+                                                    </div>
+                                                        <div class="col-sm-2">
+                                                            <input type="hidden" class="form-control form-control-sm" style="text-align: right;" id="inputPODate" value="<?php 
+                                                                if(isset($_GET['act']) && $_GET['act']=='add') {
+                                                                    echo date('d-M-Y', strtotime($dsb['po_date']));
+                                                                } ?>"  <?php echo $adminpermission; ?> name="po_date">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="inputNP3" class="col-sm-3 col-form-label col-form-label-sm">Nilai Project</label>
+                                                        <div class="col-sm-4">
+                                                            <div class="input-group input-group-sm mb-1">
+                                                                <span class="input-group-text" id="basic-addon1">IDR</span>
+                                                                <input type="text" class="form-control text-end" style="text-align: right;" id="amount_idr" value="<?php 
+                                                                if(isset($dsb['so_value'])) {
+                                                                echo $dsb['amount_idr']>0 ? $dsb['amount_idr'] : $dsb['so_value']; 
+                                                                } else {
+                                                                    echo $dsb['amount_idr'];
+                                                                }
+                                                                ?>" readonly name="amount_idr" onchange="format_amount_idr();">
+                                                                <script>format_amount_idr();</script>
+                                                            </div>
+                                                        </div>
+                                                        <label for="inputSO3" class="col-sm-1 col-form-label col-form-label-sm text-center">/</label>
+                                                        <div class="col-sm-4">
+                                                            <div class="input-group input-group-sm mb-1">
+                                                                <span class="input-group-text" id="basic-addon1">USD</span>
+                                                                <input type="text" class="form-control text-end" style="text-align: right;" id="amount_usd" value="<?php echo $dsb['amount_usd']; ?>" readonly name="amount_usd" onchange="format_amount_usd();">
+                                                                <script>format_amount_usd();</script>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="inputNP3" class="col-sm-3 col-form-label col-form-label-sm">Project Name</label>
+                                                        <div class="col-sm-9">
+                                                            <textarea class="form-control" id="project_name" name="project_name" rows="2" readonly><?php echo $dsb['project_name']; ?></textarea>
+                                                    </div>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="inputNP3" class="col-sm-3 col-form-label col-form-label-sm">Project Name Internal</label>
+                                                        <div class="col-sm-9">
+                                                            <!-- <div class="input-group mb-1"> -->
+                                                                <input type="text" class="form-control form-control-sm" name="project_name_internal" id="project_name_internal" aria-label="Project Name Internal" aria-describedby="button-addon2" value="<?php 
+                                                                    if(isset($_GET['act']) && ($_GET['act']!='add' && $_GET['act']!='order')) { 
+                                                                        echo $dsb['project_name_internal']; 
+                                                                    } else {
+                                                                        echo date("Y") . " - " . $dsb['project_name'];
+                                                                    } ?>" readonly>
+                                                                <!-- <button class="btn btn-outline-secondary btn-sm border-0 bg-body-secondary" type="button" name="btn_project_name_internal" id="btn_project_name_internal" data-bs-toggle="modal" data-bs-target="#modal_project_name_internal" <?php //if($ver>0 && ($dsb['status']=='submited' || $dsb['status']=='acknowledge') || $ver==0) { echo 'disabled'; } ?>><i class="fa-solid fa-pencil"></i></button> -->
+                                                            <!-- </div> -->
+                                                        </div>
+                                                </div>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Customer</label>
+                                                        <div class="col-sm-9">
+                                                            <div class="input-group input-group-sm mb-1">
+                                                                <input type="hidden" class="form-control" id="customer_code" value="<?php echo $dsb['customer_code']; ?>" 
+                                                                readonly name="customer_code">
+                                                                <span class="input-group-text" id="basic-addon1"><?php echo $dsb['customer_code']; ?></span>
+                                                                <input type="text" class="form-control" id="customer_name" value="<?php echo $dsb['customer_name']; ?>" readonly name="customer_name">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <script> 
+                                                        var ProjectCode = document.getElementById('project_code').value;
+                                                        document.cookie = "PrefixName = " + ProjectCode + "_";
+                                                        var CustomerCode = document.getElementById('customer_code').value;
+                                                        document.cookie = "CustomerCode = " + CustomerCode;
+                                                        var CustomerName = document.getElementById('customer_name').value;
+                                                        document.cookie = "CustomerName = " + CustomerName;
+                                                    </script>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Sales Name</label>
+                                                        <div class="col-sm-9">
+                                                            <div class="input-group input-group-sm mb-1">
+                                                                <input type="hidden" class="form-control" id="sales_code" value="<?php echo $dsb['sales_code']; ?>" readonly name="sales_code">
+                                                                <span class="input-group-text" id="basic-addon1"><?php echo $dsb['sales_code']; ?></span>
+                                                                <input type="text" class="form-control" id="sales_name" value="<?php echo $dsb['sales_name']; ?>" readonly name="sales_name">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <label for="inputCID3" class="col-sm-12 alert alert-secondary"><b>Setup Project</b></label>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Status Project</label>
+                                                        <div class="col-sm-9">
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio" name="newproject" id="newproject1" value="1" onchange="newproject();" 
+                                                                <?php
+                                                                // if($ver>0) { 
+                                                                //     if($dsb['newproject']==1) { 
+                                                                        echo 'checked';
+                                                                //     // } elseif(USERPERMISSION!='7b7bc2512ee1fedcd76bdc68926d4f7b') { 
+                                                                //     //     echo ' disabled';
+                                                                //     }
+                                                                // } 
+                                                                ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>> 
+                                                                <label class="form-check-label" for="inlineRadio1">New</label>
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio" name="newproject" id="newproject2" value="0" onchange="newproject();"
+                                                                <?php 
+                                                                if($ver>0) { 
+                                                                    if($dsb['newproject']==0) { 
+                                                                        echo 'checked';
+                                                                    // } elseif(USERPERMISSION!='7b7bc2512ee1fedcd76bdc68926d4f7b') { 
+                                                                    //     echo ' disabled';
+                                                                    } 
+                                                                }
+                                                                ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>>
+                                                                <label class="form-check-label" for="inlineRadio2">Renewall</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Type Service Budget</label>
+                                                        <div class="col-sm-9">
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio" name="sbtype" id="sbtype1" value="1" onchange="sbtypex();" 
+                                                                <?php
+                                                                if($ver>0) { 
+                                                                    if($dsb['sbtype']==1 && $ver>0) { 
+                                                                        echo 'checked';
+                                                                    // } elseif(USERPERMISSION!='7b7bc2512ee1fedcd76bdc68926d4f7b') { 
+                                                                    //     echo ' disabled';
+                                                                    } 
+                                                                } 
+                                                                ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>> 
+                                                                <label class="form-check-label" for="inlineRadio1">Normal <i class="fas fa-question-circle" data-bs-toggle="popover" data-bs-trigger="focus" title="Dibuat oleh Presales Account dengan nilai project di atas 200jt 
+        dan/atau mempunyai services/extended warranty/services dari vendor."></i></label>
+                                                                </div>
+                                                                <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio" name="sbtype" id="sbtype0" value="0" onchange="sbtypex();"
+                                                                <?php 
+                                                                if($ver>0) { 
+                                                                    if($dsb['sbtype']==0) { 
+                                                                        echo 'checked';
+                                                                    // } elseif(USERPERMISSION!='7b7bc2512ee1fedcd76bdc68926d4f7b') { 
+                                                                    //     echo ' disabled';
+                                                                    } 
+                                                                } else {
+                                                                    echo 'checked';
+                                                                }
+                                                                ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>>
+                                                                <label class="form-check-label" for="inlineRadio2">Sederhana/Non-Project <i class="fas fa-question-circle" data-bs-toggle="popover" data-bs-trigger="focus" title="Dibuat oleh Sales Account dengan nilai project dibawah 200jt 
+        dan/atau hanya product saja."></i></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-3" id="multiyearsy">
+                                                        <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Multi Years</label>
+                                                        <div class="col-sm-9">
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio" name="multiyears" id="multiyears0" value="1" onchange="change_multiyears();" 
+                                                                <?php
+                                                                if($ver>0) { 
+                                                                    if($dsb['multiyears']==1) { 
+                                                                        echo 'checked';
+                                                                    // } else {
+                                                                        //echo ' disabled';
+                                                                    } 
+                                                                } 
+                                                                ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>> 
+                                                                <label class="form-check-label" for="inlineRadio1">Yes</label>
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio" name="multiyears" id="multiyears1" value="0" onchange="change_multiyears();"
+                                                                <?php 
+                                                                if($ver>0) { 
+                                                                    if($dsb['multiyears']==0) { 
+                                                                        echo 'checked';
+                                                                    } else { 
+                                                                        //echo ' disabled';
+                                                                    } 
+                                                                }
+                                                                ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>>
+                                                                <label class="form-check-label" for="inlineRadio2">No</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <?php
+                                                    if($ver>0) {
+                                                        $bundlingexp = explode(";",$dsb['bundling']);
+                                                    } 
+                                                    ?>
+                                                    <div class="row mb-3" id="bundling_project">
+                                                        <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Bundling Project</label>
+                                                        <div class="col-sm-9">
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="checkbox" name="bundling1" id="i_bundling" value="1" onchange="change_bundling_i();" 
+                                                                <?php
+                                                                if($ver>0) { 
+                                                                    for($j=0;$j<count($bundlingexp);$j++) {
+                                                                        if($bundlingexp[$j]==1) { 
+                                                                            echo 'checked';
+                                                                        } else {
+                                                                            // echo ' disabled';
+                                                                        } 
+                                                                    }
+                                                                } 
+                                                                ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>> 
+                                                                <label class="form-check-label" for="inlineRadio1">Implementation</label>
+                                                                <input type="hidden" name="bundling10" value="<?php 
+                                                                if($ver>0)
+                                                                {
+                                                                    echo substr($dsb['bundling'], 0, 1)=='1' ? '1' : '0';
+                                                                } else
+                                                                {
+                                                                    echo '0';
+                                                                }
+                                                                ?>"> 
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="checkbox" name="bundling2" id="m_bundling" value="2" onchange="change_bundling_m();"
+                                                                <?php 
+                                                                if($ver>0) { 
+                                                                    for($j=0;$j<count($bundlingexp);$j++) { 
+                                                                        if($bundlingexp[$j]==2) { 
+                                                                            echo 'checked';
+                                                                        } else {
+                                                                            // echo ' disabled';
+                                                                        } 
+                                                                    }
+                                                                }
+                                                                ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>>
+                                                                <label class="form-check-label" for="inlineRadio2">Maintenance</label>
+                                                                <input type="hidden" name="bundling20" value="<?php 
+                                                                if($ver>0)
+                                                                {
+                                                                    echo strpos($dsb['bundling'], '2')!='' ? '2' : '0'; 
+                                                                } else
+                                                                {
+                                                                    echo '0';
+                                                                }    
+                                                                ?>"> 
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="checkbox" name="bundling3" id="w_bundling" value="3" onchange="change_bundling_w();"
+                                                                <?php 
+                                                                if($ver>0) { 
+                                                                    for($j=0;$j<count($bundlingexp);$j++) { 
+                                                                        if($bundlingexp[$j]==3) { 
+                                                                            echo 'checked';
+                                                                        } else {
+                                                                            // echo ' disabled';
+                                                                        } 
+                                                                    }
+                                                                }
+                                                                ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>>
+                                                                <label class="form-check-label" for="inlineRadio2">Extended Warranty <i class="fas fa-question-circle" data-bs-toggle="popover" data-bs-trigger="focus" title="a. Extended Warranty  diisi hanya jika Warranty yang dibeli
+        terpisah dari barang atau berupa renewal maintenance.
+        b. Subscription termasuk kategori Product, bukan extended warranty."></i></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div id="multiyearsx">
+                                                        <label for="inputCID3" class="col-sm-12 alert alert-secondary" title="Project Implementasi dan Managed Service (Durasi lebih dari 1 tahun)."><b>Multi Years</b></label>
+                                                        <div class="row mb-3">
+                                                            <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Duration</label>
+                                                            <div class="col-sm-2">
+                                                            <input type="text" class="form-control form-control-sm" id="duration" value="<?php if($ver > 0) { echo $dsb['duration']; } ?>" name="duration" style="text-align: right" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">years</label>
+                                                        </div>
+                                                        <div class="row mb-3">
+                                                            <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Contract Type</label>
+                                                            <div class="col-sm-8">
+                                                                <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="contract_type" id="contract_type" onchange="change_contract_type();" <?php if($permission=='readonly') { echo 'disabled'; } ?>>
+                                                                    <option value="Kontrak Biasa" <?php if(($ver > 0) && ($dsb['contract_type'] == 'Kontrak Biasa')) { echo 'selected'; } ?>>Kontrak Biasa</option>
+                                                                    <option value="Kontrak Payung" <?php if(($ver > 0) && ($dsb['contract_type'] == 'Kontrak Payung')) { echo 'selected'; } ?>>Kontrak Payung</option>
+                                                                </select>
+                                                            </div>
+                                                            <!-- <div class="col-sm-1">
+                                                                <?php //if($_GET['act']=="view") { ?>
+                                                                    <a href="index.php?mod=service_budget&act=redit&info=project&project_code=<?php //echo $_GET['project_code']; ?>&so_number=<?php //echo $_GET['so_number']; ?><?php //echo isset($_GET['order_number']) ? '&order_number=' . $_GET['order_number'] : ''; ?>&submit=Submit"><i class="fas fa-pen"></i></a>
+                                                                <?php //} ?>
+                                                            </div> -->
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Work Order</label>
+                                                            <div class="col-sm-3">
+                                                                <?php 
+                                                                global $DTSB;
+                                                                $tblname = "mst_type_of_service";
+                                                                $condition = "service_type=4 AND blocked=0";
+                                                                $tos = $DTSB->get_data($tblname, $condition);
+                                                                $dtos = $tos[0];
+                                                                $qtos = $tos[1];
+                                                                if($ver>0) {
+                                                                    $tosidexp = explode(";",$dsb['wo_type']);
+                                                                }
+                                                                $i=0; 
+                                                                do { 
+                                                                    ?>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox" 
+                                                                        name="wo_type[<?php echo $i; ?>]" 
+                                                                        id="wo_type<?php echo $i; ?>" 
+                                                                        value="<?php echo $dtos['tos_id']; ?>" 
+                                                                        <?php 
+                                                                        if($ver>0) {
+                                                                            for($j=0;$j<count($tosidexp);$j++) { 
+                                                                                if($tosidexp[$j]==$dtos['tos_id']) { 
+                                                                                    echo 'checked'; 
+                                                                                }
+                                                                            }
+                                                                        } ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>>
+                                                                        <label class="form-check-label"><?php echo $dtos['tos_name']; ?></label>
+                                                                    </div>
+                                                                    <?php 
+                                                                    $i++;
+                                                                } while($dtos=$qtos->fetch_assoc()); 
+                                                                ?>
+                                                            </div>
+                                                            <!-- <div class="col-sm-1">
+                                                                <?php //if($_GET['act']=="view") { ?>
+                                                                    <a href="index.php?mod=service_budget&act=redit&info=project&project_code=<?php //echo $_GET['project_code']; ?>&so_number=<?php //echo $_GET['so_number']; ?><?php //echo isset($_GET['order_number']) ? '&order_number=' . $_GET['order_number'] : ''; ?>&submit=Submit"><i class="fas fa-pen"></i></a>
+                                                                <?php //} ?>
+                                                            </div> -->
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                    <div id="agreed_price">      
+                                                        <label for="inputCID3" class="col-sm-12 alert alert-secondary"><b>Agreed Price</b></label>
+                                                        <div class="row mb-3">
+                                                            <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Band</label>
+                                                            <div class="col-sm-9">
+                                                                <?php
+                                                                $band[0] = "Band-0 : The project is fully assigned to outsource"; 
+                                                                $band[1] = "Band-1";
+                                                                $band[2] = "Band-2";
+                                                                $band[3] = "Band-3";
+                                                                $band[4] = "Band-4";
+                                                                $band[5] = "Band-5";
+                                                                $band[6] = "Band-6 : Agreed Price must be filled";
+                                                                for($i=0;$i<7;$i++) 
+                                                                { 
+                                                                    ?>
+                                                                    <div class="form-check form-check-inline" title="<?php echo $band[$i]; ?>">
+                                                                        <input class="form-check-input" type="radio" name="band" id="band<?php echo $i; ?>" value="<?php echo $i; ?>" onchange="band_change();" <?php if($ver>0) { if($dsb['band']==$i) { echo 'checked'; }} else { echo 'checked'; } ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>>
+                                                                        <label class="form-check-label" for="inlineRadio1"><?php echo $i; ?></label>
+                                                                    </div>
+                                                                    <?php 
+                                                                } 
+                                                                ?>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-3">
+                                                            <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Implementation</label>
+                                                            <div class="col-sm-4">
+                                                                <input type="text" class="form-control form-control-sm" id="i_price_copy" name="i_agreed_price" style="text-align: right;" readonly>
+                                                            </div>
+                                                            <div class="col-sm-5">
+                                                                <input type="text" class="form-control form-control-sm" id="i_agreed_price" name="i_agreed_price" value="<?php if($ver>0 && $timplement>0) { echo $dimplement['agreed_price']; } ?>" onchange="format_i_agreed_price();" style="text-align: right;" <?php echo $permission; ?>>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-3">
+                                                            <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Maintenance</label>
+                                                            <div class="col-sm-4">
+                                                                <input type="text" class="form-control form-control-sm" id="m_price_copy" style="text-align: right" readonly>
+                                                            </div>
+                                                            <div class="col-sm-5">
+                                                                <input type="text" class="form-control form-control-sm" id="m_agreed_price" name="m_agreed_price" value="<?php if($ver>0 && $tmaintenance>0) { echo $dmaintenance['agreed_price']; } ?>" style="text-align: right" onchange="format_m_agreed_price();" <?php echo $permission; ?>>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- TAB Project Solution -->
+                                <!-- tab-pane fade -->
+                                <div class="tab-pane fade" id="ProjectSolution" role="tabpanel" aria-labelledby="projectsolution-tab">
+                                    <div class="card shadow mb-4">
+                                        <!-- Card Body -->
+                                        <div class="col-lg-6">
+                                            <div class="card-body">
+                                                <div class="row mb-3 card-header">
+                                                    <label for="inputCID3" class="col-sm-6 col-form-label">Project Solution</label>
+                                                    <label for="inputCID3" class="col-sm-3 col-form-label">Product (%)</label>
+                                                    <label for="inputCID3" id="labelservice" class="col-sm-3 col-form-label">Services (%)</label>
+                                                </div>
+                                                <div class="row mb-3">
+                                                    <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Data Center & Cloud Infrastructure</label>
+                                                    <div class="col-sm-3">
+                                                    <input type="text" class="form-control form-control-sm" id="DCCIP" name="DCCIP" value="<?php if($ver>0 && $tpsolution>0) { echo $psol['DCCI']['product']; } ?>" style="text-align: right" onchange="s_change();" <?php echo $permission; ?> >
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                    <input type="text" class="form-control form-control-sm" id="DCCIS" name="DCCIS" value="<?php if($ver>0 && $tpsolution>0) { echo $psol['DCCI']['services']; } ?>" style="text-align: right" onchange="s_change();" <?php echo $permission; ?>>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-3">
+                                                    <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Enterprise Collaboration</label>
+                                                    <div class="col-sm-3">
+                                                    <input type="text" class="form-control form-control-sm" id="ECP" name="ECP" value="<?php if($ver>0 && $tpsolution>0) { echo $psol['EC']['product']; } ?>" style="text-align: right" onchange="s_change();" <?php echo $permission; ?>>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                    <input type="text" class="form-control form-control-sm" id="ECS" name="ECS" value="<?php if($ver>0 && $tpsolution>0) { echo $psol['EC']['services']; } ?>" style="text-align: right" onchange="s_change();" <?php echo $permission; ?>>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-3">
+                                                    <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Big Data & Analytics</label>
+                                                    <div class="col-sm-3">
+                                                    <input type="text" class="form-control form-control-sm" id="BDAP" name="BDAP" value="<?php if($ver>0 && $tpsolution>0) { echo $psol['BDA']['product']; } ?>" style="text-align: right" onchange="s_change();" <?php echo $permission; ?>>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                    <input type="text" class="form-control form-control-sm" id="BDAS" name="BDAS" value="<?php if($ver>0 && $tpsolution>0) { echo $psol['BDA']['services']; } ?>" style="text-align: right" onchange="s_change();" <?php echo $permission; ?>>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-3">
+                                                    <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Digital Business Management</label>
+                                                    <div class="col-sm-3">
+                                                    <input type="text" class="form-control form-control-sm" id="DBMP" name="DBMP" value="<?php if($ver>0 && $tpsolution>0) { echo $psol['DBM']['product']; } ?>" style="text-align: right" onchange="s_change();" <?php echo $permission; ?>>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                    <input type="text" class="form-control form-control-sm" id="DBMS" name="DBMS" value="<?php if($ver>0 && $tpsolution>0) { echo $psol['DBM']['services']; } ?>" style="text-align: right" onchange="s_change();" <?php echo $permission; ?>>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-3">
+                                                    <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Adaptive Security Architecture</label>
+                                                    <div class="col-sm-3">
+                                                    <input type="text" class="form-control form-control-sm" id="ASAP" name="ASAP" value="<?php if($ver>0 && $tpsolution>0) { echo $psol['ASA']['product']; } ?>" style="text-align: right" onchange="s_change();" <?php echo $permission; ?>>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                    <input type="text" class="form-control form-control-sm" id="ASAS" name="ASAS" value="<?php if($ver>0 && $tpsolution>0) { echo $psol['ASA']['services']; } ?>" style="text-align: right" onchange="s_change();" <?php echo $permission; ?>>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-3">
+                                                    <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Service Provider</label>
+                                                    <div class="col-sm-3">
+                                                    <input type="text" class="form-control form-control-sm" id="SPP" name="SPP" value="<?php if($ver>0 && $tpsolution>0) { echo $psol['SP']['product']; } ?>" style="text-align: right" onchange="s_change();" <?php echo $permission; ?>>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                    <input type="text" class="form-control form-control-sm" id="SPS" name="SPS" value="<?php if($ver>0 && $tpsolution>0) { echo $psol['SP']['services']; } ?>" style="text-align: right" onchange="s_change();" <?php echo $permission; ?>>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-3 card-footer">
+                                                    <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Total (100%)</label>
+                                                    <div class="col-sm-3">
+                                                    <input type="text" class="form-control form-control-sm" id="s_total_product" name="s_total_product" value="<?php if($ver>0 && $tpsolution>0) { echo $totalproductsolution; } ?>" style="text-align: right" readonly>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                    <input type="text" class="form-control form-control-sm" id="s_total_service" name="s_total_service" value="<?php if($ver>0 && $tpsolution>0) { echo $totalservicesolution; } ?>" style="text-align: right" readonly>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- TAB Implementation -->
+                                <div class="tab-pane fade" id="Implementation" role="tabpanel" aria-labelledby="implementation-tab">
+                                    <div class="card shadow mb-4">
+                                        <!-- Card Body -->
+                                        <div class="card-body">
+                                            <div class="row">
+                                                    <!-- Service catalogs -->
+                                                <div class="col-lg-6">
+                                                    <label for="inputCID3" class="col-sm-12 alert alert-secondary"><b>Service Catalog</b></label>
+                                                    <div class="row mb-2">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Service Type</label>
+                                                        <div class="col-sm-2">
+                                                            <?php 
+                                                            global $DTSB;
+                                                            $tblname = "mst_type_of_service";
+                                                            $condition = "service_type=1 AND blocked=0";
+                                                            $tos = $DTSB->get_data($tblname, $condition);
+                                                            $dtos = $tos[0];
+                                                            $qtos = $tos[1];
+                                                            if($ver>0 && isset($dimplement['tos_id'])) {
+                                                                $tosidexp = explode(";",$dimplement['tos_id']);
+                                                            }
+                                                            $i=0; 
+                                                            do { 
+                                                                ?>
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="checkbox" 
+                                                                    name="i_tos_id[<?php echo $i; ?>]" 
+                                                                    id="i_tos_id<?php echo $i; ?>" 
+                                                                    value="<?php echo $dtos['tos_id']; ?>" 
+                                                                    <?php 
+                                                                    if($ver>0) {
+                                                                        for($j=0;$j<count($tosidexp);$j++) { 
+                                                                            if($tosidexp[$j]==$dtos['tos_id']) { 
+                                                                                echo 'checked'; 
+                                                                            }
+                                                                        }
+                                                                    } ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>>
+                                                                    <label class="form-check-label" for="inlineRadio1"><?php echo $dtos['tos_name']; ?></label>
+                                                                </div>
+                                                                <?php 
+                                                                $i++;
+                                                            } while($dtos=$qtos->fetch_assoc()); 
+                                                            ?>
+                                                    </div>
+                                                    <!-- <div class="col-sm-1">
+                                                        <?php //if($_GET['act']=="view") { ?>
+                                                            <a href="index.php?mod=service_budget&act=redit&info=imp&project_code=<?php //if(isset($_GET['project_code'])) { echo $_GET['project_code']; } else { echo $dsb['project_code']; } ?>&so_number=<?php //if(isset($_GET['project_code'])) { echo $_GET['so_number']; } else { echo $dsb['so_number']; } ?><?php //echo (isset($_GET['order_number']) && $_GET['order_number']!='') ? '&order_number=' . $_GET['order_number'] : ''; ?>&submit=Submit"><i class="fas fa-pen"></i></a>
+                                                            <?php //} ?>
+                                                        </div> -->
+                                                    </div>
+                                                    <div class="row mb-2">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Project Category</label>
+                                                        <div class="col-sm-2">
+                                                            <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="i_tos_category_id" <?php echo $permission; ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>>
+                                                                <option value="1" <?php if(($ver > 0 && $timplement>0) && ("1" == $dimplement['tos_category_id'])) { echo 'selected'; } ?>>High</option>
+                                                                <option value="2" <?php if(($ver > 0 && $timplement>0) && ("2" == $dimplement['tos_category_id'])) { echo 'selected'; } ?>>Medium</option>
+                                                                <option value="3" <?php if(($ver > 0 && $timplement>0) && ("3" == $dimplement['tos_category_id'])) { echo 'selected'; } ?>>Standard</option>
+                                                            </select>
+                                                        </div>
+                                                        <!-- <div class="col-sm-1">
+                                                            <?php //if($_GET['act']=="view") { ?>
+                                                                <a href="index.php?mod=service_budget&act=redit&info=imp&project_code=<?php //if(isset($_GET['project_code'])) { echo $_GET['project_code']; } else { echo $dsb['project_code']; } ?>&so_number=<?php //if(isset($_GET['project_code'])) { echo $_GET['so_number']; } else { echo $dsb['so_number']; } ?><?php //echo isset($_GET['order_number']) ? '&order_number=' . $_GET['order_number'] : ''; ?>&submit=Submit"><i class="fas fa-pen"></i></a>
+                                                            <?php //} ?>
+                                                        </div> -->
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Estimation Project Duration</label>
+                                                        <div class="col-sm-2">
+                                                        <input type="text" class="form-control form-control-sm" id="i_project_estimation" name="i_project_estimation" value="<?php if($ver>0 && $timplement>0) { echo $dimplement['project_estimation']; } ?>" style="text-align: right;" <?php echo $permission; ?>>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="i_project_estimation_id" <?php echo $permission; ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>>
+                                                                <option value="1" <?php if(($ver > 0 && $timplement>0) && ("1" == $dimplement['project_estimation_id'])) { echo 'selected'; } ?>>Days</option>
+                                                                <option value="2" <?php if(($ver > 0 && $timplement>0) && ("2" == $dimplement['project_estimation_id'])) { echo 'selected'; } ?>>Months</option>
+                                                                <option value="3" <?php if(($ver > 0 && $timplement>0) && ("3" == $dimplement['project_estimation_id'])) { echo 'selected'; } ?>>Years</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                                <!-- Implementation Price -->
+                                                <div class="col-lg-6">
+                                                <label for="inputCID3" class="col-sm-12 alert alert-secondary"><b>Price</b></label>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Implementasi Price (sesuai PO/SPK)</label>
+                                                        <div class="col-sm-6">
+                                                        <input type="text" class="form-control form-control-sm" name="i_price" id="i_price" value="<?php if($ver>0 && $timplement>0) { echo $dimplement['implementation_price']; } ?>" style="text-align: right;" onchange="i_change_price();" <?php echo $permission; ?>>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Businiess Trip -->
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <label for="inputCID3" class="col-sm-12 alert alert-secondary"><b>Outsourcing Plan</b></label>
+                                                    <div class="row mb-3 card-header">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Description</label>
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Price</label>
+                                                    </div>
+                                                    <?php
+                                                    $tblname = "trx_addon";
+                                                    if($srcdata=='project') {
+                                                        $condition = "project_id=" . $dsb['project_id'] . ' AND `service_type`=1';
+                                                    } else {
+                                                        $condition = "project_id=0 AND `service_type`=1";
+                                                    }
+                                                    $addon = $DTSB->get_data($tblname, $condition);
+                                                    $daddon = $addon[0];
+                                                    $qaddon = $addon[1];
+                                                    $taddon = $addon[2];
+                                                    $i=0;
+                                                    do {
+                                                    ?>
+                                                        <div class="row mb-3">
+                                                            <div class="col-sm-6">
+                                                                <input type="text" class="form-control form-control-sm" id="i_out_title_<?php echo $i; ?>" name="i_out_title_<?php echo $i; ?>" value="<?php if($taddon>0) { echo $daddon['addon_title']; } ?>" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <input type="text" class="form-control form-control-sm" id="i_out_price_<?php echo $i; ?>" name="i_out_price_<?php echo $i; ?>" value="<?php if($taddon>0) { echo $daddon['addon_price']; } ?>" style="text-align: right;" onchange="format_i_out_price_<?php echo $i; ?>();" <?php echo $permission; ?>>
+                                                            </div>
+                                                        </div>
+                                                    <?php 
+                                                        $i++;
+                                                    } while($daddon=$qaddon->fetch_assoc()) 
+                                                    ?>
+
+                                                    <?php for($j=$i;$j<5;$j++) { ?>
+                                                        <div class="row mb-3">
+                                                            <div class="col-sm-6">
+                                                                <input type="text" class="form-control form-control-sm" id="i_out_title_<?php echo $j; ?>" name="i_out_title_<?php echo $j; ?>" value="" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <input type="text" class="form-control form-control-sm" id="i_out_price_<?php echo $j; ?>" name="i_out_price_<?php echo $j; ?>" value="" style="text-align: right;" onchange="format_i_out_price_<?php echo $j; ?>();" <?php echo $permission; ?>>
+                                                            </div>
+                                                        </div>
+                                                    <?php } ?>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Subtotal Outsourcing Plant (IDR)</label>
+                                                        <div class="col-sm-6">
+                                                        <input type="text" class="form-control form-control-sm" id="i_total_out_price" name="i_total_out_price" value="" style="text-align: right;" onchange="" readonly>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Note</label>
+                                                        <div class="col-sm-6">
+                                                        <textarea class="form-control" id="exampleFormControlTextarea1" name="i_out_description" rows="3" <?php echo $permission; ?>><?php if($ver>0 && $dimplement>0) { echo $dimplement['out_description']; } ?></textarea>
+                                                        </div>
+                                                        <!-- <div class="col-sm-1">
+                                                            <?php //if($_GET['act']=="view") { ?>
+                                                                <a href="index.php?mod=service_budget&act=redit&info=imp&project_code=<?php //if(isset($_GET['project_code'])) { echo $_GET['project_code']; } else { echo $dsb['project_code']; } ?>&so_number=<?php //if(isset($_GET['project_code'])) { echo $_GET['so_number']; } else { echo $dsb['so_number']; } ?><?php //echo isset($_GET['order_number']) ? '&order_number=' . $_GET['order_number'] : ''; ?>&submit=Submit"><i class="fas fa-pen"></i></a>
+                                                            <?php //} ?>
+                                                        </div> -->
+                                                    </div>
+                                                </div>
+
+                                                <!-- Busines Trip -->
+                                                <div class="col-lg-6">
+                                                    <label for="inputCID3" class="col-sm-12 alert alert-secondary"><b>Business Trip</b></label>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Total Locations</label>
+                                                        <div class="col-sm-6">
+                                                        <input type="text" class="form-control form-control-sm" id="inputBPDImplementationLocation" name="i_bpd_total_location" value="<?php if($ver>0 && $timplement>0) { echo $dimplement['bpd_total_location']; } ?>" style="text-align: right;" <?php echo $permission; ?>>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Description of Location</label>
+                                                        <div class="col-sm-6">
+                                                        <textarea class="form-control" id="exampleFormControlTextarea1" name="i_bpd_description" rows="3" <?php echo $permission; ?>><?php if($ver>0 && $timplement>0) { echo $dimplement['bpd_description']; } ?></textarea>
+                                                        </div>
+                                                        <!-- <div class="col-sm-1">
+                                                            <?php //if($_GET['act']=="view") { ?>
+                                                                <a href="index.php?mod=service_budget&act=redit&info=imp&project_code=<?php //if(isset($_GET['project_code'])) { echo $_GET['project_code']; } else { echo $dsb['project_code']; } ?>&so_number=<?php //if(isset($_GET['project_code'])) { echo $_GET['so_number']; } else { echo $dsb['so_number']; } ?><?php //echo isset($_GET['order_number']) ? '&order_number=' . $_GET['order_number'] : ''; ?>&submit=Submit"><i class="fas fa-pen"></i></a>
+                                                            <?php //} ?>
+                                                        </div> -->
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Subtotal Business Trip (IDR)</label>
+                                                        <div class="col-sm-6">
+                                                        <input type="text" class="form-control form-control-sm" id="i_bpd_price" name="i_bpd_price" value="<?php if($ver>0 && $timplement>0) { echo $dimplement['bpd_price']; } ?>" style="text-align: right;" onchange="i_change_bpd();" <?php echo $permission; ?>>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Mandays Calculation -->
+                                            <label for="inputCID3" class="col-sm-12 alert alert-secondary"><b>Mandays Calculation</b></label>
+                                            <?php 
+                                            if($ver>0) {
+                                                global $DTSB;
+
+                                                $mysql = sprintf("SELECT `resource_level`,`project_id`,`brand`, COUNT(`brand`) AS `tbrand`, (`resource_level`-(`resource_level` DIV 10)*10) AS `res` FROM `sa_trx_project_mandays` WHERE `project_id`=%s AND service_type=1 GROUP BY `project_id`,`brand` ORDER BY `res` ASC",
+                                                    GetSQLValueString($dsb['project_id'], "int"));
+
+                                                $brandlist = $DTSB->get_sql($mysql);
+                                                $dbrandlist = $brandlist[0];
+                                                $qbrandlist = $brandlist[1];
+                                                $tbrandlist = $brandlist[2]; 
+
+                                                $j=0;
+                                                $brand = array();
+                                                if($tbrandlist>0) {
+                                                    do {
+                                                        if(($dbrandlist['resource_level'] % 10) != ($j+1)) {
+                                                            array_push($brand, NULL);
+                                                            $j++;
+                                                        }
+                                                        array_push($brand, $dbrandlist['brand']);
+                                                        $j++;
+                                                    } while($dbrandlist=$qbrandlist->fetch_assoc());
+                                                    if($j<5) {
+                                                        for($k=$j; $k<5; $k++) {
+                                                            array_push($brand,NULL);
+                                                        }
+                                                    }
+                                                } else {
+                                                    for($k=0; $k<5; $k++) {
+                                                        array_push($brand,NULL);
+                                                    }
+                                                }
+
+                                            } else {
+                                                $array = array();
+                                                for($i=1; $i<8; $i++) {
+                                                    $arrayitems = array();
+                                                    for($j=0; $j<5; $j++) {
+                                                        $arrayitem = array('brand'=>NULL, 'mantotal'=>NULL, 'mandays'=>NULL, 'value'=>NULL);
+                                                        array_push($arrayitems, $arrayitem);
+                                                    }
+                                                    array_push($array, $arrayitems);
+                                                }
+                                                $brand = array();
+                                                for($i=0; $i<5; $i++) {
+                                                    array_push($brand, NULL);
+                                                }
+
+                                            }
+                                            ?>
+
+                                            <div class="row mb-3 card-header">
+                                                <label for="inputCID3" class="col-sm-2 col-form-label">Resource Level</label>
+                                                <label for="inputCID3" class="col-sm-1 col-form-label">Mandays</label>
+                                                <label for="inputCID3" class="col col-form-label">Brand 1</label>
+                                                <label for="inputCID3" class="col col-form-label">Brand 2</label>
+                                                <label for="inputCID3" class="col col-form-label">Brand 3</label>
+                                                <label for="inputCID3" class="col col-form-label">Brand 4</label>
+                                                <label for="inputCID3" class="col col-form-label">Brand 5</label>
+                                                <label for="inputCID3" class="col col-form-label">Total Mandays <i class="fas fa-question-circle" data-bs-toggle="popover" data-bs-trigger="focus" title="Total Mandays = Implementasi Price (sesuai PO/SPK) - Subtotal Outsourcing Plant (IDR) - Subtotal Business Trip (IDR)"></i></label>
+                                                <label for="inputCID3" class="col col-form-label">Rate (USD)</label>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label for="inputCID3" class="col-sm-2 col-form-label col-form-label-sm"></label>
+                                                <label for="inputCID3" class="col-sm-1 col-form-label col-form-label-sm">Brand</label>
+                                                <?php for($i=0; $i<5; $i++) { ?>
+                                                <div class="col">
+                                                <input type="text" class="form-control form-control-sm" id="i_brand<?php echo $i+1; ?>" name="i_brand<?php echo $i+1; ?>" value="<?php echo $brand[$i]; ?>" placeholder="Brand Product" <?php echo $permission; ?>>
+                                                </div>
+                                                <?php } ?>
+                                                <div class="col">
+                                                <input type="hidden" class="form-control form-control-sm" id="" name="" value="" placeholder="Brand Product" <?php echo $permission; ?>>
+                                                </div>
+                                                <div class="col">
+                                                <input type="hidden" class="form-control form-control-sm" id="" name="" value="" placeholder="Brand Product" <?php echo $permission; ?>>
+                                                </div>
+                                            </div>
+
+                                            <?php 
+                                            $reslevel = array("PD", "PM", "PC", "PA", "EE", "EP", "EA"); 
+                                            $rlevel = array("Project Director", "Project Manager", "Project Coordinator", "Project Admin", "Engineer Expert", "Engineer Professional", "Engineer Associate");
+                                            ?>
+                                            <?php for($i=1;$i<8;$i++) { ?>
+                                                <!-- Row of Mans -->
+                                                <div class="row mb-1">
+                                                    <label for="inputCID3" class="col-sm-2 col-form-label col-form-label-sm"><?php echo $rlevel[$i-1]; ?></label>
+                                                    <label for="inputCID3" class="col-sm-1 col-form-label col-form-label-sm">Mans</label>
+                                                    <?php $mandaysrate=0; ?>
+                                                    <?php for($j=1;$j<6;$j++) { ?>
+                                                        <div class="col">
+                                                            <?php
+                                                            $tblname="trx_project_mandays";
+                                                            if($srcdata=="project") {
+                                                                $condition="project_id=" . $dsb['project_id'] . " AND resource_level='".$i.$j."' AND service_type=1";
+                                                            } else {
+                                                                $condition="project_id=0 AND resource_level='".$i.$j."' AND service_type=1";
+                                                            }
+                                                            $xmandays=$DTSB->get_data($tblname,$condition);
+                                                            $dmandays=$xmandays[0];
+                                                            $tmandays=$xmandays[2];
+                                                            if($tmandays>0 && strval($dmandays['value'])>0) {
+                                                                $mandaysrate=$dmandays['value'];
+                                                            } 
+                                                            ?>
+                                                            <input type="text" class="form-control form-control-sm" id="i_brand<?php echo $j."_".$reslevel[$i-1]; ?>" name="i_brand<?php echo $j."_".$reslevel[$i-1]; ?>" value="<?php if($tmandays>0) { echo $dmandays['mantotal']; } ?>" style="text-align: right;" onchange="i_changebrand();" <?php echo $permission; ?>>
+                                                        </div>
+                                                    <?php } ?>
+                                                    <div class="col">
+                                                        <input type="hidden" class="form-control form-control-sm" id="" name="" value="" style="text-align: right;">
+                                                    </div>
+                                                    <div class="col">
+                                                        <?php
+                                                        $tblname="mst_resource_catalogs";
+                                                        $condition="resource_qualification='" . $rlevel[$i-1] . "'";
+                                                        $category=$DTSB->get_data($tblname,$condition);
+                                                        $dcategory=$category[0]; 
+                                                        if($mandaysrate==0) {
+                                                            $mandaysrate=$dcategory['mandays'];
+                                                        }
+                                                        ?>
+                                                        <input type="text" class="form-control form-control-sm" id="i_total_<?php echo $reslevel[$i-1]; ?>" name="i_total_<?php echo $reslevel[$i-1]; ?>" value="<?php echo $mandaysrate; ?>" style="text-align: right;" readonly>
+                                                    </div>
+                                                </div>
+                                                <!-- Row of Mandays -->
+                                                <div class="row mb-1">
+                                                    <label for="inputCID3" class="col-sm-2 col-form-label col-form-label-sm"></label>
+                                                    <label for="inputCID3" class="col-sm-1 col-form-label col-form-label-sm">Mandays</label>
+                                                    <?php for($j=1;$j<6;$j++) { ?>
+                                                        <div class="col">
+                                                            <?php
+                                                            $tblname="trx_project_mandays";
+                                                            if($srcdata=="project") {
+                                                                $condition="project_id=" . $dsb['project_id'] . " AND resource_level='".$i.$j."' AND service_type=1";
+                                                            } else {
+                                                                $condition="project_id=0 AND resource_level='".$i.$j."' AND service_type=1";
+                                                            }
+                                                            $xmandays=$DTSB->get_data($tblname,$condition);
+                                                            $dmandays=$xmandays[0];
+                                                            $tmandays=$xmandays[2];
+                                                            ?>
+                                                            <input type="text" class="form-control form-control-sm" id="i_brand<?php echo $j."_".$reslevel[$i-1]; ?>M" name="i_brand<?php echo $j."_".$reslevel[$i-1]; ?>M" value="<?php if($tmandays>0) { echo $dmandays['mandays']; } ?>" style="text-align: right;" onchange="i_changebrand();" <?php echo $permission; ?>>
+                                                        </div>
+                                                    <?php } ?>
+                                                    <div class="col">
+                                                        <input type="text" class="form-control form-control-sm" id="i_totmandays_<?php echo $reslevel[$i-1]; ?>" name="i_totmandays_<?php echo $reslevel[$i-1]; ?>" value="" style="text-align: right;" readonly>
+                                                    </div>
+                                                    <div class="col">
+                                                        <input type="text" class="form-control form-control-sm" id="i_total<?php echo $reslevel[$i-1]; ?>_M" name="i_total<?php echo $reslevel[$i-1]; ?>_M" value="<?php echo $mandaysrate; ?>" style="text-align: right;" readonly>
+                                                    </div>
+                                                </div>
+                                            <?php } ?>
+
+                                            <div class="row mb-3 card-footer">
+                                                <label for="inputCID3" class="col-sm-2 col-form-label col-form-label-sm">Total (IDR)</label>
+                                                <label for="inputCID3" class="col-sm-1 col-form-label col-form-label-sm"></label>
+                                                <div class="col">
+                                                    <input type="text" class="form-control form-control-sm" id="i_totalbrand1" name="i_totalbrand1" value="0" style="text-align: right;" readonly>
+                                                </div>
+                                                <div class="col">
+                                                    <input type="text" class="form-control form-control-sm" id="i_totalbrand2" name="i_totalbrand2" value="0" style="text-align: right;" readonly>
+                                                </div>
+                                                <div class="col">
+                                                    <input type="text" class="form-control form-control-sm" id="i_totalbrand3" name="i_totalbrand3" value="0" style="text-align: right;" readonly>
+                                                </div>
+                                                <div class="col">
+                                                    <input type="text" class="form-control form-control-sm" id="i_totalbrand4" name="i_totalbrand4" value="0" style="text-align: right;" readonly>
+                                                </div>
+                                                <div class="col">
+                                                    <input type="text" class="form-control form-control-sm" id="i_totalbrand5" name="i_totalbrand5" value="0" style="text-align: right;" readonly>
+                                                </div>
+                                                <div class="col">
+                                                    <input type="text" class="form-control form-control-sm" id="i_totalbrand" name="i_totalbrand" value="0" style="text-align: right;" readonly>
+                                                </div>
+                                                <div class="col">
+                                                    <input type="hidden" class="form-control form-control-sm" id="" name="" value="0" style="text-align: right;" readonly>
+                                                </div>
+                                            </div>
+                                        <!-- End Mandays Calculation -->
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                <!-- TAB Project Maintenance -->
+                                <div class="tab-pane fade" id="Maintenance" role="tabpanel" aria-labelledby="maintenance-tab">
+                                    <div class="card shadow mb-4">
+                                        <!-- Card Body -->
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <label for="inputCID3" class="col-sm-12 alert alert-secondary"><b>Service Catalog</b></label>
+                                                    <div class="row mb-2">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Service Type</label>
+                                                        <div class="col-sm-6">
+
+                                                            <?php 
+                                                            global $DTSB;
+                                                            $tblname = "mst_type_of_service";
+                                                            $condition = "service_type=2 AND blocked=0";
+                                                            $tos = $DTSB->get_data($tblname, $condition);
+                                                            $dtos = $tos[0];
+                                                            $qtos = $tos[1];
+                                                            if($ver>0 && isset($dmaintenance['tos_id'])) {
+                                                                $tosidexp = explode(";",$dmaintenance['tos_id']);
+                                                            }
+                                                            $i=0;
+                                                            do { 
+                                                                ?>
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="radio" 
+                                                                    name="m_tos_id" 
+                                                                    id="m_tos_id<?php echo $i; ?>" 
+                                                                    value="<?php echo $dtos['tos_id']; ?>" 
+                                                                    <?php 
+                                                                    if($ver>0) {
+                                                                        for($j=0;$j<count($tosidexp);$j++) { 
+                                                                            if($tosidexp[$j]==$dtos['tos_id']) { 
+                                                                                echo 'checked'; 
+                                                                            }
+                                                                        }
+                                                                    } ?> <?php if($permission=='readonly') { echo 'disabled'; } ?> onchange="change_mtos();">
+                                                                    <label class="form-check-label" for="inlineRadio1"><?php echo $dtos['tos_name']; ?></label>
+                                                                </div>
+                                                                <?php 
+                                                                $i++;
+                                                            } while($dtos=$qtos->fetch_assoc()); 
+                                                            ?>
+
+
+                                                    </div>
+                                                    <!-- <div class="col-sm-1">
+                                                        <?php //if($_GET['act']=="view") { ?>
+                                                            <a href="index.php?mod=service_budget&act=redit&info=maint&project_code=<?php //if(isset($_GET['project_code'])) { echo $_GET['project_code']; } else { echo $dsb['project_code']; } ?>&so_number=<?php //if(isset($_GET['project_code'])) { echo $_GET['so_number']; } else { echo $dsb['so_number']; } ?><?php //echo isset($_GET['order_number']) ? '&order_number=' . $_GET['order_number'] : ''; ?>&submit=Submit"><i class="fas fa-pen"></i></a>
+                                                            <?php //} ?>
+                                                        </div> -->
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="m_tos_category_id" <?php echo $permission; ?> hidden>
+                                                            <option value="1" <?php if(($ver > 0 && $tmaintenance>0) && (1 == $dmaintenance['tos_category_id'])) { echo 'selected'; } ?>>High</option>
+                                                            <option value="2" <?php if(($ver > 0 && $tmaintenance>0) && (2 == $dmaintenance['tos_category_id'])) { echo 'selected'; } ?>>Medium</option>
+                                                            <option value="3" <?php if(($ver > 0 && $tmaintenance>0) && (3 == $dmaintenance['tos_category_id'])) { echo 'selected'; } ?>>Standard</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Estimation Project Duration</label>
+                                                        <div class="col-sm-2">
+                                                        <input type="text" class="form-control form-control-sm" id="m_project_estimation" name="m_project_estimation" value="<?php if($ver>0 && $tmaintenance>0) { echo $dmaintenance['project_estimation']; } ?>" style="text-align: right;" <?php echo $permission; ?>>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="m_project_estimation_id" <?php echo $permission; ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>>
+                                                                <option value="1" <?php if(($ver > 0 && $tmaintenance>0) && (1 == $dmaintenance['project_estimation_id'])) { echo 'selected'; } ?>>Days</option>
+                                                                <option value="2" <?php if(($ver > 0 && $tmaintenance>0) && (2 == $dmaintenance['project_estimation_id'])) { echo 'selected'; } ?>>Months</option>
+                                                                <option value="3" <?php if(($ver > 0 && $tmaintenance>0) && (3 == $dmaintenance['project_estimation_id'])) { echo 'selected'; } ?>>Years</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Software Maintenance Only</label>
+                                                        <div class="col-sm-6">
+                                                            <?php 
+                                                            global $DTSB;
+                                                            $tblname = "mst_type_of_service";
+                                                            $condition = "service_type=5 AND blocked=0";
+                                                            $tos = $DTSB->get_data($tblname, $condition);
+                                                            $dtos = $tos[0];
+                                                            $qtos = $tos[1];
+                                                            if($ver>0 && isset($dmaintenance['tos_id'])) {
+                                                                $tosidexp = explode(";",$dmaintenance['tos_id']);
+                                                            }
+                                                            $i=0;
+                                                            do { 
+                                                                ?>
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="checkbox" 
+                                                                    name="m_smo_id[<?php echo $i; ?>]" 
+                                                                    id="m_smo_id<?php echo $i; ?>" 
+                                                                    value="<?php echo $dtos['tos_id']; ?>" 
+                                                                    <?php 
+                                                                    if($ver>0) {
+                                                                        for($j=0;$j<count($tosidexp);$j++) { 
+                                                                            if($tosidexp[$j]==$dtos['tos_id']) { 
+                                                                                echo 'checked'; 
+                                                                            }
+                                                                        }
+                                                                    } ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>>
+                                                                    <label class="form-check-label" for="inlineRadio1"><?php echo $dtos['tos_name']; ?></label>
+                                                                </div>
+                                                                <?php 
+                                                                $i++;
+                                                            } while($dtos=$qtos->fetch_assoc()); 
+                                                            ?>
+                                                        </div>
+                                                    </div>
+
+                                            </div>
+
+                                                <div class="col-lg-6">
+                                                    <label for="inputCID3" class="col-sm-12 alert alert-secondary"><b>Price</b></label>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Maintenance Price (sesuai PO/SPK)</label>
+                                                        <div class="col-sm-6">
+                                                        <input type="text" class="form-control form-control-sm" id="m_price" name="m_price" value="<?php if($ver>0 && $tmaintenance>0) { echo $dmaintenance['implementation_price']; } ?>" style="text-align: right" onchange="m_change_price();" <?php echo $permission; ?>>
+                                                        </div>
+                                                    </div>
+
+                                                    <label for="inputCID3" class="col-sm-12 alert alert-secondary"><b>Business Trip</b></label>
+                                                    <div class="row mb-3">
+                                                    <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Total Location</label>
+                                                        <div class="col-sm-6">
+                                                        <input type="text" class="form-control form-control-sm" id="m_bpd_total_location" name="m_bpd_total_location" value="<?php if($ver>0 && $tmaintenance>0) { echo $dmaintenance['bpd_total_location']; } ?>" style="text-align: right;" <?php echo $permission; ?>>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Description of Location</label>
+                                                        <div class="col-sm-6">
+                                                        <textarea class="form-control" id="exampleFormControlTextarea1" name="m_bpd_description" rows="3" <?php echo $permission; ?>><?php if($ver>0 && $tmaintenance>0) { echo $dmaintenance['bpd_description']; } ?></textarea>
+                                                        </div>
+                                                        <!-- <div class="col-sm-1">
+                                                            <?php //if($_GET['act']=="view") { ?>
+                                                                <a href="index.php?mod=service_budget&act=redit&info=maint&project_code=<?php //if(isset($_GET['project_code'])) { echo $_GET['project_code']; } else { echo $dsb['project_code']; } ?>&so_number=<?php //if(isset($_GET['project_code'])) { echo $_GET['so_number']; } else { echo $dsb['so_number']; } ?><?php //echo isset($_GET['order_number']) ? '&order_number=' . $_GET['order_number'] : ''; ?>&submit=Submit"><i class="fas fa-pen"></i></a>
+                                                            <?php //} ?>
+                                                        </div> -->
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Subtotal Mandays/Product (IDR)</label>
+                                                        <div class="col-sm-6">
+                                                        <input type="text" class="form-control form-control-sm" id="m_bpd_price" name="m_bpd_price" value="<?php if($ver>0 && $tmaintenance>0) { echo $dmaintenance['bpd_price']; } ?>" style="text-align: right;" onchange="m_change_bpd();" <?php echo $permission; ?>>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <label for="inputCID3" class="col-sm-12 alert alert-secondary"><b>Outsourcing Plan</b></label>
+                                                    <div class="row mb-3 card-header">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Description</label>
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Price</label>
+                                                    </div>
+                                                    <?php
+                                                    $tblname = "trx_addon";
+                                                    if($srcdata=='project') {
+                                                        $condition = "project_id=" . $dsb['project_id'] . ' AND `service_type`=2';
+                                                    } else {
+                                                        $condition = "project_id=0 AND `service_type`=2";
+                                                    }
+                                                    $addon = $DTSB->get_data($tblname, $condition);
+                                                    $daddon = $addon[0];
+                                                    $qaddon = $addon[1];
+                                                    $taddon = $addon[2];
+                                                    $i=0;
+                                                    do {
+                                                    ?>
+                                                        <div class="row mb-3">
+                                                            <div class="col-sm-6">
+                                                                <input type="text" class="form-control form-control-sm" id="m_out_title_<?php echo $i; ?>" name="m_out_title_<?php echo $i; ?>" value="<?php if($taddon>0) { echo $daddon['addon_title']; } ?>" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <input type="text" class="form-control form-control-sm" id="m_out_price_<?php echo $i; ?>" name="m_out_price_<?php echo $i; ?>" value="<?php if($taddon>0) { echo $daddon['addon_price']; } ?>" style="text-align: right;" onchange="format_m_out_price_<?php echo $i; ?>();" <?php echo $permission; ?>>
+                                                            </div>
+                                                        </div>
+                                                    <?php 
+                                                        $i++;
+                                                    } while($daddon=$qaddon->fetch_assoc()) 
+                                                    ?>
+
+                                                    <?php for($j=$i;$j<5;$j++) { ?>
+                                                        <div class="row mb-3">
+                                                            <div class="col-sm-6">
+                                                                <input type="text" class="form-control form-control-sm" id="m_out_title_<?php echo $j; ?>" name="m_out_title_<?php echo $j; ?>" value="" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <input type="text" class="form-control form-control-sm" id="m_out_price_<?php echo $j; ?>" name="m_out_price_<?php echo $j; ?>" value="" style="text-align: right;" onchange="format_m_out_price_<?php echo $j; ?>();" <?php echo $permission; ?>>
+                                                            </div>
+                                                        </div>
+                                                    <?php } ?>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Subtotal Outsourcing Plant (IDR)</label>
+                                                        <div class="col-sm-6">
+                                                        <input type="text" class="form-control form-control-sm" id="m_total_out_price" name="m_total_out_price" value="" style="text-align: right;" onchange="" readonly>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Note</label>
+                                                        <div class="col-sm-6">
+                                                        <textarea class="form-control" id="exampleFormControlTextarea1" name="m_out_description" rows="3" <?php echo $permission; ?>><?php if($ver>0 && $tmaintenance>0) { echo $dmaintenance['out_description']; } ?></textarea>
+                                                        </div>
+                                                        <!-- <div class="col-sm-1">
+                                                            <?php //if($_GET['act']=="view") { ?>
+                                                                <a href="index.php?mod=service_budget&act=redit&info=maint&project_code=<?php //if(isset($_GET['project_code'])) { echo $_GET['project_code']; } else { echo $dsb['project_code']; } ?>&so_number=<?php //if(isset($_GET['project_code'])) { echo $_GET['so_number']; } else { echo $dsb['so_number']; } ?><?php //echo isset($_GET['order_number']) ? '&order_number=' . $_GET['order_number'] : ''; ?>&submit=Submit"><i class="fas fa-pen"></i></a>
+                                                            <?php //} ?>
+                                                        </div> -->
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6">
+                                                <label for="inputCID3" class="col-sm-12 alert alert-secondary"><b>Maintenance Pakage</b></label>
+                                                    <div class="row mb-3 card-header">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Add On</label>
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Price</label>
+                                                    </div>
+                                                    <?php
+                                                    $tblname = "trx_addon";
+                                                    if($srcdata=='project') {
+                                                        $condition = "project_id=" . $dsb['project_id'] . ' AND `service_type`=3';
+                                                    } else {
+                                                        $condition = "project_id=0 AND `service_type`=3";
+                                                    }
+                                                    $addon = $DTSB->get_data($tblname, $condition);
+                                                    $daddon = $addon[0];
+                                                    $qaddon = $addon[1];
+                                                    $taddon = $addon[2];
+                                                    $i=0;
+                                                    do {
+                                                    ?>
+                                                        <div class="row mb-3">
+                                                            <div class="col-sm-6">
+                                                                <input type="text" class="form-control form-control-sm" id="m_addon_title_<?php echo $i; ?>" name="m_addon_title_<?php echo $i; ?>" value="<?php if($taddon>0) { echo $daddon['addon_title']; } ?>" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <input type="text" class="form-control form-control-sm" id="m_addon_price_<?php echo $i; ?>" name="m_addon_price_<?php echo $i; ?>" value="<?php if($taddon>0) { echo $daddon['addon_price']; } ?>" style="text-align: right;" onchange="format_m_addon_price_<?php echo $i; ?>();" <?php echo $permission; ?>>
+                                                            </div>
+                                                        </div>
+                                                        <?php 
+                                                        $i++;
+                                                    } while($daddon=$qaddon->fetch_assoc()) 
+                                                    ?>
+
+                                                    <?php for($j=$i;$j<5;$j++) { ?>
+                                                        <div class="row mb-3">
+                                                            <div class="col-sm-6">
+                                                                <input type="text" class="form-control form-control-sm" id="m_addon_title_<?php echo $j; ?>" name="m_addon_title_<?php echo $j; ?>" value="" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <input type="text" class="form-control form-control-sm" id="m_addon_price_<?php echo $j; ?>" name="m_addon_price_<?php echo $j; ?>" value="" style="text-align: right;" onchange="format_m_addon_price_<?php echo $j; ?>();" <?php echo $permission; ?>>
+                                                            </div>
+                                                        </div>
+                                                    <?php } ?>
+                                                    <!-- <div class="card-footer"> -->
+                                                        <div class="row mb-3">
+                                                            <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Subtotal Add On (IDR)</label>
+                                                            <div class="col-sm-6">
+                                                            <input type="text" class="form-control form-control-sm" id="m_addon_price" name="m_addon_price" value="<?php if($ver>0 && $tmaintenance>0) { echo $dmaintenance['maintenance_addon_price']; } ?>" style="text-align: right;" <?php echo $permission; ?> readonly>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-3">
+                                                            <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Other (Non-Addon) (IDR)</label>
+                                                            <div class="col-sm-6">
+                                                            <input type="text" class="form-control form-control-sm" id="m_package_other_price" name="m_package_other_price" value="" style="text-align: right;" onchange="" readonly>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-3">
+                                                            <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Total Maintenance Package (IDR) <i class="fas fa-question-circle" data-bs-toggle="popover" data-bs-trigger="focus" title="Total Maintenance Package (IDR) = Maintenance Price (sesuai PO/SPK) - Subtotal Mandays/Product (IDR) - Subtotal Outsourcing Plant (IDR) - Subtotal Add On (IDR) - Backup Unit"></i></label>
+                                                            <div class="col-sm-6">
+                                                            <input type="text" class="form-control form-control-sm" id="m_package_price" name="m_package_price" value="<?php if($ver>0 && $tmaintenance>0) { echo $dmaintenance['maintenance_package_price']; } ?>" style="text-align: right;" onchange="" readonly>
+                                                            </div>
+                                                        </div>
+                                                    <!-- </div> -->
+                                            </div>
+                                            </div>
+
+
+                                            <!-- Start Backup Unit -->
+                                            <div class="row" id="backup_unit">
+                                                <div class="col-lg-12">
+                                                    <label for="inputCID3" class="col-sm-12 alert alert-secondary" id="label-backup"><b>Backup Unit</b> <i class="fas fa-question-circle" data-bs-toggle="popover" data-bs-trigger="focus" title="Bisa diisi dengan multiple PO, jika project sama namun PO dipecah2."></i></label>
+                                                    <div class="row mb-3" id="">
+                                                        <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm"></label>
+                                                        <div class="col-sm-9">
+                                                            <?php
+                                                            if($ver>0) {
+                                                                $backupexp = explode(";",$dsb['backup']);
+                                                            }
+                                                            ?>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="checkbox" name="backupEBU" id="backupEBU" value="0" onchange="change_backup_unit();" <?php if($ver>0) { echo ($backupexp[0]=="1" ? "checked" : ""); } ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>> 
+                                                                <label class="form-check-label" for="inlineRadio1">Existing Backup Unit</label>
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="checkbox" name="backupIBU" id="backupIBU" value="1" onchange="change_backup_unit();" <?php if($ver>0) { echo ($backupexp[1]=="1" ? "checked" : ""); } ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>> 
+                                                                <label class="form-check-label" for="inlineRadio1">Investment Backup Unit</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <?php 
+                                                        if($ver>0) {
+                                                            global $DTSB;
+
+                                                            $tblname = "trx_project_mandays";
+                                                            $array = array(); $i=1;
+                                                            for($i=1; $i<3; $i++) {
+                                                                $condition = "project_id=" . $dsb['project_id'] . " AND service_type=2 AND (resource_level DIV 10)=" . $i;
+                                                                $order = "resource_level ASC";
+                                                                $data = $DTSB->get_data($tblname, $condition, $order);
+                                                                $ddata = $data[0];
+                                                                $qdata = $data[1];
+                                                                $tdata = $data[2];
+
+                                                                $arrayitems = array();
+                                                                $value = NULL;
+                                                                $j=0; 
+                                                                if($tdata>0) {
+                                                                do { 
+                                                                    if($ddata['resource_level'] != (($i)*10 +$j+1)) {
+                                                                        $arrayitem = array('brand'=>NULL, 'mantotal'=>NULL, 'mandays'=>NULL, 'value'=>$value);
+                                                                        array_push($arrayitems, $arrayitem);
+                                                                        $j++;
+                                                                    }
+                                                                    $arrayitem = array('brand'=>$ddata['brand'], 'mantotal'=>$ddata['mantotal'], 'mandays'=>$ddata['mandays'], 'value'=>$ddata['value']);
+                                                                    array_push($arrayitems, $arrayitem);
+                                                                    $j++;
+                                                                    $value = $ddata['value'];
+                                                                } while($ddata=$qdata->fetch_assoc());
+                                                                }
+                                                                if($j<5) {
+                                                                    for($k=$j; $k<5; $k++) {
+                                                                        $arrayitem = array('brand'=>NULL, 'mantotal'=>NULL, 'mandays'=>NULL, 'value'=>$value);
+                                                                        array_push($arrayitems, $arrayitem);
+                                                                    }
+                                                                }
+                                                                array_push($array, $arrayitems);
+                                                            }
+
+                                                            $mysql = sprintf("SELECT `resource_level`,`project_id`,`brand`, COUNT(`brand`) AS `tbrand`, (`resource_level`-(`resource_level` DIV 10)*10) AS `res` FROM `sa_trx_project_mandays` WHERE `project_id`=%s AND service_type=2 GROUP BY `project_id`,`brand` ORDER BY `res` ASC",
+                                                                GetSQLValueString($dsb['project_id'], "int"));
+
+                                                            $brandlist = $DTSB->get_sql($mysql);
+                                                            $dbrandlist = $brandlist[0];
+                                                            $qbrandlist = $brandlist[1];
+                                                            $tbrandlist = $brandlist[2]; 
+
+                                                            $j=0;
+                                                            $brand = array();
+                                                            if($tbrandlist>0) {
+                                                                do {
+                                                                    if(($dbrandlist['resource_level'] % 10) != ($j+1)) {
+                                                                        array_push($brand, NULL);
+                                                                        $j++;
+                                                                    }
+                                                                    array_push($brand, $dbrandlist['brand']);
+                                                                    $j++;
+                                                                } while($dbrandlist=$qbrandlist->fetch_assoc());
+                                                                if($j<5) {
+                                                                    for($k=$j; $k<5; $k++) {
+                                                                        array_push($brand,NULL);
+                                                                    }
+                                                                }
+                                                            } else {
+                                                                for($k=0; $k<5; $k++) {
+                                                                    array_push($brand,NULL);
+                                                                }
+                                                            }
+
+                                                        } else {
+                                                            $array = array();
+                                                            for($i=1; $i<7; $i++) {
+                                                                $arrayitems = array();
+                                                                for($j=0; $j<5; $j++) {
+                                                                    $arrayitem = array('brand'=>NULL, 'mantotal'=>NULL, 'mandays'=>NULL, 'value'=>NULL);
+                                                                    array_push($arrayitems, $arrayitem);
+                                                                }
+                                                                array_push($array, $arrayitems);
+                                                            }
+                                                            $brand = array();
+                                                            for($i=0; $i<5; $i++) {
+                                                                array_push($brand, NULL);
+                                                            }
+                                                            $tblname = "mst_resource_catalogs";
+                                                            $resource = $DTSB->get_data($tblname);
+                                                            $dresource = $resource[0];
+                                                            $qresource = $resource[1]; 
+                                                            $resources = array($dresource['resource_qualification']=>$dresource['mandays']);
+                                                            while($dresource=$qresource->fetch_assoc()) {
+                                                                $res1 = array($dresource['resource_qualification']=>$dresource['mandays']);
+                                                                $resources = array_merge($resources, $res1);
+                                                            } 
+
+                                                        }
+                                                        $reslevel = array("BU", "BUE");
+
+                                                        ?>
+
+                                                        <div class="row mb-3 card-header">
+                                                            <label for="inputCID3" class="col-sm-2 col-form-label">Backup Unit</label>
+                                                            <label for="inputCID3" class="col-sm-1 col-form-label"></label>
+                                                            <label for="inputCID3" class="col col-form-label">Brand 1</label>
+                                                            <label for="inputCID3" class="col col-form-label">Brand 2</label>
+                                                            <label for="inputCID3" class="col col-form-label">Brand 3</label>
+                                                            <label for="inputCID3" class="col col-form-label">Brand 4</label>
+                                                            <label for="inputCID3" class="col col-form-label">Brand 5</label>
+                                                            <label for="inputCID3" class="col col-form-label">Total Backup</label>
+                                                            <label for="inputCID3" class="col col-form-label">Rate (USD)</label>
+                                                        </div>
+                                                        <div class="row mb-3">
+                                                            <label for="inputCID3" class="col-sm-2 col-form-label col-form-label-sm"></label>
+                                                            <label for="inputCID3" class="col-sm-1 col-form-label col-form-label-sm">Brand</label>
+                                                            <?php for($i=0; $i<5; $i++) { ?>
+                                                            <div class="col">
+                                                            <input type="text" class="form-control form-control-sm" id="m_brand<?php echo $i+1; ?>" name="m_brand<?php echo $i+1; ?>" value="<?php echo $brand[$i]; ?>" placeholder="Brand Product" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <?php } ?>
+                                                            <script>document.getElementById('m_brand1').value='Cisco';</script>
+                                                            <div class="col">
+                                                            <input type="hidden" class="form-control form-control-sm" id="" name="" value="" placeholder="Brand Product" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <div class="col">
+                                                            <input type="hidden" class="form-control form-control-sm" id="" name="" value="" placeholder="Brand Product" <?php echo $permission; ?>>
+                                                            </div>
+                                                        </div>
+
+                                                        <?php for($i=0; $i<2; $i++) { ?>
+                                                        <?php
+                                                            switch ($i) {
+                                                                case 0:
+                                                                    $rlevel = "Existing Backup Unit";
+                                                                    $id='EBU';
+                                                                    break;
+                                                                case 1:
+                                                                    $rlevel = "Investment Backup Unit";
+                                                                    $id='IBU';
+                                                                    break;
+                                                            } 
+                                                        ?>
+                                                        <div class="row mb-1" id="<?php echo $id; ?>">
+                                                            <label for="inputCID3" class="col-sm-2 col-form-label col-form-label-sm"><?php echo $rlevel; ?></label>
+                                                            <label for="inputCID3" class="col-sm-1 col-form-label col-form-label-sm"></label>
+                                                            <div class="col">
+                                                            <input type="text" class="form-control form-control-sm" id="m_brand1_<?php echo $reslevel[$i]; ?>" name="m_brand1_<?php echo $reslevel[$i]; ?>" value="<?php echo $array[$i][0]['mandays']; ?>" style="text-align: right;" onchange="m_changebrand<?php echo $i; ?>1();" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <div class="col">
+                                                            <input type="text" class="form-control form-control-sm" id="m_brand2_<?php echo $reslevel[$i]; ?>" name="m_brand2_<?php echo $reslevel[$i]; ?>" value="<?php echo $array[$i][1]['mandays']; ?>" style="text-align: right;" onchange="m_changebrand<?php echo $i; ?>2();" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <div class="col">
+                                                            <input type="text" class="form-control form-control-sm" id="m_brand3_<?php echo $reslevel[$i]; ?>" name="m_brand3_<?php echo $reslevel[$i]; ?>" value="<?php echo $array[$i][2]['mandays']; ?>" style="text-align: right;" onchange="m_changebrand<?php echo $i; ?>3();" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <div class="col">
+                                                            <input type="text" class="form-control form-control-sm" id="m_brand4_<?php echo $reslevel[$i]; ?>" name="m_brand4_<?php echo $reslevel[$i]; ?>" value="<?php echo $array[$i][3]['mandays']; ?>" style="text-align: right;" onchange="m_changebrand<?php echo $i; ?>4();" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <div class="col">
+                                                            <input type="text" class="form-control form-control-sm" id="m_brand5_<?php echo $reslevel[$i]; ?>" name="m_brand5_<?php echo $reslevel[$i]; ?>" value="<?php echo $array[$i][4]['mandays']; ?>" style="text-align: right;" onchange="m_changebrand<?php echo $i; ?>5();" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <div class="col">
+                                                            <input type="text" class="form-control form-control-sm" id="m_totmandays_<?php echo $reslevel[$i]; ?>" name="m_totmandays_<?php echo $reslevel[$i]; ?>" value="" style="text-align: right;" readonly>
+                                                            </div>
+                                                            <label for="inputCID3" class="col col-form-label col-form-label-sm"></label>
+                                                        </div>
+                                                    <?php } ?>
+                                                    <div class="row mb-3 card-footer">
+                                                        <label for="inputCID3" class="col-sm-2 col-form-label col-form-label-sm">Total (IDR)</label>
+                                                        <label for="inputCID3" class="col-sm-1 col-form-label col-form-label-sm"></label>
+                                                        <div class="col">
+                                                        <input type="text" class="form-control form-control-sm" id="m_totalbrand1" name="m_totalbrand1" value="0" style="text-align: right;" readonly>
+                                                        </div>
+                                                        <div class="col">
+                                                        <input type="text" class="form-control form-control-sm" id="m_totalbrand2" name="m_totalbrand2" value="0" style="text-align: right;" readonly>
+                                                        </div>
+                                                        <div class="col">
+                                                        <input type="text" class="form-control form-control-sm" id="m_totalbrand3" name="m_totalbrand3" value="0" style="text-align: right;" readonly>
+                                                        </div>
+                                                        <div class="col">
+                                                        <input type="text" class="form-control form-control-sm" id="m_totalbrand4" name="m_totalbrand4" value="0" style="text-align: right;" readonly>
+                                                        </div>
+                                                        <div class="col">
+                                                        <input type="text" class="form-control form-control-sm" id="m_totalbrand5" name="m_totalbrand5" value="0" style="text-align: right;" readonly>
+                                                        </div>
+                                                        <div class="col">
+                                                        <input type="text" class="form-control form-control-sm" id="m_totalbrand" name="m_totalbrand" value="0" style="text-align: right;" readonly>
+                                                        </div>
+                                                        <div class="col">
+                                                        <input type="hidden" class="form-control form-control-sm" id="" name="" value="0" style="text-align: right;" readonly>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Mandays Calculation -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <script>
+                                document.getElementById('backup_unit').style.display='none';
+                                document.getElementById('EBU').style.display='none';
+                                document.getElementById('IBU').style.display='none';
+                                </script>
+
+                                <!-- TAB Extended Warranty -->
+                                <div class="tab-pane fade" id="ExtendedWarranty" role="tabpanel" aria-labelledby="extendedwarranty-tab">
+                                    <div class="card shadow mb-4">
+                                        <!-- Card Body -->
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <label for="inputCID3" class="col-sm-12 alert alert-secondary"><b>Service Catalog</b></label>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="row mb-2">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Service Type</label>
+                                                        <div class="col-sm-4">
+                                                            <?php 
+                                                            global $DTSB;
+                                                            $tblname = "mst_type_of_service";
+                                                            $condition = "service_type=3";
+                                                            $tos = $DTSB->get_data($tblname, $condition);
+                                                            $dtos = $tos[0];
+                                                            $qtos = $tos[1];
+                                                            if($ver>0 && isset($dwarranty['tos_id'])) {
+                                                                $tosidexp = explode(";",$dwarranty['tos_id']);
+                                                            }
+                                                            $i=0; 
+                                                            do { 
+                                                            ?>
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input" type="radio" 
+                                                                    name="w_tos_id" 
+                                                                    id="w_tos_id<?php echo $i; ?>" 
+                                                                    value="<?php echo $dtos['tos_id']; ?>" 
+                                                                    <?php 
+                                                                    if($ver>0) {
+                                                                        for($j=0;$j<count($tosidexp);$j++) { 
+                                                                            if($tosidexp[$j]==$dtos['tos_id']) { 
+                                                                                echo 'checked'; 
+                                                                            }
+                                                                        }
+                                                                    } ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>>
+                                                                    <label class="form-check-label" for="inlineRadio1"><?php echo $dtos['tos_name']; ?></label>
+                                                                </div>
+                                                                <?php $i++; ?>
+                                                            <?php } while($dtos=$qtos->fetch_assoc()); ?>
+                                                    </div>
+                                                    <!-- <div class="col-sm-1">
+                                                        <?php //if($_GET['act']=="view") { ?>
+                                                            <a href="index.php?mod=service_budget&act=redit&info=warranty&project_code=<?php //if(isset($_GET['project_code'])) { echo $_GET['project_code']; } else { echo $dsb['project_code']; } ?>&so_number=<?php //if(isset($_GET['project_code'])) { echo $_GET['so_number']; } else { echo $dsb['so_number']; } ?><?php //echo isset($_GET['order_number']) ? '&order_number=' . $_GET['order_number'] : ''; ?>&submit=Submit"><i class="fas fa-pen"></i></a>
+                                                            <?php //} ?>
+                                                        </div> -->
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-6 col-form-label col-form-label-sm">Estimation Warranty Duration</label>
+                                                        <div class="col-sm-2">
+                                                        <input type="text" class="form-control form-control-sm" id="w_project_estimation" name="w_project_estimation" value="<?php 
+                                                        if($ver>0 && $twarranty>0) { 
+                                                            echo $dwarranty['project_estimation']; 
+                                                            } ?>" style="text-align: right;" <?php echo $permission; ?>>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="w_project_estimation_id" <?php echo $permission; ?> <?php if($permission=='readonly') { echo 'disabled'; } ?>>
+                                                                <option value="1" <?php if(($ver > 0 && $twarranty>0) && (1 == $dwarranty['project_estimation_id'])) { echo 'selected'; } ?>>Days</option>
+                                                                <option value="2" <?php if(($ver > 0 && $twarranty>0) && (2 == $dwarranty['project_estimation_id'])) { echo 'selected'; } ?>>Months</option>
+                                                                <option value="3" <?php if(($ver > 0 && $twarranty>0) && (3 == $dwarranty['project_estimation_id'])) { echo 'selected'; } ?>>Years</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <!-- Product Unit -->
+                                                    <label for="inputCID3" class="col-sm-12 alert alert-secondary"><b>Products</b></label>
+                                                    <?php 
+                                                        if($ver>0) {
+                                                            global $DTSB;
+
+                                                            $tblname = "trx_project_mandays";
+                                                            $array = array(); $i=1;
+                                                            for($i=1; $i<4; $i++) {
+                                                                $condition = "project_id=" . $dsb['project_id'] . " AND service_type=3 AND (resource_level DIV 10)=" . $i;
+                                                                $order = "resource_level ASC";
+                                                                $data = $DTSB->get_data($tblname, $condition, $order);
+                                                                $ddata = $data[0];
+                                                                $qdata = $data[1];
+                                                                $tdata = $data[2];
+
+                                                                $arrayitems = array();
+                                                                $value = NULL;
+                                                                $j=0; 
+                                                                if($tdata>0) {
+                                                                do { 
+                                                                    if($ddata['resource_level'] != (($i)*10 +$j+1)) {
+                                                                        $arrayitem = array('brand'=>NULL, 'mantotal'=>NULL, 'mandays'=>NULL, 'value'=>$value);
+                                                                        array_push($arrayitems, $arrayitem);
+                                                                        $j++;
+                                                                    }
+                                                                    $arrayitem = array('brand'=>$ddata['brand'], 'mantotal'=>$ddata['mantotal'], 'mandays'=>$ddata['mandays'], 'value'=>$ddata['value']);
+                                                                    array_push($arrayitems, $arrayitem);
+                                                                    $j++;
+                                                                    $value = $ddata['value'];
+                                                                } while($ddata=$qdata->fetch_assoc());
+                                                                }
+                                                                if($j<5) {
+                                                                    for($k=$j; $k<5; $k++) {
+                                                                        $arrayitem = array('brand'=>NULL, 'mantotal'=>NULL, 'mandays'=>NULL, 'value'=>$value);
+                                                                        array_push($arrayitems, $arrayitem);
+                                                                    }
+                                                                }
+                                                                array_push($array, $arrayitems);
+                                                            }
+
+                                                            $mysql = sprintf("SELECT `resource_level`,`project_id`,`brand`, COUNT(`brand`) AS `tbrand`, (`resource_level`-(`resource_level` DIV 10)*10) AS `res` FROM `sa_trx_project_mandays` WHERE `project_id`=%s AND service_type=3 GROUP BY `project_id`,`brand` ORDER BY `res` ASC",
+                                                                GetSQLValueString($dsb['project_id'], "int"));
+
+                                                            $brandlist = $DTSB->get_sql($mysql);
+                                                            $dbrandlist = $brandlist[0];
+                                                            $qbrandlist = $brandlist[1];
+                                                            $tbrandlist = $brandlist[2]; 
+
+                                                            $j=0;
+                                                            $brand = array();
+                                                            if($tbrandlist>0) {
+                                                                do {
+                                                                    if(($dbrandlist['resource_level'] % 10) != ($j+1)) {
+                                                                        array_push($brand, NULL);
+                                                                        $j++;
+                                                                    }
+                                                                    array_push($brand, $dbrandlist['brand']);
+                                                                    $j++;
+                                                                } while($dbrandlist=$qbrandlist->fetch_assoc());
+                                                                if($j<5) {
+                                                                    for($k=$j; $k<5; $k++) {
+                                                                        array_push($brand,NULL);
+                                                                    }
+                                                                }
+                                                            } else {
+                                                                for($k=0; $k<5; $k++) {
+                                                                    array_push($brand,NULL);
+                                                                }
+                                                            }
+
+                                                        } else {
+                                                            $array = array();
+                                                            for($i=1; $i<4; $i++) {
+                                                                $arrayitems = array();
+                                                                for($j=0; $j<5; $j++) {
+                                                                    $arrayitem = array('brand'=>NULL, 'mantotal'=>NULL, 'mandays'=>NULL, 'value'=>NULL);
+                                                                    array_push($arrayitems, $arrayitem);
+                                                                }
+                                                                array_push($array, $arrayitems);
+                                                            }
+                                                            $brand = array();
+                                                            for($i=0; $i<5; $i++) {
+                                                                array_push($brand, NULL);
+                                                            }
+                                                            $tblname = "mst_resource_catalogs";
+                                                            $resource = $DTSB->get_data($tblname);
+                                                            $dresource = $resource[0];
+                                                            $qresource = $resource[1]; 
+                                                            $resources = array($dresource['resource_qualification']=>$dresource['mandays']);
+                                                            while($dresource=$qresource->fetch_assoc()) {
+                                                                $res1 = array($dresource['resource_qualification']=>$dresource['mandays']);
+                                                                $resources = array_merge($resources, $res1);
+                                                            } 
+
+                                                        }
+                                                        $reslevel = array("PEW", "DEW");
+
+                                                        ?>
+
+                                                        <div class="row mb-3 card-header">
+                                                            <label for="inputCID3" class="col-sm-2 col-form-label"></label>
+                                                            <label for="inputCID3" class="col-sm-1 col-form-label"></label>
+                                                            <label for="inputCID3" class="col col-form-label">Brand 1 <i class="fas fa-question-circle" data-bs-toggle="popover" data-bs-trigger="focus" title="Diisi Khusus Cisco, Non Cisco diisi di kolom lain"></i></label>
+                                                            <label for="inputCID3" class="col col-form-label">Brand 2</label>
+                                                            <label for="inputCID3" class="col col-form-label">Brand 3</label>
+                                                            <label for="inputCID3" class="col col-form-label">Brand 4</label>
+                                                            <label for="inputCID3" class="col col-form-label">Brand 5</label>
+                                                            <label for="inputCID3" class="col col-form-label">Total</label>
+                                                            <label for="inputCID3" class="col col-form-label"></label>
+                                                        </div>
+                                                        <div class="row mb-3">
+                                                            <label for="inputCID3" class="col-sm-2 col-form-label col-form-label-sm"></label>
+                                                            <label for="inputCID3" class="col-sm-1 col-form-label col-form-label-sm">Brand</label>
+                                                            <?php for($i=0; $i<5; $i++) { ?>
+                                                            <div class="col">
+                                                            <input type="text" class="form-control form-control-sm" id="w_brand<?php echo $i+1; ?>" name="w_brand<?php echo $i+1; ?>" value="<?php echo $brand[$i]; ?>" placeholder="Brand Product" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <?php } ?>
+                                                            <div class="col">
+                                                            <input type="hidden" class="form-control form-control-sm" id="" name="" value="" placeholder="Brand Product" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <div class="col">
+                                                            <input type="hidden" class="form-control form-control-sm" id="" name="" value="" placeholder="Brand Product" <?php echo $permission; ?>>
+                                                            </div>
+                                                        </div>
+
+                                                        <?php for($i=0; $i<2; $i++) { ?>
+                                                        <?php
+                                                            switch ($i) {
+                                                                case 0:
+                                                                    $rlevel = 'Price List Extended Warranty (Cisco) <i class="fas fa-question-circle" data-bs-toggle="popover" data-bs-trigger="focus" title="Diisi Khusus Cisco, Non Cisco diisi di Row di bawah."></i>';
+                                                                    break;
+                                                                case 1:
+                                                                    $rlevel = 'Discounted Extended Warranty (Non Cisco) <i class="fas fa-question-circle" data-bs-toggle="popover" data-bs-trigger="focus" title="Diisi net price dari Prinsipal/Disti."></i>';
+                                                                    break;
+                                                            } 
+                                                        ?>
+                                                        <div class="row mb-1">
+                                                            <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm"><?php echo $rlevel; ?></label>
+                                                            <div class="col">
+                                                            <input type="<?php echo $i==0 ? 'text' : 'hidden'; ?>" class="form-control form-control-sm" id="w_brand1_<?php echo $reslevel[$i]; ?>" name="w_brand1_<?php echo $reslevel[$i]; ?>" value="<?php echo $array[$i][0]['mandays']; ?>" style="text-align: right;" onchange="w_changebrand<?php echo $i; ?>1();" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <div class="col">
+                                                            <input type="<?php echo $i==1 ? 'text' : 'hidden'; ?>" class="form-control form-control-sm" id="w_brand2_<?php echo $reslevel[$i]; ?>" name="w_brand2_<?php echo $reslevel[$i]; ?>" value="<?php echo $array[$i][1]['mandays']; ?>" style="text-align: right;" onchange="w_changebrand<?php echo $i; ?>2();" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <div class="col">
+                                                            <input type="<?php echo $i==1 ? 'text' : 'hidden'; ?>" class="form-control form-control-sm" id="w_brand3_<?php echo $reslevel[$i]; ?>" name="w_brand3_<?php echo $reslevel[$i]; ?>" value="<?php echo $array[$i][2]['mandays']; ?>" style="text-align: right;" onchange="w_changebrand<?php echo $i; ?>3();" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <div class="col">
+                                                            <input type="<?php echo $i==1 ? 'text' : 'hidden'; ?>" class="form-control form-control-sm" id="w_brand4_<?php echo $reslevel[$i]; ?>" name="w_brand4_<?php echo $reslevel[$i]; ?>" value="<?php echo $array[$i][3]['mandays']; ?>" style="text-align: right;" onchange="w_changebrand<?php echo $i; ?>4();" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <div class="col">
+                                                            <input type="<?php echo $i==1 ? 'text' : 'hidden'; ?>" class="form-control form-control-sm" id="w_brand5_<?php echo $reslevel[$i]; ?>" name="w_brand5_<?php echo $reslevel[$i]; ?>" value="<?php echo $array[$i][4]['mandays']; ?>" style="text-align: right;" onchange="w_changebrand<?php echo $i; ?>5();" <?php echo $permission; ?>>
+                                                            </div>
+                                                            <div class="col">
+                                                            <input type="hidden" class="form-control form-control-sm" id="w_totmandays_<?php echo $reslevel[$i]; ?>" name="w_totmandays_<?php echo $reslevel[$i]; ?>" value="" style="text-align: right;" readonly>
+                                                            </div>
+                                                            <label for="inputCID3" class="col col-form-label col-form-label-sm"></label>
+                                                        </div>
+                                                    <?php } ?>
+                                                    <div class="row mb-3 card-footer">
+                                                        <label for="inputCID3" class="col-sm-2 col-form-label col-form-label-sm">Grand Total</label>
+                                                        <label for="inputCID3" class="col-sm-1 col-form-label col-form-label-sm"></label>
+                                                        <div class="col">
+                                                        <input type="hidden" class="form-control form-control-sm" id="w_totalbrand1" name="w_totalbrand1" value="0" style="text-align: right;" readonly>
+                                                        </div>
+                                                        <div class="col">
+                                                        <input type="hidden" class="form-control form-control-sm" id="w_totalbrand2" name="w_totalbrand2" value="0" style="text-align: right;" readonly>
+                                                        </div>
+                                                        <div class="col">
+                                                        <input type="hidden" class="form-control form-control-sm" id="w_totalbrand3" name="w_totalbrand3" value="0" style="text-align: right;" readonly>
+                                                        </div>
+                                                        <div class="col">
+                                                        <input type="hidden" class="form-control form-control-sm" id="w_totalbrand4" name="w_totalbrand4" value="0" style="text-align: right;" readonly>
+                                                        </div>
+                                                        <div class="col">
+                                                        <input type="hidden" class="form-control form-control-sm" id="w_totalbrand5" name="w_totalbrand5" value="0" style="text-align: right;" readonly>
+                                                        </div>
+                                                        <div class="col">
+                                                        <input type="text" class="form-control form-control-sm" id="w_totalbrand" name="w_totalbrand" value="0" style="text-align: right;" readonly>
+                                                        </div>
+                                                        <div class="col">
+                                                        <input type="hidden" class="form-control form-control-sm" id="" name="" value="0" style="text-align: right;" readonly>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">PO Customer (IDR)</label>
+                                                        <div class="col">
+                                                        </div>
+                                                        <div class="col">
+                                                        </div>
+                                                        <div class="col">
+                                                        </div>
+                                                        <div class="col">
+                                                        </div>
+                                                        <div class="col">
+                                                        </div>
+                                                        <div class="col">
+                                                            <input type="text" class="form-control form-control-sm" id="w_price" name="w_price" value="<?php echo $array[2][1]['mandays']; ?>" style="text-align: right;" onchange="w_changetotalbrand();" <?php echo $permission; ?>><script>w_changetotalbrand();</script>
+                                                        </div>
+                                                        <div class="col">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- TAB File Upload -->
+                                <?php
+                                global $DB;
+                                $tblname = 'cfg_web';
+                                $condition = 'config_key="MEDIA_SERVICE_BUDGET" AND parent=8';
+                                $folders = $DB->get_data($tblname,$condition);
+                                $FolderName = 'service_budget';
+                                $sFolderTarget = $folders[0]['config_value'].'/'.$dsb['customer_code'].'_'.str_replace(".","",str_replace(' ','_',$dsb['customer_name'])).'/'.$dsb['project_code'].'/'.$FolderName.'/';
+                                $sSubFolders = explode("/",$sFolderTarget);
+                                $xFolder = "";
+                                for($i=0;$i<count($sSubFolders);$i++) {
+                                    if($i==0) {
+                                        $xFolder .= $sSubFolders[$i];
+                                    } else {
+                                        $xFolder .= '/'.$sSubFolders[$i];
+                                    }
+                                    if($sSubFolders[$i]!="..") {
+                                        if(!(is_dir($xFolder))) {
+                                            mkdir($xFolder, 0777, true);
+                                            $file = 'media/index.php';
+                                            $newfile = $xFolder . '/index.php';
+                    
+                                            if (!copy($file, $newfile)) {
+                                                echo "failed to copy $file...\n";
+                                            }
+                    
+                                        } 
+                                    }
+                                }
+                                ?>
+                                <script>
+                                var FolderTarget = "<?php echo $sFolderTarget; ?>";
+                                document.cookie = "FolderTarget = " + FolderTarget;
+                                </script>
+                                <div class="tab-pane fade" id="FileUpload" role="tabpanel" aria-labelledby="fileupload-tab">
+                                    <div class="card shadow mb-4">
+                                        <!-- Card Body -->
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="row mb-3">
+                                                        <button type="button" class="btn btn-primary" name="btn_upload" id="btn_upload" data-bs-toggle="modal" data-bs-target="#fileupload" <?php if($permission=='readonly') { echo 'disabled'; } ?>>Upload File</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div id="fileList"></div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <?php
+                                                    $d = dir($sFolderTarget);
+                                                    ?>
+                                                    <table class="table table-sm table-hover">
+                                                        <thead>
+                                                            <tr>
+                                                            <th scope="col">#</th>
+                                                            <th scope="col">Nama File</th>
+                                                            <th scope="col">Size</th>
+                                                            <th scope="col">Modified</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <?php
+                                                            $i=0;
+                                                            while (false !== ($entry = $d->read())) {
+                                                                if($entry!='.' && $entry!='..' && $entry!='index.php') {
+                                                                    $fstat = stat($sFolderTarget.$entry);
+                                                                    ?>
+                                                                    <tr>
+                                                                        <th scope="row"><?php echo $i+1; ?></th>
+                                                                        <td><a href="<?php echo $sFolderTarget.$entry; ?>" target="_blank" class="text-body"><?php echo $entry; ?></a></td>
+                                                                        <td class="text-center">
+                                                                            <?php
+                                                                            if($fstat['size']<1024) {
+                                                                                echo number_format($fstat['size'],2).' B'; 
+                                                                            } elseif($fstat['size']<(1024*1024)) {
+                                                                                echo number_format($fstat['size']/1024,2) . ' KB';
+                                                                            } elseif($fstat['size']<(1024*1024*1024)) {
+                                                                                echo number_format($fstat['size']/(1024*1024),2) . ' MB';
+                                                                            } elseif($fstat['size']<(1024*1024*1024*1024)) {
+                                                                                echo number_format($fstat['size']/(1024*1024*1024),2) . ' GB';
+                                                                            }
+                                                                            ?>
+                                                                        </td>
+                                                                        <td><?php echo date('d-M-Y G:i:s',$fstat['mtime']); ?></td>
+                                                                    </tr>
+                                                                    <?php
+                                                                    $i++;
+                                                                }
+                                                            }
+                                                            if($i==0) {
+                                                                ?>
+                                                                <tr><td colspan="4">No Files available.</td></tr>
+                                                                <?php
+                                                            }
+                                                            ?>
+                                                        </tbody>
+                                                    </table>
+                                                    <?php
+                                                    $d->close();
+                                                    ?>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- TAB History -->
+                                <div class="tab-pane fade" id="History" role="tabpanel" aria-labelledby="history-tab">
+                                    <div class="card shadow mb-4">
+                                        <div class="card-body">
+                                            <?php
+                                            $maxRows = 25;
+                                            if(isset($_GET['maxRows'])) {
+                                                $maxRows = $_GET['maxRows'];
+                                            }
+                                            $tblname = "view_logs";
+                                            $condition = "project_code = '" . $dsb['project_code'] . "' AND (so_number = '" . $dsb['so_number'] . "' OR order_number = '" . $dsb['order_number'] . "') AND `description`!=''";
+                                            $order = "log_id DESC";
+                                            $his2 = $DTSB->get_data($tblname, $condition, $order, 0, $maxRows);
+                                            if($his2[2]>0) {
+                                                ?>
+                                                <h5>History</h5>
+                                                <table class="table">
+                                                    <thead class="bg-light">
+                                                        <th class="col-lg-2">Date</th><th class="col-lg-2">Time</th><th class="col-lg-8">Description</th></thead>
+                                                    </thead>
+                                                    <tbody>
+                                                        <?php 
+                                                        $tgl = ""; 
+                                                        ?>
+                                                        <?php do { ?>
+                                                            <tr>
+                                                                <td style="font-size: 12px">
+                                                                    <?php if($tgl != date("Y-m-d", strtotime($his2[0]['entry_date']))) { ?>
+                                                                        <table class="table table-sm table-light table-striped">
+                                                                            <tr>
+                                                                                <td class="text-center fw-bold" colspan="2">
+                                                                                    <?php echo date("Y", strtotime($his2[0]['entry_date'])); ?>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="text-center"><?php echo date("M", strtotime($his2[0]['entry_date'])); ?></td>
+                                                                                <td class="text-center"><?php echo date("d", strtotime($his2[0]['entry_date'])); ?></td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        
+                                                                    <?php } ?>
+                                                                </td>
+                                                                <td style="font-size: 12px"><?php echo date("H:i:s", strtotime($his2[0]['entry_date'])); ?></td>
+                                                                <?php 
+                                                                if($his2[0]['entry_by']!="system") {
+                                                                    if(strpos($his2[0]['entry_by'], "<")==0)
+                                                                    {
+                                                                        $name = $DBHCM->get_profile($his2[0]['entry_by'], "employee_name"); 
+                                                                    } else
+                                                                    {
+                                                                        $name = $his2[0]['entry_by'];
+                                                                    }
+                                                                } else {
+                                                                    $name = "system";
+                                                                }
+                                                                ?>
+                                                                <td style="font-size: 12px">
+                                                                    <?php
+                                                                    $desc = str_replace(";", "<br/>", $his2[0]['description']);
+                                                                    echo $desc . "Performed by " . $name; 
+                                                                    ?>
+                                                                </td>
+                                                            </tr>
+                                                            <?php $tgl = date("Y-m-d", strtotime($his2[0]['entry_date'])); ?>
+                                                        <?php } while($his2[0]=$his2[1]->fetch_assoc()); ?>
+                                                    </tbody>
+                                                </table>
+                                            <?php } ?>
+                                        <!-- <div class="" style="font-size: 12px">Readmore...</div> -->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <input type="hidden" name="version" value="<?php echo $ver; ?>" >
+                            <input type="hidden" name="project_id" value="
+                                <?php 
+                                if($srcdata=="project") {
+                                    echo $dsb['project_id']; 
+                                } else {
+                                    echo 0;
+                                }    
+                                ?>" 
+                            >
+                            <input type="hidden" name="create_date" value="<?php if($ver>0) { echo $dsb['create_date']; } else { echo date("Y-m-d G:i:s"); } ?>">
+                            <input type="hidden" name="create_by" value="<?php if($ver>0) { echo $dsb['create_by']; } else { echo $_SESSION['Microservices_UserEmail']; } ?>">
+                            <input type="hidden" name="status" value="<?php if($ver>0) { echo $dsb['status']; } else { echo 'draft'; } ?>">
+                            <div class="mb-3 bg-light">
+                                <?php 
+                                // $_SESSION['Microservices_UserEmail']!=$dsb['create_by'] || USERPERMISSION=="7b7bc2512ee1fedcd76bdc68926d4f7b"
+                                if((!isset($dsb['status']) || (isset($dsb['status']) && ($dsb['status']=='draft' || $dsb['status']=='rejected' || $dsb['status']=='reopen')) && (USERPERMISSION=="7b7bc2512ee1fedcd76bdc68926d4f7b" || USERPERMISSION=="dbf36ff3e3827639223983ee8ac47b42" || USERPERMISSION=="726ea0dd998698e8a87f8e344d373533"|| USERPERMISSION=="5898299487c5b9cdbe7d61809fd20213" || USERPERMISSION=="335a66c239a137964a33e8c60b24e3d9" || USERPERMISSION=="0162bce636a63c3ae499224203e06ed0"))) {
+                                    ?> 
+                                    <button type="button" class="btn btn-primary" name="btn_save" id="btn_save" onclick="check_error();" data-bs-toggle="modal" data-bs-target="#save" <?php if($permission=="readonly") { echo "disabled"; } ?>>Save</button>
+                                    <?php 
+                                } 
+
+                                if(isset($dsb['status']) && ($dsb['status']=='draft' || $dsb['status']=='rejected' || $dsb['status']=='reopen') && (USERPERMISSION=="7b7bc2512ee1fedcd76bdc68926d4f7b" || USERPERMISSION=="726ea0dd998698e8a87f8e344d373533" || USERPERMISSION=="dbf36ff3e3827639223983ee8ac47b42" || USERPERMISSION=="5898299487c5b9cdbe7d61809fd20213" || USERPERMISSION=="335a66c239a137964a33e8c60b24e3d9" || USERPERMISSION=="0162bce636a63c3ae499224203e06ed0")) { 
+                                    ?>
+                                    <button type="button" class="btn btn-primary" name="btn_submit" id="btn_submit" onclick="check_error();" data-bs-toggle="modal" data-bs-target="#submit" 
+                                        <?php
+                                        if($permission=="readonly") { 
+                                            echo "disabled";
+                                        } elseif($srcdata='project') { 
+                                            $tblname="trx_approval";
+                                            $condition="project_id=" . $dsb['project_id'];
+                                            $order = "approve_id DESC";
+                                            $status = $DTSB->get_data($tblname, $condition, $order);
+                                            if($status[0]['approve_note']!='Completed') {
+                                                echo 'disabled';
+                                            }
+                                        }
+                                        ?>
+                                    >Submit</button>
+                                    <?php 
+                                }
+                                if((isset($dsb['status']) && $dsb['status']=='submited') && (USERPERMISSION=="0162bce636a63c3ae499224203e06ed0" || USERPERMISSION=="dbf36ff3e3827639223983ee8ac47b42" || USERPERMISSION=="7b7bc2512ee1fedcd76bdc68926d4f7b") && ($_SESSION['Microservices_UserEmail']!=$dsb['create_by'] || USERPERMISSION=="7b7bc2512ee1fedcd76bdc68926d4f7b" || USERPERMISSION=="0162bce636a63c3ae499224203e06ed0")) { 
+                                    if(USERPERMISSION_V2 == "bf7717bbfd879cd1a40b71171f9b393e") {
+                                        ?> 
+                                    <button type="button" class="btn btn-primary" name="btn_approved" id="btn_approved" data-bs-toggle="modal" data-bs-target="#approval">Approve</button>
+                                    <button type="button" class="btn btn-primary" name="btn_rejected" id="btn_rejected" data-bs-toggle="modal" data-bs-target="#rejected">Reject</button>
+                                    <?php 
+                                    }
+                                }
+                                if((isset($dsb['status']) && $dsb['status']=='approved') && (USERPERMISSION=="0162bce636a63c3ae499224203e06ed0" || USERPERMISSION=="dbf36ff3e3827639223983ee8ac47b42" || USERPERMISSION=="726ea0dd998698e8a87f8e344d373533" || USERPERMISSION=="7b7bc2512ee1fedcd76bdc68926d4f7b" || USERPERMISSION=="0162bce636a63c3ae499224203e06ed0" || USERPERMISSION=="125b55092905c1919f7558d68cfd62d7" || USERPERMISSION=="975031eb0e919d08ec6ba1993b455793" || $userpermission_v3['user_level'] =="PMO Implementation")) { 
+                                    ?>
+                                    <button type="button" class="btn btn-primary" name="btn_reopen" id="btn_reopen" data-bs-toggle="modal" data-bs-target="#reopen">Re-open</button>
+                                    <?php
+                                }
+                                if((isset($dsb['status']) && $dsb['status']=='approved') && (USERPERMISSION=="7b7bc2512ee1fedcd76bdc68926d4f7b" || USERPERMISSION=="dbf36ff3e3827639223983ee8ac47b42"  || USERPERMISSION=="726ea0dd998698e8a87f8e344d373533"|| USERPERMISSION=="125b55092905c1919f7558d68cfd62d7" || USERPERMISSION=="975031eb0e919d08ec6ba1993b455793" || $userpermission_v3['user_level'] =="PMO Implementation")) {
+                                    ?> 
+                                    <button type="button" class="btn btn-primary" name="btn_acknowledge" id="btn_acknowledge" data-bs-toggle="modal" data-bs-target="#acknowledge">Acknowledge</button>
+                                    <?php 
+                                }
+                                if(isset($dsb['status']) && $dsb['status']=='acknowledge' && USERPERMISSION=="7b7bc2512ee1fedcd76bdc68926d4f7b")
+                                {
+                                    ?>
+                                    <button type="button" class="btn btn-primary" name="btn_reopen_ack" id="btn_reopen_ack" data-bs-toggle="modal" data-bs-target="#reopen_ack">Re-Open</button>
+                                    <?php
+                                }
+                                ?>
+                                <input type="submit" class="btn btn-secondary" name="btn-cancel" id="btn-cancel" value="Cancel">
+                                <?php
+                                // if(USERPERMISSION=="7b7bc2512ee1fedcd76bdc68926d4f7b")
+                                // {
+                                    ?>
+                                    <!-- <input type="submit" class="btn btn-danger" name="save_so" id="save_so" value="Save"> -->
+                                    <?php
+                                // }
+                                ?>
+                            </div>
+                            <?php //module_version("SERVICE_BUDGET"); ?>
+                        <?php } ?>
+                    <!-- </div>
+                    <div class="card-footer py-3 d-flex flex-row align-items-center justify-content-between"> -->
+                        
+                    <!-- </div>
+                </div>
+            </div> -->
+        <!-- </form>
+
+
+        <form method="get"> -->
+            <!-- Modal -->
+            <div class="modal fade" id="save" tabindex="-1" aria-labelledby="saveLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="saveLabel"><b>Notes to Save</b></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row mb-3">
+                                <div class="col-sm-12">
+                                    <textarea class="form-control" id="note_save" name="note_save" rows="3" placeholder="Berikan note..." hidden></textarea>
+                                    <label class="col-sm-12 col-form-label col-form-label-sm" name="save_pesan_error" id="save_pesan_error"></label>
+                                    <label class="col-sm-12 col-form-label col-form-label-sm" name="save_pesan_confirm" id="save_pesan_confirm"></label>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                <input type="submit" class="btn btn-primary" name="save_service_budget" id="save_service_budget" value="Save">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="submit" tabindex="-1" aria-labelledby="saveLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="saveLabel"><b>Notes to Submit</b></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row mb-3">
+                                <div class="col-sm-12">
+                                    <textarea class="form-control" id="note_submited" name="note_submited" rows="3" placeholder="Berikan note..."></textarea>
+                                    <label class="col-sm-12 col-form-label col-form-label-sm text-danger" name="submit_pesan_error" id="submit_pesan_error"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                                <input type="submit" class="btn btn-primary" name="submit_service_budget" id="submit_service_budget" value="Submit">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="approval" tabindex="-1" aria-labelledby="saveLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="saveLabel"><b>Notes to Approve</b></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row mb-3">
+                                    <div class="col-sm-12">
+                                    <textarea class="form-control" id="note_approved" name="note_approved" rows="3" placeholder="Berikan note..."></textarea>
+                                    </div>
+                                </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                <input type="submit" class="btn btn-primary" name="approval_service_budget" id="approval_service_budget" value="Approve">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="rejected" tabindex="-1" aria-labelledby="saveLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="saveLabel"><b>Notes to Reject</b></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row mb-3">
+                                    <div class="col-sm-12">
+                                    <textarea class="form-control" id="note_rejected" name="note_rejected" rows="3" placeholder="Berikan note..."></textarea>
+                                    </div>
+                                </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                <input type="submit" class="btn btn-primary" name="reject_service_budget" id="reject_service_budget" value="Reject">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="reopen" tabindex="-1" aria-labelledby="saveLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="saveLabel"><b>Notes to Re-Open</b></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row mb-3">
+                                    <div class="col-sm-12">
+                                    <textarea class="form-control" id="note_reopen" name="note_reopen" rows="3" placeholder="Berikan note..."></textarea>
+                                    </div>
+                                </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                <input type="submit" class="btn btn-primary" name="reopen_service_budget" id="reopen_service_budget" value="Re-Open">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.css">
+            <script src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.js"></script> -->
+	    <?php $SbfId = $dsb['project_id']; ?>
+            <div class="modal fade" id="acknowledge" tabindex="-1" aria-labelledby="saveFinal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="saveAcknowledge"><b>Acknowledge</b></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row mb-3">
+                                <div class="col-sm-4">
+                                    <label for="staticEmail" class="col-sm-6 col-form-label">Note</label>
+                                </div>
+                                <div class="col-sm-8">
+                                    <textarea class="form-control" id="note_acknowledge" name="note_acknowledge" rows="8" placeholder="Berikan note..."></textarea>
+                                </div>
+                            </div>
+                            <?php if(strpos($dsb['bundling'], '1') !== false && $_SESSION['Microservices_UserEmail'] == 'fortuna@mastersystem.co.id' || strpos($dsb['bundling'], '1') !== false && $_SESSION['Microservices_UserEmail'] == 'sumarno@mastersystem.co.id' || strpos($dsb['bundling'], '1') !== false && $_SESSION['Microservices_UserEmail'] == 'pitasari.amanda@mastersystem.co.id' || strpos($dsb['bundling'], '1') !== false && $_SESSION['Microservices_UserEmail'] == 'chrisheryanda@mastersystem.co.id' || strpos($dsb['bundling'], '1') !== false && $_SESSION['Microservices_UserEmail'] == 'syamsul@mastersystem.co.id') {?>
+                            <div class="row mb-3">
+                                <div class="col-sm-5">
+                                    <label for="staticEmail" class="col-sm-6 col-form-label">Project Leader</label>
+                                </div>
+                                <div class="col-sm-7">
+                                    <div class="row d-flex justify-content-center mt-100">
+                                        <select class="form-select form-select-sm" id="pm_wrike" name="pm_wrike">
+                                            <?php 
+                                            $DBWR = get_conn("WRIKE_INTEGRATE");
+                                            $get_employeeName = $DBWR->get_sqlV2("SELECT * FROM sa_contact_user WHERE name is not null AND name<>'' ORDER BY name ASC"); 
+                                            while($row = $get_employeeName[1]->fetch_assoc()) { ?>
+                                            <option value="<?php echo $row['email']; ?>"><?php echo $row['name']; ?>
+                                            </option>
+                                            <?php } ?>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-sm-5">
+                                    <label for="staticEmail" class="col-sm-6 col-form-label">SBF Role</label>
+                                </div>
+                                <div class="col-sm-7">
+                                    <div class="row d-flex justify-content-center mt-100">
+                                        <select class="form-select form-select-sm" id="sbf_role" name="sbf_role">
+                                            <?php 
+                                            // $get_role = $DTSB->get_sqlV2("SELECT DISTINCT
+                                            //                                         CASE 
+                                            //                                             WHEN resource_level = 11 THEN 'Project Director'
+                                            //                                             WHEN resource_level = 21 THEN 'Project Manager'
+                                            //                                             WHEN resource_level = 31 THEN 'Project Coordinator'
+                                            //                                         END AS role
+                                            //                                     FROM 
+                                            //                                         sa_trx_project_mandays
+                                            //                                     WHERE
+                                            //                                     project_id=$SbfId
+                                            //                                     AND
+                                            //                                     service_type=1
+                                            //                                     AND
+                                            //                                         resource_level IN (11, 21)
+                                            //                                         OR (
+                                            //                                             resource_level = 31 
+                                            //                                             AND NOT EXISTS (
+                                            //                                                 SELECT 1 
+                                            //                                                 FROM sa_trx_project_mandays AS m 
+                                            //                                                 WHERE 
+                                            //                                                     m.project_id = $SbfId
+                                            //                                                     AND m.resource_level = 11 
+                                            //                                                     AND m.service_type = 1
+                                            //                                             )
+                                            //                                         )"); 
+                                            $get_role = $DTSB->get_sqlV2("SELECT
+                                                                            CASE
+                                                                                WHEN resource_level = 11 THEN 'Project Director'
+                                                                                WHEN resource_level = 21 THEN 'Project Manager'
+                                                                                WHEN resource_level = 31 THEN 'Project Coordinator'
+                                                                            END AS position
+                                                                        FROM
+                                                                            sa_trx_project_mandays
+                                                                        WHERE
+                                                                            service_type = 1
+                                                                            AND project_id = $SbfId
+                                                                            AND resource_level IN (11,21,31)
+                                                                        ");
+                                            while($row = $get_role[1]->fetch_assoc()) { ?>
+                                            <option value="<?php echo $row['position']; ?>"><?php echo $row['position']; ?>
+                                            </option>
+                                            <?php } ?>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php } ?>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                <input type="submit" class="btn btn-primary" name="acknowledge_service_budget" id="acknowledge_service_budget" value="Acknowledge">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="reopen_ack" tabindex="-1" aria-labelledby="saveFinal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="save_reopen_ack"><b>Notes to Re-Open</b></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="reopen_ack"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row mb-3">
+                                    <div class="col-sm-12">
+                                    <textarea class="form-control" id="note_reopen_ack" name="note_reopen_ack" rows="3" placeholder="Berikan note..."></textarea>
+                                    </div>
+                                </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                <input type="submit" class="btn btn-primary" name="acknowledge_reopen" id="acknowledge_reopen" value="Re-Open">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<form method="get">
+    <div class="modal fade" id="modal_project_name_internal" tabindex="-1" aria-labelledby="saveFinal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="saveAcknowledge"><b>Edit Project Information</b></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="row mb-1">
+                                <label for="staticEmail" class="col-sm-3 col-form-label">PO Number</label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control-sm" name="cr_po_number" value="<?php echo $dsb['po_number'];?>">
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <label for="staticEmail" class="col-sm-3 col-form-label">Nilai Project</label>
+                                <div class="col-sm-9">
+                                    <div class="input-group input-group-sm">
+                                        <span class="input-group-text" id="basic-addon1">IDR</span>
+                                        <input type="text" class="form-control-sm" name="cr_amount_idr" value="<?php echo $dsb['amount_idr'];?>">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <label for="staticEmail" class="col-sm-3 col-form-label"></label>
+                                <div class="col-sm-9">
+                                    <div class="input-group input-group-sm">
+                                        <span class="input-group-text" id="basic-addon1">USD</span>
+                                        <input type="text" class="form-control-sm" name="cr_amount_usd" value="<?php echo $dsb['amount_usd'];?>">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <label for="staticEmail" class="col-sm-12 col-form-label">Project Name</label>
+                                <div class="col-sm-12">
+                                    <textarea class="form-control" id="note_project_name" name="note_project_name" rows="3" placeholder="Berikan Project Name..." onkeyup="getlen();"><?php echo $ver>0 ? $dsb['project_name'] : ""; ?></textarea>
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <label for="staticEmail" class="col-sm-12 col-form-label">Project Name Internal (<span id="demo"></span> of 100)</label>
+                                <div class="col-sm-12">
+                                    <textarea class="form-control" id="note_project_name_internal" name="note_project_name_internal" rows="3" placeholder="Berikan Project Name Internal..." onkeyup="getlen();" <?php echo $dsb['status']=='acknowledge' ? "readonly" : ""; ?>><?php echo $ver>0 ? $dsb['project_name_internal'] : ""; ?></textarea>
+                                </div>
+                            </div>
+                            <input type="text" name="project_idx" value="<?php 
+                                if($srcdata=="project") {
+                                    echo $dsb['project_id']; 
+                                } else {
+                                    echo 0;
+                                }    
+                                ?>" 
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" name="mod" value="service_budget">
+                    <input type="hidden" name="act" value="view">
+                    <input type="hidden" name="project_code" value="<?php echo $dsb['project_code'];?>">
+                    <input type="hidden" name="so_number" value="<?php echo $dsb['so_number'];?>">
+                    <input type="hidden" name="order_number" value="<?php echo $dsb['order_number'];?>">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <input type="submit" class="btn btn-primary" name="save_project_name_internal" id="save_project_name_internal" value="Save">
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<script>
+    function getlen() {
+        len = document.getElementById("note_project_name_internal").value;
+        length = len.length;
+        document.getElementById("demo").innerHTML = length;
+        if(length>100) {
+            document.getElementById("demo").style.color = "red";
+        } else {
+            document.getElementById("demo").style.color = "black";
+        }
+    }
+    getlen();
+</script>
+
+<div class="modal fade" id="fileupload" tabindex="-1" aria-labelledby="saveLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="saveLabel"><b>Upload File</b></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row mb-3">
+                    <link href="components/modules/upload/upload.css" rel="stylesheet" type="text/css" />
+                    <form id="upload_form" enctype="multipart/form-data" method="post" action="components/modules/upload/upload.php">
+                        <div>
+                            <div><label for="image_file">Please select image file</label></div>
+                            <div><input type="file" name="image_file" id="image_file" onchange="fileSelected();" /></div>
+                        </div>
+                        <div>
+                            <input type="button" value="Upload" onclick="startUploading()" />
+                        </div>
+                        <div id="fileinfo">
+                            <div id="filename"></div>
+                            <div id="filesize"></div>
+                            <div id="filetype"></div>
+                            <div id="filedim"></div>
+                        </div>
+                        <div id="error">You should select valid image files only!</div>
+                        <div id="error2">An error occurred while uploading the file</div>
+                        <div id="abort">The upload has been canceled by the user or the browser dropped the connection</div>
+                        <div id="warnsize">Your file is very big. We can't accept it. Please select more small file</div>
+                        <div id="progress_info">
+                            <div id="progress"></div>
+                            <div id="progress_percent">&nbsp;</div>
+                            <div class="clear_both"></div>
+                            <div>
+                                <div id="speed">&nbsp;</div>
+                                <div id="remaining">&nbsp;</div>
+                                <div id="b_transfered">&nbsp;</div>
+                                <div class="clear_both"></div>
+                            </div>
+                            <div id="upload_response"></div>
+                        </div>
+                    </form>
+                    <img id="preview" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <script>
+$(document).ready(function(){
+    
+     var multipleCancelButton = new Choices('#choices-multiple-remove-button', {
+        removeItemButton: true,
+        maxItemCount:12,
+        searchResultLimit:5,
+        renderChoiceLimit:5
+      }); 
+     
+     
+ });
+</script> -->
+<script>
+    sbtypex();
+    band_change();
+    format_i_agreed_price();
+    format_m_agreed_price();
+
+    s_change();
+
+    format_i_out_price_0();
+    format_i_out_price_1();
+    format_i_out_price_2();
+    format_i_out_price_3();
+    format_i_out_price_4();
+    // format_i_agreed_price();
+    i_change_price();
+    i_change_bpd();
+    change_bundling_i();
+    change_bundling_m();
+    change_bundling_w();
+    i_totalmandays();
+    i_changebrand();
+
+    change_mtos();
+    change_backup_unit();
+    // format_m_agreed_price();
+    m_change_price();
+    m_change_bpd();
+    m_change_addon();
+    m_changebrand01();
+    m_changebrand11();
+    m_changebrand02();
+    m_changebrand12();
+    m_changebrand03();
+    m_changebrand13();
+    m_changebrand04();
+    m_changebrand14();
+    m_changebrand05();
+    m_changebrand15();
+
+    w_changebrand01();
+    w_changebrand11();
+    w_changebrand02();
+    w_changebrand12();
+    w_changebrand03();
+    w_changebrand13();
+    w_changebrand04();
+    w_changebrand14();
+    w_changebrand05();
+    w_changebrand15();
+    w_totalmandays();
+    w_disablebrand();
+    check_error();
+</script>

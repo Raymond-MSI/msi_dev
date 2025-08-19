@@ -1,0 +1,551 @@
+File Error Log
+
+2024-07-15 09:42:59
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_pic' doesn't exist
+- Query 		: select * from sa_pic
+
+
+2024-07-15 10:02:35
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.tables' doesn't exist
+- Query 		: desc tables
+
+
+2024-07-15 10:06:02
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-07-15 10:49:10
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Column 'project_code' in where clause is ambiguous
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, title, customer_company_name, trx.project_code, trx.project_title, trx.rating_average,trx.answer_id,
+            surv.survey_link, type, main_rating, main_essay, main_engineer, trx.created_datetime, main_template_id, simple_template_id, project_type, type_of_service, project_name from sa_survey surv join sa_trx_survey trx 
+            on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_code = cust.customer_code
+            WHERE trx.rating_average < 7 AND trx.flag = 1 AND project_code = 'TB001021C0084'
+
+
+2024-07-15 11:10:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_kpi_board' doesn't exist
+- Query 		: SELECT * FROM sa_kpi_board 
+
+
+2024-07-15 13:27:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: select * from sa_maintenance_date
+
+
+2024-07-15 13:38:12
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 13:39:53
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 13:49:57
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 13:49:57
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 13:52:25
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 13:52:25
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 13:53:40
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 13:53:40
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 13:54:39
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 13:54:39
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 13:55:50
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 13:55:50
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 13:57:27
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 13:57:27
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 13:58:35
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 13:58:35
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 13:59:56
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 13:59:56
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 14:01:13
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 14:01:13
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 14:02:21
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 14:02:21
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 14:03:25
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 14:03:25
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 14:04:30
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 14:04:30
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 14:05:33
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 14:05:33
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-07-15 14:44:03
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_orders' doesn't exist
+- Query 		: select * from sa_mst_orders limit 10 
+
+
+2024-07-15 15:30:49
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'maintenance_renewal_start' in 'field list'
+- Query 		: SELECT maintenance_renewal_start from sa_data_so WHERE maintenance_renewal_start_date is not null
+
+
+2024-07-15 15:32:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect date value: '' for column `sa_dashboard_kpi`.`sa_data_so`.`maintenance_renewal_end_date` at row 1
+- Query 		:  UPDATE sa_data_so SET maintenance_renewal_start_date='2022-05-31',maintenance_renewal_end_date='' WHERE order_number='ORD-25455-V6W2Z5'
+
+
+2024-07-15 15:33:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect date value: '' for column `sa_dashboard_kpi`.`sa_data_so`.`maintenance_renewal_end_date` at row 1
+- Query 		: UPDATE sa_data_so SET maintenance_renewal_start_date='2022-05-31',maintenance_renewal_end_date='' WHERE order_number='ORD-25455-V6W2Z5'
+
+
+2024-07-15 16:29:57
+- Server 		: Prod
+- User 			: irfan.hendriana@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-07-15 16:29:57
+- Server 		: Prod
+- User 			: irfan.hendriana@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-07-15 16:36:57
+- Server 		: Prod
+- User 			: farkhan.Khoir@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 6, `brand` = 'AWS', `modified_by` = 'Muhammad Farkhan Khoir<farkhan.Khoir@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 21005 AND `resource_level` = 21 AND `service_type`= 1
+
+
+2024-07-15 16:36:57
+- Server 		: Prod
+- User 			: farkhan.Khoir@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 6, `brand` = 'AWS', `modified_by` = 'Muhammad Farkhan Khoir<farkhan.Khoir@mastersystem.co.id>', `value` = 75, `catalog_type` = NULL WHERE `project_id` = 21005 AND `resource_level` = 41 AND `service_type`= 1
+
+
+2024-07-15 16:36:57
+- Server 		: Prod
+- User 			: farkhan.Khoir@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 10, `brand` = 'AWS', `modified_by` = 'Muhammad Farkhan Khoir<farkhan.Khoir@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 21005 AND `resource_level` = 61 AND `service_type`= 1
+
+
+2024-07-15 16:36:57
+- Server 		: Prod
+- User 			: farkhan.Khoir@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 12, `brand` = 'ELS', `modified_by` = 'Muhammad Farkhan Khoir<farkhan.Khoir@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 21005 AND `resource_level` = 32 AND `service_type`= 1
+
+
+2024-07-15 16:36:57
+- Server 		: Prod
+- User 			: farkhan.Khoir@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 90, `brand` = 'ELS', `modified_by` = 'Muhammad Farkhan Khoir<farkhan.Khoir@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 21005 AND `resource_level` = 72 AND `service_type`= 1
+
+
+2024-07-15 16:36:57
+- Server 		: Prod
+- User 			: farkhan.Khoir@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 8, `brand` = 'Microsoft', `modified_by` = 'Muhammad Farkhan Khoir<farkhan.Khoir@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 21005 AND `resource_level` = 63 AND `service_type`= 1
+
+
+2024-07-15 17:13:18
+- Server 		: Prod
+- User 			: farkhan.Khoir@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 6, `brand` = 'AWS', `modified_by` = 'Muhammad Farkhan Khoir<farkhan.Khoir@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 21005 AND `resource_level` = 21 AND `service_type`= 1
+
+
+2024-07-15 17:13:18
+- Server 		: Prod
+- User 			: farkhan.Khoir@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 6, `brand` = 'AWS', `modified_by` = 'Muhammad Farkhan Khoir<farkhan.Khoir@mastersystem.co.id>', `value` = 75, `catalog_type` = NULL WHERE `project_id` = 21005 AND `resource_level` = 41 AND `service_type`= 1
+
+
+2024-07-15 17:13:18
+- Server 		: Prod
+- User 			: farkhan.Khoir@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 10, `brand` = 'AWS', `modified_by` = 'Muhammad Farkhan Khoir<farkhan.Khoir@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 21005 AND `resource_level` = 61 AND `service_type`= 1
+
+
+2024-07-15 17:13:18
+- Server 		: Prod
+- User 			: farkhan.Khoir@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 12, `brand` = 'ELS', `modified_by` = 'Muhammad Farkhan Khoir<farkhan.Khoir@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 21005 AND `resource_level` = 32 AND `service_type`= 1
+
+
+2024-07-15 17:13:18
+- Server 		: Prod
+- User 			: farkhan.Khoir@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 90, `brand` = 'ELS', `modified_by` = 'Muhammad Farkhan Khoir<farkhan.Khoir@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 21005 AND `resource_level` = 72 AND `service_type`= 1
+
+
+2024-07-15 17:13:18
+- Server 		: Prod
+- User 			: farkhan.Khoir@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 8, `brand` = 'Microsoft', `modified_by` = 'Muhammad Farkhan Khoir<farkhan.Khoir@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 21005 AND `resource_level` = 63 AND `service_type`= 1
+
+
+2024-07-15 17:52:42
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = '0'
+
+
+2024-07-15 18:55:43
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = '0'
+
+
+2024-07-15 21:27:30
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,21,3,1,10,'NetApp',350,NULL,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-07-15 21:27:30
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,3,1,9,'NetApp',350,NULL,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-07-15 21:27:30
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,13,'NetApp',250,NULL,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-07-15 22:00:50
+- Server 		: Prod
+- User 			: shendi.yanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect integer value: '' for column `sa_dashboard_kpi`.`sa_master_maintenance_date`.`mt_report_date` at row 1
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`) VALUES (
+                'TB007223G0003', 
+                'ORD-2023-00084', 
+                '0',
+                'sales',
+                '',
+                '9', 
+                '',
+                '14',
+                '9', 
+                '',
+                '14',
+                '0',
+                'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>')

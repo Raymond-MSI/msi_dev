@@ -1,0 +1,103 @@
+File Error Log
+
+2024-11-01 09:42:00
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_wrike_proejct_list' doesn't exist
+- Query 		: select * from sa_wrike_proejct_list WHERE project_code IN ('TB002723D0043','TB002723D0065','TB002724D0003','TI000824E0016','TB002723D0050','TB002724D0022','TB002724D0055','TB002724D0064','TB002724D0070','TB002722D0073') AND project_type LIKE '%Implementation%'
+
+
+2024-11-01 10:53:41
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'limit 10' at line 1
+- Query 		: desc sa_history_cr limit 10
+
+
+2024-11-01 11:01:43
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DELIMITER $$
+CREATE TRIGGER insert_general_informations
+AFTER INSERT
+ON sa...' at line 1
+- Query 		: DELIMITER $$
+CREATE TRIGGER insert_general_informations
+AFTER INSERT
+ON sa_general_informations
+FOR EACH ROW
+BEGIN
+INSERT INTO sa_history_cr
+(cr_no,so_number,date,time,description)
+VALUES (NEW.cr_no,NEW.so_number,NEW.request_date,CONCAT(
+'Submit Change Request <br> Scope of change : '
+,NEW.scope_of_change,
+'<br> Reason of change : '
+,NEW.reason,
+'<br> Change Impact : '
+,NEW.impact,
+'<br> Oleh : '
+,NEW.project_manager,
+";"));
+END$$
+DELIMITER;
+
+
+2024-11-01 11:03:16
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DELIMITER $$
+
+CREATE TRIGGER insert_general_informations
+AFTER INSERT
+ON ...' at line 1
+- Query 		: DELIMITER $$
+
+CREATE TRIGGER insert_general_informations
+AFTER INSERT
+ON sa_general_informations
+FOR EACH ROW
+BEGIN
+    INSERT INTO sa_history_cr
+    (cr_no, so_number, date, time, description)
+    VALUES 
+    (NEW.cr_no, 
+     NEW.so_number, 
+     NEW.request_date, 
+     CURRENT_TIME(), -- Assuming you want the current time for the "time" field
+     CONCAT(
+         'Submit Change Request <br> Scope of change: ',
+         NEW.scope_of_change,
+         '<br> Reason of change: ',
+         NEW.reason,
+         '<br> Change Impact: ',
+         NEW.impact,
+         '<br> Oleh: ',
+         NEW.project_manager
+     )
+    );
+END$$
+
+DELIMITER ;
+
+
+2024-11-01 16:15:51
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_logs_revision' doesn't exist
+- Query 		: DESC sa_logs_revision
+
+
+
+
+

@@ -1,0 +1,153 @@
+File Error Log
+
+2024-06-03 10:33:58
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'google_event_id' in 'where clause'
+- Query 		: select * from sa_schedule WHERE google_event_id='lk16b4nql9v9il89kg0mb1fkvs'
+
+
+2024-06-03 10:37:01
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'status_calendar' in 'where clause'
+- Query 		: select * from sa_trx_productivity WHERE resource_email LIKE '%anita.angelina%' AND project_type LIKE '%Non%' AND status_calendar IS NULL
+
+
+2024-06-03 10:37:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'status_calendar' in 'where clause'
+- Query 		: select * from sa_trx_productivity WHERE resource_email LIKE '%anita.angelina%' AND project_type LIKE '%Non%' AND status_calendar=''
+
+
+2024-06-03 10:37:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'status_calendar' in 'where clause'
+- Query 		: select * from sa_trx_productivity WHERE resource_email LIKE '%anita.angelina%' AND project_type LIKE '%Non%' AND status_calendar is null
+
+
+2024-06-03 10:49:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from sa_trx_productivity set status_calender='Declined' WHERE resource_email ...' at line 1
+- Query 		: update from sa_trx_productivity set status_calender='Declined' WHERE resource_email LIKE '%anita.angelina%' AND project_type LIKE '%Implemen%' AND order_number='ORD-2023-01017'
+
+
+2024-06-03 10:50:52
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'set status_calender='Declined' WHERE resource_email LIKE '%anita.angelina%' A...' at line 1
+- Query 		: select * from sa_trx_productivity set status_calender='Declined' WHERE resource_email LIKE '%anita.angelina%' AND project_type LIKE '%Implemen%' AND order_number='ORD-2024-00096'
+
+
+2024-06-03 10:51:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'set status_calender='Declined' WHERE resource_email LIKE '%anita.angelina%' A...' at line 1
+- Query 		: select * from sa_trx_productivity set status_calender='Declined' WHERE resource_email LIKE '%anita.angelina%' AND order_number='ORD-2024-00096'
+
+
+2024-06-03 10:51:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'set status_calender='Declined' WHERE resource_email LIKE '%anita.angelina%' A...' at line 1
+- Query 		: select * from sa_trx_productivity set status_calender='Declined' WHERE resource_email LIKE '%anita.angelina%' AND order_number='ORD-2024-00096'
+
+
+2024-06-03 10:52:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'event_id' in 'where clause'
+- Query 		: select * from sa_preschedule WHERE event_id='u7p4fi2nnioagemg90ooucb3ig'
+
+
+2024-06-03 13:40:46
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where pic_name like '%raymond%'' at line 1
+- Query 		: select * from sa_pic limit where pic_name like '%raymond%'
+
+
+2024-06-03 15:22:36
+- Server 		: Prod
+- User 			: hendika.vernanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+- Query 		: UPDATE `sa_trx_edo_request` SET `flag_approval`=2, `edo_approval_by`='Muhammad Dzaky Kholilurrohman<muhammad.dzaky@mastersystem.co.id>; Hendhika Vernanda<hendika.vernanda@mastersystem.co.id>; ',`performed_by`='Hendhika Vernanda<hendika.vernanda@mastersystem.co.id>' WHERE ()
+
+
+2024-06-03 15:23:22
+- Server 		: Prod
+- User 			: hendika.vernanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-06-03 15:23:22
+- Server 		: Prod
+- User 			: hendika.vernanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-06-03 19:20:51
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-06-03 19:21:58
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-06-03 20:18:16
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-06-03 20:19:30
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC

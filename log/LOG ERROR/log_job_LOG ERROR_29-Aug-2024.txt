@@ -1,0 +1,251 @@
+File Error Log
+
+2024-08-29 09:42:20
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_resource_assignment' doesn't exist
+- Query 		: select * from sa_resource_assignment WHERE project_code='TA014423G0001'
+
+
+2024-08-29 10:04:00
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'Status_Booking_Delivery' in 'sa_request_booking_delivery_list'
+- Query 		: 
+ALTER TABLE sa_request_booking_delivery_list MODIFY COLUMN Status_Booking_Delivery varchar(255) NULL
+
+
+2024-08-29 10:04:56
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ALTER TABLE sa_request_booking_delivery_list 
+RENAME COLUMN Sta-tus_Booking_...' at line 2
+- Query 		: desc 
+ALTER TABLE sa_request_booking_delivery_list 
+RENAME COLUMN Sta-tus_Booking_Delivery TO Status_Booking_Delivery;
+
+
+2024-08-29 10:05:00
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-tus_Booking_Delivery TO Status_Booking_Delivery' at line 2
+- Query 		: 
+ALTER TABLE sa_request_booking_delivery_list 
+RENAME COLUMN Sta-tus_Booking_Delivery TO Status_Booking_Delivery;
+
+
+2024-08-29 10:06:28
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-tus_Booking_Delivery TO Status_Booking_Delivery' at line 2
+- Query 		: 
+ALTER TABLE sa_request_booking_delivery_list
+RENAME COLUMN Sta-tus_Booking_Delivery TO Status_Booking_Delivery;
+
+
+2024-08-29 10:15:48
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect table definition; there can be only one auto column and it must be defined as a key
+- Query 		: 
+ALTER TABLE sa_request_sales_line   MODIFY id INT AUTO_INCREMENT
+
+
+2024-08-29 10:16:03
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.id' doesn't exist
+- Query 		: alter table id auto_increment = 1
+
+
+2024-08-29 10:17:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.–sa_request_sales_line' doesn't exist
+- Query 		: 
+ALTER TABLE –sa_request_sales_line
+MODIFY COLUMN id INT AUTO_INCREMENT;
+
+
+
+2024-08-29 10:17:12
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect table definition; there can be only one auto column and it must be defined as a key
+- Query 		: ALTER TABLE sa_request_sales_line
+MODIFY COLUMN id INT AUTO_INCREMENT;
+
+
+
+2024-08-29 10:18:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ALTER TABLE `sa_request_sales_line`
+  ADD PRIMARY KEY (`id`)' at line 1
+- Query 		: desc ALTER TABLE `sa_request_sales_line`
+  ADD PRIMARY KEY (`id`);
+
+
+2024-08-29 11:21:04
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'nomor_asset' in 'field list'
+- Query 		: select part_number,nomor_dokumen,nomor_asset from sa_rental_product_list where level_parent is null group by part_number
+
+
+2024-08-29 11:25:06
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'part_numbe' in 'field list'
+- Query 		: select part_numbe from sa_rental_product_list where level_parent is null group by part_number
+
+
+2024-08-29 12:17:16
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,3,1,9,'Cisco',250,1,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-08-29 12:17:16
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,3,1,6,'Cisco',350,1,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-08-29 12:17:16
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,17,'Cisco',250,1,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-08-29 13:13:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_data_so' doesn't exist
+- Query 		: SELECT * FROM sa_data_so WHERE order_number='ORD-22426-M2X2V4'
+
+
+
+2024-08-29 13:21:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'level_parent' in 'field list'
+- Query 		: select level_parent from sa_rental_transaction_product
+
+
+2024-08-29 14:53:29
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Key column 'asset_id ' doesn't exist in table
+- Query 		: CREATE TABLE `sa_md_navision`.`sa_asset_list` (`asset_id` INT NOT NULL AUTO_INCREMENT , `asset_number` VARCHAR(15) NULL , `part_number` VARCHAR(100) NULL DEFAULT NULL , `description` VARCHAR(255) NULL DEFAULT NULL , `description_2` VARCHAR(255) NULL DEFAULT NULL , `description_3` VARCHAR(255) NULL DEFAULT NULL , `serial_number` VARCHAR(100) NULL DEFAULT NULL , `asset_parent_number` VARCHAR(13) NULL DEFAULT NULL , `brand_name` VARCHAR(100) NULL DEFAULT NULL , `asset_owner` VARCHAR(20) NULL DEFAULT NULL , `asset_status` VARCHAR(20) NULL DEFAULT NULL , `category` VARCHAR(100) NULL DEFAULT NULL , `category_name` VARCHAR(100) NULL DEFAULT NULL , `asset_note` VARCHAR(255) NULL DEFAULT NULL , `asset_location_code` VARCHAR(10) NULL DEFAULT NULL , `responsible_employee_id` VARCHAR(10) NULL DEFAULT NULL , `responsible_employee_name` VARCHAR(100) NULL DEFAULT NULL , `responsible_type` VARCHAR(100) NULL DEFAULT NULL , `responsible_customer_code` VARCHAR(6) NULL DEFAULT NULL , PRIMARY KEY (`asset_id `)) ENGINE = InnoDB; 
+
+
+2024-08-29 14:58:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'jumlah' in 'where clause'
+- Query 		: select resource_email,COUNT(resource_email) as jumlah from sa_resource_assignment WHERE project_roles='PIC Maintenance' AND start_date is not null AND start_date<>'' AND jumlah=1 GROUP BY resource_email,order_number,project_roles
+
+
+2024-08-29 15:25:36
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_asset' doesn't exist
+- Query 		: desc sa_asset _purchases
+
+
+2024-08-29 15:25:39
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_asset' doesn't exist
+- Query 		: desc sa_asset _purchases
+
+
+2024-08-29 15:38:06
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND sa_rental_transaction_product.status_product IS NULL AND sa_rental_transa...' at line 1
+- Query 		: SELECT COALESCE(sa_rental_product_list.level_parent, 'Blank') AS level_parent, COUNT(sa_rental_product_list.part_number) AS count_number_part FROM sa_rental_product_list LEFT JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri WHERE   AND sa_rental_transaction_product.status_product IS NULL AND sa_rental_transaction_product.status_return IS NULL GROUP BY COALESCE(sa_rental_product_list.level_parent, 'Blank')
+
+
+2024-08-29 15:38:06
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND sa_rental_transaction_product.status_product IS NULL AND sa_rental_transa...' at line 1
+- Query 		: SELECT COALESCE(sa_rental_product_list.level_parent, 'Blank') AS level_parent, COUNT(sa_rental_product_list.part_number) AS count_number_part FROM sa_rental_product_list LEFT JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri WHERE   AND sa_rental_transaction_product.status_product IS NULL AND sa_rental_transaction_product.status_return IS NULL GROUP BY COALESCE(sa_rental_product_list.level_parent, 'Blank')
+
+
+2024-08-29 15:38:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND sa_rental_transaction_product.status_product IS NULL AND sa_rental_transa...' at line 1
+- Query 		: SELECT COALESCE(sa_rental_product_list.level_parent, 'Blank') AS level_parent, COUNT(sa_rental_product_list.part_number) AS count_number_part FROM sa_rental_product_list LEFT JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri WHERE   AND sa_rental_transaction_product.status_product IS NULL AND sa_rental_transaction_product.status_return IS NULL GROUP BY COALESCE(sa_rental_product_list.level_parent, 'Blank')
+
+
+2024-08-29 15:38:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND sa_rental_transaction_product.status_product IS NULL AND sa_rental_transa...' at line 1
+- Query 		: SELECT COALESCE(sa_rental_product_list.level_parent, 'Blank') AS level_parent, COUNT(sa_rental_product_list.part_number) AS count_number_part FROM sa_rental_product_list LEFT JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri WHERE   AND sa_rental_transaction_product.status_product IS NULL AND sa_rental_transaction_product.status_return IS NULL GROUP BY COALESCE(sa_rental_product_list.level_parent, 'Blank')
+
+
+2024-08-29 15:54:36
+- Server 		: Prod
+- User 			: respati.prayoga@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = '0'

@@ -1,0 +1,884 @@
+Time : [9:39:36]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: none 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [9:46:50]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 1860 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [9:47:18]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 1884 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [9:47:55]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 1884 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [9:48:11]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 1885 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [9:48:31]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 1917 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [9:48:59]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 1924 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [9:49:26]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 1920 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [9:49:58]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 1951 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [9:50:43]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 2012 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [9:50:53]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 2019 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [9:59:35]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 2093 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [9:59:47]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 2096 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [10:00:21]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 2116 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [10:01:31]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 2198 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [10:02:05]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 2221 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [10:02:23]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 2128 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [10:03:41]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 2153 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [10:03:53]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 2164 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [10:04:37]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 2244 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [10:05:10]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 2158 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [10:11:51]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=manage_engine&sub=METimeElapsed 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [10:15:18]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 2228 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [10:15:19]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 2228 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PHPSESSID=2ta4gvrpgp86lnskqg9tlti6kb; PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/ 
+Authorization:  
+
+Time : [10:20:21]
+Host: msizone.mastersystem.co.id 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8 
+Accept-Language: en-US,en;q=0.5 
+Accept-Encoding: gzip, deflate, br, zstd 
+Content-Type: application/x-www-form-urlencoded 
+Content-Length: 2163 
+Origin: https://msizone.mastersystem.co.id 
+Connection: keep-alive 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Cookie: PHPSESSID=c6ru26am10esv6net1ni22ion3 
+Upgrade-Insecure-Requests: 1 
+Sec-Fetch-Dest: document 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-User: ?1 
+Priority: u=0, i 
+Authorization:  
+Time : [10:21:07]
+Host: msizone.mastersystem.co.id 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8 
+Accept-Language: en-US,en;q=0.5 
+Accept-Encoding: gzip, deflate, br, zstd 
+Content-Type: application/x-www-form-urlencoded 
+Content-Length: 2177 
+Origin: https://msizone.mastersystem.co.id 
+Connection: keep-alive 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Cookie: PHPSESSID=c6ru26am10esv6net1ni22ion3 
+Upgrade-Insecure-Requests: 1 
+Sec-Fetch-Dest: document 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-User: ?1 
+Priority: u=0, i 
+Authorization:  
+Time : [10:21:34]
+Host: msizone.mastersystem.co.id 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8 
+Accept-Language: en-US,en;q=0.5 
+Accept-Encoding: gzip, deflate, br, zstd 
+Content-Type: application/x-www-form-urlencoded 
+Content-Length: 2353 
+Origin: https://msizone.mastersystem.co.id 
+Connection: keep-alive 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Cookie: PHPSESSID=c6ru26am10esv6net1ni22ion3 
+Upgrade-Insecure-Requests: 1 
+Sec-Fetch-Dest: document 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-User: ?1 
+Priority: u=0, i 
+Authorization:  
+Time : [10:22:36]
+Host: msizone.mastersystem.co.id 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8 
+Accept-Language: en-US,en;q=0.5 
+Accept-Encoding: gzip, deflate, br, zstd 
+Content-Type: application/x-www-form-urlencoded 
+Content-Length: 2475 
+Origin: https://msizone.mastersystem.co.id 
+Connection: keep-alive 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Cookie: PHPSESSID=c6ru26am10esv6net1ni22ion3 
+Upgrade-Insecure-Requests: 1 
+Sec-Fetch-Dest: document 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-User: ?1 
+Priority: u=0, i 
+Authorization:  
+Time : [10:32:52]
+Host: msizone.mastersystem.co.id 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8 
+Accept-Language: en-US,en;q=0.5 
+Accept-Encoding: gzip, deflate, br, zstd 
+Content-Type: application/x-www-form-urlencoded 
+Content-Length: 2163 
+Origin: https://msizone.mastersystem.co.id 
+Connection: keep-alive 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Cookie: PHPSESSID=c6ru26am10esv6net1ni22ion3 
+Upgrade-Insecure-Requests: 1 
+Sec-Fetch-Dest: document 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-User: ?1 
+Priority: u=0, i 
+Authorization:  
+Time : [10:34:04]
+Host: msizone.mastersystem.co.id 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8 
+Accept-Language: en-US,en;q=0.5 
+Accept-Encoding: gzip, deflate, br, zstd 
+Content-Type: application/x-www-form-urlencoded 
+Content-Length: 2432 
+Origin: https://msizone.mastersystem.co.id 
+Connection: keep-alive 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Cookie: PHPSESSID=c6ru26am10esv6net1ni22ion3 
+Upgrade-Insecure-Requests: 1 
+Sec-Fetch-Dest: document 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-User: ?1 
+Priority: u=0, i 
+Authorization:  
+
+Time : [10:35:51]
+Host: msizone.mastersystem.co.id 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8 
+Accept-Language: en-US,en;q=0.5 
+Accept-Encoding: gzip, deflate, br, zstd 
+Content-Type: application/x-www-form-urlencoded 
+Content-Length: 2568 
+Origin: https://msizone.mastersystem.co.id 
+Connection: keep-alive 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Cookie: PHPSESSID=c6ru26am10esv6net1ni22ion3 
+Upgrade-Insecure-Requests: 1 
+Sec-Fetch-Dest: document 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-User: ?1 
+Priority: u=0, i 
+Authorization:  
+
+Time : [10:57:33]
+Host: msizone.mastersystem.co.id 
+Connection: keep-alive 
+Content-Length: 2319 
+Cache-Control: max-age=0 
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129" 
+sec-ch-ua-mobile: ?0 
+sec-ch-ua-platform: "Windows" 
+Origin: https://msizone.mastersystem.co.id 
+Content-Type: application/x-www-form-urlencoded 
+Upgrade-Insecure-Requests: 1 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-User: ?1 
+Sec-Fetch-Dest: document 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Accept-Encoding: gzip, deflate, br, zstd 
+Accept-Language: en-US,en;q=0.9 
+Cookie: PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/; PHPSESSID=umccdtoq3c4mr8g40ip4a4ogsq 
+Authorization:  
+Time : [11:02:57]
+Host: msizone.mastersystem.co.id 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8 
+Accept-Language: en-US,en;q=0.5 
+Accept-Encoding: gzip, deflate, br, zstd 
+Content-Type: application/x-www-form-urlencoded 
+Content-Length: 2298 
+Origin: https://msizone.mastersystem.co.id 
+Connection: keep-alive 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Cookie: PHPSESSID=c6ru26am10esv6net1ni22ion3; PrefixName=TB000523B0035_; CustomerCode=CB0005; CustomerName=BANK DANAMON INDONESIA TBK; OrderNumber=ORD-2024-03104; FolderTarget=media/documents/projects/CB0005_BANK_DANAMON_INDONESIA_TBK/TB000523B0035/service_budget/ 
+Upgrade-Insecure-Requests: 1 
+Sec-Fetch-Dest: document 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-User: ?1 
+Priority: u=0, i 
+Authorization:  
+Time : [11:04:53]
+Host: msizone.mastersystem.co.id 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8 
+Accept-Language: en-US,en;q=0.5 
+Accept-Encoding: gzip, deflate, br, zstd 
+Content-Type: application/x-www-form-urlencoded 
+Content-Length: 2573 
+Origin: https://msizone.mastersystem.co.id 
+Connection: keep-alive 
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval 
+Cookie: PHPSESSID=c6ru26am10esv6net1ni22ion3; PrefixName=TB000523B0035_; CustomerCode=CB0005; CustomerName=BANK DANAMON INDONESIA TBK; OrderNumber=ORD-2024-03104; FolderTarget=media/documents/projects/CB0005_BANK_DANAMON_INDONESIA_TBK/TB000523B0035/service_budget/ 
+Upgrade-Insecure-Requests: 1 
+Sec-Fetch-Dest: document 
+Sec-Fetch-Mode: navigate 
+Sec-Fetch-Site: same-origin 
+Sec-Fetch-User: ?1 
+Priority: u=0, i 
+Authorization:  
+
+Time : [11:05:24]
+Host: msizone.mastersystem.co.id
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 2920
+Origin: https://msizone.mastersystem.co.id
+Connection: keep-alive
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval
+Cookie: PHPSESSID=c6ru26am10esv6net1ni22ion3; PrefixName=TB000523B0035_; CustomerCode=CB0005; CustomerName=BANK DANAMON INDONESIA TBK; OrderNumber=ORD-2024-03104; FolderTarget=media/documents/projects/CB0005_BANK_DANAMON_INDONESIA_TBK/TB000523B0035/service_budget/
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+Authorization: 
+
+Time : [11:06:10]
+Host: msizone.mastersystem.co.id
+Connection: keep-alive
+Content-Length: 2919
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Origin: https://msizone.mastersystem.co.id
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/; PHPSESSID=umccdtoq3c4mr8g40ip4a4ogsq
+Authorization: 
+Time : [11:09:38]
+Authorization: Basic d3N5YWtpbmFoQGdtYWlsLmNvbTpQQHNzdzByZDEyMw==
+
+Time : [11:10:37]
+Host: msizone.mastersystem.co.id
+Connection: keep-alive
+Content-Length: 3622
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Origin: https://msizone.mastersystem.co.id
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/; PHPSESSID=umccdtoq3c4mr8g40ip4a4ogsq
+Authorization: 
+Time : [11:10:51]
+Authorization: Basic d3N5YWtpbmFoQGdtYWlsLmNvbTpQQHNzdzByZDEyMw==
+Host: msizone.mastersystem.co.id
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 3326
+Origin: https://msizone.mastersystem.co.id
+Connection: keep-alive
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval
+Cookie: PHPSESSID=c6ru26am10esv6net1ni22ion3; PrefixName=TB000523B0035_; CustomerCode=CB0005; CustomerName=BANK DANAMON INDONESIA TBK; OrderNumber=ORD-2024-03104; FolderTarget=media/documents/projects/CB0005_BANK_DANAMON_INDONESIA_TBK/TB000523B0035/service_budget/
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+Authorization: 
+
+Time : [11:11:11]
+Host: msizone.mastersystem.co.id
+Connection: keep-alive
+Content-Length: 3643
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Origin: https://msizone.mastersystem.co.id
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/; PHPSESSID=umccdtoq3c4mr8g40ip4a4ogsq
+Authorization: 
+Time : [11:11:14]
+Host: msizone.mastersystem.co.id
+Connection: keep-alive
+Content-Length: 3643
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Origin: https://msizone.mastersystem.co.id
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://msizone.mastersystem.co.id/index.php?mod=eval
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: PrefixName=TB032924C0009_; CustomerCode=CB0329; CustomerName=BANK SYARIAH INDONESIA Tbk.; OrderNumber=ORD-2024-02888; FolderTarget=media/documents/projects/CB0329_BANK_SYARIAH_INDONESIA_Tbk/TB032924C0009/service_budget/; PHPSESSID=umccdtoq3c4mr8g40ip4a4ogsq
+Authorization: 
+Time : [11:11:19]
+Authorization: Basic d3N5YWtpbmFoQGdtYWlsLmNvbTpQQHNzdzByZDEyMw==
+0: Authorization: Basic d3N5YWtpbmFoQGdtYWlsLmNvbTpQQHNzdzByZDEyMw==
+
+Time : [11:12:17]
+Authorization: Basic d3N5YWtpbmFoQGdtYWlsLmNvbTpQQHNzdzByZDEyMw==
+0: Authorization: Basic d3N5YWtpbmFoQGdtYWlsLmNvbTpQQHNzdzByZDEyMw==
+Time : [11:13:30]
+Authorization: Basic d3N5YWtpbmFoQGdtYWlsLmNvbTpQQHNzdzByZDEyMw==
+0: Authorization: Basic d3N5YWtpbmFoQGdtYWlsLmNvbTpQQHNzdzByZDEyMw==
+Time : [11:14:15]
+Authorization: Basic d3N5YWtpbmFoQGdtYWlsLmNvbTpQQHNzdzByZDEyMw==
+0: Authorization: Basic d3N5YWtpbmFoQGdtYWlsLmNvbTpQQHNzdzByZDEyMw==

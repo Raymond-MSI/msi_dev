@@ -1,0 +1,83 @@
+File Error Log
+
+2024-02-05 08:45:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_folder_project' doesn't exist
+- Query 		: SELECT * FROM sa_folder_project WHERE new_gd_id<>'' LIMIT 100,10
+
+
+2024-02-05 08:47:15
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_ps_service_budgets' doesn't exist
+- Query 		: SELECT * FROM sa_folder_project a left join sa_ps_service_budgets b ON a.project_code=b.project_code WHERE a.new_gd_id='' AND b.status='acknowledge' AND b.bundling<>'0;0;0' LIMIT 100,10
+
+
+2024-02-05 09:08:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_project_informations' doesn't exist
+- Query 		: select * from sa_project_informations
+
+
+2024-02-05 13:28:07
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'WR_bast_date_actual_project' in 'where clause'
+- Query 		: select * from sa_data_so WHERE WR_bast_date_actual_project<>'' AND WR_bast_date_project_implementation<>'' AND project_code_kpi='TB000523B0021'
+
+
+2024-02-05 13:28:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'WR_bast_date_actual_project' in 'where clause'
+- Query 		: select * from sa_data_so WHERE WR_bast_date_actual_project<>'' AND WR_bast_date_project_implementation<>'' 
+
+
+2024-02-05 13:28:31
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'WR_bast_date_actual_project' in 'where clause'
+- Query 		: select * from sa_data_so WHERE WR_bast_date_actual_project<>'' AND WR_bast_date_project_implementation<>'' 
+
+
+2024-02-05 16:39:39
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select * from sa_mst_user where user_email = 'malik.aulia'' at line 3
+- Query 		: desc sa_mst_users
+
+select * from sa_mst_user where user_email = 'malik.aulia'
+
+
+2024-02-05 16:39:43
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_mst_user' doesn't exist
+- Query 		: select * from sa_mst_user where user_email = 'malik.aulia'
+
+
+2024-02-05 16:39:55
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_mst_user' doesn't exist
+- Query 		: select * from sa_mst_user

@@ -1,0 +1,63 @@
+File Error Log
+
+2024-10-28 08:29:28
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '10' at line 1
+- Query 		: select * from sa_asset_list lmit 10 
+
+
+2024-10-28 10:53:45
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(25096,'Add On Preventive Maintenance 8x/Year',58043582,99,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-28 10:53:45
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(25096,'Add On Stanby Engineer Associate 4 Person',870653744,9,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-28 10:53:45
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(25096,'Add On Stanby Engineer Professional 1 Person',304728810,7,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-28 14:56:01
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(25069,'Implementasi by CDT',82069602,65,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-28 14:59:42
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(25069,'Implementasi by CDT',82069602,65,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-28 16:39:55
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(25099,'Add On Preventive Maintenance 8x/Year',44948207,58,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')

@@ -1,0 +1,72 @@
+File Error Log
+
+2024-01-17 09:00:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_preschedule' doesn't exist
+- Query 		: SELECT COUNT(a.task_name) AS total_task, a.project_id, a.project_code, b.project_type, a.resource_email FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id left join sa_wrike_integrate.sa_wrike_task c ON a.task_id=c.task_id WHERE b.response_status <>'declined' AND b.response_status<>'' AND b.response_status is not null AND a.work_date > '2023-03-31' AND a.project_id='IEAEOPF5I5CGOKDP' AND a.project_code='TB002323I0009' AND b.project_type='MSI Project Implementation' AND c.task_id is not null GROUP BY a.project_id,a.project_code,b.project_type,a.resource_email
+
+
+2024-01-17 11:14:16
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 500' at line 1
+- Query 		: SELECT * FROM sa_kpi_board WHERE status='Reviewed' AND status_approval NOT LIKE '%Pending%' AND resources LIKE '%desi.permatasari@mastersystem.co.id%' AND tahun_review =All LIMIT 0, 500
+
+
+2024-01-17 11:15:32
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 500' at line 1
+- Query 		: SELECT * FROM sa_kpi_board WHERE status='Reviewed' AND status_approval NOT LIKE '%Pending%' AND resources LIKE '%desi.permatasari@mastersystem.co.id%' AND tahun_review =All LIMIT 0, 500
+
+
+2024-01-17 11:17:20
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 500' at line 1
+- Query 		: SELECT * FROM sa_kpi_board WHERE status='Reviewed' AND status_approval NOT LIKE '%Pending%' AND resources LIKE '%@mastersystem.co.id%' AND tahun_review = LIMIT 0, 500
+
+
+2024-01-17 11:19:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 500' at line 1
+- Query 		: SELECT * FROM sa_kpi_board WHERE status='Reviewed' AND status_approval NOT LIKE '%Pending%' AND resources LIKE '%desi.permatasari@mastersystem.co.id%' AND tahun_review = LIMIT 0, 500
+
+
+2024-01-17 11:20:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 500' at line 1
+- Query 		: SELECT * FROM sa_kpi_board WHERE status='Reviewed' AND status_approval NOT LIKE '%Pending%' AND resources LIKE '%desi.permatasari@mastersystem.co.id%' AND tahun_review = LIMIT 0, 500
+
+
+2024-01-17 12:55:00
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 500' at line 1
+- Query 		: SELECT * FROM sa_kpi_board WHERE status='Reviewed' AND status_approval NOT LIKE '%Pending%' AND resources LIKE '%desi.permatasari@mastersystem.co.id%' AND tahun_review = LIMIT 0, 500
+
+
+2024-01-17 13:44:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_user' doesn't exist
+- Query 		: select * from sa_user WHERE Nama LIKE '%Anton%' OR Nama LIKE '%Adhiarta%'

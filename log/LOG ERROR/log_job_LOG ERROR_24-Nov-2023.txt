@@ -1,0 +1,18 @@
+File Error Log
+
+2023-11-24 17:10:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_user_kpi' doesn't exist
+- Query 		: select * from sa_user_kpi
+
+
+2023-11-24 17:18:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'project_id='ORD-27908-S6K7N5' AND b.response_status='accepted' AND b.diff_tim...' at line 1
+- Query 		: SELECT COUNT(a.project_id) as total_update, a.project_id, a.project_code, b.project_type FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id WHERE a,project_id='ORD-27908-S6K7N5' AND b.response_status='accepted' AND b.diff_time<>0 GROUP BY a.project_id,a.project_code,b.project_type

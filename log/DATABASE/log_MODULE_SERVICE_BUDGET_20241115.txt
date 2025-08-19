@@ -1,0 +1,152 @@
+15-Nov-2024 8:27:48
+- SubModule : 
+- Status    : Caught 'get_sql' error - [INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(25667,'Maintenance by Nolimit',42631578,95,2,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')] Column count doesn't match value count at row 1
+
+15-Nov-2024 8:27:48
+- SubModule : 
+- Status    : Caught 'get_sql' error - [INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(25667,'Maintenance by Concilium',20210526,32,2,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')] Column count doesn't match value count at row 1
+
+15-Nov-2024 8:37:46
+- SubModule : 
+- Status    : Caught 'get_sql' error - [INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(25667,'Maintenance by Nolimit',42631578,95,2,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')] Column count doesn't match value count at row 1
+
+15-Nov-2024 8:37:46
+- SubModule : 
+- Status    : Caught 'get_sql' error - [INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(25667,'Maintenance by Concilium',20210526,32,2,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')] Column count doesn't match value count at row 1
+
+15-Nov-2024 9:11:11
+- SubModule : 
+- Status    : Caught 'get_sql' error - [INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(25667,'Maintenance by Nolimit',42631578,95,2,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')] Column count doesn't match value count at row 1
+
+15-Nov-2024 10:32:54
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = '0'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:02:19
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:02:19
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:06:02
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:06:02
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:07:08
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:07:08
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:09:27
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:09:27
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:10:31
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:10:31
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:13:16
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:13:16
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:14:58
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:14:58
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:19:19
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:19:19
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:20:25
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:20:25
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:21:37
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:21:37
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:27:07
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:27:07
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:28:51
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:28:51
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:29:52
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:29:52
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:30:52
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:30:52
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:31:50
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:31:50
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:32:58
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+15-Nov-2024 15:32:58
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+

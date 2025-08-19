@@ -1,0 +1,291 @@
+File Error Log
+
+2024-08-21 09:58:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_rental_product_list.nomor_seri,
+sa_rental_product_list.part_number, 
+     ...' at line 3
+- Query 		: 
+  SELECT 
+  count(sa_rental_product_list.part_number) as count_number_part
+  sa_rental_product_list.nomor_seri,
+sa_rental_product_list.part_number, 
+         sa_rental_transaction_product.status_product, 
+         sa_rental_transaction_product.status_return
+  FROM sa_rental_product_list
+  LEFT JOIN sa_rental_transaction_product 
+    ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri 
+  WHERE sa_rental_transaction_product.status_product IS NULL 
+    AND sa_rental_transaction_product.status_return IS NULL
+    group by sa_rental_product_list.part_number;
+
+
+
+2024-08-21 09:58:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_rental_product_list.nomor_seri,
+sa_rental_product_list.part_number, 
+     ...' at line 3
+- Query 		: 
+  SELECT 
+  count(sa_rental_product_list.part_number) as count_number_part
+  sa_rental_product_list.nomor_seri,
+sa_rental_product_list.part_number, 
+         sa_rental_transaction_product.status_product, 
+         sa_rental_transaction_product.status_return
+  FROM sa_rental_product_list
+  LEFT JOIN sa_rental_transaction_product 
+    ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri 
+  WHERE sa_rental_transaction_product.status_product IS NULL 
+    AND sa_rental_transaction_product.status_return IS NULL
+    group by sa_rental_product_list.part_number;
+
+
+
+2024-08-21 09:59:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_rental_product_list.nomor_seri,
+sa_rental_product_list.part_number, 
+     ...' at line 3
+- Query 		: 
+  SELECT 
+  count(sa_rental_product_list.part_number) as count_number_part
+  sa_rental_product_list.nomor_seri,
+sa_rental_product_list.part_number, 
+         sa_rental_transaction_product.status_product, 
+         sa_rental_transaction_product.status_return
+  FROM sa_rental_product_list
+  LEFT JOIN sa_rental_transaction_product 
+    ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri 
+  WHERE sa_rental_transaction_product.status_product IS NULL 
+    AND sa_rental_transaction_product.status_return IS NULL
+    group by sa_rental_product_list.part_number;
+
+
+
+2024-08-21 09:59:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_rental_product_list.nomor_seri,
+sa_rental_product_list.part_number, 
+     ...' at line 3
+- Query 		: 
+  SELECT 
+  count(sa_rental_product_list.part_number) as count_number_part
+  sa_rental_product_list.nomor_seri,
+sa_rental_product_list.part_number, 
+         sa_rental_transaction_product.status_product, 
+         sa_rental_transaction_product.status_return
+  FROM sa_rental_product_list
+  LEFT JOIN sa_rental_transaction_product 
+    ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri 
+  WHERE sa_rental_transaction_product.status_product IS NULL 
+    AND sa_rental_transaction_product.status_return IS NULL
+    group by sa_rental_product_list.part_number;
+
+
+
+2024-08-21 14:59:46
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'lokai' in 'where clause'
+- Query 		: select * from sa_rental_product_list where tipe_aset = 'Titipan' and lokai = 'Sudirman Park'
+
+
+2024-08-21 15:04:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mtlamaa
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''5',
+                flag='0',
+                entry_by='Chrisheryanda Eka Sa...' at line 14
+- Query 		: UPDATE `sa_master_maintenance_date` SET 
+                ontime='1',
+                gabungan='0',
+                openitem='0',
+                ontime_notes='',
+                notes='',
+                notes_openitem='',
+                ticket_allocation='6', 
+                mt_report_date='2',
+                preventive_mt_date='4',
+                total_ticket_allocation='6', 
+                total_mt_report_date='2',
+                total_preventive_mt_date='4',
+                total_backup_mt_date'5',
+                flag='0',
+                entry_by='Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>',
+                approval_to='Syamsul Arham<syamsul@mastersystem.co.id>',
+                approval_status='pending' WHERE project_code='TI000823E0009' AND order_number='ORD-2024-00264'
+
+
+2024-08-21 15:31:36
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2024-05-01 < 2024-05-06' at line 1
+- Query 		: SELECT * FROM sa_rental_transaction_product where created_at 2024-05-01 < 2024-05-06
+
+
+2024-08-21 15:31:36
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2024-05-01 < 2024-05-06' at line 1
+- Query 		: SELECT * FROM sa_rental_transaction_product where created_at 2024-05-01 < 2024-05-06
+
+
+2024-08-21 15:39:24
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mtlamaa
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''13',
+                flag='0',
+                entry_by='Chrisheryanda Eka S...' at line 14
+- Query 		: UPDATE `sa_master_maintenance_date` SET 
+                ontime='1',
+                gabungan='0',
+                openitem='0',
+                ontime_notes='',
+                notes='Handover dari implementasi',
+                notes_openitem='',
+                ticket_allocation='2', 
+                mt_report_date='1',
+                preventive_mt_date='12',
+                total_ticket_allocation='2', 
+                total_mt_report_date='1',
+                total_preventive_mt_date='12',
+                total_backup_mt_date'13',
+                flag='0',
+                entry_by='Chrisheryanda Eka Saputra<chrisheryanda@mastersystem.co.id>',
+                approval_to='Syamsul Arham<syamsul@mastersystem.co.id>',
+                approval_status='pending' WHERE project_code='TB002722D0087' AND order_number='ORD-2023-00338'
+
+
+2024-08-21 15:45:31
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND' at line 3
+- Query 		: SELECT * 
+FROM sa_rental_transaction_product 
+WHERE created_at BETWEEN  AND ;
+
+
+
+2024-08-21 15:45:31
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND' at line 3
+- Query 		: SELECT * 
+FROM sa_rental_transaction_product 
+WHERE created_at BETWEEN  AND ;
+
+
+
+2024-08-21 15:45:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 3
+- Query 		: SELECT * 
+FROM sa_rental_transaction_product 
+WHERE created_at BETWEEN 2024-06-01 AND ;
+
+
+
+2024-08-21 15:45:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 3
+- Query 		: SELECT * 
+FROM sa_rental_transaction_product 
+WHERE created_at BETWEEN 2024-06-01 AND ;
+
+
+
+2024-08-21 16:13:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_resource_assignment' doesn't exist
+- Query 		: select * from sa_resource_assignment LIMIT 10
+
+
+2024-08-21 16:15:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Resource from sa_resource_assignment WHERE approval_status='pending' AND star...' at line 1
+- Query 		: select project_code,order_number,no_so,customer_name,project_name,COUNT(resource_email) as Pending Resource from sa_resource_assignment WHERE approval_status='pending' AND start_date is not null AND start_date<>'' AND project_type='Maintenance' GROUP BY project_id
+
+
+2024-08-21 16:15:29
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Resource from sa_resource_assignment WHERE approval_status='pending' AND star...' at line 1
+- Query 		: select project_code,order_number,no_so,customer_name,project_name,COUNT(resource_email) as Pending Resource from sa_resource_assignment WHERE approval_status='pending' AND start_date is not null AND start_date<>'' AND project_type='Maintenance' GROUP BY project_id
+
+
+2024-08-21 16:47:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_resource_assignment' doesn't exist
+- Query 		: select * from sa_resource_assignment WHERE project_code LIKE '%TE007819G0001%'
+
+
+2024-08-21 16:55:56
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'dan lokasi = 'Aktif'' at line 1
+- Query 		: select count(*) from sa_rental_product_list where status_aset = 'Aktif' dan lokasi = 'Aktif'
+
+
+2024-08-21 17:59:47
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB007322F0002', 
+                    'ORD-29111-V8D6M7', 
+                    'pmr_date',
+                    'Za\'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>',
+                    NULLIF('Array',''))

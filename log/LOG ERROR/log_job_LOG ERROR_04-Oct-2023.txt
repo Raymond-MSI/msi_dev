@@ -1,0 +1,496 @@
+File Error Log
+
+2023-10-04 00:33:25
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'productivity' in 'field list'
+- Query 		: select project_type, count(productivity) as total from sa_trx_productivity where task_date >= '2023-09-27' and task_date <= '2023-10-11' group by project_type
+
+
+2023-10-04 00:33:41
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'productivity' in 'field list'
+- Query 		: select project_type, count(productivity) as `total` from sa_trx_productivity where task_date >= '2023-09-27' and task_date <= '2023-10-11' group by project_type
+
+
+2023-10-04 00:40:06
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '+ '2023-09-27' and task_date <= '2023-10-1' group by project_type' at line 1
+- Query 		: select project_type, count(productivity_id) as `plan`, sum(if(spen_time>0,1,0)) as `actual` from sa_trx_productivity where task_dare .+ '2023-09-27' and task_date <= '2023-10-1' group by project_type
+
+
+2023-10-04 00:40:37
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'task_dare' in 'where clause'
+- Query 		: select project_type, count(productivity_id) as `plan`, sum(if(spen_time>0,1,0)) as `actual` from sa_trx_productivity where task_dare >= '2023-09-27' and task_date <= '2023-10-1' group by project_type
+
+
+2023-10-04 00:44:18
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MSI Project Maintenance', if(project_type="MSI Non-Project', 'Non-Project', i...' at line 1
+- Query 		: select if(project_type='MSI Project Implementation', "Implementation', if(project_type="MSI Project Maintenance', if(project_type="MSI Non-Project', 'Non-Project', if(project_type='MSI Self Improvement', 'Self Improvement', "none')))) as `type`, count(productivity_id) as `plan`, sum(if(spen_time>0,1,0)) as `actual` from sa_trx_productivity where task_date >= '2023-09-27' and task_date <= '2023-10-1' group by project_type
+
+
+2023-10-04 00:44:47
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '"none')))) as `type`, count(productivity_id) as `plan`, sum(if(spen_time>0,1,...' at line 1
+- Query 		: select if(project_type='MSI Project Implementation', 'Implementation', if(project_type='MSI Project Maintenance', if(project_type='MSI Non-Project', 'Non-Project', if(project_type='MSI Self Improvement', 'Self Improvement', "none')))) as `type`, count(productivity_id) as `plan`, sum(if(spen_time>0,1,0)) as `actual` from sa_trx_productivity where task_date >= '2023-09-27' and task_date <= '2023-10-1' group by project_type
+
+
+2023-10-04 00:44:56
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')) as `type`, count(productivity_id) as `plan`, sum(if(spen_time>0,1,0)) as `...' at line 1
+- Query 		: select if(project_type='MSI Project Implementation', 'Implementation', if(project_type='MSI Project Maintenance', if(project_type='MSI Non-Project', 'Non-Project', if(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) as `type`, count(productivity_id) as `plan`, sum(if(spen_time>0,1,0)) as `actual` from sa_trx_productivity where task_date >= '2023-09-27' and task_date <= '2023-10-1' group by project_type
+
+
+2023-10-04 08:44:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_schedule' doesn't exist
+- Query 		: select * from sa_schedule WHERE attendees_email='aceng.zakariya@mastersystem.co.id'
+
+
+2023-10-04 12:35:36
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2023-09-27' and task_date <= '2023-10-1' 
+GROUP BY project_type' at line 24
+- Query 		: SELECT 
+    IF(
+        project_type='MSI Project Implementation', 
+        'Implementation', 
+        IF(
+            project_type='MSI Project Maintenance', 
+            'Maintenance', 
+            if(
+                project_type='MSI Non-Project', 
+                'Non-Project', 
+                if(
+                    project_type='MSI Self Improvement', 
+                    'Self Improvement', 
+                    'none'
+                )
+            )
+        )
+    ) as `type`, 
+    count(productivity_id) as `plan`, 
+    SUM(
+        IF(
+            spen_time>0,
+            IF(
+                status_calender='accepted,
+                1,
+                0
+            )
+        ) as `accepted` 
+FROM sa_trx_productivity 
+WHERE task_date >= '2023-09-27' and task_date <= '2023-10-1' 
+GROUP BY project_type
+
+
+
+2023-10-04 12:37:40
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2023-09-27' and task_date <= '2023-10-1' 
+GROUP BY project_type' at line 24
+- Query 		: SELECT 
+    IF(
+        project_type='MSI Project Implementation', 
+        'Implementation', 
+        IF(
+            project_type='MSI Project Maintenance', 
+            'Maintenance', 
+            IF(
+                project_type='MSI Non-Project', 
+                'Non-Project', 
+                IF(
+                    project_type='MSI Self Improvement', 
+                    'Self Improvement', 
+                    'none'
+                )
+            )
+        )
+    ) as `type`, 
+    count(productivity_id) as `plan`, 
+    SUM(
+        IF(
+            spen_time>0,
+            IF(
+                status_calender='accepted,
+                1,
+                0
+            ),
+            ""
+        )
+    ) as `accepted` 
+FROM sa_trx_productivity 
+WHERE task_date >= '2023-09-27' and task_date <= '2023-10-1' 
+GROUP BY project_type
+
+
+
+2023-10-04 12:38:19
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2023-09-27' and task_date <= '2023-10-1' 
+GROUP BY project_type' at line 24
+- Query 		: SELECT 
+    IF(
+        project_type='MSI Project Implementation', 
+        'Implementation', 
+        IF(
+            project_type='MSI Project Maintenance', 
+            'Maintenance', 
+            IF(
+                project_type='MSI Non-Project', 
+                'Non-Project', 
+                IF(
+                    project_type='MSI Self Improvement', 
+                    'Self Improvement', 
+                    'none'
+                )
+            )
+        )
+    ) as `type`, 
+    count(productivity_id) as `plan`, 
+    SUM(
+        IF(
+            spen_time>0,
+            IF(
+                status_calender='accepted,
+                1,
+                0
+            ),
+            0
+        )
+    ) as `accepted` 
+FROM sa_trx_productivity 
+WHERE task_date >= '2023-09-27' and task_date <= '2023-10-1' 
+GROUP BY project_type
+
+
+
+2023-10-04 12:43:28
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_trx_productivity 
+WHERE task_date >= '2023-09-27' and task_date <= '...' at line 59
+- Query 		: SELECT 
+    IF(
+        project_type='MSI Project Implementation', 
+        'Implementation', 
+        IF(
+            project_type='MSI Project Maintenance', 
+            'Maintenance', 
+            IF(
+                project_type='MSI Non-Project', 
+                'Non-Project', 
+                IF(
+                    project_type='MSI Self Improvement', 
+                    'Self Improvement', 
+                    'none'
+                )
+            )
+        )
+    ) as `type`, 
+    count(productivity_id) as `plan`, 
+    SUM(
+        IF(
+            spen_time>0,
+            IF(
+                status_calender='accepted',
+                1,
+                0
+            ),
+            0
+        )
+    ) as `accepted` ,
+    SUM(
+        IF(
+            status_calender='needsAction',
+            1,
+            0
+        )
+    ) as `needsAction` ,
+    SUM(
+        IF(
+            status_calender='declined',
+            1,
+            0
+        )
+    ) as `declined` ,
+    SUM(
+        IF(
+            status_calender='tentative',
+            1,
+            0
+        )
+    ) as `tentaive`,
+    SUM(
+        IF(
+            status_calender=NULL,
+            1,
+            0
+        )
+    ) as `None` ,
+FROM sa_trx_productivity 
+WHERE task_date >= '2023-09-27' and task_date <= '2023-10-1' 
+GROUP BY project_type
+
+
+
+2023-10-04 12:45:04
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_trx_productivity 
+WHERE task_date >= '2023-09-27' and task_date <= '...' at line 60
+- Query 		: SELECT 
+    IF(
+        project_type='MSI Project Implementation', 
+        'Implementation', 
+        IF(
+            project_type='MSI Project Maintenance', 
+            'Maintenance', 
+            IF(
+                project_type='MSI Non-Project', 
+                'Non-Project', 
+                IF(
+                    project_type='MSI Self Improvement', 
+                    'Self Improvement', 
+                    'none'
+                )
+            )
+        )
+    ) as `type`, 
+    count(productivity_id) as `plan`, 
+    SUM(
+        IF(
+            spen_time>0,
+            IF(
+                status_calender='accepted',
+                1,
+                0
+            ),
+            0
+        )
+    ) as `accepted` ,
+    SUM(
+        IF(
+            status_calender='needsAction',
+            1,
+            0
+        )
+    ) as `needsAction` ,
+    SUM(
+        IF(
+            status_calender='declined',
+            1,
+            0
+        )
+    ) as `declined` ,
+    SUM(
+        IF(
+            status_calender='tentative',
+            1,
+            0
+        )
+    ) as `tentative`,
+    SUM(
+        IF(
+            status_calender='',
+            1,
+            0
+        )
+    ) as `none` ,
+
+FROM sa_trx_productivity 
+WHERE task_date >= '2023-09-27' and task_date <= '2023-10-1' 
+GROUP BY project_type
+
+
+
+2023-10-04 12:45:25
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '',
+            1,
+            0
+        )
+    ) as `none` ,
+
+FROM sa_tr...' at line 54
+- Query 		: SELECT 
+    IF(
+        project_type='MSI Project Implementation', 
+        'Implementation', 
+        IF(
+            project_type='MSI Project Maintenance', 
+            'Maintenance', 
+            IF(
+                project_type='MSI Non-Project', 
+                'Non-Project', 
+                IF(
+                    project_type='MSI Self Improvement', 
+                    'Self Improvement', 
+                    'none'
+                )
+            )
+        )
+    ) as `type`, 
+    count(productivity_id) as `plan`, 
+    SUM(
+        IF(
+            spen_time>0,
+            IF(
+                status_calender='accepted',
+                1,
+                0
+            ),
+            0
+        )
+    ) as `accepted` ,
+    SUM(
+        IF(
+            status_calender='needsAction',
+            1,
+            0
+        )
+    ) as `needsAction` ,
+    SUM(
+        IF(
+            status_calender='declined',
+            1,
+            0
+        )
+    ) as `declined` ,
+    SUM(
+        IF(
+            status_calender='tentative',
+            1,
+            0
+        )
+    ) as `tentative`,
+    SUM(
+        IF(
+            status_calender IS NULL',
+            1,
+            0
+        )
+    ) as `none` ,
+
+FROM sa_trx_productivity 
+WHERE task_date >= '2023-09-27' and task_date <= '2023-10-1' 
+GROUP BY project_type
+
+
+
+2023-10-04 12:45:31
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '',
+            1,
+            0
+        )
+    ) as `none` 
+
+FROM sa_trx...' at line 54
+- Query 		: SELECT 
+    IF(
+        project_type='MSI Project Implementation', 
+        'Implementation', 
+        IF(
+            project_type='MSI Project Maintenance', 
+            'Maintenance', 
+            IF(
+                project_type='MSI Non-Project', 
+                'Non-Project', 
+                IF(
+                    project_type='MSI Self Improvement', 
+                    'Self Improvement', 
+                    'none'
+                )
+            )
+        )
+    ) as `type`, 
+    count(productivity_id) as `plan`, 
+    SUM(
+        IF(
+            spen_time>0,
+            IF(
+                status_calender='accepted',
+                1,
+                0
+            ),
+            0
+        )
+    ) as `accepted` ,
+    SUM(
+        IF(
+            status_calender='needsAction',
+            1,
+            0
+        )
+    ) as `needsAction` ,
+    SUM(
+        IF(
+            status_calender='declined',
+            1,
+            0
+        )
+    ) as `declined` ,
+    SUM(
+        IF(
+            status_calender='tentative',
+            1,
+            0
+        )
+    ) as `tentative`,
+    SUM(
+        IF(
+            status_calender IS NULL',
+            1,
+            0
+        )
+    ) as `none` 
+
+FROM sa_trx_productivity 
+WHERE task_date >= '2023-09-27' and task_date <= '2023-10-1' 
+GROUP BY project_type
+

@@ -1,0 +1,279 @@
+File Error Log
+
+2024-09-30 09:51:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_wrike_project_list' doesn't exist
+- Query 		: select * from sa_wrike_project_list WHERE project_id IN ('IEAEOPF5I47UKDLX','IEAEOPF5I423CFUW','IEAEOPF5I423CGQD')
+
+
+2024-09-30 09:51:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_wrike_project_list' doesn't exist
+- Query 		: select * from sa_wrike_project_list WHERE id IN ('IEAEOPF5I47UKDLX','IEAEOPF5I423CFUW','IEAEOPF5I423CGQD')
+
+
+2024-09-30 10:39:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_assesment' doesn't exist
+- Query 		: select * from sa_assesment limit 10
+
+
+2024-09-30 12:05:20
+- Server 		: Prod
+- User 			: agdi.rizky@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Lost connection to backend server: connection closed by peer (server3: Generated event)
+- Query 		: SELECT * FROM sa_trx_project_list WHERE project_code='TB001023C0020' AND order_number='ORD-2024-01801'
+
+
+2024-09-30 12:05:20
+- Server 		: Prod
+- User 			: agdi.rizky@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE project_code = 'TB001023C0020' AND order_number='ORD-2024-01801' AND project_type LIKE '%Maintenance%'
+
+
+2024-09-30 12:05:20
+- Server 		: Prod
+- User 			: agdi.rizky@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_view_employees_v2 WHERE (job_structure LIKE '%JG%' OR job_structure LIKE '%LWW%' OR job_structure LIKE '%RBC%' OR job_structure LIKE '%Engineer%')  AND employee_email <> '' AND resign_date IS NULL ORDER BY employee_name
+
+
+2024-09-30 12:05:24
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-09-30 13:33:12
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: change_request_mt
+- SubModule		:  
+- Status 		: Unknown column 'cr_template' in 'where clause'
+- Query 		: SELECT * FROM sa_general_informations WHERE requested_by_email='chrisheryanda@mastersystem.co.id' AND cr_template is not null ORDER BY gi_id DESC LIMIT 0, 600
+
+
+2024-09-30 13:36:03
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: change_request_mt
+- SubModule		:  
+- Status 		: Unknown column 'cr_template' in 'where clause'
+- Query 		: SELECT * FROM sa_general_informations WHERE requested_by_email='chrisheryanda@mastersystem.co.id' AND cr_template is not null ORDER BY gi_id DESC LIMIT 0, 600
+
+
+2024-09-30 13:36:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: change_request_mt
+- SubModule		:  
+- Status 		: Unknown column 'cr_template' in 'where clause'
+- Query 		: SELECT * FROM sa_general_informations WHERE requested_by_email='chrisheryanda@mastersystem.co.id' AND cr_template is not null ORDER BY gi_id DESC LIMIT 0, 600
+
+
+2024-09-30 13:36:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: change_request_mt
+- SubModule		:  
+- Status 		: Unknown column 'cr_template' in 'where clause'
+- Query 		: SELECT * FROM sa_general_informations WHERE change_request_status='submission_to_be_reviewed' AND change_request_approval_type='submission_to_be_reviewed' AND cr_template is not null OR change_request_approval_type2='submission_to_be_reviewed' AND cr_template is not null ORDER BY gi_id DESC LIMIT 0, 600
+
+
+2024-09-30 13:36:16
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: change_request_mt
+- SubModule		:  
+- Status 		: Unknown column 'cr_template' in 'where clause'
+- Query 		: SELECT * FROM sa_general_informations WHERE requested_by_email='chrisheryanda@mastersystem.co.id' AND cr_template is not null ORDER BY gi_id DESC LIMIT 0, 600
+
+
+2024-09-30 14:19:20
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown data type: 'status_approval_pv_post_sales'
+- Query 		: ALTER TABLE sa_general_informations ADD pic_pv_post_sales VARCHAR(50) NULL AFTER pic_presales, ADD pic_head_mt VARCHAR(50) NULL AFTER pic_pv_post_sales, ADD pic_enterprise VARCHAR(50) NULL AFTER pic_head_mt, ADD CR status_approval_pv_post_sales VARCHAR(50) NULL AFTER CR_status_approval_presales, ADD CR_status_approval_head_mt VARCHAR(50) NULL AFTER CR_status_approval_pv_post_sales, ADD CR_status_approval_enterprise VARCHAR(50) NULL AFTER CR_status_approval_head_mt
+
+
+2024-09-30 15:17:16
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_resource_assignment' doesn't exist
+- Query 		: select * from sa_resource_assignment limit 10
+
+
+2024-09-30 15:26:28
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Data too long for column 'status_approval' at row 1
+- Query 		: update sa_rental_transaction 
+set status_approval = 'Cancel Pending'
+where id = 'cfa067aa5df114a4d219f745b59edf1a'
+
+
+2024-09-30 15:27:42
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Data too long for column 'status_approval' at row 1
+- Query 		: update sa_rental_transaction 
+set status_approval = 'Cancel Pending'
+where id = 'cfa067aa5df114a4d219f745b59edf1a'
+
+
+2024-09-30 15:28:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Data too long for column 'status_approval' at row 1
+- Query 		: update sa_rental_transaction 
+set status_approval = "Cancel Pending"
+where id = 'cfa067aa5df114a4d219f745b59edf1a'
+
+
+2024-09-30 15:28:18
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Data too long for column 'status_approval' at row 1
+- Query 		: update sa_rental_transaction
+set status_approval = "Cancel Pending"
+where id = 'cfa067aa5df114a4d219f745b59edf1a'
+
+
+2024-09-30 15:28:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Data too long for column 'status_approval' at row 1
+- Query 		: update sa_rental_transaction
+set status_approval = "Cancel Pending"
+where id = 'cfa067aa5df114a4d219f745b59edf1a'
+
+
+2024-09-30 15:29:12
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Data too long for column 'status_approval' at row 1
+- Query 		: update sa_rental_transaction
+set status_approval = "Cancel Pending"
+where id = 'cfa067aa5df114a4d219f745b59edf1a'
+
+
+2024-09-30 15:29:56
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Data too long for column 'status_approval' at row 1
+- Query 		: UPDATE sa_rental_transaction
+SET status_approval = "Cancel Pending"
+WHERE id= "cfa067aa5df114a4d219f745b59edf1a"; 
+
+
+2024-09-30 15:31:16
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Data too long for column 'status_approval' at row 1
+- Query 		: UPDATE sa_rental_transaction 
+SET status_approval = 'Cancel Pending'
+where id = 'cfa067aa5df114a4d219f745b59edf1a'
+
+
+2024-09-30 15:45:20
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0288f86b7cd7cc5e63489a6fed65351e''' at line 3
+- Query 		: UPDATE sa_rental_transaction 
+SET nomor_transaksi = 'CS-LC-24-09-0036'
+where id = ''0288f86b7cd7cc5e63489a6fed65351e''
+
+
+2024-09-30 15:57:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: dashboard_cr
+- SubModule		:  
+- Status 		: Column 'cr_no' in where clause is ambiguous
+- Query 		: SELECT a.so_number,a.project_code,a.order_number,a.customer,a.project_name,b.pic,c.used_ticket,a.change_request_status,a.project_manager from sa_general_informations a left join sa_detail_plans b ON a.cr_no=b.cr_no left join sa_change_cost_plans c ON a.cr_no=c.cr_no WHERE a.type_cr is not null AND cr_no LIKE '%MT%' AND order_number is not null
+
+
+2024-09-30 16:00:32
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: dashboard_cr
+- SubModule		:  
+- Status 		: Column 'cr_no' in where clause is ambiguous
+- Query 		: SELECT a.so_number,a.project_code,a.order_number,a.customer,a.project_name,b.pic,c.used_ticket,a.change_request_status,a.project_manager from sa_general_informations a left join sa_detail_plans b ON a.cr_no=b.cr_no left join sa_change_cost_plans c ON a.cr_no=c.cr_no WHERE a.type_cr is not null AND cr_no LIKE '%MT%' AND project_code is not null
+
+
+2024-09-30 16:01:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: dashboard_cr
+- SubModule		:  
+- Status 		: Column 'cr_no' in where clause is ambiguous
+- Query 		: SELECT a.so_number,a.project_code,a.order_number,a.customer,a.project_name,b.pic,c.used_ticket,a.change_request_status,a.project_manager from sa_general_informations a left join sa_detail_plans b ON a.cr_no=b.cr_no left join sa_change_cost_plans c ON a.cr_no=c.cr_no WHERE a.type_cr is not null AND cr_no LIKE '%MT%' AND project_code is not null
+
+
+2024-09-30 16:03:49
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Column 'project_code' in where clause is ambiguous
+- Query 		: SELECT a.so_number,a.project_code,a.order_number,a.customer,a.project_name,b.pic,c.used_ticket,a.change_request_status,a.project_manager from sa_general_informations a left join sa_detail_plans b ON a.cr_no=b.cr_no left join sa_change_cost_plans c ON a.cr_no=c.cr_no WHERE a.type_cr is not null AND project_code is not null AND cr_no LIKE '%MT%'
+
+
+2024-09-30 16:32:03
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: dashboard_cr
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_general_information' doesn't exist
+- Query 		: SELECT a.cr_no,a.project_code,a.so_number,a.order_number,a.customer,a.project_name,b.used_ticket FROM sa_general_information a left join sa_change_cost_plans b ON a.cr_no=b.cr_no WHERE a.cr_no='240930-CR-MT-0896'
+
+
+2024-09-30 17:26:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_trx_project_list' doesn't exist
+- Query 		: select * from sa_trx_project_list WHERE project_code='TB001721D0024'

@@ -1,0 +1,81 @@
+File Error Log
+
+2024-07-30 08:27:20
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_wrike_project_List' doesn't exist
+- Query 		: select * from sa_wrike_project_List WHERE project_code='TB016322B0002'
+
+
+2024-07-30 08:27:53
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_preschedule' doesn't exist
+- Query 		: select * from sa_preschedule WHERE project_id='IEAEOPF5I5CTNJ22'
+
+
+2024-07-30 10:33:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_master_maintenance_date_kpi' doesn't exist
+- Query 		: SELECT * FROM sa_master_maintenance_date_kpi WHERE order_number='ORD-2023-01617'
+
+
+2024-07-30 10:33:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_master_maintenance_date_kpi' doesn't exist
+- Query 		: SELECT * FROM sa_master_maintenance_date_kpi WHERE order_number='ORD-2023-01617'
+
+
+2024-07-30 10:35:24
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_master_maintenance_date_kpi' doesn't exist
+- Query 		: SELECT * FROM sa_master_maintenance_date_kpi WHERE order_number='ORD-2023-01617'
+
+
+2024-07-30 12:36:44
+- Server 		: Prod
+- User 			: oszi.fitriyanto@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,21,3,1,5,'Cisco',350,1,1,'Oszi Fitriyanto<oszi.fitriyanto@mastersystem.co.id>')
+
+
+2024-07-30 12:36:44
+- Server 		: Prod
+- User 			: oszi.fitriyanto@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,5,'Cisco',250,1,1,'Oszi Fitriyanto<oszi.fitriyanto@mastersystem.co.id>')
+
+
+2024-07-30 14:31:56
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'permalink_calender' in 'where clause'
+- Query 		: select * from sa_trx_productivity WHERE permalink_calender LIKE '%MGJ2Y2cyZnZucjh2dmJmNXFxaDRuMGhkZ3Ugc3V5b2dhLm5hbGFzd2FyYUBtYXN0ZXJzeXN0ZW0uY28uaWQ%'
+
+
+2024-07-30 15:28:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_resource_temporary' doesn't exist
+- Query 		: select * from sa_resource_temporary WHERE project_code='TB016322B0002'

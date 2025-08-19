@@ -18,19 +18,19 @@ if((isset($property)) && ($property == 1)) {
         } while($subordinate[0]=$subordinate[1]->fetch_assoc());
         $ordinate.=" OR create_by ='" . $_SESSION['Microservices_UserEmail'] . "')";
     }
-    //$mysql = "SELECT `solution_name`, SUM(`product`)/COUNT(`status`) AS `product`, SUM(`services`)/COUNT(`status`) AS `service` FROM `sa_trx_project_list` join sa_trx_project_solutions ON sa_trx_project_list.project_id=sa_trx_project_solutions.project_id WHERE sa_trx_project_list.status='approved' AND " . $ordinate . " GROUP BY `solution_name`; ";
-    $mysql = "select `solution_name`, avg(coalesce(`product`,0)) AS `product` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `so_number` IN (select `so_number` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `product`>0 AND `modified_date`>='" . date("Y-m-d", strtotime("-366 day")) . "' group by `so_number` order by `so_number`) group by `solution_name` order by `so_number`, `solution_name`;";
+    $mysql = "select `solution_name`, avg(coalesce(`product`,0)) AS `product` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `so_number` IN (select `so_number` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `product`>0 AND `sa_trx_project_solutions`.`modified_date`>='" . date("Y-m-d", strtotime("-366 day")) . "' group by `so_number` order by `so_number`) group by `solution_name` order by `so_number`, `solution_name`;";
     $solutions_product = $DBSOL->get_sql($mysql);
-    $mysql = "select `solution_name`, avg(coalesce(`services`,0)) AS `service` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `so_number` IN (select `so_number` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `services`>0 AND `modified_date`>'" . date("Y-m-d", strtotime("-366 day")) . "' group by `so_number` order by `so_number`) group by `solution_name` order by `so_number`;";
+    $mysql = "select `solution_name`, avg(coalesce(`services`,0)) AS `service` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `so_number` IN (select `so_number` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `services`>0 AND `sa_trx_project_solutions`.`modified_date`>'" . date("Y-m-d", strtotime("-366 day")) . "' group by `so_number` order by `so_number`) group by `solution_name` order by `so_number`;";
     $solutions_service = $DBSOL->get_sql($mysql);
 
     if($solutions_product[2]>0) {
         $solution_name = array('ASA'=>'Adaptive Security Architecture', 'BDA'=>'Big Data & Analytics', 'DCCI'=>'Data Center & Cloud Infrastructure', 'EC'=>'Enterprise Collaboratoion', 'DBM'=>'Digital Business Management', 'SP'=>'Service Provider');
+        
         ?>
 
         <div class="card shadow mb-3">
             <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">Solution</h6>
+                <h6 class="m-0 font-weight-bold text-secondary">Solution</h6>
             </div>
             <div class="card-body" style="font-size:12px">
             <table width="100%">
@@ -43,7 +43,6 @@ if((isset($property)) && ($property == 1)) {
                     <?php
                     $mysql = "select `solution_name`, avg(coalesce(`services`,0)) AS `service` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `so_number` IN (select `so_number` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `services`>0 group by `so_number` order by `so_number`) AND `solution_name`='" . $solutions_product[0]['solution_name'] . "' group by `solution_name` order by `so_number`;";
                     $solutions_service = $DBSOL->get_sql($mysql);
-
                     ?>
                     <tr><td><?php echo $solution_name[$solutions_product[0]['solution_name']]; ?></td><td class="text-right"><?php echo number_format($solutions_product[0]['product'], 2, ",", "."); ?>%</td><td class="text-right"><?php echo number_format($solutions_service[0]['service'], 2, ",", "."); ?>%</td></tr>
                         <?php $tProduct += $solutions_product[0]['product']; $tService += $solutions_service[0]['service']; ?>
@@ -56,4 +55,4 @@ if((isset($property)) && ($property == 1)) {
             </div>
         </div>
     <?php } ?>
-<?php } ?>
+<?php } ?> 

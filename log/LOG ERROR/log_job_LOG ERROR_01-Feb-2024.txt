@@ -1,0 +1,63 @@
+File Error Log
+
+2024-02-01 08:41:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_folder_id' doesn't exist
+- Query 		: select * from sa_folder_id limit 100
+
+
+2024-02-01 08:41:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_folder_id' doesn't exist
+- Query 		: select * from sa_folder_id 
+
+
+2024-02-01 08:41:22
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_folder_id' doesn't exist
+- Query 		: desc sa_folder_id 
+
+
+2024-02-01 08:41:24
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_folder_id' doesn't exist
+- Query 		: desc sa_folder_id 
+
+
+2024-02-01 08:42:07
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* from sa_folderid WHERE flag=1' at line 1
+- Query 		: DELETE * from sa_folderid WHERE flag=1
+
+
+2024-02-01 13:40:59
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-02-01 13:41:08
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC

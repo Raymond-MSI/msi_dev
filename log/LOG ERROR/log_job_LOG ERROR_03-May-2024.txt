@@ -1,0 +1,72 @@
+File Error Log
+
+2024-05-03 09:36:10
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'status_pic' in 'where clause'
+- Query 		: select * from sa_kpi_board where status_pic LIKE '%pending%'
+
+
+2024-05-03 09:37:22
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where status_approval like '%pending%'' at line 1
+- Query 		: select * from sa_kpi_board limit where status_approval like '%pending%'
+
+
+2024-05-03 10:32:21
+- Server 		: Prod
+- User 			: adriyanto@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-05-03 10:32:21
+- Server 		: Prod
+- User 			: adriyanto@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-05-03 16:08:05
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: Unknown column 'status_pic' in 'where clause'
+- Query 		: SELECT * FROM sa_kpi_board WHERE status_pic LIKE '%pending%'
+
+
+2024-05-03 16:08:05
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: Unknown column 'status_pic' in 'where clause'
+- Query 		: SELECT * FROM sa_kpi_board WHERE status_pic LIKE '%pending%'
+
+
+2024-05-03 17:11:59
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_complainlog' doesn't exist
+- Query 		: select * from sa_complainlog
+
+
+2024-05-03 17:12:29
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_complain' doesn't exist
+- Query 		: UPDATE `sa_complain` SET `project_code` = 'TB002323I0023', `so_number` = '2023/SO/1211', `order_number` = 'ORD-2023-00957' WHERE `sa_complain`.`complain_id` = 15 

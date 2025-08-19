@@ -1,0 +1,734 @@
+File Error Log
+
+2024-07-02 09:52:58
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'Disapprove' in 'field list'
+- Query 		: UPDATE sa_hcm_requirement_interview SET status_bod = Disapprove WHERE email_id = 102
+
+
+
+
+
+
+
+
+2024-07-02 10:57:43
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT 1 FROM sa_hcm_requirement i WHERE i.id_fpkb = r.id_fpkb AND r.status =...' at line 1
+- Query 		: 
+
+
+SELECT * FROM sa_hcm_requirement_interview r WHERE r.id_fpkb = 'Support and Delivery Service/FPKB/REC/94/2024' AND EXIST (SELECT 1 FROM sa_hcm_requirement i WHERE i.id_fpkb = r.id_fpkb AND r.status = 'Complete Offering')
+
+
+
+
+
+
+
+
+
+2024-07-02 10:59:20
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) as jumlah_complete
+FROM sa_hcm_requirement_interview r
+WHERE r.id_fpkb =...' at line 1
+- Query 		: SELECT COUNT (*) as jumlah_complete
+FROM sa_hcm_requirement_interview r
+WHERE r.id_fpkb = 'Support and Delivery Service/FPKB/REC/94/2024'
+  AND EXISTS (
+    SELECT 1
+    FROM sa_hcm_requirement i
+    WHERE i.id_fpkb = r.id_fpkb
+      AND r.status = 'Complete Offering'
+  );
+
+
+2024-07-02 11:02:00
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect integer value: '' for column `sa_dashboard_kpi`.`sa_master_maintenance_date`.`mt_report_date` at row 1
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`) VALUES (
+                'TE007819G0001', 
+                'ORD-18430-W9J4L4', 
+                '1',
+                '',
+                '',
+                '99', 
+                '',
+                '60',
+                '99', 
+                '',
+                '60',
+                '0',
+                'Muhammad Fawwaz Azmi<muhammad.fawwaz@mastersystem.co.id>')
+
+
+2024-07-02 11:26:48
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM sa_hcm_requirement_interview' at line 2
+- Query 		: UPDATE sa_hcm_requirement_interview SET join_date = NULL, status = 'Complete' WHERE email_id = 105
+SELECT * FROM sa_hcm_requirement_interview
+
+
+
+
+
+
+
+2024-07-02 13:22:07
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_trx_project_list WHERE project_code='TA015624K0003' AND order_number='ORD-2024-01800' ORDER BY project_id DESC
+
+
+2024-07-02 13:22:07
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT `project_id`, `project_code`, `so_number`, `order_number`, `project_name` FROM `sa_trx_project_list` WHERE `create_date` >= '2019-07-02' AND LEFT(`project_code`, 6) = 'TA0156' ORDER BY `project_code` DESC
+
+
+2024-07-02 13:22:07
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT `project_id`, `project_code`, `so_number`, `order_number`, `project_name` FROM `sa_trx_project_list` WHERE `create_date` >= '2019-07-02' AND LEFT(`project_code`, 6) = 'TA0156' ORDER BY `project_code` DESC
+
+
+2024-07-02 13:22:07
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_type_of_service WHERE service_type=4 AND blocked=0
+
+
+2024-07-02 13:22:20
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: select `solution_name`, avg(coalesce(`product`,0)) AS `product` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `so_number` IN (select `so_number` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `product`>0 AND `sa_trx_project_solutions`.`modified_date`>='2023-07-02' group by `so_number` order by `so_number`) group by `solution_name` order by `so_number`, `solution_name`;
+
+
+2024-07-02 13:22:20
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: select `solution_name`, avg(coalesce(`services`,0)) AS `service` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `so_number` IN (select `so_number` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `services`>0 AND `sa_trx_project_solutions`.`modified_date`>'2023-07-02' group by `so_number` order by `so_number`) group by `solution_name` order by `so_number`;
+
+
+2024-07-02 13:22:52
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_trx_project_list WHERE project_code='TA015624K0003' AND order_number='ORD-2024-01800' ORDER BY project_id DESC
+
+
+2024-07-02 13:22:52
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT `project_id`, `project_code`, `so_number`, `order_number`, `project_name` FROM `sa_trx_project_list` WHERE `create_date` >= '2019-07-02' AND LEFT(`project_code`, 6) = 'TA0156' ORDER BY `project_code` DESC
+
+
+2024-07-02 13:22:52
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT `project_id`, `project_code`, `so_number`, `order_number`, `project_name` FROM `sa_trx_project_list` WHERE `create_date` >= '2019-07-02' AND LEFT(`project_code`, 6) = 'TA0156' ORDER BY `project_code` DESC
+
+
+2024-07-02 13:22:53
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_type_of_service WHERE service_type=4 AND blocked=0
+
+
+2024-07-02 13:22:54
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_trx_project_list WHERE project_code='TA015624K0003' AND order_number='ORD-2024-01800' ORDER BY project_id DESC
+
+
+2024-07-02 13:22:54
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT `project_id`, `project_code`, `so_number`, `order_number`, `project_name` FROM `sa_trx_project_list` WHERE `create_date` >= '2019-07-02' AND LEFT(`project_code`, 6) = 'TA0156' ORDER BY `project_code` DESC
+
+
+2024-07-02 13:22:54
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT `project_id`, `project_code`, `so_number`, `order_number`, `project_name` FROM `sa_trx_project_list` WHERE `create_date` >= '2019-07-02' AND LEFT(`project_code`, 6) = 'TA0156' ORDER BY `project_code` DESC
+
+
+2024-07-02 13:22:54
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: No database selected
+- Query 		: SELECT * FROM sa_mst_type_of_service WHERE service_type=4 AND blocked=0
+
+
+2024-07-02 13:55:22
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'group by project_solution' at line 1
+- Query 		: SELECT * FROM sa_workload_project_solution limit 10 group by project_solution
+
+
+2024-07-02 14:16:47
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (22398,21,3,1,3,'Trellix',350,NULL,1,'Galih Putro Dwi Setyo<galih.putro@mastersystem.co.id>')
+
+
+2024-07-02 15:02:25
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(22395,'Add On Preventive Maintenance 2x/Tahun',220618750,37,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-07-02 15:53:41
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-25970-Q6B4J4' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 15:54:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 15:54:23
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-25970-Q6B4J4' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 15:54:32
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 15:55:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 15:55:19
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 16:00:44
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-25970-Q6B4J4' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:02:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 16:02:22
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 16:09:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:09:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:10:30
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 16:10:35
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 16:10:41
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-25970-Q6B4J4' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:10:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:11:17
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 16:11:21
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 16:11:49
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 16:11:56
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 16:12:03
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 16:12:04
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 16:12:29
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:12:48
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 16:12:53
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 16:12:54
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 16:12:59
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-25970-Q6B4J4' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:13:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:13:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:13:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:13:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:13:47
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 16:13:51
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 16:13:52
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = '' AND a.project_type LIKE '%%'
+
+
+2024-07-02 16:13:55
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-25970-Q6B4J4' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:13:55
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-25970-Q6B4J4' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:13:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:13:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:15:21
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:15:21
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:16:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:16:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:17:26
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:17:26
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:18:21
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-25970-Q6B4J4' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:18:21
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-25970-Q6B4J4' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:19:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:19:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:19:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:19:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-2023-03041' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:19:49
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-25970-Q6B4J4' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:19:49
+- Server 		: Prod
+- User 			: muhammad.fawwaz@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE order_number = 'ORD-25970-Q6B4J4' AND a.project_type LIKE '%Maintenance%'
+
+
+2024-07-02 16:31:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET owner_project='muhammad.fawwaz@mastersystem.co.id' WHERE order_number='OR...' at line 1
+- Query 		: select * from sa_initial_project SET owner_project='muhammad.fawwaz@mastersystem.co.id' WHERE order_number='ORD-19862-D1N0T1'
+
+
+
+2024-07-02 18:43:00
+- Server 		: Prod
+- User 			: fortuna@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'PRIMARY'
+- Query 		: INSERT INTO sa_initial_jobroles (task_id,parent_id,project_code,project_id,resource_category_id,total_mandays) VALUES ('', 'SERVICE BUDGET', 'TB002724D0022', 'IEAEOPF5I5KQBNUW', '3',44)

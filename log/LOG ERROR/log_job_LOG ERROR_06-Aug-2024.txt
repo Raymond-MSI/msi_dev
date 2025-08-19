@@ -1,0 +1,185 @@
+File Error Log
+
+2024-08-06 11:18:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_dashboard_kpi_pl' doesn't exist
+- Query 		: select * from sa_dashboard_kpi_pl
+
+
+2024-08-06 11:25:56
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_wrike_project_list' doesn't exist
+- Query 		: select * from sa_wrike_project_list  WHERE project_code='TB029922D0007'
+
+
+2024-08-06 11:28:20
+- Server 		: Prod
+- User 			: dyota.laksmana@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB022123B0009', 
+                'ORD-2024-00433', 
+                '1',
+                '',
+                '',
+                '0', 
+                '0',
+                '0',
+                '0', 
+                '0',
+                '0',
+                '0',
+                'Dyota Laksmana Adityantoro<dyota.laksmana@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-06 11:41:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_kpi_dashboard_pl' doesn't exist
+- Query 		: INSERT INTO `sa_kpi_dashboard_pl`( `project_id`, `project_type`, `project_code`, `so_number`, `order_number`, `periode_so`, `customer_name`, `project_name`, `wrike_permalink`, `project_leader`, `project_manager`, `project_amount`, `SB_mandays_implementation`, `CR_mandays_implementation`, `WR_mandays_actual_implementation`, `start_assignment`, `end_assignment`, `bast_plan`, `bast_actual`, `commercial_kpi`, `commercial_category`, `time_kpi`, `time_category`, `error_kpi`, `error_category`, `total_cte`, `weighted_value`, `status_wrike`, `status_project`, `kpi_status`, `periode_kpi` ) SELECT `sa_wrike_integrate`.`sa_wrike_project_list`.`id`, `sa_wrike_integrate`.`sa_wrike_project_list`.`project_type`, `sa_wrike_integrate`.`sa_wrike_project_list`.`project_code`, `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so`, `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number`, `sa_dashboard_kpi`.`sa_data_so`.`periode_so`, `sa_wrike_integrate`.`sa_wrike_project_detail`.`customer_name`, `sa_wrike_integrate`.`sa_wrike_project_list`.`title`, `sa_wrike_integrate`.`sa_wrike_project_list`.`permalink`, `sa_wrike_integrate`.`sa_wrike_project_list`.`project_leader`, `sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`value`, `sa_dashboard_kpi`.`sa_data_so`.`SB_mandays_implementation`, `sa_dashboard_kpi`.`sa_data_so`.`CR_mandays_implementation`, `sa_dashboard_kpi`.`sa_data_so`.`WR_mandays_actual_implementation`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`start_assignment`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`start_assignment`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_plan`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_actual`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`total_cte`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`weighted_value`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_wr`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_project`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`kpi_status`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`tahun_review` FROM `sa_wrike_integrate`.`sa_wrike_project_list` LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` ON `sa_dashboard_kpi`.`sa_kpi_so_wr`.`order_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number` LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` ON `sa_wrike_integrate`.`sa_wrike_project_list`.`id` = `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_id` LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` ON `sa_dashboard_kpi`.`sa_data_so`.`order_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number` WHERE (`sa_wrike_integrate`.`sa_wrike_project_list`.`order_number` is not null AND `sa_wrike_integrate`.`sa_wrike_project_list`.`order_number`<>'')
+
+
+2024-08-06 11:50:16
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = '0'
+
+
+2024-08-06 12:09:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Truncated incorrect datetime value: ''
+- Query 		: UPDATE sa_kpi_so_wr SET end_assignment=null WHERE end_assignment=''
+
+
+
+2024-08-06 13:01:58
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,3,1,3,'Cisco',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-06 13:01:58
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,51,3,1,1,'Cisco',700,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-06 13:01:58
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,3,1,10,'Cisco',350,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-06 13:01:58
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,10,'Cisco',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-06 13:12:57
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: dashboard_kpi
+- SubModule		: kpi_maintenance
+- Status 		: 
+- Query 		: SELECT * FROM sa_user WHERE Nama LIKE '%%' LIMIT 0, 100
+
+
+2024-08-06 13:14:52
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: dashboard_kpi
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_user WHERE Nama LIKE '%%' LIMIT 0, 100
+
+
+2024-08-06 13:15:22
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: dashboard_kpi
+- SubModule		: kpi
+- Status 		: 
+- Query 		: SELECT * FROM sa_user WHERE Nama LIKE '%%' LIMIT 0, 100
+
+
+2024-08-06 13:15:49
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: dashboard_kpi
+- SubModule		: dashboard_kpi_maintenance
+- Status 		: 
+- Query 		: SELECT * FROM sa_user WHERE Nama LIKE '%%' LIMIT 0, 100
+
+
+2024-08-06 16:11:52
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Field 'group' doesn't have a default value
+- Query 		: INSERT INTO `sa_mst_organization_project`(
+            `project_id`,
+            `structure_code`,
+            `title`,
+            `project_type`,
+            `leader_email`,
+            `parent`,
+            `update_by`
+        )
+        VALUES(
+            NULL,
+            'P1',
+            'P1 Title',
+            'Maintenance',
+            NULL,
+            'Syamsul Arham<syamsul@mastersystem.co.id>',
+            0
+        )

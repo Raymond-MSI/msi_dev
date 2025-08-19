@@ -1,0 +1,113 @@
+File Error Log
+
+2023-12-13 09:13:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'part_number' in 'field list'
+- Query 		: select count(part_number) from sa_transaction where tipe_transaksi = 'Peminjaman' and tipe_transaksi = 'Return' group by part_number;
+
+
+2023-12-13 09:14:46
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'part_number' in 'field list'
+- Query 		: select count(part_number) from sa_transaction where  tipe_transaksi in ( 'Peminjaman','Return') group by part_number;
+
+
+2023-12-13 09:15:05
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'part_number' in 'group statement'
+- Query 		: select count(*) from sa_transaction where  tipe_transaksi in ( 'Peminjaman','Return') group by part_number;
+
+
+2023-12-13 09:15:18
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'part_number' in 'group statement'
+- Query 		: select count(*) from sa_transaction where  tipe_transaksi in ( 'Peminjaman','Return') group by part_number;
+
+
+2023-12-13 09:15:35
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'part_number' in 'group statement'
+- Query 		: select * from sa_transaction where  tipe_transaksi in ( 'Peminjaman','Return') group by part_number;
+
+
+2023-12-13 09:16:03
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'tipe_transasi' in 'where clause'
+- Query 		: select * from sa_transaction where tipe_transasi in ('Peminjaman','Return')
+
+
+2023-12-13 09:21:40
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.tipe_transaksi
+from sa_product_list 
+JOIN sa_transaction on sa_product_lis...' at line 1
+- Query 		: select sa_product_list.part_number sa_transaction.tipe_transaksi
+from sa_product_list 
+JOIN sa_transaction on sa_product_list.nomor_transaksi = sa_transaction.nomor_transaksi;
+
+
+2023-12-13 10:02:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT COUNT(a.task_name) AS total_task, a.project_id, a.project_code, b.project_type, a.resource_email FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id WHERE b.response_status <>'declined' AND b.response_status<>'' AND b.response_status is not null AND a.project_id='IEAEOPF5I5BR5FKC' AND a.project_code='TB000523B0023' AND a.project_type='MSI Project Implementation' GROUP BY a.project_id,a.project_code,b.project_type,a.resource_email
+
+
+2023-12-13 10:04:16
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT COUNT(a.task_name) AS total_task, a.project_id, a.project_code, b.project_type, a.resource_email FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id WHERE b.response_status <>'declined' AND b.response_status<>'' AND b.response_status is not null AND a.project_id='IEAEOPF5I5BR5FKC' AND a.project_code='TB000523B0023' AND a.project_type='MSI Project Implementation' GROUP BY a.project_id,a.project_code,b.project_type,a.resource_email
+
+
+2023-12-13 10:06:52
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.project_type' in 'where clause'
+- Query 		: SELECT COUNT(a.task_name) AS total_task, a.project_id, a.project_code, b.project_type, a.resource_email FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id WHERE b.response_status <>'declined' AND b.response_status<>'' AND b.response_status is not null AND a.project_id='IEAEOPF5I5BR5FKC' AND a.project_code='TB000523B0023' AND a.project_type='MSI Project Implementation' 
+
+
+2023-12-13 13:34:22
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_dashboard_kpi_resource' doesn't exist
+- Query 		: select * from sa_dashboard_kpi_resource 
+
+
+
+2023-12-13 16:46:36
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_prouct_list' doesn't exist
+- Query 		: truncate sa_prouct_list;

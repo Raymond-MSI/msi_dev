@@ -1,0 +1,126 @@
+File Error Log
+
+2024-10-18 08:57:57
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-10-18 08:57:57
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-10-18 08:57:57
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-10-18 08:57:57
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-10-18 08:58:01
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-10-18 08:58:01
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-10-18 08:58:01
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-10-18 08:58:01
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-10-18 08:58:06
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-10-18 08:58:06
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-10-18 08:58:06
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-10-18 08:58:06
+- Server 		: Prod
+- User 			: arya.hadi@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-10-18 14:58:21
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'proejct_code' in 'where clause'
+- Query 		: select * from sa_wrike_project_list WHERE proejct_code='TB002322I0020'
+
+
+2024-10-18 15:05:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id DESC' at line 1
+- Query 		: select * from sa_schedule LIMIT 10 ORDER BY id DESC

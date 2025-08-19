@@ -1,0 +1,654 @@
+File Error Log
+
+2023-12-06 09:37:56
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_schedule' doesn't exist
+- Query 		: DELETE S1 FROM sa_schedule AS S1  
+INNER JOIN sa_schedule AS S2   
+WHERE S1.id < S2.id AND S1.event_id = S2.event_id AND S1.attendees_email = S2.attendees_email AND S1.start_time BETWEEN '2023-04-01' AND '2023-04-30'
+
+
+2023-12-06 12:09:13
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY `a`.`commercial_category`
+                    ORDER BY `a`.`commerci...' at line 10
+- Query 		: SELECT 
+                        `a`.`commercial_category`,
+                        COUNT(DISTINCT `a`.`order_number`) AS `total`
+                    FROM
+                        `sa_kpi_dashboard_pl` `a`
+                    LEFT JOIN `sa_user` AS `b`
+                    ON
+                        `a`.`project_code` = `b`.`project_code`
+                    WHERE  `a`.`kpi_status` = 'Reviewed'  AND  `a`.`periode_so` = 2023  AND  `a`.`periode_kpi` = 2023  AND  `a`.`project_type` = 'MSI Project Implementation' AND `b`.`Nama` IN ('Luthfi Eka Dharmawan<luthfi.eka@mastersystem.co.id>'
+                    GROUP BY `a`.`commercial_category`
+                    ORDER BY `a`.`commercial_category`;
+
+
+2023-12-06 12:09:13
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY `a`.`time_category`
+                    ORDER BY `a`.`time_category`' at line 10
+- Query 		: SELECT 
+                        `a`.`time_category`,
+                        COUNT(DISTINCT `a`.`order_number`) AS `total`
+                    FROM
+                        `sa_kpi_dashboard_pl` `a`
+                    LEFT JOIN `sa_user` AS `b`
+                    ON
+                        `a`.`project_code` = `b`.`project_code`
+                    WHERE  `a`.`kpi_status` = 'Reviewed'  AND  `a`.`periode_so` = 2023  AND  `a`.`periode_kpi` = 2023  AND  `a`.`project_type` = 'MSI Project Implementation' AND `b`.`Nama` IN ('Luthfi Eka Dharmawan<luthfi.eka@mastersystem.co.id>'
+                    GROUP BY `a`.`time_category`
+                    ORDER BY `a`.`time_category`;
+
+
+2023-12-06 12:09:13
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY `a`.`error_category`
+                    ORDER BY `a`.`error_category`' at line 10
+- Query 		: SELECT 
+                        `a`.`error_category`,
+                        COUNT(DISTINCT `a`.`order_number`) AS `total`
+                    FROM
+                        `sa_kpi_dashboard_pl` `a`
+                    LEFT JOIN `sa_user` AS `b`
+                    ON
+                        `a`.`project_code` = `b`.`project_code`
+                    WHERE  `a`.`kpi_status` = 'Reviewed'  AND  `a`.`periode_so` = 2023  AND  `a`.`periode_kpi` = 2023  AND  `a`.`project_type` = 'MSI Project Implementation' AND `b`.`Nama` IN ('Luthfi Eka Dharmawan<luthfi.eka@mastersystem.co.id>'
+                    GROUP BY `a`.`error_category`
+                    ORDER BY `a`.`error_category`;
+
+
+2023-12-06 12:09:13
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4
+- Query 		: SELECT DISTINCT `a`.`order_number`, `a`.`project_id`, `a`.`project_type`, `a`.`project_code`, `a`.`so_number`, `a`.`order_number`, `a`.`periode_so`, `a`.`customer_name`, `a`.`project_name`, `a`.`wrike_permalink`, `a`.`project_leader`, `a`.`project_manager`, `a`.`project_amount`, `a`.`total_task_plan`, `a`.`total_task_actual`, `a`.`SB_mandays_implementation`, `a`.`CR_mandays_implementation`, `a`.`WR_mandays_actual_implementation`, `a`.`start_assignment`, `a`.`end_assignment`, `a`.`bast_plan`, `a`.`bast_actual`, `a`.`commercial_kpi`, `a`.`commercial_category`, `a`.`time_kpi`, `a`.`time_category`, `a`.`error_kpi`, `a`.`error_category`, `a`.`total_cte`, `a`.`weighted_value`, `a`.`status_wrike`, `a`.`status_wrike`, `a`.`kpi_status`, `a`.`periode_kpi` 
+                                            FROM `sa_kpi_dashboard_pl` `a` 
+                                            LEFT JOIN `sa_user` AS `b` ON `a`.`project_code` = `b`.`project_code`
+                                            WHERE  `a`.`kpi_status` = 'Reviewed'  AND  `a`.`periode_so` = 2023  AND  `a`.`periode_kpi` = 2023  AND  `a`.`project_type` = 'MSI Project Implementation' AND `b`.`Nama` IN ('Luthfi Eka Dharmawan<luthfi.eka@mastersystem.co.id>'
+
+
+2023-12-06 12:09:13
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY
+                                        `resource_name`' at line 14
+- Query 		: SELECT
+                                        `resource_name`,
+                                        SUM(`ideal_value`) AS `ideal_value`,
+                                        SUM(`actual_value`) AS `actual_value`,
+                                        SUM(`average_value`) / COUNT(`average_value`) AS `average_value`,
+                                        SUM(`ideal_final_value`) `ideal_final_value`,
+                                        SUM(`actual_final_value`) AS `actual_final_value`,
+                                        SUM(`average_final_value`) / COUNT(`average_final_value`) AS `average_final_value`,
+                                        `kpi_status`,
+                                        `periode_kpi`
+                                    FROM
+                                        `sa_kpi_dashboard_resource` `a`
+                                    WHERE  `a`.`kpi_status` = 'Reviewed'  AND  `a`.`periode_kpi` = 2023  AND  `a`.`project_type` = 'MSI Project Implementation' AND `resource_name` IN ('Luthfi Eka Dharmawan<luthfi.eka@mastersystem.co.id>'
+                                    GROUP BY
+                                        `resource_name`
+
+
+2023-12-06 12:09:13
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY
+                                            `a`.`Nama`
+             ...' at line 48
+- Query 		: SELECT
+                                            `a`.`Nama` AS `resource_name`,
+                                            COUNT(
+                                                DISTINCT(
+                                                    IF(
+                                                        `a`.`project_type` = 'MSI Project Implementation' AND `a`.`kpi_status` = 'Reviewed',
+                                                        `a`.`order_number`,
+                                                        NULL
+                                                    )
+                                                )
+                                            ) AS `implementation_reviewed`,
+                                            COUNT(
+                                                DISTINCT(
+                                                    IF(
+                                                        `a`.`project_type` = 'MSI Project Implementation' AND `a`.`kpi_status` = 'Not Yet Reviewed',
+                                                        `a`.`order_number`,
+                                                        NULL
+                                                    )
+                                                )
+                                            ) AS `implementation_not_yet_reviewed`,
+                                            COUNT(
+                                                DISTINCT(
+                                                    IF(
+                                                        `a`.`project_type` = 'MSI Project Maintenance' AND `a`.`kpi_status` = 'Reviewed',
+                                                        `a`.`order_number`,
+                                                        NULL
+                                                    )
+                                                )
+                                            ) AS `maintenance_reviewed`,
+                                            COUNT(
+                                                DISTINCT(
+                                                    IF(
+                                                        `a`.`project_type` = 'MSI Project Maintenance' AND `a`.`kpi_status` = 'Not Yet Reviewed',
+                                                        `a`.`order_number`,
+                                                        NULL
+                                                    )
+                                                )
+                                            ) AS `maintenance_not_yet_reviewed`
+                                        FROM
+                                            `sa_user` `a`
+                                        LEFT JOIN `sa_log_board` `b` ON
+                                            `a`.`so_number` = `b`.`so_number`
+                                        WHERE
+                                            (
+                                                LEFT(`b`.`date`, 4) LIKE 2023 OR `a`.`kpi_status` = 'Not Yet Reviewed'
+                                            )
+                                            AND `a`.`Nama` IN ('Luthfi Eka Dharmawan<luthfi.eka@mastersystem.co.id>'
+                                        GROUP BY
+                                            `a`.`Nama`
+                                        ORDER BY
+                                            `a`.`Nama`;
+
+
+2023-12-06 12:09:34
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY `a`.`commercial_category`
+                    ORDER BY `a`.`commerci...' at line 10
+- Query 		: SELECT 
+                        `a`.`commercial_category`,
+                        COUNT(DISTINCT `a`.`order_number`) AS `total`
+                    FROM
+                        `sa_kpi_dashboard_pl` `a`
+                    LEFT JOIN `sa_user` AS `b`
+                    ON
+                        `a`.`project_code` = `b`.`project_code`
+                    WHERE  `a`.`kpi_status` = 'Reviewed'  AND  `a`.`periode_so` = 2023  AND  `a`.`periode_kpi` = 2023  AND  `a`.`project_type` = 'MSI Project Implementation' AND `b`.`Nama` IN ('Luthfi Eka Dharmawan<luthfi.eka@mastersystem.co.id>'
+                    GROUP BY `a`.`commercial_category`
+                    ORDER BY `a`.`commercial_category`;
+
+
+2023-12-06 12:09:34
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY `a`.`time_category`
+                    ORDER BY `a`.`time_category`' at line 10
+- Query 		: SELECT 
+                        `a`.`time_category`,
+                        COUNT(DISTINCT `a`.`order_number`) AS `total`
+                    FROM
+                        `sa_kpi_dashboard_pl` `a`
+                    LEFT JOIN `sa_user` AS `b`
+                    ON
+                        `a`.`project_code` = `b`.`project_code`
+                    WHERE  `a`.`kpi_status` = 'Reviewed'  AND  `a`.`periode_so` = 2023  AND  `a`.`periode_kpi` = 2023  AND  `a`.`project_type` = 'MSI Project Implementation' AND `b`.`Nama` IN ('Luthfi Eka Dharmawan<luthfi.eka@mastersystem.co.id>'
+                    GROUP BY `a`.`time_category`
+                    ORDER BY `a`.`time_category`;
+
+
+2023-12-06 12:09:34
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY `a`.`error_category`
+                    ORDER BY `a`.`error_category`' at line 10
+- Query 		: SELECT 
+                        `a`.`error_category`,
+                        COUNT(DISTINCT `a`.`order_number`) AS `total`
+                    FROM
+                        `sa_kpi_dashboard_pl` `a`
+                    LEFT JOIN `sa_user` AS `b`
+                    ON
+                        `a`.`project_code` = `b`.`project_code`
+                    WHERE  `a`.`kpi_status` = 'Reviewed'  AND  `a`.`periode_so` = 2023  AND  `a`.`periode_kpi` = 2023  AND  `a`.`project_type` = 'MSI Project Implementation' AND `b`.`Nama` IN ('Luthfi Eka Dharmawan<luthfi.eka@mastersystem.co.id>'
+                    GROUP BY `a`.`error_category`
+                    ORDER BY `a`.`error_category`;
+
+
+2023-12-06 12:09:34
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4
+- Query 		: SELECT DISTINCT `a`.`order_number`, `a`.`project_id`, `a`.`project_type`, `a`.`project_code`, `a`.`so_number`, `a`.`order_number`, `a`.`periode_so`, `a`.`customer_name`, `a`.`project_name`, `a`.`wrike_permalink`, `a`.`project_leader`, `a`.`project_manager`, `a`.`project_amount`, `a`.`total_task_plan`, `a`.`total_task_actual`, `a`.`SB_mandays_implementation`, `a`.`CR_mandays_implementation`, `a`.`WR_mandays_actual_implementation`, `a`.`start_assignment`, `a`.`end_assignment`, `a`.`bast_plan`, `a`.`bast_actual`, `a`.`commercial_kpi`, `a`.`commercial_category`, `a`.`time_kpi`, `a`.`time_category`, `a`.`error_kpi`, `a`.`error_category`, `a`.`total_cte`, `a`.`weighted_value`, `a`.`status_wrike`, `a`.`status_wrike`, `a`.`kpi_status`, `a`.`periode_kpi` 
+                                            FROM `sa_kpi_dashboard_pl` `a` 
+                                            LEFT JOIN `sa_user` AS `b` ON `a`.`project_code` = `b`.`project_code`
+                                            WHERE  `a`.`kpi_status` = 'Reviewed'  AND  `a`.`periode_so` = 2023  AND  `a`.`periode_kpi` = 2023  AND  `a`.`project_type` = 'MSI Project Implementation' AND `b`.`Nama` IN ('Luthfi Eka Dharmawan<luthfi.eka@mastersystem.co.id>'
+
+
+2023-12-06 12:09:34
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY
+                                        `resource_name`' at line 14
+- Query 		: SELECT
+                                        `resource_name`,
+                                        SUM(`ideal_value`) AS `ideal_value`,
+                                        SUM(`actual_value`) AS `actual_value`,
+                                        SUM(`average_value`) / COUNT(`average_value`) AS `average_value`,
+                                        SUM(`ideal_final_value`) `ideal_final_value`,
+                                        SUM(`actual_final_value`) AS `actual_final_value`,
+                                        SUM(`average_final_value`) / COUNT(`average_final_value`) AS `average_final_value`,
+                                        `kpi_status`,
+                                        `periode_kpi`
+                                    FROM
+                                        `sa_kpi_dashboard_resource` `a`
+                                    WHERE  `a`.`kpi_status` = 'Reviewed'  AND  `a`.`periode_kpi` = 2023  AND  `a`.`project_type` = 'MSI Project Implementation' AND `resource_name` IN ('Luthfi Eka Dharmawan<luthfi.eka@mastersystem.co.id>'
+                                    GROUP BY
+                                        `resource_name`
+
+
+2023-12-06 12:09:34
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY
+                                            `a`.`Nama`
+             ...' at line 48
+- Query 		: SELECT
+                                            `a`.`Nama` AS `resource_name`,
+                                            COUNT(
+                                                DISTINCT(
+                                                    IF(
+                                                        `a`.`project_type` = 'MSI Project Implementation' AND `a`.`kpi_status` = 'Reviewed',
+                                                        `a`.`order_number`,
+                                                        NULL
+                                                    )
+                                                )
+                                            ) AS `implementation_reviewed`,
+                                            COUNT(
+                                                DISTINCT(
+                                                    IF(
+                                                        `a`.`project_type` = 'MSI Project Implementation' AND `a`.`kpi_status` = 'Not Yet Reviewed',
+                                                        `a`.`order_number`,
+                                                        NULL
+                                                    )
+                                                )
+                                            ) AS `implementation_not_yet_reviewed`,
+                                            COUNT(
+                                                DISTINCT(
+                                                    IF(
+                                                        `a`.`project_type` = 'MSI Project Maintenance' AND `a`.`kpi_status` = 'Reviewed',
+                                                        `a`.`order_number`,
+                                                        NULL
+                                                    )
+                                                )
+                                            ) AS `maintenance_reviewed`,
+                                            COUNT(
+                                                DISTINCT(
+                                                    IF(
+                                                        `a`.`project_type` = 'MSI Project Maintenance' AND `a`.`kpi_status` = 'Not Yet Reviewed',
+                                                        `a`.`order_number`,
+                                                        NULL
+                                                    )
+                                                )
+                                            ) AS `maintenance_not_yet_reviewed`
+                                        FROM
+                                            `sa_user` `a`
+                                        LEFT JOIN `sa_log_board` `b` ON
+                                            `a`.`so_number` = `b`.`so_number`
+                                        WHERE
+                                            (
+                                                LEFT(`b`.`date`, 4) LIKE 2023 OR `a`.`kpi_status` = 'Not Yet Reviewed'
+                                            )
+                                            AND `a`.`Nama` IN ('Luthfi Eka Dharmawan<luthfi.eka@mastersystem.co.id>'
+                                        GROUP BY
+                                            `a`.`Nama`
+                                        ORDER BY
+                                            `a`.`Nama`;
+
+
+2023-12-06 16:18:01
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-11-29' AND task_date <= '2023-12-13' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2023-12-06 16:43:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '('Joko Gunawan<joko@mastersystem.co.id>', 'Raymond R. Taruli <Raymond.Raphael...' at line 9
+- Query 		: SELECT 
+                        `a`.`commercial_category`,
+                        COUNT(DISTINCT `a`.`project_id`) AS `total`
+                    FROM
+                        `sa_kpi_dashboard_pl` `a`
+                    LEFT JOIN `sa_user` AS `b`
+                    ON
+                        `a`.`project_code` = `b`.`project_code`
+                    WHERE  `a`.`kpi_status` = 'Reviewed'   AND  `a`.`periode_kpi` = 2023  AND  `a`.`project_type` = 'MSI Project Implementation' ('Joko Gunawan<joko@mastersystem.co.id>', 'Raymond R. Taruli <Raymond.Raphael@mastersystem.co.id>', 'Fortuna Setyo Arumsari <fortuna@mastersystem.co.id>', 'Sumarto Santosa <sumarto@mastersystem.co.id>', 'Andreas Teguh Nugroho <andreas@mastersystem.co.id>', 'Iwan Rusmin <iwan@mastersystem.co.id>', 'Aceng Zakariya Ramadani <aceng.zakariya@mastersystem.co.id>', 'Martin Chandra <martin@mastersystem.co.id>', 'Nicholaus Valentino Dwicahyo <nicholaus.valentino@mastersystem.co.id>', 'Olivian Bagas Pratama <olivian.bagas@mastersystem.co.id>', 'Agdi Rizky Fauzi <agdi.rizky@mastersystem.co.id>', 'Muhammad Rafi Nurrohim <rafi.nurrohim@mastersystem.co.id>', 'Muhammad Wildan  <muhammad.wildan@mastersystem.co.id>', 'Randy Rozano <randy.rozano@mastersystem.co.id>', 'Miko Widiarta <miko.widiarta@mastersystem.co.id>', 'Meilita Kurniati <meilita.kurniati@mastersystem.co.id>', 'Muhammad Fawwaz Azmi <muhammad.fawwaz@mastersystem.co.id>', 'Niki Ihsanul Hakim <niki.ihsanul@mastersystem.co.id>', 'Za\'imatul Hakimah Septiani <zaimatul@mastersystem.co.id>', 'Gilang Anugerah Fajri <gilang.anugerah@mastersystem.co.id>', 'Wafda Qinthara Konjala <wafda.qinthara@mastersystem.co.id>', 'Gregory Matthew <gregory.matthew@mastersystem.co.id>', 'Alan Maulana <alan.maulana@mastersystem.co.id>', 'Herty Brigita Surbakti <herty.brigita@mastersystem.co.id>', 'David Kusuma Chandra <david.kusuma@mastersystem.co.id>', 'Dyota Laksmana Adityantoro <dyota.laksmana@mastersystem.co.id>', 'Nindya Triana Putri <nindya.triana@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan <arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony <fibyan.saleh@mastersystem.co.id>', 'Zahira Nafira Rizka <zahira.nafira@mastersystem.co.id>', 'Aulia Adina <aulia.adina@mastersystem.co.id>', 'Carrissa Diljan <carrissa.diljan@mastersystem.co.id>', 'Muhammad Laidri Fernanda <muhammad.laidri@mastersystem.co.id>', 'Annisa Nur Hapifah <annisa.hapifah@mastersystem.co.id>', 'Syntia Ayu Kartika <syntia.ayu@mastersystem.co.id>', 'Feralia Fitri <feralia.fitri@mastersystem.co.id>', 'Rezha Aulia Riyanda <rezha.aulia@mastersystem.co.id>', 'Innaya Maitsa Putri <innaya@mastersystem.co.id>', 'Nabella Yanza <nabella.yanza@mastersystem.co.id>', 'Yanuar Reza Wardana <yanuar.reza@mastersystem.co.id>', 'Frendy Johan Kwok <frendy.johan@mastersystem.co.id>', 'Nanda Prasetyo <nanda.prasetyo@mastersystem.co.id>', 'Khouw Apriyanto <Apriyanto@mastersystem.co.id>', 'Lukman Susanto Kurniawan <lukman.susanto@mastersystem.co.id>', 'Harry Effendi <harry.effendi@mastersystem.co.id>', 'Riswan Fadhilah  <riswan.fadhilah@mastersystem.co.id>', 'Risqi Pratama Ramadhan <risqi.pratama@mastersystem.co.id>', 'Sumarno <sumarno@mastersystem.co.id>', 'Pitasari Amanda <pitasari.amanda@mastersystem.co.id>', 'Oktavian Montitopan <oktavian.montitopan@mastersystem.co.id>', 'Tommy Putra Sitorus <tommy.putra@mastersystem.co.id>', 'Rafi Pragiwaka Gani <rafi.pragiwaka@mastersystem.co.id>', 'Azizka Ayu Dhiyani <azizka.ayu@mastersystem.co.id>', 'Fronita <fronita@mastersystem.co.id>', 'Ficky Bharata <ficky.bharata@mastersystem.co.id>', 'Lucky Andiani ,ST <lucky.andiani@mastersystem.co.id>', 'Desy Marianna <desy.marianna@mastersystem.co.id>', 'Saskia Intanadhira <saskia.intanadhira@mastersystem.co.id>', 'Dwi Endar Santo <dwi.endar@mastersystem.co.id>', 'Gniegmilang Adiabentang F <gniegmilang@mastersystem.co.id>', 'Anjas Permana Kumbara <anjas.permana@mastersystem.co.id>', 'Pradana Ega Putra <pradana.ega@mastersystem.co.id>', 'Zahroh Oliviany Fadilah Thomas <zahroh.oliviany@mastersystem.co.id>', 'Fadhil Hilmi Alhabib <fadhil.hilmi@mastersystem.co.id>', 'Waliyul Mursidin <waliyul@mastersystem.co.id>', 'Anita Angelina, S.AB., M.B.A <anita.angelina@mastersystem.co.id>', 'Amanda Febrina <amanda.febrina@mastersystem.co.id>', 'Susanti Saputri Sarkam <susanti.saputri@mastersystem.co.id>', 'Partukoan Siagian <lay@mastersystem.co.id>', 'Ivan Hadiyan Setiamarga <ivan.hadiyan@mastersystem.co.id>', 'Eulis Fitriansyah <eulis.fitriansyah@mastersystem.co.id>', 'Alya Yulisti Fauziyyah Bachtiar <alya.yulisti@mastersystem.co.id>', 'Aldino De Lama <aldino.delama@mastersystem.co.id>', 'Nadia Luqiana <nadia.luqiana@mastersystem.co.id>', 'Rio Pratomo <rio.pratomo@mastersystem.co.id>', 'Wirawan Bharata <wirawan.bharata@mastersystem.co.id>', 'Ricky Pebriandi Rajagukguk <ricky.pebriandi@mastersystem.co.id>', 'Okta Sumahendra <okta.sumahendra@mastersystem.co.id>', 'Irvan Fauzi, S.Hum <irvan.fauzi@mastersystem.co.id>', 'Muhammad Farid Burhanudin <muhammad.farid@mastersystem.co.id>', 'Melysa Wahyuningsih <melysa.wahyuningsih@mastersystem.co.id>', 'Jayanti Susan Irwanti <jayanti.susan@mastersystem.co.id>', 'Ericha Mutia Putri <ericha.mutia@mastersystem.co.id>', 'Nurma Sumar Sidik <nurma.sumar@mastersystem.co.id>', 'Trie Mayhera Sabalidowati <trie.mayhera@mastersystem.co.id>', 'Femmy Nur Azizah <femmy@mastersystem.co.id>', 'Winda Ekawati <winda.ekawati@mastersystem.co.id>', 'Engelbertus Tiwu <engelbertus@mastersystem.co.id>', 'Indrawan Dwi Putra <indrawan.dwi@mastersystem.co.id>', 'Erawan Prasetyo <erawan.prasetyo@mastersystem.co.id>', 'Dila Styaningtyas <dila.styaningtyas@mastersystem.co.id>', 'Harry Hartono <harry.hartono@mastersystem.co.id>', 'M.Syaifuddin Muis Toekan <muis.toekan@mastersystem.co.id>', 'Alexander Tio <alexander.tio@mastersystem.co.id>', 'Shannice Ayangketi <shannice.ayangketi@mastersystem.co.id>', 'Rifqy Pratama Putra B <rifqy.pratama@mastersystem.co.id>', 'Ia Refyta Shafyra <ia.refyta@mastersystem.co.id>', 'Eka Kurniawati <eka.kurniawati@mastersystem.co.id>', 'Natasha Isyana Putri <natasya.isyanaputri@mastersystem.co.id>', 'Revita Aryani <revita.aryani@mastersystem.co.id>', 'Irfan Hanifah Wardhana <irfan.hanifah@mastersystem.co.id>', 'Inggit Novita Panannangan <inggit.novita@mastersystem.co.id>', 'Albar Faiz Himawan <albar.faiz@mastersystem.co.id>', 'Desi Permatasari <desi.permatasari@mastersystem.co.id>', 'Amelia Rami <amelia.rami@mastersystem.co.id>', 'Aulia Yogi Fachlivan <aulia.yogi@mastersystem.co.id>', 'Aditias Fauzi Ahmad <aditias.fauzi@mastersystem.co.id>', 'Rizky <rizky@mastersystem.co.id>', 'Ary Mulyati Hardi <ary.mulyati@mastersystem.co.id>', 'Henny Anggravita <henny.anggra@mastersystem.co.id>', 'Bani Buchari Setia Putra <bani.buchari@mastersystem.co.id>', 'Jutarto Wicaksono,SK <jutarto@mastersystem.co.id>', 'Fernando Wangsa <fernando.wangsa@mastersystem.co.id>', 'Firmansyah <firman.syah@mastersystem.co.id>', 'Muji Waluyo <muji.waluyo@mastersystem.co.id>', 'Agus Sopyan <agus.sopyan@mastersystem.co.id>', 'Wahyuwinningdyah Margareta,S.S.PSI <margareta.sekar@mastersystem.co.id>', 'Anastasia Sonya Haryanti <Anastasia.sonya@mastersystem.co.id>', 'Muhammad Egga Ari Gayo <muhammad.egga@mastersystem.co.id>', 'A. Sarikun <sarikun@mastersystem.co.id>', 'Adi Marsunu <adi.marsunu@mastersystem.co.id>', 'Mahdi Fadilatul Ulum <mahdi.fadilatul@mastersystem.co.id>', 'Ruslam <ruslam@mastersystem.co.id>', 'Rumianto <rumianto@mastersystem.co.id>', 'Risma Khaerunisa <risma.khaerunisa@mastersystem.co.id>', 'Nanang Susilo <nanang.susilo@mastersystem.co.id>', 'Deni Suwarno <deni.suwarno@mastersystem.co.id>', 'Nurochmat <nurochmat@mastersystem.co.id>', 'Turyanto <turyanto@mastersystem.co.id>', 'Samsul Bakhri <samsul.bahri@mastersystem.co.id>', 'Mahfuri <mahfuri@mastersystem.co.id>', 'Rachmat Hidayat <rachmat.hidayat@mastersystem.co.id>', 'Mohamad Jawahir <jawahir@mastersystem.co.id>', 'Sohirin <sohirin@mastersystem.co.id>', 'Yayat Ruhiyat <yayat.ruhiyat@mastersystem.co.id>', 'Bambang Wibowo Murti <bambang@mastersystem.co.id>', 'Susanti <susanti@mastersystem.co.id>', 'Annisa Riska Medita <annisa.riska@mastersystem.co.id>', 'Raden Ajeng Annisa <raden.ajeng@mastersystem.co.id>', 'Inge Mutiara Maudy <inge.mutiara@mastersystem.co.id>', 'Muhammad Febrian Ramadhan <muhammad.febrian@mastersystem.co.id>', 'Riyan Alamsyah <ryan.alamsyah@mastersystem.co.id>', 'Yohana Theodora Br Siallagan <yohana.theodora@mastersystem.co.id>', 'Julia Genny Langkun <julia.genny@mastersystem.co.id>', 'Rikaz Wildan Fauzi <rikaz.wildan@mastersystem.co.id>', 'Vika Rifti Ananditya <vika.rifti@mastersystem.co.id>', 'Cornelius Aji Nugroho <cornelius.aji@mastersystem.co.id>', 'Syamsul Arham <syamsul@mastersystem.co.id>', 'Anwar Affandi <anwar.affandi@mastersystem.co.id>', 'Hanna Utami <hanna.utami@mastersystem.co.id>', 'Luthfi Eka Dharmawan  <luthfi.eka@mastersystem.co.id>', 'Muhammad Yudi Pratama <yudi.pratama@mastersystem.co.id>', 'Faisal Suryadi Nggilu <faisal.suryadi@mastersystem.co.id>', 'Rahman Dani <rahman.dani@mastersystem.co.id>', 'Ajie Prasetyo <ajie.prasetyo@mastersystem.co.id>', 'Budi Satriawan <budi.satriawan@mastersystem.co.id>', 'Fabian Darryl Enrico <fabian.darryl@mastersystem.co.id>', 'Albert Briliakta Giri Saputra <albert.saputra@mastersystem.co.id>', 'Arya Hadi <arya.hadi@mastersystem.co.id>', 'Khalid Hamzah Haza Al Hamami <khalid.hamzah@mastersystem.co.id>', 'Hendhika Vernanda <hendika.vernanda@mastersystem.co.id>', 'Maria Silvester Luhur,S.KOM <silvester.luhur@mastersystem.co.id>', 'Muhammad Aryo Bimo <aryo.bimo@mastersystem.co.id>', 'Mega Dwi Apriyanti <mega.dwi@mastersystem.co.id>', 'Yongky Karnadi, S.KOM <yongki_k@mastersystem.co.id>', 'Malik Aulia Wiratama <malik.aulia@mastersystem.co.id>', 'M. Aan Dafa Setiawan <aan.dafa@mastersystem.co.id>', 'Chrisheryanda Eka Saputra <chrisheryanda@mastersystem.co.id>', 'Ratna Diana Pancasari <ratna@mastersystem.co.id>', 'Ajie Sandi Martin <ajie.sandi@mastersystem.co.id>', 'Horas Parsaoran S <horas.parsaoran@mastersystem.co.id>', 'Pujo Suwandono <Pujo@mastersystem.co.id>', 'I Putu Wirama Yuda <putuwirama@mastersystem.co.id>', 'Riza Nurhendra <riza.nurhendra@mastersystem.co.id>', 'Muhamad Iqbal Ogie <iqbal.ogie@mastersystem.co.id>', 'Herri Sutrisno <herri@mastersystem.co.id>', 'Victor Ari Jordan Theodore <victor.ari@mastersystem.co.id>', 'Sonny Widjaya <sonny.widjaya@mastersystem.co.id>', 'Barnas Cakra Sanjaya  <barnas.cakra@mastersystem.co.id>', 'Bambang Mahananda <bambang.mahananda@mastersystem.co.id>', 'Fatih Khoiri <fatih.khoiri@mastersystem.co.id>', 'Purwanto <purwanto@mastersystem.co.id>', 'Moh. Ichsan Wibawa <ichsan.wibawa@mastersystem.co.id>', 'Kent Wirianata <kent.wirianata@mastersystem.co.id>', 'Yesi Widia Wanti <yesi.widia@mastersystem.co.id>', 'Abdul Rasyid Aziz <abdul.rasyid@mastersystem.co.id>', 'Kenny Tanoto <kenny.tanoto@mastersystem.co.id>', 'Reza Febrian Khity, ST <reza.febrian@mastersystem.co.id>', 'Upik Fadillah <upik.fadillah@mastersystem.co.id>', 'Fahmi Shihabuddin Zakaria <fahmi.shihabuddin@mastersystem.co.id>', 'Malik Perwiro Joyo <malik.perwiro@mastersystem.co.id>', 'Busra Zukran <busra.zukran@mastersystem.co.id>', 'Achmad Imam Faozan <achmad.imam@mastersystem.co.id>', 'Eko Budi Prasetyo <eko.budi@mastersystem.co.id>', 'Ronnie Radhitya Rafi Alkamal <ronnie.radhitya@mastersystem.co.id>', 'Gabriel Alexandro Hunam <gabriel.alexandro@mastersystem.co.id>', 'Yos Eddy <yos.eddy@mastersystem.co.id>', 'Rahmadani Sudarno <rahmadani.sudarno@mastersystem.co.id>', 'Sofwatun Nida <sofwatun.nida@mastersystem.co.id>', 'Lintang Sindu Utari <lintang.sindu@mastersystem.co.id>', 'Vini Velolita <vini.velolita@mastersystem.co.id>', 'Yulianty Briliant <yulianty.briliant@mastersystem.co.id>', 'Afviya Nabila <afviya.nabila@mastersystem.co.id>', 'Werdiningsih Purbaningrum <w.purbaningrum@mastersystem.co.id>', 'Ratna Sari <ratna.sari@mastersystem.co.id>', 'Rian Yasnita Yulianty <rian.yasnita@mastersystem.co.id>', 'Fitri Rosvianti <fitri.rosvianti@mastersystem.co.id>', 'Hayatullah Qamaini <hayatullah.qamaini@mastersystem.co.id>', 'Nurmawati <nurmawati@mastersystem.co.id>', 'Sonia Isabella <sonia.isabella@mastersystem.co.id>', 'Mercy Priskila <mercy.priskila@mastersystem.co.id>', 'Amalia Dita Justiciasari <amalia.dita@mastersystem.co.id>', 'Velinda Dwi Puspita Ayu <velinda.dwi@mastersystem.co.id>', 'Tetriana Yuninta  <tetriana.yuninta@mastersystem.co.id>', 'Nia Rani Valentin Sirait <nia.rani@mastersystem.co.id>', 'Yulanda Hidayatul Fajar <yulanda.hidayatul@mastersystem.co.id>', 'Eka Ratnasari <eka.ratnasari@mastersystem.co.id>', 'Safira Ramadhani <safira.ramadhani@mastersystem.co.id>', 'Wahyu Priono <wahyu.priono@mastersystem.co.id>', 'Dimas Setiawan <dimas.setiawan@mastersystem.co.id>', 'Alfha Farrel Budiantara <alfha.farrel@mastersystem.co.id>', 'Syarahbil Pawellang <syarahbil.pawellang@mastersystem.co.id>', 'Muhammad Ikhsan Hidayatullah <ikhsan.hidayatullah@mastersystem.co.id>', 'Michael Aurelio Nugraha <michael.aurelio@mastersystem.co.id>', 'Agil Muhammad Ramdani <agil.muhammad@mastersystem.co.id>', 'Muhammad Aldi Khusnul Mubaroq <muhammad.aldi@mastersystem.co.id>', 'Muhammad Naufal <muhammad.naufal@mastersystem.co.id>', 'Fredrik Collins Sibarani <fredrik.collins@mastersystem.co.id>', 'Najib Asqolani Akbar <najib.asqolani@mastersystem.co.id>', 'Abizar Alrifary <abizar.alrifary@mastersystem.co.id>', 'Rifqi Nizar <rifqi.nizar@mastersystem.co.id>', 'Mohammad Ravi Rachman <ravi.rachman@mastersystem.co.id>', 'Jovi Brema Barus, ST <jovi.brema@mastersystem.co.id>', 'Hanis Hafsyani <hanis.hafsyani@mastersystem.co.id>', 'Muhammad Muttaqin <muhammad.muttaqin@mastersystem.co.id>', 'Muhammad Yasid Ramli <yasid.ramli@mastersystem.co.id>', 'Ferdinand Louis <ferdinand.louis@mastersystem.co.id>', 'Edi Wibowo <edi.wibowo@mastersystem.co.id>', 'Arik Alvian Setiawan <arik.alvian@mastersystem.co.id>', 'Ardhya Ramadhan Prakoso <ardhya.ramadhan@mastersystem.co.id>', 'Ruslan Maulana <ruslan.maulana@mastersystem.co.id>', 'Kadek Sena Perdiana <kadek.sena@mastersystem.co.id>', 'Wijayanto Agung Nugroho <wijayanto.agung@mastersystem.co.id>', 'Wahyu Tri Silo <wahyu.trisilo@mastersystem.co.id>', 'Septian Adi Herlambang <septian.adi@mastersystem.co.id>', 'Aji Nurrahman <aji.nurrahman@mastersystem.co.id>', 'Ridwan Muhammad <ridwan.muhammad@mastersystem.co.id>', 'Sandhy Swandana <sandhy.swandana@mastersystem.co.id>', 'Tri Junianto <tri.junianto@mastersystem.co.id>', 'Yohanes Hendra Widiatmoko <yohanes.hendra@mastersystem.co.id>', 'Dwi Agusrian <dwi.agusrian@mastersystem.co.id>', 'Teguh Wahyudi <teguh.wahyudi@mastersystem.co.id>', 'Tri Yuda Febriyanto <tri.yuda@mastersystem.co.id>', 'Erpan Ruliansah <erpan.ruliansah@mastersystem.co.id>', 'Aliful Choirul Hakim <aliful.choirul@mastersystem.co.id>', 'Figo Perdana Putra <figo.perdana@mastersystem.co.id>', 'M. Hasan Abdullah <hasan@mastersystem.co.id>', 'Muhammad Ruvaldo Dennis <muhammad.ruvaldo@mastersystem.co.id>', 'Untung Ferina <untung.ferina@mastersystem.co.id>', 'Muhammad Adila Noor <adila.noor@mastersystem.co.id>', 'Ari Prahastomo Ramadhan <ari.prahastomo@mastersystem.co.id>', 'Malik Hambali <malik.hambali@mastersystem.co.id>', 'Angga Sukma Bahari <angga.sukma@mastersystem.co.id>', 'Felix Wibowo <felix.wibowo@mastersystem.co.id>', 'Yahot Siahaan <yahot.siahaan@mastersystem.co.id>', 'Ainur Rizqi Aulia <ainur.rizqi@mastersystem.co.id>', 'Tio Arissubiakto <tio.arissubiakto@mastersystem.co.id>', 'Fahmi Ardhiansyah <fahmi.ardhiansyah@mastersystem.co.id>', 'Efriansyah Pratama Putra <efriansyah.pratama@mastersystem.co.id>', 'Zamroni <zamroni@mastersystem.co.id>', 'Gani Gunawan Kusdiana <gani.gunawan@mastersystem.co.id>', 'Matias Jepri Kristanto <matias.jepri@mastersystem.co.id>', 'Fachri Akbar Rafsanzani <fachri.akbar@mastersystem.co.id>', 'Pradana Paramabakti Zefanya <pradana.paramabakti@mastersystem.co.id>', 'Fajar Dwi Saputra <fajar.dwi@mastersystem.co.id>', 'Stevanus Teja Walangitan <stevanus.teja@mastersystem.co.id>', 'Husnuzan Hidayat Pratama Abbas <husnuzan@mastersystem.co.id>', 'Yulius Eka Juhana <yulius.eka@mastersystem.co.id>', 'Muh Perdana Bagus H <perdana.bagus@mastersystem.co.id>', 'Silvana Aprilia <silvana.aprilia@mastersystem.co.id>', 'Azka Naufal Akbar <azka.naufal@mastersystem.co.id>', 'Dwi Prasetyo Utomo <dwi.prasetyo@mastersystem.co.id>', 'Dheni Yulia Dinda Pratiwi <dheni.yulia@mastersystem.co.id>', 'Nurdiansyah <nurdiansyah@mastersystem.co.id>', 'Muhammad Farkhan Khoir <farkhan.Khoir@mastersystem.co.id>', 'Haidar Maghrifa Ahmad <haidar.maghrifa@mastersystem.co.id>', 'Teguh M Wahyu Akbar <teguh.wahyu@mastersystem.co.id>', 'Abdul Roby Sukma <abdul.roby@mastersystem.co.id>', 'Raihan Ramdhani <raihan.ramdhani@mastersystem.co.id>', 'Anugrah Arizqi Heriansyah <anugrah.arizqi@mastersystem.co.id>', 'Dimas Ari Purnama Aji <dimas.ari@mastersystem.co.id>', 'Bagas Pratama Anindito <bagas.pratama@mastersystem.co.id>', 'Radiansyah Akbar <radiansyah.akbar@mastersystem.co.id>', 'Restu Wirawan <restu.wirawan@mastersystem.co.id>', 'Defryan Surya Adji Lexsamana Lim <defryan.surya@mastersystem.co.id>', 'Galih Rivananda <galih.rivananda@mastersystem.co.id>', 'Muhammad Dzaky Kholilurrohman <muhammad.dzaky@mastersystem.co.id>', 'Umar Hadat Alaydrus <umar.hadat@mastersystem.co.id>', 'Rio Purnama <rio.purnama@mastersystem.co.id>', 'Tegar Virgiawan <tegar.virgiawan@mastersystem.co.id>', 'Agus Siswanto <agus.siswanto@mastersystem.co.id>', 'Mulki Syahputra Muharram, S.T <mulki.syahputra@mastersystem.co.id>', 'Muhammad Ijlal Fajari <ijlal.fajari@mastersystem.co.id>', 'Muhammad Ridho <muhammad.ridho@mastersystem.co.id>', 'Muhamad Irfan Kurniawan <muhamad.irfan@mastersystem.co.id>', 'Febrian Tri Wahyudi <febrian.tri@mastersystem.co.id>', 'Farros Kashikoi Murtadho <farros@mastersystem.co.id>', 'Muhammad Soleh <muhammad.soleh@mastersystem.co.id>', 'Rifa\'at Abdul Haziz Muslim <rifaat.abdul@mastersystem.co.id>', 'Ahmad Halipudin <ahmad.halipudin@mastersystem.co.id>', 'Robby Prasetyo <robby.prasetyo@mastersystem.co.id>', 'Aditya Krisnadi <aditya.krisnadi@mastersystem.co.id>', 'Adriano Fahlevi <adriano.fahlevi@mastersystem.co.id>', 'Giovanni Surya Atmaja <giovanni.surya@mastersystem.co.id>', 'Nur Muhamad Ziko Iskandar <ziko.iskandar@mastersystem.co.id>', 'Mohamad Ikrom Nafi <mohamad.ikrom@mastersystem.co.id>', 'Erik Setiawan <erik.setiawan@mastersystem.co.id>', 'Andika Wira Pratama <andika.wira@mastersystem.co.id>', 'Bambang Ary Nugroho <bambang.ary@mastersystem.co.id>', 'Farrel Raditya Eduardi <farrel.raditya@mastersystem.co.id>', 'Hamdan Zuhdi Dewanul Arifin <hamdan.zuhdi@mastersystem.co.id>', 'Aziz Rahman Widyardi <aziz.rahman@mastersystem.co.id>', 'Teuku Rafif Raditya <teuku.rafif@mastersystem.co.id>', 'Willy Dinata <willy.dinata@mastersystem.co.id>', 'Dio Bagaskara Sudarpo <dio.bagaskara@mastersystem.co.id>', 'Jessica Bonita <jessica.bonita@mastersystem.co.id>', 'Muhammad Hasbi Asshidiqi <hasbi.asshidiqi@mastersystem.co.id>', 'Anas Marzuki <anas.marzuki@mastersystem.co.id>', 'I Made Wisma Fajaryasa <wisma.fajaryasa@mastersystem.co.id>', 'Doehan Pamungkas <doehan@mastersystem.co.id>', 'Arib Nawwar Tahir <arib.nawwar@mastersystem.co.id>', 'Khital Hakiki <khital.hakiki@mastersystem.co.id>', 'Muhammad Fatha <fatha@mastersystem.co.id>', 'Ahmad Faizin <ahmad.faizin@mastersystem.co.id>', 'Alfian Dwi Bagus Nur Rochman <alfian.dwi@mastersystem.co.id>', 'Kautsar Imam Hidayat <kautsar.imam@mastersystem.co.id>', 'Ahmad Solahudin Rifandi <ahmad.solahudin@mastersystem.co.id>', 'Sentosa <sentosa@mastersystem.co.id>', 'Iman Rendi Feluzy <iman.rendi@mastersystem.co.id>', 'M. Akmal Hadi Utama <akmal.hadi@mastersystem.co.id>')
+                    GROUP BY `a`.`commercial_category`
+                    ORDER BY `a`.`commercial_category`;
+
+
+2023-12-06 16:43:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '('Joko Gunawan<joko@mastersystem.co.id>', 'Raymond R. Taruli <Raymond.Raphael...' at line 9
+- Query 		: SELECT 
+                        `a`.`time_category`,
+                        COUNT(DISTINCT `a`.`project_id`) AS `total`
+                    FROM
+                        `sa_kpi_dashboard_pl` `a`
+                    LEFT JOIN `sa_user` AS `b`
+                    ON
+                        `a`.`project_code` = `b`.`project_code`
+                    WHERE  `a`.`kpi_status` = 'Reviewed'   AND  `a`.`periode_kpi` = 2023  AND  `a`.`project_type` = 'MSI Project Implementation' ('Joko Gunawan<joko@mastersystem.co.id>', 'Raymond R. Taruli <Raymond.Raphael@mastersystem.co.id>', 'Fortuna Setyo Arumsari <fortuna@mastersystem.co.id>', 'Sumarto Santosa <sumarto@mastersystem.co.id>', 'Andreas Teguh Nugroho <andreas@mastersystem.co.id>', 'Iwan Rusmin <iwan@mastersystem.co.id>', 'Aceng Zakariya Ramadani <aceng.zakariya@mastersystem.co.id>', 'Martin Chandra <martin@mastersystem.co.id>', 'Nicholaus Valentino Dwicahyo <nicholaus.valentino@mastersystem.co.id>', 'Olivian Bagas Pratama <olivian.bagas@mastersystem.co.id>', 'Agdi Rizky Fauzi <agdi.rizky@mastersystem.co.id>', 'Muhammad Rafi Nurrohim <rafi.nurrohim@mastersystem.co.id>', 'Muhammad Wildan  <muhammad.wildan@mastersystem.co.id>', 'Randy Rozano <randy.rozano@mastersystem.co.id>', 'Miko Widiarta <miko.widiarta@mastersystem.co.id>', 'Meilita Kurniati <meilita.kurniati@mastersystem.co.id>', 'Muhammad Fawwaz Azmi <muhammad.fawwaz@mastersystem.co.id>', 'Niki Ihsanul Hakim <niki.ihsanul@mastersystem.co.id>', 'Za\'imatul Hakimah Septiani <zaimatul@mastersystem.co.id>', 'Gilang Anugerah Fajri <gilang.anugerah@mastersystem.co.id>', 'Wafda Qinthara Konjala <wafda.qinthara@mastersystem.co.id>', 'Gregory Matthew <gregory.matthew@mastersystem.co.id>', 'Alan Maulana <alan.maulana@mastersystem.co.id>', 'Herty Brigita Surbakti <herty.brigita@mastersystem.co.id>', 'David Kusuma Chandra <david.kusuma@mastersystem.co.id>', 'Dyota Laksmana Adityantoro <dyota.laksmana@mastersystem.co.id>', 'Nindya Triana Putri <nindya.triana@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan <arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony <fibyan.saleh@mastersystem.co.id>', 'Zahira Nafira Rizka <zahira.nafira@mastersystem.co.id>', 'Aulia Adina <aulia.adina@mastersystem.co.id>', 'Carrissa Diljan <carrissa.diljan@mastersystem.co.id>', 'Muhammad Laidri Fernanda <muhammad.laidri@mastersystem.co.id>', 'Annisa Nur Hapifah <annisa.hapifah@mastersystem.co.id>', 'Syntia Ayu Kartika <syntia.ayu@mastersystem.co.id>', 'Feralia Fitri <feralia.fitri@mastersystem.co.id>', 'Rezha Aulia Riyanda <rezha.aulia@mastersystem.co.id>', 'Innaya Maitsa Putri <innaya@mastersystem.co.id>', 'Nabella Yanza <nabella.yanza@mastersystem.co.id>', 'Yanuar Reza Wardana <yanuar.reza@mastersystem.co.id>', 'Frendy Johan Kwok <frendy.johan@mastersystem.co.id>', 'Nanda Prasetyo <nanda.prasetyo@mastersystem.co.id>', 'Khouw Apriyanto <Apriyanto@mastersystem.co.id>', 'Lukman Susanto Kurniawan <lukman.susanto@mastersystem.co.id>', 'Harry Effendi <harry.effendi@mastersystem.co.id>', 'Riswan Fadhilah  <riswan.fadhilah@mastersystem.co.id>', 'Risqi Pratama Ramadhan <risqi.pratama@mastersystem.co.id>', 'Sumarno <sumarno@mastersystem.co.id>', 'Pitasari Amanda <pitasari.amanda@mastersystem.co.id>', 'Oktavian Montitopan <oktavian.montitopan@mastersystem.co.id>', 'Tommy Putra Sitorus <tommy.putra@mastersystem.co.id>', 'Rafi Pragiwaka Gani <rafi.pragiwaka@mastersystem.co.id>', 'Azizka Ayu Dhiyani <azizka.ayu@mastersystem.co.id>', 'Fronita <fronita@mastersystem.co.id>', 'Ficky Bharata <ficky.bharata@mastersystem.co.id>', 'Lucky Andiani ,ST <lucky.andiani@mastersystem.co.id>', 'Desy Marianna <desy.marianna@mastersystem.co.id>', 'Saskia Intanadhira <saskia.intanadhira@mastersystem.co.id>', 'Dwi Endar Santo <dwi.endar@mastersystem.co.id>', 'Gniegmilang Adiabentang F <gniegmilang@mastersystem.co.id>', 'Anjas Permana Kumbara <anjas.permana@mastersystem.co.id>', 'Pradana Ega Putra <pradana.ega@mastersystem.co.id>', 'Zahroh Oliviany Fadilah Thomas <zahroh.oliviany@mastersystem.co.id>', 'Fadhil Hilmi Alhabib <fadhil.hilmi@mastersystem.co.id>', 'Waliyul Mursidin <waliyul@mastersystem.co.id>', 'Anita Angelina, S.AB., M.B.A <anita.angelina@mastersystem.co.id>', 'Amanda Febrina <amanda.febrina@mastersystem.co.id>', 'Susanti Saputri Sarkam <susanti.saputri@mastersystem.co.id>', 'Partukoan Siagian <lay@mastersystem.co.id>', 'Ivan Hadiyan Setiamarga <ivan.hadiyan@mastersystem.co.id>', 'Eulis Fitriansyah <eulis.fitriansyah@mastersystem.co.id>', 'Alya Yulisti Fauziyyah Bachtiar <alya.yulisti@mastersystem.co.id>', 'Aldino De Lama <aldino.delama@mastersystem.co.id>', 'Nadia Luqiana <nadia.luqiana@mastersystem.co.id>', 'Rio Pratomo <rio.pratomo@mastersystem.co.id>', 'Wirawan Bharata <wirawan.bharata@mastersystem.co.id>', 'Ricky Pebriandi Rajagukguk <ricky.pebriandi@mastersystem.co.id>', 'Okta Sumahendra <okta.sumahendra@mastersystem.co.id>', 'Irvan Fauzi, S.Hum <irvan.fauzi@mastersystem.co.id>', 'Muhammad Farid Burhanudin <muhammad.farid@mastersystem.co.id>', 'Melysa Wahyuningsih <melysa.wahyuningsih@mastersystem.co.id>', 'Jayanti Susan Irwanti <jayanti.susan@mastersystem.co.id>', 'Ericha Mutia Putri <ericha.mutia@mastersystem.co.id>', 'Nurma Sumar Sidik <nurma.sumar@mastersystem.co.id>', 'Trie Mayhera Sabalidowati <trie.mayhera@mastersystem.co.id>', 'Femmy Nur Azizah <femmy@mastersystem.co.id>', 'Winda Ekawati <winda.ekawati@mastersystem.co.id>', 'Engelbertus Tiwu <engelbertus@mastersystem.co.id>', 'Indrawan Dwi Putra <indrawan.dwi@mastersystem.co.id>', 'Erawan Prasetyo <erawan.prasetyo@mastersystem.co.id>', 'Dila Styaningtyas <dila.styaningtyas@mastersystem.co.id>', 'Harry Hartono <harry.hartono@mastersystem.co.id>', 'M.Syaifuddin Muis Toekan <muis.toekan@mastersystem.co.id>', 'Alexander Tio <alexander.tio@mastersystem.co.id>', 'Shannice Ayangketi <shannice.ayangketi@mastersystem.co.id>', 'Rifqy Pratama Putra B <rifqy.pratama@mastersystem.co.id>', 'Ia Refyta Shafyra <ia.refyta@mastersystem.co.id>', 'Eka Kurniawati <eka.kurniawati@mastersystem.co.id>', 'Natasha Isyana Putri <natasya.isyanaputri@mastersystem.co.id>', 'Revita Aryani <revita.aryani@mastersystem.co.id>', 'Irfan Hanifah Wardhana <irfan.hanifah@mastersystem.co.id>', 'Inggit Novita Panannangan <inggit.novita@mastersystem.co.id>', 'Albar Faiz Himawan <albar.faiz@mastersystem.co.id>', 'Desi Permatasari <desi.permatasari@mastersystem.co.id>', 'Amelia Rami <amelia.rami@mastersystem.co.id>', 'Aulia Yogi Fachlivan <aulia.yogi@mastersystem.co.id>', 'Aditias Fauzi Ahmad <aditias.fauzi@mastersystem.co.id>', 'Rizky <rizky@mastersystem.co.id>', 'Ary Mulyati Hardi <ary.mulyati@mastersystem.co.id>', 'Henny Anggravita <henny.anggra@mastersystem.co.id>', 'Bani Buchari Setia Putra <bani.buchari@mastersystem.co.id>', 'Jutarto Wicaksono,SK <jutarto@mastersystem.co.id>', 'Fernando Wangsa <fernando.wangsa@mastersystem.co.id>', 'Firmansyah <firman.syah@mastersystem.co.id>', 'Muji Waluyo <muji.waluyo@mastersystem.co.id>', 'Agus Sopyan <agus.sopyan@mastersystem.co.id>', 'Wahyuwinningdyah Margareta,S.S.PSI <margareta.sekar@mastersystem.co.id>', 'Anastasia Sonya Haryanti <Anastasia.sonya@mastersystem.co.id>', 'Muhammad Egga Ari Gayo <muhammad.egga@mastersystem.co.id>', 'A. Sarikun <sarikun@mastersystem.co.id>', 'Adi Marsunu <adi.marsunu@mastersystem.co.id>', 'Mahdi Fadilatul Ulum <mahdi.fadilatul@mastersystem.co.id>', 'Ruslam <ruslam@mastersystem.co.id>', 'Rumianto <rumianto@mastersystem.co.id>', 'Risma Khaerunisa <risma.khaerunisa@mastersystem.co.id>', 'Nanang Susilo <nanang.susilo@mastersystem.co.id>', 'Deni Suwarno <deni.suwarno@mastersystem.co.id>', 'Nurochmat <nurochmat@mastersystem.co.id>', 'Turyanto <turyanto@mastersystem.co.id>', 'Samsul Bakhri <samsul.bahri@mastersystem.co.id>', 'Mahfuri <mahfuri@mastersystem.co.id>', 'Rachmat Hidayat <rachmat.hidayat@mastersystem.co.id>', 'Mohamad Jawahir <jawahir@mastersystem.co.id>', 'Sohirin <sohirin@mastersystem.co.id>', 'Yayat Ruhiyat <yayat.ruhiyat@mastersystem.co.id>', 'Bambang Wibowo Murti <bambang@mastersystem.co.id>', 'Susanti <susanti@mastersystem.co.id>', 'Annisa Riska Medita <annisa.riska@mastersystem.co.id>', 'Raden Ajeng Annisa <raden.ajeng@mastersystem.co.id>', 'Inge Mutiara Maudy <inge.mutiara@mastersystem.co.id>', 'Muhammad Febrian Ramadhan <muhammad.febrian@mastersystem.co.id>', 'Riyan Alamsyah <ryan.alamsyah@mastersystem.co.id>', 'Yohana Theodora Br Siallagan <yohana.theodora@mastersystem.co.id>', 'Julia Genny Langkun <julia.genny@mastersystem.co.id>', 'Rikaz Wildan Fauzi <rikaz.wildan@mastersystem.co.id>', 'Vika Rifti Ananditya <vika.rifti@mastersystem.co.id>', 'Cornelius Aji Nugroho <cornelius.aji@mastersystem.co.id>', 'Syamsul Arham <syamsul@mastersystem.co.id>', 'Anwar Affandi <anwar.affandi@mastersystem.co.id>', 'Hanna Utami <hanna.utami@mastersystem.co.id>', 'Luthfi Eka Dharmawan  <luthfi.eka@mastersystem.co.id>', 'Muhammad Yudi Pratama <yudi.pratama@mastersystem.co.id>', 'Faisal Suryadi Nggilu <faisal.suryadi@mastersystem.co.id>', 'Rahman Dani <rahman.dani@mastersystem.co.id>', 'Ajie Prasetyo <ajie.prasetyo@mastersystem.co.id>', 'Budi Satriawan <budi.satriawan@mastersystem.co.id>', 'Fabian Darryl Enrico <fabian.darryl@mastersystem.co.id>', 'Albert Briliakta Giri Saputra <albert.saputra@mastersystem.co.id>', 'Arya Hadi <arya.hadi@mastersystem.co.id>', 'Khalid Hamzah Haza Al Hamami <khalid.hamzah@mastersystem.co.id>', 'Hendhika Vernanda <hendika.vernanda@mastersystem.co.id>', 'Maria Silvester Luhur,S.KOM <silvester.luhur@mastersystem.co.id>', 'Muhammad Aryo Bimo <aryo.bimo@mastersystem.co.id>', 'Mega Dwi Apriyanti <mega.dwi@mastersystem.co.id>', 'Yongky Karnadi, S.KOM <yongki_k@mastersystem.co.id>', 'Malik Aulia Wiratama <malik.aulia@mastersystem.co.id>', 'M. Aan Dafa Setiawan <aan.dafa@mastersystem.co.id>', 'Chrisheryanda Eka Saputra <chrisheryanda@mastersystem.co.id>', 'Ratna Diana Pancasari <ratna@mastersystem.co.id>', 'Ajie Sandi Martin <ajie.sandi@mastersystem.co.id>', 'Horas Parsaoran S <horas.parsaoran@mastersystem.co.id>', 'Pujo Suwandono <Pujo@mastersystem.co.id>', 'I Putu Wirama Yuda <putuwirama@mastersystem.co.id>', 'Riza Nurhendra <riza.nurhendra@mastersystem.co.id>', 'Muhamad Iqbal Ogie <iqbal.ogie@mastersystem.co.id>', 'Herri Sutrisno <herri@mastersystem.co.id>', 'Victor Ari Jordan Theodore <victor.ari@mastersystem.co.id>', 'Sonny Widjaya <sonny.widjaya@mastersystem.co.id>', 'Barnas Cakra Sanjaya  <barnas.cakra@mastersystem.co.id>', 'Bambang Mahananda <bambang.mahananda@mastersystem.co.id>', 'Fatih Khoiri <fatih.khoiri@mastersystem.co.id>', 'Purwanto <purwanto@mastersystem.co.id>', 'Moh. Ichsan Wibawa <ichsan.wibawa@mastersystem.co.id>', 'Kent Wirianata <kent.wirianata@mastersystem.co.id>', 'Yesi Widia Wanti <yesi.widia@mastersystem.co.id>', 'Abdul Rasyid Aziz <abdul.rasyid@mastersystem.co.id>', 'Kenny Tanoto <kenny.tanoto@mastersystem.co.id>', 'Reza Febrian Khity, ST <reza.febrian@mastersystem.co.id>', 'Upik Fadillah <upik.fadillah@mastersystem.co.id>', 'Fahmi Shihabuddin Zakaria <fahmi.shihabuddin@mastersystem.co.id>', 'Malik Perwiro Joyo <malik.perwiro@mastersystem.co.id>', 'Busra Zukran <busra.zukran@mastersystem.co.id>', 'Achmad Imam Faozan <achmad.imam@mastersystem.co.id>', 'Eko Budi Prasetyo <eko.budi@mastersystem.co.id>', 'Ronnie Radhitya Rafi Alkamal <ronnie.radhitya@mastersystem.co.id>', 'Gabriel Alexandro Hunam <gabriel.alexandro@mastersystem.co.id>', 'Yos Eddy <yos.eddy@mastersystem.co.id>', 'Rahmadani Sudarno <rahmadani.sudarno@mastersystem.co.id>', 'Sofwatun Nida <sofwatun.nida@mastersystem.co.id>', 'Lintang Sindu Utari <lintang.sindu@mastersystem.co.id>', 'Vini Velolita <vini.velolita@mastersystem.co.id>', 'Yulianty Briliant <yulianty.briliant@mastersystem.co.id>', 'Afviya Nabila <afviya.nabila@mastersystem.co.id>', 'Werdiningsih Purbaningrum <w.purbaningrum@mastersystem.co.id>', 'Ratna Sari <ratna.sari@mastersystem.co.id>', 'Rian Yasnita Yulianty <rian.yasnita@mastersystem.co.id>', 'Fitri Rosvianti <fitri.rosvianti@mastersystem.co.id>', 'Hayatullah Qamaini <hayatullah.qamaini@mastersystem.co.id>', 'Nurmawati <nurmawati@mastersystem.co.id>', 'Sonia Isabella <sonia.isabella@mastersystem.co.id>', 'Mercy Priskila <mercy.priskila@mastersystem.co.id>', 'Amalia Dita Justiciasari <amalia.dita@mastersystem.co.id>', 'Velinda Dwi Puspita Ayu <velinda.dwi@mastersystem.co.id>', 'Tetriana Yuninta  <tetriana.yuninta@mastersystem.co.id>', 'Nia Rani Valentin Sirait <nia.rani@mastersystem.co.id>', 'Yulanda Hidayatul Fajar <yulanda.hidayatul@mastersystem.co.id>', 'Eka Ratnasari <eka.ratnasari@mastersystem.co.id>', 'Safira Ramadhani <safira.ramadhani@mastersystem.co.id>', 'Wahyu Priono <wahyu.priono@mastersystem.co.id>', 'Dimas Setiawan <dimas.setiawan@mastersystem.co.id>', 'Alfha Farrel Budiantara <alfha.farrel@mastersystem.co.id>', 'Syarahbil Pawellang <syarahbil.pawellang@mastersystem.co.id>', 'Muhammad Ikhsan Hidayatullah <ikhsan.hidayatullah@mastersystem.co.id>', 'Michael Aurelio Nugraha <michael.aurelio@mastersystem.co.id>', 'Agil Muhammad Ramdani <agil.muhammad@mastersystem.co.id>', 'Muhammad Aldi Khusnul Mubaroq <muhammad.aldi@mastersystem.co.id>', 'Muhammad Naufal <muhammad.naufal@mastersystem.co.id>', 'Fredrik Collins Sibarani <fredrik.collins@mastersystem.co.id>', 'Najib Asqolani Akbar <najib.asqolani@mastersystem.co.id>', 'Abizar Alrifary <abizar.alrifary@mastersystem.co.id>', 'Rifqi Nizar <rifqi.nizar@mastersystem.co.id>', 'Mohammad Ravi Rachman <ravi.rachman@mastersystem.co.id>', 'Jovi Brema Barus, ST <jovi.brema@mastersystem.co.id>', 'Hanis Hafsyani <hanis.hafsyani@mastersystem.co.id>', 'Muhammad Muttaqin <muhammad.muttaqin@mastersystem.co.id>', 'Muhammad Yasid Ramli <yasid.ramli@mastersystem.co.id>', 'Ferdinand Louis <ferdinand.louis@mastersystem.co.id>', 'Edi Wibowo <edi.wibowo@mastersystem.co.id>', 'Arik Alvian Setiawan <arik.alvian@mastersystem.co.id>', 'Ardhya Ramadhan Prakoso <ardhya.ramadhan@mastersystem.co.id>', 'Ruslan Maulana <ruslan.maulana@mastersystem.co.id>', 'Kadek Sena Perdiana <kadek.sena@mastersystem.co.id>', 'Wijayanto Agung Nugroho <wijayanto.agung@mastersystem.co.id>', 'Wahyu Tri Silo <wahyu.trisilo@mastersystem.co.id>', 'Septian Adi Herlambang <septian.adi@mastersystem.co.id>', 'Aji Nurrahman <aji.nurrahman@mastersystem.co.id>', 'Ridwan Muhammad <ridwan.muhammad@mastersystem.co.id>', 'Sandhy Swandana <sandhy.swandana@mastersystem.co.id>', 'Tri Junianto <tri.junianto@mastersystem.co.id>', 'Yohanes Hendra Widiatmoko <yohanes.hendra@mastersystem.co.id>', 'Dwi Agusrian <dwi.agusrian@mastersystem.co.id>', 'Teguh Wahyudi <teguh.wahyudi@mastersystem.co.id>', 'Tri Yuda Febriyanto <tri.yuda@mastersystem.co.id>', 'Erpan Ruliansah <erpan.ruliansah@mastersystem.co.id>', 'Aliful Choirul Hakim <aliful.choirul@mastersystem.co.id>', 'Figo Perdana Putra <figo.perdana@mastersystem.co.id>', 'M. Hasan Abdullah <hasan@mastersystem.co.id>', 'Muhammad Ruvaldo Dennis <muhammad.ruvaldo@mastersystem.co.id>', 'Untung Ferina <untung.ferina@mastersystem.co.id>', 'Muhammad Adila Noor <adila.noor@mastersystem.co.id>', 'Ari Prahastomo Ramadhan <ari.prahastomo@mastersystem.co.id>', 'Malik Hambali <malik.hambali@mastersystem.co.id>', 'Angga Sukma Bahari <angga.sukma@mastersystem.co.id>', 'Felix Wibowo <felix.wibowo@mastersystem.co.id>', 'Yahot Siahaan <yahot.siahaan@mastersystem.co.id>', 'Ainur Rizqi Aulia <ainur.rizqi@mastersystem.co.id>', 'Tio Arissubiakto <tio.arissubiakto@mastersystem.co.id>', 'Fahmi Ardhiansyah <fahmi.ardhiansyah@mastersystem.co.id>', 'Efriansyah Pratama Putra <efriansyah.pratama@mastersystem.co.id>', 'Zamroni <zamroni@mastersystem.co.id>', 'Gani Gunawan Kusdiana <gani.gunawan@mastersystem.co.id>', 'Matias Jepri Kristanto <matias.jepri@mastersystem.co.id>', 'Fachri Akbar Rafsanzani <fachri.akbar@mastersystem.co.id>', 'Pradana Paramabakti Zefanya <pradana.paramabakti@mastersystem.co.id>', 'Fajar Dwi Saputra <fajar.dwi@mastersystem.co.id>', 'Stevanus Teja Walangitan <stevanus.teja@mastersystem.co.id>', 'Husnuzan Hidayat Pratama Abbas <husnuzan@mastersystem.co.id>', 'Yulius Eka Juhana <yulius.eka@mastersystem.co.id>', 'Muh Perdana Bagus H <perdana.bagus@mastersystem.co.id>', 'Silvana Aprilia <silvana.aprilia@mastersystem.co.id>', 'Azka Naufal Akbar <azka.naufal@mastersystem.co.id>', 'Dwi Prasetyo Utomo <dwi.prasetyo@mastersystem.co.id>', 'Dheni Yulia Dinda Pratiwi <dheni.yulia@mastersystem.co.id>', 'Nurdiansyah <nurdiansyah@mastersystem.co.id>', 'Muhammad Farkhan Khoir <farkhan.Khoir@mastersystem.co.id>', 'Haidar Maghrifa Ahmad <haidar.maghrifa@mastersystem.co.id>', 'Teguh M Wahyu Akbar <teguh.wahyu@mastersystem.co.id>', 'Abdul Roby Sukma <abdul.roby@mastersystem.co.id>', 'Raihan Ramdhani <raihan.ramdhani@mastersystem.co.id>', 'Anugrah Arizqi Heriansyah <anugrah.arizqi@mastersystem.co.id>', 'Dimas Ari Purnama Aji <dimas.ari@mastersystem.co.id>', 'Bagas Pratama Anindito <bagas.pratama@mastersystem.co.id>', 'Radiansyah Akbar <radiansyah.akbar@mastersystem.co.id>', 'Restu Wirawan <restu.wirawan@mastersystem.co.id>', 'Defryan Surya Adji Lexsamana Lim <defryan.surya@mastersystem.co.id>', 'Galih Rivananda <galih.rivananda@mastersystem.co.id>', 'Muhammad Dzaky Kholilurrohman <muhammad.dzaky@mastersystem.co.id>', 'Umar Hadat Alaydrus <umar.hadat@mastersystem.co.id>', 'Rio Purnama <rio.purnama@mastersystem.co.id>', 'Tegar Virgiawan <tegar.virgiawan@mastersystem.co.id>', 'Agus Siswanto <agus.siswanto@mastersystem.co.id>', 'Mulki Syahputra Muharram, S.T <mulki.syahputra@mastersystem.co.id>', 'Muhammad Ijlal Fajari <ijlal.fajari@mastersystem.co.id>', 'Muhammad Ridho <muhammad.ridho@mastersystem.co.id>', 'Muhamad Irfan Kurniawan <muhamad.irfan@mastersystem.co.id>', 'Febrian Tri Wahyudi <febrian.tri@mastersystem.co.id>', 'Farros Kashikoi Murtadho <farros@mastersystem.co.id>', 'Muhammad Soleh <muhammad.soleh@mastersystem.co.id>', 'Rifa\'at Abdul Haziz Muslim <rifaat.abdul@mastersystem.co.id>', 'Ahmad Halipudin <ahmad.halipudin@mastersystem.co.id>', 'Robby Prasetyo <robby.prasetyo@mastersystem.co.id>', 'Aditya Krisnadi <aditya.krisnadi@mastersystem.co.id>', 'Adriano Fahlevi <adriano.fahlevi@mastersystem.co.id>', 'Giovanni Surya Atmaja <giovanni.surya@mastersystem.co.id>', 'Nur Muhamad Ziko Iskandar <ziko.iskandar@mastersystem.co.id>', 'Mohamad Ikrom Nafi <mohamad.ikrom@mastersystem.co.id>', 'Erik Setiawan <erik.setiawan@mastersystem.co.id>', 'Andika Wira Pratama <andika.wira@mastersystem.co.id>', 'Bambang Ary Nugroho <bambang.ary@mastersystem.co.id>', 'Farrel Raditya Eduardi <farrel.raditya@mastersystem.co.id>', 'Hamdan Zuhdi Dewanul Arifin <hamdan.zuhdi@mastersystem.co.id>', 'Aziz Rahman Widyardi <aziz.rahman@mastersystem.co.id>', 'Teuku Rafif Raditya <teuku.rafif@mastersystem.co.id>', 'Willy Dinata <willy.dinata@mastersystem.co.id>', 'Dio Bagaskara Sudarpo <dio.bagaskara@mastersystem.co.id>', 'Jessica Bonita <jessica.bonita@mastersystem.co.id>', 'Muhammad Hasbi Asshidiqi <hasbi.asshidiqi@mastersystem.co.id>', 'Anas Marzuki <anas.marzuki@mastersystem.co.id>', 'I Made Wisma Fajaryasa <wisma.fajaryasa@mastersystem.co.id>', 'Doehan Pamungkas <doehan@mastersystem.co.id>', 'Arib Nawwar Tahir <arib.nawwar@mastersystem.co.id>', 'Khital Hakiki <khital.hakiki@mastersystem.co.id>', 'Muhammad Fatha <fatha@mastersystem.co.id>', 'Ahmad Faizin <ahmad.faizin@mastersystem.co.id>', 'Alfian Dwi Bagus Nur Rochman <alfian.dwi@mastersystem.co.id>', 'Kautsar Imam Hidayat <kautsar.imam@mastersystem.co.id>', 'Ahmad Solahudin Rifandi <ahmad.solahudin@mastersystem.co.id>', 'Sentosa <sentosa@mastersystem.co.id>', 'Iman Rendi Feluzy <iman.rendi@mastersystem.co.id>', 'M. Akmal Hadi Utama <akmal.hadi@mastersystem.co.id>')
+                    GROUP BY `a`.`time_category`
+                    ORDER BY `a`.`time_category`;
+
+
+2023-12-06 16:43:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '('Joko Gunawan<joko@mastersystem.co.id>', 'Raymond R. Taruli <Raymond.Raphael...' at line 9
+- Query 		: SELECT 
+                        `a`.`error_category`,
+                        COUNT(DISTINCT `a`.`project_id`) AS `total`
+                    FROM
+                        `sa_kpi_dashboard_pl` `a`
+                    LEFT JOIN `sa_user` AS `b`
+                    ON
+                        `a`.`project_code` = `b`.`project_code`
+                    WHERE  `a`.`kpi_status` = 'Reviewed'   AND  `a`.`periode_kpi` = 2023  AND  `a`.`project_type` = 'MSI Project Implementation' ('Joko Gunawan<joko@mastersystem.co.id>', 'Raymond R. Taruli <Raymond.Raphael@mastersystem.co.id>', 'Fortuna Setyo Arumsari <fortuna@mastersystem.co.id>', 'Sumarto Santosa <sumarto@mastersystem.co.id>', 'Andreas Teguh Nugroho <andreas@mastersystem.co.id>', 'Iwan Rusmin <iwan@mastersystem.co.id>', 'Aceng Zakariya Ramadani <aceng.zakariya@mastersystem.co.id>', 'Martin Chandra <martin@mastersystem.co.id>', 'Nicholaus Valentino Dwicahyo <nicholaus.valentino@mastersystem.co.id>', 'Olivian Bagas Pratama <olivian.bagas@mastersystem.co.id>', 'Agdi Rizky Fauzi <agdi.rizky@mastersystem.co.id>', 'Muhammad Rafi Nurrohim <rafi.nurrohim@mastersystem.co.id>', 'Muhammad Wildan  <muhammad.wildan@mastersystem.co.id>', 'Randy Rozano <randy.rozano@mastersystem.co.id>', 'Miko Widiarta <miko.widiarta@mastersystem.co.id>', 'Meilita Kurniati <meilita.kurniati@mastersystem.co.id>', 'Muhammad Fawwaz Azmi <muhammad.fawwaz@mastersystem.co.id>', 'Niki Ihsanul Hakim <niki.ihsanul@mastersystem.co.id>', 'Za\'imatul Hakimah Septiani <zaimatul@mastersystem.co.id>', 'Gilang Anugerah Fajri <gilang.anugerah@mastersystem.co.id>', 'Wafda Qinthara Konjala <wafda.qinthara@mastersystem.co.id>', 'Gregory Matthew <gregory.matthew@mastersystem.co.id>', 'Alan Maulana <alan.maulana@mastersystem.co.id>', 'Herty Brigita Surbakti <herty.brigita@mastersystem.co.id>', 'David Kusuma Chandra <david.kusuma@mastersystem.co.id>', 'Dyota Laksmana Adityantoro <dyota.laksmana@mastersystem.co.id>', 'Nindya Triana Putri <nindya.triana@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan <arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony <fibyan.saleh@mastersystem.co.id>', 'Zahira Nafira Rizka <zahira.nafira@mastersystem.co.id>', 'Aulia Adina <aulia.adina@mastersystem.co.id>', 'Carrissa Diljan <carrissa.diljan@mastersystem.co.id>', 'Muhammad Laidri Fernanda <muhammad.laidri@mastersystem.co.id>', 'Annisa Nur Hapifah <annisa.hapifah@mastersystem.co.id>', 'Syntia Ayu Kartika <syntia.ayu@mastersystem.co.id>', 'Feralia Fitri <feralia.fitri@mastersystem.co.id>', 'Rezha Aulia Riyanda <rezha.aulia@mastersystem.co.id>', 'Innaya Maitsa Putri <innaya@mastersystem.co.id>', 'Nabella Yanza <nabella.yanza@mastersystem.co.id>', 'Yanuar Reza Wardana <yanuar.reza@mastersystem.co.id>', 'Frendy Johan Kwok <frendy.johan@mastersystem.co.id>', 'Nanda Prasetyo <nanda.prasetyo@mastersystem.co.id>', 'Khouw Apriyanto <Apriyanto@mastersystem.co.id>', 'Lukman Susanto Kurniawan <lukman.susanto@mastersystem.co.id>', 'Harry Effendi <harry.effendi@mastersystem.co.id>', 'Riswan Fadhilah  <riswan.fadhilah@mastersystem.co.id>', 'Risqi Pratama Ramadhan <risqi.pratama@mastersystem.co.id>', 'Sumarno <sumarno@mastersystem.co.id>', 'Pitasari Amanda <pitasari.amanda@mastersystem.co.id>', 'Oktavian Montitopan <oktavian.montitopan@mastersystem.co.id>', 'Tommy Putra Sitorus <tommy.putra@mastersystem.co.id>', 'Rafi Pragiwaka Gani <rafi.pragiwaka@mastersystem.co.id>', 'Azizka Ayu Dhiyani <azizka.ayu@mastersystem.co.id>', 'Fronita <fronita@mastersystem.co.id>', 'Ficky Bharata <ficky.bharata@mastersystem.co.id>', 'Lucky Andiani ,ST <lucky.andiani@mastersystem.co.id>', 'Desy Marianna <desy.marianna@mastersystem.co.id>', 'Saskia Intanadhira <saskia.intanadhira@mastersystem.co.id>', 'Dwi Endar Santo <dwi.endar@mastersystem.co.id>', 'Gniegmilang Adiabentang F <gniegmilang@mastersystem.co.id>', 'Anjas Permana Kumbara <anjas.permana@mastersystem.co.id>', 'Pradana Ega Putra <pradana.ega@mastersystem.co.id>', 'Zahroh Oliviany Fadilah Thomas <zahroh.oliviany@mastersystem.co.id>', 'Fadhil Hilmi Alhabib <fadhil.hilmi@mastersystem.co.id>', 'Waliyul Mursidin <waliyul@mastersystem.co.id>', 'Anita Angelina, S.AB., M.B.A <anita.angelina@mastersystem.co.id>', 'Amanda Febrina <amanda.febrina@mastersystem.co.id>', 'Susanti Saputri Sarkam <susanti.saputri@mastersystem.co.id>', 'Partukoan Siagian <lay@mastersystem.co.id>', 'Ivan Hadiyan Setiamarga <ivan.hadiyan@mastersystem.co.id>', 'Eulis Fitriansyah <eulis.fitriansyah@mastersystem.co.id>', 'Alya Yulisti Fauziyyah Bachtiar <alya.yulisti@mastersystem.co.id>', 'Aldino De Lama <aldino.delama@mastersystem.co.id>', 'Nadia Luqiana <nadia.luqiana@mastersystem.co.id>', 'Rio Pratomo <rio.pratomo@mastersystem.co.id>', 'Wirawan Bharata <wirawan.bharata@mastersystem.co.id>', 'Ricky Pebriandi Rajagukguk <ricky.pebriandi@mastersystem.co.id>', 'Okta Sumahendra <okta.sumahendra@mastersystem.co.id>', 'Irvan Fauzi, S.Hum <irvan.fauzi@mastersystem.co.id>', 'Muhammad Farid Burhanudin <muhammad.farid@mastersystem.co.id>', 'Melysa Wahyuningsih <melysa.wahyuningsih@mastersystem.co.id>', 'Jayanti Susan Irwanti <jayanti.susan@mastersystem.co.id>', 'Ericha Mutia Putri <ericha.mutia@mastersystem.co.id>', 'Nurma Sumar Sidik <nurma.sumar@mastersystem.co.id>', 'Trie Mayhera Sabalidowati <trie.mayhera@mastersystem.co.id>', 'Femmy Nur Azizah <femmy@mastersystem.co.id>', 'Winda Ekawati <winda.ekawati@mastersystem.co.id>', 'Engelbertus Tiwu <engelbertus@mastersystem.co.id>', 'Indrawan Dwi Putra <indrawan.dwi@mastersystem.co.id>', 'Erawan Prasetyo <erawan.prasetyo@mastersystem.co.id>', 'Dila Styaningtyas <dila.styaningtyas@mastersystem.co.id>', 'Harry Hartono <harry.hartono@mastersystem.co.id>', 'M.Syaifuddin Muis Toekan <muis.toekan@mastersystem.co.id>', 'Alexander Tio <alexander.tio@mastersystem.co.id>', 'Shannice Ayangketi <shannice.ayangketi@mastersystem.co.id>', 'Rifqy Pratama Putra B <rifqy.pratama@mastersystem.co.id>', 'Ia Refyta Shafyra <ia.refyta@mastersystem.co.id>', 'Eka Kurniawati <eka.kurniawati@mastersystem.co.id>', 'Natasha Isyana Putri <natasya.isyanaputri@mastersystem.co.id>', 'Revita Aryani <revita.aryani@mastersystem.co.id>', 'Irfan Hanifah Wardhana <irfan.hanifah@mastersystem.co.id>', 'Inggit Novita Panannangan <inggit.novita@mastersystem.co.id>', 'Albar Faiz Himawan <albar.faiz@mastersystem.co.id>', 'Desi Permatasari <desi.permatasari@mastersystem.co.id>', 'Amelia Rami <amelia.rami@mastersystem.co.id>', 'Aulia Yogi Fachlivan <aulia.yogi@mastersystem.co.id>', 'Aditias Fauzi Ahmad <aditias.fauzi@mastersystem.co.id>', 'Rizky <rizky@mastersystem.co.id>', 'Ary Mulyati Hardi <ary.mulyati@mastersystem.co.id>', 'Henny Anggravita <henny.anggra@mastersystem.co.id>', 'Bani Buchari Setia Putra <bani.buchari@mastersystem.co.id>', 'Jutarto Wicaksono,SK <jutarto@mastersystem.co.id>', 'Fernando Wangsa <fernando.wangsa@mastersystem.co.id>', 'Firmansyah <firman.syah@mastersystem.co.id>', 'Muji Waluyo <muji.waluyo@mastersystem.co.id>', 'Agus Sopyan <agus.sopyan@mastersystem.co.id>', 'Wahyuwinningdyah Margareta,S.S.PSI <margareta.sekar@mastersystem.co.id>', 'Anastasia Sonya Haryanti <Anastasia.sonya@mastersystem.co.id>', 'Muhammad Egga Ari Gayo <muhammad.egga@mastersystem.co.id>', 'A. Sarikun <sarikun@mastersystem.co.id>', 'Adi Marsunu <adi.marsunu@mastersystem.co.id>', 'Mahdi Fadilatul Ulum <mahdi.fadilatul@mastersystem.co.id>', 'Ruslam <ruslam@mastersystem.co.id>', 'Rumianto <rumianto@mastersystem.co.id>', 'Risma Khaerunisa <risma.khaerunisa@mastersystem.co.id>', 'Nanang Susilo <nanang.susilo@mastersystem.co.id>', 'Deni Suwarno <deni.suwarno@mastersystem.co.id>', 'Nurochmat <nurochmat@mastersystem.co.id>', 'Turyanto <turyanto@mastersystem.co.id>', 'Samsul Bakhri <samsul.bahri@mastersystem.co.id>', 'Mahfuri <mahfuri@mastersystem.co.id>', 'Rachmat Hidayat <rachmat.hidayat@mastersystem.co.id>', 'Mohamad Jawahir <jawahir@mastersystem.co.id>', 'Sohirin <sohirin@mastersystem.co.id>', 'Yayat Ruhiyat <yayat.ruhiyat@mastersystem.co.id>', 'Bambang Wibowo Murti <bambang@mastersystem.co.id>', 'Susanti <susanti@mastersystem.co.id>', 'Annisa Riska Medita <annisa.riska@mastersystem.co.id>', 'Raden Ajeng Annisa <raden.ajeng@mastersystem.co.id>', 'Inge Mutiara Maudy <inge.mutiara@mastersystem.co.id>', 'Muhammad Febrian Ramadhan <muhammad.febrian@mastersystem.co.id>', 'Riyan Alamsyah <ryan.alamsyah@mastersystem.co.id>', 'Yohana Theodora Br Siallagan <yohana.theodora@mastersystem.co.id>', 'Julia Genny Langkun <julia.genny@mastersystem.co.id>', 'Rikaz Wildan Fauzi <rikaz.wildan@mastersystem.co.id>', 'Vika Rifti Ananditya <vika.rifti@mastersystem.co.id>', 'Cornelius Aji Nugroho <cornelius.aji@mastersystem.co.id>', 'Syamsul Arham <syamsul@mastersystem.co.id>', 'Anwar Affandi <anwar.affandi@mastersystem.co.id>', 'Hanna Utami <hanna.utami@mastersystem.co.id>', 'Luthfi Eka Dharmawan  <luthfi.eka@mastersystem.co.id>', 'Muhammad Yudi Pratama <yudi.pratama@mastersystem.co.id>', 'Faisal Suryadi Nggilu <faisal.suryadi@mastersystem.co.id>', 'Rahman Dani <rahman.dani@mastersystem.co.id>', 'Ajie Prasetyo <ajie.prasetyo@mastersystem.co.id>', 'Budi Satriawan <budi.satriawan@mastersystem.co.id>', 'Fabian Darryl Enrico <fabian.darryl@mastersystem.co.id>', 'Albert Briliakta Giri Saputra <albert.saputra@mastersystem.co.id>', 'Arya Hadi <arya.hadi@mastersystem.co.id>', 'Khalid Hamzah Haza Al Hamami <khalid.hamzah@mastersystem.co.id>', 'Hendhika Vernanda <hendika.vernanda@mastersystem.co.id>', 'Maria Silvester Luhur,S.KOM <silvester.luhur@mastersystem.co.id>', 'Muhammad Aryo Bimo <aryo.bimo@mastersystem.co.id>', 'Mega Dwi Apriyanti <mega.dwi@mastersystem.co.id>', 'Yongky Karnadi, S.KOM <yongki_k@mastersystem.co.id>', 'Malik Aulia Wiratama <malik.aulia@mastersystem.co.id>', 'M. Aan Dafa Setiawan <aan.dafa@mastersystem.co.id>', 'Chrisheryanda Eka Saputra <chrisheryanda@mastersystem.co.id>', 'Ratna Diana Pancasari <ratna@mastersystem.co.id>', 'Ajie Sandi Martin <ajie.sandi@mastersystem.co.id>', 'Horas Parsaoran S <horas.parsaoran@mastersystem.co.id>', 'Pujo Suwandono <Pujo@mastersystem.co.id>', 'I Putu Wirama Yuda <putuwirama@mastersystem.co.id>', 'Riza Nurhendra <riza.nurhendra@mastersystem.co.id>', 'Muhamad Iqbal Ogie <iqbal.ogie@mastersystem.co.id>', 'Herri Sutrisno <herri@mastersystem.co.id>', 'Victor Ari Jordan Theodore <victor.ari@mastersystem.co.id>', 'Sonny Widjaya <sonny.widjaya@mastersystem.co.id>', 'Barnas Cakra Sanjaya  <barnas.cakra@mastersystem.co.id>', 'Bambang Mahananda <bambang.mahananda@mastersystem.co.id>', 'Fatih Khoiri <fatih.khoiri@mastersystem.co.id>', 'Purwanto <purwanto@mastersystem.co.id>', 'Moh. Ichsan Wibawa <ichsan.wibawa@mastersystem.co.id>', 'Kent Wirianata <kent.wirianata@mastersystem.co.id>', 'Yesi Widia Wanti <yesi.widia@mastersystem.co.id>', 'Abdul Rasyid Aziz <abdul.rasyid@mastersystem.co.id>', 'Kenny Tanoto <kenny.tanoto@mastersystem.co.id>', 'Reza Febrian Khity, ST <reza.febrian@mastersystem.co.id>', 'Upik Fadillah <upik.fadillah@mastersystem.co.id>', 'Fahmi Shihabuddin Zakaria <fahmi.shihabuddin@mastersystem.co.id>', 'Malik Perwiro Joyo <malik.perwiro@mastersystem.co.id>', 'Busra Zukran <busra.zukran@mastersystem.co.id>', 'Achmad Imam Faozan <achmad.imam@mastersystem.co.id>', 'Eko Budi Prasetyo <eko.budi@mastersystem.co.id>', 'Ronnie Radhitya Rafi Alkamal <ronnie.radhitya@mastersystem.co.id>', 'Gabriel Alexandro Hunam <gabriel.alexandro@mastersystem.co.id>', 'Yos Eddy <yos.eddy@mastersystem.co.id>', 'Rahmadani Sudarno <rahmadani.sudarno@mastersystem.co.id>', 'Sofwatun Nida <sofwatun.nida@mastersystem.co.id>', 'Lintang Sindu Utari <lintang.sindu@mastersystem.co.id>', 'Vini Velolita <vini.velolita@mastersystem.co.id>', 'Yulianty Briliant <yulianty.briliant@mastersystem.co.id>', 'Afviya Nabila <afviya.nabila@mastersystem.co.id>', 'Werdiningsih Purbaningrum <w.purbaningrum@mastersystem.co.id>', 'Ratna Sari <ratna.sari@mastersystem.co.id>', 'Rian Yasnita Yulianty <rian.yasnita@mastersystem.co.id>', 'Fitri Rosvianti <fitri.rosvianti@mastersystem.co.id>', 'Hayatullah Qamaini <hayatullah.qamaini@mastersystem.co.id>', 'Nurmawati <nurmawati@mastersystem.co.id>', 'Sonia Isabella <sonia.isabella@mastersystem.co.id>', 'Mercy Priskila <mercy.priskila@mastersystem.co.id>', 'Amalia Dita Justiciasari <amalia.dita@mastersystem.co.id>', 'Velinda Dwi Puspita Ayu <velinda.dwi@mastersystem.co.id>', 'Tetriana Yuninta  <tetriana.yuninta@mastersystem.co.id>', 'Nia Rani Valentin Sirait <nia.rani@mastersystem.co.id>', 'Yulanda Hidayatul Fajar <yulanda.hidayatul@mastersystem.co.id>', 'Eka Ratnasari <eka.ratnasari@mastersystem.co.id>', 'Safira Ramadhani <safira.ramadhani@mastersystem.co.id>', 'Wahyu Priono <wahyu.priono@mastersystem.co.id>', 'Dimas Setiawan <dimas.setiawan@mastersystem.co.id>', 'Alfha Farrel Budiantara <alfha.farrel@mastersystem.co.id>', 'Syarahbil Pawellang <syarahbil.pawellang@mastersystem.co.id>', 'Muhammad Ikhsan Hidayatullah <ikhsan.hidayatullah@mastersystem.co.id>', 'Michael Aurelio Nugraha <michael.aurelio@mastersystem.co.id>', 'Agil Muhammad Ramdani <agil.muhammad@mastersystem.co.id>', 'Muhammad Aldi Khusnul Mubaroq <muhammad.aldi@mastersystem.co.id>', 'Muhammad Naufal <muhammad.naufal@mastersystem.co.id>', 'Fredrik Collins Sibarani <fredrik.collins@mastersystem.co.id>', 'Najib Asqolani Akbar <najib.asqolani@mastersystem.co.id>', 'Abizar Alrifary <abizar.alrifary@mastersystem.co.id>', 'Rifqi Nizar <rifqi.nizar@mastersystem.co.id>', 'Mohammad Ravi Rachman <ravi.rachman@mastersystem.co.id>', 'Jovi Brema Barus, ST <jovi.brema@mastersystem.co.id>', 'Hanis Hafsyani <hanis.hafsyani@mastersystem.co.id>', 'Muhammad Muttaqin <muhammad.muttaqin@mastersystem.co.id>', 'Muhammad Yasid Ramli <yasid.ramli@mastersystem.co.id>', 'Ferdinand Louis <ferdinand.louis@mastersystem.co.id>', 'Edi Wibowo <edi.wibowo@mastersystem.co.id>', 'Arik Alvian Setiawan <arik.alvian@mastersystem.co.id>', 'Ardhya Ramadhan Prakoso <ardhya.ramadhan@mastersystem.co.id>', 'Ruslan Maulana <ruslan.maulana@mastersystem.co.id>', 'Kadek Sena Perdiana <kadek.sena@mastersystem.co.id>', 'Wijayanto Agung Nugroho <wijayanto.agung@mastersystem.co.id>', 'Wahyu Tri Silo <wahyu.trisilo@mastersystem.co.id>', 'Septian Adi Herlambang <septian.adi@mastersystem.co.id>', 'Aji Nurrahman <aji.nurrahman@mastersystem.co.id>', 'Ridwan Muhammad <ridwan.muhammad@mastersystem.co.id>', 'Sandhy Swandana <sandhy.swandana@mastersystem.co.id>', 'Tri Junianto <tri.junianto@mastersystem.co.id>', 'Yohanes Hendra Widiatmoko <yohanes.hendra@mastersystem.co.id>', 'Dwi Agusrian <dwi.agusrian@mastersystem.co.id>', 'Teguh Wahyudi <teguh.wahyudi@mastersystem.co.id>', 'Tri Yuda Febriyanto <tri.yuda@mastersystem.co.id>', 'Erpan Ruliansah <erpan.ruliansah@mastersystem.co.id>', 'Aliful Choirul Hakim <aliful.choirul@mastersystem.co.id>', 'Figo Perdana Putra <figo.perdana@mastersystem.co.id>', 'M. Hasan Abdullah <hasan@mastersystem.co.id>', 'Muhammad Ruvaldo Dennis <muhammad.ruvaldo@mastersystem.co.id>', 'Untung Ferina <untung.ferina@mastersystem.co.id>', 'Muhammad Adila Noor <adila.noor@mastersystem.co.id>', 'Ari Prahastomo Ramadhan <ari.prahastomo@mastersystem.co.id>', 'Malik Hambali <malik.hambali@mastersystem.co.id>', 'Angga Sukma Bahari <angga.sukma@mastersystem.co.id>', 'Felix Wibowo <felix.wibowo@mastersystem.co.id>', 'Yahot Siahaan <yahot.siahaan@mastersystem.co.id>', 'Ainur Rizqi Aulia <ainur.rizqi@mastersystem.co.id>', 'Tio Arissubiakto <tio.arissubiakto@mastersystem.co.id>', 'Fahmi Ardhiansyah <fahmi.ardhiansyah@mastersystem.co.id>', 'Efriansyah Pratama Putra <efriansyah.pratama@mastersystem.co.id>', 'Zamroni <zamroni@mastersystem.co.id>', 'Gani Gunawan Kusdiana <gani.gunawan@mastersystem.co.id>', 'Matias Jepri Kristanto <matias.jepri@mastersystem.co.id>', 'Fachri Akbar Rafsanzani <fachri.akbar@mastersystem.co.id>', 'Pradana Paramabakti Zefanya <pradana.paramabakti@mastersystem.co.id>', 'Fajar Dwi Saputra <fajar.dwi@mastersystem.co.id>', 'Stevanus Teja Walangitan <stevanus.teja@mastersystem.co.id>', 'Husnuzan Hidayat Pratama Abbas <husnuzan@mastersystem.co.id>', 'Yulius Eka Juhana <yulius.eka@mastersystem.co.id>', 'Muh Perdana Bagus H <perdana.bagus@mastersystem.co.id>', 'Silvana Aprilia <silvana.aprilia@mastersystem.co.id>', 'Azka Naufal Akbar <azka.naufal@mastersystem.co.id>', 'Dwi Prasetyo Utomo <dwi.prasetyo@mastersystem.co.id>', 'Dheni Yulia Dinda Pratiwi <dheni.yulia@mastersystem.co.id>', 'Nurdiansyah <nurdiansyah@mastersystem.co.id>', 'Muhammad Farkhan Khoir <farkhan.Khoir@mastersystem.co.id>', 'Haidar Maghrifa Ahmad <haidar.maghrifa@mastersystem.co.id>', 'Teguh M Wahyu Akbar <teguh.wahyu@mastersystem.co.id>', 'Abdul Roby Sukma <abdul.roby@mastersystem.co.id>', 'Raihan Ramdhani <raihan.ramdhani@mastersystem.co.id>', 'Anugrah Arizqi Heriansyah <anugrah.arizqi@mastersystem.co.id>', 'Dimas Ari Purnama Aji <dimas.ari@mastersystem.co.id>', 'Bagas Pratama Anindito <bagas.pratama@mastersystem.co.id>', 'Radiansyah Akbar <radiansyah.akbar@mastersystem.co.id>', 'Restu Wirawan <restu.wirawan@mastersystem.co.id>', 'Defryan Surya Adji Lexsamana Lim <defryan.surya@mastersystem.co.id>', 'Galih Rivananda <galih.rivananda@mastersystem.co.id>', 'Muhammad Dzaky Kholilurrohman <muhammad.dzaky@mastersystem.co.id>', 'Umar Hadat Alaydrus <umar.hadat@mastersystem.co.id>', 'Rio Purnama <rio.purnama@mastersystem.co.id>', 'Tegar Virgiawan <tegar.virgiawan@mastersystem.co.id>', 'Agus Siswanto <agus.siswanto@mastersystem.co.id>', 'Mulki Syahputra Muharram, S.T <mulki.syahputra@mastersystem.co.id>', 'Muhammad Ijlal Fajari <ijlal.fajari@mastersystem.co.id>', 'Muhammad Ridho <muhammad.ridho@mastersystem.co.id>', 'Muhamad Irfan Kurniawan <muhamad.irfan@mastersystem.co.id>', 'Febrian Tri Wahyudi <febrian.tri@mastersystem.co.id>', 'Farros Kashikoi Murtadho <farros@mastersystem.co.id>', 'Muhammad Soleh <muhammad.soleh@mastersystem.co.id>', 'Rifa\'at Abdul Haziz Muslim <rifaat.abdul@mastersystem.co.id>', 'Ahmad Halipudin <ahmad.halipudin@mastersystem.co.id>', 'Robby Prasetyo <robby.prasetyo@mastersystem.co.id>', 'Aditya Krisnadi <aditya.krisnadi@mastersystem.co.id>', 'Adriano Fahlevi <adriano.fahlevi@mastersystem.co.id>', 'Giovanni Surya Atmaja <giovanni.surya@mastersystem.co.id>', 'Nur Muhamad Ziko Iskandar <ziko.iskandar@mastersystem.co.id>', 'Mohamad Ikrom Nafi <mohamad.ikrom@mastersystem.co.id>', 'Erik Setiawan <erik.setiawan@mastersystem.co.id>', 'Andika Wira Pratama <andika.wira@mastersystem.co.id>', 'Bambang Ary Nugroho <bambang.ary@mastersystem.co.id>', 'Farrel Raditya Eduardi <farrel.raditya@mastersystem.co.id>', 'Hamdan Zuhdi Dewanul Arifin <hamdan.zuhdi@mastersystem.co.id>', 'Aziz Rahman Widyardi <aziz.rahman@mastersystem.co.id>', 'Teuku Rafif Raditya <teuku.rafif@mastersystem.co.id>', 'Willy Dinata <willy.dinata@mastersystem.co.id>', 'Dio Bagaskara Sudarpo <dio.bagaskara@mastersystem.co.id>', 'Jessica Bonita <jessica.bonita@mastersystem.co.id>', 'Muhammad Hasbi Asshidiqi <hasbi.asshidiqi@mastersystem.co.id>', 'Anas Marzuki <anas.marzuki@mastersystem.co.id>', 'I Made Wisma Fajaryasa <wisma.fajaryasa@mastersystem.co.id>', 'Doehan Pamungkas <doehan@mastersystem.co.id>', 'Arib Nawwar Tahir <arib.nawwar@mastersystem.co.id>', 'Khital Hakiki <khital.hakiki@mastersystem.co.id>', 'Muhammad Fatha <fatha@mastersystem.co.id>', 'Ahmad Faizin <ahmad.faizin@mastersystem.co.id>', 'Alfian Dwi Bagus Nur Rochman <alfian.dwi@mastersystem.co.id>', 'Kautsar Imam Hidayat <kautsar.imam@mastersystem.co.id>', 'Ahmad Solahudin Rifandi <ahmad.solahudin@mastersystem.co.id>', 'Sentosa <sentosa@mastersystem.co.id>', 'Iman Rendi Feluzy <iman.rendi@mastersystem.co.id>', 'M. Akmal Hadi Utama <akmal.hadi@mastersystem.co.id>')
+                    GROUP BY `a`.`error_category`
+                    ORDER BY `a`.`error_category`;
+
+
+2023-12-06 16:46:23
+- Server 		: Prod
+- User 			: gabriel.alexandro@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '('Gabriel Alexandro Hunam<gabriel.alexandro@mastersystem.co.id>')
+           ...' at line 9
+- Query 		: SELECT 
+                        `a`.`commercial_category`,
+                        COUNT(DISTINCT `a`.`project_id`) AS `total`
+                    FROM
+                        `sa_kpi_dashboard_pl` `a`
+                    LEFT JOIN `sa_user` AS `b`
+                    ON
+                        `a`.`project_code` = `b`.`project_code`
+                    WHERE  `a`.`kpi_status` = 'Reviewed'  AND  `a`.`periode_so` = 2023  AND  `a`.`periode_kpi` = 2023  AND  `a`.`project_type` = 'MSI Project Implementation' ('Gabriel Alexandro Hunam<gabriel.alexandro@mastersystem.co.id>')
+                    GROUP BY `a`.`commercial_category`
+                    ORDER BY `a`.`commercial_category`;
+
+
+2023-12-06 16:46:23
+- Server 		: Prod
+- User 			: gabriel.alexandro@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '('Gabriel Alexandro Hunam<gabriel.alexandro@mastersystem.co.id>')
+           ...' at line 9
+- Query 		: SELECT 
+                        `a`.`time_category`,
+                        COUNT(DISTINCT `a`.`project_id`) AS `total`
+                    FROM
+                        `sa_kpi_dashboard_pl` `a`
+                    LEFT JOIN `sa_user` AS `b`
+                    ON
+                        `a`.`project_code` = `b`.`project_code`
+                    WHERE  `a`.`kpi_status` = 'Reviewed'  AND  `a`.`periode_so` = 2023  AND  `a`.`periode_kpi` = 2023  AND  `a`.`project_type` = 'MSI Project Implementation' ('Gabriel Alexandro Hunam<gabriel.alexandro@mastersystem.co.id>')
+                    GROUP BY `a`.`time_category`
+                    ORDER BY `a`.`time_category`;
+
+
+2023-12-06 16:46:23
+- Server 		: Prod
+- User 			: gabriel.alexandro@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '('Gabriel Alexandro Hunam<gabriel.alexandro@mastersystem.co.id>')
+           ...' at line 9
+- Query 		: SELECT 
+                        `a`.`error_category`,
+                        COUNT(DISTINCT `a`.`project_id`) AS `total`
+                    FROM
+                        `sa_kpi_dashboard_pl` `a`
+                    LEFT JOIN `sa_user` AS `b`
+                    ON
+                        `a`.`project_code` = `b`.`project_code`
+                    WHERE  `a`.`kpi_status` = 'Reviewed'  AND  `a`.`periode_so` = 2023  AND  `a`.`periode_kpi` = 2023  AND  `a`.`project_type` = 'MSI Project Implementation' ('Gabriel Alexandro Hunam<gabriel.alexandro@mastersystem.co.id>')
+                    GROUP BY `a`.`error_category`
+                    ORDER BY `a`.`error_category`;
+
+
+2023-12-06 16:46:57
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4
+- Query 		: SELECT DISTINCT `a`.`order_number`, `a`.`project_id`, `a`.`project_type`, `a`.`project_code`, `a`.`so_number`, `a`.`order_number`, `a`.`periode_so`, `a`.`customer_name`, `a`.`project_name`, `a`.`wrike_permalink`, `a`.`project_leader`, `a`.`project_manager`, `a`.`project_amount`, `a`.`total_task_plan`, `a`.`total_task_actual`, `a`.`SB_mandays_implementation`, `a`.`CR_mandays_implementation`, `a`.`WR_mandays_actual_implementation`, `a`.`start_assignment`, `a`.`end_assignment`, `a`.`bast_plan`, `a`.`bast_actual`, `a`.`commercial_kpi`, `a`.`commercial_category`, `a`.`time_kpi`, `a`.`time_category`, `a`.`error_kpi`, `a`.`error_category`, `a`.`total_cte`, `a`.`weighted_value`, `a`.`status_wrike`, `a`.`status_wrike`, `a`.`kpi_status`, `a`.`periode_kpi` 
+                                            FROM `sa_kpi_dashboard_pl` `a` 
+                                            LEFT JOIN `sa_user` AS `b` ON `a`.`project_code` = `b`.`project_code`
+                                            WHERE  `a`.`kpi_status` = 'Reviewed'   AND  `a`.`periode_kpi` = 2023  AND  `a`.`project_type` = 'MSI Project Implementation' AND `b`.`Nama` IN 
+
+
+2023-12-06 16:46:57
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY
+                                        `resource_name`' at line 17
+- Query 		: SELECT
+                                        `resource_name`,
+                                        SUM(`ideal_value`) AS `ideal_value`,
+                                        SUM(`actual_value`) AS `actual_value`,
+                                        SUM(`average_value`) / COUNT(`average_value`) AS `average_value`,
+                                        SUM(`ideal_final_value`) `ideal_final_value`,
+                                        SUM(`actual_final_value`) AS `actual_final_value`,
+                                        SUM(`average_final_value`) / COUNT(`average_final_value`) AS `average_final_value`,
+                                        SUM(`total_task_plan`) AS `task_plan`,
+                                        SUM(`total_task_actual`) AS `task_actual`,
+                                        SUM(`average_productivity`) AS `average_productivity`,
+                                        `kpi_status`,
+                                        `periode_kpi`
+                                    FROM
+                                        `sa_kpi_dashboard_resource` `a`
+                                    WHERE  `a`.`kpi_status` = 'Reviewed'  AND  `a`.`periode_kpi` = 2023  AND  `a`.`project_type` = 'MSI Project Implementation' AND `resource_name` IN 
+                                    GROUP BY
+                                        `resource_name`
+
+
+2023-12-06 16:46:57
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY
+                                            `a`.`Nama`
+             ...' at line 48
+- Query 		: SELECT
+                                            `a`.`Nama` AS `resource_name`,
+                                            COUNT(
+                                                DISTINCT(
+                                                    IF(
+                                                        `a`.`project_type` = 'MSI Project Implementation' AND `a`.`kpi_status` = 'Reviewed',
+                                                        `a`.`order_number`,
+                                                        NULL
+                                                    )
+                                                )
+                                            ) AS `implementation_reviewed`,
+                                            COUNT(
+                                                DISTINCT(
+                                                    IF(
+                                                        `a`.`project_type` = 'MSI Project Implementation' AND `a`.`kpi_status` = 'Not Yet Reviewed',
+                                                        `a`.`order_number`,
+                                                        NULL
+                                                    )
+                                                )
+                                            ) AS `implementation_not_yet_reviewed`,
+                                            COUNT(
+                                                DISTINCT(
+                                                    IF(
+                                                        `a`.`project_type` = 'MSI Project Maintenance' AND `a`.`kpi_status` = 'Reviewed',
+                                                        `a`.`order_number`,
+                                                        NULL
+                                                    )
+                                                )
+                                            ) AS `maintenance_reviewed`,
+                                            COUNT(
+                                                DISTINCT(
+                                                    IF(
+                                                        `a`.`project_type` = 'MSI Project Maintenance' AND `a`.`kpi_status` = 'Not Yet Reviewed',
+                                                        `a`.`order_number`,
+                                                        NULL
+                                                    )
+                                                )
+                                            ) AS `maintenance_not_yet_reviewed`
+                                        FROM
+                                            `sa_user` `a`
+                                        LEFT JOIN `sa_log_board` `b` ON
+                                            `a`.`so_number` = `b`.`so_number`
+                                        WHERE
+                                            (
+                                                LEFT(`b`.`date`, 4) LIKE 2023 OR `a`.`kpi_status` = 'Not Yet Reviewed'
+                                            )
+                                            AND `a`.`Nama` IN 
+                                        GROUP BY
+                                            `a`.`Nama`
+                                        ORDER BY
+                                            `a`.`Nama`;
+
+
+2023-12-06 17:14:17
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: Unknown column 'b.Nama' in 'where clause'
+- Query 		: SELECT
+                                        `resource_name`,
+                                        SUM(`ideal_value`) AS `ideal_value`,
+                                        SUM(`actual_value`) AS `actual_value`,
+                                        SUM(`average_value`) / COUNT(`average_value`) AS `average_value`,
+                                        SUM(`ideal_final_value`) `ideal_final_value`,
+                                        SUM(`actual_final_value`) AS `actual_final_value`,
+                                        SUM(`average_final_value`) / COUNT(`average_final_value`) AS `average_final_value`,
+                                        SUM(`total_task_plan`) AS `task_plan`,
+                                        SUM(`total_task_actual`) AS `task_actual`,
+                                        SUM(`average_productivity`) AS `average_productivity`,
+                                        `kpi_status`,
+                                        `periode_kpi`
+                                    FROM
+                                        `sa_kpi_dashboard_resource` `a`
+                                    WHERE  `a`.`kpi_status` = 'Reviewed'  AND  `a`.`periode_kpi` = 2023   AND `b`.`Nama` IN ('Fortuna Setyo Arumsari<fortuna@mastersystem.co.id>', 'Risqi Pratama Ramadhan <risqi.pratama@mastersystem.co.id>', 'Sumarno <sumarno@mastersystem.co.id>', 'Pitasari Amanda <pitasari.amanda@mastersystem.co.id>', 'Oktavian Montitopan <oktavian.montitopan@mastersystem.co.id>', 'Tommy Putra Sitorus <tommy.putra@mastersystem.co.id>', 'Rafi Pragiwaka Gani <rafi.pragiwaka@mastersystem.co.id>', 'Azizka Ayu Dhiyani <azizka.ayu@mastersystem.co.id>', 'Fronita <fronita@mastersystem.co.id>', 'Ficky Bharata <ficky.bharata@mastersystem.co.id>', 'Lucky Andiani ,ST <lucky.andiani@mastersystem.co.id>', 'Desy Marianna <desy.marianna@mastersystem.co.id>', 'Saskia Intanadhira <saskia.intanadhira@mastersystem.co.id>', 'Dwi Endar Santo <dwi.endar@mastersystem.co.id>', 'Gniegmilang Adiabentang F <gniegmilang@mastersystem.co.id>', 'Anjas Permana Kumbara <anjas.permana@mastersystem.co.id>', 'Pradana Ega Putra <pradana.ega@mastersystem.co.id>', 'Zahroh Oliviany Fadilah Thomas <zahroh.oliviany@mastersystem.co.id>', 'Fadhil Hilmi Alhabib <fadhil.hilmi@mastersystem.co.id>', 'Waliyul Mursidin <waliyul@mastersystem.co.id>', 'Anita Angelina, S.AB., M.B.A <anita.angelina@mastersystem.co.id>', 'Amanda Febrina <amanda.febrina@mastersystem.co.id>', 'Susanti Saputri Sarkam <susanti.saputri@mastersystem.co.id>', 'Partukoan Siagian <lay@mastersystem.co.id>', 'Ivan Hadiyan Setiamarga <ivan.hadiyan@mastersystem.co.id>', 'Eulis Fitriansyah <eulis.fitriansyah@mastersystem.co.id>', 'Alya Yulisti Fauziyyah Bachtiar <alya.yulisti@mastersystem.co.id>', 'Aldino De Lama <aldino.delama@mastersystem.co.id>', 'Nadia Luqiana <nadia.luqiana@mastersystem.co.id>', 'Rio Pratomo <rio.pratomo@mastersystem.co.id>', 'Wirawan Bharata <wirawan.bharata@mastersystem.co.id>', 'Ricky Pebriandi Rajagukguk <ricky.pebriandi@mastersystem.co.id>', 'Okta Sumahendra <okta.sumahendra@mastersystem.co.id>', 'Irvan Fauzi, S.Hum <irvan.fauzi@mastersystem.co.id>', 'Muhammad Farid Burhanudin <muhammad.farid@mastersystem.co.id>', 'Melysa Wahyuningsih <melysa.wahyuningsih@mastersystem.co.id>', 'Jayanti Susan Irwanti <jayanti.susan@mastersystem.co.id>', 'Ericha Mutia Putri <ericha.mutia@mastersystem.co.id>', 'Nurma Sumar Sidik <nurma.sumar@mastersystem.co.id>', 'Trie Mayhera Sabalidowati <trie.mayhera@mastersystem.co.id>', 'Femmy Nur Azizah <femmy@mastersystem.co.id>', 'Winda Ekawati <winda.ekawati@mastersystem.co.id>', 'Engelbertus Tiwu <engelbertus@mastersystem.co.id>', 'Indrawan Dwi Putra <indrawan.dwi@mastersystem.co.id>', 'Erawan Prasetyo <erawan.prasetyo@mastersystem.co.id>', 'Dila Styaningtyas <dila.styaningtyas@mastersystem.co.id>', 'Harry Hartono <harry.hartono@mastersystem.co.id>', 'M.Syaifuddin Muis Toekan <muis.toekan@mastersystem.co.id>', 'Alexander Tio <alexander.tio@mastersystem.co.id>', 'Shannice Ayangketi <shannice.ayangketi@mastersystem.co.id>', 'Rifqy Pratama Putra B <rifqy.pratama@mastersystem.co.id>', 'Ia Refyta Shafyra <ia.refyta@mastersystem.co.id>', 'Eka Kurniawati <eka.kurniawati@mastersystem.co.id>', 'Natasha Isyana Putri <natasya.isyanaputri@mastersystem.co.id>', 'Revita Aryani <revita.aryani@mastersystem.co.id>', 'Irfan Hanifah Wardhana <irfan.hanifah@mastersystem.co.id>', 'Inggit Novita Panannangan <inggit.novita@mastersystem.co.id>', 'Albar Faiz Himawan <albar.faiz@mastersystem.co.id>', 'Desi Permatasari <desi.permatasari@mastersystem.co.id>', 'Amelia Rami <amelia.rami@mastersystem.co.id>', 'Aulia Yogi Fachlivan <aulia.yogi@mastersystem.co.id>', 'Aditias Fauzi Ahmad <aditias.fauzi@mastersystem.co.id>', 'Rizky <rizky@mastersystem.co.id>', 'Ary Mulyati Hardi <ary.mulyati@mastersystem.co.id>', 'Henny Anggravita <henny.anggra@mastersystem.co.id>')
+                                    GROUP BY
+                                        `resource_name`
+
+
+2023-12-06 17:14:17
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi
+- Status 		: Unknown column 'b.Nama' in 'where clause'
+- Query 		: SELECT
+                                            `a`.`Nama` AS `resource_name`,
+                                            COUNT(
+                                                DISTINCT(
+                                                    IF(
+                                                        `a`.`project_type` = 'MSI Project Implementation' AND `a`.`kpi_status` = 'Reviewed',
+                                                        `a`.`order_number`,
+                                                        NULL
+                                                    )
+                                                )
+                                            ) AS `implementation_reviewed`,
+                                            COUNT(
+                                                DISTINCT(
+                                                    IF(
+                                                        `a`.`project_type` = 'MSI Project Implementation' AND `a`.`kpi_status` = 'Not Yet Reviewed',
+                                                        `a`.`order_number`,
+                                                        NULL
+                                                    )
+                                                )
+                                            ) AS `implementation_not_yet_reviewed`,
+                                            COUNT(
+                                                DISTINCT(
+                                                    IF(
+                                                        `a`.`project_type` = 'MSI Project Maintenance' AND `a`.`kpi_status` = 'Reviewed',
+                                                        `a`.`order_number`,
+                                                        NULL
+                                                    )
+                                                )
+                                            ) AS `maintenance_reviewed`,
+                                            COUNT(
+                                                DISTINCT(
+                                                    IF(
+                                                        `a`.`project_type` = 'MSI Project Maintenance' AND `a`.`kpi_status` = 'Not Yet Reviewed',
+                                                        `a`.`order_number`,
+                                                        NULL
+                                                    )
+                                                )
+                                            ) AS `maintenance_not_yet_reviewed`
+                                        FROM
+                                            `sa_user` `a`
+                                        LEFT JOIN `sa_log_board` `b` ON
+                                            `a`.`so_number` = `b`.`so_number`
+                                        WHERE
+                                            (
+                                                LEFT(`b`.`date`, 4) LIKE 2023 OR `a`.`kpi_status` = 'Not Yet Reviewed'
+                                            )
+                                             AND `b`.`Nama` IN ('Fortuna Setyo Arumsari<fortuna@mastersystem.co.id>', 'Risqi Pratama Ramadhan <risqi.pratama@mastersystem.co.id>', 'Sumarno <sumarno@mastersystem.co.id>', 'Pitasari Amanda <pitasari.amanda@mastersystem.co.id>', 'Oktavian Montitopan <oktavian.montitopan@mastersystem.co.id>', 'Tommy Putra Sitorus <tommy.putra@mastersystem.co.id>', 'Rafi Pragiwaka Gani <rafi.pragiwaka@mastersystem.co.id>', 'Azizka Ayu Dhiyani <azizka.ayu@mastersystem.co.id>', 'Fronita <fronita@mastersystem.co.id>', 'Ficky Bharata <ficky.bharata@mastersystem.co.id>', 'Lucky Andiani ,ST <lucky.andiani@mastersystem.co.id>', 'Desy Marianna <desy.marianna@mastersystem.co.id>', 'Saskia Intanadhira <saskia.intanadhira@mastersystem.co.id>', 'Dwi Endar Santo <dwi.endar@mastersystem.co.id>', 'Gniegmilang Adiabentang F <gniegmilang@mastersystem.co.id>', 'Anjas Permana Kumbara <anjas.permana@mastersystem.co.id>', 'Pradana Ega Putra <pradana.ega@mastersystem.co.id>', 'Zahroh Oliviany Fadilah Thomas <zahroh.oliviany@mastersystem.co.id>', 'Fadhil Hilmi Alhabib <fadhil.hilmi@mastersystem.co.id>', 'Waliyul Mursidin <waliyul@mastersystem.co.id>', 'Anita Angelina, S.AB., M.B.A <anita.angelina@mastersystem.co.id>', 'Amanda Febrina <amanda.febrina@mastersystem.co.id>', 'Susanti Saputri Sarkam <susanti.saputri@mastersystem.co.id>', 'Partukoan Siagian <lay@mastersystem.co.id>', 'Ivan Hadiyan Setiamarga <ivan.hadiyan@mastersystem.co.id>', 'Eulis Fitriansyah <eulis.fitriansyah@mastersystem.co.id>', 'Alya Yulisti Fauziyyah Bachtiar <alya.yulisti@mastersystem.co.id>', 'Aldino De Lama <aldino.delama@mastersystem.co.id>', 'Nadia Luqiana <nadia.luqiana@mastersystem.co.id>', 'Rio Pratomo <rio.pratomo@mastersystem.co.id>', 'Wirawan Bharata <wirawan.bharata@mastersystem.co.id>', 'Ricky Pebriandi Rajagukguk <ricky.pebriandi@mastersystem.co.id>', 'Okta Sumahendra <okta.sumahendra@mastersystem.co.id>', 'Irvan Fauzi, S.Hum <irvan.fauzi@mastersystem.co.id>', 'Muhammad Farid Burhanudin <muhammad.farid@mastersystem.co.id>', 'Melysa Wahyuningsih <melysa.wahyuningsih@mastersystem.co.id>', 'Jayanti Susan Irwanti <jayanti.susan@mastersystem.co.id>', 'Ericha Mutia Putri <ericha.mutia@mastersystem.co.id>', 'Nurma Sumar Sidik <nurma.sumar@mastersystem.co.id>', 'Trie Mayhera Sabalidowati <trie.mayhera@mastersystem.co.id>', 'Femmy Nur Azizah <femmy@mastersystem.co.id>', 'Winda Ekawati <winda.ekawati@mastersystem.co.id>', 'Engelbertus Tiwu <engelbertus@mastersystem.co.id>', 'Indrawan Dwi Putra <indrawan.dwi@mastersystem.co.id>', 'Erawan Prasetyo <erawan.prasetyo@mastersystem.co.id>', 'Dila Styaningtyas <dila.styaningtyas@mastersystem.co.id>', 'Harry Hartono <harry.hartono@mastersystem.co.id>', 'M.Syaifuddin Muis Toekan <muis.toekan@mastersystem.co.id>', 'Alexander Tio <alexander.tio@mastersystem.co.id>', 'Shannice Ayangketi <shannice.ayangketi@mastersystem.co.id>', 'Rifqy Pratama Putra B <rifqy.pratama@mastersystem.co.id>', 'Ia Refyta Shafyra <ia.refyta@mastersystem.co.id>', 'Eka Kurniawati <eka.kurniawati@mastersystem.co.id>', 'Natasha Isyana Putri <natasya.isyanaputri@mastersystem.co.id>', 'Revita Aryani <revita.aryani@mastersystem.co.id>', 'Irfan Hanifah Wardhana <irfan.hanifah@mastersystem.co.id>', 'Inggit Novita Panannangan <inggit.novita@mastersystem.co.id>', 'Albar Faiz Himawan <albar.faiz@mastersystem.co.id>', 'Desi Permatasari <desi.permatasari@mastersystem.co.id>', 'Amelia Rami <amelia.rami@mastersystem.co.id>', 'Aulia Yogi Fachlivan <aulia.yogi@mastersystem.co.id>', 'Aditias Fauzi Ahmad <aditias.fauzi@mastersystem.co.id>', 'Rizky <rizky@mastersystem.co.id>', 'Ary Mulyati Hardi <ary.mulyati@mastersystem.co.id>', 'Henny Anggravita <henny.anggra@mastersystem.co.id>')
+                                        GROUP BY
+                                            `a`.`Nama`
+                                        ORDER BY
+                                            `a`.`Nama`;
+
+
+2023-12-06 17:53:27
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'Reviewed' in 'where clause'
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE `periode` = Reviewed AND  `sa_dashboard_kpi`.`sa_user`.`kpi_status` = 'Reviewed' AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE '%abdul.lathif@mastersystem.co.id%' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2023-12-06 18:06:32
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE '%achmad.rifki@mastersystem.co.i...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE `periode` = 2023 AND AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE '%achmad.rifki@mastersystem.co.id%' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`

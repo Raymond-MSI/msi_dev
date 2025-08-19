@@ -1,0 +1,243 @@
+File Error Log
+
+2024-10-09 08:31:52
+- Server 		: Prod
+- User 			: naufal.azka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-10-09 08:32:02
+- Server 		: Prod
+- User 			: naufal.azka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-10-09 08:32:24
+- Server 		: Prod
+- User 			: naufal.azka@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-10-09 08:32:39
+- Server 		: Prod
+- User 			: naufal.azka@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-10-09 08:33:12
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-10-09 14:34:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'status' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE project_code IN ('TB001722D0001','TB001722D0026','TB001723D0003','TB001723D0004','TB001723D0009','TB001723D0020','TB001723D0022','TB001723D0034','TB001724D0002','TS000923D0011','TS000923D0006','TB031123D0004') AND status !='deleted'
+
+
+2024-10-09 14:52:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_wrike_assignment' doesn't exist
+- Query 		: select * from sa_wrike_assignment WHERE project_id='IEAEOPF5I5MYL5CI' 
+
+
+2024-10-09 15:57:38
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_maintenande_date_kpi' doesn't exist
+- Query 		: SELECT * FROM sa_maintenande_date_kpi WHERE project_code='TI000823E0038'
+
+
+2024-10-09 16:22:41
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect integer value: '' for column `sa_google_drive`.`sa_project_detail`.`tahun` at row 1
+- Query 		: INSERT INTO sa_project_detail (project_code,folder_name,folder_id,gd_id,new_gd_id,tahun,permission_flag) VALUES ('TI000823E0038','01. Report',93,'1OGMyQG5F5h21NNz0iiTdDDZFu6HwGM52','1OGMyQG5F5h21NNz0iiTdDDZFu6HwGM52','',0)
+
+
+2024-10-09 16:42:44
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_trx_project_list' doesn't exist
+- Query 		: select * from sa_trx_project_list WHERE project_code='TA031824E0007'
+
+
+2024-10-09 17:39:25
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,21,1,1,3,'IBM',350,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-09 17:43:33
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24694,'Add On Preventive Maintenance 10x/Year',192611842,1,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-10-09 21:00:01
+- Server 		: Prod
+- User 			: andi.yahya@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email='andi.yahya@mastersystem.co.id'
+
+
+2024-10-09 21:00:01
+- Server 		: Prod
+- User 			: andi.yahya@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-10-02' AND task_date <= '2024-10-16' AND `resource_email` LIKE 'Andi Yahya Lubis<andi.yahya@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-10-09 21:00:01
+- Server 		: Prod
+- User 			: andi.yahya@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_view_employees WHERE leader_email='andi.yahya@mastersystem.co.id'
+
+
+2024-10-09 21:00:01
+- Server 		: Prod
+- User 			: andi.yahya@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: select `solution_name`, avg(coalesce(`product`,0)) AS `product` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `so_number` IN (select `so_number` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `product`>0 AND `sa_trx_project_solutions`.`modified_date`>='2023-10-09' group by `so_number` order by `so_number`) group by `solution_name` order by `so_number`, `solution_name`;
+
+
+2024-10-09 21:00:01
+- Server 		: Prod
+- User 			: andi.yahya@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: select `solution_name`, avg(coalesce(`services`,0)) AS `service` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `so_number` IN (select `so_number` from `sa_trx_project_list` join `sa_trx_project_solutions` on `sa_trx_project_list`.`project_id`=`sa_trx_project_solutions`.`project_id` where `status`='approved' AND `services`>0 AND `sa_trx_project_solutions`.`modified_date`>'2023-10-09' group by `so_number` order by `so_number`) group by `solution_name` order by `so_number`;
+
+
+2024-10-09 21:00:01
+- Server 		: Prod
+- User 			: andi.yahya@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE status_order=0
+
+
+2024-10-09 21:00:01
+- Server 		: Prod
+- User 			: andi.yahya@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE status_order=1
+
+
+2024-10-09 21:00:01
+- Server 		: Prod
+- User 			: andi.yahya@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number
+
+
+2024-10-09 21:00:01
+- Server 		: Prod
+- User 			: andi.yahya@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_mst_order_number WHERE create_date >= '2024-10-08' ORDER BY create_date DESC
+
+
+2024-10-09 21:00:01
+- Server 		: Prod
+- User 			: andi.yahya@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_documents WHERE date_expired >=  '2024-10-09'
+
+
+2024-10-09 21:00:01
+- Server 		: Prod
+- User 			: andi.yahya@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_documents WHERE date_expired <  '2024-10-09'
+
+
+2024-10-09 21:00:01
+- Server 		: Prod
+- User 			: andi.yahya@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_documents
+
+
+2024-10-09 21:00:01
+- Server 		: Prod
+- User 			: andi.yahya@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_documents WHERE date_released >= '2024-10-08' ORDER BY date_released DESC
+
+
+2024-10-09 21:00:01
+- Server 		: Prod
+- User 			: andi.yahya@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_mst_employees WHERE email='andi.yahya@mastersystem.co.id' ORDER BY resign_date
+
+
+2024-10-09 21:00:01
+- Server 		: Prod
+- User 			: andi.yahya@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: MySQL server has gone away
+- Query 		: SELECT `employee_name`, SUM(IF( `status` = 'drafted', 1, 0) ) AS `edo_draft`, SUM(IF( `status` = 'edo submitted', 1, 0) ) AS `edo_submitted`, SUM(IF( `status` = 'edo rejected', 1, 0) ) AS `edo_rejected`, SUM(IF( `status` = 'request approved', 1, 0) ) AS `edo_approved`, SUM(IF( `status` = 'leave submitted', 1, 0) ) AS `leave_submitted`, SUM(IF( `status` = 'leave rejected', 1, 0) ) AS `leave_rejected`, SUM(IF( `status` = 'completed', 1, 0) ) AS `completed` FROM `sa_trx_edo_request` WHERE `employee_name` LIKE '%andi.yahya@mastersystem.co.id%' GROUP BY `employee_name`; 

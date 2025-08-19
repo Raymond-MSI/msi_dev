@@ -1,0 +1,1923 @@
+File Error Log
+
+2024-06-07 09:45:56
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_trx_project_solution' doesn't exist
+- Query 		: select * from sa_trx_project_solution LIMIT 100
+
+
+2024-06-07 09:50:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_resource_assignmnet' doesn't exist
+- Query 		: select * from sa_resource_assignmnet WHERE approval_to LIKE '%iwan%' AND status='pending'
+
+
+2024-06-07 10:02:19
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '12, `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>' W...' at line 1
+- Query 		: UPDATE `sa_trx_addon` SET `addon_price` = 1371367497,12, `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>' WHERE `project_id` = 21927 AND `addon_title` = 'Cisco'
+
+
+2024-06-07 10:03:29
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '12, `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>' W...' at line 1
+- Query 		: UPDATE `sa_trx_addon` SET `addon_price` = 1371367497,12, `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>' WHERE `project_id` = 21927 AND `addon_title` = 'Cisco'
+
+
+2024-06-07 10:22:28
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Field 'catalog_type' doesn't have a default value
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `service_type`, `modified_by`) VALUES (21993,32,2,1,10,'HPE HW',250,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-06-07 10:22:28
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Field 'catalog_type' doesn't have a default value
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `service_type`, `modified_by`) VALUES (21993,62,2,1,20,'HPE HW',350,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-06-07 10:22:28
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Field 'catalog_type' doesn't have a default value
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `service_type`, `modified_by`) VALUES (21993,72,2,1,10,'HPE HW',250,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-06-07 10:24:00
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Field 'catalog_type' doesn't have a default value
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `service_type`, `modified_by`) VALUES (21993,32,2,1,10,'HPE HW',250,1,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-06-07 10:39:46
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:39:58
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:43:42
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:44:26
+- Server 		: Prod
+- User 			: muhamad.dicky@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:44:35
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:44:53
+- Server 		: Prod
+- User 			: muhamad.dicky@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:45:16
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:45:57
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:46:02
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:46:45
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:46:53
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:46:56
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:47:15
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:48:20
+- Server 		: Prod
+- User 			: muhamad.dicky@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:49:06
+- Server 		: Prod
+- User 			: muhamad.dicky@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:49:07
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:49:21
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:49:27
+- Server 		: Prod
+- User 			: muhamad.dicky@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:49:35
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:50:26
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:53:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_ps_service_budgets' doesn't exist
+- Query 		: select * from sa_ps_service_budgets WHERE project_code='TK018923K0001'
+
+
+2024-06-07 10:54:33
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:54:45
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `addon_id` = 11358' at line 1
+- Query 		: UPDATE `sa_trx_addon` SET `addon_price` = 134515973, `modified_by` = 'Syamsul Arham<syamsul@mastersystem.co.id>' WHERE `project_id` = 21927 AND `addon_title` = '50 SDK Mandays', `addon_id` = 11358
+
+
+2024-06-07 10:54:45
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `addon_id` = 17997' at line 1
+- Query 		: UPDATE `sa_trx_addon` SET `addon_price` = 5000000, `modified_by` = 'Syamsul Arham<syamsul@mastersystem.co.id>' WHERE `project_id` = 21927 AND `addon_title` = 'Cisco', `addon_id` = 17997
+
+
+2024-06-07 10:55:06
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:55:57
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `addon_id` = 11358' at line 1
+- Query 		: UPDATE `sa_trx_addon` SET `addon_price` = 134515973, `modified_by` = 'Syamsul Arham<syamsul@mastersystem.co.id>' WHERE `project_id` = 21927 AND `addon_title` = '50 SDK Mandays', `addon_id` = 11358
+
+
+2024-06-07 10:55:57
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `addon_id` = 17997' at line 1
+- Query 		: UPDATE `sa_trx_addon` SET `addon_price` = 5000000, `modified_by` = 'Syamsul Arham<syamsul@mastersystem.co.id>' WHERE `project_id` = 21927 AND `addon_title` = 'Cisco', `addon_id` = 17997
+
+
+2024-06-07 10:57:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:58:23
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:58:54
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:59:00
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 10:59:39
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 11:00:39
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `addon_id` = 11358' at line 1
+- Query 		: UPDATE `sa_trx_addon` SET `addon_price` = 134515973, `modified_by` = 'Syamsul Arham<syamsul@mastersystem.co.id>' WHERE `project_id` = 21927 AND `addon_title` = '50 SDK Mandays', `addon_id` = 11358
+
+
+2024-06-07 11:00:39
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `addon_id` = 17997' at line 1
+- Query 		: UPDATE `sa_trx_addon` SET `addon_price` = 5000000, `modified_by` = 'Syamsul Arham<syamsul@mastersystem.co.id>' WHERE `project_id` = 21927 AND `addon_title` = 'Cisco', `addon_id` = 17997
+
+
+2024-06-07 11:01:40
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 11:04:32
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 11:06:14
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 11:06:57
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 11:07:33
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 11:07:52
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 11:08:01
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 11:12:56
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 11:16:07
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 11:16:51
+- Server 		: Prod
+- User 			: adhitya.reza@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 11:17:06
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 11:24:39
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+														ORDER BY `job_level` ASC' at line 34
+- Query 		: SELECT `employee_name`, `employee_email`, `organization_name` FROM `sa_view_employees` 
+														WHERE 
+															`resign_date` IS NULL AND
+															(
+																`organization_name` LIKE '%Presales%' OR
+																`employee_name` LIKE 'Rendy Kharisma%' OR
+																`employee_name` LIKE 'Nur Azizah%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Ulia Warman%' OR
+																`employee_name` LIKE 'Windhu Syaputra%' OR
+																`employee_name` LIKE 'Dede Wahyu%' OR
+																`employee_name` LIKE 'Akhmad Zaki Alsafi%' OR
+																`employee_name` LIKE 'Ancer Afriono%' OR
+																`employee_name` LIKE 'Andreas Johansen%' OR
+																`employee_name` LIKE 'Rendhika Ch Golmen BN%' OR
+																`employee_name` LIKE 'Ryanno Lukman%' OR
+																`employee_name` LIKE 'Deni Hardiansyah%' OR
+																`employee_name` LIKE 'Rahseto Ajie Basuki%' OR
+																`employee_name` LIKE 'Gunawan%' OR
+																`employee_name` LIKE 'Fajar Pambudi Satiyo%' OR
+																`employee_name` LIKE 'Muhammad Faisal Irsyadi%' OR
+																`employee_name` LIKE 'Faris Aulia Ramadhan%' OR
+																`employee_name` LIKE 'Ardi Haris%' OR
+																`employee_name` LIKE 'Muhamad Rafif Hadi Kusmawan%' OR
+																`employee_name` LIKE 'Rio Kristian%' OR
+																`employee_name` LIKE 'Muhammad Uwais Al Qarni%' OR
+																`employee_name` LIKE 'Alif Famela Azzahra%' OR
+																`employee_name` LIKE 'Adil Aldianto Nooril%' OR
+																`employee_name` LIKE 'Ruli Handrio%' OR
+																`employee_name` LIKE 'Herdiman Eka Wijaya%' OR
+																`employee_name` LIKE 'Novriadi, ST%' OR
+																`employee_name` LIKE 'Wiradharma Gunawan%' OR
+																`employee_name` LIKE 'FX Ferdinand%' OR
+															)
+														ORDER BY `job_level` ASC 
+
+
+2024-06-07 14:24:46
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '12, `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>' W...' at line 1
+- Query 		: UPDATE `sa_trx_addon` SET `addon_price` = 1371367497,12, `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>' WHERE `project_id` = 21927 AND `addon_title` = 'Cisco' AND `addon_id` = 17976
+
+
+2024-06-07 14:25:15
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '12, `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>' W...' at line 1
+- Query 		: UPDATE `sa_trx_addon` SET `addon_price` = 1371367497,12, `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>' WHERE `project_id` = 21927 AND `addon_title` = 'Cisco' AND `addon_id` = 17976
+
+
+2024-06-07 14:27:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_workload_sa_initial_jobroles' doesn't exist
+- Query 		: SELECT * FROM sa_workload_sa_initial_jobroles WHERE project_id='IEAEOPF5I5FLRQ2X'
+
+
+2024-06-07 15:26:09
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '12, `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>' W...' at line 1
+- Query 		: UPDATE `sa_trx_addon` SET `addon_price` = 1371367497,12, `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>' WHERE `project_id` = 21927 AND `addon_title` = 'Cisco' AND `addon_id` = 17976
+
+
+2024-06-07 15:29:35
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '12, `modified_by` = 'Syamsul Arham<syamsul@mastersystem.co.id>' WHERE `projec...' at line 1
+- Query 		: UPDATE `sa_trx_addon` SET `addon_price` = 1371367497,12, `modified_by` = 'Syamsul Arham<syamsul@mastersystem.co.id>' WHERE `project_id` = 21927 AND `addon_title` = 'Cisco' AND `addon_id` = 17976
+
+
+2024-06-07 15:31:08
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '12, `modified_by` = 'Syamsul Arham<syamsul@mastersystem.co.id>' WHERE `projec...' at line 1
+- Query 		: UPDATE `sa_trx_addon` SET `addon_price` = 1371367497,12, `modified_by` = 'Syamsul Arham<syamsul@mastersystem.co.id>' WHERE `project_id` = 21927 AND `addon_title` = 'Cisco' AND `addon_id` = 17976
+
+
+2024-06-07 15:32:24
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '12, `modified_by` = 'Syamsul Arham<syamsul@mastersystem.co.id>' WHERE `projec...' at line 1
+- Query 		: UPDATE `sa_trx_addon` SET `addon_price` = 1371367497,12, `modified_by` = 'Syamsul Arham<syamsul@mastersystem.co.id>' WHERE `project_id` = 21927 AND `addon_title` = 'Cisco' AND `addon_id` = 17976
+
+
+2024-06-07 15:33:19
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '12, `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>' W...' at line 1
+- Query 		: UPDATE `sa_trx_addon` SET `addon_price` = 1371367497,12, `modified_by` = 'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>' WHERE `project_id` = 21927 AND `addon_title` = 'Cisco' AND `addon_id` = 17976

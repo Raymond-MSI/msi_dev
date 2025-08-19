@@ -1,0 +1,271 @@
+File Error Log
+
+2023-11-07 09:20:28
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'status_product' in 'where clause'
+- Query 		: SELECT * FROM sa_product_list WHERE lokasi = 'Sudirman Park' AND status_aset = 'Aktif' and status_product = 'Aktif'
+
+
+2023-11-07 09:21:27
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'status_product' in 'where clause'
+- Query 		: SELECT * FROM sa_product_list WHERE lokasi = 'Sudirman Park' AND status_aset = 'Aktif' and status_product = 'Aktif'
+
+
+2023-11-07 09:21:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'status_product' in 'where clause'
+- Query 		: SELECT * FROM sa_product_list WHERE lokasi = 'Sudirman Park' AND status_aset = 'Aktif' and status_product = 'Aktif'
+
+
+2023-11-07 09:21:44
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'status_product' in 'where clause'
+- Query 		: SELECT * FROM sa_product_list WHERE lokasi = 'Sudirman Park' AND status_aset = 'Aktif' and status_product = 'Aktif'
+
+
+2023-11-07 09:22:13
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'status_product' in 'where clause'
+- Query 		: SELECT * FROM sa_product_list WHERE lokasi = 'Sudirman Park' AND status_aset = 'Aktif' and status_product = 'Aktif'
+
+
+2023-11-07 09:31:50
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'status_product' in 'where clause'
+- Query 		: SELECT * FROM sa_product_list WHERE lokasi = 'Sudirman Park' AND status_aset = 'Aktif' and status_product = 'Aktif'
+
+
+2023-11-07 09:50:48
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'status_product' in 'where clause'
+- Query 		: SELECT * FROM sa_product_list WHERE lokasi = 'Sudirman Park' AND status_aset = 'Aktif' and status_product = 'Aktif'
+
+
+2023-11-07 09:51:00
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'status_product' in 'where clause'
+- Query 		: SELECT * FROM sa_product_list WHERE lokasi = 'Sudirman Park' AND status_aset = 'Aktif' and status_product = 'Aktif'
+
+
+2023-11-07 09:56:52
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'nomor_transaksi' in 'where clause'
+- Query 		: select * from sa_product_list where nomor_transaksi = 'tester1';
+
+
+
+2023-11-07 10:23:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.SA_PRODUCT_LIST' doesn't exist
+- Query 		: SELECT * FROM SA_PRODUCT_LIST;
+
+
+2023-11-07 10:53:15
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_product' doesn't exist
+- Query 		: update sa_product list set status_product = 'Aktif';
+
+
+2023-11-07 10:54:30
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from sa_product list set status_product = 'Aktif'' at line 1
+- Query 		: update from sa_product list set status_product = 'Aktif';
+
+
+2023-11-07 14:09:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_productivity.sa_wrike_project_detail' doesn't exist
+- Query 		: select * from sa_wrike_project_detail limit 35
+
+
+2023-11-07 14:11:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'd.project_category' in 'field list'
+- Query 		: select a.resource_email, c.department_name, c.job_title, a.project_code, a.project_name, a.customer_name, a.project_type, d.project_category, d.project_status, COUNT(a.spen_time) from sa_trx_productivity a LEFT JOIN sa_wrike_integrate.sa_contact_user b ON a.resource_id=b.id LEFT JOIN sa_md_hcm.sa_view_employees_v2 c ON b.email=c.employee_email LEFT JOIN sa_wrike_integrate.sa_wrike_project_detail c ON a.project_code=c.project_code GROUP BY a.project_type, a.project_code, a.resource_email
+
+
+2023-11-07 17:01:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: project_delay
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2023-11-07 17:03:16
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: project_delay
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_cfg_web' doesn't exist
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_MICROSERVICES'
+
+
+2023-11-07 17:08:26
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-07 17:08:29
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-07 17:08:31
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: MySQL server has gone away
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-07 17:09:51
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-07 20:30:14
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-07 20:30:26
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-07 20:31:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-07 20:34:12
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-07 20:36:39
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-07 20:37:15
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-07 20:46:11
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-07 20:46:29
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-07 20:46:50
+- Server 		: Prod
+- User 			: galih.putro@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2023-11-07 21:12:39
+- Server 		: Prod
+- User 			: nauval.farhan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7

@@ -1,0 +1,243 @@
+File Error Log
+
+2024-05-07 10:53:24
+- Server 		: Prod
+- User 			: annisa.riska@mastersystem.co.id
+- Module 		: new_request
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_trx_share WHERE id=undefined
+
+
+2024-05-07 11:04:36
+- Server 		: Prod
+- User 			: annisa.riska@mastersystem.co.id
+- Module 		: new_request
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_trx_share WHERE id=undefined
+
+
+2024-05-07 13:22:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_cfg_users' doesn't exist
+- Query 		: select * from sa_cfg_users
+
+
+2024-05-07 13:39:06
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'leave start >= '2024-05-01'' at line 1
+- Query 		: select * from sa_trx_edo_leave where leave start >= '2024-05-01'
+
+
+2024-05-07 13:42:14
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'leave
+INNER JOIN sa_trx_edo_request AS request
+    ON leave.employee_id = r...' at line 2
+- Query 		: SELECT *
+FROM sa_trx_edo_leave AS leave
+INNER JOIN sa_trx_edo_request AS request
+    ON leave.employee_id = request.employee_id
+WHERE leave.leave_start >= '2024-05-01'
+    AND request.entry_date >= '2024-05-01';
+
+
+
+2024-05-07 13:44:39
+- Server 		: Prod
+- User 			: iwangp@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3 * FROM ;sa_view_employees_v2' at line 1
+- Query 		: SELECT TOP 3 * FROM ;sa_view_employees_v2;
+
+
+2024-05-07 13:44:45
+- Server 		: Prod
+- User 			: iwangp@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3 * FROM sa_view_employees_v2' at line 1
+- Query 		: SELECT TOP 3 * FROM sa_view_employees_v2;
+
+
+2024-05-07 13:44:54
+- Server 		: Prod
+- User 			: iwangp@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3 * FROM sa_view_employees_v2' at line 1
+- Query 		: SELECT TOP 3 * FROM sa_view_employees_v2
+
+
+2024-05-07 13:54:32
+- Server 		: Prod
+- User 			: iwangp@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'emplyee_email' in 'where clause'
+- Query 		: select * from sa_view_employees_v2 where emplyee_email like '%iwangp%' 
+
+
+
+2024-05-07 14:08:05
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_trx_edo_leave.start_date' in 'where clause'
+- Query 		: SELECT *
+FROM sa_trx_edo_request
+JOIN sa_trx_edo_leave ON sa_trx_edo_request.edo_id = sa_trx_edo_leave.leave_id
+WHERE sa_trx_edo_request.entry_date >= '2024-05-01'
+  AND sa_trx_edo_leave.start_date >= '2024-05-01';
+
+
+
+2024-05-07 14:08:18
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_trx_edo_leave.start_date' in 'where clause'
+- Query 		: SELECT *
+FROM sa_trx_edo_request
+JOIN sa_trx_edo_leave ON sa_trx_edo_request.edo_id = sa_trx_edo_leave.leave_id
+WHERE sa_trx_edo_request.entry_date >= '2024-05-01'
+  AND sa_trx_edo_leave.start_date >= '2024-05-01'
+
+
+
+2024-05-07 14:10:19
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_trx_edo_request.employee_id' in 'on clause'
+- Query 		: SELECT *
+FROM sa_trx_edo_request
+JOIN sa_trx_edo_leave ON sa_trx_edo_request.employee_id = sa_trx_edo_leave.employee_id
+WHERE sa_trx_edo_request.entry_date >= '2024-05-01'
+  AND sa_trx_edo_leave.leave_start >= '2024-05-01';
+
+
+
+2024-05-07 14:10:28
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_trx_edo_request.employee_id' in 'on clause'
+- Query 		: SELECT *
+FROM sa_trx_edo_request
+JOIN sa_trx_edo_leave ON sa_trx_edo_request.employee_id = sa_trx_edo_leave.employee_id
+
+
+
+2024-05-07 14:17:06
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_new_request.sa_trx_edo_request' doesn't exist
+- Query 		: select * from sa_trx_edo_request where employee_name like '%i dewa%'
+
+
+2024-05-07 23:20:31
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0
+            )
+        ) AS `total_task_implementation`,
+        SUM(
+  ...' at line 18
+- Query 		: SELECT
+        `resource_email`,
+        SUM(
+            IF(
+                `project_type` = 'MSI Project Implementation',
+                `spen_time`,
+                0
+            )
+        ) AS `total_implementation`,
+        SUM(
+            IF(
+                `project_type` = 'MSI Project Implementation',
+                IF(
+                    `spen_time`>0,
+                     1,
+                     0
+                )
+                0
+            )
+        ) AS `total_task_implementation`,
+        SUM(
+            IF(
+                `project_type` = 'MSI Project Maintenance',
+                `spen_time`,
+                0
+            )
+        ) AS `total_maintenance`,
+        SUM(
+            IF(
+                `project_type` = 'MSI Non-Project',
+                `spen_time`,
+                0
+            )
+        ) AS `total_non_project`,
+        SUM(
+            IF(
+                `project_type` = 'MSI Self Improvement',
+                `spen_time`,
+                0
+            )
+        ) AS `total_self_improvement`,
+            SUM(
+            IF(
+                `project_type` = 'MSI Project Implementation',
+                `spen_time`,
+                0
+            )
+        ) +
+        SUM(
+            IF(
+                `project_type` = 'MSI Project Maintenance',
+                `spen_time`,
+                0
+            )
+        ) +
+        SUM(
+            IF(
+                `project_type` = 'MSI Non-Project',
+                `spen_time`,
+                0
+            )
+        ) +
+        SUM(
+            IF(
+                `project_type` = 'MSI Self Improvement',
+                `spen_time`,
+                0
+            )
+        ) AS `total`
+
+    FROM
+        `sa_trx_productivity`
+    WHERE
+        `tracked_date` >= '2024-01-01' AND `tracked_date` <= '2024-05-07' AND `spen_time` IS NOT NULL
+    GROUP BY
+        `resource_email`
+    ORDER BY
+        `total` ASC;

@@ -1,0 +1,259 @@
+File Error Log
+
+2024-10-08 09:24:56
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'like "Za'matul%"' at line 1
+- Query 		: select * FROM sa_trx_edo_leave employee_name like "Za'matul%"
+
+
+2024-10-08 09:26:04
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '10' at line 1
+- Query 		: select * FROM sa_trx_edo_leavelimit 10 
+
+
+2024-10-08 10:32:10
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani','zaimatul@mastersystem.co.id','Aceng Zakariya Ramada...' at line 14
+- Query 		: INSERT INTO `sa_trx_edo_leave`
+                (
+                    `employee_name`, 
+                    `employee_email`,
+                    `leader1_email`,
+                    `leader2_email`, 
+                    `leave_start`, 
+                    `leave_end`, 
+                    `leave_status`, 
+                    `entry_by`, 
+                    `entry_date`, 
+                    `update_by`
+                ) VALUES 
+                ('Za'imatul Hakimah Septiani','zaimatul@mastersystem.co.id','Aceng Zakariya Ramadani<aceng.zakariya@mastersystem.co.id>','Raymond R. Taruli<Raymond.Raphael@mastersystem.co.id>','2024-10-09','2024-10-10','leave submitted','Za'imatul Hakimah Septiani','2024-10-08 10:32:10','Za'imatul Hakimah Septiani')
+
+
+2024-10-08 10:33:08
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_trx_edo_detail' doesn't exist
+- Query 		: SELECT * FROM sa_trx_edo_detail limit 10
+
+
+2024-10-08 11:21:44
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani','2024-10-08 11:21:44','Za'imatul Hakimah Septiani')' at line 14
+- Query 		: INSERT INTO `sa_trx_edo_leave`
+                (
+                    `employee_name`, 
+                    `employee_email`,
+                    `leader1_email`,
+                    `leader2_email`, 
+                    `leave_start`, 
+                    `leave_end`, 
+                    `leave_status`, 
+                    `entry_by`, 
+                    `entry_date`, 
+                    `update_by`
+                ) VALUES 
+                ('Za\'imatul Hakimah Septiani','zaimatul@mastersystem.co.id','Aceng Zakariya Ramadani<aceng.zakariya@mastersystem.co.id>','Raymond R. Taruli<Raymond.Raphael@mastersystem.co.id>','2024-10-09','2024-10-10','leave submitted','Za'imatul Hakimah Septiani','2024-10-08 11:21:44','Za'imatul Hakimah Septiani')
+
+
+2024-10-08 11:25:52
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani','2024-10-08 11:25:52','Za'imatul Hakimah Septiani')' at line 14
+- Query 		: INSERT INTO `sa_trx_edo_leave`
+                (
+                    `employee_name`, 
+                    `employee_email`,
+                    `leader1_email`,
+                    `leader2_email`, 
+                    `leave_start`, 
+                    `leave_end`, 
+                    `leave_status`, 
+                    `entry_by`, 
+                    `entry_date`, 
+                    `update_by`
+                ) VALUES 
+                ('Za\'imatul Hakimah Septiani','zaimatul@mastersystem.co.id','Aceng Zakariya Ramadani<aceng.zakariya@mastersystem.co.id>','Raymond R. Taruli<Raymond.Raphael@mastersystem.co.id>','2024-10-15','2024-10-16','leave submitted','Za'imatul Hakimah Septiani','2024-10-08 11:25:52','Za'imatul Hakimah Septiani')
+
+
+2024-10-08 11:33:31
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani','2024-10-08 11:33:31','Za\'imatul Hakimah Septiani')' at line 14
+- Query 		: INSERT INTO `sa_trx_edo_leave`
+                (
+                    `employee_name`, 
+                    `employee_email`,
+                    `leader1_email`,
+                    `leader2_email`, 
+                    `leave_start`, 
+                    `leave_end`, 
+                    `leave_status`, 
+                    `entry_by`, 
+                    `entry_date`, 
+                    `update_by`
+                ) VALUES 
+                ('Za\'imatul Hakimah Septiani','zaimatul@mastersystem.co.id','Aceng Zakariya Ramadani<aceng.zakariya@mastersystem.co.id>','Raymond R. Taruli<Raymond.Raphael@mastersystem.co.id>','2024-10-09','2024-10-10','leave submitted','Za'imatul Hakimah Septiani','2024-10-08 11:33:31','Za\'imatul Hakimah Septiani')
+
+
+2024-10-08 12:39:54
+- Server 		: Prod
+- User 			: aldo.octavianto@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_resource_assignment WHERE project_type = 'Maintenance' and (approval_to LIKE '%aldo.octavianto@mastersystem.co.id%' OR created_by LIKE '%aldo.octavianto@mastersystem.co.id%') LIMIT 0, 10000
+
+
+2024-10-08 13:54:38
+- Server 		: Prod
+- User 			: aditya.wisnu@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-10-08 13:54:38
+- Server 		: Prod
+- User 			: aditya.wisnu@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-10-08 15:41:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_trx_project_ist' doesn't exist
+- Query 		: select * from sa_trx_project_ist WHERE project_code='TB001024C0013'
+
+
+2024-10-08 15:41:31
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_trx_project_ist' doesn't exist
+- Query 		: select * from sa_trx_project_ist WHERE project_code='TB001024C0013'
+
+
+2024-10-08 15:43:27
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-08 15:43:27
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-08 15:46:37
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-08 15:46:37
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-08 15:57:08
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-08 15:57:08
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-08 16:22:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Illegal parameter data types varchar and row for operation '='
+- Query 		: select * from sa_preschedule WHERE project_id=('IEAEOPF5I5DIBNSX','IEAEOPF5I5DJKH5I','IEAEOPF5I5MSA4BS','IEAEOPF5I5MSAXFI','IEAEOPF5I5MSAZW4')
+
+
+2024-10-08 16:27:43
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-08 16:27:43
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-08 16:29:13
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-08 16:29:13
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'

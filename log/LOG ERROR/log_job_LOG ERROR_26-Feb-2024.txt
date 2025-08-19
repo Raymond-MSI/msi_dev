@@ -1,0 +1,270 @@
+File Error Log
+
+2024-02-26 10:22:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:22:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:22:56
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:22:56
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:01
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:01
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:03
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:03
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:03
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:03
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:04
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:04
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:05
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:05
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:06
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:06
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:42
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:42
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:44
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:44
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:55
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:55
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:56
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 10:23:56
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'b6cb78a8bb24e4b0b91a4bd1f571740b' in 'where clause'
+- Query 		: SELECT * FROM sa_reason_extend_date WHERE transaction_id = b6cb78a8bb24e4b0b91a4bd1f571740b 
+
+
+2024-02-26 11:59:31
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 2' at line 1
+- Query 		: select * from sa_view_employees_v2 limit = 2
+
+
+2024-02-26 11:59:36
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '2'' at line 1
+- Query 		: select * from sa_view_employees_v2 limit = '2'
+
+
+2024-02-26 15:08:41
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: select * from sa_trx_project_list WHERE id=6063
+
+
+2024-02-26 15:13:36
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_wrike_config' doesn't exist
+- Query 		: select * from sa_wrike_config 

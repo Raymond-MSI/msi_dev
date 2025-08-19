@@ -1,0 +1,118 @@
+File Error Log
+
+2024-06-12 09:06:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'like '97.0074%'' at line 1
+- Query 		: select * from sa_view_employees_v2 like '97.0074%'
+
+
+2024-06-12 09:06:44
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'like '%97.0074%'' at line 1
+- Query 		: select * from sa_view_employees_v2 like '%97.0074%'
+
+
+2024-06-12 09:06:50
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'like nik '%97.0074%'' at line 1
+- Query 		: select * from sa_view_employees_v2 like nik '%97.0074%'
+
+
+2024-06-12 09:06:55
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'like '%97.0074%'' at line 1
+- Query 		: select * from sa_view_employees_v2 nik  like '%97.0074%'
+
+
+2024-06-12 10:09:46
+- Server 		: Prod
+- User 			: bima.ifa@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,5,'Red Hat',250,1,1,'Bima Ifa Ristiyandi<bima.ifa@mastersystem.co.id>')
+
+
+2024-06-12 10:44:54
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+- Query 		: UPDATE `sa_trx_edo_request` SET `status`='leave approved',`flag_approval`=1, `edo_approval_by`='Aceng Zakariya Ramadani<aceng.zakariya@mastersystem.co.id>; ',`performed_by`='Aceng Zakariya Ramadani<aceng.zakariya@mastersystem.co.id>' WHERE ()
+
+
+2024-06-12 10:54:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_preschedule' doesn't exist
+- Query 		: select * from sa_preschedule WHERE project_id='IEAEOPF5I5GHEG3O'
+
+
+2024-06-12 11:42:12
+- Server 		: Prod
+- User 			: Raymond.Raphael@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+- Query 		: UPDATE `sa_trx_edo_request` SET `flag_approval`=2, `edo_approval_by`='Aceng Zakariya Ramadani<aceng.zakariya@mastersystem.co.id>; Raymond R. Taruli<Raymond.Raphael@mastersystem.co.id>; ',`performed_by`='Raymond R. Taruli<Raymond.Raphael@mastersystem.co.id>' WHERE ()
+
+
+2024-06-12 13:41:49
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'start_date' in 'where clause'
+- Query 		: select * from sa_schedule WHERE calendar_id = 'radiansyah.akbar@mastersystem.co.id' AND start_date BETWEEN '2024-04-01' AND '2024-04-06'
+
+
+2024-06-12 13:51:50
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_trx_productivity' doesn't exist
+- Query 		: select * from sa_trx_productivity WHERE resource_email LIKE '%radiansyah.akbar@mastersystem.co.id%' AND tracked_date BETWEEN '2024-04-01' AND '2024-04-06' AND project_type != 'MSI Non-Project'
+
+
+2024-06-12 16:11:43
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's select * from sa_resource_assignment WHERE project_code='TP012724K0010'' at line 1
+- Query 		: s select * from sa_resource_assignment WHERE project_code='TP012724K0010'
+
+
+2024-06-12 16:34:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'employee_name' in 'where clause'
+- Query 		: select * from sa_trx_edo_approval WHERE employee_name LIKE '%Eka Ratnasari%'
+
+
+2024-06-12 16:45:12
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'edo_id' in 'where clause'
+- Query 		: SELECT * FROM sa_trx_edo_leave WHERE edo_id IN (38018,38015)
+

@@ -1,0 +1,74 @@
+18-11-2024 08:46:39
+- User Name   : aryo.bimo@mastersystem.co.id
+- Module      : mysql
+- Sub-Module  : 
+- Description : mysqli_sql_exception: Connection refused in /var/www/html/msizone/components/classes/func_databases_v3.php:116
+Stack trace:
+#0 /var/www/html/msizone/components/classes/func_databases_v3.php(116): mysqli->__construct()
+#1 /var/www/html/msizone/components/classes/func_databases_v3.php(563): Databases->__construct()
+#2 /var/www/html/msizone/components/modules/mod_mysql.php(121): get_conn()
+#3 /var/www/html/msizone/applications/templates/sb_admin2/index.php(94): include('/var/www/html/m...')
+#4 /var/www/html/msizone/index.php(61): include('/var/www/html/m...')
+#5 {main}
+
+- HostName    : 10.20.50.161- User Name   : ITAdmin- Password    : P@ssw0rd.1- Database    : sa_md_products18-Nov-2024 8:46:39
+- SubModule : 
+- Status    : Caught 'get_sql' error - [show tables]  - "show tables" - 
+
+18-Nov-2024 8:48:23
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_mst_asset_requests_line lmit 10 ] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '10' at line 1
+
+18-Nov-2024 9:41:27
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_wrike_project_list WHERE project_code IN ('TB002723D0031','TB002723D0036','TB002724D0001')] Table 'sa_dashboard_kpi.sa_wrike_project_list' doesn't exist
+
+18-Nov-2024 9:50:26
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_initial_project_list WHERE project_code ='TH006224J0003'] Table 'sa_wrike_integrate.sa_initial_project_list' doesn't exist
+
+18-Nov-2024 10:03:40
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select *m sa_resource_assignment WHERE project_code='TH006224J0003'] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'm sa_resource_assignment WHERE project_code='TH006224J0003'' at line 1
+
+18-Nov-2024 10:58:29
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT *
+FROM sa_mst_purchases a
+INNER JOIN sa_mst_asset_requests_line b ON a.location_code =b.location_code
+limit 10 ] Unknown column 'a.location_code' in 'on clause'
+
+18-Nov-2024 11:10:05
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT *
+FROM sa_mst_asset_locations a
+INNER JOIN sa_mst_asset_requests_line b ON a.location_code =b.location_code
+WHERE a.document_type = 'Joana'] Unknown column 'a.document_type' in 'where clause'
+
+18-Nov-2024 14:45:32
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_initial_project WHERE project_code='TB002324I0088' ] Table 'sa_ps_service_budgets.sa_initial_project' doesn't exist
+
+18-Nov-2024 15:49:17
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_project_detail WHERE project_code='TB002724D0077'] Table 'sa_wrike_integrate.sa_project_detail' doesn't exist
+
+18-Nov-2024 16:14:05
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_hcm_requirement WHERE id_fpkb = ''Cloud and Data Security/FPKB/REC/23/2024'] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Cloud and Data Security/FPKB/REC/23/2024'' at line 1
+
+18-Nov-2024 16:20:17
+- SubModule : 
+- Status    : Caught 'get_sql' error - [UPDATE sa_hcm_requirement_interview SET = '152' WHERE id_fpkb = 'Cloud and Data Security/FPKB/REC/33/2024'
+
+
+
+
+
+
+] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '152' WHERE id_fpkb = 'Cloud and Data Security/FPKB/REC/33/2024'' at line 1
+
+18-Nov-2024 17:06:39
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_wrike_project_detail WHERE project_code='TB002724D0077'] Table 'sa_workload.sa_wrike_project_detail' doesn't exist
+

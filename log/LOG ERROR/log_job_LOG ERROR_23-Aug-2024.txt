@@ -1,0 +1,362 @@
+File Error Log
+
+2024-08-23 08:44:14
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 21
+- Query 		: SELECT 
+        resource_email, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_imp, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_imp, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_mnt, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_mnt, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_non, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_non, 
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_si,
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_si,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_imp_progress,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_imp_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_mnt_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_mnt_progress,
+		(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0))) AS total
+
+    FROM sa_trx_productivity 
+    WHERE
+        tracked_date >= '2024-08-01' AND 
+        tracked_date <= '2024-08-16'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+    GROUP BY resource_email
+	ORDER BY total
+	
+
+
+2024-08-23 08:44:14
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 14
+- Query 		: SELECT 
+		resource_email,
+		SUM(IF(status_calender = "accepted", 1, 0)) AS accepted, 
+		SUM(IF(status_calender = "declined", 1, 0)) AS declined, 
+		SUM(IF(status_calender = "needsAction", 1, 0)) AS needsAction, 
+		SUM(IF(status_calender = "tentative", 1, 0)) AS tentative, 
+		SUM(IF(status_calender = NULL, 1, 0)) AS `null`,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0))) AS total_task,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)))/(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0))) AS progress
+	FROM sa_trx_productivity 
+	WHERE
+		tracked_date >= '2024-08-01' AND 
+		tracked_date <= '2024-08-16'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+	GROUP BY resource_email
+	ORDER BY resource_email DESC
+
+
+2024-08-23 08:44:14
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 7
+- Query 		: SELECT
+                                `resource_email`
+                            FROM
+                                `sa_trx_productivity`
+                            WHERE
+                                `tracked_date` >= '2024-08-01' AND `tracked_date` <= '2024-08-16' AND `spen_time` IS NOT NULL
+                                 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+                                
+                            GROUP BY
+                                `resource_email`
+                            ORDER BY
+                                `resource_email` ASC;
+
+
+2024-08-23 08:44:14
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 33
+- Query 		: SELECT
+						`resource_email`,
+						`project_type`,
+						`project_code`,
+						`so_number`,
+						`order_number`,
+						`project_name`,
+						`customer_name`,
+						`start_date`,
+						`due_date`,
+						`task_date`,
+						`day_name`,
+						`work_on_weekends`,
+						`task_name`,
+						`resource_role`,
+						`leader_name`,
+						`department`,
+						`gm_name`,
+						`division`,
+						`available_time`,
+						`plan_time`,
+						`spen_time`,
+						`tracked_date`,
+						`entry_date`,
+						`status_calender`,
+						`permalink_wrike`,
+						`permalink_task`,
+						`permalink_gcalender`
+					FROM
+						`sa_trx_productivity`
+					WHERE
+						`tracked_date` >= '2024-08-01' AND `tracked_date` <= '2024-08-16'
+						 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+						
+						
+					ORDER BY
+						`resource_email` ASC;
+
+
+2024-08-23 08:48:28
+- Server 		: Prod
+- User 			: bayu.santoso@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (23846,31,1,1,15,'Fortinet',250,NULL,1,'Bayu Santoso<bayu.santoso@mastersystem.co.id>')
+
+
+2024-08-23 08:48:28
+- Server 		: Prod
+- User 			: bayu.santoso@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (23846,71,1,1,10,'Fortinet',250,NULL,1,'Bayu Santoso<bayu.santoso@mastersystem.co.id>')
+
+
+2024-08-23 09:56:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Reference 'total_count' not supported (reference to group function)
+- Query 		: 
+   SELECT count(nomor_seri) as total_count, lokasi
+FROM sa_rental_product_list
+WHERE lokasi IS NOT NULL AND lokasi != ''  AND lokasi != 'Remove'
+GROUP BY lokasi and total_count
+
+
+
+2024-08-23 09:56:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Reference 'total_count' not supported (reference to group function)
+- Query 		: 
+   SELECT count(nomor_seri) as total_count, lokasi
+FROM sa_rental_product_list
+WHERE lokasi IS NOT NULL AND lokasi != ''  AND lokasi != 'Remove'
+GROUP BY lokasi and total_count
+
+
+
+2024-08-23 10:19:43
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,3,1,4,'HPE',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-23 10:19:43
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,3,1,1,'HPE',350,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-23 10:19:43
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,6,'HPE',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-23 10:19:43
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,72,3,1,3,'VMWare',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-23 10:21:30
+- Server 		: Prod
+- User 			: restu.wirawan@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TS039322K0008', 
+                    'ORD-2023-00304', 
+                    'backup_mt_date',
+                    'Restu Wirawan<restu.wirawan@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-08-23 10:21:30
+- Server 		: Prod
+- User 			: restu.wirawan@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TS039322K0008', 
+                    'ORD-2023-00304', 
+                    'pmr_date',
+                    'Restu Wirawan<restu.wirawan@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-08-23 10:51:41
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_hcm_requirement_logs' doesn't exist
+- Query 		: SELECT * FROM sa_hcm_requirement_logs
+
+
+2024-08-23 10:59:57
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: UPDATE sa_trx_edo_request SET leader='Raymond R. Taruli<Raymond.Raphael@mastersystem.co.id>' WHERE id=45823
+
+
+2024-08-23 11:00:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: select * from sa_trx_edo_request WHERE id=45823
+
+
+2024-08-23 11:00:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: select * from sa_trx_edo_request WHERE id=45823
+
+
+2024-08-23 14:01:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_trx_project_list' doesn't exist
+- Query 		: select * from sa_trx_project_list WHERE project_code='TR000522D0002'
+
+
+2024-08-23 17:39:29
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(23876,'Add On Preventive Maintenance 2x/Year',45045066,67,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-23 17:39:29
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(23876,'Add On Maintenance Report 2x/Year',22522533,33,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-23 17:42:11
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(23876,'Add On Preventive Maintenance 2x/Year',45045066,67,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-23 17:42:11
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(23876,'Add On Maintenance Report 2x/Year',22522533,33,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-23 17:43:05
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(23876,'Add On Preventive Maintenance 2x/Year',45045066,67,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-23 17:43:05
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(23876,'Add On Maintenance Report 2x/Year',22522533,33,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-23 17:44:45
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(23876,'Add On Preventive Maintenance 2x/Year',45045066,67,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-08-23 17:44:45
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(23876,'Add On Maintenance Report 2x/Year',22522533,33,3,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')

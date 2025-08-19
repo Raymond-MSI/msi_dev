@@ -1,0 +1,1130 @@
+
+
+2024-10-22 12:07:17
+- Server 		: Prod
+- User 			: doehan@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+ to your MariaDB server version for the right syntax to use near ''%TB002720D0033%'' at line 1
+- Query 		: SELECT * FROM sa_trx_project_list WHERE project_code '%TB002720D0033%'
+
+
+2024-10-22 09:26:06
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_trx_EDO_request' doesn't exist
+- Query 		: SELECT * FROM sa_trx_EDO_request LIMIT 10
+
+
+2024-10-22 09:56:43
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_project_detail' doesn't exist
+- Query 		: SELECT * from sa_project_detail WHERE project_code In ('TB000521B0036','TB000524B0030','TB000524B0028','TB000523B0040','TB000523B0017','TB000522B0006')
+
+
+2024-10-22 10:14:43
+- Server 		: Prod
+- User 			: margareta.sekar@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-10-22 10:14:43
+- Server 		: Prod
+- User 			: margareta.sekar@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-10-22 10:22:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_trx_project_detail' doesn't exist
+- Query 		: SELECT * from sa_trx_project_detail WHERE project_code='TA031824E0007'
+
+
+2024-10-22 10:50:57
+- Server 		: Prod
+- User 			: rafiq.abdul@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_temporary_resource WHERE project_code = 'TB002323I0106' AND order_number = 'ORD-2024-00413' AND project_type = 'Maintenance' AND created_by LIKE '%rafiq.abdul@mastersystem.co.id%'
+
+
+2024-10-22 10:50:57
+- Server 		: Prod
+- User 			: rafiq.abdul@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_resource_assignment WHERE project_code = 'TB002323I0106' AND order_number = 'ORD-2024-00413' AND project_type='Maintenance'
+
+
+2024-10-22 10:50:57
+- Server 		: Prod
+- User 			: rafiq.abdul@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_resource_logs WHERE project_code = 'TB002323I0106' ORDER BY entry_date DESC LIMIT 0, 10
+
+
+2024-10-22 10:51:00
+- Server 		: Prod
+- User 			: rafiq.abdul@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_resource_assignment WHERE project_type = 'Maintenance' and (approval_to LIKE '%rafiq.abdul@mastersystem.co.id%' OR created_by LIKE '%rafiq.abdul@mastersystem.co.id%') LIMIT 0, 10000
+
+
+2024-10-22 11:22:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_trx_project_list' doesn't exist
+- Query 		: select * from sa_trx_project_list WHERE project_code='TL000822K0004'
+
+
+2024-10-22 12:04:49
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:04:52
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-10-22 12:04:55
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-10-22 12:05:06
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:05:06
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:05:10
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+it 0, 1; 
+
+
+2024-10-22 12:05:13
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+MIT 0, 10
+
+
+2024-10-22 12:06:22
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:06:25
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-10-22 12:06:28
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-10-22 12:07:03
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:07:06
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-10-22 12:07:09
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-10-22 12:07:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:07:20
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+0, 1; 
+
+
+2024-10-22 12:07:23
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+ 0, 10
+
+
+2024-10-22 12:07:32
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:07:35
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-10-22 12:07:38
+- Server 		: Prod
+- User 			: mega.dwi@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-10-22 12:07:49
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:07:52
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-10-22 12:07:55
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-10-22 12:08:27
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:08:30
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-10-22 12:08:30
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:08:33
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-10-22 12:08:33
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-10-22 12:08:36
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-10-22 12:08:44
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:08:47
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-10-22 12:08:50
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-10-22 12:08:53
+- Server 		: Prod
+- User 			: doehan@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:08:56
+- Server 		: Prod
+- User 			: doehan@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-10-22 12:08:59
+- Server 		: Prod
+- User 			: doehan@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-10-22 12:22:30
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:22:33
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-10-22 12:22:36
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-10-22 12:23:05
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:23:08
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-10-22 12:23:11
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-10-22 12:23:31
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: resource_assignment
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:23:34
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: resource_assignment
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-10-22 12:23:37
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: resource_assignment
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-10-22 12:23:47
+- Server 		: Prod
+- User 			: dwi.endar@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:23:50
+- Server 		: Prod
+- User 			: dwi.endar@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-10-22 12:23:53
+- Server 		: Prod
+- User 			: dwi.endar@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-10-22 12:24:08
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:24:11
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-10-22 12:24:14
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-10-22 12:24:42
+- Server 		: Prod
+- User 			: riswan.fadhilah@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:24:45
+- Server 		: Prod
+- User 			: riswan.fadhilah@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-10-22 12:24:49
+- Server 		: Prod
+- User 			: riswan.fadhilah@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-10-22 12:37:07
+- Server 		: Prod
+- User 			: irfan.hanifah@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-10-22 12:37:18
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-10-22 12:37:22
+- Server 		: Prod
+- User 			: irfan.hanifah@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-10-22 12:37:27
+- Server 		: Prod
+- User 			: irfan.hanifah@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-10-22 12:37:32
+- Server 		: Prod
+- User 			: irfan.hanifah@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-10-22 12:37:43
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:37:43
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_cfg_web WHERE config_key = 'MODULE_PORTAL'
+
+
+2024-10-22 12:37:43
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-10-22 12:38:38
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: WSREP has not yet prepared node for application use
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7
+
+
+2024-10-22 12:44:34
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:44:34
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_poems WHERE category_id=2 ORDER BY poetry_quote ASC LIMIT 21, 1
+
+
+2024-10-22 12:44:37
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `guid` FROM `wp_posts` LEFT JOIN `wp_term_relationships` `wp1` ON `wp_posts`.`ID` = `wp1`.`object_id` LEFT JOIN `wp_term_taxonomy` `wp2` ON `wp1`.`term_taxonomy_id` = `wp2`.`term_taxonomy_id` LEFT JOIN `wp_terms` `wp3` ON `wp2`.`term_id` = `wp3`.`term_id` WHERE `post_status` = 'publish' AND `post_type` = 'post'  AND `wp3`.`name`='News' order by `post_date` desc limit 0, 1; 
+
+
+2024-10-22 12:44:40
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-10-22 12:44:40
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT `ID`, `post_title`, `post_content`, `post_name`, `post_modified_gmt` FROM `wp_posts` WHERE (`post_type`="post" OR `post_type`="cma_thread") AND `post_status`="publish" AND `post_modified_gmt`>"2024-10-15" ORDER BY `post_modified_gmt` DESC LIMIT 0, 10
+
+
+2024-10-22 13:31:49
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-22 13:31:49
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-22 13:32:22
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-22 13:32:22
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-22 13:32:46
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-22 13:32:46
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-22 13:33:09
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-22 13:33:09
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-22 13:52:13
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,21,1,1,20,'Ciena',350,1,1,'Imam Nawawi<imam.nawawi@mastersystem.co.id>')
+
+
+2024-10-22 13:52:13
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,51,1,1,6,'Ciena',700,1,1,'Imam Nawawi<imam.nawawi@mastersystem.co.id>')
+
+
+2024-10-22 13:52:13
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,1,1,30,'Ciena',350,1,1,'Imam Nawawi<imam.nawawi@mastersystem.co.id>')
+
+
+2024-10-22 13:52:13
+- Server 		: Prod
+- User 			: imam.nawawi@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,1,1,38,'Ciena',250,1,1,'Imam Nawawi<imam.nawawi@mastersystem.co.id>')
+
+
+2024-10-22 15:29:32
+- Server 		: Prod
+- User 			: aldo.octavianto@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Data too long for column 'notes' at row 1
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `parent`,
+                `renewal`,
+                `gabungan`,
+                `gabungan_parent`,
+                `openitem`,
+                `ontime_notes`,
+                `notes`,
+                `notes_openitem`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `total_backup_mt_date`,
+                `flag`,
+                `entry_by`,
+                `approval_to`,
+                `approval_status`,
+                `total_pmr_date`) VALUES (
+                'TP028021E0004', 
+                'ORD-25738-P1Y0C7', 
+                '0',
+                '===== Pilih Parent =====',
+                'Bukan Project Renewal',
+                '1',
+                '0',
+                '0',
+                'implementation',
+                'Terjadi Delay Start Maintenance Project karena pekerjaan Implementasi yang belum selesai sampai 2 Agustus 2022, Untuk PM dilakukan 4x dalam 1 periode & Sesuai kesepakatan pada IKOM dan KOM Maintenance Report hanya ada 3x selama tahun 2022 setelah 2022 ke 2025 hanya warranty saja tanpa deliverable',
+                '',
+                '18', 
+                '0',
+                '0',
+                '18', 
+                '0',
+                '0',
+                '0',
+                '0',
+                'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>',
+                'Anggi Fachrizal<anggi.fachrizal@mastersystem.co.id>',
+                'pending',
+                '3')
+
+
+2024-10-22 15:29:42
+- Server 		: Prod
+- User 			: aldo.octavianto@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Data too long for column 'notes' at row 1
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `parent`,
+                `renewal`,
+                `gabungan`,
+                `gabungan_parent`,
+                `openitem`,
+                `ontime_notes`,
+                `notes`,
+                `notes_openitem`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `total_backup_mt_date`,
+                `flag`,
+                `entry_by`,
+                `approval_to`,
+                `approval_status`,
+                `total_pmr_date`) VALUES (
+                'TP028021E0004', 
+                'ORD-25738-P1Y0C7', 
+                '0',
+                '===== Pilih Parent =====',
+                'Bukan Project Renewal',
+                '1',
+                '0',
+                '0',
+                'implementation',
+                'Terjadi Delay Start Maintenance Project karena pekerjaan Implementasi yang belum selesai sampai 2 Agustus 2022, Untuk PM dilakukan 4x dalam 1 periode & Sesuai kesepakatan pada IKOM dan KOM Maintenance Report hanya ada 3x selama tahun 2022 setelah 2022 ke 2025 hanya warranty saja tanpa deliverable',
+                '',
+                '18', 
+                '0',
+                '0',
+                '18', 
+                '0',
+                '0',
+                '0',
+                '0',
+                'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>',
+                'Anggi Fachrizal<anggi.fachrizal@mastersystem.co.id>',
+                'pending',
+                '3')
+
+
+2024-10-22 15:32:41
+- Server 		: Prod
+- User 			: rafiq.abdul@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect integer value: '' for column `sa_dashboard_kpi`.`sa_master_maintenance_date`.`total_backup_mt_date` at row 1
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `gabungan`,
+                `openitem`,
+                `ontime_notes`,
+                `notes`,
+                `notes_openitem`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `total_backup_mt_date`,
+                `flag`,
+                `entry_by`,
+                `approval_to`,
+                `approval_status`,
+                `total_pmr_date`) VALUES (
+                'TB002324I0038', 
+                'ORD-2024-01812', 
+                '0',
+                '0',
+                '0',
+                'other',
+                'Customer focusing on migration first',
+                '',
+                '9', 
+                '6',
+                '6',
+                '9', 
+                '6',
+                '6',
+                '',
+                '0',
+                'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>',
+                'Aceng Zakariya Ramadani<aceng.zakariya@mastersystem.co.id>',
+                'pending',
+                '0')
+
+
+2024-10-22 15:34:54
+- Server 		: Prod
+- User 			: rafiq.abdul@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect integer value: '' for column `sa_dashboard_kpi`.`sa_master_maintenance_date`.`total_backup_mt_date` at row 1
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `parent`,
+                `renewal`,
+                `gabungan`,
+                `gabungan_parent`,
+                `openitem`,
+                `ontime_notes`,
+                `notes`,
+                `notes_openitem`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `total_backup_mt_date`,
+                `flag`,
+                `entry_by`,
+                `approval_to`,
+                `approval_status`,
+                `total_pmr_date`) VALUES (
+                'TB002324I0038', 
+                'ORD-2024-01812', 
+                '0',
+                '===== Pilih Parent =====',
+                'Bukan Project Renewal',
+                '0',
+                '0',
+                '0',
+                'other',
+                'Customer focusing on migration first',
+                '',
+                '9', 
+                '6',
+                '6',
+                '9', 
+                '6',
+                '6',
+                '',
+                '0',
+                'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>',
+                'Aceng Zakariya Ramadani<aceng.zakariya@mastersystem.co.id>',
+                'pending',
+                '0')
+
+
+2024-10-22 15:46:59
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24977,'Cisco',200791196,8,4,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-10-22 15:46:59
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24977,'Cisco',281357572,8,5,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-10-22 15:52:11
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24977,'Cisco',200791196,8,4,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-10-22 15:52:11
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24977,'Cisco',281357572,8,5,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-10-22 15:58:25
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24977,'Cisco',200791196,8,4,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-10-22 15:58:25
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24977,'Cisco',281357572,8,5,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-10-22 16:00:28
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24977,'Cisco',200791196,8,4,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-10-22 16:00:28
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24977,'Cisco',281357572,8,5,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-10-22 16:02:21
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24977,'Cisco',200791196,8,4,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-10-22 16:02:21
+- Server 		: Prod
+- User 			: prisanto.dimas@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO `sa_trx_addon`(`project_id`, `addon_title`, `addon_price`, `service_type`, `modified_by`) VALUES(24977,'Cisco',281357572,8,5,'Prisanto Dimas Jayaputra<prisanto.dimas@mastersystem.co.id>')
+
+
+2024-10-22 16:32:15
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB000422I0021', 
+                    'ORD-28860-W3L6Y7', 
+                    'pmr_date',
+                    'Za\'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>',
+                    NULLIF('Array',''))

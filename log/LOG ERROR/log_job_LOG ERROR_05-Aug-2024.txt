@@ -1,0 +1,1080 @@
+File Error Log
+
+2024-08-05 09:31:11
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT `structure_id`, `project_id`, `structure_code`, `title`, `project_type`, `leader_email`, `division`, `parent` FROM `sa_mst_organization_project`  WHERE `structure_id` = 
+
+
+2024-08-05 09:32:04
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Illegal parameter data types varchar and row for operation '='
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_name = (SELECT * FROM sa_view_employees WHERE employee_name like '%mamlik aulia%')
+
+
+2024-08-05 09:32:12
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Illegal parameter data types varchar and row for operation '='
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_name = (SELECT * FROM sa_view_employees WHERE employee_name like '%malik aulia%')
+
+
+2024-08-05 09:53:05
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Subquery returns more than 1 row
+- Query 		: SELECT * 
+FROM sa_view_employees 
+WHERE employee_name = (
+    SELECT leader_name 
+    FROM sa_view_employees 
+    WHERE employee_name = (
+        SELECT leader_name 
+        FROM sa_view_employees 
+        WHERE employee_name LIKE '%malik aulia%'
+    )
+);
+
+
+
+2024-08-05 10:10:37
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Subquery returns more than 1 row
+- Query 		: SELECT * 
+FROM sa_view_employees 
+WHERE resign_date is null AND employee_name = (
+    SELECT leader_name 
+    FROM sa_view_employees 
+    WHERE employee_email LIKE '%syamsul%'
+)
+
+
+2024-08-05 10:10:45
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Subquery returns more than 1 row
+- Query 		: SELECT * 
+FROM sa_view_employees 
+WHERE resign_date is null AND employee_name = (
+    SELECT leader_name 
+    FROM sa_view_employees 
+    WHERE employee_email LIKE '%syam%'
+)
+
+
+2024-08-05 10:11:10
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Subquery returns more than 1 row
+- Query 		: SELECT * 
+FROM sa_view_employees 
+WHERE resign_date is null AND employee_name = (
+    SELECT leader_name 
+    FROM sa_view_employees 
+    WHERE employee_email LIKE '%syamsul%'
+)
+
+
+2024-08-05 10:11:26
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Subquery returns more than 1 row
+- Query 		: SELECT * 
+FROM sa_view_employees 
+WHERE resign_date is null AND employee_name = (
+    SELECT leader_name 
+    FROM sa_view_employees 
+    WHERE employee_email LIKE '%malik%'
+)
+
+
+2024-08-05 10:11:45
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Subquery returns more than 1 row
+- Query 		: SELECT * 
+FROM sa_view_employees 
+WHERE resign_date is null AND employee_name = (
+    SELECT leader_name 
+    FROM sa_view_employees 
+    WHERE employee_email LIKE '%syamsul@mastersystem.co.id%'
+)
+
+
+2024-08-05 10:12:36
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Subquery returns more than 1 row
+- Query 		: SELECT * 
+FROM sa_view_employees 
+WHERE resign_date is null AND employee_name = (
+    SELECT leader_name 
+    FROM sa_view_employees 
+    WHERE employee_email LIKE '%andreas@mastersystem.co.id%'
+)
+
+
+2024-08-05 10:16:39
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Field 'employee_name' doesn't have a default value
+- Query 		: INSERT INTO `sa_mst_organization_project_employee`(
+                `employee_email`,
+                `structure_id`,
+                `entry_by`,
+                `entry_date`
+            )
+            VALUES(
+                'nur.alkadri@mastersystem.co.id',
+                3,
+                'Syamsul Arham<syamsul@mastersystem.co.id>',
+                '2024-08-05 10:16:39'
+            )
+
+
+2024-08-05 10:17:19
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Field 'employee_name' doesn't have a default value
+- Query 		: INSERT INTO `sa_mst_organization_project_employee`(
+                `employee_email`,
+                `structure_id`,
+                `entry_by`,
+                `entry_date`
+            )
+            VALUES(
+                'nur.alkadri@mastersystem.co.id',
+                3,
+                'Syamsul Arham<syamsul@mastersystem.co.id>',
+                '2024-08-05 10:17:19'
+            )
+
+
+2024-08-05 10:18:35
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Field 'employee_name' doesn't have a default value
+- Query 		: INSERT INTO `sa_mst_organization_project_employee`(
+                `employee_email`,
+                `structure_id`,
+                `entry_by`,
+                `entry_date`
+            )
+            VALUES(
+                'nur.alkadri@mastersystem.co.id',
+                3,
+                'Syamsul Arham<syamsul@mastersystem.co.id>',
+                '2024-08-05 10:18:35'
+            )
+
+
+2024-08-05 10:20:09
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Field 'employee_name' doesn't have a default value
+- Query 		: INSERT INTO `sa_mst_organization_project_employee`(
+                `employee_email`,
+                `structure_id`,
+                `entry_by`,
+                `entry_date`
+            )
+            VALUES(
+                'nur.alkadri@mastersystem.co.id',
+                3,
+                'Syamsul Arham<syamsul@mastersystem.co.id>',
+                '2024-08-05 10:20:09'
+            )
+
+
+2024-08-05 10:21:05
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Field 'employee_name' doesn't have a default value
+- Query 		: INSERT INTO `sa_mst_organization_project_employee`(
+                `employee_email`,
+                `structure_id`,
+                `entry_by`,
+                `entry_date`
+            )
+            VALUES(
+                'nur.alkadri@mastersystem.co.id',
+                3,
+                'Syamsul Arham<syamsul@mastersystem.co.id>',
+                '2024-08-05 10:21:05'
+            )
+
+
+2024-08-05 10:22:16
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Field 'employee_name' doesn't have a default value
+- Query 		: INSERT INTO `sa_mst_organization_project_employee`(
+                `employee_email`,
+                `structure_id`,
+                `entry_by`,
+                `entry_date`
+            )
+            VALUES(
+                'nur.alkadri@mastersystem.co.id',
+                3,
+                'Syamsul Arham<syamsul@mastersystem.co.id>',
+                '2024-08-05 10:22:16'
+            )
+
+
+2024-08-05 10:47:12
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Field 'employee_name' doesn't have a default value
+- Query 		: INSERT INTO `sa_mst_organization_project_employee`(
+                `employee_email`,
+                `structure_id`,
+                `entry_by`,
+                `entry_date`
+            )
+            VALUES(
+                'nur.alkadri@mastersystem.co.id',
+                3,
+                'Syamsul Arham<syamsul@mastersystem.co.id>',
+                '2024-08-05 10:47:12'
+            )
+
+
+2024-08-05 10:49:45
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: Field 'employee_name' doesn't have a default value
+- Query 		: INSERT INTO `sa_mst_organization_project_employee`(
+                `employee_email`,
+                `structure_id`,
+                `entry_by`,
+                `entry_date`
+            )
+            VALUES(
+                'nur.alkadri@mastersystem.co.id',
+                3,
+                'Syamsul Arham<syamsul@mastersystem.co.id>',
+                '2024-08-05 10:49:45'
+            )
+
+
+2024-08-05 10:58:12
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Invalid ON UPDATE clause for 'update_date' column
+- Query 		: ALTER TABLE `sa_hcm_notecv` ADD `update_date` DATE on update CURRENT_TIMESTAMP NULL DEFAULT NULL AFTER `update_by`; 
+
+
+2024-08-05 10:58:53
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Invalid ON UPDATE clause for 'update_date' column
+- Query 		: ALTER TABLE `sa_hcm_notecv` ADD `update_date` DATE on update CURRENT_TIMESTAMP NULL DEFAULT NULL AFTER `update_by`; 
+
+
+
+2024-08-05 11:06:03
+- Server 		: Prod
+- User 			: herty.brigita@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB000522B0006', 
+                'ORD-28896-T2H0P2', 
+                '1',
+                '',
+                '',
+                '0', 
+                '0',
+                '4',
+                '0', 
+                '0',
+                '4',
+                '0',
+                'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-05 11:11:56
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UDPATE sa_hcm_notecv SET tanggal_interview = NULL, update_by = NULL, update_d...' at line 1
+- Query 		: UDPATE sa_hcm_notecv SET tanggal_interview = NULL, update_by = NULL, update_date = NULL WHERE id_fpkb = 'Recruitment/FPKB/REC/2/2024'
+
+
+2024-08-05 11:12:36
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UDPATE sa_hcm_notecv SET tanggal_interview = NULL, update_by = NULL, update_d...' at line 1
+- Query 		: UDPATE sa_hcm_notecv SET tanggal_interview = NULL, update_by = NULL, update_date = NULL WHERE id_note IN (1,4,7)
+
+
+
+
+
+2024-08-05 14:01:51
+- Server 		: Prod
+- User 			: annisa.hapifah@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Data truncated for column 'ticket_allocation' at row 1
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`) VALUES (
+                'TB002323I0067', 
+                'ORD-2024-00239', 
+                '0',
+                'customer',
+                'menunggu PO dari sisi customer riles',
+                '100 hours', 
+                '0',
+                '4',
+                '100 hours', 
+                '0',
+                '4',
+                '0',
+                'Annisa Nur Hapifah<annisa.hapifah@mastersystem.co.id>')
+
+
+2024-08-05 14:05:03
+- Server 		: Prod
+- User 			: annisa.hapifah@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB002323I0067', 
+                'ORD-2024-00239', 
+                '0',
+                'customer',
+                'menunggu po dari customer riles',
+                '100 hours', 
+                '0',
+                '4',
+                '100 hours', 
+                '0',
+                '4',
+                '0',
+                'Annisa Nur Hapifah<annisa.hapifah@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-05 14:23:18
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Microservices_UserEmail'] .
+        "'  AND job_structure LIKE '%JW ATN WM H...' at line 1
+- Query 		: SELECT employee_email FROM sa_view_employees WHERE employee_email = '" . $_SESSION['Microservices_UserEmail'] .
+        "'  AND job_structure LIKE '%JW ATN WM HCM Recruitment%' AND resign_date is null
+
+
+2024-08-05 14:23:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number left join sa_wrike_integrate.sa_wrike_project_list c ON a.order_number=c.order_number WHERE a.project_type LIKE '%Maintenance%' AND c.project_type LIKE '%Maintenance%' AND ()
+
+
+2024-08-05 14:23:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number left join sa_wrike_integrate.sa_wrike_project_list c ON a.order_number=c.order_number WHERE a.project_type LIKE '%Maintenance%' AND c.project_type LIKE '%Maintenance%' AND ()
+
+
+2024-08-05 14:23:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number left join sa_wrike_integrate.sa_wrike_project_list c ON a.order_number=c.order_number WHERE a.project_type LIKE '%Maintenance%' AND c.project_type LIKE '%Maintenance%' AND ()
+
+
+2024-08-05 14:24:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number left join sa_wrike_integrate.sa_wrike_project_list c ON a.order_number=c.order_number WHERE a.project_type LIKE '%Maintenance%' AND c.project_type LIKE '%Maintenance%' AND ()
+
+
+2024-08-05 14:24:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number left join sa_wrike_integrate.sa_wrike_project_list c ON a.order_number=c.order_number WHERE a.project_type LIKE '%Maintenance%' AND c.project_type LIKE '%Maintenance%' AND ()
+
+
+2024-08-05 14:24:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number left join sa_wrike_integrate.sa_wrike_project_list c ON a.order_number=c.order_number WHERE a.project_type LIKE '%Maintenance%' AND c.project_type LIKE '%Maintenance%' AND ()
+
+
+2024-08-05 14:24:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number left join sa_wrike_integrate.sa_wrike_project_list c ON a.order_number=c.order_number WHERE a.project_type LIKE '%Maintenance%' AND c.project_type LIKE '%Maintenance%' AND ()
+
+
+2024-08-05 14:24:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number left join sa_wrike_integrate.sa_wrike_project_list c ON a.order_number=c.order_number WHERE a.project_type LIKE '%Maintenance%' AND c.project_type LIKE '%Maintenance%' AND ()
+
+
+2024-08-05 14:24:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number left join sa_wrike_integrate.sa_wrike_project_list c ON a.order_number=c.order_number WHERE a.project_type LIKE '%Maintenance%' AND c.project_type LIKE '%Maintenance%' AND ()
+
+
+2024-08-05 14:29:15
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:29:15
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:29:15
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:29:15
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:29:15
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:29:15
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:29:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:29:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:29:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:29:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:29:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:29:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:30:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:30:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:30:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:30:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:30:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:30:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:31:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:31:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:31:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:31:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:31:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:31:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Unknown column 'c.owner_email' in 'field list'
+- Query 		: SELECT a.*,c.owner_email FROM sa_kpi_so_wr a left join sa_master_maintenance_date b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%'
+
+
+2024-08-05 14:33:20
+- Server 		: Prod
+- User 			: annisa.hapifah@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB002323I0053', 
+                'ORD-2023-02446', 
+                '0',
+                'customer',
+                'menunggu sign off customer pada bast pekerjaan',
+                '54', 
+                '0',
+                '6',
+                '54', 
+                '0',
+                '6',
+                '0',
+                'Annisa Nur Hapifah<annisa.hapifah@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-05 15:00:39
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_name' in 'where clause'
+- Query 		: select * from sa_wrike_project_list WHERE project_name LIKE '% [2023, Ketrosden] Pengadaan Server, VMWare, Implementasi dan Maintenance IMS Project%'
+
+
+2024-08-05 15:00:48
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_name' in 'where clause'
+- Query 		: select * from sa_wrike_project_list WHERE project_name LIKE '%[2023, Ketrosden] Pengadaan Server, VMWare, Implementasi dan Maintenance IMS Project%'
+
+
+2024-08-05 15:01:18
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_name' in 'where clause'
+- Query 		: select * from sa_wrike_project_list WHERE project_name LIKE '%Pengadaan Server, VMWare, Implementasi dan Maintenance IMS Project%'
+
+
+2024-08-05 15:01:29
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_name' in 'where clause'
+- Query 		: select * from sa_wrike_project_list WHERE project_name LIKE '%IMS Project%'
+
+
+2024-08-05 16:37:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.project_name' in 'field list'
+- Query 		: select a.*,b.project_name,b.customer_name from sa_maintenance_date a left join sa_data_so ON a.order_number=b.order_number 
+
+
+2024-08-05 16:37:44
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.project_name' in 'field list'
+- Query 		: select a.*,b.project_name,b.customer_name from sa_maintenance_date_kpi a left join sa_data_so ON a.order_number=b.order_number 
+
+
+2024-08-05 16:42:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_data_so WHERE project_code='TA004824E0006'
+
+
+2024-08-05 17:12:56
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_resource_temporary' doesn't exist
+- Query 		: select * from sa_resource_temporary WHERE project_code='TB002322I0089'
+
+
+2024-08-05 17:30:15
+- Server 		: Prod
+- User 			: annisa.hapifah@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB002322I0089', 
+                'ORD-2023-00451', 
+                '0',
+                'customer',
+                'menunggu sign off customer pada bast pekerjaan',
+                '54', 
+                '0',
+                '6',
+                '54', 
+                '0',
+                '6',
+                '0',
+                'Annisa Nur Hapifah<annisa.hapifah@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-05 17:54:34
+- Server 		: Prod
+- User 			: nabella.yanza@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB002723D0045', 
+                'ORD-2023-02901', 
+                '0',
+                'sales',
+                'Backdate periode dari sales dan menunggu revisi SBF dari Presales',
+                '27', 
+                '0',
+                '6',
+                '27', 
+                '0',
+                '6',
+                '0',
+                'Nabella Yanza<nabella.yanza@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-05 18:12:10
+- Server 		: Prod
+- User 			: nabella.yanza@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB002723D0084', 
+                'ORD-2023-02989', 
+                '1',
+                '',
+                '',
+                '12', 
+                '0',
+                '2',
+                '12', 
+                '0',
+                '2',
+                '0',
+                'Nabella Yanza<nabella.yanza@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-05 18:25:58
+- Server 		: Prod
+- User 			: nabella.yanza@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB002723D0059', 
+                'ORD-2023-02962', 
+                '0',
+                'sales',
+                'Backdate periode dari sales dan menunggu revisi SBF dari Presales',
+                '6', 
+                '0',
+                '2',
+                '6', 
+                '0',
+                '2',
+                '0',
+                'Nabella Yanza<nabella.yanza@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-05 18:45:13
+- Server 		: Prod
+- User 			: nabella.yanza@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB002723D0041', 
+                'ORD-2023-02075', 
+                '0',
+                'sales',
+                'Backdate periode dari sales',
+                '99', 
+                '12',
+                '4',
+                '99', 
+                '12',
+                '4',
+                '0',
+                'Nabella Yanza<nabella.yanza@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')

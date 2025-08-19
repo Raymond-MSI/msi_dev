@@ -1,0 +1,77 @@
+File Error Log
+
+2024-09-13 10:35:27
+- Server 		: Prod
+- User 			: lucky.andiani@mastersystem.co.id
+- Module 		: edit_survey
+- SubModule		:  
+- Status 		: Unknown column 'pic.customer_id' in 'on clause'
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, title, customer_company_name, trx.project_code, trx.project_title,
+surv.survey_link, type, main_rating, main_essay, main_engineer, trx.created_datetime, main_template_id, simple_template_id, project_type, type_of_service, project_name from sa_survey surv join sa_trx_survey trx 
+on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_id = cust.customer_code
+where trx.survey_id = '659'
+
+
+2024-09-13 11:12:26
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'department' in 'where clause'
+- Query 		: SELECT * FROM sa_view_employees where department like '%pool project%'
+
+
+2024-09-13 11:12:43
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''%malik aulia%'' at line 1
+- Query 		: SELECT * FROM sa_view_employees where employee_namelike '%malik aulia%'
+
+
+2024-09-13 16:03:28
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ADD review_ke INT(10) NULL AFTER board_status' at line 1
+- Query 		: ALTER TABLE ADD review_ke INT(10) NULL AFTER board_status
+
+
+2024-09-13 16:45:22
+- Server 		: Prod
+- User 			: niki.ihsanul@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TM013922C0001', 
+                    'ORD-28245-V7C3N4', 
+                    'backup_mt_date',
+                    'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-09-13 16:45:22
+- Server 		: Prod
+- User 			: niki.ihsanul@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TM013922C0001', 
+                    'ORD-28245-V7C3N4', 
+                    'pmr_date',
+                    'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>',
+                    NULLIF('Array',''))

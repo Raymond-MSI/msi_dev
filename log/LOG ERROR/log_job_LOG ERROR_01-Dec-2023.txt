@@ -1,0 +1,635 @@
+File Error Log
+
+2023-12-01 10:43:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='adriano.fahlevi@mastersystem.co.id'
+
+
+2023-12-01 10:43:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='adriano.fahlevi@mastersystem.co.id'
+
+
+2023-12-01 10:43:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='bambang.ary@mastersystem.co.id'
+
+
+2023-12-01 10:43:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='bambang.ary@mastersystem.co.id'
+
+
+2023-12-01 10:43:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='eulis.fitriansyah@mastersystem.co.id'
+
+
+2023-12-01 10:43:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='eulis.fitriansyah@mastersystem.co.id'
+
+
+2023-12-01 10:43:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='febrian.tri@mastersystem.co.id'
+
+
+2023-12-01 10:43:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='febrian.tri@mastersystem.co.id'
+
+
+2023-12-01 10:43:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='muhammad.dzaky@mastersystem.co.id'
+
+
+2023-12-01 10:43:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='muhammad.dzaky@mastersystem.co.id'
+
+
+2023-12-01 10:43:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='tegar.virgiawan@mastersystem.co.id'
+
+
+2023-12-01 10:43:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='tegar.virgiawan@mastersystem.co.id'
+
+
+2023-12-01 10:43:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='willy.dinata@mastersystem.co.id'
+
+
+2023-12-01 10:43:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='willy.dinata@mastersystem.co.id'
+
+
+2023-12-01 10:43:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='' AND resource_email='yasid.ramli@mastersystem.co.id'
+
+
+2023-12-01 10:43:04
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='' AND resource_email='yasid.ramli@mastersystem.co.id'
+
+
+2023-12-01 10:43:05
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='ziko.iskandar@mastersystem.co.id'
+
+
+2023-12-01 10:43:05
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='ziko.iskandar@mastersystem.co.id'
+
+
+2023-12-01 10:44:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='adriano.fahlevi@mastersystem.co.id'
+
+
+2023-12-01 10:44:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='adriano.fahlevi@mastersystem.co.id'
+
+
+2023-12-01 10:44:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='bambang.ary@mastersystem.co.id'
+
+
+2023-12-01 10:44:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='bambang.ary@mastersystem.co.id'
+
+
+2023-12-01 10:44:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='eulis.fitriansyah@mastersystem.co.id'
+
+
+2023-12-01 10:44:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='eulis.fitriansyah@mastersystem.co.id'
+
+
+2023-12-01 10:44:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='febrian.tri@mastersystem.co.id'
+
+
+2023-12-01 10:44:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='febrian.tri@mastersystem.co.id'
+
+
+2023-12-01 10:44:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='muhammad.dzaky@mastersystem.co.id'
+
+
+2023-12-01 10:44:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='muhammad.dzaky@mastersystem.co.id'
+
+
+2023-12-01 10:44:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='tegar.virgiawan@mastersystem.co.id'
+
+
+2023-12-01 10:44:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='tegar.virgiawan@mastersystem.co.id'
+
+
+2023-12-01 10:44:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='willy.dinata@mastersystem.co.id'
+
+
+2023-12-01 10:44:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='willy.dinata@mastersystem.co.id'
+
+
+2023-12-01 10:44:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='' AND resource_email='yasid.ramli@mastersystem.co.id'
+
+
+2023-12-01 10:44:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='' AND resource_email='yasid.ramli@mastersystem.co.id'
+
+
+2023-12-01 10:44:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='ziko.iskandar@mastersystem.co.id'
+
+
+2023-12-01 10:44:17
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: Unknown column 'resource_email' in 'field list'
+- Query 		: SELECT DISTINCT resource_email, resource_role WHERE project_id='IEAEOPF5I45GCJTK' AND resource_email='ziko.iskandar@mastersystem.co.id'
+
+
+2023-12-01 10:46:26
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_wrike_evans_assignment' doesn't exist
+- Query 		: SELECT DISTINCT resource_email, resource_role FROM sa_wrike_evans_assignment WHERE project_id='IEAEOPF5I45GCJTK'
+
+
+2023-12-01 10:59:20
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'so_number' in 'where clause'
+- Query 		: SELECT * FROM sa_resource_assignment WHERE so_number='2023/SO/0099'
+
+
+2023-12-01 13:32:36
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_preschedule' doesn't exist
+- Query 		: select * from sa_preschedule WHERE project_id='IEAEOPF5I44S6NGP'
+
+
+2023-12-01 13:40:41
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect datetime value: ''
+- Query 		: SELECT DISTINCT a.id, b.task_id, c.permalink, c.work_on_weekends FROM sa_wrike_integrate.sa_wrike_project_list AS a
+    JOIN sa_wrike_integrate.sa_view_task_assignment AS b ON a.id = b.project_id
+    JOIN sa_wrike_integrate.sa_wrike_task AS c ON b.task_id = c.task_id
+    AND a.project_type LIKE '%Implementation%'
+    AND b.resource_role != ''
+    AND b.work_date BETWEEN '2023-10-10' AND '2023-10-11'
+
+
+2023-12-01 13:43:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_view_task_assignment' doesn't exist
+- Query 		: desc sa_view_task_assignment
+
+
+2023-12-01 14:01:37
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I47YB7OI' AND a.resource_email='alifian.bayu@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:01:37
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I47YB7OI' AND a.resource_email='alifian.bayu@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:01:37
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I47YB7OI' AND a.resource_email='caca.maulana@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:01:37
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I47YB7OI' AND a.resource_email='caca.maulana@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:01:38
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I47YB7OI' AND a.resource_email='lay@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:01:38
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I47YB7OI' AND a.resource_email='lay@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:02:15
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I47VWBQY' AND a.resource_email='hendra.lesmana@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:02:15
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I47VWBQY' AND a.resource_email='hendra.lesmana@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:02:15
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I47VWBQY' AND a.resource_email='inggit.novita@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:02:15
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I47VWBQY' AND a.resource_email='inggit.novita@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:02:15
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I47VWBQY' AND a.resource_email='nyoman.ari@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:02:15
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I47VWBQY' AND a.resource_email='nyoman.ari@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:02:15
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I47VWBQY' AND a.resource_email='yulian.adi@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:02:15
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I47VWBQY' AND a.resource_email='yulian.adi@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:02:41
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5BQMIK2' AND a.resource_email='ahmad.ilmawan@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:02:41
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5BQMIK2' AND a.resource_email='ahmad.ilmawan@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:02:41
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5BQMIK2' AND a.resource_email='faisal.irsyadi@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:02:41
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5BQMIK2' AND a.resource_email='faisal.irsyadi@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:02:42
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5BQMIK2' AND a.resource_email='nurma.sumar@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:02:42
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5BQMIK2' AND a.resource_email='nurma.sumar@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:02:42
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5BQMIK2' AND a.resource_email='puji.riawan@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:02:42
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5BQMIK2' AND a.resource_email='puji.riawan@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:04:01
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CBHUMO' AND a.resource_email='alifian.bayu@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:04:01
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CBHUMO' AND a.resource_email='alifian.bayu@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:04:01
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CBHUMO' AND a.resource_email='caca.maulana@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:04:01
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CBHUMO' AND a.resource_email='caca.maulana@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:04:01
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CBHUMO' AND a.resource_email='ia.refyta@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:04:01
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b.response_status <>'declined'' at line 1
+- Query 		: SELECT COUNT(a.task_name) AS jumlah_task FROM sa_preschedule a LEFT JOIN sa_schedule b ON a.google_event_id=b.event_id WHERE a.project_id='IEAEOPF5I5CBHUMO' AND a.resource_email='ia.refyta@mastersystem.co.id' b.response_status <>'declined'
+
+
+2023-12-01 14:29:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '='ORD-28946-P5H8H5'' at line 1
+- Query 		: SELECT * FROM sa_resource_assignment order_number='ORD-28946-P5H8H5'

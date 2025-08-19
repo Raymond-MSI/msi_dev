@@ -1,0 +1,135 @@
+File Error Log
+
+2023-11-27 09:50:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_wrike_project_list' doesn't exist
+- Query 		: select * from sa_wrike_project_list WHERE project_code='TB001723D0024'
+
+
+2023-11-27 09:50:40
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_preschedule' doesn't exist
+- Query 		: select * from sa_preschedule WHERE project_id='IEAEOPF5I5CK5LVU'
+
+
+2023-11-27 13:51:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.project_typea.resource_email' in 'field list'
+- Query 		: SELECT COUNT(a.project_id) as total_update, a.project_id, a.project_code, b.project_typea.resource_email FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id WHERE b.response_status='accepted' AND b.response<>'' AND b.diff_time<>0 AND a.project_id='IEAEOPF5I44NLZT5' GROUP BY a.project_id,a.project_code,b.project_type,a.resource_email
+
+
+2023-11-27 13:51:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.project_typea.resource_email' in 'field list'
+- Query 		: SELECT COUNT(a.project_id) as total_update, a.project_id, a.project_code, b.project_typea.resource_email FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id WHERE b.response_status='accepted' AND b.response<>'' AND b.diff_time<>0 AND a.project_id='IEAEOPF5I44NLZT5' GROUP BY a.project_id,a.project_code,b.project_type,a.resource_email
+
+
+2023-11-27 13:52:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.response' in 'where clause'
+- Query 		: SELECT COUNT(a.project_id) as total_update, a.project_id, a.project_code, b.project_type,a.resource_email FROM sa_preschedule a left join sa_schedule b ON a.google_event_id=b.event_id WHERE b.response_status='accepted' AND b.response<>'' AND b.diff_time<>0 AND a.project_id='IEAEOPF5I44NLZT5' GROUP BY a.project_id,a.project_code,b.project_type,a.resource_email
+
+
+2023-11-27 14:25:07
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_data_so' doesn't exist
+- Query 		: SELECT * FROM sa_data_so WHERE project_code_kpi IN ('TB002723D0049','TB002723D0034','TB002722D0059','TB034522D0002','TB000322D0003','TB000323D0004','TB002722D0063')
+
+
+2023-11-27 14:30:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_summary' doesn't exist
+- Query 		: select * from sa_summary WHERE kpi_status='Reviewed'
+
+
+2023-11-27 14:37:26
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-11-20' AND task_date <= '2023-12-04' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2023-11-27 15:01:40
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'kpi_status' in 'where clause'
+- Query 		: select * from sa_productivity_user WHERE kpi_status='Reviewed'
+
+
+2023-11-27 15:22:22
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_productivity_user' doesn't exist
+- Query 		: select * from sa_productivity_user WHERE resource_email='alifian.bayu@mastersystem.co.id'
+
+
+2023-11-27 16:08:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'tahun_review' in 'where clause'
+- Query 		: select * from sa_kpi_so_wr WHERE tahun_review is not null
+
+
+2023-11-27 16:13:39
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: eval
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_sa_view_employees' doesn't exist
+- Query 		: SELECT * FROM sa_sa_view_employees WHERE employee_email='aceng.zakariya@mastersystem.co.id'
+
+
+2023-11-27 16:14:00
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: eval
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_sa_view_employees' doesn't exist
+- Query 		: SELECT * FROM sa_sa_view_employees WHERE employee_email='aceng.zakariya@mastersystem.co.id'
+
+
+2023-11-27 16:14:01
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: eval
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_sa_view_employees' doesn't exist
+- Query 		: SELECT * FROM sa_sa_view_employees WHERE employee_email='aceng.zakariya@mastersystem.co.id'
+
+
+2023-11-27 16:17:52
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-11-20' AND task_date <= '2023-12-04' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`

@@ -1,0 +1,1022 @@
+File Error Log
+
+2023-12-28 11:56:53
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_trx_prject_list' doesn't exist
+- Query 		: select * from sa_trx_prject_list where project_code = 'TP008023K0012'
+
+
+2023-12-28 11:57:24
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'ptoject_id' in 'where clause'
+- Query 		: select * from sa_trx_approval where ptoject_id='19085'
+
+
+2023-12-28 11:57:39
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'ptoject_id' in 'where clause'
+- Query 		: select * from sa_trx_approval where ptoject_id=19085
+
+
+2023-12-28 11:58:54
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'projevt_vode' in 'where clause'
+- Query 		: select * from sa_trx_project_list where projevt_vode='TP008023K0012'
+
+
+2023-12-28 13:06:19
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `task_date` >= '2023-04-01'
+        AND `task_date` <= '2024-01-04'
+     ...' at line 4
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE 
+        AND `task_date` >= '2023-04-01'
+        AND `task_date` <= '2024-01-04'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+         AND `status_calender` = 'accepted' AND `spen_time` > 0
+         AND `project_type` LIKE '%Implementation%'
+
+
+2023-12-28 13:06:56
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `task_date` >= '2023-04-01'
+        AND `task_date` <= '2024-01-04'
+     ...' at line 4
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE 
+        AND `task_date` >= '2023-04-01'
+        AND `task_date` <= '2024-01-04'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+         AND `status_calender` = 'accepted' AND `spen_time` > 0
+         AND `project_type` LIKE '%Implementation%'
+
+
+2023-12-28 13:08:56
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `task_date` >= '2023-04-01'
+        AND `task_date` <= '2024-01-04'
+     ...' at line 4
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE 
+        AND `task_date` >= '2023-04-01'
+        AND `task_date` <= '2024-01-04'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+         AND `status_calender` = 'accepted' AND `spen_time` > 0
+         AND `project_type` LIKE '%Implementation%'
+
+
+2023-12-28 13:09:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `task_date` >= '2023-04-01' AND `task_date` <= '2024-01-04' AND ( DAYOFWE...' at line 1
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date` FROM `sa_trx_productivity` WHERE AND `task_date` >= '2023-04-01' AND `task_date` <= '2024-01-04' AND ( DAYOFWEEK(`task_date`) BETWEEN 2 AND 6 OR `work_on_weekends` = 1 ) AND `status_calender` = 'accepted' AND `spen_time` > 0 AND `project_type` LIKE '%Implementation%'
+
+
+
+2023-12-28 13:39:08
+- Server 		: Prod
+- User 			: aditias.fauzi@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`resource_email` LIKE '%aditias.fauzi@mastersystem.co.id%'' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2023-04-01'
+        AND `task_date` <= '2024-01-04'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+         AND `status_calender` = 'needsAction'
+         AND `project_type` LIKE '%Implementation%'
+        `resource_email` LIKE '%aditias.fauzi@mastersystem.co.id%'
+
+
+2023-12-28 13:39:31
+- Server 		: Prod
+- User 			: aditias.fauzi@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`resource_email` LIKE '%aditias.fauzi@mastersystem.co.id%'' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2023-04-01'
+        AND `task_date` <= '2024-01-04'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+         AND `status_calender` = 'accepted' AND `spen_time` > 0
+         AND `project_type` LIKE '%Implementation%'
+        `resource_email` LIKE '%aditias.fauzi@mastersystem.co.id%'
+
+
+2023-12-28 13:44:08
+- Server 		: Prod
+- User 			: aditias.fauzi@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`resource_email` LIKE '%aditias.fauzi@mastersystem.co.id%'' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2023-04-01'
+        AND `task_date` <= '2024-01-04'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+         AND `status_calender` = 'needsAction'
+         AND `project_type` LIKE '%Implementation%'
+        `resource_email` LIKE '%aditias.fauzi@mastersystem.co.id%'
+
+
+2023-12-28 13:47:38
+- Server 		: Prod
+- User 			: aditias.fauzi@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`resource_email` LIKE '%aditias.fauzi@mastersystem.co.id%'' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2023-04-01'
+        AND `task_date` <= '2024-01-04'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+         AND `status_calender` = 'needsAction'
+         AND `project_type` LIKE '%Non-Project%'
+        `resource_email` LIKE '%aditias.fauzi@mastersystem.co.id%'
+
+
+2023-12-28 13:48:33
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`resource_email` LIKE '%arya.hadi@mastersystem.co.id%'' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2023-04-01'
+        AND `task_date` <= '2024-01-04'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+         AND `status_calender` = 'accepted' AND `spen_time` = 0
+         AND `project_type` LIKE '%Implementation%'
+        `resource_email` LIKE '%arya.hadi@mastersystem.co.id%'
+
+
+2023-12-28 13:52:03
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_workload' doesn't exist
+- Query 		: select * from sa_workload WHERE project_id='IEAEOPF5I5FXZU2M'
+
+
+2023-12-28 13:52:17
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'email' in 'where clause'
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2023-04-01'
+        AND `task_date` <= '2023-12-31'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+AND `email` IN ('Cornelius Aji Nugroho <cornelius.aji@mastersystem.co.id>', 'Syamsul Arham <syamsul@mastersystem.co.id>', 'Rizqie Azandy <rizqie.azandy@mastersystem.co.id>', 'Anwar Affandi <anwar.affandi@mastersystem.co.id>', 'Hanna Utami <hanna.utami@mastersystem.co.id>', 'Luthfi Eka Dharmawan  <luthfi.eka@mastersystem.co.id>', 'Agus Sutomo, S.Kom <agus.sutomo@mastersystem.co.id>', 'Muhammad Yudi Pratama <yudi.pratama@mastersystem.co.id>', 'Lazuardi Nurfaiz Adli <lazuardi.nurfaiz@mastersystem.co.id>', 'Hardian Rustandi <hardian.rustandi@mastersystem.co.id>', 'Reny Dwi Wijayanti <reny.dwi@mastersystem.co.id>', 'Faisal Suryadi Nggilu <faisal.suryadi@mastersystem.co.id>', 'Rahman Dani <rahman.dani@mastersystem.co.id>', 'Ajie Prasetyo <ajie.prasetyo@mastersystem.co.id>', 'Arian Nur Afgan <arian.nur@mastersystem.co.id>', 'Budi Satriawan <budi.satriawan@mastersystem.co.id>', 'Fabian Darryl Enrico <fabian.darryl@mastersystem.co.id>', 'Mohammad Rizky Pratama <mohammad.rizky@mastersystem.co.id>', 'Albert Briliakta Giri Saputra <albert.saputra@mastersystem.co.id>', 'Arya Hadi <arya.hadi@mastersystem.co.id>', 'Khalid Hamzah Haza Al Hamami <khalid.hamzah@mastersystem.co.id>', 'Dzulfiqar Al Ghifari <dzulfiqar.ghifari@mastersystem.co.id>', 'Hendhika Vernanda <hendika.vernanda@mastersystem.co.id>', 'Maria Silvester Luhur,S.KOM <silvester.luhur@mastersystem.co.id>', 'Muhammad Aryo Bimo <aryo.bimo@mastersystem.co.id>', 'Mega Dwi Apriyanti <mega.dwi@mastersystem.co.id>', 'Yongky Karnadi, S.KOM <yongki_k@mastersystem.co.id>', 'Malik Aulia Wiratama <malik.aulia@mastersystem.co.id>', 'M. Aan Dafa Setiawan <aan.dafa@mastersystem.co.id>', 'Chrisheryanda Eka Saputra <chrisheryanda@mastersystem.co.id>', 'Ratna Diana Pancasari <ratna@mastersystem.co.id>', 'Ajie Sandi Martin <ajie.sandi@mastersystem.co.id>', 'Horas Parsaoran S <horas.parsaoran@mastersystem.co.id>', 'Pujo Suwandono <Pujo@mastersystem.co.id>', 'I Putu Wirama Yuda <putuwirama@mastersystem.co.id>', 'Riza Nurhendra <riza.nurhendra@mastersystem.co.id>', 'Muhamad Iqbal Ogie <iqbal.ogie@mastersystem.co.id>', 'Herri Sutrisno <herri@mastersystem.co.id>', 'Victor Ari Jordan Theodore <victor.ari@mastersystem.co.id>', 'Sonny Widjaya <sonny.widjaya@mastersystem.co.id>', 'Barnas Cakra Sanjaya  <barnas.cakra@mastersystem.co.id>', 'Bagus Widya Putra <bagus.widya@mastersystem.co.id>', 'Muhammad Syarief Mirdasy <syarief.mirdasy@mastersystem.co.id>', 'Dzaky Catra Nararya <dzaky.catra@mastersystem.co.id>', 'Muhammad Rizal Ihza Hartindra <rizal.ihza@mastersystem.co.id>', 'Irwan Dwi Putra <irwan.dwi@mastersystem.co.id>', 'Bambang Mahananda <bambang.mahananda@mastersystem.co.id>', 'Fatih Khoiri <fatih.khoiri@mastersystem.co.id>', 'Purwanto <purwanto@mastersystem.co.id>', 'Moh. Ichsan Wibawa <ichsan.wibawa@mastersystem.co.id>', 'Kent Wirianata <kent.wirianata@mastersystem.co.id>', 'Yesi Widia Wanti <yesi.widia@mastersystem.co.id>', 'Abdul Rasyid Aziz <abdul.rasyid@mastersystem.co.id>', 'Kenny Tanoto <kenny.tanoto@mastersystem.co.id>', 'Reza Febrian Khity, ST <reza.febrian@mastersystem.co.id>', 'Upik Fadillah <upik.fadillah@mastersystem.co.id>', 'Fahmi Shihabuddin Zakaria <fahmi.shihabuddin@mastersystem.co.id>', 'Malik Perwiro Joyo <malik.perwiro@mastersystem.co.id>', 'Busra Zukran <busra.zukran@mastersystem.co.id>', 'Achmad Imam Faozan <achmad.imam@mastersystem.co.id>', 'Eko Budi Prasetyo <eko.budi@mastersystem.co.id>', 'Ronnie Radhitya Rafi Alkamal <ronnie.radhitya@mastersystem.co.id>', 'Gabriel Alexandro Hunam <gabriel.alexandro@mastersystem.co.id>', 'Yos Eddy <yos.eddy@mastersystem.co.id>', 'Rahmadani Sudarno <rahmadani.sudarno@mastersystem.co.id>', 'Sofwatun Nida <sofwatun.nida@mastersystem.co.id>', 'Lintang Sindu Utari <lintang.sindu@mastersystem.co.id>', 'Vini Velolita <vini.velolita@mastersystem.co.id>', 'Yulianty Briliant <yulianty.briliant@mastersystem.co.id>', 'Afviya Nabila <afviya.nabila@mastersystem.co.id>', 'Werdiningsih Purbaningrum <w.purbaningrum@mastersystem.co.id>', 'Ratna Sari <ratna.sari@mastersystem.co.id>', 'Rian Yasnita Yulianty <rian.yasnita@mastersystem.co.id>', 'Fitri Rosvianti <fitri.rosvianti@mastersystem.co.id>', 'Hayatullah Qamaini <hayatullah.qamaini@mastersystem.co.id>', 'Nurmawati <nurmawati@mastersystem.co.id>', 'Sonia Isabella <sonia.isabella@mastersystem.co.id>', 'Mercy Priskila <mercy.priskila@mastersystem.co.id>', 'Amalia Dita Justiciasari <amalia.dita@mastersystem.co.id>', 'Velinda Dwi Puspita Ayu <velinda.dwi@mastersystem.co.id>', 'Tetriana Yuninta  <tetriana.yuninta@mastersystem.co.id>', 'Nia Rani Valentin Sirait <nia.rani@mastersystem.co.id>', 'Yulanda Hidayatul Fajar <yulanda.hidayatul@mastersystem.co.id>', 'Eka Ratnasari <eka.ratnasari@mastersystem.co.id>', 'Safira Ramadhani <safira.ramadhani@mastersystem.co.id>', 'Wahyu Priono <wahyu.priono@mastersystem.co.id>', 'Dimas Setiawan <dimas.setiawan@mastersystem.co.id>', 'Alfha Farrel Budiantara <alfha.farrel@mastersystem.co.id>', 'Syarahbil Pawellang <syarahbil.pawellang@mastersystem.co.id>', 'Muhammad Ikhsan Hidayatullah <ikhsan.hidayatullah@mastersystem.co.id>', 'Mohammad Royger Febriansyah Putra <royger.febriansyah@mastersystem.co.id>', 'Mulyadi Indra <mulyadi.indra@mastersystem.co.id>', 'Alfin Aditya Candra Kristiono <alfin.aditya@mastersystem.co.id>', 'Arvy Adhitya Sutisna <arvy.adhitya@mastersystem.co.id>', 'Andrik Supadiyanto <andrik.supadiyanto@mastersystem.co.id>', 'Muhammad Fakhri Aulia Akbar <fakhri.aulia@mastersystem.co.id>', 'Difa Hafiyyan Pradana <difa.hafiyyan@mastersystem.co.id>', 'Achmad Rifki Ansyori <achmad.rifki@mastersystem.co.id>', 'Dimas Fasqi Fahrezi <dimas.fasqi@mastersystem.co.id>', 'M. Rizki Ridho <rizki.ridho@mastersystem.co.id>', 'Muhammad Luthfi Ramadhan AR <luthfi.ramadhan@mastersystem.co.id>', 'Faris Agil Putra <faris.agil@mastersystem.co.id>', 'Abdul Lathif Khumaidi <abdul.lathif@mastersystem.co.id>', 'Cakra Sukma Balya <cakra.sukma@mastersystem.co.id>', 'Rizky Adi Wicaksono <rizky.adi@mastersystem.co.id>', 'Michael Aurelio Nugraha <michael.aurelio@mastersystem.co.id>', 'Agil Muhammad Ramdani <agil.muhammad@mastersystem.co.id>', 'Muhammad Aldi Khusnul Mubaroq <muhammad.aldi@mastersystem.co.id>', 'Muhammad Naufal <muhammad.naufal@mastersystem.co.id>', 'Fredrik Collins Sibarani <fredrik.collins@mastersystem.co.id>', 'Najib Asqolani Akbar <najib.asqolani@mastersystem.co.id>', 'Abizar Alrifary <abizar.alrifary@mastersystem.co.id>', 'Rifqi Nizar <rifqi.nizar@mastersystem.co.id>', 'Mohammad Ravi Rachman <ravi.rachman@mastersystem.co.id>', 'Jovi Brema Barus, ST <jovi.brema@mastersystem.co.id>', 'Hanis Hafsyani <hanis.hafsyani@mastersystem.co.id>', 'Muhammad Muttaqin <muhammad.muttaqin@mastersystem.co.id>', 'Muhammad Yasid Ramli <yasid.ramli@mastersystem.co.id>', 'Ferdinand Louis <ferdinand.louis@mastersystem.co.id>', 'Edi Wibowo <edi.wibowo@mastersystem.co.id>', 'Arik Alvian Setiawan <arik.alvian@mastersystem.co.id>', 'Ardhya Ramadhan Prakoso <ardhya.ramadhan@mastersystem.co.id>', 'Ruslan Maulana <ruslan.maulana@mastersystem.co.id>', 'Kadek Sena Perdiana <kadek.sena@mastersystem.co.id>', 'Wijayanto Agung Nugroho <wijayanto.agung@mastersystem.co.id>', 'Wahyu Tri Silo <wahyu.trisilo@mastersystem.co.id>', 'Septian Adi Herlambang <septian.adi@mastersystem.co.id>', 'Aji Nurrahman <aji.nurrahman@mastersystem.co.id>', 'Ridwan Muhammad <ridwan.muhammad@mastersystem.co.id>', 'Sandhy Swandana <sandhy.swandana@mastersystem.co.id>', 'Tri Junianto <tri.junianto@mastersystem.co.id>', 'Yohanes Hendra Widiatmoko <yohanes.hendra@mastersystem.co.id>', 'Dwi Agusrian <dwi.agusrian@mastersystem.co.id>', 'Teguh Wahyudi <teguh.wahyudi@mastersystem.co.id>', 'Tri Yuda Febriyanto <tri.yuda@mastersystem.co.id>', 'Erpan Ruliansah <erpan.ruliansah@mastersystem.co.id>', 'Khefin <khefin@mastersystem.co.id>', 'Naufal Azka Syamil <naufal.azka@mastersystem.co.id>', 'Aliful Choirul Hakim <aliful.choirul@mastersystem.co.id>', 'Figo Perdana Putra <figo.perdana@mastersystem.co.id>', 'M. Hasan Abdullah <hasan@mastersystem.co.id>', 'Muhammad Ruvaldo Dennis <muhammad.ruvaldo@mastersystem.co.id>', 'Untung Ferina <untung.ferina@mastersystem.co.id>', 'Muhammad Adila Noor <adila.noor@mastersystem.co.id>', 'Ari Prahastomo Ramadhan <ari.prahastomo@mastersystem.co.id>', 'Malik Hambali <malik.hambali@mastersystem.co.id>', 'Angga Sukma Bahari <angga.sukma@mastersystem.co.id>', 'Felix Wibowo <felix.wibowo@mastersystem.co.id>', 'Yahot Siahaan <yahot.siahaan@mastersystem.co.id>', 'Salahhudin All Ayubi <salahhudin@mastersystem.co.id>', 'Mohamad Mahesa Prahasta <mohamad.mahesa@mastersystem.co.id>', 'Muhammad Hilmy Abdullah <hilmy.abdullah@mastersystem.co.id>', 'Ainur Rizqi Aulia <ainur.rizqi@mastersystem.co.id>', 'Tio Arissubiakto <tio.arissubiakto@mastersystem.co.id>', 'Fahmi Ardhiansyah <fahmi.ardhiansyah@mastersystem.co.id>', 'Efriansyah Pratama Putra <efriansyah.pratama@mastersystem.co.id>', 'Zamroni <zamroni@mastersystem.co.id>', 'Gani Gunawan Kusdiana <gani.gunawan@mastersystem.co.id>', 'Matias Jepri Kristanto <matias.jepri@mastersystem.co.id>', 'Fachri Akbar Rafsanzani <fachri.akbar@mastersystem.co.id>', 'Pradana Paramabakti Zefanya <pradana.paramabakti@mastersystem.co.id>', 'Fajar Dwi Saputra <fajar.dwi@mastersystem.co.id>', 'Stevanus Teja Walangitan <stevanus.teja@mastersystem.co.id>', 'Husnuzan Hidayat Pratama Abbas <husnuzan@mastersystem.co.id>', 'Yulius Eka Juhana <yulius.eka@mastersystem.co.id>', 'Muh Perdana Bagus H <perdana.bagus@mastersystem.co.id>', 'Silvana Aprilia <silvana.aprilia@mastersystem.co.id>', 'Azka Naufal Akbar <azka.naufal@mastersystem.co.id>', 'Dwi Prasetyo Utomo <dwi.prasetyo@mastersystem.co.id>', 'Dheni Yulia Dinda Pratiwi <dheni.yulia@mastersystem.co.id>', 'Nurdiansyah <nurdiansyah@mastersystem.co.id>', 'Muhammad Farkhan Khoir <farkhan.Khoir@mastersystem.co.id>', 'Haidar Maghrifa Ahmad <haidar.maghrifa@mastersystem.co.id>', 'Teguh M Wahyu Akbar <teguh.wahyu@mastersystem.co.id>', 'Abdul Roby Sukma <abdul.roby@mastersystem.co.id>', 'Raihan Ramdhani <raihan.ramdhani@mastersystem.co.id>', 'Anugrah Arizqi Heriansyah <anugrah.arizqi@mastersystem.co.id>', 'Dimas Ari Purnama Aji <dimas.ari@mastersystem.co.id>', 'Bagas Pratama Anindito <bagas.pratama@mastersystem.co.id>', 'Radiansyah Akbar <radiansyah.akbar@mastersystem.co.id>', 'Restu Wirawan <restu.wirawan@mastersystem.co.id>', 'Defryan Surya Adji Lexsamana Lim <defryan.surya@mastersystem.co.id>', 'Sulthon Azka Laudza <sulthon.azka@mastersystem.co.id>', 'Sanjip Rozak Gutama <sanjip.rozak@mastersystem.co.id>', 'Reza Setiawan <reza.setiawan@mastersystem.co.id>', 'Josef Prakoso Marusaha <josef.prakoso@mastersystem.co.id>', 'Erikson Good Hebron Panggabean <erikson.good@mastersystem.co.id>', 'Ahmad Nur Fathurahman Asshidiq <ahmad.fathurahman@mastersystem.co.id>', 'Prabu Erlangga <prabu.erlangga@mastersystem.co.id>', 'Galih Rivananda <galih.rivananda@mastersystem.co.id>', 'Muhammad Dzaky Kholilurrohman <muhammad.dzaky@mastersystem.co.id>', 'Umar Hadat Alaydrus <umar.hadat@mastersystem.co.id>', 'Rio Purnama <rio.purnama@mastersystem.co.id>', 'Tegar Virgiawan <tegar.virgiawan@mastersystem.co.id>', 'Agus Siswanto <agus.siswanto@mastersystem.co.id>', 'Mulki Syahputra Muharram, S.T <mulki.syahputra@mastersystem.co.id>', 'Muhammad Ijlal Fajari <ijlal.fajari@mastersystem.co.id>', 'Khoerul Mustofa <khoerul.mustofa@mastersystem.co.id>', 'Muhammad Ridho <muhammad.ridho@mastersystem.co.id>', 'Muhamad Irfan Kurniawan <muhamad.irfan@mastersystem.co.id>', 'Febrian Tri Wahyudi <febrian.tri@mastersystem.co.id>', 'Farros Kashikoi Murtadho <farros@mastersystem.co.id>', 'Muhammad Soleh <muhammad.soleh@mastersystem.co.id>', 'Rifa\'at Abdul Haziz Muslim <rifaat.abdul@mastersystem.co.id>', 'Ahmad Halipudin <ahmad.halipudin@mastersystem.co.id>', 'Robby Prasetyo <robby.prasetyo@mastersystem.co.id>', 'Aditya Krisnadi <aditya.krisnadi@mastersystem.co.id>', 'Adriano Fahlevi <adriano.fahlevi@mastersystem.co.id>', 'Giovanni Surya Atmaja <giovanni.surya@mastersystem.co.id>', 'Fakhrizal Syaiful Musthofa <fakhrizal.syaiful@mastersystem.co.id>', 'Nur Muhamad Ziko Iskandar <ziko.iskandar@mastersystem.co.id>', 'Mohamad Ikrom Nafi <mohamad.ikrom@mastersystem.co.id>', 'Erik Setiawan <erik.setiawan@mastersystem.co.id>', 'Andika Wira Pratama <andika.wira@mastersystem.co.id>', 'Bambang Ary Nugroho <bambang.ary@mastersystem.co.id>', 'Farrel Raditya Eduardi <farrel.raditya@mastersystem.co.id>', 'Hamdan Zuhdi Dewanul Arifin <hamdan.zuhdi@mastersystem.co.id>', 'Aziz Rahman Widyardi <aziz.rahman@mastersystem.co.id>', 'Teuku Rafif Raditya <teuku.rafif@mastersystem.co.id>', 'Willy Dinata <willy.dinata@mastersystem.co.id>', 'Dio Bagaskara Sudarpo <dio.bagaskara@mastersystem.co.id>', 'Jessica Bonita <jessica.bonita@mastersystem.co.id>', 'Muhammad Hasbi Asshidiqi <hasbi.asshidiqi@mastersystem.co.id>', 'Anas Marzuki <anas.marzuki@mastersystem.co.id>', 'I Made Wisma Fajaryasa <wisma.fajaryasa@mastersystem.co.id>', 'Doehan Pamungkas <doehan@mastersystem.co.id>', 'Arib Nawwar Tahir <arib.nawwar@mastersystem.co.id>', 'Khital Hakiki <khital.hakiki@mastersystem.co.id>', 'Muhammad Fatha <fatha@mastersystem.co.id>', 'Ahmad Faizin <ahmad.faizin@mastersystem.co.id>', 'Alfian Dwi Bagus Nur Rochman <alfian.dwi@mastersystem.co.id>', 'Kautsar Imam Hidayat <kautsar.imam@mastersystem.co.id>', 'Ahmad Solahudin Rifandi <ahmad.solahudin@mastersystem.co.id>', 'Sentosa <sentosa@mastersystem.co.id>', 'Iman Rendi Feluzy <iman.rendi@mastersystem.co.id>', 'M. Akmal Hadi Utama <akmal.hadi@mastersystem.co.id>')
+
+
+2023-12-28 13:52:40
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_id' in 'where clause'
+- Query 		: select * from sa_workload_list WHERE project_id='IEAEOPF5I5FXZU2M'
+
+
+2023-12-28 13:58:25
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MSI Project Impkementation'
+AND `resource_email` IN(
+        'Cornelius Aji...' at line 29
+- Query 		: SELECT
+    `project_type`,
+    `project_code`,
+    `so_number`,
+    `order_number`,
+    `customer_name`,
+    `project_name`,
+    `resource_email`,
+    `resource_role`,
+    `start_date`,
+    `due_date`,
+    `task_date`,
+    `task_name`,
+    `available_time`,
+    `plan_time`,
+    `spen_time`,
+    `tracked_date`,
+    `status_calender`,
+    `permalink_wrike`,
+    `permalink_task`,
+    `permalink_gcalender`,
+    `update_date`
+FROM
+    `sa_trx_productivity`
+WHERE
+    `task_date` >= '2023-04-01' AND `task_date` <= '2023-12-31' AND(
+        DAYOFWEEK(`task_date`) BETWEEN 2 AND 6 OR `work_on_weekends` = 1
+    ) 
+AND 'project_type` = 'MSI Project Impkementation'
+AND `resource_email` IN(
+        'Cornelius Aji Nugroho<cornelius.aji@mastersystem.co.id>',
+        'Syamsul Arham<syamsul@mastersystem.co.id>',
+        'Rizqie Azandy<rizqie.azandy@mastersystem.co.id>',
+        'Anwar Affandi<anwar.affandi@mastersystem.co.id>',
+        'Hanna Utami<hanna.utami@mastersystem.co.id>',
+        'Luthfi Eka Dharmawan<luthfi.eka@mastersystem.co.id>',
+        'Agus Sutomo, S.Kom<agus.sutomo@mastersystem.co.id>',
+        'Muhammad Yudi Pratama<yudi.pratama@mastersystem.co.id>',
+        'Lazuardi Nurfaiz Adli<lazuardi.nurfaiz@mastersystem.co.id>',
+        'Hardian Rustandi<hardian.rustandi@mastersystem.co.id>',
+        'Reny Dwi Wijayanti<reny.dwi@mastersystem.co.id>',
+        'Faisal Suryadi Nggilu<faisal.suryadi@mastersystem.co.id>',
+        'Rahman Dani<rahman.dani@mastersystem.co.id>',
+        'Ajie Prasetyo <ajie.prasetyo@mastersystem.co.id>',
+        'Arian Nur Afgan <arian.nur@mastersystem.co.id>',
+        'Budi Satriawan <budi.satriawan@mastersystem.co.id>',
+        'Fabian Darryl Enrico <fabian.darryl@mastersystem.co.id>',
+        'Mohammad Rizky Pratama <mohammad.rizky@mastersystem.co.id>',
+        'Albert Briliakta Giri Saputra <albert.saputra@mastersystem.co.id>',
+        'Arya Hadi <arya.hadi@mastersystem.co.id>',
+        'Khalid Hamzah Haza Al Hamami <khalid.hamzah@mastersystem.co.id>',
+        'Dzulfiqar Al Ghifari <dzulfiqar.ghifari@mastersystem.co.id>',
+        'Hendhika Vernanda <hendika.vernanda@mastersystem.co.id>',
+        'Maria Silvester Luhur,S.KOM <silvester.luhur@mastersystem.co.id>',
+        'Muhammad Aryo Bimo <aryo.bimo@mastersystem.co.id>',
+        'Mega Dwi Apriyanti <mega.dwi@mastersystem.co.id>',
+        'Yongky Karnadi, S.KOM <yongki_k@mastersystem.co.id>',
+        'Malik Aulia Wiratama <malik.aulia@mastersystem.co.id>',
+        'M. Aan Dafa Setiawan <aan.dafa@mastersystem.co.id>',
+        'Chrisheryanda Eka Saputra <chrisheryanda@mastersystem.co.id>',
+        'Ratna Diana Pancasari <ratna@mastersystem.co.id>',
+        'Ajie Sandi Martin <ajie.sandi@mastersystem.co.id>',
+        'Horas Parsaoran S <horas.parsaoran@mastersystem.co.id>',
+        'Pujo Suwandono <Pujo@mastersystem.co.id>',
+        'I Putu Wirama Yuda <putuwirama@mastersystem.co.id>',
+        'Riza Nurhendra <riza.nurhendra@mastersystem.co.id>',
+        'Muhamad Iqbal Ogie <iqbal.ogie@mastersystem.co.id>',
+        'Herri Sutrisno <herri@mastersystem.co.id>',
+        'Victor Ari Jordan Theodore <victor.ari@mastersystem.co.id>',
+        'Sonny Widjaya <sonny.widjaya@mastersystem.co.id>',
+        'Barnas Cakra Sanjaya  <barnas.cakra@mastersystem.co.id>',
+        'Bagus Widya Putra <bagus.widya@mastersystem.co.id>',
+        'Muhammad Syarief Mirdasy <syarief.mirdasy@mastersystem.co.id>',
+        'Dzaky Catra Nararya <dzaky.catra@mastersystem.co.id>',
+        'Muhammad Rizal Ihza Hartindra <rizal.ihza@mastersystem.co.id>',
+        'Irwan Dwi Putra <irwan.dwi@mastersystem.co.id>',
+        'Bambang Mahananda <bambang.mahananda@mastersystem.co.id>',
+        'Fatih Khoiri <fatih.khoiri@mastersystem.co.id>',
+        'Purwanto <purwanto@mastersystem.co.id>',
+        'Moh. Ichsan Wibawa <ichsan.wibawa@mastersystem.co.id>',
+        'Kent Wirianata <kent.wirianata@mastersystem.co.id>',
+        'Yesi Widia Wanti <yesi.widia@mastersystem.co.id>',
+        'Abdul Rasyid Aziz <abdul.rasyid@mastersystem.co.id>',
+        'Kenny Tanoto <kenny.tanoto@mastersystem.co.id>',
+        'Reza Febrian Khity, ST <reza.febrian@mastersystem.co.id>',
+        'Upik Fadillah <upik.fadillah@mastersystem.co.id>',
+        'Fahmi Shihabuddin Zakaria <fahmi.shihabuddin@mastersystem.co.id>',
+        'Malik Perwiro Joyo <malik.perwiro@mastersystem.co.id>',
+        'Busra Zukran <busra.zukran@mastersystem.co.id>',
+        'Achmad Imam Faozan <achmad.imam@mastersystem.co.id>',
+        'Eko Budi Prasetyo <eko.budi@mastersystem.co.id>',
+        'Ronnie Radhitya Rafi Alkamal <ronnie.radhitya@mastersystem.co.id>',
+        'Gabriel Alexandro Hunam <gabriel.alexandro@mastersystem.co.id>',
+        'Yos Eddy <yos.eddy@mastersystem.co.id>',
+        'Rahmadani Sudarno <rahmadani.sudarno@mastersystem.co.id>',
+        'Sofwatun Nida <sofwatun.nida@mastersystem.co.id>',
+        'Lintang Sindu Utari <lintang.sindu@mastersystem.co.id>',
+        'Vini Velolita <vini.velolita@mastersystem.co.id>',
+        'Yulianty Briliant <yulianty.briliant@mastersystem.co.id>',
+        'Afviya Nabila <afviya.nabila@mastersystem.co.id>',
+        'Werdiningsih Purbaningrum <w.purbaningrum@mastersystem.co.id>',
+        'Ratna Sari <ratna.sari@mastersystem.co.id>',
+        'Rian Yasnita Yulianty <rian.yasnita@mastersystem.co.id>',
+        'Fitri Rosvianti <fitri.rosvianti@mastersystem.co.id>',
+        'Hayatullah Qamaini <hayatullah.qamaini@mastersystem.co.id>',
+        'Nurmawati <nurmawati@mastersystem.co.id>',
+        'Sonia Isabella <sonia.isabella@mastersystem.co.id>',
+        'Mercy Priskila <mercy.priskila@mastersystem.co.id>',
+        'Amalia Dita Justiciasari <amalia.dita@mastersystem.co.id>',
+        'Velinda Dwi Puspita Ayu <velinda.dwi@mastersystem.co.id>',
+        'Tetriana Yuninta  <tetriana.yuninta@mastersystem.co.id>',
+        'Nia Rani Valentin Sirait <nia.rani@mastersystem.co.id>',
+        'Yulanda Hidayatul Fajar <yulanda.hidayatul@mastersystem.co.id>',
+        'Eka Ratnasari <eka.ratnasari@mastersystem.co.id>',
+        'Safira Ramadhani <safira.ramadhani@mastersystem.co.id>',
+        'Wahyu Priono <wahyu.priono@mastersystem.co.id>',
+        'Dimas Setiawan <dimas.setiawan@mastersystem.co.id>',
+        'Alfha Farrel Budiantara <alfha.farrel@mastersystem.co.id>',
+        'Syarahbil Pawellang <syarahbil.pawellang@mastersystem.co.id>',
+        'Muhammad Ikhsan Hidayatullah <ikhsan.hidayatullah@mastersystem.co.id>',
+        'Mohammad Royger Febriansyah Putra <royger.febriansyah@mastersystem.co.id>',
+        'Mulyadi Indra <mulyadi.indra@mastersystem.co.id>',
+        'Alfin Aditya Candra Kristiono <alfin.aditya@mastersystem.co.id>',
+        'Arvy Adhitya Sutisna <arvy.adhitya@mastersystem.co.id>',
+        'Andrik Supadiyanto <andrik.supadiyanto@mastersystem.co.id>',
+        'Muhammad Fakhri Aulia Akbar <fakhri.aulia@mastersystem.co.id>',
+        'Difa Hafiyyan Pradana <difa.hafiyyan@mastersystem.co.id>',
+        'Achmad Rifki Ansyori <achmad.rifki@mastersystem.co.id>',
+        'Dimas Fasqi Fahrezi <dimas.fasqi@mastersystem.co.id>',
+        'M. Rizki Ridho <rizki.ridho@mastersystem.co.id>',
+        'Muhammad Luthfi Ramadhan AR <luthfi.ramadhan@mastersystem.co.id>',
+        'Faris Agil Putra <faris.agil@mastersystem.co.id>',
+        'Abdul Lathif Khumaidi <abdul.lathif@mastersystem.co.id>',
+        'Cakra Sukma Balya <cakra.sukma@mastersystem.co.id>',
+        'Rizky Adi Wicaksono <rizky.adi@mastersystem.co.id>',
+        'Michael Aurelio Nugraha <michael.aurelio@mastersystem.co.id>',
+        'Agil Muhammad Ramdani <agil.muhammad@mastersystem.co.id>',
+        'Muhammad Aldi Khusnul Mubaroq <muhammad.aldi@mastersystem.co.id>',
+        'Muhammad Naufal <muhammad.naufal@mastersystem.co.id>',
+        'Fredrik Collins Sibarani <fredrik.collins@mastersystem.co.id>',
+        'Najib Asqolani Akbar <najib.asqolani@mastersystem.co.id>',
+        'Abizar Alrifary <abizar.alrifary@mastersystem.co.id>',
+        'Rifqi Nizar <rifqi.nizar@mastersystem.co.id>',
+        'Mohammad Ravi Rachman <ravi.rachman@mastersystem.co.id>',
+        'Jovi Brema Barus, ST <jovi.brema@mastersystem.co.id>',
+        'Hanis Hafsyani <hanis.hafsyani@mastersystem.co.id>',
+        'Muhammad Muttaqin <muhammad.muttaqin@mastersystem.co.id>',
+        'Muhammad Yasid Ramli <yasid.ramli@mastersystem.co.id>',
+        'Ferdinand Louis <ferdinand.louis@mastersystem.co.id>',
+        'Edi Wibowo <edi.wibowo@mastersystem.co.id>',
+        'Arik Alvian Setiawan <arik.alvian@mastersystem.co.id>',
+        'Ardhya Ramadhan Prakoso <ardhya.ramadhan@mastersystem.co.id>',
+        'Ruslan Maulana <ruslan.maulana@mastersystem.co.id>',
+        'Kadek Sena Perdiana <kadek.sena@mastersystem.co.id>',
+        'Wijayanto Agung Nugroho <wijayanto.agung@mastersystem.co.id>',
+        'Wahyu Tri Silo <wahyu.trisilo@mastersystem.co.id>',
+        'Septian Adi Herlambang <septian.adi@mastersystem.co.id>',
+        'Aji Nurrahman <aji.nurrahman@mastersystem.co.id>',
+        'Ridwan Muhammad <ridwan.muhammad@mastersystem.co.id>',
+        'Sandhy Swandana <sandhy.swandana@mastersystem.co.id>',
+        'Tri Junianto <tri.junianto@mastersystem.co.id>',
+        'Yohanes Hendra Widiatmoko <yohanes.hendra@mastersystem.co.id>',
+        'Dwi Agusrian <dwi.agusrian@mastersystem.co.id>',
+        'Teguh Wahyudi <teguh.wahyudi@mastersystem.co.id>',
+        'Tri Yuda Febriyanto <tri.yuda@mastersystem.co.id>',
+        'Erpan Ruliansah <erpan.ruliansah@mastersystem.co.id>',
+        'Khefin <khefin@mastersystem.co.id>',
+        'Naufal Azka Syamil <naufal.azka@mastersystem.co.id>',
+        'Aliful Choirul Hakim <aliful.choirul@mastersystem.co.id>',
+        'Figo Perdana Putra <figo.perdana@mastersystem.co.id>',
+        'M. Hasan Abdullah <hasan@mastersystem.co.id>',
+        'Muhammad Ruvaldo Dennis <muhammad.ruvaldo@mastersystem.co.id>',
+        'Untung Ferina <untung.ferina@mastersystem.co.id>',
+        'Muhammad Adila Noor <adila.noor@mastersystem.co.id>',
+        'Ari Prahastomo Ramadhan <ari.prahastomo@mastersystem.co.id>',
+        'Malik Hambali <malik.hambali@mastersystem.co.id>',
+        'Angga Sukma Bahari <angga.sukma@mastersystem.co.id>',
+        'Felix Wibowo <felix.wibowo@mastersystem.co.id>',
+        'Yahot Siahaan <yahot.siahaan@mastersystem.co.id>',
+        'Salahhudin All Ayubi <salahhudin@mastersystem.co.id>',
+        'Mohamad Mahesa Prahasta <mohamad.mahesa@mastersystem.co.id>',
+        'Muhammad Hilmy Abdullah <hilmy.abdullah@mastersystem.co.id>',
+        'Ainur Rizqi Aulia <ainur.rizqi@mastersystem.co.id>',
+        'Tio Arissubiakto <tio.arissubiakto@mastersystem.co.id>',
+        'Fahmi Ardhiansyah <fahmi.ardhiansyah@mastersystem.co.id>',
+        'Efriansyah Pratama Putra <efriansyah.pratama@mastersystem.co.id>',
+        'Zamroni <zamroni@mastersystem.co.id>',
+        'Gani Gunawan Kusdiana <gani.gunawan@mastersystem.co.id>',
+        'Matias Jepri Kristanto <matias.jepri@mastersystem.co.id>',
+        'Fachri Akbar Rafsanzani <fachri.akbar@mastersystem.co.id>',
+        'Pradana Paramabakti Zefanya <pradana.paramabakti@mastersystem.co.id>',
+        'Fajar Dwi Saputra <fajar.dwi@mastersystem.co.id>',
+        'Stevanus Teja Walangitan <stevanus.teja@mastersystem.co.id>',
+        'Husnuzan Hidayat Pratama Abbas <husnuzan@mastersystem.co.id>',
+        'Yulius Eka Juhana <yulius.eka@mastersystem.co.id>',
+        'Muh Perdana Bagus H <perdana.bagus@mastersystem.co.id>',
+        'Silvana Aprilia <silvana.aprilia@mastersystem.co.id>',
+        'Azka Naufal Akbar <azka.naufal@mastersystem.co.id>',
+        'Dwi Prasetyo Utomo <dwi.prasetyo@mastersystem.co.id>',
+        'Dheni Yulia Dinda Pratiwi <dheni.yulia@mastersystem.co.id>',
+        'Nurdiansyah <nurdiansyah@mastersystem.co.id>',
+        'Muhammad Farkhan Khoir <farkhan.Khoir@mastersystem.co.id>',
+        'Haidar Maghrifa Ahmad <haidar.maghrifa@mastersystem.co.id>',
+        'Teguh M Wahyu Akbar <teguh.wahyu@mastersystem.co.id>',
+        'Abdul Roby Sukma <abdul.roby@mastersystem.co.id>',
+        'Raihan Ramdhani <raihan.ramdhani@mastersystem.co.id>',
+        'Anugrah Arizqi Heriansyah <anugrah.arizqi@mastersystem.co.id>',
+        'Dimas Ari Purnama Aji <dimas.ari@mastersystem.co.id>',
+        'Bagas Pratama Anindito <bagas.pratama@mastersystem.co.id>',
+        'Radiansyah Akbar <radiansyah.akbar@mastersystem.co.id>',
+        'Restu Wirawan <restu.wirawan@mastersystem.co.id>',
+        'Defryan Surya Adji Lexsamana Lim <defryan.surya@mastersystem.co.id>',
+        'Sulthon Azka Laudza <sulthon.azka@mastersystem.co.id>',
+        'Sanjip Rozak Gutama <sanjip.rozak@mastersystem.co.id>',
+        'Reza Setiawan <reza.setiawan@mastersystem.co.id>',
+        'Josef Prakoso Marusaha <josef.prakoso@mastersystem.co.id>',
+        'Erikson Good Hebron Panggabean <erikson.good@mastersystem.co.id>',
+        'Ahmad Nur Fathurahman Asshidiq <ahmad.fathurahman@mastersystem.co.id>',
+        'Prabu Erlangga <prabu.erlangga@mastersystem.co.id>',
+        'Galih Rivananda <galih.rivananda@mastersystem.co.id>',
+        'Muhammad Dzaky Kholilurrohman <muhammad.dzaky@mastersystem.co.id>',
+        'Umar Hadat Alaydrus <umar.hadat@mastersystem.co.id>',
+        'Rio Purnama <rio.purnama@mastersystem.co.id>',
+        'Tegar Virgiawan <tegar.virgiawan@mastersystem.co.id>',
+        'Agus Siswanto <agus.siswanto@mastersystem.co.id>',
+        'Mulki Syahputra Muharram, S.T <mulki.syahputra@mastersystem.co.id>',
+        'Muhammad Ijlal Fajari <ijlal.fajari@mastersystem.co.id>',
+        'Khoerul Mustofa <khoerul.mustofa@mastersystem.co.id>',
+        'Muhammad Ridho <muhammad.ridho@mastersystem.co.id>',
+        'Muhamad Irfan Kurniawan <muhamad.irfan@mastersystem.co.id>',
+        'Febrian Tri Wahyudi <febrian.tri@mastersystem.co.id>',
+        'Farros Kashikoi Murtadho <farros@mastersystem.co.id>',
+        'Muhammad Soleh <muhammad.soleh@mastersystem.co.id>',
+        'Rifa\'at Abdul Haziz Muslim <rifaat.abdul@mastersystem.co.id>',
+        'Ahmad Halipudin <ahmad.halipudin@mastersystem.co.id>',
+        'Robby Prasetyo <robby.prasetyo@mastersystem.co.id>',
+        'Aditya Krisnadi <aditya.krisnadi@mastersystem.co.id>',
+        'Adriano Fahlevi <adriano.fahlevi@mastersystem.co.id>',
+        'Giovanni Surya Atmaja <giovanni.surya@mastersystem.co.id>',
+        'Fakhrizal Syaiful Musthofa <fakhrizal.syaiful@mastersystem.co.id>',
+        'Nur Muhamad Ziko Iskandar <ziko.iskandar@mastersystem.co.id>',
+        'Mohamad Ikrom Nafi <mohamad.ikrom@mastersystem.co.id>',
+        'Erik Setiawan <erik.setiawan@mastersystem.co.id>',
+        'Andika Wira Pratama <andika.wira@mastersystem.co.id>',
+        'Bambang Ary Nugroho <bambang.ary@mastersystem.co.id>',
+        'Farrel Raditya Eduardi <farrel.raditya@mastersystem.co.id>',
+        'Hamdan Zuhdi Dewanul Arifin <hamdan.zuhdi@mastersystem.co.id>',
+        'Aziz Rahman Widyardi <aziz.rahman@mastersystem.co.id>',
+        'Teuku Rafif Raditya <teuku.rafif@mastersystem.co.id>',
+        'Willy Dinata <willy.dinata@mastersystem.co.id>',
+        'Dio Bagaskara Sudarpo <dio.bagaskara@mastersystem.co.id>',
+        'Jessica Bonita <jessica.bonita@mastersystem.co.id>',
+        'Muhammad Hasbi Asshidiqi <hasbi.asshidiqi@mastersystem.co.id>',
+        'Anas Marzuki <anas.marzuki@mastersystem.co.id>',
+        'I Made Wisma Fajaryasa <wisma.fajaryasa@mastersystem.co.id>',
+        'Doehan Pamungkas <doehan@mastersystem.co.id>',
+        'Arib Nawwar Tahir <arib.nawwar@mastersystem.co.id>',
+        'Khital Hakiki <khital.hakiki@mastersystem.co.id>',
+        'Muhammad Fatha <fatha@mastersystem.co.id>',
+        'Ahmad Faizin <ahmad.faizin@mastersystem.co.id>',
+        'Alfian Dwi Bagus Nur Rochman <alfian.dwi@mastersystem.co.id>',
+        'Kautsar Imam Hidayat <kautsar.imam@mastersystem.co.id>',
+        'Ahmad Solahudin Rifandi <ahmad.solahudin@mastersystem.co.id>',
+        'Sentosa <sentosa@mastersystem.co.id>',
+        'Iman Rendi Feluzy <iman.rendi@mastersystem.co.id>',
+        'M. Akmal Hadi Utama <akmal.hadi@mastersystem.co.id>'
+    )
+
+
+2023-12-28 13:58:44
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MSI Project Implementation'
+AND `resource_email` IN(
+        'Cornelius Aji...' at line 29
+- Query 		: SELECT
+    `project_type`,
+    `project_code`,
+    `so_number`,
+    `order_number`,
+    `customer_name`,
+    `project_name`,
+    `resource_email`,
+    `resource_role`,
+    `start_date`,
+    `due_date`,
+    `task_date`,
+    `task_name`,
+    `available_time`,
+    `plan_time`,
+    `spen_time`,
+    `tracked_date`,
+    `status_calender`,
+    `permalink_wrike`,
+    `permalink_task`,
+    `permalink_gcalender`,
+    `update_date`
+FROM
+    `sa_trx_productivity`
+WHERE
+    `task_date` >= '2023-04-01' AND `task_date` <= '2023-12-31' AND(
+        DAYOFWEEK(`task_date`) BETWEEN 2 AND 6 OR `work_on_weekends` = 1
+    ) 
+AND 'project_type` = 'MSI Project Implementation'
+AND `resource_email` IN(
+        'Cornelius Aji Nugroho<cornelius.aji@mastersystem.co.id>',
+        'Syamsul Arham<syamsul@mastersystem.co.id>',
+        'Rizqie Azandy<rizqie.azandy@mastersystem.co.id>',
+        'Anwar Affandi<anwar.affandi@mastersystem.co.id>',
+        'Hanna Utami<hanna.utami@mastersystem.co.id>',
+        'Luthfi Eka Dharmawan<luthfi.eka@mastersystem.co.id>',
+        'Agus Sutomo, S.Kom<agus.sutomo@mastersystem.co.id>',
+        'Muhammad Yudi Pratama<yudi.pratama@mastersystem.co.id>',
+        'Lazuardi Nurfaiz Adli<lazuardi.nurfaiz@mastersystem.co.id>',
+        'Hardian Rustandi<hardian.rustandi@mastersystem.co.id>',
+        'Reny Dwi Wijayanti<reny.dwi@mastersystem.co.id>',
+        'Faisal Suryadi Nggilu<faisal.suryadi@mastersystem.co.id>',
+        'Rahman Dani<rahman.dani@mastersystem.co.id>',
+        'Ajie Prasetyo <ajie.prasetyo@mastersystem.co.id>',
+        'Arian Nur Afgan <arian.nur@mastersystem.co.id>',
+        'Budi Satriawan <budi.satriawan@mastersystem.co.id>',
+        'Fabian Darryl Enrico <fabian.darryl@mastersystem.co.id>',
+        'Mohammad Rizky Pratama <mohammad.rizky@mastersystem.co.id>',
+        'Albert Briliakta Giri Saputra <albert.saputra@mastersystem.co.id>',
+        'Arya Hadi <arya.hadi@mastersystem.co.id>',
+        'Khalid Hamzah Haza Al Hamami <khalid.hamzah@mastersystem.co.id>',
+        'Dzulfiqar Al Ghifari <dzulfiqar.ghifari@mastersystem.co.id>',
+        'Hendhika Vernanda <hendika.vernanda@mastersystem.co.id>',
+        'Maria Silvester Luhur,S.KOM <silvester.luhur@mastersystem.co.id>',
+        'Muhammad Aryo Bimo <aryo.bimo@mastersystem.co.id>',
+        'Mega Dwi Apriyanti <mega.dwi@mastersystem.co.id>',
+        'Yongky Karnadi, S.KOM <yongki_k@mastersystem.co.id>',
+        'Malik Aulia Wiratama <malik.aulia@mastersystem.co.id>',
+        'M. Aan Dafa Setiawan <aan.dafa@mastersystem.co.id>',
+        'Chrisheryanda Eka Saputra <chrisheryanda@mastersystem.co.id>',
+        'Ratna Diana Pancasari <ratna@mastersystem.co.id>',
+        'Ajie Sandi Martin <ajie.sandi@mastersystem.co.id>',
+        'Horas Parsaoran S <horas.parsaoran@mastersystem.co.id>',
+        'Pujo Suwandono <Pujo@mastersystem.co.id>',
+        'I Putu Wirama Yuda <putuwirama@mastersystem.co.id>',
+        'Riza Nurhendra <riza.nurhendra@mastersystem.co.id>',
+        'Muhamad Iqbal Ogie <iqbal.ogie@mastersystem.co.id>',
+        'Herri Sutrisno <herri@mastersystem.co.id>',
+        'Victor Ari Jordan Theodore <victor.ari@mastersystem.co.id>',
+        'Sonny Widjaya <sonny.widjaya@mastersystem.co.id>',
+        'Barnas Cakra Sanjaya  <barnas.cakra@mastersystem.co.id>',
+        'Bagus Widya Putra <bagus.widya@mastersystem.co.id>',
+        'Muhammad Syarief Mirdasy <syarief.mirdasy@mastersystem.co.id>',
+        'Dzaky Catra Nararya <dzaky.catra@mastersystem.co.id>',
+        'Muhammad Rizal Ihza Hartindra <rizal.ihza@mastersystem.co.id>',
+        'Irwan Dwi Putra <irwan.dwi@mastersystem.co.id>',
+        'Bambang Mahananda <bambang.mahananda@mastersystem.co.id>',
+        'Fatih Khoiri <fatih.khoiri@mastersystem.co.id>',
+        'Purwanto <purwanto@mastersystem.co.id>',
+        'Moh. Ichsan Wibawa <ichsan.wibawa@mastersystem.co.id>',
+        'Kent Wirianata <kent.wirianata@mastersystem.co.id>',
+        'Yesi Widia Wanti <yesi.widia@mastersystem.co.id>',
+        'Abdul Rasyid Aziz <abdul.rasyid@mastersystem.co.id>',
+        'Kenny Tanoto <kenny.tanoto@mastersystem.co.id>',
+        'Reza Febrian Khity, ST <reza.febrian@mastersystem.co.id>',
+        'Upik Fadillah <upik.fadillah@mastersystem.co.id>',
+        'Fahmi Shihabuddin Zakaria <fahmi.shihabuddin@mastersystem.co.id>',
+        'Malik Perwiro Joyo <malik.perwiro@mastersystem.co.id>',
+        'Busra Zukran <busra.zukran@mastersystem.co.id>',
+        'Achmad Imam Faozan <achmad.imam@mastersystem.co.id>',
+        'Eko Budi Prasetyo <eko.budi@mastersystem.co.id>',
+        'Ronnie Radhitya Rafi Alkamal <ronnie.radhitya@mastersystem.co.id>',
+        'Gabriel Alexandro Hunam <gabriel.alexandro@mastersystem.co.id>',
+        'Yos Eddy <yos.eddy@mastersystem.co.id>',
+        'Rahmadani Sudarno <rahmadani.sudarno@mastersystem.co.id>',
+        'Sofwatun Nida <sofwatun.nida@mastersystem.co.id>',
+        'Lintang Sindu Utari <lintang.sindu@mastersystem.co.id>',
+        'Vini Velolita <vini.velolita@mastersystem.co.id>',
+        'Yulianty Briliant <yulianty.briliant@mastersystem.co.id>',
+        'Afviya Nabila <afviya.nabila@mastersystem.co.id>',
+        'Werdiningsih Purbaningrum <w.purbaningrum@mastersystem.co.id>',
+        'Ratna Sari <ratna.sari@mastersystem.co.id>',
+        'Rian Yasnita Yulianty <rian.yasnita@mastersystem.co.id>',
+        'Fitri Rosvianti <fitri.rosvianti@mastersystem.co.id>',
+        'Hayatullah Qamaini <hayatullah.qamaini@mastersystem.co.id>',
+        'Nurmawati <nurmawati@mastersystem.co.id>',
+        'Sonia Isabella <sonia.isabella@mastersystem.co.id>',
+        'Mercy Priskila <mercy.priskila@mastersystem.co.id>',
+        'Amalia Dita Justiciasari <amalia.dita@mastersystem.co.id>',
+        'Velinda Dwi Puspita Ayu <velinda.dwi@mastersystem.co.id>',
+        'Tetriana Yuninta  <tetriana.yuninta@mastersystem.co.id>',
+        'Nia Rani Valentin Sirait <nia.rani@mastersystem.co.id>',
+        'Yulanda Hidayatul Fajar <yulanda.hidayatul@mastersystem.co.id>',
+        'Eka Ratnasari <eka.ratnasari@mastersystem.co.id>',
+        'Safira Ramadhani <safira.ramadhani@mastersystem.co.id>',
+        'Wahyu Priono <wahyu.priono@mastersystem.co.id>',
+        'Dimas Setiawan <dimas.setiawan@mastersystem.co.id>',
+        'Alfha Farrel Budiantara <alfha.farrel@mastersystem.co.id>',
+        'Syarahbil Pawellang <syarahbil.pawellang@mastersystem.co.id>',
+        'Muhammad Ikhsan Hidayatullah <ikhsan.hidayatullah@mastersystem.co.id>',
+        'Mohammad Royger Febriansyah Putra <royger.febriansyah@mastersystem.co.id>',
+        'Mulyadi Indra <mulyadi.indra@mastersystem.co.id>',
+        'Alfin Aditya Candra Kristiono <alfin.aditya@mastersystem.co.id>',
+        'Arvy Adhitya Sutisna <arvy.adhitya@mastersystem.co.id>',
+        'Andrik Supadiyanto <andrik.supadiyanto@mastersystem.co.id>',
+        'Muhammad Fakhri Aulia Akbar <fakhri.aulia@mastersystem.co.id>',
+        'Difa Hafiyyan Pradana <difa.hafiyyan@mastersystem.co.id>',
+        'Achmad Rifki Ansyori <achmad.rifki@mastersystem.co.id>',
+        'Dimas Fasqi Fahrezi <dimas.fasqi@mastersystem.co.id>',
+        'M. Rizki Ridho <rizki.ridho@mastersystem.co.id>',
+        'Muhammad Luthfi Ramadhan AR <luthfi.ramadhan@mastersystem.co.id>',
+        'Faris Agil Putra <faris.agil@mastersystem.co.id>',
+        'Abdul Lathif Khumaidi <abdul.lathif@mastersystem.co.id>',
+        'Cakra Sukma Balya <cakra.sukma@mastersystem.co.id>',
+        'Rizky Adi Wicaksono <rizky.adi@mastersystem.co.id>',
+        'Michael Aurelio Nugraha <michael.aurelio@mastersystem.co.id>',
+        'Agil Muhammad Ramdani <agil.muhammad@mastersystem.co.id>',
+        'Muhammad Aldi Khusnul Mubaroq <muhammad.aldi@mastersystem.co.id>',
+        'Muhammad Naufal <muhammad.naufal@mastersystem.co.id>',
+        'Fredrik Collins Sibarani <fredrik.collins@mastersystem.co.id>',
+        'Najib Asqolani Akbar <najib.asqolani@mastersystem.co.id>',
+        'Abizar Alrifary <abizar.alrifary@mastersystem.co.id>',
+        'Rifqi Nizar <rifqi.nizar@mastersystem.co.id>',
+        'Mohammad Ravi Rachman <ravi.rachman@mastersystem.co.id>',
+        'Jovi Brema Barus, ST <jovi.brema@mastersystem.co.id>',
+        'Hanis Hafsyani <hanis.hafsyani@mastersystem.co.id>',
+        'Muhammad Muttaqin <muhammad.muttaqin@mastersystem.co.id>',
+        'Muhammad Yasid Ramli <yasid.ramli@mastersystem.co.id>',
+        'Ferdinand Louis <ferdinand.louis@mastersystem.co.id>',
+        'Edi Wibowo <edi.wibowo@mastersystem.co.id>',
+        'Arik Alvian Setiawan <arik.alvian@mastersystem.co.id>',
+        'Ardhya Ramadhan Prakoso <ardhya.ramadhan@mastersystem.co.id>',
+        'Ruslan Maulana <ruslan.maulana@mastersystem.co.id>',
+        'Kadek Sena Perdiana <kadek.sena@mastersystem.co.id>',
+        'Wijayanto Agung Nugroho <wijayanto.agung@mastersystem.co.id>',
+        'Wahyu Tri Silo <wahyu.trisilo@mastersystem.co.id>',
+        'Septian Adi Herlambang <septian.adi@mastersystem.co.id>',
+        'Aji Nurrahman <aji.nurrahman@mastersystem.co.id>',
+        'Ridwan Muhammad <ridwan.muhammad@mastersystem.co.id>',
+        'Sandhy Swandana <sandhy.swandana@mastersystem.co.id>',
+        'Tri Junianto <tri.junianto@mastersystem.co.id>',
+        'Yohanes Hendra Widiatmoko <yohanes.hendra@mastersystem.co.id>',
+        'Dwi Agusrian <dwi.agusrian@mastersystem.co.id>',
+        'Teguh Wahyudi <teguh.wahyudi@mastersystem.co.id>',
+        'Tri Yuda Febriyanto <tri.yuda@mastersystem.co.id>',
+        'Erpan Ruliansah <erpan.ruliansah@mastersystem.co.id>',
+        'Khefin <khefin@mastersystem.co.id>',
+        'Naufal Azka Syamil <naufal.azka@mastersystem.co.id>',
+        'Aliful Choirul Hakim <aliful.choirul@mastersystem.co.id>',
+        'Figo Perdana Putra <figo.perdana@mastersystem.co.id>',
+        'M. Hasan Abdullah <hasan@mastersystem.co.id>',
+        'Muhammad Ruvaldo Dennis <muhammad.ruvaldo@mastersystem.co.id>',
+        'Untung Ferina <untung.ferina@mastersystem.co.id>',
+        'Muhammad Adila Noor <adila.noor@mastersystem.co.id>',
+        'Ari Prahastomo Ramadhan <ari.prahastomo@mastersystem.co.id>',
+        'Malik Hambali <malik.hambali@mastersystem.co.id>',
+        'Angga Sukma Bahari <angga.sukma@mastersystem.co.id>',
+        'Felix Wibowo <felix.wibowo@mastersystem.co.id>',
+        'Yahot Siahaan <yahot.siahaan@mastersystem.co.id>',
+        'Salahhudin All Ayubi <salahhudin@mastersystem.co.id>',
+        'Mohamad Mahesa Prahasta <mohamad.mahesa@mastersystem.co.id>',
+        'Muhammad Hilmy Abdullah <hilmy.abdullah@mastersystem.co.id>',
+        'Ainur Rizqi Aulia <ainur.rizqi@mastersystem.co.id>',
+        'Tio Arissubiakto <tio.arissubiakto@mastersystem.co.id>',
+        'Fahmi Ardhiansyah <fahmi.ardhiansyah@mastersystem.co.id>',
+        'Efriansyah Pratama Putra <efriansyah.pratama@mastersystem.co.id>',
+        'Zamroni <zamroni@mastersystem.co.id>',
+        'Gani Gunawan Kusdiana <gani.gunawan@mastersystem.co.id>',
+        'Matias Jepri Kristanto <matias.jepri@mastersystem.co.id>',
+        'Fachri Akbar Rafsanzani <fachri.akbar@mastersystem.co.id>',
+        'Pradana Paramabakti Zefanya <pradana.paramabakti@mastersystem.co.id>',
+        'Fajar Dwi Saputra <fajar.dwi@mastersystem.co.id>',
+        'Stevanus Teja Walangitan <stevanus.teja@mastersystem.co.id>',
+        'Husnuzan Hidayat Pratama Abbas <husnuzan@mastersystem.co.id>',
+        'Yulius Eka Juhana <yulius.eka@mastersystem.co.id>',
+        'Muh Perdana Bagus H <perdana.bagus@mastersystem.co.id>',
+        'Silvana Aprilia <silvana.aprilia@mastersystem.co.id>',
+        'Azka Naufal Akbar <azka.naufal@mastersystem.co.id>',
+        'Dwi Prasetyo Utomo <dwi.prasetyo@mastersystem.co.id>',
+        'Dheni Yulia Dinda Pratiwi <dheni.yulia@mastersystem.co.id>',
+        'Nurdiansyah <nurdiansyah@mastersystem.co.id>',
+        'Muhammad Farkhan Khoir <farkhan.Khoir@mastersystem.co.id>',
+        'Haidar Maghrifa Ahmad <haidar.maghrifa@mastersystem.co.id>',
+        'Teguh M Wahyu Akbar <teguh.wahyu@mastersystem.co.id>',
+        'Abdul Roby Sukma <abdul.roby@mastersystem.co.id>',
+        'Raihan Ramdhani <raihan.ramdhani@mastersystem.co.id>',
+        'Anugrah Arizqi Heriansyah <anugrah.arizqi@mastersystem.co.id>',
+        'Dimas Ari Purnama Aji <dimas.ari@mastersystem.co.id>',
+        'Bagas Pratama Anindito <bagas.pratama@mastersystem.co.id>',
+        'Radiansyah Akbar <radiansyah.akbar@mastersystem.co.id>',
+        'Restu Wirawan <restu.wirawan@mastersystem.co.id>',
+        'Defryan Surya Adji Lexsamana Lim <defryan.surya@mastersystem.co.id>',
+        'Sulthon Azka Laudza <sulthon.azka@mastersystem.co.id>',
+        'Sanjip Rozak Gutama <sanjip.rozak@mastersystem.co.id>',
+        'Reza Setiawan <reza.setiawan@mastersystem.co.id>',
+        'Josef Prakoso Marusaha <josef.prakoso@mastersystem.co.id>',
+        'Erikson Good Hebron Panggabean <erikson.good@mastersystem.co.id>',
+        'Ahmad Nur Fathurahman Asshidiq <ahmad.fathurahman@mastersystem.co.id>',
+        'Prabu Erlangga <prabu.erlangga@mastersystem.co.id>',
+        'Galih Rivananda <galih.rivananda@mastersystem.co.id>',
+        'Muhammad Dzaky Kholilurrohman <muhammad.dzaky@mastersystem.co.id>',
+        'Umar Hadat Alaydrus <umar.hadat@mastersystem.co.id>',
+        'Rio Purnama <rio.purnama@mastersystem.co.id>',
+        'Tegar Virgiawan <tegar.virgiawan@mastersystem.co.id>',
+        'Agus Siswanto <agus.siswanto@mastersystem.co.id>',
+        'Mulki Syahputra Muharram, S.T <mulki.syahputra@mastersystem.co.id>',
+        'Muhammad Ijlal Fajari <ijlal.fajari@mastersystem.co.id>',
+        'Khoerul Mustofa <khoerul.mustofa@mastersystem.co.id>',
+        'Muhammad Ridho <muhammad.ridho@mastersystem.co.id>',
+        'Muhamad Irfan Kurniawan <muhamad.irfan@mastersystem.co.id>',
+        'Febrian Tri Wahyudi <febrian.tri@mastersystem.co.id>',
+        'Farros Kashikoi Murtadho <farros@mastersystem.co.id>',
+        'Muhammad Soleh <muhammad.soleh@mastersystem.co.id>',
+        'Rifa\'at Abdul Haziz Muslim <rifaat.abdul@mastersystem.co.id>',
+        'Ahmad Halipudin <ahmad.halipudin@mastersystem.co.id>',
+        'Robby Prasetyo <robby.prasetyo@mastersystem.co.id>',
+        'Aditya Krisnadi <aditya.krisnadi@mastersystem.co.id>',
+        'Adriano Fahlevi <adriano.fahlevi@mastersystem.co.id>',
+        'Giovanni Surya Atmaja <giovanni.surya@mastersystem.co.id>',
+        'Fakhrizal Syaiful Musthofa <fakhrizal.syaiful@mastersystem.co.id>',
+        'Nur Muhamad Ziko Iskandar <ziko.iskandar@mastersystem.co.id>',
+        'Mohamad Ikrom Nafi <mohamad.ikrom@mastersystem.co.id>',
+        'Erik Setiawan <erik.setiawan@mastersystem.co.id>',
+        'Andika Wira Pratama <andika.wira@mastersystem.co.id>',
+        'Bambang Ary Nugroho <bambang.ary@mastersystem.co.id>',
+        'Farrel Raditya Eduardi <farrel.raditya@mastersystem.co.id>',
+        'Hamdan Zuhdi Dewanul Arifin <hamdan.zuhdi@mastersystem.co.id>',
+        'Aziz Rahman Widyardi <aziz.rahman@mastersystem.co.id>',
+        'Teuku Rafif Raditya <teuku.rafif@mastersystem.co.id>',
+        'Willy Dinata <willy.dinata@mastersystem.co.id>',
+        'Dio Bagaskara Sudarpo <dio.bagaskara@mastersystem.co.id>',
+        'Jessica Bonita <jessica.bonita@mastersystem.co.id>',
+        'Muhammad Hasbi Asshidiqi <hasbi.asshidiqi@mastersystem.co.id>',
+        'Anas Marzuki <anas.marzuki@mastersystem.co.id>',
+        'I Made Wisma Fajaryasa <wisma.fajaryasa@mastersystem.co.id>',
+        'Doehan Pamungkas <doehan@mastersystem.co.id>',
+        'Arib Nawwar Tahir <arib.nawwar@mastersystem.co.id>',
+        'Khital Hakiki <khital.hakiki@mastersystem.co.id>',
+        'Muhammad Fatha <fatha@mastersystem.co.id>',
+        'Ahmad Faizin <ahmad.faizin@mastersystem.co.id>',
+        'Alfian Dwi Bagus Nur Rochman <alfian.dwi@mastersystem.co.id>',
+        'Kautsar Imam Hidayat <kautsar.imam@mastersystem.co.id>',
+        'Ahmad Solahudin Rifandi <ahmad.solahudin@mastersystem.co.id>',
+        'Sentosa <sentosa@mastersystem.co.id>',
+        'Iman Rendi Feluzy <iman.rendi@mastersystem.co.id>',
+        'M. Akmal Hadi Utama <akmal.hadi@mastersystem.co.id>'
+    )
+
+
+2023-12-28 14:01:03
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`resource_email` LIKE '%aditias.fauzi@mastersystem.co.id%'' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2023-04-01'
+        AND `task_date` <= '2024-01-04'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+         AND `status_calender` = 'needsAction'
+         AND `project_type` LIKE '%Implementation%'
+        `resource_email` LIKE '%aditias.fauzi@mastersystem.co.id%'
+
+
+2023-12-28 14:01:14
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`resource_email` LIKE '%aditias.fauzi@mastersystem.co.id%'' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2023-04-01'
+        AND `task_date` <= '2024-01-04'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+         AND `status_calender` = 'needsAction'
+         AND `project_type` LIKE '%Implementation%'
+        `resource_email` LIKE '%aditias.fauzi@mastersystem.co.id%'
+
+
+2023-12-28 14:01:15
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`resource_email` LIKE '%aditias.fauzi@mastersystem.co.id%'' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2023-04-01'
+        AND `task_date` <= '2024-01-04'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+         AND `status_calender` = 'needsAction'
+         AND `project_type` LIKE '%Implementation%'
+        `resource_email` LIKE '%aditias.fauzi@mastersystem.co.id%'
+
+
+2023-12-28 14:01:27
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`resource_email` LIKE '%aditias.fauzi@mastersystem.co.id%'' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2023-04-01'
+        AND `task_date` <= '2024-01-04'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+         AND `status_calender` = 'needsAction'
+         AND `project_type` LIKE '%Implementation%'
+        `resource_email` LIKE '%aditias.fauzi@mastersystem.co.id%'
+
+
+2023-12-28 14:01:49
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`resource_email` LIKE '%arya.hadi@mastersystem.co.id%'' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2023-04-01'
+        AND `task_date` <= '2024-01-04'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+         AND `status_calender` = 'accepted' AND `spen_time` = 0
+         AND `project_type` LIKE '%Implementation%'
+        `resource_email` LIKE '%arya.hadi@mastersystem.co.id%'
+
+
+2023-12-28 14:02:22
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`resource_email` LIKE '%arya.hadi@mastersystem.co.id%'' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2023-04-01'
+        AND `task_date` <= '2024-01-04'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+         AND `status_calender` = 'accepted' AND `spen_time` = 0
+         AND `project_type` LIKE '%Implementation%'
+        `resource_email` LIKE '%arya.hadi@mastersystem.co.id%'
+
+
+2023-12-28 14:03:20
+- Server 		: Prod
+- User 			: reza.setiawan@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`resource_email` LIKE '%reza.setiawan@mastersystem.co.id%'' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2023-12-21'
+        AND `task_date` <= '2024-01-04'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+         AND `status_calender` = 'accepted' AND `spen_time` > 0
+         AND `project_type` LIKE '%Implementation%'
+        `resource_email` LIKE '%reza.setiawan@mastersystem.co.id%'
+
+
+2023-12-28 14:03:32
+- Server 		: Prod
+- User 			: reza.setiawan@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_productivity_detail
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`resource_email` LIKE '%reza.setiawan@mastersystem.co.id%'' at line 12
+- Query 		: SELECT `project_type`, `project_code`, `so_number`, `order_number`, `customer_name`, `project_name`, `resource_email`, `resource_role`, `start_date`, `due_date`, `task_date`, `task_name`, `available_time`, `plan_time`, `spen_time`, `tracked_date`, `status_calender`, `permalink_wrike`, `permalink_task`, `permalink_gcalender`, `update_date`
+    FROM `sa_trx_productivity`
+    WHERE
+        `task_date` >= '2023-12-21'
+        AND `task_date` <= '2024-01-04'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `work_on_weekends` = 1
+        )
+         AND `status_calender` = 'needsAction'
+         AND `project_type` LIKE '%Implementation%'
+        `resource_email` LIKE '%reza.setiawan@mastersystem.co.id%'
+
+
+2023-12-28 14:04:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET flag_get_task=0 WHERE project_id='IEAEOPF5I5FXZU2M'' at line 1
+- Query 		: select * from sa_workload_project_solution SET flag_get_task=0 WHERE project_id='IEAEOPF5I5FXZU2M'
+
+
+2023-12-28 14:33:51
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'full join sa_user b ON a.employee_email=b.resource_email GROUP BY b.project_t...' at line 1
+- Query 		: SELECT a.employee_name,b.project_type,COUNT(b.order_number),b.kpi_status FROM sa_md_hcm.sa_view_employees_v2 a full join sa_user b ON a.employee_email=b.resource_email GROUP BY b.project_type,b.kpi_status,b.resource_email
+
+
+2023-12-28 15:00:01
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'isnull' at line 1
+- Query 		: select * from sa_view_employees where resign_date isnull
+
+
+2023-12-28 15:00:49
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_transaction_product' at line 1
+- Query 		: sa_transaction_product;
+
+
+2023-12-28 16:18:24
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_wrike_evans' doesn't exist
+- Query 		: SELECT * FROM sa_wrike_evans WHERE project_id='IEAEOPF5I5EX6WPN'
+
+
+2023-12-28 16:25:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_preschedule' doesn't exist
+- Query 		: select * from sa_preschedule WHERE project_id='IEAEOPF5I47JC5UI'
+
+
+2023-12-28 16:43:45
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_view_employees' doesn't exist
+- Query 		: SELECT * FROM sa_view_employees WHERE employee_email = 'galih.putro@mastersystem.co.id'

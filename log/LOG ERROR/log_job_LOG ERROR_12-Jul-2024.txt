@@ -1,0 +1,117 @@
+File Error Log
+
+2024-07-12 09:40:51
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'limi 19' at line 1
+- Query 		: select * from sa_general_informations ORDER BY request_date DESC limi 19
+
+
+2024-07-12 09:41:03
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY request_date DESC' at line 1
+- Query 		: select * from sa_general_informations limit 19 ORDER BY request_date DESC 
+
+
+2024-07-12 10:46:27
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_detail_plan' doesn't exist
+- Query 		: select * from sa_detail_plan limit 10
+
+
+2024-07-12 15:34:38
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Unknown column 'pmo_ack_maintenance' in 'where clause'
+- Query 		: SELECT * FROM sa_view_project_list WHERE (project_code LIKE '%TM000924C0003%') AND status='acknowledge' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND NOT ISNULL(order_number) AND pmo_ack_maintenance is not null ORDER BY modified_date DESC
+
+
+2024-07-12 15:35:39
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Unknown column 'pmo_ack_maintenance' in 'where clause'
+- Query 		: SELECT * FROM sa_view_project_list WHERE (project_code LIKE '%TM000924C0003%') AND status='acknowledge' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND NOT ISNULL(order_number) AND pmo_ack_maintenance is not null ORDER BY modified_date DESC
+
+
+2024-07-12 15:37:08
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Unknown column 'pmo_ack_maintenance' in 'where clause'
+- Query 		: SELECT * FROM sa_view_project_list WHERE (project_code LIKE '%TM000924C0003%') AND status='acknowledge' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND NOT ISNULL(order_number) AND pmo_ack_maintenance is not null ORDER BY modified_date DESC
+
+
+2024-07-12 15:38:12
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Unknown column 'pmo_ack_maintenance' in 'where clause'
+- Query 		: SELECT * FROM sa_view_project_list WHERE (project_code LIKE '%TM000924C0003%') AND status='acknowledge' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND NOT ISNULL(order_number) AND pmo_ack_maintenance is not null ORDER BY modified_date DESC
+
+
+2024-07-12 15:38:54
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Unknown column 'pmo_ack_maintenance' in 'where clause'
+- Query 		: SELECT * FROM sa_view_project_list WHERE (project_code LIKE '%TM000924C0003%') AND status='acknowledge' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND NOT ISNULL(order_number) AND pmo_ack_maintenance is not null ORDER BY modified_date DESC
+
+
+2024-07-12 15:39:25
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Unknown column 'pmo_ack_maintenance' in 'where clause'
+- Query 		: SELECT * FROM sa_view_project_list WHERE (project_code LIKE '%TM000924C0003%') AND status='acknowledge' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND NOT ISNULL(order_number) AND pmo_ack_maintenance is not null ORDER BY modified_date DESC
+
+
+2024-07-12 15:41:22
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Unknown column 'pmo_ack_maintenance' in 'where clause'
+- Query 		: SELECT * FROM sa_view_project_list WHERE (project_code LIKE '%TM000924C0003%') AND status='acknowledge' AND (pmo_ack_maintenance is not null AND pmo_ack_maintenance<>'') AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND NOT ISNULL(order_number) ORDER BY modified_date DESC
+
+
+2024-07-12 15:43:00
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Unknown column 'pmo_ack_maintenance' in 'where clause'
+- Query 		: SELECT * FROM sa_view_project_list WHERE (project_code LIKE '%TM000924C0003%') AND status='acknowledge' AND (pmo_ack_maintenance is not null OR pmo_ack_maintenance<>'') AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND NOT ISNULL(order_number) ORDER BY modified_date DESC
+
+
+2024-07-12 15:45:29
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Unknown column 'pmo_ack_maintenance' in 'where clause'
+- Query 		: SELECT * FROM sa_view_project_list WHERE (project_code LIKE '%TM000924C0003%') AND status='acknowledge' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND NOT ISNULL(order_number) AND pmo_ack_maintenance<>'' ORDER BY modified_date DESC
+
+
+2024-07-12 15:46:49
+- Server 		: Prod
+- User 			: aceng.zakariya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Unknown column 'pmo_ack_maintenance' in 'where clause'
+- Query 		: SELECT * FROM sa_view_project_list WHERE (project_code LIKE '%TM000924C0003%') AND status='acknowledge' AND NOT ISNULL(po_number) AND NOT ISNULL(so_number) AND NOT ISNULL(order_number) AND NOT ISNULL(pmo_ack_maintenance) ORDER BY modified_date DESC

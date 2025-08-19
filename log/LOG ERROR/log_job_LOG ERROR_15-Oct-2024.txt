@@ -1,0 +1,45 @@
+File Error Log
+
+2024-10-15 10:36:53
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_asset' doesn't exist
+- Query 		: select * from sa_asset _purchases limit 10 
+
+
+2024-10-15 10:37:21
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_asset' doesn't exist
+- Query 		: select * from sa_asset _purchases limit 10 
+
+
+2024-10-15 13:33:53
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_wrike_project_list' doesn't exist
+- Query 		: select * from sa_wrike_project_list WHERE id IN ('IEAEOPF5I5NBTZKQ','IEAEOPF5I5M3IBUZ','IEAEOPF5I5M3HHVK')
+
+
+2024-10-15 13:53:24
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-10-15 13:53:41
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC

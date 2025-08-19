@@ -1,0 +1,176 @@
+File Error Log
+
+2024-03-26 09:44:24
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s
+                                                    AND `flag_approval` =...' at line 10
+- Query 		: SELECT 
+                                                    `sa_trx_edo_request`.`edo_id`, 
+                                                    `project_code`,
+                                                    `start_date`, 
+                                                    `end_date`, 
+                                                    `duration`,
+                                                    `category`
+                                                FROM `sa_trx_edo_request` 
+                                                LEFT JOIN `sa_trx_edo_leave_detail` ON `sa_trx_edo_request`.`edo_id`=`sa_trx_edo_leave_detail`.`edo_id`
+                                                WHERE ((`employee_name`=%s
+                                                    AND `flag_approval` = 0
+                                                    AND `status` = 'leave submitted')
+                                                    OR (`employee_name`=%s
+                                                    AND `flag_approval` = 1
+                                                    AND `status` = 'leave approved'))
+                                                    AND `leave_id` = %s
+                                                ORDER BY `start_date` ASC
+
+
+2024-03-26 11:00:21
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'no_so' in 'where clause'
+- Query 		: select * from sa_wrike_assignment WHERE no_so='2023/SO/0204'
+
+
+2024-03-26 12:36:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_kpi_board' doesn't exist
+- Query 		: select * from sa_kpi_board WHERE project_code='TB018123J0001'
+
+
+2024-03-26 12:58:34
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.survey_link, type, main_rating, main_essay, main_engineer, trx.created_datet...' at line 2
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, title, customer_company_name, trx.project_code, trx.project_title, trx.rating_average,trx.answer_id, trx.type
+            surv.survey_link, type, main_rating, main_essay, main_engineer, trx.created_datetime, main_template_id, simple_template_id, project_type, type_of_service, project_name from sa_survey surv join sa_trx_survey trx 
+            on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_code = cust.customer_code
+            WHERE trx.rating_average < 7 AND trx.flag = 0
+
+
+2024-03-26 12:59:15
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.survey_link, type, main_rating, main_essay, main_engineer, trx.created_datet...' at line 2
+- Query 		: SELECT surv.survey_id, so_number, pic_name, pic_email, pic_phone, title, customer_company_name, trx.project_code, trx.project_title, trx.rating_average,trx.answer_id, trx.type
+            surv.survey_link, type, main_rating, main_essay, main_engineer, trx.created_datetime, main_template_id, simple_template_id, project_type, type_of_service, project_name from sa_survey surv join sa_trx_survey trx 
+            on surv.survey_id = trx.survey_id join sa_pic pic on surv.pic_id = pic.pic_id join sa_customer cust on pic.customer_code = cust.customer_code
+            WHERE trx.rating_average < 7 AND trx.flag = 0
+
+
+2024-03-26 13:26:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_form
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_leave WHERE leave_id=
+
+
+2024-03-26 13:26:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_form
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO Approval' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO Approval' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-03-26 13:26:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_form
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_leave WHERE leave_id=
+
+
+2024-03-26 13:26:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_form
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO Approval' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO Approval' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-03-26 13:26:39
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_form
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_leave WHERE leave_id=
+
+
+2024-03-26 13:26:39
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_form
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO Approval' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO Approval' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-03-26 14:19:23
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_view_order_list limit = 10' at line 1
+- Query 		: select * sa_view_order_list limit = 10
+
+
+2024-03-26 14:19:26
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_view_order_list' at line 1
+- Query 		: select * sa_view_order_list 
+
+
+2024-03-26 14:19:40
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 10' at line 1
+- Query 		: select * from sa_view_order_list limit = 10 
+
+
+2024-03-26 15:24:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_id' in 'where clause'
+- Query 		: select * from sa_wrike_project_list WHERE project_id like '%GRS7YS%'
+
+
+2024-03-26 17:45:07
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=17
+
+
+2024-03-26 17:45:37
+- Server 		: Prod
+- User 			: luthfi.eka@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: Data too long for column 'approval_by' at row 1
+- Query 		: UPDATE `sa_trx_edo_leave` SET `approval_by`='Syarahbil Pawellang<syarahbil.pawellang@mastersystem.co.id>; Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>; ',`flag_approval`=2,`update_by`='Luthfi Eka Dharmawan <luthfi.eka@mastersystem.co.id>' WHERE `leave_id`=17

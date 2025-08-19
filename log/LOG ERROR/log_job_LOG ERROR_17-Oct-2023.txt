@@ -1,0 +1,255 @@
+File Error Log
+
+2023-10-17 11:00:27
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_id' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_integrate.sa_wrike_project_list WHERE project_id = 'IEAEOPF5I47UKSEA'
+
+
+2023-10-17 11:37:14
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_data_so where project_code='TB001222B0007'
+
+
+2023-10-17 11:42:38
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIK E'%%' AND `sa_dashboard_kpi`.`sa_data_so`.`periode_so` ='2023' AND `sa_da...' at line 1
+- Query 		: SELECT `sa_wrike_integrate`.`sa_wrike_project_list`.`id`, `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_code`, `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` AS `so_number`, `sa_wrike_integrate`.`sa_wrike_project_detail`.`customer_name`, `sa_wrike_integrate`.`sa_wrike_project_list`.`title` AS `project_name`, `sa_wrike_integrate`.`sa_wrike_project_list`.`permalink`, `sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`kpi_status`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`value`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`total_cte`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`weighted_value`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`start_assignment`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_plan`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_actual`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_wr`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_project`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`periode_so`, `sa_dashboard_kpi`.`sa_data_so`.`WR_bast_date_actual_project_implementation` FROM `sa_wrike_integrate`.`sa_wrike_project_list` LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` ON `sa_dashboard_kpi`.`sa_kpi_so_wr`.`so_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` ON `sa_wrike_integrate`.`sa_wrike_project_list`.`id` = `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_id` LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` ON `sa_dashboard_kpi`.`sa_data_so`.`so_number_kpi` = `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` WHERE `sa_wrike_integrate`.`sa_wrike_project_list`.`project_type` LIKE '%%' AND `sa_dashboard_kpi`.`sa_kpi_so_wr`.`kpi_status` LIK E'%%' AND `sa_dashboard_kpi`.`sa_data_so`.`periode_so` ='2023' AND `sa_dashboard_kpi`.`sa_data_so`.`periode` '2023' AND (`sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email` LIKE '%%' OR `sa_wrike_integrate`.`sa_wrike_project_list`.`id` IN (SELECT `sa_wrike_integrate`.`sa_wrike_assignment`.`project_id` FROM `sa_wrike_integrate`.`sa_wrike_assignment` WHERE `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email` LIKE '%%' GROUP BY `sa_wrike_integrate`.`sa_wrike_assignment`.`project_id`, `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email`) );
+
+
+2023-10-17 11:42:52
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''2023' AND (`sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email` LIKE '...' at line 1
+- Query 		: SELECT `sa_wrike_integrate`.`sa_wrike_project_list`.`id`, `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_code`, `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` AS `so_number`, `sa_wrike_integrate`.`sa_wrike_project_detail`.`customer_name`, `sa_wrike_integrate`.`sa_wrike_project_list`.`title` AS `project_name`, `sa_wrike_integrate`.`sa_wrike_project_list`.`permalink`, `sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`kpi_status`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`value`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`total_cte`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`weighted_value`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`start_assignment`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_plan`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_actual`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_wr`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_project`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`periode_so`, `sa_dashboard_kpi`.`sa_data_so`.`WR_bast_date_actual_project_implementation` FROM `sa_wrike_integrate`.`sa_wrike_project_list` LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` ON `sa_dashboard_kpi`.`sa_kpi_so_wr`.`so_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` ON `sa_wrike_integrate`.`sa_wrike_project_list`.`id` = `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_id` LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` ON `sa_dashboard_kpi`.`sa_data_so`.`so_number_kpi` = `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` WHERE `sa_wrike_integrate`.`sa_wrike_project_list`.`project_type` LIKE '%%' AND `sa_dashboard_kpi`.`sa_kpi_so_wr`.`kpi_status` LIKE '%%' AND `sa_dashboard_kpi`.`sa_data_so`.`periode_so` ='2023' AND `sa_dashboard_kpi`.`sa_data_so`.`periode` '2023' AND (`sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email` LIKE '%%' OR `sa_wrike_integrate`.`sa_wrike_project_list`.`id` IN (SELECT `sa_wrike_integrate`.`sa_wrike_assignment`.`project_id` FROM `sa_wrike_integrate`.`sa_wrike_assignment` WHERE `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email` LIKE '%%' GROUP BY `sa_wrike_integrate`.`sa_wrike_assignment`.`project_id`, `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email`) );
+
+
+2023-10-17 11:46:43
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_data_so where project_code_kpi='TB001222B0007'' at line 1
+- Query 		: select * sa_data_so where project_code_kpi='TB001222B0007'
+
+
+2023-10-17 12:10:24
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code_kpi' in 'where clause'
+- Query 		: select * from `sa_kpi_so_wr` where project_code_kpi='TB001222B0007'
+
+
+2023-10-17 12:11:05
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_wrike_project_list' doesn't exist
+- Query 		: select * from `sa_wrike_project_list` where project_code='TB001222B0007'
+
+
+2023-10-17 12:11:17
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_wrike_project_list' doesn't exist
+- Query 		: select * from `sa_wrike_project_list` where project_code_kpi='TB001222B0007'
+
+
+2023-10-17 12:12:42
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from `sa_data_so` where project_code='TB001222B0007'
+
+
+2023-10-17 12:28:49
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+- Query 		: SELECT `sa_wrike_integrate`.`sa_wrike_project_list`.`id`, `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_code`, `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` AS `so_number`, `sa_wrike_integrate`.`sa_wrike_project_detail`.`customer_name`, `sa_wrike_integrate`.`sa_wrike_project_list`.`title` AS `project_name`, `sa_wrike_integrate`.`sa_wrike_project_list`.`permalink`, `sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`kpi_status`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`value`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`total_cte`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`weighted_value`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`start_assignment`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_plan`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_actual`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_wr`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_project`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`periode_so`, `sa_dashboard_kpi`.`sa_data_so`.`WR_bast_date_actual_project_implementation` FROM `sa_wrike_integrate`.`sa_wrike_project_list` LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` ON `sa_dashboard_kpi`.`sa_kpi_so_wr`.`so_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` ON `sa_wrike_integrate`.`sa_wrike_project_list`.`id` = `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_id` LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` ON `sa_dashboard_kpi`.`sa_data_so`.`so_number_kpi` = `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` WHERE `sa_wrike_integrate`.`sa_wrike_project_list`.`project_type` LIKE 'MSI Project Implementation' AND `sa_dashboard_kpi`.`sa_kpi_so_wr`.`kpi_status` = "Not Yet Reviewed" AND `sa_dashboard_kpi`.`sa_data_so`.`periode_so` = 2023 AND `sa_dashboard_kpi`.`sa_data_so`.`periode` LIKE "%%"  );
+
+
+
+2023-10-17 13:58:34
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_dashboard_kpi.sa_data_so.periode_so' in 'where clause'
+- Query 		: SELECT `sa_wrike_integrate`.`sa_wrike_assignment`.`project_id`, `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email`  FROM `sa_wrike_integrate`.`sa_wrike_assignment` WHERE `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email` LIKE '%%' AND `sa_dashboard_kpi`.`sa_data_so`.`periode_so` = 2023 AND project_code= 'TB001222B0007' GROUP BY `sa_wrike_integrate`.`sa_wrike_assignment`.`project_id`, `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email` 
+
+
+2023-10-17 13:58:57
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_dashboard_kpi.sa_data_so.periode_so' in 'where clause'
+- Query 		: SELECT `sa_wrike_integrate`.`sa_wrike_assignment`.`project_id`, `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email`  FROM `sa_wrike_integrate`.`sa_wrike_assignment` WHERE `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email` LIKE '%%' AND `sa_dashboard_kpi`.`sa_data_so`.`periode_so` = 2023 GROUP BY `sa_wrike_integrate`.`sa_wrike_assignment`.`project_id`, `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email` 
+
+
+2023-10-17 13:58:58
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_dashboard_kpi.sa_data_so.periode_so' in 'where clause'
+- Query 		: SELECT `sa_wrike_integrate`.`sa_wrike_assignment`.`project_id`, `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email`  FROM `sa_wrike_integrate`.`sa_wrike_assignment` WHERE `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email` LIKE '%%' AND `sa_dashboard_kpi`.`sa_data_so`.`periode_so` = 2023 GROUP BY `sa_wrike_integrate`.`sa_wrike_assignment`.`project_id`, `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email` 
+
+
+2023-10-17 14:04:14
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT `sa_wrike_integrate`.`sa_wrike_project_list`.`id`, `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_code`, `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` AS `so_number`, `sa_wrike_integrate`.`sa_wrike_project_detail`.`customer_name`, `sa_wrike_integrate`.`sa_wrike_project_list`.`title` AS `project_name`, `sa_wrike_integrate`.`sa_wrike_project_list`.`permalink`, `sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`kpi_status`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`value`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`total_cte`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`weighted_value`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`start_assignment`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_plan`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_actual`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_wr`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_project`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`periode_so`, `sa_dashboard_kpi`.`sa_data_so`.`WR_bast_date_actual_project_implementation` FROM `sa_wrike_integrate`.`sa_wrike_project_list` LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` ON `sa_dashboard_kpi`.`sa_kpi_so_wr`.`so_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` ON `sa_wrike_integrate`.`sa_wrike_project_list`.`id` = `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_id` LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` ON `sa_dashboard_kpi`.`sa_data_so`.`so_number_kpi` = `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` WHERE `sa_wrike_integrate`.`sa_wrike_project_list`.`project_type` LIKE 'MSI Project Implementation' AND `sa_dashboard_kpi`.`sa_kpi_so_wr`.`kpi_status` = "Not Yet Reviewed" AND `sa_dashboard_kpi`.`sa_data_so`.`periode_so` = 2023 AND `sa_dashboard_kpi`.`sa_data_so`.`periode` LIKE "%%" AND (`sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email` LIKE '%%' OR `sa_wrike_integrate`.`sa_wrike_project_list`.`id` IN ('IEAEOPF5I5DQ56CV' );
+
+
+
+2023-10-17 14:05:07
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT `sa_wrike_integrate`.`sa_wrike_project_list`.`id`, `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_code`, `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` AS `so_number`, `sa_wrike_integrate`.`sa_wrike_project_detail`.`customer_name`, `sa_wrike_integrate`.`sa_wrike_project_list`.`title` AS `project_name`, `sa_wrike_integrate`.`sa_wrike_project_list`.`permalink`, `sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`kpi_status`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`value`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`total_cte`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`weighted_value`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`start_assignment`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_plan`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_actual`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_wr`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_project`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`periode_so`, `sa_dashboard_kpi`.`sa_data_so`.`WR_bast_date_actual_project_implementation` FROM `sa_wrike_integrate`.`sa_wrike_project_list` LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` ON `sa_dashboard_kpi`.`sa_kpi_so_wr`.`so_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` ON `sa_wrike_integrate`.`sa_wrike_project_list`.`id` = `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_id` LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` ON `sa_dashboard_kpi`.`sa_data_so`.`so_number_kpi` = `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` WHERE `sa_wrike_integrate`.`sa_wrike_project_list`.`project_type` LIKE 'MSI Project Implementation' AND `sa_dashboard_kpi`.`sa_kpi_so_wr`.`kpi_status` = "Not Yet Reviewed" AND `sa_dashboard_kpi`.`sa_data_so`.`periode_so` = 2023 AND `sa_dashboard_kpi`.`sa_data_so`.`periode` LIKE "%%" AND (`sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email` LIKE '%%' OR `sa_wrike_integrate`.`sa_wrike_project_list`.`project_id` IN ('IEAEOPF5I5DQ56CV' );
+
+
+
+2023-10-17 14:05:48
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email` LIKE '%%' OR `sa_w...' at line 1
+- Query 		: (`sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email` LIKE '%%' OR `sa_wrike_integrate`.`sa_wrike_project_list`.`id` IN (SELECT `sa_wrike_integrate`.`sa_wrike_assignment`.`project_id` FROM `sa_wrike_integrate`.`sa_wrike_assignment` WHERE `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email` LIKE '%%' GROUP BY `sa_wrike_integrate`.`sa_wrike_assignment`.`project_id`, `sa_wrike_integrate`.`sa_wrike_assignment`.`resource_email`) )
+
+
+2023-10-17 14:08:17
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT `sa_wrike_integrate`.`sa_wrike_project_list`.`id`, `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_code`, `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` AS `so_number`, `sa_wrike_integrate`.`sa_wrike_project_detail`.`customer_name`, `sa_wrike_integrate`.`sa_wrike_project_list`.`title` AS `project_name`, `sa_wrike_integrate`.`sa_wrike_project_list`.`permalink`, `sa_wrike_integrate`.`sa_wrike_project_list`.`owner_email`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`kpi_status`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`value`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`commercial_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`time_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_kpi`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`error_category`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`total_cte`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`weighted_value`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`start_assignment`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_plan`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`bast_actual`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_wr`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`status_project`, `sa_dashboard_kpi`.`sa_kpi_so_wr`.`periode_so`, `sa_dashboard_kpi`.`sa_data_so`.`WR_bast_date_actual_project_implementation` FROM `sa_wrike_integrate`.`sa_wrike_project_list` LEFT JOIN `sa_dashboard_kpi`.`sa_kpi_so_wr` ON `sa_dashboard_kpi`.`sa_kpi_so_wr`.`so_number` = `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` LEFT JOIN `sa_wrike_integrate`.`sa_wrike_project_detail` ON `sa_wrike_integrate`.`sa_wrike_project_list`.`id` = `sa_wrike_integrate`.`sa_wrike_project_detail`.`project_id` LEFT JOIN `sa_dashboard_kpi`.`sa_data_so` ON `sa_dashboard_kpi`.`sa_data_so`.`so_number_kpi` = `sa_wrike_integrate`.`sa_wrike_project_list`.`no_so` WHERE `sa_wrike_integrate`.`sa_wrike_project_list`.`project_type` LIKE 'MSI Project Implementation' AND `sa_dashboard_kpi`.`sa_kpi_so_wr`.`kpi_status` = "Not Yet Reviewed" AND `sa_dashboard_kpi`.`sa_data_so`.`periode_so` = 2023 AND `sa_dashboard_kpi`.`sa_data_so`.`periode` LIKE "%%" AND 
+
+
+2023-10-17 14:13:25
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'rpoject_list' in 'where clause'
+- Query 		: select * from `sa_wrike_integrate`.`sa_wrike_project_list` where rpoject_list='TB001222B0007'
+
+
+2023-10-17 14:14:50
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_dashboard_kpi.project_code' in 'where clause'
+- Query 		: SELECT* FROM `sa_dashboard_kpi`.`sa_kpi_so_wr` WHERE`sa_dashboard_kpi`.`project_code`='TB001222B0007'
+
+
+2023-10-17 14:15:01
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_dashboard_kpi.project_code_kpi' in 'where clause'
+- Query 		: SELECT* FROM `sa_dashboard_kpi`.`sa_kpi_so_wr` WHERE`sa_dashboard_kpi`.`project_code_kpi`='TB001222B0007'
+
+
+2023-10-17 14:15:21
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_dashboard_kpi.project_code_kpi' in 'where clause'
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_kpi_so_wr` WHERE`sa_dashboard_kpi`.`project_code_kpi`='TB001222B0007'
+
+
+2023-10-17 14:15:48
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_dashboard_kpi.project_code' in 'where clause'
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_kpi_so_wr` WHERE`sa_dashboard_kpi`.`project_code`='TB001222B0007'
+
+
+2023-10-17 14:17:17
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_wrike_project_detail' doesn't exist
+- Query 		: select * from `sa_wrike_project_detail` where rpoject_code = 'TB001222B0007'
+
+
+2023-10-17 14:17:25
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_wrike_project_detail' doesn't exist
+- Query 		: select * from `sa_wrike_project_detail` where project_code = 'TB001222B0007'
+
+
+2023-10-17 14:18:32
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from `sa_data_so` where project_code = 'TB001222B0007'
+
+
+2023-10-17 16:00:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'so_number' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE so_number='2022/SO/1631'
+
+
+2023-10-17 16:45:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_preschedule' doesn't exist
+- Query 		: select * from sa_preschedule where project_code='TB000323D0004'
+
+
+2023-10-17 16:47:35
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.event_id' in 'on clause'
+- Query 		: select * from sa_preschedule a left join sa_schedule ON a.google_event_id=b.event_id where a.task_name='[[2023, BCAS] Switch SF & Core] 3.3.3 Migrasi Live DRC'

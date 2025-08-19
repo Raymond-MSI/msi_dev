@@ -1,0 +1,35 @@
+File Error Log
+
+2024-07-28 15:22:11
+- Server 		: Prod
+- User 			: shendi.yanda@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect integer value: '' for column `sa_dashboard_kpi`.`sa_master_maintenance_date`.`mt_report_date` at row 1
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`) VALUES (
+                'TE007819G0002', 
+                'ORD-19862-D1N0T1', 
+                '1',
+                '',
+                '',
+                '99', 
+                '',
+                '60',
+                '99', 
+                '',
+                '60',
+                '0',
+                'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>')

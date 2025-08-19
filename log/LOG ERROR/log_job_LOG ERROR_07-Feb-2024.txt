@@ -1,0 +1,267 @@
+File Error Log
+
+2024-02-07 10:10:40
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		: dashboard_survey
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: select count(if(status='Active' and project_type is not null, 1, null)) as active, count(if(status='default' AND project_type is not null, 1, null)) as inactive, count(if(status='submitted' AND project_type is not null, 1, null)) as submitted from sa_survey WHERE
+
+
+2024-02-07 10:10:43
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		: dashboard_survey
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: select count(if(status='Active' and project_type is not null, 1, null)) as active, count(if(status='default' AND project_type is not null, 1, null)) as inactive, count(if(status='submitted' AND project_type is not null, 1, null)) as submitted from sa_survey WHERE
+
+
+2024-02-07 10:10:58
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		: dashboard_survey
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: select count(if(status='Active' and project_type is not null, 1, null)) as active, count(if(status='default' AND project_type is not null, 1, null)) as inactive, count(if(status='submitted' AND project_type is not null, 1, null)) as submitted from sa_survey WHERE
+
+
+2024-02-07 10:11:00
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		: dashboard_survey
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: select count(if(status='Active' and project_type is not null, 1, null)) as active, count(if(status='default' AND project_type is not null, 1, null)) as inactive, count(if(status='submitted' AND project_type is not null, 1, null)) as submitted from sa_survey WHERE
+
+
+2024-02-07 10:27:20
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'type_of_services' in 'where clause'
+- Query 		: select * from sa_survey where type_of_services is null
+
+
+2024-02-07 10:51:09
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'active'' at line 1
+- Query 		: select * from sa_survey where status !== 'active'
+
+
+2024-02-07 11:16:54
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'default, count(if(status='submitted' AND project_type is not null, 1, null)) ...' at line 1
+- Query 		: select count(if(status='Active' and project_type is not null, 1, null)) as active, count(if(status='default' AND project_type is not null, 1, null)) as default, count(if(status='submitted' AND project_type is not null, 1, null)) as submitted from sa_survey where year(created_datetime) = 2023
+
+
+2024-02-07 11:25:33
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from sa_survey where year(created_datetime) = 2023 group by project_type' at line 1
+- Query 		: select project_type, count(if(status='submitted' AND project_type is not null, 1, null)) as total_submit, count(if(status='default', 1, null)) as total_auto, count(*) as total_survey, from sa_survey where year(created_datetime) = 2023 group by project_type
+
+
+2024-02-07 11:35:25
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'group by project_type' at line 3
+- Query 		: select avg(case when status != 'submitted' then null else rating_average end) as avg_submit, project_type,
+                                                    count(if(status ='submitted', 1, null)) as total_submit, count(if(status='default', 1, null)) as total_auto, count(*) as total_survey,
+                                                    avg(rating_average) as total_all where year(created_datetime_ = 2023 group by project_type
+
+
+2024-02-07 11:42:42
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'group_by sur.project_type' at line 1
+- Query 		: select * from sa_survey sur join sa_trx_survey trx where  sur.survey_id = trx.survey_id group_by sur.project_type
+
+
+2024-02-07 11:42:48
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'group_by project_type' at line 1
+- Query 		: select * from sa_survey sur join sa_trx_survey trx where  sur.survey_id = trx.survey_id group_by project_type
+
+
+2024-02-07 11:43:46
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'group_by sur.project_type' at line 1
+- Query 		: select sur.survey_id, sur.project_type from sa_survey sur join sa_trx_survey trx where  sur.survey_id = trx.survey_id group_by sur.project_type
+
+
+2024-02-07 11:45:01
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'group by sur.status' at line 1
+- Query 		: select sur.survey_id, sur.project_type, sur.status from sa_survey sur join sa_trx_survey trx where  sur.survey_id = trx.survey_id group by sur.project_type and group by sur.status
+
+
+2024-02-07 13:31:30
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_survey where status not like '%active%'' at line 1
+- Query 		: select * sa_survey where status not like '%active%'
+
+
+2024-02-07 13:38:59
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: survey
+- SubModule		: dashboard_survey
+- Status 		: Unknown column 'a.created_datetime' in 'where clause'
+- Query 		: select count(if(b.so_number is not null,1,null)) as rfr, count(if(b.so_number is NULL,1,null)) as reviewed from sa_kpi_board a left join sa_survey.sa_survey b on a.so_number = b.so_number where year(a.created_datetime) = 2023
+
+
+2024-02-07 13:49:28
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_survey.sa_kpi_board' doesn't exist
+- Query 		: select count(if(b.so_number is not null,1,null)) as rfr, count(if(b.so_number is NULL,1,null)) as reviewed from sa_kpi_board a left join sa_survey.sa_survey b on a.so_number = b.so_number
+
+
+2024-02-07 13:51:25
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'null)) as reviewed from sa_survey a join sa_dashboard_kpi.sa_kpi_board b wher...' at line 1
+- Query 		: select count(if(a.so_number is not null,1,null)) as ready, count(if(a,so_number is null,1,null)) as reviewed from sa_survey a join sa_dashboard_kpi.sa_kpi_board b where a.so_number = b.so_number
+
+
+2024-02-07 13:52:30
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where a.so_number = b.so_number' at line 1
+- Query 		: select count(if(b.so_number is not null,1,null)) as ready, count(if(b.so_number is NULL,1,null)) as reviewed from sa_kpi_board a left join sa_survey.sa_survey b where a.so_number = b.so_number
+
+
+
+
+2024-02-07 13:52:53
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'a join sa_survey.sa_survey b on a.so_number = b.so_number' at line 1
+- Query 		: select count(if(b.so_number is not null,1,null)) as ready, count(if(b.so_number is NULL,1,null)) as reviewed from sa_kpi_board left a join sa_survey.sa_survey b on a.so_number = b.so_number
+
+
+
+
+2024-02-07 13:54:22
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.created_datetime' in 'where clause'
+- Query 		: select * from sa_survey a join sa_dashboard_kpi.sa_kpi_board b where a.so_number = b.so_number and year(b.created_datetime) = 2023
+
+
+2024-02-07 15:22:30
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2024-01-31' AND task_date <= '2024-02-14' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2024-02-07 16:20:42
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'order_number'
+- Query 		: ALTER TABLE `sa_table_report` ADD UNIQUE(`order_number`)
+
+
+2024-02-07 16:21:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'order_number'
+- Query 		: ALTER TABLE sa_table_report ADD UNIQUE(order_number)
+
+
+2024-02-07 16:22:03
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'order_number'
+- Query 		: ALTER TABLE `sa_table_report` ADD UNIQUE(`order_number`)
+
+
+2024-02-07 16:22:05
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'order_number'
+- Query 		: ALTER TABLE `sa_table_report` ADD UNIQUE(`order_number`)
+
+
+2024-02-07 16:24:29
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'order_number'
+- Query 		: ALTER TABLE sa_table_report ADD UNIQUE (order_number)
+
+
+2024-02-07 16:25:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'order_number'
+- Query 		: ALTER TABLE sa_table_report CHANGE order_number order_number VARCHAR(99) NOT NULL UNIQUE
+
+
+2024-02-07 16:30:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'order_number'
+- Query 		: ALTER TABLE sa_table_report CHANGE order_number order_number VARCHAR(99) NOT NULL UNIQUE
+
+
+2024-02-07 16:30:20
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Duplicate entry '' for key 'order_number'
+- Query 		: ALTER TABLE sa_table_report ADD UNIQUE(order_number)

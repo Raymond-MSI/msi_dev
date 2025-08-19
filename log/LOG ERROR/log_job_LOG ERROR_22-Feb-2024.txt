@@ -1,0 +1,243 @@
+File Error Log
+
+2024-02-22 14:35:26
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-02-22 14:35:43
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-02-22 15:34:05
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_reason_extend_date' doesn't exist
+- Query 		: SELECT * FROM `sa_reason_extend_date` where transaction_id = '32d0103e326e9b983f6c3a86d569e6d1'
+
+
+2024-02-22 15:34:05
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_reason_extend_date' doesn't exist
+- Query 		: SELECT * FROM `sa_reason_extend_date` where transaction_id = '32d0103e326e9b983f6c3a86d569e6d1'
+
+
+2024-02-22 15:34:57
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_reason_extend_date' doesn't exist
+- Query 		: SELECT * FROM `sa_reason_extend_date` where transaction_id = '32d0103e326e9b983f6c3a86d569e6d1'
+
+
+2024-02-22 15:34:57
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_reason_extend_date' doesn't exist
+- Query 		: SELECT * FROM `sa_reason_extend_date` where transaction_id = '32d0103e326e9b983f6c3a86d569e6d1'
+
+
+2024-02-22 15:35:33
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_reason_extend_date' doesn't exist
+- Query 		: SELECT * FROM `sa_reason_extend_date` where transaction_id = '32d0103e326e9b983f6c3a86d569e6d1'
+
+
+2024-02-22 15:35:33
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_reason_extend_date' doesn't exist
+- Query 		: SELECT * FROM `sa_reason_extend_date` where transaction_id = '32d0103e326e9b983f6c3a86d569e6d1'
+
+
+2024-02-22 15:35:36
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_reason_extend_date' doesn't exist
+- Query 		: SELECT * FROM `sa_reason_extend_date` where transaction_id = '32d0103e326e9b983f6c3a86d569e6d1'
+
+
+2024-02-22 15:35:36
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_reason_extend_date' doesn't exist
+- Query 		: SELECT * FROM `sa_reason_extend_date` where transaction_id = '32d0103e326e9b983f6c3a86d569e6d1'
+
+
+2024-02-22 15:35:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_reason_extend_date' doesn't exist
+- Query 		: SELECT * FROM `sa_reason_extend_date` where transaction_id = '32d0103e326e9b983f6c3a86d569e6d1'
+
+
+2024-02-22 15:35:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_reason_extend_date' doesn't exist
+- Query 		: SELECT * FROM `sa_reason_extend_date` where transaction_id = '32d0103e326e9b983f6c3a86d569e6d1'
+
+
+2024-02-22 15:36:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_reason_extend_date' doesn't exist
+- Query 		: SELECT * FROM sa_reason_extend_date where transaction_id = '32d0103e326e9b983f6c3a86d569e6d1'
+
+
+2024-02-22 15:36:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_reason_extend_date' doesn't exist
+- Query 		: SELECT * FROM sa_reason_extend_date where transaction_id = '32d0103e326e9b983f6c3a86d569e6d1'
+
+
+2024-02-22 15:36:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Unknown column 'a.project_id' in 'on clause'
+- Query 		: SELECT b.project_category FROM sa_wrike_project_list a LEFT JOIN sa_wrike_project_detail b ON a.project_id=b.project_id WHERE a.order_number='ORD-2023-00183' AND a.project_type='MSI Project Implementation'
+
+
+2024-02-22 15:36:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_board
+- SubModule		:  
+- Status 		: Unknown column 'a.project_id' in 'on clause'
+- Query 		: SELECT b.project_category FROM sa_wrike_project_list a LEFT JOIN sa_wrike_project_detail b ON a.project_id=b.project_id WHERE a.order_number='ORD-2023-00183' AND a.project_type='MSI Project Implementation'
+
+
+2024-02-22 15:36:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_reason_extend_date' doesn't exist
+- Query 		: SELECT * FROM sa_reason_extend_date where transaction_id = '32d0103e326e9b983f6c3a86d569e6d1'
+
+
+2024-02-22 15:36:43
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_reason_extend_date' doesn't exist
+- Query 		: SELECT * FROM sa_reason_extend_date where transaction_id = '32d0103e326e9b983f6c3a86d569e6d1'
+
+
+2024-02-22 15:37:30
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.project_id' in 'on clause'
+- Query 		: SELECT b.project_category FROM sa_wrike_project_list a LEFT JOIN sa_wrike_project_detail b ON a.project_id=b.project_id WHERE a.order_number='ORD-2023-00183' AND a.project_type='MSI Project Implementation'
+
+
+2024-02-22 16:54:29
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_general_implementations' doesn't exist
+- Query 		: select * from sa_general_implementations WHERE cr_no LIKE '%SP%'
+
+
+2024-02-22 16:54:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_general_implementation' doesn't exist
+- Query 		: select * from sa_general_implementation WHERE cr_no LIKE '%SP%'
+
+
+2024-02-22 16:55:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_general_implementation' doesn't exist
+- Query 		: select * from sa_general_implementation WHERE cr_no LIKE '%CR-SP%'
+
+
+2024-02-22 16:55:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_general_implementations' doesn't exist
+- Query 		: select * from sa_general_implementations WHERE cr_no LIKE '%CR-SP%'
+
+
+2024-02-22 16:55:15
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_general_implementations' doesn't exist
+- Query 		: select * from sa_general_implementations limit 100
+
+
+2024-02-22 16:55:16
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_general_implementations' doesn't exist
+- Query 		: select * from sa_general_implementations limit 100
+
+
+2024-02-22 16:55:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_general_implementations' doesn't exist
+- Query 		: select * from sa_general_implementations limit 100
+
+
+2024-02-22 16:55:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_general_implementations' doesn't exist
+- Query 		: select * from sa_general_implementations limit 100

@@ -1,0 +1,9 @@
+File Error Log
+
+2023-10-31 14:40:50
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_view_dashboard_wrike_resource' doesn't exist
+- Query 		: SELECT a.project_code,a.resource_email,a.resource_role,a.start_actual,a.finish_actual,b.project_type, b.no_so, c.order_number FROM `sa_view_dashboard_wrike_resource` a left join sa_wrike_project_list b ON a.project_id=b.id left join sa_initial_project c ON b.id=c.project_id WHERE b.project_type='MSI Project Maintenance'

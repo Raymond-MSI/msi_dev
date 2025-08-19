@@ -1,0 +1,307 @@
+File Error Log
+
+2024-03-04 08:14:04
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tabless' at line 1
+- Query 		: show tabless
+
+
+2024-03-04 08:27:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_complain WHERE complain_id=undefined
+
+
+2024-03-04 08:27:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_complain where complain_id=
+
+
+2024-03-04 08:27:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_complain where complain_id=
+
+
+2024-03-04 08:27:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_complain where complain_id=
+
+
+2024-03-04 08:27:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_complain where complain_id=
+
+
+2024-03-04 08:27:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_complain where complain_id=
+
+
+2024-03-04 08:27:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_complain where complain_id=
+
+
+2024-03-04 08:27:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_complain where complain_id=
+
+
+2024-03-04 08:27:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_complain where complain_id=
+
+
+2024-03-04 08:27:57
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_complain where complain_id=
+
+
+2024-03-04 09:55:47
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: Unknown column 'undefined' in 'where clause'
+- Query 		: SELECT * FROM sa_complain WHERE complain_id=undefined
+
+
+2024-03-04 09:55:47
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_complain where complain_id=
+
+
+2024-03-04 09:55:47
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_complain where complain_id=
+
+
+2024-03-04 09:55:47
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_complain where complain_id=
+
+
+2024-03-04 09:55:47
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_complain where complain_id=
+
+
+2024-03-04 09:55:47
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_complain where complain_id=
+
+
+2024-03-04 09:55:47
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_complain where complain_id=
+
+
+2024-03-04 09:55:47
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_complain where complain_id=
+
+
+2024-03-04 09:55:47
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_complain where complain_id=
+
+
+2024-03-04 09:55:47
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_complain where complain_id=
+
+
+2024-03-04 10:23:12
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_wrike_assignment' doesn't exist
+- Query 		: select * from sa_wrike_assignment WHERE project_id='IEAEOPF5I5FFKEDD'
+
+
+2024-03-04 10:32:11
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_complain' doesn't exist
+- Query 		: SELECT * FROM sa_complain WHERE complain_id is not null LIMIT 0, 100
+
+
+2024-03-04 10:33:30
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.SA_PRESCHEDULE' doesn't exist
+- Query 		: select * from SA_PRESCHEDULE WHERE project_id='IEAEOPF5I5FFKEDD'
+
+
+2024-03-04 10:42:17
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Column count doesn't match value count at row 1
+- Query 		: INSERT INTO sa_preschedule (project_id,project_code,task_id,task_name,catalogue_code,task_category,work_date,start_date,due_date,duration_date_minute,resource_id,resource_email,resource_role,assignment_type,permalink,google_event_id,flag,flag_update) VALUES ('IEAEOPF5I5FFKEDD','TR001023K0003','IEAEOPF5KRHELYTE','[[2023 RAPP] Testing] 6.1.1. Testing Standby Oncall','I.P.3 -  Design (Detail Task disesuaikan dengan Solusi)','Medium','2024-03-04','2024-03-04T09:00:00','2024-03-04T09:00:00',480,'KUAPND5L','arieftyarto@mastersystem.co.id','Project Coordinator','https://www.wrike.com/open.htm?id=1313202788',null,0,0)
+
+
+2024-03-04 11:14:44
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'event_id' in 'where clause'
+- Query 		: select * from sa_preschedule WHERE event_id='kcmh17mv1qol1k11c91d90lhag'
+
+
+2024-03-04 11:14:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'event_id' in 'where clause'
+- Query 		: select * from sa_preschedule WHERE event_id='kcmh17mv1qol1k11c91d90lhag'
+
+
+2024-03-04 11:15:19
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_wrike_assignment' doesn't exist
+- Query 		: select * from sa_wrike_assignment WHERE proejct_id='IEAEOPF5I5FFKEDD'
+
+
+2024-03-04 11:15:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'proejct_id' in 'where clause'
+- Query 		: select * from sa_wrike_assignment WHERE proejct_id='IEAEOPF5I5FFKEDD'
+
+
+2024-03-04 11:15:26
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'proejct_id' in 'where clause'
+- Query 		: select * from sa_wrike_assignment WHERE proejct_id='IEAEOPF5I5FFKEDD'
+
+
+2024-03-04 11:29:03
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_complain' doesn't exist
+- Query 		: SELECT * FROM sa_complain WHERE complain_id is not null LIMIT 0, 100
+
+
+2024-03-04 11:29:20
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_wrike_assignment WHERE project_id='IEAEOPF5I5FFKEDD'' at line 1
+- Query 		: select * from FROM sa_wrike_assignment WHERE project_id='IEAEOPF5I5FFKEDD'
+
+
+
+2024-03-04 11:30:03
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: log_complain
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_complain' doesn't exist
+- Query 		: SELECT * FROM sa_complain WHERE complain_id is not null LIMIT 0, 100
+
+
+2024-03-04 13:53:10
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC

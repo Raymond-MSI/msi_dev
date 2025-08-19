@@ -1,0 +1,18 @@
+File Error Log
+
+2024-02-19 14:06:24
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Incorrect datetime value: ''
+- Query 		: select * from sa_view_workload_calculation_actual LIMIT 100
+
+
+2024-02-19 14:14:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_catalogue_task_' doesn't exist
+- Query 		: select * from sa_catalogue_task_ LIMIT 1000

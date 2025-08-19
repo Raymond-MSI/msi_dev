@@ -1,0 +1,82 @@
+File Error Log
+
+2024-10-25 09:34:47
+- Server 		: Prod
+- User 			: muhamad.dicky@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 8, `brand` = 'Cisco', `modified_by` = 'Muhammad Dicky Hans Setiawan<muhamad.dicky@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 10470 AND `resource_level` = 21 AND `service_type`= 1
+
+
+2024-10-25 09:34:47
+- Server 		: Prod
+- User 			: muhamad.dicky@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 3, `brand` = 'Cisco', `modified_by` = 'Muhammad Dicky Hans Setiawan<muhamad.dicky@mastersystem.co.id>', `value` = 700, `catalog_type` = NULL WHERE `project_id` = 10470 AND `resource_level` = 51 AND `service_type`= 1
+
+
+2024-10-25 09:34:47
+- Server 		: Prod
+- User 			: muhamad.dicky@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 10, `brand` = 'Cisco', `modified_by` = 'Muhammad Dicky Hans Setiawan<muhamad.dicky@mastersystem.co.id>', `value` = 350, `catalog_type` = NULL WHERE `project_id` = 10470 AND `resource_level` = 61 AND `service_type`= 1
+
+
+2024-10-25 09:34:47
+- Server 		: Prod
+- User 			: muhamad.dicky@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: UPDATE `sa_trx_project_mandays` SET `mantotal` = 1, `mandays` = 22, `brand` = 'Cisco', `modified_by` = 'Muhammad Dicky Hans Setiawan<muhamad.dicky@mastersystem.co.id>', `value` = 250, `catalog_type` = NULL WHERE `project_id` = 10470 AND `resource_level` = 71 AND `service_type`= 1
+
+
+2024-10-25 09:59:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_proejct_detail' doesn't exist
+- Query 		: select * from sa_proejct_detail WHERE project_code='TS027723E0002'
+
+
+2024-10-25 11:04:15
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_trx_edo_request' doesn't exist
+- Query 		: SELECT * FROM sa_trx_edo_request
+
+
+2024-10-25 13:09:44
+- Server 		: Prod
+- User 			: feralia.fitri@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB002722D0057', 
+                    'ORD-2023-00297', 
+                    'pmr_date',
+                    'Feralia Fitri<feralia.fitri@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-10-25 14:33:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_trx_project_list' doesn't exist
+- Query 		: select * from sa_trx_project_list WHERE project_code='TB001722D0001'

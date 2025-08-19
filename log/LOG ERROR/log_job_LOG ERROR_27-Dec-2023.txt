@@ -1,0 +1,9 @@
+File Error Log
+
+2023-12-27 13:41:39
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_new_asse' doesn't exist
+- Query 		: truncate sa_new_asse

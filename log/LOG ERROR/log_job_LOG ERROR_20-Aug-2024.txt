@@ -1,0 +1,674 @@
+File Error Log
+
+2024-08-20 09:42:03
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-08-20 09:42:31
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-08-20 09:42:36
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-08-20 09:42:42
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-08-20 09:42:46
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: menu
+- SubModule		: menu
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2024-08-20 10:15:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '('259e2b84e038317c228ff915897a32ff','26647d4d2d7de76ca3e5aa799c51ad9c')' at line 3
+- Query 		: UPDATE sa_rental_transaction
+SET brands = 'Smartfren Jebus'
+WHERE id ('259e2b84e038317c228ff915897a32ff','26647d4d2d7de76ca3e5aa799c51ad9c'); 
+
+
+2024-08-20 11:02:23
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'dan status_return = 'Return'' at line 1
+- Query 		: select * from sa_rental_transaction_product where status_product = 'Peminjaman' dan status_return = 'Return'
+
+
+2024-08-20 11:17:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where status_product = 'Peminjaman'  and status_return = 'Return'
+GROUP BY pa...' at line 3
+- Query 		: 
+   SELECT count(nomor_seri) as total_count, part_number
+FROM sa_rental_transaction_product
+WHERE where status_product = 'Peminjaman'  and status_return = 'Return'
+GROUP BY part_number
+
+
+
+2024-08-20 11:17:37
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where status_product = 'Peminjaman'  and status_return = 'Return'
+GROUP BY pa...' at line 3
+- Query 		: 
+   SELECT count(nomor_seri) as total_count, part_number
+FROM sa_rental_transaction_product
+WHERE where status_product = 'Peminjaman'  and status_return = 'Return'
+GROUP BY part_number
+
+
+
+2024-08-20 11:59:18
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,3,1,2,'cisco',250,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-08-20 11:59:18
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,3,1,1,'cisco',350,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-08-20 11:59:18
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,2,'cisco',250,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-08-20 14:16:05
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,3,1,2,'cisco',250,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-08-20 14:16:05
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,3,1,1,'cisco',350,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-08-20 14:16:05
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,2,'cisco',250,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-08-20 14:40:02
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,3,1,2,'cisco',250,NULL,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-08-20 14:40:02
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,3,1,1,'cisco',350,NULL,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-08-20 14:40:02
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Column 'catalog_type' cannot be null
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,2,'cisco',250,NULL,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-08-20 14:59:13
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,3,1,2,'cisco',250,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-08-20 14:59:13
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,3,1,1,'cisco',350,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-08-20 14:59:13
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,2,'cisco',250,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-08-20 15:14:35
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE id = '2'
+
+
+2024-08-20 15:14:35
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE id = '2'
+
+
+2024-08-20 15:15:09
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE id = '2'
+
+
+2024-08-20 15:15:09
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE id = '2'
+
+
+2024-08-20 15:15:27
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE id = '2'
+
+
+2024-08-20 15:15:27
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE id = '2'
+
+
+2024-08-20 15:15:55
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE id = '2'
+
+
+2024-08-20 15:15:55
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: hcm_requirement
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement_interview WHERE id = '2'
+
+
+2024-08-20 15:25:46
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND  <> '') -- OR
+                        -- (MONTH(created_at) BETWEEN  AND ...' at line 11
+- Query 		: SELECT 
+                    part_number, 
+                    COUNT(CASE WHEN status_product = 'Peminjaman' AND status_return = 'Return' THEN 1 END) as count_peminjaman, 
+                    COUNT(CASE WHEN status_product = 'Sewa' AND status_return = 'Return' THEN 1 END) as count_return 
+                FROM 
+                    sa_rental_transaction_product 
+                WHERE 
+                    YEAR(created_at) = '' 
+                    AND (
+                        (MONTH(created_at) = '' AND '' <> '') OR
+                        (MONTH(created_at) BETWEEN  AND  <> '') -- OR
+                        -- (MONTH(created_at) BETWEEN  AND )
+                    )
+                    AND (
+                        (MONTH(created_at) = '' AND '' <> '')   OR
+                        (MONTH(created_at) BETWEEN  AND )
+                    )
+                GROUP BY 
+                    part_number;
+            
+
+
+2024-08-20 15:25:46
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND  <> '') -- OR
+                        -- (MONTH(created_at) BETWEEN  AND ...' at line 11
+- Query 		: SELECT 
+                    part_number, 
+                    COUNT(CASE WHEN status_product = 'Peminjaman' AND status_return = 'Return' THEN 1 END) as count_peminjaman, 
+                    COUNT(CASE WHEN status_product = 'Sewa' AND status_return = 'Return' THEN 1 END) as count_return 
+                FROM 
+                    sa_rental_transaction_product 
+                WHERE 
+                    YEAR(created_at) = '' 
+                    AND (
+                        (MONTH(created_at) = '' AND '' <> '') OR
+                        (MONTH(created_at) BETWEEN  AND  <> '') -- OR
+                        -- (MONTH(created_at) BETWEEN  AND )
+                    )
+                    AND (
+                        (MONTH(created_at) = '' AND '' <> '')   OR
+                        (MONTH(created_at) BETWEEN  AND )
+                    )
+                GROUP BY 
+                    part_number;
+            
+
+
+2024-08-20 15:28:33
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,31,3,1,2,'cisco',250,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-08-20 15:28:34
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,3,1,1,'cisco',350,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-08-20 15:28:34
+- Server 		: Prod
+- User 			: farizi.arya@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,3,1,2,'cisco',250,1,1,'Farizi Arya Putra<farizi.arya@mastersystem.co.id>')
+
+
+2024-08-20 15:41:19
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_trx_project_solutions_sub' doesn't exist
+- Query 		: select * from sa_trx_project_solutions_sub
+
+
+2024-08-20 15:55:44
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-20 15:55:44
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-20 15:55:59
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-20 15:55:59
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-20 15:56:19
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-20 15:56:19
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-20 15:58:07
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-20 15:58:07
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-20 15:59:44
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_rental_product_list.nomor_seri' in 'field list'
+- Query 		: SELECT sa_rental_product_list.nomor_seri, sa_rental_transaction_product.nomor_seri, sa_rental_transaction_product.status_product, sa_rental_transaction_product.status_return 
+FROM sa_rental_product_list
+FULL JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri= sa_rental_product_list.nomor_seri;
+
+
+2024-08-20 16:02:24
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_rental_product_list.nomor_seri' in 'field list'
+- Query 		: SELECT sa_rental_product_list.nomor_seri, sa_rental_transaction_product.nomor_seri, sa_rental_transaction_product.status_product, sa_rental_transaction_product.status_return 
+FROM sa_rental_product_list
+FULL JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri= sa_rental_transaction_product.nomor_seri;
+
+
+2024-08-20 16:04:18
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_rental_product_list.nomor_seri' in 'field list'
+- Query 		: SELECT sa_rental_product_list.nomor_seri, sa_rental_transaction_product.nomor_seri, sa_rental_transaction_product.status_product, sa_rental_transaction_product.status_return 
+FROM sa_rental_product_list
+FULL JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri= sa_rental_transaction_product.nomor_seri;
+
+
+2024-08-20 16:04:41
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_rental_product_list.nomor_seri' in 'field list'
+- Query 		: SELECT sa_rental_product_list.nomor_seri, sa_rental_transaction_product.nomor_seri
+FROM sa_rental_product_list
+FULL JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri= sa_rental_transaction_product.nomor_seri;
+
+
+2024-08-20 16:05:05
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_rental_product_list.nomor_seri' in 'field list'
+- Query 		: SELECT sa_rental_product_list.nomor_seri, sa_rental_transaction_product.nomor_seri
+FROM sa_rental_product_list
+FULL JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri= sa_rental_transaction_product.nomor_seri;
+
+
+2024-08-20 16:05:10
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_rental_product_list.nomor_seri' in 'field list'
+- Query 		: SELECT sa_rental_product_list.nomor_seri
+FROM sa_rental_product_list
+FULL JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri= sa_rental_transaction_product.nomor_seri;
+
+
+2024-08-20 16:09:20
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_rental_transaction.product.status_product' in 'where clause'
+- Query 		: select sa_rental_product_list.nomor_seri, sa_rental_transaction_product.status_product, sa_rental_transaction_product.status_return
+from sa_rental_product_list
+LEFT JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri 
+where sa_rental_transaction.product.status_product is null
+
+
+
+
+
+2024-08-20 16:09:24
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'null' at line 4
+- Query 		: select sa_rental_product_list.nomor_seri, sa_rental_transaction_product.status_product, sa_rental_transaction_product.status_return
+from sa_rental_product_list
+LEFT JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri 
+where sa_rental_transaction.product.status_product  null
+
+
+
+
+
+2024-08-20 16:09:29
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'sa_rental_transaction.product.status_product' in 'where clause'
+- Query 		: select sa_rental_product_list.nomor_seri, sa_rental_transaction_product.status_product, sa_rental_transaction_product.status_return
+from sa_rental_product_list
+LEFT JOIN sa_rental_transaction_product ON sa_rental_product_list.nomor_seri = sa_rental_transaction_product.nomor_seri 
+where sa_rental_transaction.product.status_product  IS NULL
+
+
+
+
+
+2024-08-20 16:12:31
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-20 16:12:31
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-20 16:13:07
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-20 16:13:07
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-20 16:14:17
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-20 16:14:17
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-20 16:15:17
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-20 16:15:17
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-20 16:47:57
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: UPDATE sa_department SET folder_name='01. Initiation & Planning' WHERE id=93
+
+
+2024-08-20 16:48:07
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: UPDATE sa_department SET folder_name='02. Execution' WHERE id=94
+
+
+
+2024-08-20 16:48:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: UPDATE sa_department SET folder_name='03. Monitoring & Control' WHERE id=95
+
+
+
+
+2024-08-20 16:48:16
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'id' in 'where clause'
+- Query 		: UPDATE sa_department SET folder_name='04. Closing' WHERE id=96
+
+
+2024-08-20 17:12:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '','TP007122G0002','TP004223G0001'' at line 3
+- Query 		: select * from sa_project_detail WHERE project_code IN ('TP004223G0005') 
+
+','TP007122G0002','TP004223G0001'

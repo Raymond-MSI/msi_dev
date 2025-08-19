@@ -1,0 +1,200 @@
+File Error Log
+
+2024-07-29 10:16:45
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = '0'
+
+
+2024-07-29 10:49:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_temporary_resource' doesn't exist
+- Query 		: select *  from sa_temporary_resource WHERE project_code='TE007819G0001'
+
+
+2024-07-29 10:59:20
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DELEYE from sa_maintenance_date WHERE order_number='ORD-2023-02651'' at line 1
+- Query 		: DELEYE from sa_maintenance_date WHERE order_number='ORD-2023-02651'
+
+
+2024-07-29 11:14:35
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'emlpoyee_email' in 'where clause'
+- Query 		: SELECT * from sa_view_employees WHERE emlpoyee_email LIKE '%sh%' 
+
+
+2024-07-29 11:14:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'emlpoyee_email' in 'where clause'
+- Query 		: SELECT * from sa_view_employees WHERE emlpoyee_email LIKE '%sh%' 
+
+
+2024-07-29 14:28:36
+- Server 		: Prod
+- User 			: irfan.hendriana@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+- Query 		: SELECT * FROM sa_trx_edo_request WHERE edo_id=
+
+
+2024-07-29 14:28:36
+- Server 		: Prod
+- User 			: irfan.hendriana@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  AND `module`='EDO' ORDER BY log_id DESC LIMIT 0, 25
+
+
+2024-07-29 14:47:19
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_kpi_so_wr' doesn't exist
+- Query 		: select * from sa_kpi_so_wr LIMIT 10
+
+
+2024-07-29 15:02:52
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,11,1,1,27,'Cisco',700,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-07-29 15:02:52
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,21,1,1,88,'Cisco',350,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-07-29 15:02:52
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,51,1,1,66,'Cisco',700,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-07-29 15:02:52
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,61,1,2,352,'Cisco',350,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-07-29 15:02:52
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,71,1,2,352,'Cisco',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-07-29 15:02:52
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,62,1,1,22,'VMware',350,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-07-29 15:02:52
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_mandays`, CONSTRAINT `sa_trx_project_mandays_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELETE CASCADE ON UPD)
+- Query 		: INSERT INTO `sa_trx_project_mandays` (`project_id`, `resource_level`, `resource_catalog_id`, `mantotal`, `mandays`, `brand`, `value`, `catalog_type`, `service_type`, `modified_by`) VALUES (0,72,1,1,22,'VMware',250,1,1,'Hartini Satiawan<hartini.satiawan@mastersystem.co.id>')
+
+
+2024-07-29 15:11:56
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'ststus_gm_offering' in 'field list'
+- Query 		: 
+
+UPDATE sa_hcm_requirement_interview SET ststus_gm_offering = 'Pending', catatan_gm_offering = NULL WHERE email_id = 226
+
+
+2024-07-29 16:18:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.project_code' in 'field list'
+- Query 		: select b.project_code,b.project_name,b.customer_name,a.maintenance_name_file,a.maintenance_plan_date,a.maintenance_aktual_date,c.entry_by as pm from sa_maintenance_date_kpi a left join sa_data_so b ON a.order_number=b.order_number left join sa_master_maintenance_date c ON b.order_number=c.order_number
+
+
+2024-07-29 16:19:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.project_code' in 'field list'
+- Query 		: select b.project_code,b.project_name,b.customer_name,a.maintenance_name_file,a.maintenance_plan_date,a.maintenance_aktual_date,c.entry_by as pm from sa_maintenance_date_kpi a left join sa_data_so b ON a.project_code=b.project_code left join sa_master_maintenance_date c ON b.order_number=c.order_number
+
+
+2024-07-29 16:19:43
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.project_code' in 'field list'
+- Query 		: select b.project_code,b.project_name,b.customer_name,a.maintenance_name_file,a.maintenance_plan_date,a.maintenance_aktual_date,c.entry_by as pm from sa_maintenance_date_kpi a left join sa_data_so b ON a.project_code=b.project_code left join sa_master_maintenance_date c ON b.project_code=c.project_code
+
+
+2024-07-29 16:20:44
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.project_code' in 'field list'
+- Query 		: select b.project_code,b.project_name,b.customer_name,a.maintenance_name_file,a.maintenance_plan_date,a.maintenance_aktual_date,c.entry_by from sa_maintenance_date_kpi a left join sa_data_so b ON a.project_code=b.project_code left join sa_master_maintenance_date c ON b.project_code=c.project_code
+
+
+2024-07-29 16:20:50
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.project_code' in 'on clause'
+- Query 		: select a.project_code,b.project_name,b.customer_name,a.maintenance_name_file,a.maintenance_plan_date,a.maintenance_aktual_date,c.entry_by from sa_maintenance_date_kpi a left join sa_data_so b ON a.project_code=b.project_code left join sa_master_maintenance_date c ON b.project_code=c.project_code
+
+
+2024-07-29 16:21:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'b.project_code' in 'on clause'
+- Query 		: select a.project_code,b.project_name,b.customer_name,a.maintenance_name_file,a.maintenance_plan_date,a.maintenance_aktual_date,c.entry_by from sa_maintenance_date_kpi a left join sa_data_so b ON a.project_code=b.project_code left join sa_master_maintenance_date c ON a.project_code=c.project_code

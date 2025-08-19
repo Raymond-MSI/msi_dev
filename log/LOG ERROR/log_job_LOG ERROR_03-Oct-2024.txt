@@ -1,0 +1,18 @@
+File Error Log
+
+2024-10-03 10:22:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_change_request.sa_master_maintenance_date' doesn't exist
+- Query 		: select * from sa_master_maintenance_date WHERE project_code='TI001422E0001'
+
+
+2024-10-03 13:58:42
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_initial_project' doesn't exist
+- Query 		: select * from sa_initial_project WHERE order_number='ORD-2024-02325'

@@ -1,0 +1,975 @@
+File Error Log
+
+2024-08-14 09:43:17
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:43:17
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:43:26
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:43:26
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:43:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:43:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:43:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:43:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:43:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:43:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:43:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:43:55
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:43:57
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:43:57
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:43:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:43:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:44:00
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:44:00
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:44:00
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:44:00
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:57:29
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:57:29
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:58:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:58:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:59:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:59:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:59:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:59:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:59:26
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:59:26
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:59:26
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:59:26
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:59:28
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:59:28
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:59:31
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:59:31
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:59:32
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:59:32
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:59:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:59:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 09:59:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 09:59:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 10:16:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 10:16:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 10:17:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 10:17:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 10:17:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 10:17:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 10:17:31
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 10:17:31
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 10:17:31
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 10:17:31
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 10:17:32
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 10:17:32
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 10:17:35
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 10:17:35
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 10:17:35
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 10:17:35
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 10:17:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 10:17:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 10:17:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-29377-P0W6V1' AND id_date=' mt_date_start'
+
+
+2024-08-14 10:17:37
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenancelama
+- Status 		: Table 'sa_wrike_integrate.sa_maintenance_date' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date WHERE order_number='ORD-2024-00033' AND id_date=' mt_date_end'
+
+
+2024-08-14 10:49:51
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'employee_name' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE employee_name like '%hanna%'
+
+
+2024-08-14 10:50:03
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'employee_name' in 'where clause'
+- Query 		: SELECT * FROM sa_hcm_requirement WHERE employee_name like '%malik%'
+
+
+2024-08-14 10:50:14
+- Server 		: Prod
+- User 			: malik.aulia@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_view_employee' doesn't exist
+- Query 		: SELECT * FROM sa_view_employee WHERE employee_name like '%malik%'
+
+
+2024-08-14 11:07:46
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND  `sa_dashboard_kpi`.`sa_user`.`kpi_status` = 'Not Yet Reviewed' AND `sa_d...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE `tahun_review` =  AND  `sa_dashboard_kpi`.`sa_user`.`kpi_status` = 'Not Yet Reviewed' AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE '%abdul.roby@mastersystem.co.id%' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2024-08-14 11:08:02
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND  `sa_dashboard_kpi`.`sa_user`.`kpi_status` = 'Not Yet Reviewed' AND `sa_d...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE `tahun_review` =  AND  `sa_dashboard_kpi`.`sa_user`.`kpi_status` = 'Not Yet Reviewed' AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE '%abdul.roby@mastersystem.co.id%' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2024-08-14 11:08:16
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND  `sa_dashboard_kpi`.`sa_user`.`kpi_status` = 'Not Yet Reviewed' AND `sa_d...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE `tahun_review` =  AND  `sa_dashboard_kpi`.`sa_user`.`kpi_status` = 'Not Yet Reviewed' AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE '%achmad.imam@mastersystem.co.id%' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2024-08-14 11:14:16
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND  `sa_dashboard_kpi`.`sa_user`.`kpi_status` = 'Not Yet Reviewed' AND `sa_d...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE `tahun_review` =  AND  `sa_dashboard_kpi`.`sa_user`.`kpi_status` = 'Not Yet Reviewed' AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE '%achmad.imam@mastersystem.co.id%' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2024-08-14 13:16:29
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-14 13:16:29
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-14 13:16:53
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-14 13:16:53
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-08-14 13:50:17
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = '0'
+
+
+2024-08-14 14:04:21
+- Server 		: Prod
+- User 			: wahyu.aji@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-08-14 14:04:21
+- Server 		: Prod
+- User 			: wahyu.aji@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-08-14 14:04:25
+- Server 		: Prod
+- User 			: wahyu.aji@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-08-14 14:04:25
+- Server 		: Prod
+- User 			: wahyu.aji@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_leave_approval
+- Status 		: 
+- Query 		: 
+
+
+2024-08-14 15:23:37
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND  `sa_dashboard_kpi`.`sa_user`.`kpi_status` = 'Not Yet Reviewed' AND `sa_d...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE `tahun_review` =  AND  `sa_dashboard_kpi`.`sa_user`.`kpi_status` = 'Not Yet Reviewed' AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE '%abdul.lathif@mastersystem.co.id%' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2024-08-14 15:23:44
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND  `sa_dashboard_kpi`.`sa_user`.`kpi_status` = 'Not Yet Reviewed' AND `sa_d...' at line 1
+- Query 		: SELECT * FROM `sa_dashboard_kpi`.`sa_user` WHERE `tahun_review` =  AND  `sa_dashboard_kpi`.`sa_user`.`kpi_status` = 'Not Yet Reviewed' AND `sa_dashboard_kpi`.`sa_user`.`Nama` LIKE '%abidzar.khalid@mastersystem.co.id%' ORDER BY `sa_dashboard_kpi`.`sa_user`.`Nama`
+
+
+2024-08-14 15:41:15
+- Server 		: Prod
+- User 			: agdi.rizky@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TM000922C0004', 
+                'ORD-29299-M2M9R2', 
+                '0',
+                'implementation',
+                'Closing Backdate',
+                '24', 
+                '0',
+                '4',
+                '24', 
+                '0',
+                '4',
+                '0',
+                'Agdi Rizky Fauzi<agdi.rizky@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-14 16:18:10
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = '0'
+
+
+2024-08-14 18:21:52
+- Server 		: Prod
+- User 			: nabella.yanza@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB002723D0048', 
+                'ORD-2023-01463', 
+                '0',
+                'sales',
+                'Menunggu dokumen renewal project',
+                '9', 
+                '12',
+                '2',
+                '9', 
+                '12',
+                '2',
+                '0',
+                'Nabella Yanza<nabella.yanza@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-14 18:36:51
+- Server 		: Prod
+- User 			: nabella.yanza@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB002723D0061', 
+                'ORD-2023-01834', 
+                '1',
+                '',
+                '',
+                '6', 
+                '0',
+                '1',
+                '6', 
+                '0',
+                '1',
+                '0',
+                'Nabella Yanza<nabella.yanza@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-14 18:47:46
+- Server 		: Prod
+- User 			: nabella.yanza@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB002722D0059', 
+                'ORD-2023-01233', 
+                '0',
+                'implementation',
+                'Pending karena ada open item',
+                '9', 
+                '0',
+                '4',
+                '9', 
+                '0',
+                '4',
+                '0',
+                'Nabella Yanza<nabella.yanza@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-14 18:59:17
+- Server 		: Prod
+- User 			: nabella.yanza@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB002722D0058', 
+                'ORD-28728-W7K9Y8', 
+                '0',
+                'implementation',
+                'Pending karena ada open item',
+                '27', 
+                '0',
+                '6',
+                '27', 
+                '0',
+                '6',
+                '0',
+                'Nabella Yanza<nabella.yanza@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-14 19:13:45
+- Server 		: Prod
+- User 			: nabella.yanza@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB002723D0062', 
+                'ORD-2024-00061', 
+                '1',
+                '',
+                '',
+                '6', 
+                '0',
+                '2',
+                '6', 
+                '0',
+                '2',
+                '0',
+                'Nabella Yanza<nabella.yanza@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')

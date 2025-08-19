@@ -1,0 +1,497 @@
+19-Nov-2024 10:31:55
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+19-Nov-2024 10:31:55
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+19-Nov-2024 10:36:00
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+19-Nov-2024 10:36:00
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+19-Nov-2024 10:55:11
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+19-Nov-2024 10:55:11
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+19-Nov-2024 10:59:41
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+19-Nov-2024 10:59:41
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+19-Nov-2024 11:01:52
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+19-Nov-2024 11:01:52
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+19-Nov-2024 11:04:58
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+19-Nov-2024 11:04:58
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+19-Nov-2024 11:07:33
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+19-Nov-2024 11:07:33
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+19-Nov-2024 11:23:18
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+19-Nov-2024 11:23:18
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'] Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+
+19-Nov-2024 20:03:11
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_implementations WHERE `project_id`=25467 AND service_type=2] MySQL server has gone away
+
+19-Nov-2024 20:03:11
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_implementations WHERE `project_id`=25467 AND service_type=3] MySQL server has gone away
+
+19-Nov-2024 20:03:12
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='DC'] MySQL server has gone away
+
+19-Nov-2024 20:03:12
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='EC'] MySQL server has gone away
+
+19-Nov-2024 20:03:12
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='BA'] MySQL server has gone away
+
+19-Nov-2024 20:03:12
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='DB'] MySQL server has gone away
+
+19-Nov-2024 20:03:12
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='SA'] MySQL server has gone away
+
+19-Nov-2024 20:03:12
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='SP'] MySQL server has gone away
+
+19-Nov-2024 20:04:48
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_implementations WHERE project_id=25467 AND service_type=1] MySQL server has gone away
+
+19-Nov-2024 20:04:48
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_implementations WHERE `project_id`=25467 AND service_type=2] MySQL server has gone away
+
+19-Nov-2024 20:04:48
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_implementations WHERE `project_id`=25467 AND service_type=3] MySQL server has gone away
+
+19-Nov-2024 20:04:49
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='DC'] MySQL server has gone away
+
+19-Nov-2024 20:04:49
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='EC'] MySQL server has gone away
+
+19-Nov-2024 20:04:49
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='BA'] MySQL server has gone away
+
+19-Nov-2024 20:04:49
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='DB'] MySQL server has gone away
+
+19-Nov-2024 20:04:49
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='SA'] MySQL server has gone away
+
+19-Nov-2024 20:04:49
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='SP'] MySQL server has gone away
+
+19-Nov-2024 20:04:59
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_implementations WHERE project_id=25467 AND service_type=1] MySQL server has gone away
+
+19-Nov-2024 20:04:59
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_implementations WHERE `project_id`=25467 AND service_type=2] MySQL server has gone away
+
+19-Nov-2024 20:04:59
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_implementations WHERE `project_id`=25467 AND service_type=3] MySQL server has gone away
+
+19-Nov-2024 20:05:00
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='DC'] MySQL server has gone away
+
+19-Nov-2024 20:05:00
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='EC'] MySQL server has gone away
+
+19-Nov-2024 20:05:00
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='BA'] MySQL server has gone away
+
+19-Nov-2024 20:05:00
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='DB'] MySQL server has gone away
+
+19-Nov-2024 20:05:00
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='SA'] MySQL server has gone away
+
+19-Nov-2024 20:05:00
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='SP'] MySQL server has gone away
+
+19-Nov-2024 20:17:41
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='EC'] MySQL server has gone away
+
+19-Nov-2024 20:17:41
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='SA'] MySQL server has gone away
+
+19-Nov-2024 20:18:40
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='EC'] MySQL server has gone away
+
+19-Nov-2024 20:18:40
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='DB'] MySQL server has gone away
+
+19-Nov-2024 20:18:40
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='SP'] MySQL server has gone away
+
+19-Nov-2024 20:20:21
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_implementations WHERE `project_id`=25721 AND service_type=2] MySQL server has gone away
+
+19-Nov-2024 20:20:21
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_implementations WHERE `project_id`=25721 AND service_type=3] MySQL server has gone away
+
+19-Nov-2024 20:20:22
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='DC'] MySQL server has gone away
+
+19-Nov-2024 20:20:22
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='EC'] MySQL server has gone away
+
+19-Nov-2024 20:20:22
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='BA'] MySQL server has gone away
+
+19-Nov-2024 20:20:22
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='DB'] MySQL server has gone away
+
+19-Nov-2024 20:20:22
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='SA'] MySQL server has gone away
+
+19-Nov-2024 20:20:22
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='SP'] MySQL server has gone away
+
+19-Nov-2024 20:20:29
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_implementations WHERE `project_id`=25721 AND service_type=2] MySQL server has gone away
+
+19-Nov-2024 20:20:29
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_trx_project_implementations WHERE `project_id`=25721 AND service_type=3] MySQL server has gone away
+
+19-Nov-2024 20:20:30
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='DC'] MySQL server has gone away
+
+19-Nov-2024 20:20:30
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='EC'] MySQL server has gone away
+
+19-Nov-2024 20:20:30
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='BA'] MySQL server has gone away
+
+19-Nov-2024 20:20:30
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='DB'] MySQL server has gone away
+
+19-Nov-2024 20:20:30
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='SA'] MySQL server has gone away
+
+19-Nov-2024 20:20:30
+- SubModule : 
+- Status    : Caught 'get_sql' error - [SELECT
+																		`id`,
+																		`project_solution_name`,
+																		`project_solution_code`
+																	FROM
+																		`sa_workload_config`
+																	WHERE
+																		LEFT(`project_solution_name`,2)='SP'] MySQL server has gone away
+

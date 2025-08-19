@@ -1,0 +1,369 @@
+File Error Log
+
+2024-10-31 06:07:46
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=31-Oct-2024 WHERE order_number='ORD-26257-N3S7J7' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 06:07:46
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=31-Oct-2024 WHERE order_number='ORD-26257-N3S7J7' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 06:16:28
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=31-Oct-2024 WHERE order_number='ORD-2024-00212' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 06:16:28
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=31-Oct-2024 WHERE order_number='ORD-2024-00212' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 06:20:22
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=31-Oct-2024 WHERE order_number='ORD-2023-01674' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 06:20:22
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=31-Oct-2024 WHERE order_number='ORD-2023-01674' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 06:25:41
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=31-Oct-2024 WHERE order_number='ORD-2023-00084' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 06:25:41
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=31-Oct-2024 WHERE order_number='ORD-2023-00084' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 06:43:31
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=31-Oct-2024 WHERE order_number='ORD-26665-H6S1L4' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 06:43:31
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=31-Oct-2024 WHERE order_number='ORD-26665-H6S1L4' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 06:49:50
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=31-Oct-2024 WHERE order_number='ORD-22427-K9Z9Q3' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 06:49:50
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=31-Oct-2024 WHERE order_number='ORD-22427-K9Z9Q3' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 06:58:37
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=31-Oct-2024 WHERE order_number='ORD-27241-H9R5J2' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 06:58:37
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=31-Oct-2024 WHERE order_number='ORD-27241-H9R5J2' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 08:49:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'seelect * from sa_general_informations WHERE requested_by_email='chrisheryand...' at line 1
+- Query 		: seelect * from sa_general_informations WHERE requested_by_email='chrisheryanda@mastersystem.co.id'
+
+
+2024-10-31 08:50:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'seelect * from sa_general_informations WHERE requested_by_email LIKE '%chrish...' at line 1
+- Query 		: seelect * from sa_general_informations WHERE requested_by_email LIKE '%chrisheryanda%'
+
+
+2024-10-31 13:26:13
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_user' doesn't exist
+- Query 		: select * from sa_user WHERE project_code='TB002722D0022' AND project_type LIKE '%Maintenance%'
+
+
+2024-10-31 13:29:12
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_resource_assignment' doesn't exist
+- Query 		: select * from sa_resource_assignment WHERE project_code='TB002723D0048' AND project_type LIKE '%Maintenance%' 
+
+
+2024-10-31 13:46:40
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-31 13:46:40
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-31 13:47:18
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-31 13:47:18
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-31 13:47:40
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-31 13:47:40
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-31 13:48:03
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-31 13:48:03
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-31 13:48:25
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-31 13:48:25
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-31 13:48:53
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-31 13:48:53
+- Server 		: Prod
+- User 			: sylvia
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = 'sylvia'
+
+
+2024-10-31 15:09:54
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_drive.sa_maintenance_date_kpi' doesn't exist
+- Query 		: SELECT * FROM sa_maintenance_date_kpi WHERE project_code='TB002323I0011'
+
+
+2024-10-31 15:18:25
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'no_so' in 'where clause'
+- Query 		: select * from sa_trx_project_list WHERE no_so='2020/SO/0578'
+
+
+2024-10-31 15:23:12
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=31-Oct-2024 WHERE order_number='ORD-2023-01687' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 15:23:12
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=31-Oct-2024 WHERE order_number='ORD-2023-01687' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 16:23:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_general_informations' doesn't exist
+- Query 		: select * from sa_general_informations LIMIT 500,20
+
+
+2024-10-31 16:30:08
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=31-Oct-2024 WHERE order_number='ORD-2023-00084' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 16:30:08
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=31-Oct-2024 WHERE order_number='ORD-2023-00084' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 16:32:54
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=31-Oct-2024 WHERE order_number='ORD-2023-00451' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 16:32:54
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=31-Oct-2024 WHERE order_number='ORD-2023-00451' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 16:36:00
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=31-Oct-2024 WHERE order_number='ORD-2023-00494' AND project_type='MSI Project Maintenance'
+
+
+2024-10-31 16:36:00
+- Server 		: Prod
+- User 			: anita.angelina@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Oct' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=31-Oct-2024 WHERE order_number='ORD-2023-00494' AND project_type='MSI Project Maintenance'

@@ -1,0 +1,16 @@
+21-Nov-2024 10:09:41
+- SubModule : MENU
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC] Table 'sa_microservices.sa_mst_module_update' doesn't exist
+
+21-Nov-2024 10:10:12
+- SubModule : MENU
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC] Table 'sa_microservices.sa_mst_module_update' doesn't exist
+
+21-Nov-2024 10:11:49
+- SubModule : MENU
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC] Table 'sa_microservices.sa_mst_module_update' doesn't exist
+
+21-Nov-2024 10:12:00
+- SubModule : MENU
+- Status    : Caught 'get_sql' error - [SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC] Table 'sa_microservices.sa_mst_module_update' doesn't exist
+

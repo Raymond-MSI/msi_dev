@@ -1,0 +1,166 @@
+File Error Log
+
+2023-10-18 10:38:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'so_number' in 'where clause'
+- Query 		: select * from sa_wrike_project_list WHERE so_number='2022/SO/1557'
+
+
+2023-10-18 10:39:47
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Field 'title' doesn't have a default value
+- Query 		: INSERT INTO sa_wrike_project_list (id,project_code,no_so,order_number) VALUES ('TEST','TESTING','SO_TEST','TEEST')
+
+
+2023-10-18 10:41:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Field 'title' doesn't have a default value
+- Query 		: INSERT INTO sa_wrike_project_list (id,project_code,no_so,order_number) VALUES ('TEST','TESTING','SO_TEST','TEEST')
+
+
+2023-10-18 10:46:16
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_view_dashboard_resource' doesn't exist
+- Query 		: SELECT * FROM sa_view_dashboard_resource WHERE project_id='TEST'
+
+
+2023-10-18 10:47:27
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_kpi_so_wr' doesn't exist
+- Query 		: select * from sa_kpi_so_wr limit 2
+
+
+2023-10-18 10:59:14
+- Server 		: Prod
+- User 			: ajie.prasetyo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_preschedule' doesn't exist
+- Query 		: select * from sa_preschedule where project_code = 'TT000220N0003'
+
+
+2023-10-18 10:59:29
+- Server 		: Prod
+- User 			: ajie.prasetyo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_preschedule' doesn't exist
+- Query 		: desc sa_preschedule
+
+
+2023-10-18 11:00:57
+- Server 		: Prod
+- User 			: ajie.prasetyo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'google_event_id' in 'where clause'
+- Query 		: select * from sa_schedule where google_event_id = 'IEAEOPF5KRB2VVDQ'
+
+
+2023-10-18 11:05:36
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_view_dashboard_wrike_resource' doesn't exist
+- Query 		: desc sa_view_dashboard_wrike_resource
+
+
+2023-10-18 11:13:32
+- Server 		: Prod
+- User 			: eulis.fitriansyah@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY log_id DESC LIMIT 0, 25' at line 1
+- Query 		: SELECT * FROM sa_logs WHERE edo_id =  ORDER BY log_id DESC LIMIT 0, 25
+
+
+2023-10-18 11:43:12
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_google_calendar.sa_trx_productivity' doesn't exist
+- Query 		: SELECT resource_email, work_on_weekends,
+   SUM(
+        IF(
+            status_calender = '' OR status_calender IS NULL,
+            IF(
+                permalink_gcalender = '' OR permalink_gcalender IS NULL,
+                0,
+                1
+            ),
+            0
+        )
+    ) as `none` 
+    FROM sa_trx_productivity 
+    WHERE 
+        task_date >= '2023-04-01'
+        AND task_date <= '2023-10-18'
+        AND project_type LIKE 'MSI Project%'
+        AND (
+            DAYOFWEEK(`task_date`) BETWEEN 2 AND 6
+            OR `status_calender`=1
+        )
+    GROUP BY resource_email, project_type
+    ORDER BY resource_email, project_type
+
+
+2023-10-18 12:01:44
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-10-11' AND task_date <= '2023-10-25' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2023-10-18 13:21:16
+- Server 		: Prod
+- User 			: zaimatul@mastersystem.co.id
+- Module 		:  
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type O...' at line 1
+- Query 		: SELECT IF(project_type='MSI Project Implementation', 'Implementation', IF(project_type='MSI Project Maintenance', 'Maintenance', IF(project_type='MSI Non-Project', 'Non-Project', IF(project_type='MSI Self Improvement', 'Self Improvement', 'none')))) AS `project_type`, COUNT(productivity_id) AS `plan`, SUM(IF(spen_time>0,IF(`status_calender`='accepted',1,0),0)) AS `actual` FROM sa_trx_productivity WHERE task_date >= '2023-10-11' AND task_date <= '2023-10-25' AND `resource_email` LIKE 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>' GROUP BY project_type ORDER BY `project_type`
+
+
+2023-10-18 13:42:51
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'so_number' in 'where clause'
+- Query 		: select * from sa_data_so where so_number='2022/SO/0135'
+
+
+2023-10-18 13:46:19
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'so_number_kpi' in 'where clause'
+- Query 		: DELETE FROM sa_kpi_board WHERE so_number_kpi='SO_TEST'
+
+
+2023-10-18 14:30:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: SELECT * from sa_data_so WHERE project_code='TB025823B0001'

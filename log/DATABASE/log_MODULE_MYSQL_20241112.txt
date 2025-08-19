@@ -1,0 +1,52 @@
+12-Nov-2024 14:36:09
+- SubModule : 
+- Status    : Caught 'get_sql' error - [UDPATE sa_trx_edo_leave SET approval_by = 'Lukman Susanto Kurniawan<lukman.susanto@mastersystem.co.id>;', flag_approval = 1 WHERE leave_id = 1145] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UDPATE sa_trx_edo_leave SET approval_by = 'Lukman Susanto Kurniawan<lukman.su...' at line 1
+
+12-Nov-2024 14:38:32
+- SubModule : 
+- Status    : Caught 'get_sql' error - [UDPATE sa_trx_edo_leave SET approval_by = 'Lukman Susanto Kurniawan<lukman.susanto@mastersystem.co.id>;', flag_approval = 1 WHERE leave_id = 1145] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UDPATE sa_trx_edo_leave SET approval_by = 'Lukman Susanto Kurniawan<lukman.su...' at line 1
+
+12-Nov-2024 14:39:50
+- SubModule : 
+- Status    : Caught 'get_sql' error - [UPDATE sa_trx_edo_leave SET approval_by = 'Lukman Susanto Kurniawan<lukman.susanto@mastersystem.co.id>;', flag_approval = 1 WHERE leave_id = 1145] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE leave_id = 1145' at line 1
+
+12-Nov-2024 14:40:18
+- SubModule : 
+- Status    : Caught 'get_sql' error - [UPDATE sa_trx_edo_leave SET approval_by = 'Lukman Susanto Kurniawan<lukman.susanto@mastersystem.co.id>;', flag_approval = '1' WHERE leave_id = 1145] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE leave_id = 1145' at line 1
+
+12-Nov-2024 14:40:41
+- SubModule : 
+- Status    : Caught 'get_sql' error - [UPDATE sa_trx_edo_leave SET approval_by = 'Lukman Susanto Kurniawan<lukman.susanto@mastersystem.co.id>;',flag_approval =1 WHERE leave_id = 1145] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE leave_id = 1145' at line 1
+
+12-Nov-2024 14:40:55
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_trx_edo_leave WHERE leave_id = 1145] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 1145' at line 1
+
+12-Nov-2024 14:41:07
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_trx_edo_leave WHERE leave_id = '1145'] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '1145'' at line 1
+
+12-Nov-2024 14:42:05
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_trx_edo_leave WHERE leave_id=1145] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=1145' at line 1
+
+12-Nov-2024 14:43:49
+- SubModule : 
+- Status    : Caught 'get_sql' error - [UPDATE sa_trx_edo_leave SET approval_by = 'Lukman Susanto Kurniawan<lukman.susanto@mastersystem.co.id>;',flag_approval =1 WHERE leave_id= 1145] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE leave_id= 1145' at line 1
+
+12-Nov-2024 14:44:05
+- SubModule : 
+- Status    : Caught 'get_sql' error - [UPDATE sa_trx_edo_leave SET approval_by = 'Lukman Susanto Kurniawan<lukman.susanto@mastersystem.co.id>;',flag_approval=1 WHERE leave_id= 1145] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE leave_id= 1145' at line 1
+
+12-Nov-2024 14:44:19
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_trx_edo_leave WHERE leave_id= 1145] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 1145' at line 1
+
+12-Nov-2024 14:44:24
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_trx_edo_leave WHERE leave_id=1145] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=1145' at line 1
+
+12-Nov-2024 14:44:32
+- SubModule : 
+- Status    : Caught 'get_sql' error - [select * from sa_trx_edo_leave WHERE leave_id=1145] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=1145' at line 1
+

@@ -1,0 +1,1402 @@
+File Error Log
+
+2024-08-19 09:03:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_rental_transaction_product.status_product 
+    FROM sa_rental_transaction
+...' at line 6
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.nama_perusahaan, 
+       GROUP_CONCAT(sa_rental_transaction_product.nomor_seri) AS nomor_seri_list
+        sa_rental_transaction_product.status_product 
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman'
+
+
+
+2024-08-19 09:03:09
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_rental_transaction_product.status_product 
+    FROM sa_rental_transaction
+...' at line 6
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.nama_perusahaan, 
+       GROUP_CONCAT(sa_rental_transaction_product.nomor_seri) AS nomor_seri_list
+        sa_rental_transaction_product.status_product 
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman'
+
+
+
+2024-08-19 09:03:11
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_rental_transaction_product.status_product 
+    FROM sa_rental_transaction
+...' at line 6
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.nama_perusahaan, 
+       GROUP_CONCAT(sa_rental_transaction_product.nomor_seri) AS nomor_seri_list
+        sa_rental_transaction_product.status_product 
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman'
+
+
+
+2024-08-19 09:03:11
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_rental_transaction_product.status_product 
+    FROM sa_rental_transaction
+...' at line 6
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.nama_perusahaan, 
+       GROUP_CONCAT(sa_rental_transaction_product.nomor_seri) AS nomor_seri_list
+        sa_rental_transaction_product.status_product 
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman'
+
+
+
+2024-08-19 09:04:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_rental_transaction_product.status_product 
+    FROM sa_rental_transaction
+...' at line 6
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.nama_perusahaan, 
+       GROUP_CONCAT(sa_rental_transaction_product.nomor_seri) AS nomor_seri_list
+        sa_rental_transaction_product.status_product 
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman'
+    GROUP BY sa_rental_transaction.nama_perusahaan
+
+
+
+2024-08-19 09:04:02
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sa_rental_transaction_product.status_product 
+    FROM sa_rental_transaction
+...' at line 6
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.nama_perusahaan, 
+       GROUP_CONCAT(sa_rental_transaction_product.nomor_seri) AS nomor_seri_list
+        sa_rental_transaction_product.status_product 
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman'
+    GROUP BY sa_rental_transaction.nama_perusahaan
+
+
+
+2024-08-19 09:47:36
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+    ...' at line 10
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.pic_user, 
+        sa_rental_transaction.alamat, 
+        sa_rental_transaction.nama_perusahaan, 
+        sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+        sa_rental_transaction_product.status_product ,
+        sa_rental_transaction_product.tipe_transaksi ,
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman' and  sa_rental_transaction.tipe_peminjaman = 'Customer' and sa_rental_transaction_product.tipe_transaksi = 'Peminjamman'
+
+
+
+2024-08-19 09:47:36
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+    ...' at line 10
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.pic_user, 
+        sa_rental_transaction.alamat, 
+        sa_rental_transaction.nama_perusahaan, 
+        sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+        sa_rental_transaction_product.status_product ,
+        sa_rental_transaction_product.tipe_transaksi ,
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman' and  sa_rental_transaction.tipe_peminjaman = 'Customer' and sa_rental_transaction_product.tipe_transaksi = 'Peminjamman'
+
+
+
+2024-08-19 09:47:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+    ...' at line 10
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.pic_user, 
+        sa_rental_transaction.alamat, 
+        sa_rental_transaction.nama_perusahaan, 
+        sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+        sa_rental_transaction_product.status_product ,
+        sa_rental_transaction_product.tipe_transaksi ,
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman' and  sa_rental_transaction.tipe_peminjaman = 'Customer' and sa_rental_transaction_product.tipe_transaksi = 'Peminjamman'
+
+
+
+2024-08-19 09:47:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+    ...' at line 10
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.pic_user, 
+        sa_rental_transaction.alamat, 
+        sa_rental_transaction.nama_perusahaan, 
+        sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+        sa_rental_transaction_product.status_product ,
+        sa_rental_transaction_product.tipe_transaksi ,
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman' and  sa_rental_transaction.tipe_peminjaman = 'Customer' and sa_rental_transaction_product.tipe_transaksi = 'Peminjamman'
+
+
+
+2024-08-19 09:47:39
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+    ...' at line 10
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.pic_user, 
+        sa_rental_transaction.alamat, 
+        sa_rental_transaction.nama_perusahaan, 
+        sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+        sa_rental_transaction_product.status_product ,
+        sa_rental_transaction_product.tipe_transaksi ,
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman' and  sa_rental_transaction.tipe_peminjaman = 'Customer' and sa_rental_transaction_product.tipe_transaksi = 'Peminjamman'
+
+
+
+2024-08-19 09:47:39
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+    ...' at line 10
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.pic_user, 
+        sa_rental_transaction.alamat, 
+        sa_rental_transaction.nama_perusahaan, 
+        sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+        sa_rental_transaction_product.status_product ,
+        sa_rental_transaction_product.tipe_transaksi ,
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman' and  sa_rental_transaction.tipe_peminjaman = 'Customer' and sa_rental_transaction_product.tipe_transaksi = 'Peminjamman'
+
+
+
+2024-08-19 09:47:41
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+    ...' at line 10
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.pic_user, 
+        sa_rental_transaction.alamat, 
+        sa_rental_transaction.nama_perusahaan, 
+        sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+        sa_rental_transaction_product.status_product ,
+        sa_rental_transaction_product.tipe_transaksi ,
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman' and  sa_rental_transaction.tipe_peminjaman = 'Customer' and sa_rental_transaction_product.tipe_transaksi = 'Peminjamman'
+
+
+
+2024-08-19 09:47:41
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+    ...' at line 10
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.pic_user, 
+        sa_rental_transaction.alamat, 
+        sa_rental_transaction.nama_perusahaan, 
+        sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+        sa_rental_transaction_product.status_product ,
+        sa_rental_transaction_product.tipe_transaksi ,
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman' and  sa_rental_transaction.tipe_peminjaman = 'Customer' and sa_rental_transaction_product.tipe_transaksi = 'Peminjamman'
+
+
+
+2024-08-19 09:48:22
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+    ...' at line 10
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.pic_user, 
+        sa_rental_transaction.alamat, 
+        sa_rental_transaction.nama_perusahaan, 
+        sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+        sa_rental_transaction_product.status_product ,
+        sa_rental_transaction.tipe_transaksi ,
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman' and  sa_rental_transaction.tipe_peminjaman = 'Customer' and sa_rental_transaction.tipe_transaksi = 'Peminjamman'
+
+
+
+2024-08-19 09:48:22
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+    ...' at line 10
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.pic_user, 
+        sa_rental_transaction.alamat, 
+        sa_rental_transaction.nama_perusahaan, 
+        sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+        sa_rental_transaction_product.status_product ,
+        sa_rental_transaction.tipe_transaksi ,
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman' and  sa_rental_transaction.tipe_peminjaman = 'Customer' and sa_rental_transaction.tipe_transaksi = 'Peminjamman'
+
+
+
+2024-08-19 09:48:24
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+    ...' at line 10
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.pic_user, 
+        sa_rental_transaction.alamat, 
+        sa_rental_transaction.nama_perusahaan, 
+        sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+        sa_rental_transaction_product.status_product ,
+        sa_rental_transaction.tipe_transaksi ,
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman' and  sa_rental_transaction.tipe_peminjaman = 'Customer' and sa_rental_transaction.tipe_transaksi = 'Peminjamman'
+
+
+
+2024-08-19 09:48:24
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+    ...' at line 10
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.pic_user, 
+        sa_rental_transaction.alamat, 
+        sa_rental_transaction.nama_perusahaan, 
+        sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+        sa_rental_transaction_product.status_product ,
+        sa_rental_transaction.tipe_transaksi ,
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman' and  sa_rental_transaction.tipe_peminjaman = 'Customer' and sa_rental_transaction.tipe_transaksi = 'Peminjamman'
+
+
+
+2024-08-19 09:48:25
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+    ...' at line 10
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.pic_user, 
+        sa_rental_transaction.alamat, 
+        sa_rental_transaction.nama_perusahaan, 
+        sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+        sa_rental_transaction_product.status_product ,
+        sa_rental_transaction.tipe_transaksi ,
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman' and  sa_rental_transaction.tipe_peminjaman = 'Customer' and sa_rental_transaction.tipe_transaksi = 'Peminjamman'
+
+
+
+2024-08-19 09:48:25
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+    ...' at line 10
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.pic_user, 
+        sa_rental_transaction.alamat, 
+        sa_rental_transaction.nama_perusahaan, 
+        sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+        sa_rental_transaction_product.status_product ,
+        sa_rental_transaction.tipe_transaksi ,
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.status_product = 'Peminjaman' and  sa_rental_transaction.tipe_peminjaman = 'Customer' and sa_rental_transaction.tipe_transaksi = 'Peminjamman'
+
+
+
+2024-08-19 09:51:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'sa_rental_transaction_product.tipe_transaksi' in 'where clause'
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.pic_user, 
+        sa_rental_transaction.alamat, 
+        sa_rental_transaction.nama_perusahaan, 
+        sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+        sa_rental_transaction_product.status_product ,
+        sa_rental_transaction.tipe_transaksi 
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.tipe_transaksi = 'Sewa'
+
+
+
+2024-08-19 09:51:34
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'sa_rental_transaction_product.tipe_transaksi' in 'where clause'
+- Query 		: 
+    SELECT 
+        sa_rental_transaction.id, 
+        sa_rental_transaction.tipe_peminjaman, 
+        sa_rental_transaction.pic_user, 
+        sa_rental_transaction.alamat, 
+        sa_rental_transaction.nama_perusahaan, 
+        sa_rental_transaction_product.nomor_seri as nomor_seri_list,
+        sa_rental_transaction_product.status_product ,
+        sa_rental_transaction.tipe_transaksi 
+    FROM sa_rental_transaction
+    INNER JOIN sa_rental_transaction_product 
+        ON sa_rental_transaction.id = sa_rental_transaction_product.transaction_id
+    WHERE sa_rental_transaction_product.tipe_transaksi = 'Sewa'
+
+
+
+2024-08-19 10:30:05
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_md_navision.sa_transaction' doesn't exist
+- Query 		: select * from sa_transaction
+
+
+2024-08-19 10:43:30
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_master_maintenance_date' doesn't exist
+- Query 		: select * from sa_master_maintenance_date GROUP BY approval_status
+
+
+2024-08-19 10:46:33
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'approval_status' in 'group statement'
+- Query 		: select * from sa_wrike_project_list GROUP BY approval_status
+
+
+2024-08-19 11:08:18
+- Server 		: Prod
+- User 			: alan.maulana@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB020823J0010', 
+                    'ORD-2024-00190', 
+                    'pmr_date',
+                    'Alan Maulana<alan.maulana@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-08-19 11:17:17
+- Server 		: Prod
+- User 			: alan.maulana@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB018923K0001', 
+                    'ORD-2023-00344', 
+                    'pmr_date',
+                    'Alan Maulana<alan.maulana@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-08-19 12:23:22
+- Server 		: Prod
+- User 			: feralia.fitri@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect date value: 'Array' for column `sa_dashboard_kpi`.`sa_maintenance_date`.`date` at row 1
+- Query 		: INSERT INTO `sa_maintenance_date` (
+                    `project_code`, 
+                    `order_number`, 
+                    `id_date`,
+                    `entry_by`, 
+                    `date`) VALUES (
+                    'TB002722D0087', 
+                    'ORD-2023-00338', 
+                    'pmr_date',
+                    'Feralia Fitri<feralia.fitri@mastersystem.co.id>',
+                    NULLIF('Array',''))
+
+
+2024-08-19 13:37:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '='Aceng Zakariya <aceng.zakariya@mastersystem.co.id>',approval_status='pendin...' at line 1
+- Query 		: UPDATE sa_master_maintenance_date approval_to='Aceng Zakariya <aceng.zakariya@mastersystem.co.id>',approval_status='pending' WHERE project_code='TM000923C0001'
+
+
+2024-08-19 14:14:58
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'full join sa_maintenance_date b ON a.order_number=b.order_number WHERE b.id_d...' at line 1
+- Query 		: select a.*,b.id_date from sa_master_maintenance_date a full join sa_maintenance_date b ON a.order_number=b.order_number WHERE b.id_date='mt_date_start'
+
+
+2024-08-19 14:27:46
+- Server 		: Prod
+- User 			: merinca@mastersystem.co.id
+- Module 		: order_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC' at line 1
+- Query 		: SELECT * FROM sa_view_order_number WHERE status_order=0 AND order_number LIKE '%ORD-2024-01770'%' AND project_code!='' AND (so_number LIKE '%SO%' OR so_number IS NULL OR so_number = '') ORDER BY order_id DESC
+
+
+2024-08-19 14:27:46
+- Server 		: Prod
+- User 			: merinca@mastersystem.co.id
+- Module 		: order_list
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 1
+- Query 		: SELECT * FROM sa_view_order_number WHERE order_number LIKE '%ORD-2024-01770'%'
+
+
+2024-08-19 14:38:58
+- Server 		: Prod
+- User 			: lucky.andiani@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_kpi_so_wr SET tahun_review=19-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-19 14:38:58
+- Server 		: Prod
+- User 			: lucky.andiani@mastersystem.co.id
+- Module 		: kpi_board_mt
+- SubModule		:  
+- Status 		: Unknown column 'Aug' in 'field list'
+- Query 		: UPDATE sa_user SET tahun_review=19-Aug-2024 WHERE order_number='ORD-29621-Y9K1H6' AND project_type='MSI Project Maintenance'
+
+
+2024-08-19 15:04:36
+- Server 		: Prod
+- User 			: herty.brigita@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: Incorrect integer value: '' for column `sa_dashboard_kpi`.`sa_master_maintenance_date`.`total_backup_mt_date` at row 1
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `gabungan`,
+                `openitem`,
+                `ontime_notes`,
+                `notes`,
+                `notes_openitem`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `total_backup_mt_date`,
+                `flag`,
+                `entry_by`,
+                `approval_to`,
+                `approval_status`,
+                `total_pmr_date`) VALUES (
+                'TB000524B0022', 
+                'ORD-2024-01758', 
+                '0',
+                '0',
+                '0',
+                'sales',
+                '',
+                '',
+                '99', 
+                '12',
+                '4',
+                '99', 
+                '12',
+                '4',
+                '',
+                '0',
+                'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending',
+                '0')
+
+
+2024-08-19 17:02:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: report_project_charter_mtt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND project_id is not null AND AND order_number is not null' at line 1
+- Query 		: SELECT * FROM sa_resource_assignment WHERE AND project_id is not null AND AND order_number is not null
+
+
+2024-08-19 17:02:42
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: report_project_charter_mtt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND project_type = 'Maintenance' AND AND approval_status='pending'' at line 1
+- Query 		: SELECT * FROM sa_resource_assignment WHERE AND project_type = 'Maintenance' AND AND approval_status='pending'
+
+
+2024-08-19 17:24:37
+- Server 		: Prod
+- User 			: hartini.satiawan@mastersystem.co.id
+- Module 		: service_budget
+- SubModule		:  
+- Status 		: Table 'sa_md_hcm.sa_mst_employee_non' doesn't exist
+- Query 		: SELECT `parent` FROM `sa_mst_employee_non` WHERE `employee_email` = '0'
+
+
+2024-08-19 17:26:46
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_trx_project_list' doesn't exist
+- Query 		: select * from sa_trx_project_list WHERE project_code='TL000821K0008'
+
+
+2024-08-19 18:53:13
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: hcm
+- SubModule		: edo_structure_project
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani',
+                'zaimatul@mastersystem.co.id',
+    ...' at line 9
+- Query 		: INSERT INTO `sa_mst_organization_project_employee`(
+		`employee_name`,
+                `employee_email`,
+                `structure_id`,
+                `entry_by`,
+                `entry_date`
+            )
+            VALUES(
+		'Za'imatul Hakimah Septiani',
+                'zaimatul@mastersystem.co.id',
+                49,
+                'Syamsul Arham<syamsul@mastersystem.co.id>',
+                '2024-08-19 18:53:13'
+            )
+
+
+2024-08-19 19:00:18
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 21
+- Query 		: SELECT 
+        resource_email, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_imp, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_imp, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_mnt, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_mnt, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_non, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_non, 
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_si,
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_si,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_imp_progress,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_imp_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_mnt_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_mnt_progress,
+		(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0))) AS total
+
+    FROM sa_trx_productivity 
+    WHERE
+        tracked_date >= '2024-08-01' AND 
+        tracked_date <= '2024-08-16'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+    GROUP BY resource_email
+	ORDER BY total
+	
+
+
+2024-08-19 19:00:18
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 14
+- Query 		: SELECT 
+		resource_email,
+		SUM(IF(status_calender = "accepted", 1, 0)) AS accepted, 
+		SUM(IF(status_calender = "declined", 1, 0)) AS declined, 
+		SUM(IF(status_calender = "needsAction", 1, 0)) AS needsAction, 
+		SUM(IF(status_calender = "tentative", 1, 0)) AS tentative, 
+		SUM(IF(status_calender = NULL, 1, 0)) AS `null`,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0))) AS total_task,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)))/(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0))) AS progress
+	FROM sa_trx_productivity 
+	WHERE
+		tracked_date >= '2024-08-01' AND 
+		tracked_date <= '2024-08-16'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+	GROUP BY resource_email
+	ORDER BY resource_email DESC
+
+
+2024-08-19 19:00:18
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 7
+- Query 		: SELECT
+                                `resource_email`
+                            FROM
+                                `sa_trx_productivity`
+                            WHERE
+                                `tracked_date` >= '2024-08-01' AND `tracked_date` <= '2024-08-16' AND `spen_time` IS NOT NULL
+                                 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+                                
+                            GROUP BY
+                                `resource_email`
+                            ORDER BY
+                                `resource_email` ASC;
+
+
+2024-08-19 19:00:18
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 33
+- Query 		: SELECT
+						`resource_email`,
+						`project_type`,
+						`project_code`,
+						`so_number`,
+						`order_number`,
+						`project_name`,
+						`customer_name`,
+						`start_date`,
+						`due_date`,
+						`task_date`,
+						`day_name`,
+						`work_on_weekends`,
+						`task_name`,
+						`resource_role`,
+						`leader_name`,
+						`department`,
+						`gm_name`,
+						`division`,
+						`available_time`,
+						`plan_time`,
+						`spen_time`,
+						`tracked_date`,
+						`entry_date`,
+						`status_calender`,
+						`permalink_wrike`,
+						`permalink_task`,
+						`permalink_gcalender`
+					FROM
+						`sa_trx_productivity`
+					WHERE
+						`tracked_date` >= '2024-08-01' AND `tracked_date` <= '2024-08-16'
+						 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+						
+						
+					ORDER BY
+						`resource_email` ASC;
+
+
+2024-08-19 19:00:30
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 21
+- Query 		: SELECT 
+        resource_email, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_imp, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_imp, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_mnt, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_mnt, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_non, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_non, 
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_si,
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_si,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_imp_progress,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_imp_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_mnt_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_mnt_progress,
+		(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0))) AS total
+
+    FROM sa_trx_productivity 
+    WHERE
+        tracked_date >= '2024-08-01' AND 
+        tracked_date <= '2024-08-16'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+    GROUP BY resource_email
+	ORDER BY total
+	
+
+
+2024-08-19 19:00:30
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 14
+- Query 		: SELECT 
+		resource_email,
+		SUM(IF(status_calender = "accepted", 1, 0)) AS accepted, 
+		SUM(IF(status_calender = "declined", 1, 0)) AS declined, 
+		SUM(IF(status_calender = "needsAction", 1, 0)) AS needsAction, 
+		SUM(IF(status_calender = "tentative", 1, 0)) AS tentative, 
+		SUM(IF(status_calender = NULL, 1, 0)) AS `null`,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0))) AS total_task,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)))/(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0))) AS progress
+	FROM sa_trx_productivity 
+	WHERE
+		tracked_date >= '2024-08-01' AND 
+		tracked_date <= '2024-08-16'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+	GROUP BY resource_email
+	ORDER BY resource_email DESC
+
+
+2024-08-19 19:00:30
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 7
+- Query 		: SELECT
+                                `resource_email`
+                            FROM
+                                `sa_trx_productivity`
+                            WHERE
+                                `tracked_date` >= '2024-08-01' AND `tracked_date` <= '2024-08-16' AND `spen_time` IS NOT NULL
+                                 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+                                
+                            GROUP BY
+                                `resource_email`
+                            ORDER BY
+                                `resource_email` ASC;
+
+
+2024-08-19 19:00:30
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 33
+- Query 		: SELECT
+						`resource_email`,
+						`project_type`,
+						`project_code`,
+						`so_number`,
+						`order_number`,
+						`project_name`,
+						`customer_name`,
+						`start_date`,
+						`due_date`,
+						`task_date`,
+						`day_name`,
+						`work_on_weekends`,
+						`task_name`,
+						`resource_role`,
+						`leader_name`,
+						`department`,
+						`gm_name`,
+						`division`,
+						`available_time`,
+						`plan_time`,
+						`spen_time`,
+						`tracked_date`,
+						`entry_date`,
+						`status_calender`,
+						`permalink_wrike`,
+						`permalink_task`,
+						`permalink_gcalender`
+					FROM
+						`sa_trx_productivity`
+					WHERE
+						`tracked_date` >= '2024-08-01' AND `tracked_date` <= '2024-08-16'
+						 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+						
+						
+					ORDER BY
+						`resource_email` ASC;
+
+
+2024-08-19 19:01:12
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 21
+- Query 		: SELECT 
+        resource_email, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_imp, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_imp, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_mnt, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_mnt, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_non, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_non, 
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_si,
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_si,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_imp_progress,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_imp_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_mnt_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_mnt_progress,
+		(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0))) AS total
+
+    FROM sa_trx_productivity 
+    WHERE
+        tracked_date >= '2024-08-13' AND 
+        tracked_date <= '2024-08-19'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+    GROUP BY resource_email
+	ORDER BY total
+	
+
+
+2024-08-19 19:01:12
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 14
+- Query 		: SELECT 
+		resource_email,
+		SUM(IF(status_calender = "accepted", 1, 0)) AS accepted, 
+		SUM(IF(status_calender = "declined", 1, 0)) AS declined, 
+		SUM(IF(status_calender = "needsAction", 1, 0)) AS needsAction, 
+		SUM(IF(status_calender = "tentative", 1, 0)) AS tentative, 
+		SUM(IF(status_calender = NULL, 1, 0)) AS `null`,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0))) AS total_task,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)))/(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0))) AS progress
+	FROM sa_trx_productivity 
+	WHERE
+		tracked_date >= '2024-08-13' AND 
+		tracked_date <= '2024-08-19'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+	GROUP BY resource_email
+	ORDER BY resource_email DESC
+
+
+2024-08-19 19:01:12
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 7
+- Query 		: SELECT
+                                `resource_email`
+                            FROM
+                                `sa_trx_productivity`
+                            WHERE
+                                `tracked_date` >= '2024-08-13' AND `tracked_date` <= '2024-08-19' AND `spen_time` IS NOT NULL
+                                 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+                                
+                            GROUP BY
+                                `resource_email`
+                            ORDER BY
+                                `resource_email` ASC;
+
+
+2024-08-19 19:01:12
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 33
+- Query 		: SELECT
+						`resource_email`,
+						`project_type`,
+						`project_code`,
+						`so_number`,
+						`order_number`,
+						`project_name`,
+						`customer_name`,
+						`start_date`,
+						`due_date`,
+						`task_date`,
+						`day_name`,
+						`work_on_weekends`,
+						`task_name`,
+						`resource_role`,
+						`leader_name`,
+						`department`,
+						`gm_name`,
+						`division`,
+						`available_time`,
+						`plan_time`,
+						`spen_time`,
+						`tracked_date`,
+						`entry_date`,
+						`status_calender`,
+						`permalink_wrike`,
+						`permalink_task`,
+						`permalink_gcalender`
+					FROM
+						`sa_trx_productivity`
+					WHERE
+						`tracked_date` >= '2024-08-13' AND `tracked_date` <= '2024-08-19'
+						 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+						
+						
+					ORDER BY
+						`resource_email` ASC;
+
+
+2024-08-19 19:04:11
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 21
+- Query 		: SELECT 
+        resource_email, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_imp, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_imp, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_mnt, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_mnt, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_non, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_non, 
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_si,
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_si,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_imp_progress,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_imp_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_mnt_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_mnt_progress,
+		(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0))) AS total
+
+    FROM sa_trx_productivity 
+    WHERE
+        tracked_date >= '2024-08-13' AND 
+        tracked_date <= '2024-08-19'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+    GROUP BY resource_email
+	ORDER BY total
+	
+
+
+2024-08-19 19:04:11
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 14
+- Query 		: SELECT 
+		resource_email,
+		SUM(IF(status_calender = "accepted", 1, 0)) AS accepted, 
+		SUM(IF(status_calender = "declined", 1, 0)) AS declined, 
+		SUM(IF(status_calender = "needsAction", 1, 0)) AS needsAction, 
+		SUM(IF(status_calender = "tentative", 1, 0)) AS tentative, 
+		SUM(IF(status_calender = NULL, 1, 0)) AS `null`,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0))) AS total_task,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)))/(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0))) AS progress
+	FROM sa_trx_productivity 
+	WHERE
+		tracked_date >= '2024-08-13' AND 
+		tracked_date <= '2024-08-19'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+	GROUP BY resource_email
+	ORDER BY resource_email DESC
+
+
+2024-08-19 19:04:11
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 7
+- Query 		: SELECT
+                                `resource_email`
+                            FROM
+                                `sa_trx_productivity`
+                            WHERE
+                                `tracked_date` >= '2024-08-13' AND `tracked_date` <= '2024-08-19' AND `spen_time` IS NOT NULL
+                                 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+                                
+                            GROUP BY
+                                `resource_email`
+                            ORDER BY
+                                `resource_email` ASC;
+
+
+2024-08-19 19:04:11
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 33
+- Query 		: SELECT
+						`resource_email`,
+						`project_type`,
+						`project_code`,
+						`so_number`,
+						`order_number`,
+						`project_name`,
+						`customer_name`,
+						`start_date`,
+						`due_date`,
+						`task_date`,
+						`day_name`,
+						`work_on_weekends`,
+						`task_name`,
+						`resource_role`,
+						`leader_name`,
+						`department`,
+						`gm_name`,
+						`division`,
+						`available_time`,
+						`plan_time`,
+						`spen_time`,
+						`tracked_date`,
+						`entry_date`,
+						`status_calender`,
+						`permalink_wrike`,
+						`permalink_task`,
+						`permalink_gcalender`
+					FROM
+						`sa_trx_productivity`
+					WHERE
+						`tracked_date` >= '2024-08-13' AND `tracked_date` <= '2024-08-19'
+						 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+						
+						
+					ORDER BY
+						`resource_email` ASC;
+
+
+2024-08-19 19:06:06
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 21
+- Query 		: SELECT 
+        resource_email, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_imp, 
+        SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_imp, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_mnt, 
+        SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_mnt, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_non, 
+        SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_non, 
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0)) AS total_time_si,
+        SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", 1, 0), 0)) AS total_task_si,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_imp_progress,
+        (SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_imp_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", 1, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", 1, 0), 0)))) AS task_mnt_progress,
+        (SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))/(SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0))+SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)))) AS time_mnt_progress,
+		(SUM(IF(project_type = "MSI Project Implementation", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Project Maintenance", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Non-Project", IF(status_calender = "accepted", spen_time, 0), 0)) + SUM(IF(project_type = "MSI Self Improvement", IF(status_calender = "accepted", spen_time, 0), 0))) AS total
+
+    FROM sa_trx_productivity 
+    WHERE
+        tracked_date >= '2024-08-13' AND 
+        tracked_date <= '2024-08-19'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+    GROUP BY resource_email
+	ORDER BY total
+	
+
+
+2024-08-19 19:06:06
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 14
+- Query 		: SELECT 
+		resource_email,
+		SUM(IF(status_calender = "accepted", 1, 0)) AS accepted, 
+		SUM(IF(status_calender = "declined", 1, 0)) AS declined, 
+		SUM(IF(status_calender = "needsAction", 1, 0)) AS needsAction, 
+		SUM(IF(status_calender = "tentative", 1, 0)) AS tentative, 
+		SUM(IF(status_calender = NULL, 1, 0)) AS `null`,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0))) AS total_task,
+		(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)))/(SUM(IF(status_calender = "accepted", 1, 0)) + SUM(IF(status_calender = "declined", 1, 0)) + SUM(IF(status_calender = "needsAction", 1, 0)) + SUM(IF(status_calender IS NULL, 1, 0)) + SUM(IF(status_calender = "tentative", 1, 0))) AS progress
+	FROM sa_trx_productivity 
+	WHERE
+		tracked_date >= '2024-08-13' AND 
+		tracked_date <= '2024-08-19'
+		 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+		
+		
+	GROUP BY resource_email
+	ORDER BY resource_email DESC
+
+
+2024-08-19 19:06:06
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 7
+- Query 		: SELECT
+                                `resource_email`
+                            FROM
+                                `sa_trx_productivity`
+                            WHERE
+                                `tracked_date` >= '2024-08-13' AND `tracked_date` <= '2024-08-19' AND `spen_time` IS NOT NULL
+                                 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+                                
+                            GROUP BY
+                                `resource_email`
+                            ORDER BY
+                                `resource_email` ASC;
+
+
+2024-08-19 19:06:06
+- Server 		: Prod
+- User 			: cassendra@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: chart_productivity
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<...' at line 33
+- Query 		: SELECT
+						`resource_email`,
+						`project_type`,
+						`project_code`,
+						`so_number`,
+						`order_number`,
+						`project_name`,
+						`customer_name`,
+						`start_date`,
+						`due_date`,
+						`task_date`,
+						`day_name`,
+						`work_on_weekends`,
+						`task_name`,
+						`resource_role`,
+						`leader_name`,
+						`department`,
+						`gm_name`,
+						`division`,
+						`available_time`,
+						`plan_time`,
+						`spen_time`,
+						`tracked_date`,
+						`entry_date`,
+						`status_calender`,
+						`permalink_wrike`,
+						`permalink_task`,
+						`permalink_gcalender`
+					FROM
+						`sa_trx_productivity`
+					WHERE
+						`tracked_date` >= '2024-08-13' AND `tracked_date` <= '2024-08-19'
+						 AND `resource_email` IN ('Naufal Reinaldi Hertanto<naufal.reinaldi@mastersystem.co.id>', 'Randy Rozano<randy.rozano@mastersystem.co.id>', 'Alwan Rafif Agriya<alwan.rafif@mastersystem.co.id>', 'Andri Ramadhani<andri.ramadhani@mastersystem.co.id>', 'Niki Ihsanul Hakim<niki.ihsanul@mastersystem.co.id>', 'Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>', 'Rio Agustian Fajarin<rio.agustian@mastersystem.co.id>', 'Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>', 'Bill Julian Bana<bill.julian@mastersystem.co.id>', 'Alan Maulana<alan.maulana@mastersystem.co.id>', 'Roza Muhammad Shidqi<roza.muhammad@mastersystem.co.id>', 'Rafiq Abdul Aziz Saifullah<rafiq.abdul@mastersystem.co.id>', 'Herty Brigita Surbakti<herty.brigita@mastersystem.co.id>', 'Bayu Akbar Pebrian<bayu.akbar@mastersystem.co.id>', 'Muhammad Ashiv Hakim<ashiv.hakim@mastersystem.co.id>', 'Innaya Maitsa Putri<innaya@mastersystem.co.id>', 'Shendi Yanda Pratama<shendi.yanda@mastersystem.co.id>', 'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>', 'Fibyan Saleh Anthony<fibyan.saleh@mastersystem.co.id>')
+						
+						
+					ORDER BY
+						`resource_email` ASC;

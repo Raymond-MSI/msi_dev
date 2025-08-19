@@ -1,0 +1,738 @@
+File Error Log
+
+2024-08-01 06:19:30
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: Unknown column 'total_cte' in 'field list'
+- Query 		: SELECT COUNT(total_cte) as jumlah_cte,Count(project_code) jumlah_project FROM sa_user WHERE project_type LIKE '%Maintenance%' AND status_wr='Closed'
+
+
+2024-08-01 06:21:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: Unknown column 'total_cte' in 'field list'
+- Query 		: SELECT COUNT(total_cte) as jumlah_cte,Count(project_code) jumlah_project FROM sa_user WHERE project_type LIKE '%Maintenance%' AND status_wr='Closed'
+
+
+2024-08-01 06:21:28
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: Unknown column 'total_cte' in 'field list'
+- Query 		: SELECT COUNT(total_cte) as jumlah_cte,Count(project_code) jumlah_project FROM sa_user WHERE project_type LIKE '%Maintenance%' AND status_wr='Closed'
+
+
+2024-08-01 06:24:32
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: Unknown column 'total_cte' in 'field list'
+- Query 		: SELECT COUNT(total_cte) as jumlah_cte,Count(project_code) jumlah_project FROM sa_user WHERE project_type LIKE '%Maintenance%' AND status_wr='Closed'
+
+
+2024-08-01 06:34:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: Unknown column 'a.total_cte' in 'field list'
+- Query 		: SELECT COUNT(a.total_cte) as jumlah_cte,Count(a.project_code) jumlah_project,a.Nama,b.status_wr FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%' AND b.status_wr='Closed' GROUP BY a.Nama
+
+
+2024-08-01 06:34:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: Unknown column 'a.total_cte' in 'field list'
+- Query 		: SELECT COUNT(a.total_cte) as jumlah_cte,Count(a.project_code) jumlah_project,a.Nama,b.status_wr FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%' AND b.status_wr='Closed' GROUP BY a.Nama
+
+
+2024-08-01 06:34:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: Unknown column 'a.total_cte' in 'field list'
+- Query 		: SELECT COUNT(a.total_cte) as jumlah_cte,Count(a.project_code) jumlah_project,a.Nama,b.status_wr FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%' AND b.status_wr='Closed' GROUP BY a.Nama
+
+
+2024-08-01 06:34:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: Unknown column 'a.total_cte' in 'field list'
+- Query 		: SELECT COUNT(a.total_cte) as jumlah_cte,Count(a.project_code) jumlah_project,a.Nama,b.status_wr FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%' AND b.status_wr='Closed' GROUP BY a.Nama
+
+
+2024-08-01 06:34:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: Unknown column 'a.total_cte' in 'field list'
+- Query 		: SELECT COUNT(a.total_cte) as jumlah_cte,Count(a.project_code) jumlah_project,a.Nama,b.status_wr FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%' AND b.status_wr='Closed' GROUP BY a.Nama
+
+
+2024-08-01 06:34:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: Unknown column 'a.total_cte' in 'field list'
+- Query 		: SELECT COUNT(a.total_cte) as jumlah_cte,Count(a.project_code) jumlah_project,a.Nama,b.status_wr FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%' AND b.status_wr='Closed' GROUP BY a.Nama
+
+
+2024-08-01 06:35:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.total_cte' in 'field list'
+- Query 		: SELECT COUNT(a.total_cte) as jumlah_cte,Count(a.project_code) jumlah_project,a.Nama,b.status_wr FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%' AND b.status_wr='Closed' GROUP BY a.Nama
+
+
+2024-08-01 06:35:36
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.total_cte' in 'field list'
+- Query 		: SELECT COUNT(a.total_cte) as jumlah_cte,COUNT(a.project_code) as jumlah_project,a.Nama,b.status_wr FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%' AND b.status_wr='Closed' GROUP BY a.Nama
+
+
+2024-08-01 06:36:38
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'a.total_cte' in 'field list'
+- Query 		: SELECT a.total_cte as jumlah_cte,a.project_code as jumlah_project,a.Nama,b.status_wr FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.project_type LIKE '%Maintenance%' AND b.status_wr='Closed' GROUP BY a.Nama
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Abdul Roby Sukma<abdul.roby@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Abdul Roby Sukma<abdul.roby@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Achmad Imam Faozan<achmad.imam@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Achmad Imam Faozan<achmad.imam@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Adhly Hasbi Fadhlillah<adhly.hasbi@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Adhly Hasbi Fadhlillah<adhly.hasbi@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Aditya Wicaksono<aditya.wicaksono@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Aditya Wicaksono<aditya.wicaksono@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Adriyanto<adriyanto@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Adriyanto<adriyanto@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Agdi Rizky Fauzi<agdi.rizky@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Agdi Rizky Fauzi<agdi.rizky@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Agus Herdiyana<agus.herdiyana@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Agus Herdiyana<agus.herdiyana@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Ahmad Ilmawan Islami<ahmad.ilmawan@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Ahmad Ilmawan Islami<ahmad.ilmawan@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Aldo Octavianto Maelissa<aldo.octavianto@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Alifian Bayu Hibatullah<alifian.bayu@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:13:10
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Alifian Bayu Hibatullah<alifian.bayu@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:32:38
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Abdul Roby Sukma<abdul.roby@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:32:38
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Abdul Roby Sukma<abdul.roby@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 08:33:49
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.order_number' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Bill Julian Bana<bill.julian@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' AND GROUP BY a.order_number
+
+
+2024-08-01 09:27:19
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>%' AND b.status_wr LIKE '...' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' GROUP BY a.order_number
+
+
+2024-08-01 09:27:19
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: kpi_project
+- SubModule		: dashboard_kpi_maintenance_admin
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>%' AND b.status_wr LIKE '...' at line 1
+- Query 		: SELECT a.* FROM sa_user a left join sa_kpi_so_wr b ON a.order_number=b.order_number WHERE a.Nama LIKE '%Za'imatul Hakimah Septiani<zaimatul@mastersystem.co.id>%' AND b.status_wr LIKE '%Closed%' GROUP BY a.order_number
+
+
+2024-08-01 10:03:42
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_code' in 'where clause'
+- Query 		: select * from sa_data_so WHERE project_code='TB002722D0050'
+
+
+2024-08-01 15:21:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_initiail_project' doesn't exist
+- Query 		: select * from sa_initiail_project WHERE project_code='TB000821C0011'
+
+
+2024-08-01 15:29:56
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB032922C0007', 
+                'ORD-28791-Q5B7B3', 
+                '1',
+                '',
+                '',
+                '84', 
+                '0',
+                '12',
+                '84', 
+                '0',
+                '12',
+                '0',
+                'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-01 15:32:43
+- Server 		: Prod
+- User 			: rezha.aulia@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB002323I0039', 
+                'ORD-2023-02952', 
+                '0',
+                'customer',
+                'Penandatanganan BAST dari customer',
+                '8', 
+                '0',
+                '12',
+                '8', 
+                '0',
+                '12',
+                '0',
+                'Rezha Aulia Riyanda<rezha.aulia@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-01 15:39:49
+- Server 		: Prod
+- User 			: rezha.aulia@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB002323I0010', 
+                'ORD-2023-00830', 
+                '0',
+                'customer',
+                'Penandatanganan BAST dari customer',
+                '8', 
+                '0',
+                '12',
+                '8', 
+                '0',
+                '12',
+                '0',
+                'Rezha Aulia Riyanda<rezha.aulia@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-01 16:19:42
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB031922C0006', 
+                'ORD-28917-N7F9D2', 
+                '0',
+                'implementation',
+                'Implementasi Mundur',
+                '9', 
+                '0',
+                '6',
+                '9', 
+                '0',
+                '6',
+                '0',
+                'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-01 16:27:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_resource_temporary' doesn't exist
+- Query 		: select * from sa_resource_temporary WHERE project_code='TB031922C0006'
+
+
+2024-08-01 16:33:25
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TT010723C0001', 
+                'ORD-2023-02572', 
+                '1',
+                '',
+                '',
+                '6', 
+                '0',
+                '1',
+                '6', 
+                '0',
+                '1',
+                '0',
+                'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-01 16:34:07
+- Server 		: Prod
+- User 			: innaya@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TK001523I0005', 
+                'ORD-2023-02300', 
+                '0',
+                'sales',
+                'Assigntment Sales Backdate',
+                '9', 
+                '0',
+                '4',
+                '9', 
+                '0',
+                '4',
+                '0',
+                'Innaya Maitsa Putri<innaya@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-01 17:04:06
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB031922C0006', 
+                'ORD-28917-N7F9D2', 
+                '0',
+                'implementation',
+                '',
+                '9', 
+                '0',
+                '6',
+                '9', 
+                '0',
+                '6',
+                '0',
+                'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-01 17:20:21
+- Server 		: Prod
+- User 			: arieftyarto@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB032923C0007', 
+                'ORD-2023-01451', 
+                '0',
+                'implementation',
+                '',
+                '0', 
+                '36',
+                '12',
+                '0', 
+                '36',
+                '12',
+                '0',
+                'Arieftyarto Taufiq Ramadhan<arieftyarto@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')
+
+
+2024-08-01 17:43:15
+- Server 		: Prod
+- User 			: annisa.hapifah@mastersystem.co.id
+- Module 		: resource_assignment_mt
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`approval_to`,
+                `approval_status`) VALUES (
+                'T...' at line 15
+- Query 		: INSERT INTO `sa_master_maintenance_date` (
+                `project_code`, 
+                `order_number`, 
+                `ontime`,
+                `ontime_notes`,
+                `notes`,
+                `ticket_allocation`, 
+                `mt_report_date`,
+                `preventive_mt_date`,
+                `total_ticket_allocation`, 
+                `total_mt_report_date`,
+                `total_preventive_mt_date`,
+                `flag`,
+                `entry_by`
+                `approval_to`,
+                `approval_status`) VALUES (
+                'TB002323I0023', 
+                'ORD-2023-00957', 
+                '0',
+                'customer',
+                'menunggu sign off bast pekerjaan implement',
+                '9', 
+                '0',
+                '6',
+                '9', 
+                '0',
+                '6',
+                '0',
+                'Annisa Nur Hapifah<annisa.hapifah@mastersystem.co.id>',
+                'Aceng Zakariya<aceng.zakariya@mastersystem.co.id>',
+                'pending')

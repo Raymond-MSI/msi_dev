@@ -1,0 +1,522 @@
+File Error Log
+
+2023-10-01 00:28:17
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-01 00:28:43
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-01 00:29:09
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: menu
+- SubModule		:  
+- Status 		: Table 'sa_microservices.sa_mst_module_update' doesn't exist
+- Query 		: SELECT * FROM sa_mst_module_update WHERE module_category = "Module" AND module_name = "MENU" ORDER BY update_version DESC
+
+
+2023-10-01 06:25:03
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 06:25:03
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 06:25:03
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 06:25:03
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 06:25:03
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 06:25:03
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 06:25:03
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 06:25:03
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 06:25:03
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 09:25:01
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 09:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 09:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 09:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 09:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 09:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 09:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 09:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 09:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 12:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 12:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 12:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 12:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 12:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 12:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 12:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 12:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 12:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 15:25:01
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 15:25:01
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 15:25:01
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 15:25:01
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 15:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 15:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 15:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 15:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 15:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 18:25:01
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 18:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 18:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 18:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 18:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 18:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 18:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 18:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT
+
+
+2023-10-01 18:25:02
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: google_drive
+- SubModule		: form_wrike_cr
+- Status 		: Unknown column 'IT' in 'where clause'
+- Query 		: SELECT a.project_code, a.project_name, a.project_name_internal, a.so_number, b.service_type, a.status FROM sa_trx_project_list AS a
+            LEFT JOIN sa_trx_project_implementations AS b ON a.project_id = b.project_id
+            WHERE a.project_code = 'T.SSD.G.INT' AND a.so_number = '' AND a.sbtype = 1 AND b.service_type = IT

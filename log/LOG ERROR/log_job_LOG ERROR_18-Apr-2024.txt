@@ -1,0 +1,218 @@
+File Error Log
+
+2024-04-18 09:45:11
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_implementations`, CONSTRAINT `sa_trx_project_implementations_ibfk_1` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELET)
+- Query 		: UPDATE sa_trx_project_implementations SET project_id=00000 WHERE project_implementation_id=17210
+
+
+2024-04-18 09:47:08
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_implementations`, CONSTRAINT `sa_trx_project_implementations_ibfk_1` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELET)
+- Query 		: UPDATE sa_trx_project_implementations SET project_id=99999 WHERE project_implementation_id=17210
+
+
+2024-04-18 09:47:58
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Cannot add or update a child row: a foreign key constraint fails (`sa_ps_service_budgets`.`sa_trx_project_implementations`, CONSTRAINT `sa_trx_project_implementations_ibfk_1` FOREIGN KEY (`project_id`) REFERENCES `sa_trx_project_list` (`project_id`) ON DELET)
+- Query 		: UPDATE sa_trx_project_implementations SET project_id=1 WHERE project_implementation_id=17210
+
+
+2024-04-18 09:48:45
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET implementation_price=0 WHERE project_implementation_id=17210' at line 1
+- Query 		: select * from sa_trx_project_implementations SET implementation_price=0 WHERE project_implementation_id=17210
+
+
+2024-04-18 10:21:28
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_log_transaction' doesn't exist
+- Query 		: SELECT * FROM sa_log_transaction WHERE transaction_id = '' 
+
+
+2024-04-18 10:21:51
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_log_transaction' doesn't exist
+- Query 		: SELECT * FROM sa_log_transaction WHERE transaction_id = 'dd6144d7a75813df9996c618d96825bb' 
+
+
+2024-04-18 10:22:41
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_log_transaction' doesn't exist
+- Query 		: SELECT * FROM sa_log_transaction WHERE transaction_id = 'dd6144d7a75813df9996c618d96825bb' 
+
+
+2024-04-18 10:22:45
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_log_transaction' doesn't exist
+- Query 		: SELECT * FROM sa_log_transaction WHERE transaction_id = 'dd6144d7a75813df9996c618d96825bb' 
+
+
+2024-04-18 10:22:46
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_log_transaction' doesn't exist
+- Query 		: SELECT * FROM sa_log_transaction WHERE transaction_id = 'dd6144d7a75813df9996c618d96825bb' 
+
+
+2024-04-18 10:23:01
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_log_transaction' doesn't exist
+- Query 		: SELECT * FROM sa_log_transaction WHERE transaction_id = 'dd6144d7a75813df9996c618d96825bb' 
+
+
+2024-04-18 10:23:17
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Table 'sa_asset_rental.sa_log_transaction' doesn't exist
+- Query 		: SELECT * FROM sa_log_transaction WHERE transaction_id = 'dd6144d7a75813df9996c618d96825bb' 
+
+
+2024-04-18 10:30:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'created_at' in 'where clause'
+- Query 		: SELECT 
+                    part_number, 
+                    COUNT(CASE WHEN status_product = 'Peminjaman' AND status_return = 'Return' THEN 1 END) as count_peminjaman, 
+                    COUNT(CASE WHEN status_product = 'Sewa' AND status_return = 'Return' THEN 1 END) as count_return 
+                FROM 
+                    sa_transaction_product 
+                WHERE 
+                    YEAR(created_at) = '2024' 
+                    AND (
+                        (MONTH(created_at) = 'Apr' AND 'Apr' <> '') OR
+                        (MONTH(created_at) BETWEEN 6 AND 12)
+                    )
+                    AND (
+                        (MONTH(created_at) = 'Apr' AND 'Apr' <> '') OR
+                        (MONTH(created_at) BETWEEN 3 AND 12)
+                    )
+                GROUP BY 
+                    part_number;
+            
+
+
+2024-04-18 10:30:38
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'created_at' in 'where clause'
+- Query 		: SELECT 
+                    part_number, 
+                    COUNT(CASE WHEN status_product = 'Peminjaman' AND status_return = 'Return' THEN 1 END) as count_peminjaman, 
+                    COUNT(CASE WHEN status_product = 'Sewa' AND status_return = 'Return' THEN 1 END) as count_return 
+                FROM 
+                    sa_transaction_product 
+                WHERE 
+                    YEAR(created_at) = '2024' 
+                    AND (
+                        (MONTH(created_at) = 'Apr' AND 'Apr' <> '') OR
+                        (MONTH(created_at) BETWEEN 6 AND 12)
+                    )
+                    AND (
+                        (MONTH(created_at) = 'Apr' AND 'Apr' <> '') OR
+                        (MONTH(created_at) BETWEEN 3 AND 12)
+                    )
+                GROUP BY 
+                    part_number;
+            
+
+
+2024-04-18 10:31:23
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'created_at' in 'where clause'
+- Query 		: SELECT 
+                    part_number, 
+                    COUNT(CASE WHEN status_product = 'Peminjaman' AND status_return = 'Return' THEN 1 END) as count_peminjaman, 
+                    COUNT(CASE WHEN status_product = 'Sewa' AND status_return = 'Return' THEN 1 END) as count_return 
+                FROM 
+                    sa_transaction_product 
+                WHERE 
+                    YEAR(created_at) = '2024' 
+                    AND (
+                        (MONTH(created_at) = 'Apr' AND 'Apr' <> '') OR
+                        (MONTH(created_at) BETWEEN 6 AND 12) -- OR
+                        -- (MONTH(created_at) BETWEEN 3 AND 12)
+                    )
+                    AND (
+                        (MONTH(created_at) = 'Apr' AND 'Apr' <> '')   OR
+                        (MONTH(created_at) BETWEEN 3 AND 12)
+                    )
+                GROUP BY 
+                    part_number;
+            
+
+
+2024-04-18 10:31:23
+- Server 		: Prod
+- User 			: aryo.bimo@mastersystem.co.id
+- Module 		: product_list
+- SubModule		:  
+- Status 		: Unknown column 'created_at' in 'where clause'
+- Query 		: SELECT 
+                    part_number, 
+                    COUNT(CASE WHEN status_product = 'Peminjaman' AND status_return = 'Return' THEN 1 END) as count_peminjaman, 
+                    COUNT(CASE WHEN status_product = 'Sewa' AND status_return = 'Return' THEN 1 END) as count_return 
+                FROM 
+                    sa_transaction_product 
+                WHERE 
+                    YEAR(created_at) = '2024' 
+                    AND (
+                        (MONTH(created_at) = 'Apr' AND 'Apr' <> '') OR
+                        (MONTH(created_at) BETWEEN 6 AND 12) -- OR
+                        -- (MONTH(created_at) BETWEEN 3 AND 12)
+                    )
+                    AND (
+                        (MONTH(created_at) = 'Apr' AND 'Apr' <> '')   OR
+                        (MONTH(created_at) BETWEEN 3 AND 12)
+                    )
+                GROUP BY 
+                    part_number;
+            
+
+
+2024-04-18 16:15:05
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_initial_jobroles' doesn't exist
+- Query 		: select * from sa_initial_jobroles WHERE project_code='TP026322G0001'

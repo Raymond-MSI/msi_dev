@@ -1,0 +1,23 @@
+File Error Log
+
+2024-03-22 14:52:48
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_workload.sa_wrike_project_list' doesn't exist
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE id='IEAEOPF5I46HTW3V'
+
+
+
+
+
+2024-03-22 15:00:02
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'project_id' in 'where clause'
+- Query 		: SELECT * FROM sa_wrike_project_list WHERE project_id='IEAEOPF5I46HTW3V'
+
+

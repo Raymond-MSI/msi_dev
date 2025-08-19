@@ -1,0 +1,208 @@
+File Error Log
+
+2024-02-28 13:26:22
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_addon' doesn't exist
+- Query 		: select * from sa_addon where so_number = '2024/SO/0247'
+
+
+2024-02-28 13:26:36
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'so_number' in 'where clause'
+- Query 		: select * from sa_trx_addon where so_number = '2024/SO/0247'
+
+
+2024-02-28 13:27:34
+- Server 		: Prod
+- User 			: syamsul@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_trx_addon_list' doesn't exist
+- Query 		: select * from sa_trx_addon_list where project_id = 19922
+
+
+2024-02-28 13:36:23
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_ps_service_budgets.sa_mandays_implementation' doesn't exist
+- Query 		: select * from sa_mandays_implementation LIMIT 100
+
+
+2024-02-28 14:47:43
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM 
+    sa_trx_project_mandays
+WHERE
+project_id = 20111
+AND
+    res...' at line 7
+- Query 		: SELECT 
+    CASE 
+        WHEN resource_level = 11 THEN 'Project Director'
+        WHEN resource_level = 21 THEN 'Project Manager'
+        WHEN resource_level = 31 THEN 'Project Coordinator'
+    END AS role,
+    *
+FROM 
+    sa_trx_project_mandays
+WHERE
+project_id = 20111
+AND
+    resource_level IN (11, 21)
+    OR (resource_level = 31 AND NOT EXISTS (SELECT 1 FROM sa_trx_project_mandays WHERE project_id = sa_trx_project_mandays.project_id AND resource_level = 11));
+
+
+
+2024-02-28 14:48:09
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM 
+    sa_trx_project_mandays
+WHERE
+project_id = 20111
+AND
+    res...' at line 7
+- Query 		: SELECT 
+    CASE 
+        WHEN resource_level = 11 THEN 'Project Director'
+        WHEN resource_level = 21 THEN 'Project Manager'
+        WHEN resource_level = 31 THEN 'Project Coordinator'
+    END AS role,
+    *
+FROM 
+    sa_trx_project_mandays
+WHERE
+project_id = 20111
+AND
+    resource_level IN (11, 21)
+    OR (resource_level = 31 AND NOT EXISTS (SELECT 1 FROM sa_trx_project_mandays WHERE project_id = 20111 AND resource_level = 11));
+
+
+
+2024-02-28 14:48:41
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM 
+    sa_trx_project_mandays
+WHERE
+project_id = 20111
+AND
+    res...' at line 7
+- Query 		: SELECT 
+    CASE 
+        WHEN resource_level = 11 THEN 'Project Director'
+        WHEN resource_level = 21 THEN 'Project Manager'
+        WHEN resource_level = 31 THEN 'Project Coordinator'
+    END AS role,
+    *
+FROM 
+    sa_trx_project_mandays
+WHERE
+project_id = 20111
+AND
+    resource_level IN (11, 21)
+    OR (resource_level = 31 AND NOT EXISTS (SELECT 1 FROM sa_trx_project_mandays WHERE project_id = 20111 AND resource_level = 11))
+
+
+
+2024-02-28 14:50:04
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM 
+    sa_trx_project_mandays
+WHERE
+project_id = 20111
+AND
+service...' at line 7
+- Query 		: SELECT 
+    CASE 
+        WHEN resource_level = 11 THEN 'Project Director'
+        WHEN resource_level = 21 THEN 'Project Manager'
+        WHEN resource_level = 31 THEN 'Project Coordinator'
+    END AS role,
+    *
+FROM 
+    sa_trx_project_mandays
+WHERE
+project_id = 20111
+AND
+service_type=1
+AND
+    resource_level IN (11, 21)
+    OR (resource_level = 31 AND NOT EXISTS (SELECT 1 FROM sa_trx_project_mandays WHERE project_id = 20111 AND resource_level = 11))
+
+
+
+2024-02-28 15:44:00
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM
+    sa_trx_project_mandays
+WHERE
+    service_type = 1
+    AND pro...' at line 8
+- Query 		: SELECT
+    CASE
+        WHEN resource_level = 11 THEN 'Project Director'
+        WHEN resource_level = 21 THEN 'Project Manager'
+        WHEN resource_level = 31 THEN 'Project Coordinator'
+        ELSE 'Unknown Position'
+    END AS position,
+    *
+FROM
+    sa_trx_project_mandays
+WHERE
+    service_type = 1
+    AND project_id = 222
+
+
+2024-02-28 15:44:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 11
+- Query 		: SELECT
+    CASE
+        WHEN resource_level = 11 THEN 'Project Director'
+        WHEN resource_level = 21 THEN 'Project Manager'
+        WHEN resource_level = 31 THEN 'Project Coordinator'
+    END AS position
+FROM
+    sa_trx_project_mandays
+WHERE
+    service_type = 1
+    AND project_id = 
+
+
+2024-02-28 17:04:46
+- Server 		: Prod
+- User 			:  User Tidak Login 
+- Module 		:  
+- SubModule		:  
+- Status 		: 
+- Query 		: SELECT * FROM sa_cfg_web WHERE `parent`=8 OR `parent`=6 OR `parent`=7

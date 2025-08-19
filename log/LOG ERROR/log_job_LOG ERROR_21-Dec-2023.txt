@@ -1,0 +1,99 @@
+File Error Log
+
+2023-12-21 09:34:06
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Unknown column 'c.task_id' in 'on clause'
+- Query 		: SELECT * FROM sa_preschedule a left join sa_schedule b on a.google_event_id=b.event_id left join sa_wrike_integrate.sa_wrike_task ON a.task_id=c.task_id WHERE a.project_id='IEAEOPF5I5EP2RSJ'
+
+
+2023-12-21 09:57:51
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Nama LIKE '%Halipudin%'' at line 1
+- Query 		: select * from sa_user WHER Nama LIKE '%Halipudin%'
+
+
+2023-12-21 09:58:42
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Nama LIKE '%Halipudin%'' at line 1
+- Query 		: select * from sa_user WHER Nama LIKE '%Halipudin%'
+
+
+2023-12-21 09:58:53
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Nama LIKE '%Ahmad%'' at line 1
+- Query 		: select * from sa_user WHER Nama LIKE '%Ahmad%'
+
+
+2023-12-21 10:27:59
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE b.employee_email=c.resource_email WHERE a.kpi_status='Reviewed' AND a.t...' at line 1
+- Query 		: select b.nik,c.Nama,b.employee_name,a.resource_email,SUM(a.task_plan),SUM(a.task_actual),a.kpi_status,b.department_name,b.section_name,b.unit_name,b.job_title,b.job_structure,b.employee_status,a.tahun_review from sa_productivity_alluser a left join sa_md_hcm.sa_view_employees_v2 b ON a.resource_email=b.employee_email left join sa_summary_user c WHERE b.employee_email=c.resource_email WHERE a.kpi_status='Reviewed' AND a.tahun_review=2023 GROUP BY a.resource_email,a.kpi_status,a.tahun_review
+
+
+2023-12-21 10:32:34
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'full join sa_md_hcm.sa_view_employees_v2 b ON a.resource_email=b.employee_ema...' at line 1
+- Query 		: select b.nik,a.Nama,b.employee_name,c.resource_email,SUM(c.task_plan),SUM(c.task_actual),c.kpi_status,b.department_name,b.section_name,b.unit_name,b.job_title,b.job_structure,b.employee_status,c.tahun_review from sa_summary_user a full join sa_md_hcm.sa_view_employees_v2 b ON a.resource_email=b.employee_email full join sa_productivity_alluser c ON b.employee_email=c.resource_email WHERE a.kpi_status='Reviewed' AND a.tahun_review=2023 AND c.kpi_status='Reviewed' AND c.tahun_review=2023 GROUP BY c.resource_email,c.kpi_status,c.tahun_review
+
+
+2023-12-21 11:01:19
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_dashboard_kpi.sa_preschedule' doesn't exist
+- Query 		: select * from sa_preschedule where google_event_id is null LIMIT 1500
+
+
+2023-12-21 14:37:14
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_calendar
+- Status 		: Unknown column 'a.project_id' in 'order clause'
+- Query 		: SELECT * from sa_wrike_project_list ORDER BY a.project_id
+
+
+2023-12-21 14:37:16
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_calendar
+- Status 		: Unknown column 'a.project_id' in 'order clause'
+- Query 		: SELECT * from sa_wrike_project_list ORDER BY a.project_id
+
+
+2023-12-21 14:38:18
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: productivity
+- SubModule		: dashboard_calendar
+- Status 		: Unknown column 'a.project_id' in 'order clause'
+- Query 		: SELECT * from sa_wrike_project_list ORDER BY a.project_id
+
+
+2023-12-21 16:57:40
+- Server 		: Prod
+- User 			: chrisheryanda@mastersystem.co.id
+- Module 		: mysql
+- SubModule		:  
+- Status 		: Table 'sa_wrike_integrate.sa_ps_service_budgets' doesn't exist
+- Query 		: select * from sa_ps_service_budgets WHERE project_code='TB005422I0010'
