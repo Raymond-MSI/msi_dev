@@ -1086,14 +1086,14 @@ if (isset($_POST['save_service_budget'])) {
         if ($_POST['sbtype'] == 0 && $dcreateby["amount_id"] < 200000000) {
             $email = $_SESSION['Microservices_UserEmail'];
         } else {
-            if(isset($_POST['ps_account']) && $_POST['ps_account'] != '') {
+            if (isset($_POST['ps_account']) && $_POST['ps_account'] != '') {
                 $psAccount = $DBHCM->split_email($_POST['ps_account']);
                 $email = $psAccount[1];
             } else {
                 $email = '';
             }
         }
-        if($email != '') {
+        if ($email != '') {
             $leader = get_leader($email, 1);
             $dleader = $leader[0];
             $qleader = $leader[1];
@@ -1145,14 +1145,14 @@ if (isset($_POST['save_service_budget'])) {
         if (isset($_POST['sbtype']) && $_POST['sbtype'] == 0 && $dcreateby["amount_id"] < 200000000) {
             $email = $dcreateby['modified_by'];
         } else {
-            if(isset($_POST['ps_account']) && $_POST['ps_account'] != '') {
+            if (isset($_POST['ps_account']) && $_POST['ps_account'] != '') {
                 $psAccount = $DBHCM->split_email($_POST['ps_account']);
                 $email = $psAccount[1];
             } else {
                 $email = '';
-            }  
+            }
         }
-        if($email != "") {
+        if ($email != "") {
             $owner = get_leader($email, 1);
             $downer = $owner[0];
             $to = $downer['employee_name'] . "<" . $downer['employee_email'] . ">;";

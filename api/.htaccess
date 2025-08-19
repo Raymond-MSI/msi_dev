@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
+RewriteRule . index.php
+Header set Permissions-Policy "geolocation=(self), microphone=()"

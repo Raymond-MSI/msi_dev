@@ -75,9 +75,9 @@ do {
             <div class="row mb-3">
                 <label for="inputCID3" class="col-sm-3 col-form-label col-form-label-sm">Title</label>
                 <div class="col-sm-9">
-                    <input type="text" class="form-control form-control-sm" id="pic_title" name="pic_title" value="<?php if ($_GET['act'] == 'edit') {
-                                                                                                                        echo $ddata['title'];
-                                                                                                                    } ?>">
+                    <input type="text" class="form-control form-control-sm" id="title" name="title" value="<?php if ($_GET['act'] == 'edit') {
+                                                                                                                echo $ddata['title'];
+                                                                                                            } ?>">
                 </div>
             </div>
             <div class="row mb-3">
@@ -98,15 +98,18 @@ do {
         <div class="col-lg-6">
         </div>
     </div>
-    <input type="submit" class="btn btn-secondary" name="cancel" value="Cancel" onclick="window.location='http://localhost/microservices/index.php?mod=survey&sub=mod_pic';return false;">
+    <input type="submit" class="btn btn-secondary" name="cancel" value="Cancel">
+    <!-- <input type="submit" class="btn btn-secondary" name="cancel" value="Cancel" onclick="window.location='https://msizone.mastersystem.co.id/index.php?mod=survey&sub=mod_pic';return false;"> -->
     <?php if (isset($_GET['act']) && $_GET['act'] == 'edit') { ?>
         <input type="submit" class="btn btn-primary" name="save" value="Save">
     <?php } elseif (isset($_GET['act']) && $_GET['act'] == 'add') { ?>
         <input type="submit" class="btn btn-primary" name="add" value="Save">
     <?php } ?>
 </form>
-<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<!-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script> -->
+<link href="components/modules/pic/select2.min.css" rel="stylesheet" />
+<script src="components/modules/pic/select2.min.js"></script>
 <script>
     $(document).ready(function() {
         $('.btn-primary').click(function() {
