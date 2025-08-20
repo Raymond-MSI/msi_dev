@@ -98,7 +98,7 @@ if (!isset($_GET['sub'])) {
                                     alert("Please select the data.");
                                 } else {
                                     // window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code="+project_code+"&so_number="+so_number+"&order_number="+order_number+"&user="+user_name;
-                                    window.open("components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name, "_blank");
+                                    window.open("components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V3.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name, "_blank");
                                 }
                             },
                             enabled: false
@@ -236,7 +236,7 @@ if (!isset($_GET['sub'])) {
                                     alert("Please select the data.");
                                 } else {
                                     // window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code="+project_code+"&so_number="+so_number+"&order_number="+order_number+"&user="+user_name;
-                                    window.open("components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name, "_blank");
+                                    window.open("components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V3.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name, "_blank");
                                 }
                             },
                             enabled: false
@@ -374,7 +374,7 @@ if (!isset($_GET['sub'])) {
                                     alert("Please select the data.");
                                 } else {
                                     // window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code="+project_code+"&so_number="+so_number+"&order_number="+order_number+"&user="+user_name;
-                                    window.open("components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name, "_blank");
+                                    window.open("components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V3.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name, "_blank");
                                 }
                             },
                             enabled: true
@@ -512,7 +512,7 @@ if (!isset($_GET['sub'])) {
                                     alert("Please select the data.");
                                 } else {
                                     // window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code="+project_code+"&so_number="+so_number+"&order_number="+order_number+"&user="+user_name;
-                                    window.open("components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name, "_blank");
+                                    window.open("components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V3.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name, "_blank");
                                 }
                             },
                             enabled: true
@@ -651,7 +651,7 @@ if (!isset($_GET['sub'])) {
                                     alert("Please select the data.");
                                 } else {
                                     // window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code="+project_code+"&so_number="+so_number+"&order_number="+order_number+"&user="+user_name;
-                                    window.open("components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name, "_blank");
+                                    window.open("components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V3.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name, "_blank");
                                 }
                             },
                             enabled: true
@@ -790,7 +790,7 @@ if (!isset($_GET['sub'])) {
                                     alert("Please select the data.");
                                 } else {
                                     // window.location.href = "components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code="+project_code+"&so_number="+so_number+"&order_number="+order_number+"&user="+user_name;
-                                    window.open("components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V2.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name, "_blank");
+                                    window.open("components/vendor/TCPDF-main/examples/rpt_service_budget_pdf_V3.php?project_code=" + project_code + "&so_number=" + so_number + "&order_number=" + order_number + "&user=" + user_name, "_blank");
                                 }
                             },
                             enabled: true
@@ -810,6 +810,13 @@ if (!isset($_GET['sub'])) {
                             text: "<span class='d-inline-block' tabindex='0' data-bs-toggle='tooltip' title='Add SB by Order Number'><i class='fa-solid fa-cart-shopping'></i></span>",
                             action: function() {
                                 window.location.href = "index.php?mod=service_budget&sub=list_boq";
+                            },
+                            enabled: true
+                        }, 
+                        {
+                            text: "<i class='fa fa-book' data-bs-toggle='popover' data-bs-trigger='focus' title='Report '></i>",
+                            action: function() {
+                                window.location.href = "index.php?mod=report_acknowledge_service_budget";
                             },
                             enabled: true
                         },
@@ -1315,7 +1322,7 @@ if (!isset($_GET['sub'])) {
             } elseif ($_GET['act'] == 'add') {
                 form_data($tblname);
             } elseif ($_GET['act'] == 'new') {
-                new_projects($tblname);
+                // new_projects($tblname);
             } elseif ($_GET['act'] == 'edit') {
                 $permission = '';
                 form_data($tblname, $permission);
@@ -1350,6 +1357,8 @@ if (!isset($_GET['sub'])) {
     }
     // End Body
 
+} elseif (isset($_GET['sub']) && $_GET['sub'] == 'poc_service_budget') {
+    include('components/modules/service_budget/poc_service_budget.php');
 } else {
     include("components/modules/service_budget/mod_file_boq.php");
 }
