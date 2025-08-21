@@ -40,8 +40,8 @@ if ((isset($property)) && ($property == 1)) {
                     <th>Project Name</th>
                     <th>Amount IDR</th>
                     <th>Bundling</th>
+                    <th>Status</th>
                     <th>Create Date</th>
-
                 </tr>
 
             </thead>
@@ -59,8 +59,9 @@ if ((isset($property)) && ($property == 1)) {
                             <td><?= htmlspecialchars($result[0]['po_number'] ?? '') ?></td>
                             <td><?= htmlspecialchars($result[0]['project_name'] ?? '') ?></td>
 
-                            <td class="text-right"><?= number_format($result[0]['amount_idr'] ?? '',2) ?></td>
+                            <td class="text-right"><?= number_format($result[0]['amount_idr'] ?? '', 2) ?></td>
                             <td><?= (convertBundling($result[0]['bundling'] ?? '')) ?></td>
+                            <td class="text-right"><?= htmlspecialchars($result[0]['status_ack'] ?? '') ?></td>
                             <td class="text-right text-nowrap"><?= date('j-M-Y', strtotime($result[0]['create_date'] ?? '')) ?></td>
 
 
