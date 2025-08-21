@@ -1,4 +1,8 @@
 <?php
+
+
+
+
 function getReportAcknowledgeServiceBudget()
 {
     $db_name = "service_budget";
@@ -8,12 +12,8 @@ function getReportAcknowledgeServiceBudget()
         return [];
     }
     $query  = "
-    SELECT * FROM sa_ps_service_budgets.sa_trx_project_list st
-        WHERE st.status = 'acknowledge'
-        AND (st.po_number = '' OR st.amount_idr = '' OR st.so_number ='')
-        AND st.po_date >= NOW() - INTERVAL 6 MONTH
-        ORDER BY st.project_id DESC;
-    ";
+  SELECT * FROM sa_ps_service_budgets.sa_trx_project_list st WHERE (st.status = 'acknowledge' OR st.status_ack = 1) AND (st.so_number IS NULL OR st.so_number = '' OR st.po_number IS NULL OR st.po_number = '' OR st.order_number IS NULL OR st.order_number = '' OR st.amount_idr = 0)
+AND st.create_date <= NOW() - INTERVAL 6 MONTH ";
 
     $result = $DBRSB->get_sql($query);
     return $result;

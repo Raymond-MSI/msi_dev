@@ -32,13 +32,15 @@ if ((isset($property)) && ($property == 1)) {
     </div>
     <div class="table-responsive ps-0 pe-0">
         <table id="Datatable" class="display compact">
-            <thead class="bg-danger-subtle text-danger-emphasis text-center">
+            <thead class="  text-center">
                 <tr>
-                    <th>Project Code</th>
+                    <th>Project Info</th>
+                    <th>Customer Name</th>
+                    <th>PO Number</th>
                     <th>Project Name</th>
-                    <th>Transaction Number</th>
                     <th>Amount IDR</th>
                     <th>Bundling</th>
+                    <th>Create Date</th>
 
                 </tr>
 
@@ -47,15 +49,20 @@ if ((isset($property)) && ($property == 1)) {
                 <?php if (!empty($result)): ?>
                     <?php do { ?>
                         <tr>
-                            <td><?= htmlspecialchars($result[0]['project_code'] ?? '') ?></td>
-                            <td><?= htmlspecialchars($result[0]['project_name'] ?? '') ?></td>
-                            <td style="font-size: 11px;">
-                                <span><b>PO Number: </b><?= htmlspecialchars($result[0]['po_number'] ?? '') ?></span>
-                                <span><b>Order Number: </b><?= htmlspecialchars($result[0]['order_number'] ?? '') ?></span>
-                                <span><b>SO Number: </b><?= htmlspecialchars($result[0]['so_number'] ?? '') ?></span>
+                            <td>
+                                <span class="text-nowrap"><b>Project Code: </b><?= htmlspecialchars($result[0]['project_code'] ?? '') ?></span> <br>
+                                <span class="text-nowrap" style="font-size: 10px;"><b>So Number: </b><?= htmlspecialchars($result[0]['so_number'] ?? '') ?> | </span>
+                                <span class="text-nowrap" style="font-size: 10px;"><b>Sales Name: </b><?= htmlspecialchars($result[0]['sales_name'] ?? '') ?> | </span>
+                                <span class="text-nowrap" style="font-size: 10px;"><b>Created by: </b><?= htmlspecialchars($result[0]['create_by'] ?? '') ?></span>
                             </td>
-                            <td><?= htmlspecialchars($result[0]['amount_idr'] ?? '') ?></td>
-                            <td><?= htmlspecialchars(convertBundling($result[0]['bundling'] ?? '')) ?></td>
+                            <td><?= htmlspecialchars($result[0]['customer_name'] ?? '') ?></td>
+                            <td><?= htmlspecialchars($result[0]['po_number'] ?? '') ?></td>
+                            <td><?= htmlspecialchars($result[0]['project_name'] ?? '') ?></td>
+
+                            <td class="text-right"><?= number_format($result[0]['amount_idr'] ?? '',2) ?></td>
+                            <td><?= (convertBundling($result[0]['bundling'] ?? '')) ?></td>
+                            <td class="text-right text-nowrap"><?= date('j-M-Y', strtotime($result[0]['create_date'] ?? '')) ?></td>
+
 
                         </tr>
                     <?php } while ($result[0] = $result[1]->fetch_assoc()) ?>
@@ -67,6 +74,11 @@ if ((isset($property)) && ($property == 1)) {
 
 <script>
     $(document).ready(function() {
-        $('#Datatable').DataTable();
+        $('#Datatable').DataTable({
+
+            select: {
+                style: 'single'
+            },
+        });
     });
 </script>

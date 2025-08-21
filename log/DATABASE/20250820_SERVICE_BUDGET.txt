@@ -1,0 +1,16 @@
+20-08-2025 16:00:14
+- ID : 68a58e9ea70bb
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
+20-08-2025 16:22:25
+- ID : 68a593d13bd59
+- User Name   : malik.aulia@mastersystem.co.id
+- Module      : service_budget
+- Description : Caught 'get_sql' error - [SELECT * FROM sa_mst_setup WHERE setup_name='Value SB Sederhana'] No database selected
+
+
+
