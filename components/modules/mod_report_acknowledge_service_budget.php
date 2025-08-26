@@ -1,20 +1,16 @@
 <?php
-
-include "components/modules/service_budget/func_report_acknowledge_service_budget.php";
-$result = getReportAcknowledgeServiceBudget();
-
 if ((isset($property)) && ($property == 1)) {
     $version = '1.0';
     $released = "1754015077";
     $author = 'Syamsul Arham';
 } else {
 
-    $modulename = "md_repot_acknowledge_service_budget";
+    $modulename = "md_report_acknowledge_service_budget";
     $userpermission = useraccess($modulename);
-    // if (USERPERMISSION == "7b7bc2512ee1fedcd76bdc68926d4f7b" || USERPERMISSION == "dbf36ff3e3827639223983ee8ac47b42") {
-    //     // var_dump($_SESSION);
-    // }
-}
+    if (USERPERMISSION == "7b7bc2512ee1fedcd76bdc68926d4f7b" || USERPERMISSION == "dbf36ff3e3827639223983ee8ac47b42" ||  USERPERMISSION == "0162bce636a63c3ae499224203e06ed0") {
+        include "components/modules/service_budget/func_report_acknowledge_service_budget.php";
+        $result = getReportAcknowledgeServiceBudget();
+
 
 ?>
 <div class="row mt-3 ps-3 pe-3 mb-5" id="showTaskList">
@@ -63,8 +59,6 @@ if ((isset($property)) && ($property == 1)) {
                             <td><?= (convertBundling($result[0]['bundling'] ?? '')) ?></td>
                             <td class="text-right"><?= htmlspecialchars($result[0]['status_ack'] ?? '') ?></td>
                             <td class="text-right text-nowrap"><?= date('j-M-Y', strtotime($result[0]['create_date'] ?? '')) ?></td>
-
-
                         </tr>
                     <?php } while ($result[0] = $result[1]->fetch_assoc()) ?>
                 <?php endif; ?>
@@ -72,7 +66,7 @@ if ((isset($property)) && ($property == 1)) {
         </table>
     </div>
 </div>
-
+ 
 <script>
     $(document).ready(function() {
         $('#Datatable').DataTable({
@@ -83,3 +77,9 @@ if ((isset($property)) && ($property == 1)) {
         });
     });
 </script>
+<?php
+    } else {
+        $ALERT->notpermission();
+    }
+}
+?>
