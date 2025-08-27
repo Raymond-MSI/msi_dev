@@ -22,82 +22,73 @@ if ((isset($property)) && ($property == 1)) {
 
             }
         </style>
-        <div class="row mt-3 ps-3 pe-3 mb-5" id="showTaskList">
-            <div class="hstack gap-3 border-top border-bottom">
-                <div class="p-2">
-                    <div class="fs-3">Report Edo</div>
-                </div>
-                <div class="p-2">
-                </div>
-                <div class="p-2 ms-auto">&nbsp;</div>
-                <div class="p-2">
-                    <div class="fs-3"><span class="fs-5"><?php //echo date("F Y", strtotime($start)); 
-                                                            ?></span></div>
-                </div>
-            </div>
-            <div class="table-responsive ps-0 pe-0">
 
-                <table id="Datatable" class="display compact">
-                    <thead class="text-center">
-                        <tr>
-                            <th>Employee Name</th>
-                            <th>Jabatan</th>
-                            <th>Division</th>
-                            <th>Start Date</th>
-                            <th>End Date</th>
-                            <th>Actual Start </th>
-                            <th>Actual End </th>
-                            <th>Duration </th>
-                            <th>Status </th>
-                            <th>Leave Start </th>
-                            <th>Leave End </th>
-                            <th>Leave Status </th>
-                        </tr>
+        <div class="col-lg-12">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Report Edo</h6>
+                </div>
+                <div class="card-body">
 
-                    </thead>
-                    <tbody class="text-left">
-                        <?php if (!empty($result)): ?>
-                            <?php do { ?>
+                    <div class="table-responsive">
+                        <table id="Datatable" class="display compact">
+                            <thead class="text-center">
                                 <tr>
-                                    <td><?= htmlspecialchars($result[0]['employee_name'] ?? '') ?></td>
-                                    <td><?= htmlspecialchars($result[0]['jabatan'] ?? '') ?></td>
-                                    <td><?= htmlspecialchars($result[0]['division'] ?? '') ?></td>
-                                    <td class="text-right text-nowrap"><?= date('j-M-Y', strtotime($result[0]['start_date'] ?? '')) ?></td>
-                                    <td class="text-right text-nowrap"><?= date('j-M-Y', strtotime($result[0]['end_date'] ?? '')) ?></td>
-
-                                    <td class="text-right text-nowrap"><?= date('j-M-Y', strtotime($result[0]['actual_start'] ?? '')) ?></td>
-                                    <td class="text-right text-nowrap"><?= date('j-M-Y', strtotime($result[0]['actual_end'] ?? '')) ?></td>
-                                    <td><?= htmlspecialchars($result[0]['duration'] ?? '') ?></td>
-                                    <td><?= htmlspecialchars($result[0]['status'] ?? '') ?></td>
-
-                                    <td class="text-right text-nowrap"><?= date('j-M-Y', strtotime($result[0]['leave_start'] ?? '')) ?></td>
-                                    <td class="text-right text-nowrap"><?= date('j-M-Y', strtotime($result[0]['leave_end'] ?? '')) ?></td>
-                                    <td><?= htmlspecialchars($result[0]['leave_status'] ?? '') ?></td>
-
-
-
-
+                                    <th>Employee Name</th>
+                                    <th>Jabatan</th>
+                                    <th>Division</th>
+                                    <th>Start Date</th>
+                                    <th>End Date</th>
+                                    <th>Actual Start </th>
+                                    <th>Actual End </th>
+                                    <th>Duration </th>
+                                    <th>Status </th>
+                                    <th>Leave Start </th>
+                                    <th>Leave End </th>
+                                    <th>Leave Status </th>
                                 </tr>
-                            <?php } while ($result[0] = $result[1]->fetch_assoc()) ?>
-                        <?php endif; ?>
-                    </tbody>
-                    <tfoot class=" text-center">
-                        <tr>
-                            <th>Employee Name</th>
-                            <th>Jabatan</th>
-                            <th>Division</th>
-                            <th>Start Date</th>
-                            <th>End Date</th>
-                            <th>Actual Start </th>
-                            <th>Actual End </th>
-                            <th>Duration </th>
-                            <th>Status </th>
-                            <th>Leave Start </th>
-                            <th>Leave End </th>
-                            <th>Leave Status </th>
-                        </tr>
-                    </tfoot>
-                </table>
+                            </thead>
+                            <tbody class="text-left">
+                                <?php if (!empty($result)): ?>
+                                    <?php do { ?>
+                                        <tr>
+                                            <td><?= htmlspecialchars($result[0]['employee_name'] ?? '') ?></td>
+                                            <td><?= htmlspecialchars($result[0]['jabatan'] ?? '') ?></td>
+                                            <td><?= htmlspecialchars($result[0]['division'] ?? '') ?></td>
+                                            <td class="text-right text-nowrap"><?= date('j-M-Y', strtotime($result[0]['start_date'] ?? '')) ?></td>
+                                            <td class="text-right text-nowrap"><?= date('j-M-Y', strtotime($result[0]['end_date'] ?? '')) ?></td>
+                                            <td class="text-right text-nowrap"><?= date('j-M-Y', strtotime($result[0]['actual_start'] ?? '')) ?></td>
+                                            <td class="text-right text-nowrap"><?= date('j-M-Y', strtotime($result[0]['actual_end'] ?? '')) ?></td>
+                                            <td><?= htmlspecialchars($result[0]['duration'] ?? '') ?></td>
+                                            <td><?= htmlspecialchars($result[0]['status'] ?? '') ?></td>
+                                            <td class="text-right text-nowrap"><?= date('j-M-Y', strtotime($result[0]['leave_start'] ?? '')) ?></td>
+                                            <td class="text-right text-nowrap"><?= date('j-M-Y', strtotime($result[0]['leave_end'] ?? '')) ?></td>
+                                            <td><?= htmlspecialchars($result[0]['leave_status'] ?? '') ?></td>
+                                        </tr>
+                                    <?php } while ($result[0] = $result[1]->fetch_assoc()) ?>
+                                <?php endif; ?>
+                            </tbody>
+                            <tfoot class=" text-center">
+                                <tr>
+                                    <th>Employee Name</th>
+                                    <th>Jabatan</th>
+                                    <th>Division</th>
+                                    <th>Start Date</th>
+                                    <th>End Date</th>
+                                    <th>Actual Start </th>
+                                    <th>Actual End </th>
+                                    <th>Duration </th>
+                                    <th>Status </th>
+                                    <th>Leave Start </th>
+                                    <th>Leave End </th>
+                                    <th>Leave Status </th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+
+
             </div>
         </div>
 
@@ -118,11 +109,17 @@ if ((isset($property)) && ($property == 1)) {
                 // Loop through each column to add a dropdown filter
                 table.columns().every(function() {
                     var column = this;
-                    var select = $('<select><option value=""></option></select>')
+                    var select = $('<select><option value="">All</option></select>')
                         .appendTo($(column.footer()).empty())
                         .on('change', function() {
+
                             var val = $.fn.dataTable.util.escapeRegex($(this).val());
-                            column.search(val ? '^' + val + '$' : '', true, false).draw();
+                            if (val === "") {
+                                column.search('', true, false).draw(); // Jika nilai "All" dipilih, tampilkan semua data
+                            } else {
+                                column.search('^' + val + '$', true, false).draw(); // Jika nilai lain dipilih, filter data
+                            }
+
                         });
 
 

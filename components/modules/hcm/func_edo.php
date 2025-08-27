@@ -539,13 +539,15 @@ function getReportEdo()
         error_log("Failed to connect to the database: ");
         return []; // Return an empty array to prevent further errors
     }
-    $query = "SELECT  *
-FROM sa_md_hcm.sa_trx_edo_request ster
-LEFT JOIN sa_md_hcm.sa_trx_edo_leave_detail sterd
-ON ster.edo_id = sterd.edo_id
-LEFT JOIN sa_md_hcm.sa_trx_edo_leave sterv
-ON sterv.leave_id = sterd.leave_id
-WHERE ster.status != 'Deleted' ";
+    $query = "SELECT ster.employee_name,ster.jabatan,ster.division,
+	ster.start_date,ster.end_date,ster.actual_start,ster.actual_end,ster.duration,ster.status,
+	sterv.leave_start,sterv.leave_end,sterv.leave_status
+FROM sa_trx_edo_request ster
+LEFT JOIN sa_trx_edo_leave_detail sterd
+	ON ster.edo_id = sterd.edo_id
+LEFT JOIN sa_trx_edo_leave sterv
+ON sterv.leave_id = sterd.leave_id 
+WHERE ster.status != 'Deleted'";
     $result = $DBHCM->get_sql($query);
     return $result;
 }
