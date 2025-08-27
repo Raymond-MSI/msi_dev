@@ -531,4 +531,23 @@ function get_status($status)
         echo "Cut-off by Cancel";
     } 
 }
+function getReportEdo()
+{
+    global $DBHCM;
+ 
+    if (!$DBHCM) {
+        error_log("Failed to connect to the database: ");
+        return []; // Return an empty array to prevent further errors
+    }
+    $query = "SELECT  *
+FROM sa_md_hcm.sa_trx_edo_request ster
+LEFT JOIN sa_md_hcm.sa_trx_edo_leave_detail sterd
+ON ster.edo_id = sterd.edo_id
+LEFT JOIN sa_md_hcm.sa_trx_edo_leave sterv
+ON sterv.leave_id = sterd.leave_id
+WHERE ster.status != 'Deleted' ";
+    $result = $DBHCM->get_sql($query);
+    return $result;
+}
+
 ?>
