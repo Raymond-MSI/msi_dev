@@ -93,9 +93,29 @@ if ((isset($property)) && ($property == 1)) {
 
                     ],
                     "columnDefs": [{
-                        "targets": [0, 3, 4, 5, 6, 7],
-                        "visible": false,
-                    }],
+                            "targets": [0, 3, 4, 5, 6, 7],
+                            "visible": false,
+                        },
+                        {
+
+                            "targets": 1,
+                            "render": function(data, type, row) {
+                                console.log(data); // This will print the raw date string to the console
+                                // Check if the type is 'display'
+                                if (type === 'display' || type === 'filter') {
+                                    var date = new Date(data + 'T00:00:00'); // Parse the date string
+                                    var options = {
+                                        day: '2-digit',
+                                        month: 'short',
+                                        year: 'numeric'
+                                    };
+                                    return date.toLocaleDateString('en-GB', options).replace(/ /g, '-');
+                                }
+
+                                return data;
+                            }
+                        }
+                    ],
                 });
             });
         </script>
@@ -169,4 +189,3 @@ if ((isset($property)) && ($property == 1)) {
     }
 }
 ?>
-

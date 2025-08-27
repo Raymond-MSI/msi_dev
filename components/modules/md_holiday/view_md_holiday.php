@@ -18,7 +18,15 @@ if ($_GET['act'] == 'view') {
                 <div class="row mb-3">
                     <div class="col-sm-3 col-form-label"><strong>Date:</strong></div>
                     <div class="col-sm-9">
-                        <?php echo htmlspecialchars($ddata['holiday_date'] ?? 'N/A'); ?>
+                        <?php ;
+                        $original_date = $ddata['holiday_date'] ?? 'N/A';
+                        if ($original_date !== ' N/A') {
+                        $formatted_date = date(' j-M-Y', strtotime($original_date));
+                        echo htmlspecialchars($formatted_date);
+                        } else {
+                        echo 'N/A';
+                        } ?>
+
                     </div>
                 </div>
                 <div class="row mb-3">
@@ -39,7 +47,15 @@ if ($_GET['act'] == 'view') {
                 <div class="row mb-3">
                     <div class="col-sm-3 col-form-label"><strong>Created Date:</strong></div>
                     <div class="col-sm-9">
-                        <?php echo htmlspecialchars($ddata['created_date'] ?? 'N/A'); ?>
+                        <?php 
+                        $original_date = $ddata['created_date'] ?? 'N/A';
+                        if ($original_date !== ' N/A') {
+                            $formatted_date = date(' j-M-Y', strtotime($original_date));
+                            echo htmlspecialchars($formatted_date);
+                        } else {
+                            echo 'N/A';
+                        } ?>
+                     
                     </div>
                 </div>
                 <div class="row mb-3">
@@ -51,7 +67,15 @@ if ($_GET['act'] == 'view') {
                 <div class="row mb-3">
                     <div class="col-sm-3 col-form-label"><strong>Modified Date:</strong></div>
                     <div class="col-sm-9">
-                        <?php echo htmlspecialchars($ddata['modified_date'] ?? 'N/A'); ?>
+                        <?php 
+                        $original_date = $ddata['modified_date'] ?? 'N/A';
+                        if ($original_date !== ' N/A') {
+                            $formatted_date = date(' j-M-Y', strtotime($original_date));
+                            echo htmlspecialchars($formatted_date);
+                        } else {
+                            echo 'N/A';
+                        } ?>
+
                     </div>
                 </div>
 
