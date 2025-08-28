@@ -31,21 +31,27 @@ if ((isset($property)) && ($property == 1)) {
                 <div class="card-body">
 
                     <div class="table-responsive">
+                        <div class="filter-container">
+                            <label for="leave-status-filter">Leave Status:</label>
+                            <select id="leave-status-filter">
+                                <option value="">All</option>
+                            </select>
+                        </div>
                         <table id="Datatable" class="display compact">
                             <thead class="text-center">
                                 <tr>
-                                    <th>Employee Name</th>
-                                    <th>Jabatan</th>
-                                    <th>Division</th>
-                                    <th>Start Date</th>
-                                    <th>End Date</th>
-                                    <th>Actual Start </th>
-                                    <th>Actual End </th>
-                                    <th>Duration </th>
-                                    <th>Status </th>
-                                    <th>Leave Start </th>
-                                    <th>Leave End </th>
-                                    <th>Leave Status </th>
+                                    <th>EMPLOYEE NAME</th>
+                                    <th>JABATAN</th>
+                                    <th>DIVISION</th>
+                                    <th>START DATE</th>
+                                    <th>END DATE</th>
+                                    <th>ACTUAL START</th>
+                                    <th>ACTUAL END</th>
+                                    <th>DURATION</th>
+                                    <th>STATUS</th>
+                                    <th>LEAVE START</th>
+                                    <th>LEAVE END</th>
+                                    <th>LEAVE STATUS</th>
                                 </tr>
                             </thead>
                             <tbody class="text-left">
@@ -70,18 +76,18 @@ if ((isset($property)) && ($property == 1)) {
                             </tbody>
                             <tfoot class=" text-center">
                                 <tr>
-                                    <th>Employee Name</th>
-                                    <th>Jabatan</th>
-                                    <th>Division</th>
-                                    <th>Start Date</th>
-                                    <th>End Date</th>
-                                    <th>Actual Start </th>
-                                    <th>Actual End </th>
-                                    <th>Duration </th>
-                                    <th>Status </th>
-                                    <th>Leave Start </th>
-                                    <th>Leave End </th>
-                                    <th>Leave Status </th>
+                                    <th> </th>
+                                    <th></th>
+                                    <th></th>
+                                    <th> </th>
+                                    <th> </th>
+                                    <th> </th>
+                                    <th> </th>
+                                    <th> </th>
+                                    <th> </th>
+                                    <th> </th>
+                                    <th> </th>
+                                    <th> </th>
                                 </tr>
                             </tfoot>
                         </table>
@@ -94,38 +100,52 @@ if ((isset($property)) && ($property == 1)) {
 
         <script>
             $(document).ready(function() {
-                $('#Datatable').DataTable({
+
+                var table = $('#Datatable').DataTable({
                     select: {
                         style: 'single'
-                    }
-
+                    },
+                    "columnDefs": [{
+                            "visible": false,
+                            "targets": 11
+                        } 
+                    ]
                 });
 
 
-            });
-            $(document).ready(function() {
-                var table = $('#Datatable').DataTable();
-
-                // Loop through each column to add a dropdown filter
                 table.columns().every(function() {
                     var column = this;
                     var select = $('<select><option value="">All</option></select>')
                         .appendTo($(column.footer()).empty())
                         .on('change', function() {
-
                             var val = $.fn.dataTable.util.escapeRegex($(this).val());
                             if (val === "") {
-                                column.search('', true, false).draw(); // Jika nilai "All" dipilih, tampilkan semua data
+                                column.search('', true, false).draw();
                             } else {
-                                column.search('^' + val + '$', true, false).draw(); // Jika nilai lain dipilih, filter data
+                                column.search('^' + val + '$', true, false).draw();
                             }
-
                         });
 
-
-                    column.data().unique().sort().each(function(d, j) {
+                    column.data().unique().sort().each(function(d) {
                         select.append('<option value="' + d + '">' + d + '</option>');
                     });
+                });
+
+
+                var selectLeaveStatus = $('#leave-status-filter');
+                var columnLeaveStatus = table.column(11); // Sesuaikan indeks kolom
+
+                columnLeaveStatus.data().unique().sort().each(function(d) {
+                    selectLeaveStatus.append('<option value="' + d + '">' + d + '</option>');
+                });
+
+                selectLeaveStatus.on('change', function() {
+                    var val = $.fn.dataTable.util.escapeRegex($(this).val());
+                    if (val === "") {
+                        columnLeaveStatus.search('', true, false).draw();
+                    } else {
+                        columnLeaveStatus.search('^' + val + '$', true, false).draw();
+                    }
                 });
             });
         </script>
