@@ -5,9 +5,12 @@ if ((isset($property)) && ($property == 1)) {
     $author = 'Syamsul Arham';
 } else {
 
-    $modulename = "md_report_acknowledge_service_budget";
+    $modulename = "Service Budget";
     $userpermission = useraccess($modulename);
-    if (USERPERMISSION == "7b7bc2512ee1fedcd76bdc68926d4f7b" || USERPERMISSION == "dbf36ff3e3827639223983ee8ac47b42" ||  USERPERMISSION == "0162bce636a63c3ae499224203e06ed0") {
+    if (
+        USERPERMISSION == "7b7bc2512ee1fedcd76bdc68926d4f7b" || USERPERMISSION == "dbf36ff3e3827639223983ee8ac47b42" ||  USERPERMISSION == "0162bce636a63c3ae499224203e06ed0"
+        || USERPERMISSION == "125b55092905c1919f7558d68cfd62d7" || USERPERMISSION == "975031eb0e919d08ec6ba1993b455793"
+    ) {
         include "components/modules/service_budget/func_report_acknowledge_service_budget.php";
         $result = getReportAcknowledgeServiceBudget();
 
@@ -61,7 +64,6 @@ if ((isset($property)) && ($property == 1)) {
                 </div>
             </div>
         </div>
-
         <script>
             $(document).ready(function() {
                 $('#Datatable').DataTable({
