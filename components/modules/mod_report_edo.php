@@ -31,12 +31,7 @@ if ((isset($property)) && ($property == 1)) {
                 <div class="card-body">
 
                     <div class="table-responsive">
-                        <div class="filter-container">
-                            <label for="leave-status-filter">Leave Status:</label>
-                            <select id="leave-status-filter">
-                                <option value="">All</option>
-                            </select>
-                        </div>
+
                         <table id="Datatable" class="display compact">
                             <thead class="text-center">
                                 <tr>
@@ -93,29 +88,19 @@ if ((isset($property)) && ($property == 1)) {
                         </table>
                     </div>
                 </div>
-
-
             </div>
         </div>
-
         <script>
             $(document).ready(function() {
 
                 var table = $('#Datatable').DataTable({
                     select: {
                         style: 'single'
-                    },
-                    "columnDefs": [{
-                            "visible": false,
-                            "targets": 11
-                        } 
-                    ]
+                    }
                 });
-
-
                 table.columns().every(function() {
                     var column = this;
-                    var select = $('<select><option value="">All</option></select>')
+                    var select = $('<select><option value="">ALL</option></select>')
                         .appendTo($(column.footer()).empty())
                         .on('change', function() {
                             var val = $.fn.dataTable.util.escapeRegex($(this).val());
@@ -132,8 +117,6 @@ if ((isset($property)) && ($property == 1)) {
                 });
 
 
-                var selectLeaveStatus = $('#leave-status-filter');
-                var columnLeaveStatus = table.column(11); // Sesuaikan indeks kolom
 
                 columnLeaveStatus.data().unique().sort().each(function(d) {
                     selectLeaveStatus.append('<option value="' + d + '">' + d + '</option>');
