@@ -21,12 +21,9 @@ if ((isset($property)) && ($property == 1)) {
     /* Mengatur gaya dasar untuk baris group header */
     tr.group {
         background-color: #e2e6ea !important;
-        /* Warna latar belakang abu-abu terang */
         font-weight: bold;
         color: #495057;
-        /* Warna teks gelap */
 
-        /* Mengaktifkan ikon pointer */
     }
 
     /* Mengubah warna saat kursor hover di atas group header */
@@ -46,61 +43,58 @@ if ((isset($property)) && ($property == 1)) {
     }
 </style>
 
-<div class="row mt-3 ps-3 pe-3 mb-5" id="showTaskList">
-    <div class="hstack gap-3 border-top border-bottom">
-        <div class="p-2">
-            <div class="fs-3">Report Change Request Maintenance</div>
+
+<div class="col-lg-12">
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Report Change Request Maintenance</h6>
         </div>
-        <div class="p-2">
-        </div>
-        <div class="p-2 ms-auto">&nbsp;</div>
-        <div class="p-2">
-            <div class="fs-3"><span class="fs-5"><?php //echo date("F Y", strtotime($start)); 
-                                                    ?></span></div>
-        </div>
-    </div>
-    <div class="table-responsive ps-0 pe-0">
-        <table id="Datatable" class="display compact">
-            <thead class="bg-danger-subtle text-danger-emphasis">
-                <tr>
-                    <th class="d-none text-wrap">Project Name </th>
-                    <th rowspan="2">CR Number</th>
-                    <th rowspan="2">Requested By</th>
-                    <th colspan="3" class="text-center">Ticket</th>
-                    <th rowspan="2">Requested Date</th>
-                    <th rowspan="2">Modified Date</th>
-                </tr>
-                <tr>
-                    <th class="d-none"></th>
-                    <th>Ticket Allocation</th>
-                    <th>Used Ticket</th>
-                    <th class="text-center">Remaining Ticket</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php if (!empty($result)): ?>
-                    <?php do { ?>
+        <div class="card-body">
+
+            <div class="table-responsive">
+                <table id="Datatable" class="display compact">
+                    <thead class="bg-danger-subtle text-danger-emphasis">
                         <tr>
-                            <td class="d-none">[<?= htmlspecialchars($result[0]['project_code'] ?? '') ?>] [<?= htmlspecialchars($result[0]['type_of_service'] ?? '') ?>] <?= htmlspecialchars($result[0]['project_name'] ?? '') ?></td>
-                            <td>
-
-                                <!-- <span class="text-nowrap"><b>Project Code: </b> <?= htmlspecialchars($result[0]['project_code'] ?? '') ?> | </span> -->
-                                <span class="text-nowrap"> <?= htmlspecialchars($result[0]['cr_no'] ?? '') ?> </span>
-                                <!-- <span class="text-nowrap"><b>Type Of Service: </b> <?= htmlspecialchars($result[0]['type_of_service'] ?? '') ?> </span> -->
-
-
-                            </td>
-                            <td><?= htmlspecialchars($result[0]['requested_by_email'] ?? '') ?></td>
-                            <td><?= htmlspecialchars($result[0]['ticket_allocation'] ?? '') ?></td>
-                            <td><?= htmlspecialchars($result[0]['used_ticket'] ?? '') ?></td>
-                            <td><?= htmlspecialchars($result[0]['ticket_allocation_sisa'] ?? '') ?></td>
-                            <td><?= date('j-M-Y', strtotime($result[0]['request_date'] ?? '')) ?></td>
-                            <td><?= date('j-M-Y', strtotime($result[0]['modified_date'] ?? '')) ?></td>
+                            <th class="d-none text-wrap">Project Name </th>
+                            <th rowspan="2">CR Number</th>
+                            <th rowspan="2">Requested By</th>
+                            <th colspan="3" class="text-center">Ticket</th>
+                            <th rowspan="2">Requested Date</th>
+                            <th rowspan="2">Modified Date</th>
                         </tr>
-                    <?php } while ($result[0] = $result[1]->fetch_assoc()) ?>
-                <?php endif; ?>
-            </tbody>
-        </table>
+                        <tr>
+                            <th class="d-none"></th>
+                            <th>Ticket Allocation</th>
+                            <th>Used Ticket</th>
+                            <th class="text-center">Remaining Ticket</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php if (!empty($result)): ?>
+                            <?php do { ?>
+                                <tr>
+                                    <td class="d-none">[<?= htmlspecialchars($result[0]['project_code'] ?? '') ?>] [<?= htmlspecialchars($result[0]['type_of_service'] ?? '') ?>] <?= htmlspecialchars($result[0]['project_name'] ?? '') ?></td>
+                                    <td>
+
+                                        <!-- <span class="text-nowrap"><b>Project Code: </b> <?= htmlspecialchars($result[0]['project_code'] ?? '') ?> | </span> -->
+                                        <span class="text-nowrap"> <?= htmlspecialchars($result[0]['cr_no'] ?? '') ?> </span>
+                                        <!-- <span class="text-nowrap"><b>Type Of Service: </b> <?= htmlspecialchars($result[0]['type_of_service'] ?? '') ?> </span> -->
+
+
+                                    </td>
+                                    <td><?= htmlspecialchars($result[0]['requested_by_email'] ?? '') ?></td>
+                                    <td><?= htmlspecialchars($result[0]['ticket_allocation'] ?? '') ?></td>
+                                    <td><?= htmlspecialchars($result[0]['used_ticket'] ?? '') ?></td>
+                                    <td><?= htmlspecialchars($result[0]['ticket_allocation_sisa'] ?? '') ?></td>
+                                    <td><?= date('j-M-Y', strtotime($result[0]['request_date'] ?? '')) ?></td>
+                                    <td><?= date('j-M-Y', strtotime($result[0]['modified_date'] ?? '')) ?></td>
+                                </tr>
+                            <?php } while ($result[0] = $result[1]->fetch_assoc()) ?>
+                        <?php endif; ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </div>
 
