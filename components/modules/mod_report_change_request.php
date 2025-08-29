@@ -55,18 +55,18 @@ if ((isset($property)) && ($property == 1)) {
                 <table id="Datatable" class="display compact">
                     <thead class="bg-danger-subtle text-danger-emphasis">
                         <tr>
-                            <th class="d-none text-wrap">Project Name </th>
-                            <th rowspan="2">CR Number</th>
-                            <th rowspan="2">Requested By</th>
-                            <th colspan="3" class="text-center">Ticket</th>
-                            <th rowspan="2">Requested Date</th>
-                            <th rowspan="2">Modified Date</th>
+                            <th class="d-none text-wrap">PROJECT NAME </th>
+                            <th rowspan="2">CR NUMBER</th>
+                            <th rowspan="2">REQUESTED BY</th>
+                            <th colspan="3" class="text-center">TICKET</th>
+                            <th rowspan="2">REQUESTED DATE</th>
+                            <th rowspan="2">MODIFIED DATE</th>
                         </tr>
                         <tr>
                             <th class="d-none"></th>
-                            <th>Ticket Allocation</th>
-                            <th>Used Ticket</th>
-                            <th class="text-center">Remaining Ticket</th>
+                            <th>TICKET ALLOCATION</th>
+                            <th>USED TICKET</th>
+                            <th class="text-center">REMAINING TICKET</th>
                         </tr>
                     </thead>
                     <tbody>
